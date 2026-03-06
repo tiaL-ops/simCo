@@ -16,8 +16,9 @@
       justify-content: center;
       align-items: center;
       min-height: 100vh;
-      background-color: #222;
-      font-family: Arial, sans-serif;
+      background-color: #000000;
+      font-family: 'Times New Roman', Times, serif;
+      color: #ffffff;
     }
     
     #game-container {
@@ -26,21 +27,93 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      background-color: #000000;
+    }
+
+    #character-ui {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      z-index: 1000;
+      background-color: #000000;
+      color: #ffffff;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    .ui-section {
+      margin-bottom: 20px;
+    }
+
+    .ui-section-title {
+      color: #ffffff;
+      font-weight: bold;
+      margin-bottom: 8px;
+      text-decoration: underline;
+    }
+
+    .ui-row {
+      margin-bottom: 6px;
+      color: #cccccc;
+    }
+
+    button {
+      background-color: #ffffff;
+      color: #000000;
+      border: none;
+      padding: 6px 12px;
+      margin: 4px 4px 4px 0;
+      cursor: pointer;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background-color: #e0e0e0;
+    }
+
+    #leaderboard-display {
+      padding: 10px 0;
+      border-top: 1px solid #666666;
+      margin-top: 12px;
+    }
+
+    .leaderboard-entry {
+      margin: 3px 0;
+      color: #cccccc;
+    }
+
+    .leaderboard-entry.selected {
+      color: #ffffff;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
   <div id="game-container"></div>
   
-  <!-- Character Management UI -->
-  <div id="character-ui" style="position: fixed; top: 10px; left: 10px; z-index: 1000; background: rgba(0,0,0,0.8); padding: 10px; border-radius: 5px; color: #fff; font-family: Arial, sans-serif;">
-    <button id="add-character-btn" style="padding: 8px 16px; margin: 5px; background: #27ae60; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">+ Add Character (Max 5)</button>
-    <button id="game-state-btn" style="padding: 8px 16px; margin: 5px; background: #e74c3c; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 14px; font-weight: bold;">GAME: OFF</button>
-    <div id="selected-character-display" style="margin-top: 10px; font-size: 12px; color: #3498db;">Selected: None</div>
-    <div id="character-count" style="margin-top: 5px; font-size: 12px; color: #ecf0f1;">Characters: 0/5</div>
-    <div id="prize-pool-display" style="margin-top: 10px; font-size: 14px; color: #f39c12; font-weight: bold;">Prize Pool: $1000.00</div>
-    <div id="leaderboard-display" style="margin-top: 15px; padding-top: 10px; border-top: 1px solid #555; font-size: 12px; color: #ecf0f1; min-width: 200px;">
-      <strong>💰 Leaderboard</strong>
+  <!-- Minimal Control Panel -->
+  <div id="character-ui">
+    <div class="ui-section">
+      <button id="add-character-btn">Add Character</button>
+      <button id="game-state-btn">Game: Off</button>
+    </div>
+
+    <div class="ui-section">
+      <div class="ui-section-title">Status</div>
+      <div class="ui-row" id="selected-character-display">Selected: None</div>
+      <div class="ui-row" id="character-count">Characters: 0/5</div>
+    </div>
+
+    <div class="ui-section">
+      <div class="ui-section-title">Prize Pool</div>
+      <div class="ui-row" id="prize-pool-display">$1000.00</div>
+    </div>
+
+    <div id="leaderboard-display">
+      <div class="ui-section-title">Leaderboard</div>
     </div>
   </div>
   

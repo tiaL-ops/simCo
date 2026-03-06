@@ -266,12 +266,11 @@ class AgentScene extends Phaser.Scene {
     // Sort players by money (descending)
     const sortedPlayers = [...this.players].sort((a, b) => b.money - a.money);
 
-    let leaderboardHTML = '<strong style="display:block; margin-bottom: 8px;">💰 Leaderboard</strong>';
+    let leaderboardHTML = '<div class="ui-section-title">Leaderboard</div>';
     sortedPlayers.forEach((player, index) => {
       const rank = index + 1;
-      const medal = rank === 1 ? '🥇' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : `${rank}.`;
-      const highlight = player.isSelected ? 'background: rgba(52, 152, 219, 0.3); padding: 2px 4px; border-radius: 3px;' : '';
-      leaderboardHTML += `<div style="margin: 3px 0; ${highlight}">${medal} Player ${player.name}: $${player.money.toFixed(2)}</div>`;
+      const className = player.isSelected ? 'leaderboard-entry selected' : 'leaderboard-entry';
+      leaderboardHTML += `<div class="${className}">${rank}. Player ${player.name}: $${player.money.toFixed(2)}</div>`;
     });
 
     leaderboardDisplay.innerHTML = leaderboardHTML;
