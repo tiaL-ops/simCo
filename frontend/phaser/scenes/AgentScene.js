@@ -38,6 +38,10 @@ class AgentScene extends Phaser.Scene {
     // Behavior system
     this.moneyTarget = null;
     this.moneyTurnIndex = 0;
+
+    // Navigation system (derived from tilemap JSON + wall layer)
+    this.walkableGrid = [];
+    this.pathRecalcInterval = 300;
   }
 
   preload() {
@@ -92,6 +96,7 @@ class AgentScene extends Phaser.Scene {
     // Create the first player
     this.addNewCharacter();
 
+    this.buildWalkableGridFromMap();
     this.moneyTarget = this.findMoneyTarget();
     
     // Set up UI button listeners
@@ -206,7 +211,10 @@ class AgentScene extends Phaser.Scene {
       greetedAgents: new Set(),
       homeX: startX,
       homeY: startY,
-      turnState: 'waiting'
+      turnState: 'waiting',
+      pathCache: null,
+      pathCacheKey: '',
+      nextPathRecalcAt: 0
     };
 
     // Make sprite interactive for selection
@@ -403,7 +411,9 @@ class AgentScene extends Phaser.Scene {
       player.body.setVelocity(0, 0);
       let isMoving = false;
 
-      if (this.isGameOn) {
+      if (playerData.isSelected && this.hasManualMovementInput()) {
+        isMoving = this.updateSelectedManualMovement(playerData, speed);
+      } else if (this.isGameOn) {
         isMoving = this.updateMoneyTurnMovement(playerData, speed * 0.9);
       } else {
         isMoving = this.updateSocialMovement(playerData, speed * 0.7);
@@ -426,10 +436,10 @@ class AgentScene extends Phaser.Scene {
 
     const targetPlayer = this.getNearestUngreetedAgent(playerData);
     if (targetPlayer) {
-      return this.movePlayerToward(playerData, targetPlayer.sprite.x, targetPlayer.sprite.y, speed);
+      return this.movePlayerTowardByPath(playerData, targetPlayer.sprite.x, targetPlayer.sprite.y, speed);
     }
 
-    return this.movePlayerToward(playerData, playerData.homeX, playerData.homeY, speed * 0.7);
+    return this.movePlayerTowardByPath(playerData, playerData.homeX, playerData.homeY, speed * 0.7);
   }
 
   ensureActiveMoneyTurn() {
@@ -448,13 +458,224 @@ class AgentScene extends Phaser.Scene {
     }
   }
 
+  hasManualMovementInput() {
+    return this.cursors.up.isDown || this.wasd.up.isDown ||
+      this.cursors.down.isDown || this.wasd.down.isDown ||
+      this.cursors.left.isDown || this.wasd.left.isDown ||
+      this.cursors.right.isDown || this.wasd.right.isDown;
+  }
+
+  updateSelectedManualMovement(playerData, speed) {
+    const player = playerData.sprite;
+    const key = playerData.characterKey;
+
+    if (this.cursors.up.isDown || this.wasd.up.isDown) {
+      player.body.setVelocity(0, -speed);
+      player.anims.play(`${key}_walk_up`, true);
+      playerData.lastDirection = 'up';
+      return true;
+    }
+
+    if (this.cursors.down.isDown || this.wasd.down.isDown) {
+      player.body.setVelocity(0, speed);
+      player.anims.play(`${key}_walk_down`, true);
+      playerData.lastDirection = 'down';
+      return true;
+    }
+
+    if (this.cursors.left.isDown || this.wasd.left.isDown) {
+      player.body.setVelocity(-speed, 0);
+      player.anims.play(`${key}_walk_left`, true);
+      playerData.lastDirection = 'left';
+      return true;
+    }
+
+    if (this.cursors.right.isDown || this.wasd.right.isDown) {
+      player.body.setVelocity(speed, 0);
+      player.anims.play(`${key}_walk_right`, true);
+      playerData.lastDirection = 'right';
+      return true;
+    }
+
+    return false;
+  }
+
+  movePlayerToward(playerData, targetX, targetY, speed) {
+    return this.movePlayerTowardByPath(playerData, targetX, targetY, speed);
+  }
+
+  movePlayerTowardByPath(playerData, targetX, targetY, speed) {
+    const player = playerData.sprite;
+    const now = this.time.now;
+
+    const startTile = this.worldToTile(player.x, player.y);
+    const targetTile = this.worldToTile(targetX, targetY);
+    if (!this.isTileInBounds(startTile.tx, startTile.ty) || !this.isTileInBounds(targetTile.tx, targetTile.ty)) {
+      return this.movePlayerCardinal(playerData, targetX, targetY, speed);
+    }
+
+    const cacheKey = `${startTile.tx},${startTile.ty}->${targetTile.tx},${targetTile.ty}`;
+    const shouldRecalc = !playerData.pathCache || playerData.pathCacheKey !== cacheKey || now >= playerData.nextPathRecalcAt;
+
+    if (shouldRecalc) {
+      playerData.pathCache = this.findPathTiles(startTile.tx, startTile.ty, targetTile.tx, targetTile.ty);
+      playerData.pathCacheKey = cacheKey;
+      playerData.nextPathRecalcAt = now + this.pathRecalcInterval;
+    }
+
+    const path = playerData.pathCache;
+    if (!path || path.length === 0) {
+      return this.movePlayerCardinal(playerData, targetX, targetY, speed);
+    }
+
+    if (path.length === 1) {
+      return this.movePlayerCardinal(playerData, targetX, targetY, speed);
+    }
+
+    const nextTile = path[1];
+    const nextWorld = this.tileToWorldCenter(nextTile.tx, nextTile.ty);
+    return this.movePlayerCardinal(playerData, nextWorld.x, nextWorld.y, speed);
+  }
+
+  movePlayerCardinal(playerData, targetX, targetY, speed) {
+    const player = playerData.sprite;
+    const key = playerData.characterKey;
+
+    const dx = targetX - player.x;
+    const dy = targetY - player.y;
+    const threshold = 6;
+
+    if (Math.abs(dx) <= threshold && Math.abs(dy) <= threshold) {
+      return true;
+    }
+
+    if (Math.abs(dx) > threshold) {
+      const vx = dx > 0 ? speed : -speed;
+      player.body.setVelocity(vx, 0);
+      if (vx > 0) {
+        player.anims.play(`${key}_walk_right`, true);
+        playerData.lastDirection = 'right';
+      } else {
+        player.anims.play(`${key}_walk_left`, true);
+        playerData.lastDirection = 'left';
+      }
+      return false;
+    }
+
+    const vy = dy > 0 ? speed : -speed;
+    player.body.setVelocity(0, vy);
+    if (vy > 0) {
+      player.anims.play(`${key}_walk_down`, true);
+      playerData.lastDirection = 'down';
+    } else {
+      player.anims.play(`${key}_walk_up`, true);
+      playerData.lastDirection = 'up';
+    }
+    return false;
+  }
+
+  buildWalkableGridFromMap() {
+    if (!this.map || !this.wallLayer) return;
+
+    const width = this.map.width;
+    const height = this.map.height;
+    this.walkableGrid = new Array(height);
+
+    for (let ty = 0; ty < height; ty++) {
+      this.walkableGrid[ty] = new Array(width);
+      for (let tx = 0; tx < width; tx++) {
+        const wallTile = this.wallLayer.getTileAt(tx, ty);
+        const blocked = !!(wallTile && wallTile.index > 0);
+        this.walkableGrid[ty][tx] = !blocked;
+      }
+    }
+  }
+
+  worldToTile(worldX, worldY) {
+    return {
+      tx: this.map.worldToTileX(worldX),
+      ty: this.map.worldToTileY(worldY)
+    };
+  }
+
+  tileToWorldCenter(tx, ty) {
+    return {
+      x: this.map.tileToWorldX(tx) + this.map.tileWidth / 2,
+      y: this.map.tileToWorldY(ty) + this.map.tileHeight / 2
+    };
+  }
+
+  isTileInBounds(tx, ty) {
+    return ty >= 0 && ty < this.walkableGrid.length && tx >= 0 && tx < (this.walkableGrid[ty] ? this.walkableGrid[ty].length : 0);
+  }
+
+  isTileWalkable(tx, ty) {
+    if (!this.isTileInBounds(tx, ty)) return false;
+    return !!this.walkableGrid[ty][tx];
+  }
+
+  findPathTiles(startTx, startTy, endTx, endTy) {
+    if (!this.isTileWalkable(startTx, startTy) || !this.isTileWalkable(endTx, endTy)) {
+      return null;
+    }
+
+    if (startTx === endTx && startTy === endTy) {
+      return [{ tx: startTx, ty: startTy }];
+    }
+
+    const queue = [{ tx: startTx, ty: startTy }];
+    const visited = new Set([`${startTx},${startTy}`]);
+    const cameFrom = new Map();
+    const directions = [
+      { dx: 1, dy: 0 },
+      { dx: -1, dy: 0 },
+      { dx: 0, dy: 1 },
+      { dx: 0, dy: -1 }
+    ];
+
+    while (queue.length > 0) {
+      const current = queue.shift();
+      if (!current) break;
+
+      if (current.tx === endTx && current.ty === endTy) {
+        const path = [{ tx: endTx, ty: endTy }];
+        let key = `${endTx},${endTy}`;
+
+        while (cameFrom.has(key)) {
+          const prev = cameFrom.get(key);
+          if (!prev) break;
+          path.push({ tx: prev.tx, ty: prev.ty });
+          key = `${prev.tx},${prev.ty}`;
+        }
+
+        path.reverse();
+        return path;
+      }
+
+      for (const direction of directions) {
+        const nextTx = current.tx + direction.dx;
+        const nextTy = current.ty + direction.dy;
+        const nextKey = `${nextTx},${nextTy}`;
+
+        if (visited.has(nextKey)) continue;
+        if (!this.isTileWalkable(nextTx, nextTy)) continue;
+
+        visited.add(nextKey);
+        cameFrom.set(nextKey, { tx: current.tx, ty: current.ty });
+        queue.push({ tx: nextTx, ty: nextTy });
+      }
+    }
+
+    return null;
+  }
+
   updateMoneyTurnMovement(playerData, speed) {
     if (playerData.turnState === 'going_money') {
       if (!this.moneyTarget) {
         return false;
       }
 
-      const reachedMoney = this.movePlayerToward(
+      const reachedMoney = this.movePlayerTowardByPath(
         playerData,
         this.moneyTarget.x,
         this.moneyTarget.y,
@@ -470,7 +691,7 @@ class AgentScene extends Phaser.Scene {
     }
 
     if (playerData.turnState === 'returning_social') {
-      const reachedHome = this.movePlayerToward(
+      const reachedHome = this.movePlayerTowardByPath(
         playerData,
         playerData.homeX,
         playerData.homeY,
@@ -484,43 +705,6 @@ class AgentScene extends Phaser.Scene {
       playerData.turnState = 'done';
       this.advanceMoneyTurn();
       return false;
-    }
-
-    return false;
-  }
-
-  movePlayerToward(playerData, targetX, targetY, speed) {
-    const player = playerData.sprite;
-    const key = playerData.characterKey;
-
-    const dx = targetX - player.x;
-    const dy = targetY - player.y;
-    const distance = Math.hypot(dx, dy);
-
-    if (distance < 10) {
-      return true;
-    }
-
-    const vx = (dx / distance) * speed;
-    const vy = (dy / distance) * speed;
-    player.body.setVelocity(vx, vy);
-
-    if (Math.abs(vx) > Math.abs(vy)) {
-      if (vx > 0) {
-        player.anims.play(`${key}_walk_right`, true);
-        playerData.lastDirection = 'right';
-      } else {
-        player.anims.play(`${key}_walk_left`, true);
-        playerData.lastDirection = 'left';
-      }
-    } else {
-      if (vy > 0) {
-        player.anims.play(`${key}_walk_down`, true);
-        playerData.lastDirection = 'down';
-      } else {
-        player.anims.play(`${key}_walk_up`, true);
-        playerData.lastDirection = 'up';
-      }
     }
 
     return false;
