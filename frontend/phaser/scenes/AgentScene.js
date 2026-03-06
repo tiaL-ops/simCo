@@ -26,6 +26,11 @@ class AgentScene extends Phaser.Scene {
     this.characterCounter = 1;
     this.usedCharacters = [];   // Track which character indices have been used
     this.availableCharacters = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]; // All 11 available
+    this.usedNames = [];        // Track which player names have been used
+    this.availableNames = [1, 2, 3, 4, 5]; // Player names
+    
+    // Game state (ON/OFF)
+    this.isGameOn = false;      // Game state toggle
   }
 
   preload() {
@@ -78,10 +83,28 @@ class AgentScene extends Phaser.Scene {
     // Create the first player
     this.addNewCharacter();
     
-    // Set up UI button listener
+    // Set up UI button listeners
     const addBtn = document.getElementById('add-character-btn');
     if (addBtn) {
       addBtn.addEventListener('click', () => this.addNewCharacter());
+    }
+
+    const gameStateBtn = document.getElementById('game-state-btn');
+    if (gameStateBtn) {
+      gameStateBtn.addEventListener('click', () => this.toggleGameState());
+    }
+
+    // Set up player-to-player collisions (for greeting)
+    for (let i = 0; i < this.players.length; i++) {
+      for (let j = i + 1; j < this.players.length; j++) {
+        this.physics.add.collider(
+          this.players[i].sprite,
+          this.players[j].sprite,
+          (sprite1, sprite2) => this.onPlayerCollide(sprite1, sprite2),
+          null,
+          this
+        );
+      }
     }
 
     console.log('AgentScene created - Player sprite ready with animations');
@@ -100,6 +123,15 @@ class AgentScene extends Phaser.Scene {
       return;
     }
 
+    // Pick a random unused name
+    const remainingNames = this.availableNames.filter(name => !this.usedNames.includes(name));
+    let playerName = 1;
+    if (remainingNames.length > 0) {
+      const randomNameIdx = Math.floor(Math.random() * remainingNames.length);
+      playerName = remainingNames[randomNameIdx];
+      this.usedNames.push(playerName);
+    }
+
     const randomIdx = Math.floor(Math.random() * remaining.length);
     const selectedCharNum = remaining[randomIdx];
     this.usedCharacters.push(selectedCharNum);
@@ -114,9 +146,15 @@ class AgentScene extends Phaser.Scene {
     let startX, startY;
     
     if (socialRoom) {
-      // Spread characters in the room with some randomness
-      startX = socialRoom.minX + Math.random() * (socialRoom.maxX - socialRoom.minX);
-      startY = socialRoom.minY + Math.random() * (socialRoom.maxY - socialRoom.minY);
+      // Spread characters in the room with some randomness, ensuring they stay within bounds
+      const padding = 20;
+      const minX = Math.max(socialRoom.minX, socialRoom.minX + padding);
+      const maxX = Math.min(socialRoom.maxX, socialRoom.maxX - padding);
+      const minY = Math.max(socialRoom.minY, socialRoom.minY + padding);
+      const maxY = Math.min(socialRoom.maxY, socialRoom.maxY - padding);
+      
+      startX = minX + Math.random() * (maxX - minX);
+      startY = minY + Math.random() * (maxY - minY);
     } else {
       startX = 100 + this.players.length * 30;
       startY = 150;
@@ -144,11 +182,13 @@ class AgentScene extends Phaser.Scene {
       characterKey: characterKey,
       characterNum: selectedCharNum,
       id: this.characterCounter++,
+      name: playerName,
       lastDirection: 'down',
       currentRoom: 'SocialRoom',
       wasOnMoney: false,
       isSelected: false,
-      idleFrames: this.getIdleFrames(characterKey)
+      idleFrames: this.getIdleFrames(characterKey),
+      socialRoom: socialRoom
     };
 
     // Make sprite interactive for selection
@@ -157,13 +197,24 @@ class AgentScene extends Phaser.Scene {
 
     this.players.push(playerData);
 
+    // Set up collision with newly added player against all existing players
+    for (let i = 0; i < this.players.length - 1; i++) {
+      this.physics.add.collider(
+        this.players[i].sprite,
+        player,
+        (sprite1, sprite2) => this.onPlayerCollide(sprite1, sprite2),
+        null,
+        this
+      );
+    }
+
     // Auto-select first player if none selected
     if (!this.selectedPlayer) {
       this.selectPlayer(playerData);
     }
 
     this.updateUI();
-    console.log(`Character ${playerData.id} spawned (Type: ${selectedCharNum}). Total: ${this.players.length}`);
+    console.log(`Character ${playerData.id} (Name: ${playerName}) spawned (Type: ${selectedCharNum}). Total: ${this.players.length}`);
   }
 
   selectPlayer(playerData) {
@@ -195,6 +246,16 @@ class AgentScene extends Phaser.Scene {
     if (countDisplay) {
       countDisplay.textContent = `Characters: ${this.players.length}/${this.maxCharacters}`;
     }
+  }
+
+  toggleGameState() {
+    this.isGameOn = !this.isGameOn;
+    const gameStateBtn = document.getElementById('game-state-btn');
+    if (gameStateBtn) {
+      gameStateBtn.textContent = this.isGameOn ? 'GAME: ON' : 'GAME: OFF';
+      gameStateBtn.style.background = this.isGameOn ? '#27ae60' : '#e74c3c';
+    }
+    console.log(`Game state: ${this.isGameOn ? 'ON' : 'OFF'}`);
   }
 
   createPlayerAnimations(key) {
@@ -257,6 +318,16 @@ class AgentScene extends Phaser.Scene {
       if (!player) return;
 
       const key = playerData.characterKey;
+
+      // If game is OFF, keep player within social room bounds only
+      // If game is ON, they can move freely to other rooms
+      if (!this.isGameOn && playerData.socialRoom) {
+        const padding = 10;
+        if (player.x < playerData.socialRoom.minX + padding) player.x = playerData.socialRoom.minX + padding;
+        if (player.x > playerData.socialRoom.maxX - padding) player.x = playerData.socialRoom.maxX - padding;
+        if (player.y < playerData.socialRoom.minY + padding) player.y = playerData.socialRoom.minY + padding;
+        if (player.y > playerData.socialRoom.maxY - padding) player.y = playerData.socialRoom.maxY - padding;
+      }
 
       // Check room for all players
       this.checkPlayerRoom(playerData);
@@ -343,6 +414,21 @@ class AgentScene extends Phaser.Scene {
     }
 
     playerData.wasOnMoney = isOnMoney;
+  }
+
+  onPlayerCollide(sprite1, sprite2) {
+    // Find which player data objects these sprites belong to
+    const player1 = this.players.find(p => p.sprite === sprite1);
+    const player2 = this.players.find(p => p.sprite === sprite2);
+
+    if (player1 && player2) {
+      // Only the selected player says hi
+      if (player1.isSelected) {
+        console.log(`Character ${player1.id}: Hi ${player2.name}`);
+      } else if (player2.isSelected) {
+        console.log(`Character ${player2.id}: Hi ${player1.name}`);
+      }
+    }
   }
 
   drawRoomBoundaries() {
