@@ -31,6 +31,7 @@ class AgentScene extends Phaser.Scene {
     this.mapScene = data.mapScene;
     this.map = data.map;
     this.wallLayer = data.wallLayer;
+    this.moneyLayer = data.moneyLayer;
     this.rooms = data.rooms || {};
   }
 
@@ -75,6 +76,8 @@ class AgentScene extends Phaser.Scene {
       this.physics.add.collider(this.player, this.wallLayer);
       console.log('Wall collision enabled');
     }
+
+    this.wasOnMoney = false;
 
     this.currentCharacter = 'player';
     this.lastDirection = 'down';
@@ -160,6 +163,7 @@ class AgentScene extends Phaser.Scene {
 
     // Check which room player is in
     this.checkCurrentRoom();
+    this.checkMoneyTouch();
 
     // Draw collision debug boxes
     this.debugGraphics.clear();
@@ -230,6 +234,19 @@ class AgentScene extends Phaser.Scene {
       this.currentRoom = room;
       console.log(`🎮 Oh! I am in ${this.currentRoom}`);
     }
+  }
+
+  checkMoneyTouch() {
+    if (!this.moneyLayer) return;
+
+    const tile = this.moneyLayer.getTileAtWorldXY(this.player.x, this.player.y, true);
+    const isOnMoney = !!(tile && tile.index > 0);
+
+    if (isOnMoney && !this.wasOnMoney) {
+      console.log('moneyyyyy');
+    }
+
+    this.wasOnMoney = isOnMoney;
   }
 
   drawRoomBoundaries() {
