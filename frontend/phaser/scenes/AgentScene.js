@@ -149,10 +149,10 @@ class AgentScene extends Phaser.Scene {
     const { width, height } = this.scale;
 
     this.cameras.main.setViewport(0, 0, width, height);
-    this.cameras.main.startFollow(this.player, true, 0.05, 0.05);
     this.cameras.main.setZoom(1.0);
-    this.cameras.main.setDeadzone(100, 100);
-    this.cameras.main.centerOn(this.player.x, this.player.y);
+
+    // Fixed camera: do not follow player
+    this.cameras.main.setScroll(0, 0);
   }
 
   update() {
@@ -234,7 +234,7 @@ class AgentScene extends Phaser.Scene {
 
   drawRoomBoundaries() {
     const graphics = this.add.graphics();
-    graphics.setDepth(5);
+    graphics.setDepth(1000);
     graphics.setAlpha(0.3);
 
     // Green color for room boundaries
@@ -258,7 +258,7 @@ class AgentScene extends Phaser.Scene {
           color: '#00ff00',
           align: 'center'
         }
-      ).setOrigin(0.5, 0).setDepth(6);
+      ).setOrigin(0.5, 0).setDepth(1001);
     }
   }
 }
