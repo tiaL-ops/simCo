@@ -34,6 +34,10 @@ class AgentScene extends Phaser.Scene {
     
     // Money Prize System
     this.moneyPrizePool = 1000; // Starting prize pool
+
+    // Behavior system
+    this.moneyTarget = null;
+    this.moneyTurnIndex = 0;
   }
 
   preload() {
@@ -87,6 +91,8 @@ class AgentScene extends Phaser.Scene {
 
     // Create the first player
     this.addNewCharacter();
+
+    this.moneyTarget = this.findMoneyTarget();
     
     // Set up UI button listeners
     const addBtn = document.getElementById('add-character-btn');
@@ -197,8 +203,10 @@ class AgentScene extends Phaser.Scene {
       money: 0,
       lastTalkTime: 0,
       talkBubble: null,
-      aiDirection: 'idle',
-      aiNextDirectionTime: 0
+      greetedAgents: new Set(),
+      homeX: startX,
+      homeY: startY,
+      turnState: 'waiting'
     };
 
     // Make sprite interactive for selection
@@ -289,6 +297,18 @@ class AgentScene extends Phaser.Scene {
       gameStateBtn.textContent = this.isGameOn ? 'GAME: ON' : 'GAME: OFF';
       gameStateBtn.style.background = this.isGameOn ? '#27ae60' : '#e74c3c';
     }
+
+    if (this.isGameOn) {
+      this.moneyTurnIndex = 0;
+      this.players.forEach((player, index) => {
+        player.turnState = index === this.moneyTurnIndex ? 'going_money' : 'waiting';
+      });
+    } else {
+      this.players.forEach(player => {
+        player.turnState = 'waiting';
+      });
+    }
+
     console.log(`Game state: ${this.isGameOn ? 'ON' : 'OFF'}`);
   }
 
@@ -346,6 +366,10 @@ class AgentScene extends Phaser.Scene {
 
     const speed = 160;
 
+    if (this.isGameOn) {
+      this.ensureActiveMoneyTurn();
+    }
+
     // Update all players
     this.players.forEach(playerData => {
       const player = playerData.sprite;
@@ -365,7 +389,6 @@ class AgentScene extends Phaser.Scene {
 
       // Check room for all players
       this.checkPlayerRoom(playerData);
-      this.checkPlayerMoneyTouch(playerData);
 
       // Draw debug collision boxes
       this.debugGraphics.clear();
@@ -380,37 +403,13 @@ class AgentScene extends Phaser.Scene {
       player.body.setVelocity(0, 0);
       let isMoving = false;
 
-      // Selected player responds to input
-      if (playerData.isSelected) {
-        // Horizontal movement
-        if (this.cursors.left.isDown || this.wasd.left.isDown) {
-          player.body.setVelocityX(-speed);
-          player.anims.play(`${key}_walk_left`, true);
-          playerData.lastDirection = 'left';
-          isMoving = true;
-        } else if (this.cursors.right.isDown || this.wasd.right.isDown) {
-          player.body.setVelocityX(speed);
-          player.anims.play(`${key}_walk_right`, true);
-          playerData.lastDirection = 'right';
-          isMoving = true;
-        }
-
-        // Vertical movement
-        if (this.cursors.up.isDown || this.wasd.up.isDown) {
-          player.body.setVelocityY(-speed);
-          player.anims.play(`${key}_walk_up`, true);
-          playerData.lastDirection = 'up';
-          isMoving = true;
-        } else if (this.cursors.down.isDown || this.wasd.down.isDown) {
-          player.body.setVelocityY(speed);
-          player.anims.play(`${key}_walk_down`, true);
-          playerData.lastDirection = 'down';
-          isMoving = true;
-        }
+      if (this.isGameOn) {
+        isMoving = this.updateMoneyTurnMovement(playerData, speed * 0.9);
       } else {
-        // Non-selected players auto-walk so all agents can move simultaneously
-        isMoving = this.updateAutoMovement(playerData, speed * 0.7);
+        isMoving = this.updateSocialMovement(playerData, speed * 0.7);
       }
+
+      this.checkPlayerMoneyTouch(playerData);
 
       // Idle animation
       if (!isMoving) {
@@ -422,46 +421,164 @@ class AgentScene extends Phaser.Scene {
     });
   }
 
-  updateAutoMovement(playerData, speed) {
-    const now = this.time.now;
+  updateSocialMovement(playerData, speed) {
     const player = playerData.sprite;
-    const key = playerData.characterKey;
 
-    if (now >= playerData.aiNextDirectionTime) {
-      const directions = ['left', 'right', 'up', 'down', 'idle'];
-      playerData.aiDirection = directions[Math.floor(Math.random() * directions.length)];
-      playerData.aiNextDirectionTime = now + Phaser.Math.Between(600, 1700);
+    const targetPlayer = this.getNearestUngreetedAgent(playerData);
+    if (targetPlayer) {
+      return this.movePlayerToward(playerData, targetPlayer.sprite.x, targetPlayer.sprite.y, speed);
     }
 
-    if (playerData.aiDirection === 'left') {
-      player.body.setVelocityX(-speed);
-      player.anims.play(`${key}_walk_left`, true);
-      playerData.lastDirection = 'left';
-      return true;
+    return this.movePlayerToward(playerData, playerData.homeX, playerData.homeY, speed * 0.7);
+  }
+
+  ensureActiveMoneyTurn() {
+    if (this.players.length === 0 || this.moneyPrizePool <= 0) return;
+
+    const hasActiveTurn = this.players.some(player => player.turnState === 'going_money' || player.turnState === 'returning_social');
+    if (!hasActiveTurn) {
+      this.players.forEach(player => {
+        player.turnState = 'waiting';
+      });
+
+      const activePlayer = this.players[this.moneyTurnIndex % this.players.length];
+      if (activePlayer) {
+        activePlayer.turnState = 'going_money';
+      }
+    }
+  }
+
+  updateMoneyTurnMovement(playerData, speed) {
+    if (playerData.turnState === 'going_money') {
+      if (!this.moneyTarget) {
+        return false;
+      }
+
+      const reachedMoney = this.movePlayerToward(
+        playerData,
+        this.moneyTarget.x,
+        this.moneyTarget.y,
+        speed
+      );
+
+      if (!reachedMoney) {
+        return true;
+      }
+
+      playerData.turnState = 'returning_social';
+      return false;
     }
 
-    if (playerData.aiDirection === 'right') {
-      player.body.setVelocityX(speed);
-      player.anims.play(`${key}_walk_right`, true);
-      playerData.lastDirection = 'right';
-      return true;
-    }
+    if (playerData.turnState === 'returning_social') {
+      const reachedHome = this.movePlayerToward(
+        playerData,
+        playerData.homeX,
+        playerData.homeY,
+        speed
+      );
 
-    if (playerData.aiDirection === 'up') {
-      player.body.setVelocityY(-speed);
-      player.anims.play(`${key}_walk_up`, true);
-      playerData.lastDirection = 'up';
-      return true;
-    }
+      if (!reachedHome) {
+        return true;
+      }
 
-    if (playerData.aiDirection === 'down') {
-      player.body.setVelocityY(speed);
-      player.anims.play(`${key}_walk_down`, true);
-      playerData.lastDirection = 'down';
-      return true;
+      playerData.turnState = 'done';
+      this.advanceMoneyTurn();
+      return false;
     }
 
     return false;
+  }
+
+  movePlayerToward(playerData, targetX, targetY, speed) {
+    const player = playerData.sprite;
+    const key = playerData.characterKey;
+
+    const dx = targetX - player.x;
+    const dy = targetY - player.y;
+    const distance = Math.hypot(dx, dy);
+
+    if (distance < 10) {
+      return true;
+    }
+
+    const vx = (dx / distance) * speed;
+    const vy = (dy / distance) * speed;
+    player.body.setVelocity(vx, vy);
+
+    if (Math.abs(vx) > Math.abs(vy)) {
+      if (vx > 0) {
+        player.anims.play(`${key}_walk_right`, true);
+        playerData.lastDirection = 'right';
+      } else {
+        player.anims.play(`${key}_walk_left`, true);
+        playerData.lastDirection = 'left';
+      }
+    } else {
+      if (vy > 0) {
+        player.anims.play(`${key}_walk_down`, true);
+        playerData.lastDirection = 'down';
+      } else {
+        player.anims.play(`${key}_walk_up`, true);
+        playerData.lastDirection = 'up';
+      }
+    }
+
+    return false;
+  }
+
+  getNearestUngreetedAgent(playerData) {
+    let nearest = null;
+    let nearestDistance = Number.MAX_VALUE;
+
+    this.players.forEach(otherPlayer => {
+      if (otherPlayer.id === playerData.id) return;
+      if (playerData.greetedAgents.has(otherPlayer.id)) return;
+
+      const dx = otherPlayer.sprite.x - playerData.sprite.x;
+      const dy = otherPlayer.sprite.y - playerData.sprite.y;
+      const distance = Math.hypot(dx, dy);
+
+      if (distance < nearestDistance) {
+        nearestDistance = distance;
+        nearest = otherPlayer;
+      }
+    });
+
+    return nearest;
+  }
+
+  advanceMoneyTurn() {
+    if (this.players.length === 0 || this.moneyPrizePool <= 0) {
+      return;
+    }
+
+    this.moneyTurnIndex = (this.moneyTurnIndex + 1) % this.players.length;
+    this.players.forEach(player => {
+      player.turnState = 'waiting';
+    });
+
+    const nextPlayer = this.players[this.moneyTurnIndex];
+    if (nextPlayer) {
+      nextPlayer.turnState = 'going_money';
+    }
+  }
+
+  findMoneyTarget() {
+    if (!this.moneyLayer) return null;
+
+    for (let y = 0; y < this.moneyLayer.layer.height; y++) {
+      for (let x = 0; x < this.moneyLayer.layer.width; x++) {
+        const tile = this.moneyLayer.getTileAt(x, y);
+        if (tile && tile.index > 0) {
+          return {
+            x: tile.getCenterX(),
+            y: tile.getCenterY()
+          };
+        }
+      }
+    }
+
+    return null;
   }
 
   checkPlayerRoom(playerData) {
@@ -533,10 +650,13 @@ class AgentScene extends Phaser.Scene {
     const player2 = this.players.find(p => p.sprite === sprite2);
 
     if (player1 && player2) {
-      // Only the selected player says hi
-      if (player1.isSelected) {
+      if (!player1.greetedAgents.has(player2.id)) {
+        player1.greetedAgents.add(player2.id);
         this.agentTalk(player1, `Hi ${player2.name}`);
-      } else if (player2.isSelected) {
+      }
+
+      if (!player2.greetedAgents.has(player1.id)) {
+        player2.greetedAgents.add(player1.id);
         this.agentTalk(player2, `Hi ${player1.name}`);
       }
     }
