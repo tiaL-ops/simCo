@@ -26,6 +26,14 @@ class AgentScene extends Phaser.Scene {
     super({ key: 'AgentScene' });
   }
 
+  init(data) {
+    // Receive map data from MapScene
+    this.mapScene = data.mapScene;
+    this.map = data.map;
+    this.wallLayer = data.wallLayer;
+    this.rooms = data.rooms || {};
+  }
+
   preload() {
     // 32 wide × 64 tall frames, 28 columns per row, no margin or spacing
     this.load.spritesheet('player', 'phaser/assets/agents/Premade_Character_01.png', {
@@ -42,18 +50,42 @@ class AgentScene extends Phaser.Scene {
 
     const { width, height } = this.scale;
 
+    // Find starting position in SocialRoom
+    const socialRoom = this.rooms['SocialRoom'];
+    let startX = 100, startY = 150;
+    if (socialRoom) {
+      startX = socialRoom.minX + (socialRoom.maxX - socialRoom.minX) / 2;
+      startY = socialRoom.minY + (socialRoom.maxY - socialRoom.minY) / 2;
+    }
+
     // Create player sprite
-    this.player = this.physics.add.sprite(width / 2, height / 2, 'player');
+    this.player = this.physics.add.sprite(startX, startY, 'player');
     this.player.setScale(1.5);
     this.player.setDepth(20);
     this.player.setCollideWorldBounds(true);
+    this.player.setBounce(0.2);
 
-    // Physics body sized to the character's feet area (bottom of 64px frame)
-    this.player.body.setSize(20, 16);
-    this.player.body.setOffset(6, 46);
+    // Physics body sized to the character's feet area (bottom of 32px frame)
+    // frameHeight is 32px, so feet are around y=22-28
+    this.player.body.setSize(14, 8);
+    this.player.body.setOffset(1, 22);
+
+    // Set up collision with wall layer
+    if (this.wallLayer) {
+      this.physics.add.collider(this.player, this.wallLayer);
+      console.log('Wall collision enabled');
+    }
 
     this.currentCharacter = 'player';
     this.lastDirection = 'down';
+    this.currentRoom = 'SocialRoom';
+
+    // Draw room boundaries as green boxes
+    this.drawRoomBoundaries();
+
+    // Enable physics debug display
+    this.debugGraphics = this.add.graphics();
+    this.debugGraphics.setDepth(100);
 
     // Create animations
     this.createPlayerAnimations();
@@ -126,6 +158,19 @@ class AgentScene extends Phaser.Scene {
   update() {
     if (!this.player) return;
 
+    // Check which room player is in
+    this.checkCurrentRoom();
+
+    // Draw collision debug boxes
+    this.debugGraphics.clear();
+    this.debugGraphics.lineStyle(2, 0xff0000, 1);
+    this.debugGraphics.strokeRect(
+      this.player.body.x,
+      this.player.body.y,
+      this.player.body.width,
+      this.player.body.height
+    );
+
     this.player.body.setVelocity(0, 0);
 
     const speed = 160;
@@ -164,6 +209,56 @@ class AgentScene extends Phaser.Scene {
       if (this.idleFrames) {
         this.player.setFrame(this.idleFrames[this.lastDirection]);
       }
+    }
+  }
+
+  checkCurrentRoom() {
+    const x = this.player.x;
+    const y = this.player.y;
+    let room = 'Unknown';
+
+    // Check which room the player is in
+    for (const [roomName, bounds] of Object.entries(this.rooms)) {
+      if (x >= bounds.minX && x <= bounds.maxX && y >= bounds.minY && y <= bounds.maxY) {
+        room = roomName;
+        break;
+      }
+    }
+
+    // Log if room changed
+    if (room !== this.currentRoom) {
+      this.currentRoom = room;
+      console.log(`🎮 Oh! I am in ${this.currentRoom}`);
+    }
+  }
+
+  drawRoomBoundaries() {
+    const graphics = this.add.graphics();
+    graphics.setDepth(5);
+    graphics.setAlpha(0.3);
+
+    // Green color for room boundaries
+    graphics.lineStyle(2, 0x00ff00, 1);
+    graphics.fillStyle(0x00ff00, 0.15);
+
+    // Draw each room as a green box
+    for (const [roomName, bounds] of Object.entries(this.rooms)) {
+      const width = bounds.maxX - bounds.minX;
+      const height = bounds.maxY - bounds.minY;
+      graphics.strokeRect(bounds.minX, bounds.minY, width, height);
+      graphics.fillRect(bounds.minX, bounds.minY, width, height);
+
+      // Add room label text
+      this.add.text(
+        bounds.minX + width / 2,
+        bounds.minY + 15,
+        roomName,
+        {
+          fontSize: '12px',
+          color: '#00ff00',
+          align: 'center'
+        }
+      ).setOrigin(0.5, 0).setDepth(6);
     }
   }
 }
