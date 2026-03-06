@@ -196,7 +196,9 @@ class AgentScene extends Phaser.Scene {
       socialRoom: socialRoom,
       money: 0,
       lastTalkTime: 0,
-      talkBubble: null
+      talkBubble: null,
+      aiDirection: 'idle',
+      aiNextDirectionTime: 0
     };
 
     // Make sprite interactive for selection
@@ -378,7 +380,7 @@ class AgentScene extends Phaser.Scene {
       player.body.setVelocity(0, 0);
       let isMoving = false;
 
-      // ONLY selected player responds to input
+      // Selected player responds to input
       if (playerData.isSelected) {
         // Horizontal movement
         if (this.cursors.left.isDown || this.wasd.left.isDown) {
@@ -405,6 +407,9 @@ class AgentScene extends Phaser.Scene {
           playerData.lastDirection = 'down';
           isMoving = true;
         }
+      } else {
+        // Non-selected players auto-walk so all agents can move simultaneously
+        isMoving = this.updateAutoMovement(playerData, speed * 0.7);
       }
 
       // Idle animation
@@ -415,6 +420,48 @@ class AgentScene extends Phaser.Scene {
         }
       }
     });
+  }
+
+  updateAutoMovement(playerData, speed) {
+    const now = this.time.now;
+    const player = playerData.sprite;
+    const key = playerData.characterKey;
+
+    if (now >= playerData.aiNextDirectionTime) {
+      const directions = ['left', 'right', 'up', 'down', 'idle'];
+      playerData.aiDirection = directions[Math.floor(Math.random() * directions.length)];
+      playerData.aiNextDirectionTime = now + Phaser.Math.Between(600, 1700);
+    }
+
+    if (playerData.aiDirection === 'left') {
+      player.body.setVelocityX(-speed);
+      player.anims.play(`${key}_walk_left`, true);
+      playerData.lastDirection = 'left';
+      return true;
+    }
+
+    if (playerData.aiDirection === 'right') {
+      player.body.setVelocityX(speed);
+      player.anims.play(`${key}_walk_right`, true);
+      playerData.lastDirection = 'right';
+      return true;
+    }
+
+    if (playerData.aiDirection === 'up') {
+      player.body.setVelocityY(-speed);
+      player.anims.play(`${key}_walk_up`, true);
+      playerData.lastDirection = 'up';
+      return true;
+    }
+
+    if (playerData.aiDirection === 'down') {
+      player.body.setVelocityY(speed);
+      player.anims.play(`${key}_walk_down`, true);
+      playerData.lastDirection = 'down';
+      return true;
+    }
+
+    return false;
   }
 
   checkPlayerRoom(playerData) {
