@@ -52,6 +52,8 @@ class AgentScene extends Phaser.Scene {
         }
       );
     }
+
+    this.load.image('talking_indicator', 'phaser/assets/talkingbig.gif');
     console.log('AgentScene preload - All 11 character spritesheets loaded');
   }
 
@@ -192,7 +194,9 @@ class AgentScene extends Phaser.Scene {
       isSelected: false,
       idleFrames: this.getIdleFrames(characterKey),
       socialRoom: socialRoom,
-      money: 0  // Track money collected
+      money: 0,
+      lastTalkTime: 0,
+      talkBubble: null
     };
 
     // Make sprite interactive for selection
@@ -484,11 +488,43 @@ class AgentScene extends Phaser.Scene {
     if (player1 && player2) {
       // Only the selected player says hi
       if (player1.isSelected) {
-        console.log(`Character ${player1.id}: Hi ${player2.name}`);
+        this.agentTalk(player1, `Hi ${player2.name}`);
       } else if (player2.isSelected) {
-        console.log(`Character ${player2.id}: Hi ${player1.name}`);
+        this.agentTalk(player2, `Hi ${player1.name}`);
       }
     }
+  }
+
+  agentTalk(playerData, message) {
+    const now = this.time.now;
+    if (now - playerData.lastTalkTime < 800) {
+      return;
+    }
+
+    playerData.lastTalkTime = now;
+    console.log(`Character ${playerData.id}: ${message}`);
+
+    if (playerData.talkBubble) {
+      playerData.talkBubble.destroy();
+      playerData.talkBubble = null;
+    }
+
+    const offsetX = 16;
+    const offsetY = -20;
+    playerData.talkBubble = this.add.image(
+      playerData.sprite.x + offsetX,
+      playerData.sprite.y + offsetY,
+      'talking_indicator'
+    );
+    playerData.talkBubble.setDepth(2000);
+    playerData.talkBubble.setScale(0.4);
+
+    this.time.delayedCall(700, () => {
+      if (playerData.talkBubble) {
+        playerData.talkBubble.destroy();
+        playerData.talkBubble = null;
+      }
+    });
   }
 
   drawRoomBoundaries() {
