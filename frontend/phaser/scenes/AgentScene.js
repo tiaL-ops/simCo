@@ -31,6 +31,9 @@ class AgentScene extends Phaser.Scene {
     
     // Game state (ON/OFF)
     this.isGameOn = false;      // Game state toggle
+    
+    // Money Prize System
+    this.moneyPrizePool = 1000; // Starting prize pool
   }
 
   preload() {
@@ -188,7 +191,8 @@ class AgentScene extends Phaser.Scene {
       wasOnMoney: false,
       isSelected: false,
       idleFrames: this.getIdleFrames(characterKey),
-      socialRoom: socialRoom
+      socialRoom: socialRoom,
+      money: 0  // Track money collected
     };
 
     // Make sprite interactive for selection
@@ -236,6 +240,7 @@ class AgentScene extends Phaser.Scene {
   updateUI() {
     const selectedDisplay = document.getElementById('selected-character-display');
     const countDisplay = document.getElementById('character-count');
+    const prizePoolDisplay = document.getElementById('prize-pool-display');
 
     if (selectedDisplay) {
       selectedDisplay.textContent = this.selectedPlayer 
@@ -246,6 +251,30 @@ class AgentScene extends Phaser.Scene {
     if (countDisplay) {
       countDisplay.textContent = `Characters: ${this.players.length}/${this.maxCharacters}`;
     }
+
+    if (prizePoolDisplay) {
+      prizePoolDisplay.textContent = `Prize Pool: $${this.moneyPrizePool.toFixed(2)}`;
+    }
+
+    this.updateLeaderboard();
+  }
+
+  updateLeaderboard() {
+    const leaderboardDisplay = document.getElementById('leaderboard-display');
+    if (!leaderboardDisplay) return;
+
+    // Sort players by money (descending)
+    const sortedPlayers = [...this.players].sort((a, b) => b.money - a.money);
+
+    let leaderboardHTML = '<strong style="display:block; margin-bottom: 8px;">💰 Leaderboard</strong>';
+    sortedPlayers.forEach((player, index) => {
+      const rank = index + 1;
+      const medal = rank === 1 ? '🥇' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : `${rank}.`;
+      const highlight = player.isSelected ? 'background: rgba(52, 152, 219, 0.3); padding: 2px 4px; border-radius: 3px;' : '';
+      leaderboardHTML += `<div style="margin: 3px 0; ${highlight}">${medal} Player ${player.name}: $${player.money.toFixed(2)}</div>`;
+    });
+
+    leaderboardDisplay.innerHTML = leaderboardHTML;
   }
 
   toggleGameState() {
@@ -410,7 +439,39 @@ class AgentScene extends Phaser.Scene {
     const isOnMoney = !!(tile && tile.index > 0);
 
     if (isOnMoney && !playerData.wasOnMoney) {
-      console.log(`Character ${playerData.id}: moneyyyyy`);
+      // Agent reaches the money prize
+      console.log(`Character ${playerData.id}: I found money! Prize pool has $${this.moneyPrizePool.toFixed(2)}`);
+      
+      if (this.moneyPrizePool > 0) {
+        // Prompt user to enter amount
+        const userInput = prompt(`Character ${playerData.id} found money!\n\nPrize Pool: $${this.moneyPrizePool.toFixed(2)}\n\nHow much should they take?`);
+        
+        if (userInput !== null && userInput.trim() !== '') {
+          const amountToTake = parseFloat(userInput);
+          
+          if (isNaN(amountToTake)) {
+            alert('Invalid amount! Please enter a number.');
+          } else if (amountToTake < 0) {
+            alert('Amount cannot be negative!');
+          } else if (amountToTake > this.moneyPrizePool) {
+            alert(`Cannot take more than prize pool ($${this.moneyPrizePool.toFixed(2)})!`);
+          } else {
+            // Add money to player
+            playerData.money += amountToTake;
+            
+            // Subtract from prize pool
+            this.moneyPrizePool -= amountToTake;
+            
+            console.log(`Character ${playerData.id}: I took $${amountToTake.toFixed(2)}! Prize pool now has $${this.moneyPrizePool.toFixed(2)}`);
+            console.log(`Character ${playerData.id}: I now have $${playerData.money.toFixed(2)} total`);
+            
+            this.updateUI();
+          }
+        }
+      } else {
+        console.log(`Character ${playerData.id}: The prize pool is empty!`);
+        alert(`Character ${playerData.id} found the money, but the prize pool is empty!`);
+      }
     }
 
     playerData.wasOnMoney = isOnMoney;
