@@ -3,22 +3,9 @@
 Frontend
 Phaser + Vanilla JS
 
-Backend
-Python Flask API
 
-AI layer
-LangGraph agents
+### Basic Set up:
+Clone this repo and open index html in live server ( no installation needed :) ) 
 
-Communication
-HTTP / WebSocket
+Open index html, add character, game on game off , it will console.log "moneyyy" when touched
 
-
-sim-co/
-   frontend/
-      index.html
-      game.js
-      phaser/
-   backend/
-      app.py
-      agents.py
-      langgraph/
