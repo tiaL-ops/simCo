@@ -143,10 +143,10 @@ class AgentScene extends Phaser.Scene {
       });
     }
 
-    // Set up player-to-player collisions (for greeting)
+    // Set up player-to-player overlap (greeting without physical pushing)
     for (let i = 0; i < this.players.length; i++) {
       for (let j = i + 1; j < this.players.length; j++) {
-        this.physics.add.collider(
+        this.physics.add.overlap(
           this.players[i].sprite,
           this.players[j].sprite,
           (sprite1, sprite2) => this.onPlayerCollide(sprite1, sprite2),
@@ -206,7 +206,7 @@ class AgentScene extends Phaser.Scene {
     player.setScale(1.5);
     player.setDepth(20);
     player.setCollideWorldBounds(true);
-    player.setBounce(0.2);
+    player.setBounce(0);
 
     // Physics body sized to the character's feet area
     player.body.setSize(14, 8);
@@ -234,6 +234,8 @@ class AgentScene extends Phaser.Scene {
       lastTalkTime: 0,
       talkBubble: null,
       greetedAgents: new Set(),
+      backoffUntil: 0,
+      backoffTarget: null,
       homeX: startX,
       homeY: startY,
       turnState: 'waiting',
@@ -248,9 +250,9 @@ class AgentScene extends Phaser.Scene {
 
     this.players.push(playerData);
 
-    // Set up collision with newly added player against all existing players
+    // Set up overlap with newly added player against all existing players
     for (let i = 0; i < this.players.length - 1; i++) {
-      this.physics.add.collider(
+      this.physics.add.overlap(
         this.players[i].sprite,
         player,
         (sprite1, sprite2) => this.onPlayerCollide(sprite1, sprite2),
@@ -336,14 +338,6 @@ class AgentScene extends Phaser.Scene {
     const el = document.getElementById('player-discussion-list');
     if (!el) return;
 
-    // Same confirmed working frame formula
-    const FW = 16, FH = 16, COLS = 28, ROW = 2, COL = 2, scale = 4;
-    const bsw = COLS * FW * scale;
-    const bx  = COL  * FW * scale;
-    const by  = ROW  * FH * scale;
-    const aw  = FW * scale;   // 64px
-    const ah  = FH * scale;   // 64px
-
     // Column headers row
     let html = '<table class="talk-matrix"><thead><tr><th class="matrix-corner"></th>';
     for (let j = 1; j <= this.maxCharacters; j++) {
@@ -357,17 +351,7 @@ class AgentScene extends Phaser.Scene {
     for (let i = 1; i <= this.maxCharacters; i++) {
       const rowName = this.characterNameMap[i] || `P${i}`;
       const rowPlayer = this.players.find(p => p.characterNum === i);
-      const padded = i.toString().padStart(2, '0');
-      const avatarStyle = [
-        `background-image:url('phaser/assets/agents/Premade_Character_${padded}.png')`,
-        `background-size:${bsw}px auto`,
-        `background-position:-${bx}px -${by}px`,
-        `width:${aw}px`,
-        `height:${ah}px`,
-        `overflow:hidden`
-      ].join(';');
-
-      html += `<tr><th class="matrix-row-header${rowPlayer ? '' : ' inactive'}"><div class="matrix-row-inner"><span class="matrix-avatar" style="${avatarStyle}"></span><span>${rowName}</span></div></th>`;
+      html += `<tr><th class="matrix-row-header${rowPlayer ? '' : ' inactive'}"><div class="matrix-row-inner"><span>${rowName}</span></div></th>`;
 
       for (let j = 1; j <= this.maxCharacters; j++) {
         if (i === j) { html += '<td class="matrix-cell self">—</td>'; continue; }
@@ -539,7 +523,9 @@ class AgentScene extends Phaser.Scene {
       player.body.setVelocity(0, 0);
       let isMoving = false;
 
-      if (playerData.isSelected && this.hasManualMovementInput()) {
+      if (this.updateBackoffMovement(playerData, speed * 0.7)) {
+        isMoving = true;
+      } else if (playerData.isSelected && this.hasManualMovementInput()) {
         isMoving = this.updateSelectedManualMovement(playerData, speed);
       } else if (this.isGameOn) {
         isMoving = this.updateMoneyTurnMovement(playerData, speed * 0.9);
@@ -626,6 +612,78 @@ class AgentScene extends Phaser.Scene {
     }
 
     return false;
+  }
+
+  updateBackoffMovement(playerData, speed) {
+    if (!playerData.backoffTarget) {
+      return false;
+    }
+
+    if (this.time.now >= playerData.backoffUntil) {
+      playerData.backoffTarget = null;
+      return false;
+    }
+
+    const reachedTarget = this.movePlayerCardinal(
+      playerData,
+      playerData.backoffTarget.x,
+      playerData.backoffTarget.y,
+      speed
+    );
+
+    if (reachedTarget) {
+      playerData.backoffTarget = null;
+      playerData.sprite.body.setVelocity(0, 0);
+      return false;
+    }
+
+    return true;
+  }
+
+  getBackoffPoint(playerData, directionX, directionY, distance) {
+    const sourceX = playerData.sprite.x;
+    const sourceY = playerData.sprite.y;
+    const target = {
+      x: sourceX + directionX * distance,
+      y: sourceY + directionY * distance
+    };
+
+    if (!this.isGameOn && playerData.socialRoom) {
+      const padding = 14;
+      target.x = Phaser.Math.Clamp(target.x, playerData.socialRoom.minX + padding, playerData.socialRoom.maxX - padding);
+      target.y = Phaser.Math.Clamp(target.y, playerData.socialRoom.minY + padding, playerData.socialRoom.maxY - padding);
+    }
+
+    return target;
+  }
+
+  applyMutualBackoff(player1, player2) {
+    const now = this.time.now;
+    if (player1.backoffUntil > now || player2.backoffUntil > now) {
+      return;
+    }
+
+    let dx = player1.sprite.x - player2.sprite.x;
+    let dy = player1.sprite.y - player2.sprite.y;
+    const magnitude = Math.hypot(dx, dy);
+
+    if (magnitude < 0.001) {
+      dx = player1.id < player2.id ? -1 : 1;
+      dy = 0;
+    } else {
+      dx /= magnitude;
+      dy /= magnitude;
+    }
+
+    const backoffDistance = 26;
+    const backoffDuration = 450;
+
+    player1.backoffTarget = this.getBackoffPoint(player1, dx, dy, backoffDistance);
+    player2.backoffTarget = this.getBackoffPoint(player2, -dx, -dy, backoffDistance);
+    player1.backoffUntil = now + backoffDuration;
+    player2.backoffUntil = now + backoffDuration;
+    player1.sprite.body.setVelocity(0, 0);
+    player2.sprite.body.setVelocity(0, 0);
   }
 
   movePlayerToward(playerData, targetX, targetY, speed) {
@@ -973,8 +1031,13 @@ class AgentScene extends Phaser.Scene {
         this.agentTalk(player2, `Hi ${player1.name}`);
         newGreeting = true;
       }
-      // Refresh discussion matrix immediately
-      if (newGreeting) this.updateDiscussionPanel();
+
+      if (newGreeting) {
+        this.updateDiscussionPanel();
+        return;
+      }
+
+      this.applyMutualBackoff(player1, player2);
     }
   }
 
