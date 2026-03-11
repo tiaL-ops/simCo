@@ -166,10 +166,45 @@
       vertical-align: middle;
     }
 
-    .matrix-cell.talked   { background: #0f2b0f; color: #4caf50; }
-    .matrix-cell.not-talked { background: #111111; }
+    .matrix-cell.talked   { background: #123315; color: #58d66f; font-weight: bold; }
+    .matrix-cell.planned  { background: #132d4f; color: #6db8ff; font-weight: bold; }
+    .matrix-cell.not-talked { background: #3a3a3a; color: #b8b8b8; }
     .matrix-cell.self     { background: #222222; color: #555555; font-size: 10px; }
-    .matrix-cell.unavailable { background: #080808; }
+    .matrix-cell.unavailable { background: #1a1a1a; }
+
+    .discussion-section-title {
+      margin: 10px 0 6px;
+      font-weight: bold;
+      color: #d9d9d9;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      font-size: 11px;
+    }
+
+    .discussion-controls {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 6px 0;
+    }
+
+    .discussion-controls label {
+      color: #bdbdbd;
+      font-size: 11px;
+    }
+
+    .discussion-controls select,
+    .discussion-controls button {
+      font-size: 11px;
+      padding: 4px 6px;
+    }
+
+    .discussion-legend {
+      margin: 6px 0 8px;
+      color: #b6b6b6;
+      font-size: 11px;
+    }
 
     #player-info-panel {
       position: fixed;

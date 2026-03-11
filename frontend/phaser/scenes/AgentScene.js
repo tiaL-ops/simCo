@@ -38,6 +38,16 @@ class AgentScene extends Phaser.Scene {
       9: 'I',
       10: 'J'
     };
+
+    // Discussion tracking
+    this.postGameSwitched = false;
+    this.postGameRunning = false;
+    this.postGamePlanned = {};
+    this.postGameTalked = {};
+    for (let i = 1; i <= this.maxCharacters; i++) {
+      this.postGamePlanned[i] = new Set();
+      this.postGameTalked[i] = new Set();
+    }
     
     // Game state (ON/OFF)
     this.isGameOn = false;      // Game state toggle
@@ -137,10 +147,7 @@ class AgentScene extends Phaser.Scene {
 
     const closeDiscussionBtn = document.getElementById('close-player-discussion-btn');
     if (closeDiscussionBtn) {
-      closeDiscussionBtn.addEventListener('click', () => {
-        const panel = document.getElementById('player-discussion-panel');
-        if (panel) { panel.classList.remove('open'); panel.setAttribute('aria-hidden', 'true'); }
-      });
+      closeDiscussionBtn.addEventListener('click', () => this.closeDiscussionPanel());
     }
 
     // Set up player-to-player overlap (greeting without physical pushing)
@@ -267,6 +274,7 @@ class AgentScene extends Phaser.Scene {
     }
 
     this.updateUI();
+    this.updateDiscussionPanel();
     console.log(`Character ${playerData.id} (Name: ${playerName}) spawned (Type: ${selectedCharNum}). Total: ${this.players.length}`);
   }
 
@@ -334,36 +342,200 @@ class AgentScene extends Phaser.Scene {
     if (panel.classList.contains('open')) this.updateDiscussionPanel();
   }
 
+  closeDiscussionPanel() {
+    const panel = document.getElementById('player-discussion-panel');
+    if (!panel) return;
+    panel.classList.remove('open');
+    panel.setAttribute('aria-hidden', 'true');
+  }
+
+  getActiveCharacterNums() {
+    return this.players.map(player => player.characterNum).sort((a, b) => a - b);
+  }
+
+  resetPostGameDiscussion() {
+    this.postGameSwitched = false;
+    this.postGameRunning = false;
+    for (let i = 1; i <= this.maxCharacters; i++) {
+      this.postGamePlanned[i].clear();
+      this.postGameTalked[i].clear();
+    }
+  }
+
+  getPostGamePlannedPairCount() {
+    let pairCount = 0;
+    for (let i = 1; i <= this.maxCharacters; i++) {
+      if (!this.postGamePlanned[i]) continue;
+      pairCount += this.postGamePlanned[i].size;
+    }
+    return pairCount / 2;
+  }
+
+  addPostGamePair(fromNum, toNum, targetMap) {
+    if (!targetMap[fromNum] || !targetMap[toNum]) return;
+    targetMap[fromNum].add(toNum);
+    targetMap[toNum].add(fromNum);
+  }
+
+  removePostGamePair(fromNum, toNum, targetMap) {
+    if (!targetMap[fromNum] || !targetMap[toNum]) return;
+    targetMap[fromNum].delete(toNum);
+    targetMap[toNum].delete(fromNum);
+  }
+
+  getPostGameStatus(rowNum, colNum) {
+    if (this.postGameTalked[rowNum] && this.postGameTalked[rowNum].has(colNum)) {
+      return 'talked';
+    }
+    if (this.postGamePlanned[rowNum] && this.postGamePlanned[rowNum].has(colNum)) {
+      return 'planned';
+    }
+    return 'not-talked';
+  }
+
+  getMatrixTableHtml(mode) {
+    const isPregame = mode === 'pregame';
+    let html = '<table class="talk-matrix"><thead><tr><th class="matrix-corner"></th>';
+
+    for (let col = 1; col <= this.maxCharacters; col++) {
+      const colName = this.characterNameMap[col] || `P${col}`;
+      const colActive = !!this.players.find(player => player.characterNum === col);
+      html += `<th class="matrix-col-header${colActive ? '' : ' inactive'}">${colName}</th>`;
+    }
+    html += '</tr></thead><tbody>';
+
+    for (let row = 1; row <= this.maxCharacters; row++) {
+      const rowName = this.characterNameMap[row] || `P${row}`;
+      const rowPlayer = this.players.find(player => player.characterNum === row);
+      html += `<tr><th class="matrix-row-header${rowPlayer ? '' : ' inactive'}"><div class="matrix-row-inner"><span>${rowName}</span></div></th>`;
+
+      for (let col = 1; col <= this.maxCharacters; col++) {
+        if (row === col) {
+          html += '<td class="matrix-cell self">-</td>';
+          continue;
+        }
+
+        const colPlayer = this.players.find(player => player.characterNum === col);
+        if (!rowPlayer || !colPlayer) {
+          html += '<td class="matrix-cell unavailable"></td>';
+          continue;
+        }
+
+        let stateClass = 'not-talked';
+        let cellValue = '';
+
+        if (isPregame) {
+          const talkedPregame = rowPlayer.greetedAgents.has(colPlayer.id);
+          if (talkedPregame) {
+            stateClass = 'talked';
+            cellValue = '✓';
+          }
+        } else {
+          const postStatus = this.getPostGameStatus(row, col);
+          stateClass = postStatus;
+          if (postStatus === 'talked') cellValue = '✓';
+          if (postStatus === 'planned') cellValue = '•';
+        }
+
+        html += `<td class="matrix-cell ${stateClass}">${cellValue}</td>`;
+      }
+
+      html += '</tr>';
+    }
+
+    html += '</tbody></table>';
+    return html;
+  }
+
+  bindDiscussionPanelEvents() {
+    const switchPostGameBtn = document.getElementById('switch-post-game-btn');
+    if (switchPostGameBtn) {
+      switchPostGameBtn.onclick = () => {
+        this.postGameSwitched = true;
+        this.postGameRunning = false;
+        this.updateDiscussionPanel();
+      };
+    }
+
+    const startPostGameBtn = document.getElementById('start-post-game-btn');
+    if (startPostGameBtn) {
+      startPostGameBtn.onclick = () => {
+        if (!this.postGameSwitched) return;
+        this.postGameRunning = true;
+        this.updateDiscussionPanel();
+      };
+    }
+
+    const resetPostGameBtn = document.getElementById('reset-post-game-btn');
+    if (resetPostGameBtn) {
+      resetPostGameBtn.onclick = () => {
+        this.resetPostGameDiscussion();
+        this.updateDiscussionPanel();
+      };
+    }
+
+    const enterBtn = document.getElementById('postgame-enter-btn');
+    if (enterBtn) {
+      enterBtn.onclick = () => this.handlePostGameChoice();
+    }
+  }
+
+  handlePostGameChoice() {
+    if (!this.postGameSwitched || this.postGameRunning) return;
+
+    const fromSelect = document.getElementById('postgame-from-player');
+    const toSelect = document.getElementById('postgame-to-player');
+    if (!fromSelect || !toSelect) return;
+
+    const fromNum = Number(fromSelect.value);
+    const toNum = Number(toSelect.value);
+    if (!fromNum || !toNum || fromNum === toNum) return;
+
+    const fromActive = this.players.some(player => player.characterNum === fromNum);
+    const toActive = this.players.some(player => player.characterNum === toNum);
+    if (!fromActive || !toActive) return;
+
+    const alreadyTalked = this.postGameTalked[fromNum] && this.postGameTalked[fromNum].has(toNum);
+    if (!alreadyTalked) {
+      this.addPostGamePair(fromNum, toNum, this.postGamePlanned);
+    }
+
+    this.updateDiscussionPanel();
+  }
+
   updateDiscussionPanel() {
     const el = document.getElementById('player-discussion-list');
     if (!el) return;
 
-    // Column headers row
-    let html = '<table class="talk-matrix"><thead><tr><th class="matrix-corner"></th>';
-    for (let j = 1; j <= this.maxCharacters; j++) {
-      const name = this.characterNameMap[j] || `P${j}`;
-      const active = !!this.players.find(p => p.characterNum === j);
-      html += `<th class="matrix-col-header${active ? '' : ' inactive'}">${name}</th>`;
-    }
-    html += '</tr></thead><tbody>';
+    const activeCharacterNums = this.getActiveCharacterNums();
+    const selectorOptions = activeCharacterNums
+      .map(num => `<option value="${num}">${this.characterNameMap[num] || `P${num}`}</option>`)
+      .join('');
+    const plannedCount = this.getPostGamePlannedPairCount();
+    const selectorsDisabled = activeCharacterNums.length < 2 || !this.postGameSwitched || this.postGameRunning;
+    const startDisabled = !this.postGameSwitched || this.postGameRunning || plannedCount < 1;
 
-    // One row per player slot
-    for (let i = 1; i <= this.maxCharacters; i++) {
-      const rowName = this.characterNameMap[i] || `P${i}`;
-      const rowPlayer = this.players.find(p => p.characterNum === i);
-      html += `<tr><th class="matrix-row-header${rowPlayer ? '' : ' inactive'}"><div class="matrix-row-inner"><span>${rowName}</span></div></th>`;
+    let html = '';
+    html += '<div class="discussion-section-title">Pregame</div>';
+    html += this.getMatrixTableHtml('pregame');
+    html += '<div class="discussion-section-title">Post Game</div>';
+    html += '<div class="discussion-controls">';
+    html += `<button id="switch-post-game-btn">${this.postGameSwitched ? 'Post Game Selected' : 'Switch To Post Game'}</button>`;
+    html += `<button id="start-post-game-btn" ${startDisabled ? 'disabled' : ''}>${this.postGameRunning ? 'Post Game Running' : 'Start It'}</button>`;
+    html += '<button id="reset-post-game-btn">Reset Post Game</button>';
+    html += '</div>';
+    html += '<div class="discussion-controls">';
+    html += '<label for="postgame-from-player">From</label>';
+    html += `<select id="postgame-from-player" ${selectorsDisabled ? 'disabled' : ''}>${selectorOptions}</select>`;
+    html += '<label for="postgame-to-player">To</label>';
+    html += `<select id="postgame-to-player" ${selectorsDisabled ? 'disabled' : ''}>${selectorOptions}</select>`;
+    html += `<button id="postgame-enter-btn" ${selectorsDisabled ? 'disabled' : ''}>Enter Will Talk</button>`;
+    html += '</div>';
+    html += '<div class="discussion-legend">Flow: Switch To Post Game -> Enter all Will Talk pairs (blue) -> Start It. Then agents talk and cells become green.</div>';
+    html += this.getMatrixTableHtml('postgame');
 
-      for (let j = 1; j <= this.maxCharacters; j++) {
-        if (i === j) { html += '<td class="matrix-cell self">—</td>'; continue; }
-        const colPlayer = this.players.find(p => p.characterNum === j);
-        if (!rowPlayer || !colPlayer) { html += '<td class="matrix-cell unavailable"></td>'; continue; }
-        const talked = rowPlayer.greetedAgents.has(colPlayer.id);
-        html += `<td class="matrix-cell ${talked ? 'talked' : 'not-talked'}">${talked ? '✓' : ''}</td>`;
-      }
-      html += '</tr>';
-    }
-    html += '</tbody></table>';
     el.innerHTML = html;
+    this.bindDiscussionPanelEvents();
   }
 
   togglePlayerInfoPanel() {
@@ -547,6 +719,15 @@ class AgentScene extends Phaser.Scene {
 
   updateSocialMovement(playerData, speed) {
     const player = playerData.sprite;
+
+    if (this.postGameRunning) {
+      const postGameTarget = this.getPostGameTarget(playerData);
+      if (postGameTarget) {
+        return this.movePlayerTowardByPath(playerData, postGameTarget.sprite.x, postGameTarget.sprite.y, speed);
+      }
+
+      return this.movePlayerTowardByPath(playerData, playerData.homeX, playerData.homeY, speed * 0.7);
+    }
 
     const targetPlayer = this.getNearestUngreetedAgent(playerData);
     if (targetPlayer) {
@@ -917,6 +1098,32 @@ class AgentScene extends Phaser.Scene {
     return nearest;
   }
 
+  getPostGameTarget(playerData) {
+    if (!this.postGamePlanned[playerData.characterNum]) return null;
+
+    let nearest = null;
+    let nearestDistance = Number.MAX_VALUE;
+
+    this.postGamePlanned[playerData.characterNum].forEach(targetCharacterNum => {
+      const alreadyTalked = this.postGameTalked[playerData.characterNum] && this.postGameTalked[playerData.characterNum].has(targetCharacterNum);
+      if (alreadyTalked) return;
+
+      const otherPlayer = this.players.find(player => player.characterNum === targetCharacterNum);
+      if (!otherPlayer) return;
+
+      const dx = otherPlayer.sprite.x - playerData.sprite.x;
+      const dy = otherPlayer.sprite.y - playerData.sprite.y;
+      const distance = Math.hypot(dx, dy);
+
+      if (distance < nearestDistance) {
+        nearestDistance = distance;
+        nearest = otherPlayer;
+      }
+    });
+
+    return nearest;
+  }
+
   advanceMoneyTurn() {
     if (this.players.length === 0 || this.moneyPrizePool <= 0) {
       return;
@@ -1020,6 +1227,21 @@ class AgentScene extends Phaser.Scene {
     const player2 = this.players.find(p => p.sprite === sprite2);
 
     if (player1 && player2) {
+      if (this.postGameRunning) {
+        const pairPlanned = this.postGamePlanned[player1.characterNum] && this.postGamePlanned[player1.characterNum].has(player2.characterNum);
+        const alreadyTalked = this.postGameTalked[player1.characterNum] && this.postGameTalked[player1.characterNum].has(player2.characterNum);
+
+        if (pairPlanned && !alreadyTalked) {
+          this.addPostGamePair(player1.characterNum, player2.characterNum, this.postGameTalked);
+          this.agentTalk(player1, `Post game: ${player2.name}`);
+          this.agentTalk(player2, `Post game: ${player1.name}`);
+          this.updateDiscussionPanel();
+        }
+
+        this.applyMutualBackoff(player1, player2);
+        return;
+      }
+
       let newGreeting = false;
       if (!player1.greetedAgents.has(player2.id)) {
         player1.greetedAgents.add(player2.id);
