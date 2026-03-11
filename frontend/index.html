@@ -89,6 +89,60 @@
       color: #ffffff;
       font-weight: bold;
     }
+
+    #player-info-panel {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 1200;
+      width: 260px;
+      max-height: 70vh;
+      overflow-y: auto;
+      background: #000000;
+      color: #ffffff;
+      border: 1px solid #666666;
+      padding: 10px;
+      display: none;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 12px;
+    }
+
+    #player-info-panel.open {
+      display: block;
+    }
+
+    .player-info-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 8px;
+      border-bottom: 1px solid #444444;
+      padding-bottom: 6px;
+    }
+
+    .player-info-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 5px 0;
+      border-bottom: 1px solid #222222;
+      color: #cccccc;
+    }
+
+    .player-info-row.selected {
+      color: #ffffff;
+      font-weight: bold;
+    }
+
+    .player-info-avatar {
+      flex-shrink: 0;
+      width: 32px;
+      height: 64px;
+      display: inline-block;
+      background-repeat: no-repeat;
+      image-rendering: pixelated;
+      background-color: transparent;
+    }
   </style>
 </head>
 <body>
@@ -99,12 +153,13 @@
     <div class="ui-section">
       <button id="add-character-btn">Add Character</button>
       <button id="game-state-btn">Game: Off</button>
+      <button id="see-player-info-btn">See Player Information</button>
     </div>
 
     <div class="ui-section">
       <div class="ui-section-title">Status</div>
       <div class="ui-row" id="selected-character-display">Selected: None</div>
-      <div class="ui-row" id="character-count">Characters: 0/5</div>
+      <div class="ui-row" id="character-count">Characters: 0/10</div>
     </div>
 
     <div class="ui-section">
@@ -115,6 +170,14 @@
     <div id="leaderboard-display">
       <div class="ui-section-title">Leaderboard</div>
     </div>
+  </div>
+
+  <div id="player-info-panel" aria-hidden="true">
+    <div class="player-info-header">
+      <div class="ui-section-title" style="margin-bottom:0; text-decoration:none;">Player Information</div>
+      <button id="close-player-info-btn">Close</button>
+    </div>
+    <div id="player-info-list"></div>
   </div>
   
   <!-- Include Phaser library -->

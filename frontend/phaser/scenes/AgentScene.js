@@ -3,7 +3,7 @@
 /**
  * AgentScene - Displays and manages multiple player agents with animations
  *
- * Supports up to 5 selectable characters in SocialRoom
+ * Supports up to 10 selectable characters in SocialRoom
  * Click to select, arrow keys to move selected character
  */
 class AgentScene extends Phaser.Scene {
@@ -22,12 +22,22 @@ class AgentScene extends Phaser.Scene {
     // Multi-character support
     this.players = [];          // Array of all player objects
     this.selectedPlayer = null; // Currently selected/controlled player
-    this.maxCharacters = 5;
+    this.maxCharacters = 10;
     this.characterCounter = 1;
     this.usedCharacters = [];   // Track which character indices have been used
-    this.availableCharacters = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]; // All 11 available
-    this.usedNames = [];        // Track which player names have been used
-    this.availableNames = [1, 2, 3, 4, 5]; // Player names
+    this.availableCharacters = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    this.characterNameMap = {
+      1: 'A',
+      2: 'B',
+      3: 'C',
+      4: 'D',
+      5: 'E',
+      6: 'F',
+      7: 'G',
+      8: 'H',
+      9: 'I',
+      10: 'J'
+    };
     
     // Game state (ON/OFF)
     this.isGameOn = false;      // Game state toggle
@@ -110,6 +120,16 @@ class AgentScene extends Phaser.Scene {
       gameStateBtn.addEventListener('click', () => this.toggleGameState());
     }
 
+    const playerInfoBtn = document.getElementById('see-player-info-btn');
+    if (playerInfoBtn) {
+      playerInfoBtn.addEventListener('click', () => this.togglePlayerInfoPanel());
+    }
+
+    const closePlayerInfoBtn = document.getElementById('close-player-info-btn');
+    if (closePlayerInfoBtn) {
+      closePlayerInfoBtn.addEventListener('click', () => this.closePlayerInfoPanel());
+    }
+
     // Set up player-to-player collisions (for greeting)
     for (let i = 0; i < this.players.length; i++) {
       for (let j = i + 1; j < this.players.length; j++) {
@@ -124,32 +144,24 @@ class AgentScene extends Phaser.Scene {
     }
 
     console.log('AgentScene created - Player sprite ready with animations');
+    this.updatePlayerInfoPanel();
   }
 
   addNewCharacter() {
     if (this.players.length >= this.maxCharacters) {
-      console.log('Maximum 5 characters reached!');
+      console.log('Maximum 10 characters reached!');
       return;
     }
 
-    // Pick a random unused character
+    // Pick the next unused character in order (1..10)
     const remaining = this.availableCharacters.filter(idx => !this.usedCharacters.includes(idx));
     if (remaining.length === 0) {
       console.log('No more unique characters available!');
       return;
     }
 
-    // Pick a random unused name
-    const remainingNames = this.availableNames.filter(name => !this.usedNames.includes(name));
-    let playerName = 1;
-    if (remainingNames.length > 0) {
-      const randomNameIdx = Math.floor(Math.random() * remainingNames.length);
-      playerName = remainingNames[randomNameIdx];
-      this.usedNames.push(playerName);
-    }
-
-    const randomIdx = Math.floor(Math.random() * remaining.length);
-    const selectedCharNum = remaining[randomIdx];
+    const selectedCharNum = remaining[0];
+    const playerName = this.characterNameMap[selectedCharNum] || `P${selectedCharNum}`;
     this.usedCharacters.push(selectedCharNum);
     const characterKey = `character_${selectedCharNum.toString().padStart(2, '0')}`;
 
@@ -266,7 +278,7 @@ class AgentScene extends Phaser.Scene {
 
     if (selectedDisplay) {
       selectedDisplay.textContent = this.selectedPlayer 
-        ? `Selected: Character ${this.selectedPlayer.id}` 
+        ? `Selected: Player ${this.selectedPlayer.name}` 
         : 'Selected: None';
     }
 
@@ -296,6 +308,51 @@ class AgentScene extends Phaser.Scene {
     });
 
     leaderboardDisplay.innerHTML = leaderboardHTML;
+    this.updatePlayerInfoPanel();
+  }
+
+  togglePlayerInfoPanel() {
+    const panel = document.getElementById('player-info-panel');
+    if (!panel) return;
+
+    panel.classList.toggle('open');
+    panel.setAttribute('aria-hidden', panel.classList.contains('open') ? 'false' : 'true');
+    if (panel.classList.contains('open')) {
+      this.updatePlayerInfoPanel();
+    }
+  }
+
+  closePlayerInfoPanel() {
+    const panel = document.getElementById('player-info-panel');
+    if (!panel) return;
+
+    panel.classList.remove('open');
+    panel.setAttribute('aria-hidden', 'true');
+  }
+
+  updatePlayerInfoPanel() {
+    const infoList = document.getElementById('player-info-list');
+    if (!infoList) return;
+
+    // Row 1, col 20 — one static frame (16×32 natural, displayed 2×)
+    const FW = 16, FH = 16, COLS = 28, ROW = 2, COL = 2;
+    const scale = 4;
+    const bx = COL * FW * scale;
+    const by = ROW * FH * scale;
+    const bsw = COLS * FW * scale;
+
+    let infoHtml = '';
+    for (let i = 1; i <= this.maxCharacters; i++) {
+      const name = this.characterNameMap[i] || `P${i}`;
+      const player = this.players.find(p => p.characterNum === i);
+      const selectedClass = player && player.isSelected ? ' selected' : '';
+      const padded = i.toString().padStart(2, '0');
+      const avatarStyle = `background-image:url('phaser/assets/agents/Premade_Character_${padded}.png');background-size:${bsw}px auto;background-position:-${bx}px -${by}px`;
+
+      infoHtml += `<div class="player-info-row${selectedClass}"><span class="player-info-avatar" style="${avatarStyle}"></span><span>Player ${name}</span></div>`;
+    }
+
+    infoList.innerHTML = infoHtml;
   }
 
   toggleGameState() {
