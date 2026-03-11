@@ -48,6 +48,8 @@ def run_pipeline(
     phase: str,
     partner_id: str | None = None,
     partner_message: str | None = None,
+    llm_provider: str | None = None,
+    llm_model: str | None = None,
 ) -> AgentTurnState:
     """Run the full pipeline for one agent turn.
 
@@ -58,6 +60,8 @@ def run_pipeline(
                          "post_game_chat".
         partner_id:      Required for chat phases.
         partner_message: The incoming message for chat phases.
+        llm_provider:    Provider from UI (openai/claude/gemini/grok).
+        llm_model:       Provider-specific model id from UI.
 
     Returns:
         The final AgentTurnState with all fields populated.
@@ -68,6 +72,8 @@ def run_pipeline(
         "phase": phase,
         "partner_id": partner_id,
         "partner_message": partner_message,
+        "llm_provider": llm_provider,
+        "llm_model": llm_model,
         # Fields populated by nodes
         "game_state": {},
         "agent_memory": {},

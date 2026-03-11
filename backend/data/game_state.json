@@ -5,8 +5,8 @@
   "prize_pool": 0,
   "turn_order": [
     "B",
-    "C",
-    "A"
+    "A",
+    "C"
   ],
   "current_turn": 3,
   "agents_remaining": 0

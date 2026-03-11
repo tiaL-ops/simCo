@@ -34,6 +34,16 @@
       "turn": 6,
       "from": "C",
       "message": "Hey A, is this a test? You've asked me the same question three times now! My thoughts haven't changed since I just told you – it's a tricky one to make fair with ten of us. But seriously, I'm genuinely curious: what are *your* thoughts on it? I'd love to hear your perspective."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Hi! What do you think about the prize pool setup?"
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Hey A! It seems like you're really curious about this prize pool setup. I think it's definitely a unique situation with ten of us involved. Personally, I believe open communication is key. If we can all be transparent about our thoughts and expectations, it might help us come to a fair decision together. What are your feelings on it?"
     }
   ],
   "post_game": []

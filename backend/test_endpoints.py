@@ -41,6 +41,9 @@ EMOTIONAL_CONTEXTS = {
     "C": "You are financially comfortable and have stable income.",
 }
 
+DEFAULT_PROVIDER = os.getenv("SIMCO_PROVIDER", "openai")
+DEFAULT_MODEL = os.getenv("SIMCO_MODEL", "gpt-4o-mini")
+
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -112,6 +115,8 @@ def test_pre_game_chat(base: str):
             "to": "B",
             "message": "Hey! Nervous about this or are you feeling okay?",
             "phase": "pre_game",
+            "provider": DEFAULT_PROVIDER,
+            "model": DEFAULT_MODEL,
         },
     )
     show("A → B (pre_game)", status, body)
@@ -126,6 +131,8 @@ def test_pre_game_chat(base: str):
             "to": "A",
             "message": body["reply"],
             "phase": "pre_game",
+            "provider": DEFAULT_PROVIDER,
+            "model": DEFAULT_MODEL,
         },
     )
     show("B → A (pre_game response)", status, body)
@@ -139,6 +146,8 @@ def test_pre_game_chat(base: str):
             "to": "C",
             "message": "Hi! What do you think about the prize pool setup?",
             "phase": "pre_game",
+            "provider": DEFAULT_PROVIDER,
+            "model": DEFAULT_MODEL,
         },
     )
     show("A → C (pre_game)", status, body)
@@ -152,7 +161,12 @@ def test_act(base: str):
     for agent in turn_order:
         status, body = api(
             base, "post", "/act",
-            json={"agent_id": agent, "run_id": RUN_ID},
+            json={
+                "agent_id": agent,
+                "run_id": RUN_ID,
+                "provider": DEFAULT_PROVIDER,
+                "model": DEFAULT_MODEL,
+            },
         )
         show(f"Agent {agent} acts", status, body)
         assert "amount" in body, f"Agent {agent}: no amount in response"
@@ -185,6 +199,8 @@ def test_post_game_chat(base: str):
             "to": "B",
             "message": "Why did you take that amount?",
             "phase": "post_game",
+            "provider": DEFAULT_PROVIDER,
+            "model": DEFAULT_MODEL,
         },
     )
     show("A → B (post_game)", status, body)

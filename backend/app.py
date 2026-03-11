@@ -130,7 +130,12 @@ def act():
     """Trigger an agent's game-phase decision.
 
     Expected JSON body:
-      { "agent_id": "A", "run_id": "run_001" }
+            {
+                "agent_id": "A",
+                "run_id": "run_001",
+                "provider": "openai",         // optional
+                "model": "gpt-4o-mini"        // optional
+            }
 
     Returns:
       { "amount": 8000, "reasoning": "...", "connection_score": 3,
@@ -139,6 +144,8 @@ def act():
     data = request.get_json(force=True, silent=True) or {}
     agent_id = str(data.get("agent_id", "")).strip()
     run_id = str(data.get("run_id", "")).strip()
+    llm_provider = str(data.get("provider", "")).strip() or None
+    llm_model = str(data.get("model", "")).strip() or None
 
     if not agent_id or not run_id:
         return jsonify({"error": "agent_id and run_id are required"}), 400
@@ -150,7 +157,13 @@ def act():
         }), 400
 
     # Run LangGraph pipeline
-    result = run_pipeline(agent_id=agent_id, run_id=run_id, phase="game")
+    result = run_pipeline(
+        agent_id=agent_id,
+        run_id=run_id,
+        phase="game",
+        llm_provider=llm_provider,
+        llm_model=llm_model,
+    )
 
     amount = result.get("amount") or 0
     reasoning = result.get("reasoning") or ""
@@ -215,7 +228,9 @@ def chat():
         "from":     "A",
         "to":       "B",
         "message":  "Hey, how are you?",
-        "phase":    "pre_game"   // or "post_game"
+                "phase":    "pre_game",   // or "post_game"
+                "provider": "openai",     // optional
+                "model":    "gpt-4o-mini" // optional
       }
 
     Returns:
@@ -227,6 +242,8 @@ def chat():
     to_agent = str(data.get("to", "")).strip()
     message = str(data.get("message", "")).strip()
     phase = str(data.get("phase", "pre_game")).strip()
+    llm_provider = str(data.get("provider", "")).strip() or None
+    llm_model = str(data.get("model", "")).strip() or None
 
     if not all([run_id, from_agent, to_agent, message]):
         return jsonify({
@@ -250,13 +267,18 @@ def chat():
     storage.append_conversation(run_id, from_agent, to_agent, message, phase)
 
     # Run LangGraph for the recipient
-    pipeline_phase = "pre_game_chat" if phase == "pre_game" else "post_game_chat"
+    pipeline_phase = "pre_game_chat" \
+        if phase == "pre_game" \
+        else "post_game_chat"
+
     result = run_pipeline(
         agent_id=to_agent,
         run_id=run_id,
         phase=pipeline_phase,
         partner_id=from_agent,
         partner_message=message,
+        llm_provider=llm_provider,
+        llm_model=llm_model,
     )
 
     reply = result.get("reply_message") or ""

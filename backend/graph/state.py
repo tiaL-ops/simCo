@@ -14,6 +14,10 @@ class AgentTurnState(TypedDict):
     partner_id: Optional[str]
     partner_message: Optional[str]
 
+    # LLM selection from UI/request
+    llm_provider: Optional[str]
+    llm_model: Optional[str]
+
     # ---- Loaded by load_context ----
     game_state: dict
     agent_memory: dict

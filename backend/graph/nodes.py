@@ -259,7 +259,10 @@ def build_prompt(state: AgentTurnState) -> AgentTurnState:
 
 def call_llm(state: AgentTurnState) -> AgentTurnState:
     """Send prompt to the configured LLM and store the raw response."""
-    llm = get_llm()
+    llm = get_llm(
+        provider=state.get("llm_provider"),
+        model=state.get("llm_model"),
+    )
     raw = ask_llm(llm, state["prompt"])
     state["raw_response"] = raw
     return state
