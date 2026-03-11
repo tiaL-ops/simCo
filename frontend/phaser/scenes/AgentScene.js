@@ -130,6 +130,19 @@ class AgentScene extends Phaser.Scene {
       closePlayerInfoBtn.addEventListener('click', () => this.closePlayerInfoPanel());
     }
 
+    const discussionBtn = document.getElementById('see-player-discussion-btn');
+    if (discussionBtn) {
+      discussionBtn.addEventListener('click', () => this.toggleDiscussionPanel());
+    }
+
+    const closeDiscussionBtn = document.getElementById('close-player-discussion-btn');
+    if (closeDiscussionBtn) {
+      closeDiscussionBtn.addEventListener('click', () => {
+        const panel = document.getElementById('player-discussion-panel');
+        if (panel) { panel.classList.remove('open'); panel.setAttribute('aria-hidden', 'true'); }
+      });
+    }
+
     // Set up player-to-player collisions (for greeting)
     for (let i = 0; i < this.players.length; i++) {
       for (let j = i + 1; j < this.players.length; j++) {
@@ -309,6 +322,64 @@ class AgentScene extends Phaser.Scene {
 
     leaderboardDisplay.innerHTML = leaderboardHTML;
     this.updatePlayerInfoPanel();
+  }
+
+  toggleDiscussionPanel() {
+    const panel = document.getElementById('player-discussion-panel');
+    if (!panel) return;
+    panel.classList.toggle('open');
+    panel.setAttribute('aria-hidden', panel.classList.contains('open') ? 'false' : 'true');
+    if (panel.classList.contains('open')) this.updateDiscussionPanel();
+  }
+
+  updateDiscussionPanel() {
+    const el = document.getElementById('player-discussion-list');
+    if (!el) return;
+
+    // Same confirmed working frame formula
+    const FW = 16, FH = 16, COLS = 28, ROW = 2, COL = 2, scale = 4;
+    const bsw = COLS * FW * scale;
+    const bx  = COL  * FW * scale;
+    const by  = ROW  * FH * scale;
+    const aw  = FW * scale;   // 64px
+    const ah  = FH * scale;   // 64px
+
+    // Column headers row
+    let html = '<table class="talk-matrix"><thead><tr><th class="matrix-corner"></th>';
+    for (let j = 1; j <= this.maxCharacters; j++) {
+      const name = this.characterNameMap[j] || `P${j}`;
+      const active = !!this.players.find(p => p.characterNum === j);
+      html += `<th class="matrix-col-header${active ? '' : ' inactive'}">${name}</th>`;
+    }
+    html += '</tr></thead><tbody>';
+
+    // One row per player slot
+    for (let i = 1; i <= this.maxCharacters; i++) {
+      const rowName = this.characterNameMap[i] || `P${i}`;
+      const rowPlayer = this.players.find(p => p.characterNum === i);
+      const padded = i.toString().padStart(2, '0');
+      const avatarStyle = [
+        `background-image:url('phaser/assets/agents/Premade_Character_${padded}.png')`,
+        `background-size:${bsw}px auto`,
+        `background-position:-${bx}px -${by}px`,
+        `width:${aw}px`,
+        `height:${ah}px`,
+        `overflow:hidden`
+      ].join(';');
+
+      html += `<tr><th class="matrix-row-header${rowPlayer ? '' : ' inactive'}"><div class="matrix-row-inner"><span class="matrix-avatar" style="${avatarStyle}"></span><span>${rowName}</span></div></th>`;
+
+      for (let j = 1; j <= this.maxCharacters; j++) {
+        if (i === j) { html += '<td class="matrix-cell self">—</td>'; continue; }
+        const colPlayer = this.players.find(p => p.characterNum === j);
+        if (!rowPlayer || !colPlayer) { html += '<td class="matrix-cell unavailable"></td>'; continue; }
+        const talked = rowPlayer.greetedAgents.has(colPlayer.id);
+        html += `<td class="matrix-cell ${talked ? 'talked' : 'not-talked'}">${talked ? '✓' : ''}</td>`;
+      }
+      html += '</tr>';
+    }
+    html += '</tbody></table>';
+    el.innerHTML = html;
   }
 
   togglePlayerInfoPanel() {
@@ -891,15 +962,19 @@ class AgentScene extends Phaser.Scene {
     const player2 = this.players.find(p => p.sprite === sprite2);
 
     if (player1 && player2) {
+      let newGreeting = false;
       if (!player1.greetedAgents.has(player2.id)) {
         player1.greetedAgents.add(player2.id);
         this.agentTalk(player1, `Hi ${player2.name}`);
+        newGreeting = true;
       }
-
       if (!player2.greetedAgents.has(player1.id)) {
         player2.greetedAgents.add(player1.id);
         this.agentTalk(player2, `Hi ${player1.name}`);
+        newGreeting = true;
       }
+      // Refresh discussion matrix immediately
+      if (newGreeting) this.updateDiscussionPanel();
     }
   }
 

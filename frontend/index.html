@@ -90,6 +90,87 @@
       font-weight: bold;
     }
 
+    #player-discussion-panel {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 1200;
+      width: 520px;
+      max-height: 90vh;
+      overflow-y: auto;
+      background: #000000;
+      color: #ffffff;
+      border: 1px solid #666666;
+      padding: 14px;
+      display: none;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 12px;
+    }
+
+    #player-discussion-panel.open { display: block; }
+
+    .talk-matrix {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 11px;
+      margin-top: 6px;
+    }
+
+    .matrix-corner {
+      min-width: 82px;
+      width: 82px;
+    }
+
+    .matrix-col-header {
+      text-align: center;
+      padding: 2px 2px 6px;
+      color: #ffffff;
+      font-size: 11px;
+      font-weight: bold;
+      min-width: 28px;
+      width: 28px;
+    }
+
+    .matrix-col-header.inactive { color: #444444; }
+
+    .matrix-row-header {
+      padding: 2px 8px 2px 0;
+      font-weight: normal;
+      white-space: nowrap;
+      vertical-align: middle;
+    }
+
+    .matrix-row-inner {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .matrix-row-header.inactive .matrix-row-inner { opacity: 0.3; }
+
+    .matrix-avatar {
+      display: block;
+      background-repeat: no-repeat;
+      image-rendering: pixelated;
+      flex-shrink: 0;
+      overflow: hidden;
+    }
+
+    .matrix-cell {
+      text-align: center;
+      padding: 3px 2px;
+      border: 1px solid #1a1a1a;
+      min-width: 28px;
+      width: 28px;
+      font-size: 14px;
+      vertical-align: middle;
+    }
+
+    .matrix-cell.talked   { background: #0f2b0f; color: #4caf50; }
+    .matrix-cell.not-talked { background: #111111; }
+    .matrix-cell.self     { background: #222222; color: #555555; font-size: 10px; }
+    .matrix-cell.unavailable { background: #080808; }
+
     #player-info-panel {
       position: fixed;
       top: 20px;
@@ -154,6 +235,7 @@
       <button id="add-character-btn">Add Character</button>
       <button id="game-state-btn">Game: Off</button>
       <button id="see-player-info-btn">See Player Information</button>
+      <button id="see-player-discussion-btn">Player Discussion</button>
     </div>
 
     <div class="ui-section">
@@ -178,6 +260,15 @@
       <button id="close-player-info-btn">Close</button>
     </div>
     <div id="player-info-list"></div>
+  </div>
+
+  <!-- Player Discussion: talk matrix -->
+  <div id="player-discussion-panel" aria-hidden="true">
+    <div class="player-info-header">
+      <div class="ui-section-title" style="margin-bottom:0; text-decoration:none;">Player Discussion</div>
+      <button id="close-player-discussion-btn">Close</button>
+    </div>
+    <div id="player-discussion-list"></div>
   </div>
   
   <!-- Include Phaser library -->
