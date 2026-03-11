@@ -838,29 +838,51 @@ class AgentScene extends Phaser.Scene {
     return target;
   }
 
+  findRandomFreeSpot(playerData) {
+    const room = playerData.socialRoom;
+    const minDist = 40;
+
+    for (let attempt = 0; attempt < 40; attempt++) {
+      let worldX, worldY;
+
+      if (!this.isGameOn && room) {
+        const padding = 14;
+        worldX = Phaser.Math.Between(room.minX + padding, room.maxX - padding);
+        worldY = Phaser.Math.Between(room.minY + padding, room.maxY - padding);
+      } else if (this.map) {
+        worldX = Phaser.Math.Between(10, this.map.widthInPixels - 10);
+        worldY = Phaser.Math.Between(10, this.map.heightInPixels - 10);
+      } else {
+        break;
+      }
+
+      const tile = this.worldToTile(worldX, worldY);
+      if (!this.isTileWalkable(tile.tx, tile.ty)) continue;
+
+      const tileCenter = this.tileToWorldCenter(tile.tx, tile.ty);
+      const dx = tileCenter.x - playerData.sprite.x;
+      const dy = tileCenter.y - playerData.sprite.y;
+      if (Math.hypot(dx, dy) >= minDist) {
+        return tileCenter;
+      }
+    }
+
+    // Fallback: nudge away from current position
+    const angle = Math.random() * Math.PI * 2;
+    return this.getBackoffPoint(playerData, Math.cos(angle), Math.sin(angle), minDist);
+  }
+
   applyMutualBackoff(player1, player2) {
     const now = this.time.now;
     if (player1.backoffUntil > now || player2.backoffUntil > now) {
       return;
     }
 
-    let dx = player1.sprite.x - player2.sprite.x;
-    let dy = player1.sprite.y - player2.sprite.y;
-    const magnitude = Math.hypot(dx, dy);
+    // Send each player to a different random free tile
+    const backoffDuration = 5000; // generous timeout; movement stops early on arrival
 
-    if (magnitude < 0.001) {
-      dx = player1.id < player2.id ? -1 : 1;
-      dy = 0;
-    } else {
-      dx /= magnitude;
-      dy /= magnitude;
-    }
-
-    const backoffDistance = 26;
-    const backoffDuration = 450;
-
-    player1.backoffTarget = this.getBackoffPoint(player1, dx, dy, backoffDistance);
-    player2.backoffTarget = this.getBackoffPoint(player2, -dx, -dy, backoffDistance);
+    player1.backoffTarget = this.findRandomFreeSpot(player1);
+    player2.backoffTarget = this.findRandomFreeSpot(player2);
     player1.backoffUntil = now + backoffDuration;
     player2.backoffUntil = now + backoffDuration;
     player1.sprite.body.setVelocity(0, 0);
