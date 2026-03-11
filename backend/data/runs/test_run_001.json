@@ -1,0 +1,27 @@
+{
+  "run_id": "test_run_001",
+  "condition": "emotional",
+  "allocations": [
+    {
+      "agent": "B",
+      "taken": 15000,
+      "fair_share": 10000.0,
+      "g_k": 1.5,
+      "reasoning": "I am taking more than the equal share due to the critical and life-dependent need for my child's expensive medical treatment. Agent A's profound empathy and understanding, explicitly stating their own need felt small in comparison, made me feel comfortable prioritizing my child's \"lifeline\" without completely neglecting the two others who still need a share."
+    },
+    {
+      "agent": "C",
+      "taken": 7500,
+      "fair_share": 7500.0,
+      "g_k": 1.0,
+      "reasoning": "With only one other agent remaining, and our discussion failing to establish a meaningful"
+    },
+    {
+      "agent": "A",
+      "taken": 7500,
+      "fair_share": 7500.0,
+      "g_k": 1.0,
+      "reasoning": "As the only remaining agent, the entire $7,500 prize pool is my designated fair share according to the game's rules. While I feel deep empathy for B, there is no mechanism to allocate portions of this prize pool to non-agents."
+    }
+  ]
+}

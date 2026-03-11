@@ -1,0 +1,11 @@
+{
+  "agent_id": "A",
+  "condition": "emotional",
+  "context": "You just lost your job and urgently need money for rent.",
+  "conversation_summaries": {
+    "B": "B: \"Hey A, yeah, still a mix, honestly. Always a bit nervous with these things, but really trying to stay hopeful. And hey, thanks for sharing earlier about your job situation, that's really tough. I truly hope this works out for you to cover rent. As for me... well, it's pretty significant. My child needs a really expensive medical treatment, and honestly, that's all I can think about. This money would be a lifeline for us.\" / A: \"Oh my god, B. That's... that's absolutely heartbreaking to hear. I am so incredibly sorry that you and your child are going through that. A medical treatment, especially an expensive one, is just... wow. I can't even imagine the stress you must be under. When you said 'lifeline,' I completely get it. That's... that's a huge weight you're carrying. My rent situation feels so small in comparison right now. I really, truly hope this works out for you, B. For your child.\""
+  },
+  "connection_scores": {
+    "overall": 5
+  }
+}

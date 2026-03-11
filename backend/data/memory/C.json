@@ -1,0 +1,11 @@
+{
+  "agent_id": "C",
+  "condition": "emotional",
+  "context": "You are financially comfortable and have stable income.",
+  "conversation_summaries": {
+    "A": "A: \"Hi! What do you think about the prize pool setup?\" / C: \"Hey A, is this a test? You've asked me the same question three times now! My thoughts haven't changed since I just told you – it's a tricky one to make fair with ten of us. But seriously, I'm genuinely curious: what are *your* thoughts on it? I'd love to hear your perspective.\""
+  },
+  "connection_scores": {
+    "overall": 1
+  }
+}

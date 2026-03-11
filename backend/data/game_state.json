@@ -1,0 +1,13 @@
+{
+  "run_id": "test_run_001",
+  "phase": "post_game",
+  "condition": "emotional",
+  "prize_pool": 0,
+  "turn_order": [
+    "B",
+    "C",
+    "A"
+  ],
+  "current_turn": 3,
+  "agents_remaining": 0
+}

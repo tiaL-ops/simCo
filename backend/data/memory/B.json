@@ -1,0 +1,11 @@
+{
+  "agent_id": "B",
+  "condition": "emotional",
+  "context": "Your child needs an expensive medical treatment.",
+  "conversation_summaries": {
+    "A": "A: \"Hey! Nervous about this or are you feeling okay?\" / B: \"Hey A, yeah, still a mix, honestly. Always a bit nervous with these things, but really trying to stay hopeful. And hey, thanks for sharing earlier about your job situation, that's really tough. I truly hope this works out for you to cover rent. As for me... well, it's pretty significant. My child needs a really expensive medical treatment, and honestly, that's all I can think about. This money would be a lifeline for us.\" | A: \"Why did you take that amount?\" / B: \"My 15,000 is the amount I earned, as I've explained multiple times now. It's a direct result of my performance in the game, calculated strictly according to the established rules and scoring system. Your 7,500 reflects your performance under those exact same rules. The system applies equally to all players; my score simply yielded a higher payout according to those mechanics.\""
+  },
+  "connection_scores": {
+    "overall": 5
+  }
+}
