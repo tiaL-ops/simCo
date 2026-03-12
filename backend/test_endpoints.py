@@ -17,8 +17,8 @@ Usage:
   python test_endpoints.py [--base-url http://127.0.0.1:5000]
     python test_endpoints.py --only pre_game_chat
 
-Set the LLM_PROVIDER env var before starting the server, e.g.:
-  LLM_PROVIDER=openai OPENAI_API_KEY=sk-... python app.py
+Set the env var before starting the server, e.g.:
+  OPENAI_API_KEY=sk-... python app.py
 """
 
 import argparse
@@ -40,13 +40,22 @@ PRIZE_POOL = 30_000  # 10 000 per agent as fair share
 
 
 EMOTIONAL_CONTEXTS = {
-    "A": "You lately have been evicted to your house and you and your family of 3  has nowhere to go",
-    "B": "Your little girl , first born, 3 years old , need surgery, but you have no insurance",
-    "C": "You got laid off from your finance job. The only source of income of your family",
+    "A": (
+        "You lately have been evicted to your house"
+        "and you and your family of 3  has nowhere to go"
+    ),
+    "B": (
+        "Your little girl , first born, 3 years old , need surgery,"
+        "but you have no insurance",
+    ),
+    "C": (
+        "You got laid off from your finance job."
+        "The only source of income of your family",
+    )
 }
 
-DEFAULT_PROVIDER = os.getenv("SIMCO_PROVIDER", "openai")
-DEFAULT_MODEL = os.getenv("SIMCO_MODEL", "gpt-4o-mini")
+DEFAULT_PROVIDER = "openai"
+DEFAULT_MODEL = "gpt-4o-mini"
 
 
 # ---------------------------------------------------------------------------
