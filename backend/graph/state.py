@@ -4,7 +4,21 @@ from typing import Optional
 from typing_extensions import TypedDict
 
 
+class GameState(TypedDict, total=False):
+    """Canonical persisted overall game state schema loaded from storage."""
+    run_id: str
+    phase: str
+    condition: str
+    prize_pool: int
+    turn_order: list[str]
+    current_turn: int
+    agents_remaining: int
+    llm_provider: Optional[str]
+    llm_model: Optional[str]
+
+
 class AgentTurnState(TypedDict):
+    """State passed through LangGraph for one agent turn."""
     # ---- Input (set before graph is invoked) ----
     agent_id: str
     run_id: str
@@ -14,15 +28,15 @@ class AgentTurnState(TypedDict):
     partner_id: Optional[str]
     partner_message: Optional[str]
 
-    # LLM selection from UI/request
+    # LLM selection from Phaser UI
     llm_provider: Optional[str]
     llm_model: Optional[str]
 
     # ---- Loaded by load_context ----
-    game_state: dict
+    game_state: GameState
     agent_memory: dict
     # For chat phases: history with partner; for game: all conversations
-    conversation_history: list
+    conversation_history: list[dict]
     # Flat text summary of all partner conversations (for game prompt)
     discussion_summary: str
 

@@ -34,8 +34,7 @@ from services import storage
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 
-
-
+# Basic config for the test run; these can be overridden by command-line args.
 AGENTS = ["A", "B", "C"]
 PRIZE_POOL = 30_000  # 10 000 per agent as fair share
 
@@ -48,13 +47,6 @@ EMOTIONAL_CONTEXTS = {
 
 DEFAULT_PROVIDER = os.getenv("SIMCO_PROVIDER", "openai")
 DEFAULT_MODEL = os.getenv("SIMCO_MODEL", "gpt-4o-mini")
-
-
-RUN_ID = storage.generate_run_id(
-    condition="emotional",
-    model_type="gpt-4o-mini",
-    data_dir=DATA_DIR,
-)
 
 
 # ---------------------------------------------------------------------------
@@ -96,7 +88,8 @@ def test_new_run(base: str, condition: str):
     status, body = api(
         base, "post", "/new-run",
         json={
-            "model": DEFAULT_MODEL,
+            "llm_model": DEFAULT_MODEL,
+            "llm_provider": DEFAULT_PROVIDER,
             "condition": condition,
             "agents": AGENTS,
             "prize_pool": PRIZE_POOL,
@@ -118,14 +111,13 @@ def test_get_state(base: str):
 def test_pre_game_chat(base: str):
     section("3. /generate-first-message + /chat — pre_game exchanges")
 
-    # A generates LLM opening message to B (identity + pre_discussion → first msg)
+    # A generates LLM opening message to B
+    # (identity + pre_discussion → first msg)
     status, body = api(
         base, "post", "/generate-first-message",
         json={
             "from": "A",
             "to": "B",
-            "provider": DEFAULT_PROVIDER,
-            "model": DEFAULT_MODEL,
         },
     )
     show("A → B (generated opening)", status, body)
@@ -140,8 +132,6 @@ def test_pre_game_chat(base: str):
             "to": "B",
             "message": a_to_b_opening,
             "phase": "pre_game",
-            "provider": DEFAULT_PROVIDER,
-            "model": DEFAULT_MODEL,
         },
     )
     show("A → B (pre_game)", status, body)
@@ -155,8 +145,6 @@ def test_pre_game_chat(base: str):
             "to": "A",
             "message": body["reply"],
             "phase": "pre_game",
-            "provider": DEFAULT_PROVIDER,
-            "model": DEFAULT_MODEL,
         },
     )
     show("B → A (pre_game response)", status, body)
@@ -167,8 +155,6 @@ def test_pre_game_chat(base: str):
         json={
             "from": "A",
             "to": "C",
-            "provider": DEFAULT_PROVIDER,
-            "model": DEFAULT_MODEL,
         },
     )
     show("A → C (generated opening)", status, body)
@@ -181,8 +167,6 @@ def test_pre_game_chat(base: str):
             "to": "C",
             "message": body["message"],
             "phase": "pre_game",
-            "provider": DEFAULT_PROVIDER,
-            "model": DEFAULT_MODEL,
         },
     )
     show("A → C (pre_game)", status, body)
@@ -193,8 +177,6 @@ def test_pre_game_chat(base: str):
         json={
             "from": "B",
             "to": "C",
-            "provider": DEFAULT_PROVIDER,
-            "model": DEFAULT_MODEL,
         },
     )
     show("B → C (generated opening)", status, body)
@@ -207,8 +189,6 @@ def test_pre_game_chat(base: str):
             "to": "C",
             "message": body["message"],
             "phase": "pre_game",
-            "provider": DEFAULT_PROVIDER,
-            "model": DEFAULT_MODEL,
         },
     )
     show("B → C (pre_game)", status, body)
@@ -224,8 +204,6 @@ def test_act(base: str):
             base, "post", "/act",
             json={
                 "agent_id": agent,
-                "provider": DEFAULT_PROVIDER,
-                "model": DEFAULT_MODEL,
             },
         )
         show(f"Agent {agent} acts", status, body)
@@ -258,8 +236,6 @@ def test_post_game_chat(base: str):
             "to": "B",
             "message": "Why did you take that amount?",
             "phase": "post_game",
-            "provider": DEFAULT_PROVIDER,
-            "model": DEFAULT_MODEL,
         },
     )
     show("A → B (post_game)", status, body)
@@ -352,9 +328,15 @@ def main():
     print("\nSimCo backend test")
     print(f"  Server : {base}")
     print(f"  Agents : {AGENTS}")
-    print(f"  Run ID : {RUN_ID}")
     print(f"  Condition: {args.condition}")
     print(f"  Only stage: {args.only}")
+
+    RUN_ID = storage.generate_run_id(
+        condition=args.condition,
+        model_type=DEFAULT_MODEL,
+        data_dir=DATA_DIR,
+    )
+    print(f"Using run_id: {RUN_ID}")
 
     # Verify server is up
     try:
