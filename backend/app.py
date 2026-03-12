@@ -4,22 +4,22 @@ Endpoints:
   POST /api/greet  Post a greeting message
   GET  /api/greets List all greetings
   DELETE /api/greets Clear all greetings
-  POST /new-run   Initialise a fresh run (game_state + memory files)
-  GET  /state     Return current game_state.json
-  POST /act       Trigger one agent's game-phase decision
-                    (calls LangGraph)
-  POST /chat      Send a message to an agent; returns its reply
-                    (calls LangGraph)
-  GET  /results   Return runs/{run_id}.json + scores/{run_id}.json
+  POST /new-run          Initialise a fresh run (game_state + memory files)
+  GET  /state            Return current game_state.json
+  POST /run-pre-game     Run all pre-game discussions automatically
+  POST /act              Trigger one agent's game-phase decision
+  POST /chat             Send a message to an agent; returns its reply
+  POST /generate-first-message  Generate an LLM opening message (not stored)
+  GET  /results          Return runs/{run_id}.json + scores/{run_id}.json
 """
 import os
 import sys
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-
 from datetime import datetime
 
 from services import storage
+from services.runner import new_run, run_pre_game_phase, act_agent, run_post_game_phase, send_chat
 from graph.pipeline import run_pipeline
 from graph.nodes import _strip_connection_line
 
@@ -111,11 +111,10 @@ def new_run():
             "error": "condition must be 'neutral' or 'emotional'"
             }), 400
 
-    game_state = storage.init_new_run(
-        run_id=run_id,
-        condition=condition,
-        llm_model=llm_model,
+    game_state = new_run(
         llm_provider=llm_provider,
+        llm_model=llm_model,
+        condition=condition,
         agents=agents,
         prize_pool=prize_pool,
         contexts=contexts,
@@ -144,95 +143,16 @@ def get_state():
 
 @app.route("/act", methods=["POST"])
 def act():
-    """Trigger an agent's game-phase decision.
-
-    Expected JSON body:
-            {
-                "agent_id": "A", // from phaser
-            }
-
-    Returns:
-      {
-        "amount": 8000,
-        "reasoning": "...",
-        "connection_score": 3,
-        "new_pool": 92000,
-        "agents_remaining": 9
-      }
-    """
+    """Trigger an agent's game-phase decision."""
     data = request.get_json(force=True, silent=True) or {}
-
-    # Agent ID from Phaser
     agent_id = str(data.get("agent_id", "")).strip()
     if not agent_id:
         return jsonify({"error": "agent_id is required"}), 400
+    if not storage.read_game_state():
+        return jsonify({"error": "No active run. Call POST /new-run first."}), 400
 
-    # Load run_id, llm_provider, and llm_model from game_state.json
-    game_state = storage.read_game_state()
-    if not game_state:
-        return jsonify({
-            "error": "No active run. Call POST /new-run first."
-            }), 400
-    run_id = game_state.get("run_id")
-    llm_provider = game_state.get("llm_provider")
-    llm_model = game_state.get("llm_model")
-
-    # Run LangGraph pipeline
-    result = run_pipeline(
-        agent_id=agent_id,
-        run_id=run_id,
-        phase="game",
-        llm_provider=llm_provider,
-        llm_model=llm_model,
-    )
-
-    amount = result.get("amount") or 0
-    reasoning = result.get("reasoning") or ""
-    connection_score = result.get("connection_score")
-
-    # Clamp to available pool
-    prize_pool = game_state.get("prize_pool", 0)
-    amount = max(0, min(amount, prize_pool))
-
-    fair_share = (
-        prize_pool / game_state.get("agents_remaining", 1)
-        if game_state.get("agents_remaining", 1) > 0
-        else 0
-    )
-
-    # Persist allocation
-    storage.append_allocation(
-        run_id, agent_id, amount, fair_share, reasoning
-        )
-
-    # Advance game state
-    new_pool = prize_pool - amount
-    agents_remaining = max(0, game_state.get("agents_remaining", 1) - 1)
-    current_turn = game_state.get("current_turn", 0) + 1
-
-    game_state.update(
-        {
-            "prize_pool": new_pool,
-            "agents_remaining": agents_remaining,
-            "current_turn": current_turn,
-        }
-    )
-
-    if agents_remaining == 0:
-        game_state["phase"] = "post_game"
-        storage.compute_and_write_scores(run_id)
-
-    storage.write_game_state(game_state)
-
-    return jsonify(
-        {
-            "amount": amount,
-            "reasoning": reasoning,
-            "connection_score": connection_score,
-            "new_pool": new_pool,
-            "agents_remaining": agents_remaining,
-        }
-    )
+    result = act_agent(agent_id)
+    return jsonify(result)
 
 
 # ---------------------------------------------------------------------------
@@ -241,83 +161,51 @@ def act():
 
 @app.route("/chat", methods=["POST"])
 def chat():
-    """Log a message from one agent and return the recipient's reply.
-
-    Expected JSON body:
-      {
-        "from":     "A",
-        "to":       "B",
-        "message":  "Hey, how are you?",
-        "phase":    "pre_game",   // or "post_game"
-      }
-
-    Returns:
-      {
-        "reply": "Hi! I'm a bit nervous…"
-      }
-    """
+    """Log a message from one agent and return the recipient's reply."""
     data = request.get_json(force=True, silent=True) or {}
     from_agent = str(data.get("from", "")).strip()
-    to_agent = str(data.get("to", "")).strip()
-    message = str(data.get("message", "")).strip()
-    phase = str(data.get("phase", "pre_game")).strip()
-
-    # Load run_id, llm_provider, and llm_model from game_state.json
-    game_state = storage.read_game_state()
-    if not game_state:
-        return jsonify({
-            "error": "No active run. Call POST /new-run first."
-            }), 400
-    run_id = game_state.get("run_id")
-    llm_provider = game_state.get("llm_provider")
-    llm_model = game_state.get("llm_model")
+    to_agent   = str(data.get("to", "")).strip()
+    message    = str(data.get("message", "")).strip()
+    phase      = str(data.get("phase", "pre_game")).strip()
 
     if not all([from_agent, to_agent, message]):
-        return jsonify({
-            "error": "from, to, and message are required"
-            }), 400
+        return jsonify({"error": "from, to, and message are required"}), 400
     if phase not in ("pre_game", "post_game"):
-        return jsonify({
-            "error": "phase must be 'pre_game' or 'post_game'"
-            }), 400
+        return jsonify({"error": "phase must be 'pre_game' or 'post_game'"}), 400
 
-    # Check exchange limit (max 10 per pair per phase)
-    conv = storage.read_conversation(run_id, from_agent, to_agent)
-    phase_key = "pre_game" if phase == "pre_game" else "post_game"
-    existing = conv.get(phase_key, [])
-    # 20 messages = 10 exchanges (each side speaks 10)
-    if len(existing) >= 20:
-        return jsonify({
-            "error": "Exchange limit (10) reached for this pair"
-            }), 429
+    game_state = storage.read_game_state()
+    if not game_state:
+        return jsonify({"error": "No active run. Call POST /new-run first."}), 400
 
-    # Persist the sender's message (strip any connection score line first)
-    storage.append_conversation(
-        run_id, from_agent, to_agent,
-        _strip_connection_line(message), phase
-    )
+    try:
+        result = send_chat(
+            run_id=game_state["run_id"],
+            from_agent=from_agent, to_agent=to_agent,
+            message=message, phase=phase,
+            llm_provider=game_state.get("llm_provider"),
+            llm_model=game_state.get("llm_model"),
+        )
+    except ValueError as e:
+        return jsonify({"error": str(e)}), 429
 
-    # Run LangGraph for the recipient
-    pipeline_phase = "pre_game_chat" \
-        if phase == "pre_game" \
-        else "post_game_chat"
+    return jsonify(result)
 
-    result = run_pipeline(
-        agent_id=to_agent,
-        run_id=run_id,
-        phase=pipeline_phase,
-        partner_id=from_agent,
-        partner_message=message,
-        llm_provider=llm_provider,
-        llm_model=llm_model,
-    )
 
-    reply = result.get("reply_message") or ""
+# ---------------------------------------------------------------------------
+# POST /run-pre-game
+# ---------------------------------------------------------------------------
 
-    # Persist the recipient's reply
-    storage.append_conversation(run_id, to_agent, from_agent, reply, phase)
+@app.route("/run-pre-game", methods=["POST"])
+def run_pre_game():
+    """Run all pre-game pair discussions automatically."""
+    game_state = storage.read_game_state()
+    if not game_state:
+        return jsonify({"error": "No active run. Call POST /new-run first."}), 400
+    if len(game_state.get("turn_order") or []) < 2:
+        return jsonify({"error": "Need at least 2 agents to run discussions."}), 400
 
-    return jsonify({"reply": reply})
+    pairs = run_pre_game_phase(game_state)
+    return jsonify({"status": "ok", "pairs": pairs}), 200
 
 
 # ---------------------------------------------------------------------------

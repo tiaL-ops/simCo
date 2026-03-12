@@ -50,6 +50,7 @@ def run_pipeline(
     partner_message: str | None = None,
     llm_provider: str | None = None,
     llm_model: str | None = None,
+    force_final: bool = False,
 ) -> AgentTurnState:
     """Run the full pipeline for one agent turn.
 
@@ -62,6 +63,9 @@ def run_pipeline(
         partner_message: The incoming message for chat phases.
         llm_provider:    Provider from UI (openai/claude/gemini/grok).
         llm_model:       Provider-specific model id from UI.
+        force_final:     Force is_final=True regardless of turn count
+                         (used by /run-pre-game to elicit a rating from the
+                         agent who did NOT initiate LEAVE).
 
     Returns:
         The final AgentTurnState with all fields populated.
@@ -85,6 +89,8 @@ def run_pipeline(
         "reasoning": None,
         "connection_score": None,
         "reply_message": None,
+        "wants_to_leave": None,
+        "is_final": True if force_final else None,
     }
     result = compiled_graph.invoke(initial)
     return result

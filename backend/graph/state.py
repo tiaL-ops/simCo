@@ -51,3 +51,5 @@ class AgentTurnState(TypedDict):
     reasoning: Optional[str]        # game phase
     connection_score: Optional[int]  # game or pre_game_chat (1-5)
     reply_message: Optional[str]    # chat phases
+    wants_to_leave: Optional[bool]  # pre_game_chat: agent signals end of conversation
+    is_final: Optional[bool]        # pre_game_chat: hard-cap turn (max 10 per side)

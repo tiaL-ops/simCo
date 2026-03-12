@@ -259,10 +259,34 @@ def init_run_file(
         "condition": condition,
         "llm_model": llm_model,
         "llm_provider": llm_provider,
-        "allocations": []
+        "allocations": [],
+        "connection_scores": [],
     }
     _write(DATA_DIR / "runs" / f"{run_id}.json", data)
     return data
+
+
+def append_connection_score(
+    run_id: str,
+    from_agent: str,
+    to_agent: str,
+    score: int,
+) -> None:
+    """Record a directional connection score in runs/{run_id}.json.
+
+    Directional: how from_agent rates to_agent (asymmetric by design).
+    Overwrites any previous score for the same (from, to) pair.
+    """
+    run = read_run(run_id)
+    scores = run.setdefault("connection_scores", [])
+    # Replace existing entry for same pair, or append.
+    for entry in scores:
+        if entry["from"] == from_agent and entry["to"] == to_agent:
+            entry["score"] = score
+            _write(DATA_DIR / "runs" / f"{run_id}.json", run)
+            return
+    scores.append({"from": from_agent, "to": to_agent, "score": score})
+    _write(DATA_DIR / "runs" / f"{run_id}.json", run)
 
 
 # ---------------------------------------------------------------------------
