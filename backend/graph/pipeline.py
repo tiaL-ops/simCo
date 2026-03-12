@@ -56,8 +56,8 @@ def run_pipeline(
     Args:
         agent_id:        The agent acting this turn.
         run_id:          Current run identifier.
-        phase:           One of "pre_game_chat", "game", "post_game_init",
-                         "post_game_chat".
+        phase:           One of "pre_game_first_msg", "pre_game_chat",
+                         "game", "post_game_init", "post_game_chat".
         partner_id:      Required for chat phases.
         partner_message: The incoming message for chat phases.
         llm_provider:    Provider from UI (openai/claude/gemini/grok).

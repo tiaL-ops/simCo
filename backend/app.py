@@ -19,6 +19,7 @@ from datetime import datetime
 
 from services import storage
 from graph.pipeline import run_pipeline
+from graph.nodes import _strip_connection_line
 
 
 # Allow imports of sibling packages (services/, graph/) when run from backend/
@@ -263,8 +264,10 @@ def chat():
             "error": "Exchange limit (10) reached for this pair"
             }), 429
 
-    # Persist the sender's message
-    storage.append_conversation(run_id, from_agent, to_agent, message, phase)
+    # Persist the sender's message (strip any connection score line first)
+    storage.append_conversation(
+        run_id, from_agent, to_agent, _strip_connection_line(message), phase
+    )
 
     # Run LangGraph for the recipient
     pipeline_phase = "pre_game_chat" \
@@ -287,6 +290,51 @@ def chat():
     storage.append_conversation(run_id, to_agent, from_agent, reply, phase)
 
     return jsonify({"reply": reply})
+
+
+# ---------------------------------------------------------------------------
+# POST /generate-first-message
+# ---------------------------------------------------------------------------
+
+@app.route("/generate-first-message", methods=["POST"])
+def generate_first_message():
+    """Generate an LLM-crafted opening message for an agent approaching another.
+
+    The message is NOT stored — pass it as the 'message' field to POST /chat.
+
+    Expected JSON body:
+      {
+        "run_id":   "run_001",
+        "from":     "A",
+        "to":       "B",
+        "provider": "openai",     // optional
+        "model":    "gpt-4o-mini" // optional
+      }
+
+    Returns:
+      { "message": "Hi B, ..." }
+    """
+    data = request.get_json(force=True, silent=True) or {}
+    run_id = str(data.get("run_id", "")).strip()
+    from_agent = str(data.get("from", "")).strip()
+    to_agent = str(data.get("to", "")).strip()
+    llm_provider = str(data.get("provider", "")).strip() or None
+    llm_model = str(data.get("model", "")).strip() or None
+
+    if not all([run_id, from_agent, to_agent]):
+        return jsonify({"error": "run_id, from, and to are required"}), 400
+
+    result = run_pipeline(
+        agent_id=from_agent,
+        run_id=run_id,
+        phase="pre_game_first_msg",
+        partner_id=to_agent,
+        partner_message=None,
+        llm_provider=llm_provider,
+        llm_model=llm_model,
+    )
+    message = result.get("reply_message") or ""
+    return jsonify({"message": message})
 
 
 # ---------------------------------------------------------------------------

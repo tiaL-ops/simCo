@@ -51,13 +51,17 @@ def _build_pre_game_chat_prompt(
     partner_message: str,
     agent_memory: dict,
     conversation_history_text: str,
+    is_final: bool = False,
 ) -> str:
     """Build prompt for pre-game pair discussion."""
-    context_block = ""
     agent_context = agent_memory.get("context", "").strip()
-    if agent_context:
-        context_block = f"Personal context:\n{agent_context}\n\n"
 
+    identity = _render(
+        _load_template("agents_definition"),
+        agent_name=agent_id,
+        context=agent_context or "No special context.",
+    )
+    context_block = f"Personal context:\n{agent_context}\n\n" if agent_context else ""
     pre_setup = _render(
         _load_template("pre_discussion"),
         context_block=context_block,
@@ -69,7 +73,49 @@ def _build_pre_game_chat_prompt(
         conversation_history=conversation_history_text,
         partner_message=partner_message,
     )
-    return pre_setup + "\n\n" + during
+    prompt = identity + "\n\n" + pre_setup + "\n\n" + during
+    if is_final:
+        prompt += (
+            f"\n\nThis is your last exchange with {partner_id}. "
+            f"After your reply, rate your connection:\n"
+            f"Connection_to_{partner_id}_from_{agent_id}: [1-5]"
+        )
+    return prompt
+
+
+def _build_pre_game_first_msg_prompt(
+    agent_id: str,
+    partner_id: str,
+    agent_memory: dict,
+) -> str:
+    """Build prompt for agent-initiated opening message (no prior exchange)."""
+    agent_context = agent_memory.get("context", "").strip()
+
+    identity = _render(
+        _load_template("agents_definition"),
+        agent_name=agent_id,
+        context=agent_context or "No special context.",
+    )
+    context_block = f"Personal context:\n{agent_context}\n\n" if agent_context else ""
+    pre_setup = _render(
+        _load_template("pre_discussion"),
+        context_block=context_block,
+    )
+    first_msg = _render(
+        _load_template("first_message_pre_game"),
+        partner_id=partner_id,
+        agent_id=agent_id,
+    )
+    return identity + "\n\n" + pre_setup + "\n\n" + first_msg
+
+
+def _is_final_exchange(
+    run_id: str, agent_id: str, partner_id: str, phase_key: str
+) -> bool:
+    """Return True if this is the last allowed exchange for this pair."""
+    conv = storage.read_conversation(run_id, agent_id, partner_id)
+    # 20 messages total = 10 per side; after this reply it will be full.
+    return len(conv.get(phase_key, [])) >= 19
 
 
 def _build_game_prompt(
@@ -203,14 +249,6 @@ def load_context(state: AgentTurnState) -> AgentTurnState:
         if overall_summary:
             lines.append(f"Overall social reflection: {overall_summary}")
 
-        for partner, summary in summaries.items():
-            if partner == "overall_pre_game":
-                continue
-            if summary and not any(
-                partner in line_text for line_text in lines
-            ):
-                lines.append(f"With {partner}: {summary}")
-
         # Include partner ranking from pre-game connection scores.
         scores = agent_memory.get("connection_scores", {})
         ranked = sorted(
@@ -257,12 +295,23 @@ def build_prompt(state: AgentTurnState) -> AgentTurnState:
     )
 
     if phase == "pre_game_chat":
+        # Check if this is the final exchange — only then ask for rating.
+        is_final = _is_final_exchange(
+            state["run_id"], agent_id, partner_id, "pre_game"
+        )
         state["prompt"] = _build_pre_game_chat_prompt(
             agent_id=agent_id,
             partner_id=partner_id,
             partner_message=partner_message,
             agent_memory=agent_memory,
             conversation_history_text=conversation_history_text,
+            is_final=is_final,
+        )
+    elif phase == "pre_game_first_msg":
+        state["prompt"] = _build_pre_game_first_msg_prompt(
+            agent_id=agent_id,
+            partner_id=partner_id,
+            agent_memory=agent_memory,
         )
     elif phase == "game":
         state["prompt"] = _build_game_prompt(
@@ -336,6 +385,16 @@ def _parse_game_output(state: AgentTurnState, raw: str) -> None:
         state["connection_score"] = int(conn_match.group(1))
 
 
+def _strip_connection_line(text: str) -> str:
+    """Remove any Connection_to_...from_... scoring line from chat text."""
+    return re.sub(
+        r"\s*Connection_to_\S+_from_\S+\s*:\s*[1-5]\s*",
+        "",
+        text,
+        flags=re.IGNORECASE,
+    ).strip()
+
+
 def _parse_chat_output(state: AgentTurnState, raw: str) -> None:
     """Parse pre/post-game chat response into reply_message."""
     agent_id = state["agent_id"]
@@ -346,18 +405,19 @@ def _parse_chat_output(state: AgentTurnState, raw: str) -> None:
     )
     match = re.search(pattern, raw, re.IGNORECASE | re.DOTALL)
     payload = match.group(1).strip() if match else raw.strip()
-    state["reply_message"] = _normalize_chat_reply(payload)
-
+    # Always extract connection score before stripping it from the reply.
     conn_match = re.search(
         rf"Connection_to_{re.escape(partner_id)}_from_"
         rf"{re.escape(agent_id)}\s*:\s*([1-5])",
-        raw,
+        payload,
         re.IGNORECASE,
     )
     if not conn_match:
-        conn_match = re.search(r"Connection\s*[:\-]\s*([1-5])", raw, re.IGNORECASE)
+        conn_match = re.search(r"Connection\s*[:\-]\s*([1-5])", payload, re.IGNORECASE)
     if conn_match:
         state["connection_score"] = int(conn_match.group(1))
+    # Strip the connection line so it never appears in stored chat messages.
+    state["reply_message"] = _normalize_chat_reply(_strip_connection_line(payload))
 
 
 def _normalize_chat_reply(text: str) -> str:
@@ -401,7 +461,7 @@ def parse_output(state: AgentTurnState) -> AgentTurnState:
 
     if phase == "game":
         _parse_game_output(state, raw)
-    elif phase in ("pre_game_chat", "post_game_chat"):
+    elif phase in ("pre_game_chat", "pre_game_first_msg", "post_game_chat"):
         _parse_chat_output(state, raw)
     elif phase == "post_game_init":
         _parse_post_game_init_output(state, raw)
@@ -426,24 +486,23 @@ def update_memory(state: AgentTurnState) -> AgentTurnState:
             memory.setdefault("connection_scores", {})["overall"] = conn
         storage.write_memory(agent_id, memory)
 
-    elif phase in ("pre_game_chat", "post_game_chat"):
+    elif phase in ("pre_game_chat", "pre_game_first_msg", "post_game_chat"):
         partner_id = state.get("partner_id") or ""
         if partner_id:
             partner_msg = state.get("partner_message") or ""
             reply = state.get("reply_message") or ""
             conn = state.get("connection_score")
 
-            if phase == "pre_game_chat" and conn is not None:
+            # Save per-partner connection score during pre-game phases.
+            if phase in ("pre_game_chat", "pre_game_first_msg") and conn is not None:
                 memory.setdefault("connection_scores", {})[partner_id] = conn
 
+            # For first-msg phase there is no conversation yet — skip summary.
+            if phase == "pre_game_first_msg":
+                storage.write_memory(agent_id, memory)
+                return state
+
             summaries = memory.setdefault("conversation_summaries", {})
-            # Keep a lightweight per-partner log snippet.
-            prev = summaries.get(partner_id, "")
-            new_entry = (
-                f"{partner_id}: \"{partner_msg}\" / "
-                f"{agent_id}: \"{reply}\""
-            )
-            summaries[partner_id] = (prev + " | " + new_entry).lstrip(" | ")
 
             connection_scores = memory.get("connection_scores", {})
             ranked = sorted(
@@ -458,12 +517,6 @@ def update_memory(state: AgentTurnState) -> AgentTurnState:
             score_lines = [
                 f"- {pid}: {int(score)}/5" for pid, score in ranked
             ]
-
-            snippets = []
-            for pid, text in summaries.items():
-                if pid == "overall_pre_game" or not text:
-                    continue
-                snippets.append(f"- {pid}: {text}")
 
             all_convs = storage.get_all_agent_conversations(
                 state["run_id"],
@@ -485,8 +538,6 @@ def update_memory(state: AgentTurnState) -> AgentTurnState:
             global_context = (
                 "Connection scores by partner:\n"
                 + ("\n".join(score_lines) if score_lines else "- none yet")
-                + "\n\nConversation highlights by partner:\n"
-                + ("\n".join(snippets) if snippets else "- none yet")
             )
 
             conversation_context = (
@@ -507,6 +558,11 @@ def update_memory(state: AgentTurnState) -> AgentTurnState:
 
             if summary:
                 summaries["overall_pre_game"] = summary
+
+            # Keep only the global pre-game summary key.
+            memory["conversation_summaries"] = {
+                "overall_pre_game": summaries.get("overall_pre_game", "")
+            }
 
             storage.write_memory(agent_id, memory)
 

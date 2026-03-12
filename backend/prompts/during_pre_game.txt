@@ -1,9 +1,7 @@
 {partner_id} approaches you. Here is your previous discussion. {conversation_history}
 {partner_id} is saying: {partner_message} to you.
-Answer in exactly this format (two lines):
+Answer in exactly this format (one line):
 Answer_to_{partner_id}_from_{agent_id}: [your reply]
-Connection_to_{partner_id}_from_{agent_id}: [1-5]
 
 Rules:
 - Keep the reply human and concise.
-- The connection score must reflect your current feeling about {partner_id}.
