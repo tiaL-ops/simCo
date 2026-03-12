@@ -259,6 +259,44 @@
       image-rendering: pixelated;
       background-color: transparent;
     }
+
+    #chat-log-panel {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1200;
+      width: 320px;
+      max-height: 340px;
+      overflow-y: auto;
+      background: #000000;
+      color: #ffffff;
+      border: 1px solid #666666;
+      padding: 10px 12px;
+      display: none;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 12px;
+    }
+
+    #chat-log-panel.open { display: block; }
+
+    .chat-log-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 8px;
+      border-bottom: 1px solid #444444;
+      padding-bottom: 6px;
+    }
+
+    .chat-entry {
+      padding: 3px 0;
+      border-bottom: 1px solid #1c1c1c;
+      color: #cccccc;
+    }
+
+    .chat-entry .chat-time   { color: #666666; margin-right: 4px; }
+    .chat-entry .chat-player { color: #ffffff; font-weight: bold; margin-right: 4px; }
+    .chat-entry .chat-msg    { color: #aaaaaa; }
   </style>
 </head>
 <body>
@@ -271,6 +309,7 @@
       <button id="game-state-btn">Game: Off</button>
       <button id="see-player-info-btn">See Player Information</button>
       <button id="see-player-discussion-btn">Player Discussion</button>
+      <button id="see-chat-log-btn">Chat Log</button>
     </div>
 
     <div class="ui-section">
@@ -297,6 +336,15 @@
     <div id="player-info-list"></div>
   </div>
 
+  <!-- Chat Log Panel -->
+  <div id="chat-log-panel" aria-hidden="true">
+    <div class="chat-log-header">
+      <div class="ui-section-title" style="margin-bottom:0; text-decoration:none;">Chat Log</div>
+      <button id="close-chat-log-btn">Close</button>
+    </div>
+    <div id="chat-log-list"><em style="color:#555">No messages yet.</em></div>
+  </div>
+
   <!-- Player Discussion: talk matrix -->
   <div id="player-discussion-panel" aria-hidden="true">
     <div class="player-info-header">
@@ -315,5 +363,43 @@
   
   <!-- Include the game script -->
   <script src="game.js"></script>
+
+  <script>
+    // Chat Log panel toggle
+    const chatLogPanel = document.getElementById('chat-log-panel');
+    document.getElementById('see-chat-log-btn').addEventListener('click', () => {
+      chatLogPanel.classList.toggle('open');
+      chatLogPanel.setAttribute('aria-hidden', chatLogPanel.classList.contains('open') ? 'false' : 'true');
+    });
+    document.getElementById('close-chat-log-btn').addEventListener('click', () => {
+      chatLogPanel.classList.remove('open');
+      chatLogPanel.setAttribute('aria-hidden', 'true');
+    });
+
+    // Poll backend every 2 s and refresh the chat log list
+    function refreshChatLog() {
+      fetch('http://127.0.0.1:5000/api/greets')
+        .then(r => r.json())
+        .then(entries => {
+          const list = document.getElementById('chat-log-list');
+          if (!entries.length) {
+            list.innerHTML = '<em style="color:#555">No messages yet.</em>';
+            return;
+          }
+          // Newest first
+          list.innerHTML = [...entries].reverse().map(e =>
+            `<div class="chat-entry">` +
+              `<span class="chat-time">${e.time}</span>` +
+              `<span class="chat-player">${e.player}</span>` +
+              `<span class="chat-msg">${e.message}</span>` +
+            `</div>`
+          ).join('');
+        })
+        .catch(() => { /* backend offline */ });
+    }
+
+    setInterval(refreshChatLog, 2000);
+    refreshChatLog();
+  </script>
 </body>
 </html>
