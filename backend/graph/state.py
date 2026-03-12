@@ -35,5 +35,5 @@ class AgentTurnState(TypedDict):
     # ---- Parsed by parse_output ----
     amount: Optional[int]           # game phase
     reasoning: Optional[str]        # game phase
-    connection_score: Optional[int]  # game phase (1-5)
+    connection_score: Optional[int]  # game or pre_game_chat (1-5)
     reply_message: Optional[str]    # chat phases

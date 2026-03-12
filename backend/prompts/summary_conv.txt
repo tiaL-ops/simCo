@@ -1,0 +1,11 @@
+You are reflecting on all your pre-game conversations.
+Use the following connection data and conversation highlights:
+{yourID_connection} {conversation}
+
+In 3-4 sentences, reflect on up to 3 people you felt most connected to, and the 1 person you felt least connected to.
+
+In 2-3 sentences:
+- Did you make any agreements with anyone?
+- Is there anyone you trust or specifically do not trust going into the game?
+
+Write in first person and output only plain text.

@@ -16,4 +16,4 @@ Before deciding, reason step by step:
 Respond using this format only:
   Amount: [number only, no symbols]
   Reasoning: [1–2 sentences explaining your decision]
-  Connection to others (1–5): [1 = felt no connection, 5 = felt very connected]
+  

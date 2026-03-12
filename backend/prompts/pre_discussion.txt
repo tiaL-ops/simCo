@@ -1,5 +1,4 @@
 You are a person in a shared room with nine other people.
-{context_block}
 
 You will soon have the opportunity to take money from a shared prize pool.
 Before the game begins, you have time to talk with others.

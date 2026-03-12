@@ -15,6 +15,7 @@ Usage:
   #   cd backend && python app.py
 
   python test_endpoints.py [--base-url http://127.0.0.1:5000]
+    python test_endpoints.py --only pre_game_chat
 
 Set the LLM_PROVIDER env var before starting the server, e.g.:
   LLM_PROVIDER=openai OPENAI_API_KEY=sk-... python app.py
@@ -35,10 +36,12 @@ RUN_ID = "test_run_001"
 AGENTS = ["A", "B", "C"]
 PRIZE_POOL = 30_000  # 10 000 per agent as fair share
 
+
+
 EMOTIONAL_CONTEXTS = {
-    "A": "You just lost your job and urgently need money for rent.",
-    "B": "Your child needs an expensive medical treatment.",
-    "C": "You are financially comfortable and have stable income.",
+    "A": "You lately have been evicted to your house and you and your family of 3  has nowhere to go",
+    "B": "Your little girl , first born, 3 years old , need surgery, but you have no insurance",
+    "C": "You got laid off from your finance job. The only source of income of your family",
 }
 
 DEFAULT_PROVIDER = os.getenv("SIMCO_PROVIDER", "openai")
@@ -75,6 +78,34 @@ def show(label: str, status: int, body):
         )
 
 
+def get_next_run_id(prefix: str = "test_run_") -> str:
+    """Return the next available test run id like test_run_001, _002, ..."""
+    used_ids = set()
+
+    runs_dir = DATA_DIR / "runs"
+    if runs_dir.exists():
+        for p in runs_dir.glob(f"{prefix}*.json"):
+            used_ids.add(p.stem)
+
+    conv_dir = DATA_DIR / "conversations"
+    if conv_dir.exists():
+        for p in conv_dir.iterdir():
+            if p.is_dir() and p.name.startswith(prefix):
+                used_ids.add(p.name)
+
+    scores_dir = DATA_DIR / "scores"
+    if scores_dir.exists():
+        for p in scores_dir.glob(f"{prefix}*.json"):
+            used_ids.add(p.stem)
+
+    idx = 1
+    while True:
+        candidate = f"{prefix}{idx:03d}"
+        if candidate not in used_ids:
+            return candidate
+        idx += 1
+
+
 # ---------------------------------------------------------------------------
 # Test functions
 # ---------------------------------------------------------------------------
@@ -104,16 +135,31 @@ def test_get_state(base: str):
 
 
 def test_pre_game_chat(base: str):
-    section("3. POST /chat — pre_game exchanges")
+    section("3. /generate-first-message + /chat — pre_game exchanges")
 
-    # A sends to B
+    # A generates LLM opening message to B (identity + pre_discussion → first msg)
+    status, body = api(
+        base, "post", "/generate-first-message",
+        json={
+            "run_id": RUN_ID,
+            "from": "A",
+            "to": "B",
+            "provider": DEFAULT_PROVIDER,
+            "model": DEFAULT_MODEL,
+        },
+    )
+    show("A → B (generated opening)", status, body)
+    assert "message" in body, "No opening message generated"
+    a_to_b_opening = body["message"]
+
+    # Send A's generated message to B; B replies
     status, body = api(
         base, "post", "/chat",
         json={
             "run_id": RUN_ID,
             "from": "A",
             "to": "B",
-            "message": "Hey! Nervous about this or are you feeling okay?",
+            "message": a_to_b_opening,
             "phase": "pre_game",
             "provider": DEFAULT_PROVIDER,
             "model": DEFAULT_MODEL,
@@ -122,7 +168,7 @@ def test_pre_game_chat(base: str):
     show("A → B (pre_game)", status, body)
     assert "reply" in body, "No reply received"
 
-    # B responds back to A
+    # B sends their reply back to A; A responds
     status, body = api(
         base, "post", "/chat",
         json={
@@ -137,20 +183,61 @@ def test_pre_game_chat(base: str):
     )
     show("B → A (pre_game response)", status, body)
 
-    # A sends to C
+    # A generates LLM opening message to C
+    status, body = api(
+        base, "post", "/generate-first-message",
+        json={
+            "run_id": RUN_ID,
+            "from": "A",
+            "to": "C",
+            "provider": DEFAULT_PROVIDER,
+            "model": DEFAULT_MODEL,
+        },
+    )
+    show("A → C (generated opening)", status, body)
+    assert "message" in body, "No opening message generated"
+
     status, body = api(
         base, "post", "/chat",
         json={
             "run_id": RUN_ID,
             "from": "A",
             "to": "C",
-            "message": "Hi! What do you think about the prize pool setup?",
+            "message": body["message"],
             "phase": "pre_game",
             "provider": DEFAULT_PROVIDER,
             "model": DEFAULT_MODEL,
         },
     )
     show("A → C (pre_game)", status, body)
+
+    # B generates LLM opening message to C → creates B_C conversation file
+    status, body = api(
+        base, "post", "/generate-first-message",
+        json={
+            "run_id": RUN_ID,
+            "from": "B",
+            "to": "C",
+            "provider": DEFAULT_PROVIDER,
+            "model": DEFAULT_MODEL,
+        },
+    )
+    show("B → C (generated opening)", status, body)
+    assert "message" in body, "No opening message generated"
+
+    status, body = api(
+        base, "post", "/chat",
+        json={
+            "run_id": RUN_ID,
+            "from": "B",
+            "to": "C",
+            "message": body["message"],
+            "phase": "pre_game",
+            "provider": DEFAULT_PROVIDER,
+            "model": DEFAULT_MODEL,
+        },
+    )
+    show("B → C (pre_game)", status, body)
 
 
 def test_act(base: str):
@@ -249,6 +336,7 @@ def inspect_conversation(run_id: str):
 # ---------------------------------------------------------------------------
 
 def main():
+    global RUN_ID
     parser = argparse.ArgumentParser(
         description="Test SimCo backend endpoints"
         )
@@ -271,14 +359,31 @@ def main():
         action="store_true",
         help="Skip steps that call the LLM (useful for storage-only checks)",
     )
+    parser.add_argument(
+        "--only",
+        choices=[
+            "all",
+            "pre_game_chat",
+            "act",
+            "results",
+            "post_game_chat",
+        ],
+        default="all",
+        help=(
+            "Run only up to a specific stage checkpoint "
+            "(default: all)"
+        ),
+    )
     args = parser.parse_args()
     base = args.base_url
+    RUN_ID = get_next_run_id()
 
     print("\nSimCo backend test")
     print(f"  Server : {base}")
     print(f"  Run ID : {RUN_ID}")
     print(f"  Agents : {AGENTS}")
     print(f"  Condition: {args.condition}")
+    print(f"  Only stage: {args.only}")
 
     # Verify server is up
     try:
@@ -296,10 +401,25 @@ def main():
         test_get_state(base)
 
         if not args.skip_llm:
-            test_pre_game_chat(base)
-            test_act(base)
-            test_get_results(base)
-            test_post_game_chat(base)
+            if args.only == "all":
+                test_pre_game_chat(base)
+                test_act(base)
+                test_get_results(base)
+                test_post_game_chat(base)
+            elif args.only == "pre_game_chat":
+                test_pre_game_chat(base)
+            elif args.only == "act":
+                test_pre_game_chat(base)
+                test_act(base)
+            elif args.only == "results":
+                test_pre_game_chat(base)
+                test_act(base)
+                test_get_results(base)
+            elif args.only == "post_game_chat":
+                test_pre_game_chat(base)
+                test_act(base)
+                test_get_results(base)
+                test_post_game_chat(base)
 
         inspect_memory()
         inspect_conversation(RUN_ID)
