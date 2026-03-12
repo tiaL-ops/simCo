@@ -44,6 +44,17 @@ def _pair_key(a: str, b: str) -> str:
     return "_".join(sorted([a, b]))
 
 
+def _normalize_text(value: Any) -> str:
+    """Coerce mixed JSON values to safe plain text."""
+    if value is None:
+        return ""
+    if isinstance(value, str):
+        return value
+    if isinstance(value, (list, tuple)):
+        return " ".join(str(item) for item in value if item is not None)
+    return str(value)
+
+
 def generate_run_id(
     condition: str,
     model_type: str,
@@ -135,7 +146,7 @@ def init_agent_memory(
     memory = {
         "agent_id": agent_id,
         "condition": condition,
-        "context": context,
+        "context": _normalize_text(context),
         "conversation_summaries": {},
         "connection_scores": {},
     }
