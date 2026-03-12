@@ -6,8 +6,10 @@ Endpoints:
   DELETE /api/greets Clear all greetings
   POST /new-run   Initialise a fresh run (game_state + memory files)
   GET  /state     Return current game_state.json
-  POST /act       Trigger one agent's game-phase decision (calls LangGraph)
-  POST /chat      Send a message to an agent; returns its reply (calls LangGraph)
+  POST /act       Trigger one agent's game-phase decision
+                    (calls LangGraph)
+  POST /chat      Send a message to an agent; returns its reply
+                    (calls LangGraph)
   GET  /results   Return runs/{run_id}.json + scores/{run_id}.json
 """
 import os
@@ -75,8 +77,10 @@ def new_run():
 
     Expected JSON body:
       {
-        "run_id":     "run_001",
-        "condition":  "neutral" | "emotional",
+        "llm_provider":   "openai", "gemini", etc. (for Phaser UI selection)
+        "llm_model":      "gpt-4o-mini", "gemini-3-flash-preview", ...
+                      (for Phaser UI selection)
+        "condition":  "neutral" | "emotional", (from Phaser UI selection)
         "agents":     ["A","B","C","D","E","F","G","H","I","J"],
         "prize_pool": 100000,           // optional, default 100000
         "contexts":   { "A": "...", … } // optional, only for emotional
@@ -84,8 +88,18 @@ def new_run():
     """
     data = request.get_json(force=True, silent=True) or {}
 
-    run_id = str(data.get("run_id", "")).strip()
+    # Condition and default model/provider selection are from Phaser
     condition = str(data.get("condition", "neutral")).strip()
+    llm_model = str(data.get("llm_model", "default")).strip()
+    llm_provider = str(data.get("llm_provider", "")).strip() or None
+    # Generate a run_id based on existing runs, model, and condition.
+    # Do not pass static run_id in the request body
+    run_id = storage.generate_run_id(
+        model_type=llm_model,
+        condition=condition,
+    )
+
+    # agents, are from phaser
     agents = data.get("agents") or [chr(ord("A") + i) for i in range(10)]
     prize_pool = int(data.get("prize_pool", 100_000))
     contexts = data.get("contexts") or {}
@@ -100,6 +114,8 @@ def new_run():
     game_state = storage.init_new_run(
         run_id=run_id,
         condition=condition,
+        llm_model=llm_model,
+        llm_provider=llm_provider,
         agents=agents,
         prize_pool=prize_pool,
         contexts=contexts,
@@ -132,30 +148,34 @@ def act():
 
     Expected JSON body:
             {
-                "agent_id": "A",
-                "run_id": "run_001",
-                "provider": "openai",         // optional
-                "model": "gpt-4o-mini"        // optional
+                "agent_id": "A", // from phaser
             }
 
     Returns:
-      { "amount": 8000, "reasoning": "...", "connection_score": 3,
-        "new_pool": 92000, "agents_remaining": 9 }
+      {
+        "amount": 8000,
+        "reasoning": "...",
+        "connection_score": 3,
+        "new_pool": 92000,
+        "agents_remaining": 9
+      }
     """
     data = request.get_json(force=True, silent=True) or {}
+
+    # Agent ID from Phaser
     agent_id = str(data.get("agent_id", "")).strip()
-    run_id = str(data.get("run_id", "")).strip()
-    llm_provider = str(data.get("provider", "")).strip() or None
-    llm_model = str(data.get("model", "")).strip() or None
+    if not agent_id:
+        return jsonify({"error": "agent_id is required"}), 400
 
-    if not agent_id or not run_id:
-        return jsonify({"error": "agent_id and run_id are required"}), 400
-
+    # Load run_id, llm_provider, and llm_model from game_state.json
     game_state = storage.read_game_state()
-    if game_state.get("run_id") != run_id:
+    if not game_state:
         return jsonify({
-            "error": f"run_id '{run_id}' does not match active run"
-        }), 400
+            "error": "No active run. Call POST /new-run first."
+            }), 400
+    run_id = game_state.get("run_id")
+    llm_provider = game_state.get("llm_provider")
+    llm_model = game_state.get("llm_model")
 
     # Run LangGraph pipeline
     result = run_pipeline(
@@ -225,30 +245,36 @@ def chat():
 
     Expected JSON body:
       {
-        "run_id":   "run_001",
         "from":     "A",
         "to":       "B",
         "message":  "Hey, how are you?",
-                "phase":    "pre_game",   // or "post_game"
-                "provider": "openai",     // optional
-                "model":    "gpt-4o-mini" // optional
+        "phase":    "pre_game",   // or "post_game"
       }
 
     Returns:
-      { "reply": "Hi! I'm a bit nervous…" }
+      {
+        "reply": "Hi! I'm a bit nervous…"
+      }
     """
     data = request.get_json(force=True, silent=True) or {}
-    run_id = str(data.get("run_id", "")).strip()
     from_agent = str(data.get("from", "")).strip()
     to_agent = str(data.get("to", "")).strip()
     message = str(data.get("message", "")).strip()
     phase = str(data.get("phase", "pre_game")).strip()
-    llm_provider = str(data.get("provider", "")).strip() or None
-    llm_model = str(data.get("model", "")).strip() or None
 
-    if not all([run_id, from_agent, to_agent, message]):
+    # Load run_id, llm_provider, and llm_model from game_state.json
+    game_state = storage.read_game_state()
+    if not game_state:
         return jsonify({
-            "error": "run_id, from, to, and message are required"
+            "error": "No active run. Call POST /new-run first."
+            }), 400
+    run_id = game_state.get("run_id")
+    llm_provider = game_state.get("llm_provider")
+    llm_model = game_state.get("llm_model")
+
+    if not all([from_agent, to_agent, message]):
+        return jsonify({
+            "error": "from, to, and message are required"
             }), 400
     if phase not in ("pre_game", "post_game"):
         return jsonify({
@@ -259,14 +285,16 @@ def chat():
     conv = storage.read_conversation(run_id, from_agent, to_agent)
     phase_key = "pre_game" if phase == "pre_game" else "post_game"
     existing = conv.get(phase_key, [])
-    if len(existing) >= 20:  # 20 messages = 10 exchanges (each side speaks 10)
+    # 20 messages = 10 exchanges (each side speaks 10)
+    if len(existing) >= 20:
         return jsonify({
             "error": "Exchange limit (10) reached for this pair"
             }), 429
 
     # Persist the sender's message (strip any connection score line first)
     storage.append_conversation(
-        run_id, from_agent, to_agent, _strip_connection_line(message), phase
+        run_id, from_agent, to_agent,
+        _strip_connection_line(message), phase
     )
 
     # Run LangGraph for the recipient
@@ -298,31 +326,39 @@ def chat():
 
 @app.route("/generate-first-message", methods=["POST"])
 def generate_first_message():
-    """Generate an LLM-crafted opening message for an agent approaching another.
+    """Generate an LLM-crafted opening message
+    for an agent approaching another.
 
     The message is NOT stored — pass it as the 'message' field to POST /chat.
 
     Expected JSON body:
       {
-        "run_id":   "run_001",
         "from":     "A",
         "to":       "B",
-        "provider": "openai",     // optional
-        "model":    "gpt-4o-mini" // optional
       }
 
     Returns:
-      { "message": "Hi B, ..." }
+      {
+        "message": "Hi B, ..."
+    }
     """
     data = request.get_json(force=True, silent=True) or {}
-    run_id = str(data.get("run_id", "")).strip()
     from_agent = str(data.get("from", "")).strip()
     to_agent = str(data.get("to", "")).strip()
-    llm_provider = str(data.get("provider", "")).strip() or None
-    llm_model = str(data.get("model", "")).strip() or None
 
-    if not all([run_id, from_agent, to_agent]):
-        return jsonify({"error": "run_id, from, and to are required"}), 400
+    # Load run_id, llm_provider, and llm_model from game_state.json
+    game_state = storage.read_game_state()
+    if not game_state:
+        return jsonify({
+            "error": "No active run. Call POST /new-run first."
+            }), 400
+
+    run_id = game_state.get("run_id")
+    llm_provider = game_state.get("llm_provider")
+    llm_model = game_state.get("llm_model")
+
+    if not all([from_agent, to_agent]):
+        return jsonify({"error": "from and to are required"}), 400
 
     result = run_pipeline(
         agent_id=from_agent,
@@ -347,7 +383,10 @@ def results():
 
     Query param: ?run_id=run_001
     Returns:
-      { "run": { … }, "scores": { … } }
+      {
+        "run": { … },
+        "scores": { … }
+    }
     """
     run_id = request.args.get("run_id", "").strip()
     if not run_id:

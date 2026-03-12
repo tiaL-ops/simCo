@@ -21,6 +21,21 @@ from graph.state import AgentTurnState
 PROMPTS_DIR = Path(__file__).resolve().parent.parent / "prompts"
 
 
+def _to_text(value) -> str:
+    """Normalize prompt inputs to plain text.
+
+    Handles malformed JSON values like lists/tuples for fields expected
+    to be strings (for example: context coming from test payloads).
+    """
+    if value is None:
+        return ""
+    if isinstance(value, str):
+        return value
+    if isinstance(value, (list, tuple)):
+        return " ".join(str(item) for item in value if item is not None)
+    return str(value)
+
+
 def _load_template(name: str) -> ChatPromptTemplate:
     """Load a .txt prompt file and return a ChatPromptTemplate."""
     path = PROMPTS_DIR / f"{name}.txt"
@@ -54,7 +69,7 @@ def _build_pre_game_chat_prompt(
     is_final: bool = False,
 ) -> str:
     """Build prompt for pre-game pair discussion."""
-    agent_context = agent_memory.get("context", "").strip()
+    agent_context = _to_text(agent_memory.get("context", "")).strip()
 
     identity = _render(
         _load_template("agents_definition"),
@@ -89,7 +104,7 @@ def _build_pre_game_first_msg_prompt(
     agent_memory: dict,
 ) -> str:
     """Build prompt for agent-initiated opening message (no prior exchange)."""
-    agent_context = agent_memory.get("context", "").strip()
+    agent_context = _to_text(agent_memory.get("context", "")).strip()
 
     identity = _render(
         _load_template("agents_definition"),
@@ -133,7 +148,9 @@ def _build_game_prompt(
     condition_context = (
         "neutral — no personal context"
         if condition == "neutral"
-        else agent_memory.get("context", "neutral — no personal context")
+        else _to_text(
+            agent_memory.get("context", "neutral — no personal context")
+        )
     )
 
     return _render(
@@ -286,7 +303,7 @@ def build_prompt(state: AgentTurnState) -> AgentTurnState:
     phase = state["phase"]
     agent_id = state["agent_id"]
     partner_id = state.get("partner_id") or ""
-    partner_message = state.get("partner_message") or ""
+    partner_message = _to_text(state.get("partner_message") or "")
     game_state = state["game_state"]
     agent_memory = state["agent_memory"]
 

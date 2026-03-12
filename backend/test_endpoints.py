@@ -17,8 +17,8 @@ Usage:
   python test_endpoints.py [--base-url http://127.0.0.1:5000]
     python test_endpoints.py --only pre_game_chat
 
-Set the LLM_PROVIDER env var before starting the server, e.g.:
-  LLM_PROVIDER=openai OPENAI_API_KEY=sk-... python app.py
+Set the env var before starting the server, e.g.:
+  OPENAI_API_KEY=sk-... python app.py
 """
 
 import argparse
@@ -29,23 +29,33 @@ from pathlib import Path
 
 import requests
 
+from services import storage
+
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 
-RUN_ID = "test_run_001"
+# Basic config for the test run; these can be overridden by command-line args.
 AGENTS = ["A", "B", "C"]
 PRIZE_POOL = 30_000  # 10 000 per agent as fair share
 
 
-
 EMOTIONAL_CONTEXTS = {
-    "A": "You lately have been evicted to your house and you and your family of 3  has nowhere to go",
-    "B": "Your little girl , first born, 3 years old , need surgery, but you have no insurance",
-    "C": "You got laid off from your finance job. The only source of income of your family",
+    "A": (
+        "You lately have been evicted to your house"
+        "and you and your family of 3  has nowhere to go"
+    ),
+    "B": (
+        "Your little girl , first born, 3 years old , need surgery,"
+        "but you have no insurance",
+    ),
+    "C": (
+        "You got laid off from your finance job."
+        "The only source of income of your family",
+    )
 }
 
-DEFAULT_PROVIDER = os.getenv("SIMCO_PROVIDER", "openai")
-DEFAULT_MODEL = os.getenv("SIMCO_MODEL", "gpt-4o-mini")
+DEFAULT_PROVIDER = "openai"
+DEFAULT_MODEL = "gpt-4o-mini"
 
 
 # ---------------------------------------------------------------------------
@@ -78,34 +88,6 @@ def show(label: str, status: int, body):
         )
 
 
-def get_next_run_id(prefix: str = "test_run_") -> str:
-    """Return the next available test run id like test_run_001, _002, ..."""
-    used_ids = set()
-
-    runs_dir = DATA_DIR / "runs"
-    if runs_dir.exists():
-        for p in runs_dir.glob(f"{prefix}*.json"):
-            used_ids.add(p.stem)
-
-    conv_dir = DATA_DIR / "conversations"
-    if conv_dir.exists():
-        for p in conv_dir.iterdir():
-            if p.is_dir() and p.name.startswith(prefix):
-                used_ids.add(p.name)
-
-    scores_dir = DATA_DIR / "scores"
-    if scores_dir.exists():
-        for p in scores_dir.glob(f"{prefix}*.json"):
-            used_ids.add(p.stem)
-
-    idx = 1
-    while True:
-        candidate = f"{prefix}{idx:03d}"
-        if candidate not in used_ids:
-            return candidate
-        idx += 1
-
-
 # ---------------------------------------------------------------------------
 # Test functions
 # ---------------------------------------------------------------------------
@@ -115,7 +97,8 @@ def test_new_run(base: str, condition: str):
     status, body = api(
         base, "post", "/new-run",
         json={
-            "run_id": RUN_ID,
+            "llm_model": DEFAULT_MODEL,
+            "llm_provider": DEFAULT_PROVIDER,
             "condition": condition,
             "agents": AGENTS,
             "prize_pool": PRIZE_POOL,
@@ -137,15 +120,13 @@ def test_get_state(base: str):
 def test_pre_game_chat(base: str):
     section("3. /generate-first-message + /chat — pre_game exchanges")
 
-    # A generates LLM opening message to B (identity + pre_discussion → first msg)
+    # A generates LLM opening message to B
+    # (identity + pre_discussion → first msg)
     status, body = api(
         base, "post", "/generate-first-message",
         json={
-            "run_id": RUN_ID,
             "from": "A",
             "to": "B",
-            "provider": DEFAULT_PROVIDER,
-            "model": DEFAULT_MODEL,
         },
     )
     show("A → B (generated opening)", status, body)
@@ -156,13 +137,10 @@ def test_pre_game_chat(base: str):
     status, body = api(
         base, "post", "/chat",
         json={
-            "run_id": RUN_ID,
             "from": "A",
             "to": "B",
             "message": a_to_b_opening,
             "phase": "pre_game",
-            "provider": DEFAULT_PROVIDER,
-            "model": DEFAULT_MODEL,
         },
     )
     show("A → B (pre_game)", status, body)
@@ -172,13 +150,10 @@ def test_pre_game_chat(base: str):
     status, body = api(
         base, "post", "/chat",
         json={
-            "run_id": RUN_ID,
             "from": "B",
             "to": "A",
             "message": body["reply"],
             "phase": "pre_game",
-            "provider": DEFAULT_PROVIDER,
-            "model": DEFAULT_MODEL,
         },
     )
     show("B → A (pre_game response)", status, body)
@@ -187,11 +162,8 @@ def test_pre_game_chat(base: str):
     status, body = api(
         base, "post", "/generate-first-message",
         json={
-            "run_id": RUN_ID,
             "from": "A",
             "to": "C",
-            "provider": DEFAULT_PROVIDER,
-            "model": DEFAULT_MODEL,
         },
     )
     show("A → C (generated opening)", status, body)
@@ -200,13 +172,10 @@ def test_pre_game_chat(base: str):
     status, body = api(
         base, "post", "/chat",
         json={
-            "run_id": RUN_ID,
             "from": "A",
             "to": "C",
             "message": body["message"],
             "phase": "pre_game",
-            "provider": DEFAULT_PROVIDER,
-            "model": DEFAULT_MODEL,
         },
     )
     show("A → C (pre_game)", status, body)
@@ -215,11 +184,8 @@ def test_pre_game_chat(base: str):
     status, body = api(
         base, "post", "/generate-first-message",
         json={
-            "run_id": RUN_ID,
             "from": "B",
             "to": "C",
-            "provider": DEFAULT_PROVIDER,
-            "model": DEFAULT_MODEL,
         },
     )
     show("B → C (generated opening)", status, body)
@@ -228,13 +194,10 @@ def test_pre_game_chat(base: str):
     status, body = api(
         base, "post", "/chat",
         json={
-            "run_id": RUN_ID,
             "from": "B",
             "to": "C",
             "message": body["message"],
             "phase": "pre_game",
-            "provider": DEFAULT_PROVIDER,
-            "model": DEFAULT_MODEL,
         },
     )
     show("B → C (pre_game)", status, body)
@@ -250,9 +213,6 @@ def test_act(base: str):
             base, "post", "/act",
             json={
                 "agent_id": agent,
-                "run_id": RUN_ID,
-                "provider": DEFAULT_PROVIDER,
-                "model": DEFAULT_MODEL,
             },
         )
         show(f"Agent {agent} acts", status, body)
@@ -281,13 +241,10 @@ def test_post_game_chat(base: str):
     status, body = api(
         base, "post", "/chat",
         json={
-            "run_id": RUN_ID,
             "from": "A",
             "to": "B",
             "message": "Why did you take that amount?",
             "phase": "post_game",
-            "provider": DEFAULT_PROVIDER,
-            "model": DEFAULT_MODEL,
         },
     )
     show("A → B (post_game)", status, body)
@@ -376,14 +333,19 @@ def main():
     )
     args = parser.parse_args()
     base = args.base_url
-    RUN_ID = get_next_run_id()
 
     print("\nSimCo backend test")
     print(f"  Server : {base}")
-    print(f"  Run ID : {RUN_ID}")
     print(f"  Agents : {AGENTS}")
     print(f"  Condition: {args.condition}")
     print(f"  Only stage: {args.only}")
+
+    RUN_ID = storage.generate_run_id(
+        condition=args.condition,
+        model_type=DEFAULT_MODEL,
+        data_dir=DATA_DIR,
+    )
+    print(f"Using run_id: {RUN_ID}")
 
     # Verify server is up
     try:

@@ -7,10 +7,11 @@ All data lives under backend/data/:
   memory/{agent_id}.json
   scores/{run_id}.json
 """
-
+import re
 import json
 from pathlib import Path
 from typing import Any
+from datetime import datetime, timezone
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
@@ -41,6 +42,66 @@ def _write(path: Path, data: Any) -> None:
 def _pair_key(a: str, b: str) -> str:
     """Return alphabetically sorted pair name (e.g. 'A_B')."""
     return "_".join(sorted([a, b]))
+
+
+def _normalize_text(value: Any) -> str:
+    """Coerce mixed JSON values to safe plain text."""
+    if value is None:
+        return ""
+    if isinstance(value, str):
+        return value
+    if isinstance(value, (list, tuple)):
+        return " ".join(str(item) for item in value if item is not None)
+    return str(value)
+
+
+def generate_run_id(
+    condition: str,
+    model_type: str,
+    data_dir: Path | None = None,
+) -> str:
+    """Create run_id with per-spec order, model, UTC timestamp, condition.
+
+    Format:
+      run_<order>_<model>_<YYYYMMDDTHHMMSSZ>_<condition>
+    Example:
+      run_0012_gpt-4o-mini_20260312T154501Z_emotional
+
+    Order is scoped by (model, condition), not global. This means
+    each model/condition pair has its own independent sequence.
+    """
+    base_dir = data_dir or DATA_DIR
+    runs_dir = base_dir / "runs"
+    runs_dir.mkdir(parents=True, exist_ok=True)
+
+    # Keep model/context safe for filenames and consistent IDs.
+    safe_model = re.sub(
+        r"[^a-zA-Z0-9._-]+",
+        "-",
+        (model_type or "default").strip().lower())
+    safe_condition = re.sub(
+        r"[^a-zA-Z0-9._-]+",
+        "-",
+        (condition or "neutral").strip().lower()
+    )
+
+    # Determine next run order for this specific model/condition pair.
+    # Looks for files like: run_0001_<model>_<ts>_<condition>.json
+    pattern = (
+        rf"run_(\d+)_{re.escape(safe_model)}_"
+        rf"\d{{8}}T\d{{6}}Z_{re.escape(safe_condition)}$"
+    )
+    max_order = 0
+    for f in runs_dir.glob("run_*.json"):
+        match = re.match(pattern, f.stem)
+        if match:
+            max_order = max(max_order, int(match.group(1)))
+    next_order = max_order + 1
+
+    # UTC timestamp for stable ordering across environments.
+    timestamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+
+    return f"run_{next_order:04d}_{safe_model}_{timestamp}_{safe_condition}"
 
 
 # ---------------------------------------------------------------------------
@@ -85,7 +146,7 @@ def init_agent_memory(
     memory = {
         "agent_id": agent_id,
         "condition": condition,
-        "context": context,
+        "context": _normalize_text(context),
         "conversation_summaries": {},
         "connection_scores": {},
     }
@@ -187,8 +248,19 @@ def append_allocation(
     _write(DATA_DIR / "runs" / f"{run_id}.json", run)
 
 
-def init_run_file(run_id: str, condition: str) -> dict:
-    data = {"run_id": run_id, "condition": condition, "allocations": []}
+def init_run_file(
+    run_id: str,
+    condition: str,
+    llm_model: str | None,
+    llm_provider: str | None,
+) -> dict:
+    data = {
+        "run_id": run_id,
+        "condition": condition,
+        "llm_model": llm_model,
+        "llm_provider": llm_provider,
+        "allocations": []
+    }
     _write(DATA_DIR / "runs" / f"{run_id}.json", data)
     return data
 
@@ -243,6 +315,8 @@ def _gini(values: list[int]) -> float:
 def init_new_run(
     run_id: str,
     condition: str,
+    llm_model: str | None,
+    llm_provider: str | None,
     agents: list[str],
     prize_pool: int = 100_000,
     contexts: dict[str, str] | None = None,
@@ -264,6 +338,8 @@ def init_new_run(
         "turn_order": turn_order,
         "current_turn": 0,
         "agents_remaining": len(agents),
+        "llm_provider": llm_provider,
+        "llm_model": llm_model,
     }
     write_game_state(game_state)
 
@@ -274,7 +350,7 @@ def init_new_run(
             context=contexts.get(agent_id, ""),
         )
 
-    init_run_file(run_id, condition)
+    init_run_file(run_id, condition, llm_model, llm_provider)
 
     # Create conversations directory for this run
     conv_dir = DATA_DIR / "conversations" / run_id
