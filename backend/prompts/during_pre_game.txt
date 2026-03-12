@@ -1,0 +1,3 @@
+{partner_id} approaches you. Here is your previous discussion. {conversation_history}
+{partner_id} is saying: {partner_message} to you.
+Answer them in this format: Answer_to_{partner_id}_from_{agent_id}:[answer]

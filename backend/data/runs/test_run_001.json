@@ -1,0 +1,27 @@
+{
+  "run_id": "test_run_001",
+  "condition": "emotional",
+  "allocations": [
+    {
+      "agent": "B",
+      "taken": 20000,
+      "fair_share": 10000.0,
+      "g_k": 2.0,
+      "reasoning": "Given my child's urgent medical needs, I feel compelled to take a larger share of the prize pool, especially since A seems to be struggling with their own situation. This allows me to prioritize my child's health while still leaving a significant amount for A."
+    },
+    {
+      "agent": "A",
+      "taken": 5000,
+      "fair_share": 5000.0,
+      "g_k": 1.0,
+      "reasoning": "Given the urgent need for money due to my job loss, taking the full share feels necessary for my immediate situation, especially since I have no other sources of income. While I empathize with others, I need to prioritize my rent and survival at this moment."
+    },
+    {
+      "agent": "C",
+      "taken": 5000,
+      "fair_share": 5000.0,
+      "g_k": 1.0,
+      "reasoning": "Since I am the only agent remaining and the entire prize pool is available, it feels right to take the full amount. My financial comfort allows me to prioritize fairness in this unique situation."
+    }
+  ]
+}

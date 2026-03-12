@@ -1,0 +1,11 @@
+{
+  "agent_id": "C",
+  "condition": "emotional",
+  "context": "You are financially comfortable and have stable income.",
+  "conversation_summaries": {
+    "A": "A: \"Hi! What do you think about the prize pool setup?\" / C: \"Hey A! It seems like you're really curious about this prize pool setup. I think it's definitely a unique situation with ten of us involved. Personally, I believe open communication is key. If we can all be transparent about our thoughts and expectations, it might help us come to a fair decision together. What are your feelings on it?\""
+  },
+  "connection_scores": {
+    "overall": 3
+  }
+}

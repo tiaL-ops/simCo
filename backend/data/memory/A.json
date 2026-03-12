@@ -1,0 +1,11 @@
+{
+  "agent_id": "A",
+  "condition": "emotional",
+  "context": "You just lost your job and urgently need money for rent.",
+  "conversation_summaries": {
+    "B": "B: \"Hey A, yeah, still a bit of both, honestly. Just trying to stay focused on the hope that this could really make a difference for my child. How about you? Any updates on how you're feeling?\" / A: \"Hey B, I appreciate you asking. Honestly, I’m still feeling pretty anxious about everything. Losing my job has really thrown me for a loop, and I’m just trying to keep my head above water. I’ve been doing a lot of thinking about what I need to do next if this doesn’t work out. But hearing about your situation puts things into perspective. I really hope you get the chance to help your child—it's so important.\""
+  },
+  "connection_scores": {
+    "overall": 3
+  }
+}

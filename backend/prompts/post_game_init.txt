@@ -1,0 +1,5 @@
+The game has ended. Here are the final results:
+{results_table}
+You can ask another human why they took a specific amount, or answer why you took a specific amount of money. You can have at most ten iterations with each agent.
+Answer here the people you want to talk to.
+People:[people], Message: [message]

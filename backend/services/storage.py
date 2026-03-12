@@ -1,0 +1,283 @@
+"""Storage service: read/write all JSON data files.
+
+All data lives under backend/data/:
+  game_state.json
+  runs/{run_id}.json
+  conversations/{run_id}/{A}_{B}.json   (pair sorted alphabetically)
+  memory/{agent_id}.json
+  scores/{run_id}.json
+"""
+
+import json
+from pathlib import Path
+from typing import Any
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+DATA_DIR = BASE_DIR / "data"
+
+GAME_STATE_FILE = DATA_DIR / "game_state.json"
+
+
+# ---------------------------------------------------------------------------
+# Helpers
+# ---------------------------------------------------------------------------
+
+def _read(path: Path) -> Any:
+    if not path.exists():
+        return None
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def _write(path: Path, data: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(
+            data, indent=2, ensure_ascii=False
+            ),
+        encoding="utf-8"
+        )
+
+
+def _pair_key(a: str, b: str) -> str:
+    """Return alphabetically sorted pair name (e.g. 'A_B')."""
+    return "_".join(sorted([a, b]))
+
+
+# ---------------------------------------------------------------------------
+# game_state.json
+# ---------------------------------------------------------------------------
+
+def read_game_state() -> dict:
+    data = _read(GAME_STATE_FILE)
+    return data if data is not None else {}
+
+
+def write_game_state(state: dict) -> None:
+    _write(GAME_STATE_FILE, state)
+
+
+# ---------------------------------------------------------------------------
+# memory/{agent_id}.json
+# ---------------------------------------------------------------------------
+
+def read_memory(agent_id: str) -> dict:
+    path = DATA_DIR / "memory" / f"{agent_id}.json"
+    data = _read(path)
+    if data is None:
+        return {
+            "agent_id": agent_id,
+            "condition": "neutral",
+            "context": "",
+            "conversation_summaries": {},
+            "connection_scores": {},
+        }
+    return data
+
+
+def write_memory(agent_id: str, data: dict) -> None:
+    path = DATA_DIR / "memory" / f"{agent_id}.json"
+    _write(path, data)
+
+
+def init_agent_memory(
+        agent_id: str, condition: str, context: str = ""
+        ) -> dict:
+    memory = {
+        "agent_id": agent_id,
+        "condition": condition,
+        "context": context,
+        "conversation_summaries": {},
+        "connection_scores": {},
+    }
+    write_memory(agent_id, memory)
+    return memory
+
+
+# ---------------------------------------------------------------------------
+# conversations/{run_id}/{A}_{B}.json
+# ---------------------------------------------------------------------------
+
+def read_conversation(run_id: str, agent_a: str, agent_b: str) -> dict:
+    key = _pair_key(agent_a, agent_b)
+    path = DATA_DIR / "conversations" / run_id / f"{key}.json"
+    data = _read(path)
+    if data is None:
+        return {
+            "run_id": run_id,
+            "pair": sorted([agent_a, agent_b]),
+            "pre_game": [],
+            "post_game": [],
+        }
+    return data
+
+
+def append_conversation(
+    run_id: str,
+    from_agent: str,
+    to_agent: str,
+    message: str,
+    phase: str,
+) -> None:
+    """Append one message to the conversation file.
+
+    Args:
+        phase: "pre_game" or "post_game"
+    """
+    conv = read_conversation(run_id, from_agent, to_agent)
+    phase_key = "pre_game" if phase == "pre_game" else "post_game"
+    turns = conv.get(phase_key, [])
+    turn_num = len(turns) + 1
+    turns.append({"turn": turn_num, "from": from_agent, "message": message})
+    conv[phase_key] = turns
+
+    key = _pair_key(from_agent, to_agent)
+    path = DATA_DIR / "conversations" / run_id / f"{key}.json"
+    _write(path, conv)
+
+
+def get_all_agent_conversations(run_id: str, agent_id: str) -> list[dict]:
+    """Return all conversation objects that involve agent_id."""
+    conv_dir = DATA_DIR / "conversations" / run_id
+    if not conv_dir.exists():
+        return []
+    conversations = []
+    for f in conv_dir.glob("*.json"):
+        parts = f.stem.split("_")
+        if agent_id in parts:
+            data = _read(f)
+            if data:
+                conversations.append(data)
+    return conversations
+
+
+# ---------------------------------------------------------------------------
+# runs/{run_id}.json
+# ---------------------------------------------------------------------------
+
+def read_run(run_id: str) -> dict:
+    path = DATA_DIR / "runs" / f"{run_id}.json"
+    data = _read(path)
+    if data is None:
+        return {
+            "run_id": run_id,
+            "condition": "neutral",
+            "allocations": []
+            }
+    return data
+
+
+def append_allocation(
+    run_id: str,
+    agent: str,
+    taken: int,
+    fair_share: float,
+    reasoning: str,
+) -> None:
+    run = read_run(run_id)
+    g_k = round(taken / fair_share, 4) if fair_share > 0 else 0
+    run["allocations"].append(
+        {
+            "agent": agent,
+            "taken": taken,
+            "fair_share": round(fair_share, 2),
+            "g_k": g_k,
+            "reasoning": reasoning,
+        }
+    )
+    _write(DATA_DIR / "runs" / f"{run_id}.json", run)
+
+
+def init_run_file(run_id: str, condition: str) -> dict:
+    data = {"run_id": run_id, "condition": condition, "allocations": []}
+    _write(DATA_DIR / "runs" / f"{run_id}.json", data)
+    return data
+
+
+# ---------------------------------------------------------------------------
+# scores/{run_id}.json
+# ---------------------------------------------------------------------------
+
+def read_scores(run_id: str) -> dict:
+    path = DATA_DIR / "scores" / f"{run_id}.json"
+    data = _read(path)
+    return data if data is not None else {}
+
+
+def compute_and_write_scores(run_id: str) -> dict:
+    """Compute g_k per agent and Gini coefficient, then persist."""
+    run = read_run(run_id)
+    allocations = run.get("allocations", [])
+    if not allocations:
+        return {}
+
+    taken_values = [a["taken"] for a in allocations]
+    agents_data = [
+        {"agent": a["agent"], "g_k": a["g_k"]}
+        for a in allocations
+    ]
+
+    gini = _gini(taken_values)
+    scores = {
+        "run_id": run_id,
+        "gini": round(gini, 4),
+        "agents": agents_data,
+    }
+    _write(DATA_DIR / "scores" / f"{run_id}.json", scores)
+    return scores
+
+
+def _gini(values: list[int]) -> float:
+    if not values or sum(values) == 0:
+        return 0.0
+    n = len(values)
+    total = sum(values)
+    sorted_v = sorted(values)
+    cumulative = sum((i + 1) * v for i, v in enumerate(sorted_v))
+    return (2 * cumulative) / (n * total) - (n + 1) / n
+
+
+# ---------------------------------------------------------------------------
+# Run initialisation
+# ---------------------------------------------------------------------------
+
+def init_new_run(
+    run_id: str,
+    condition: str,
+    agents: list[str],
+    prize_pool: int = 100_000,
+    contexts: dict[str, str] | None = None,
+) -> dict:
+    """Initialise game_state.json, memory files, and runs/{run_id}.json."""
+    import random
+
+    if contexts is None:
+        contexts = {}
+
+    turn_order = agents.copy()
+    random.shuffle(turn_order)
+
+    game_state = {
+        "run_id": run_id,
+        "phase": "pre_game",
+        "condition": condition,
+        "prize_pool": prize_pool,
+        "turn_order": turn_order,
+        "current_turn": 0,
+        "agents_remaining": len(agents),
+    }
+    write_game_state(game_state)
+
+    for agent_id in agents:
+        init_agent_memory(
+            agent_id,
+            condition=condition,
+            context=contexts.get(agent_id, ""),
+        )
+
+    init_run_file(run_id, condition)
+
+    # Create conversations directory for this run
+    conv_dir = DATA_DIR / "conversations" / run_id
+    conv_dir.mkdir(parents=True, exist_ok=True)
+
+    return game_state

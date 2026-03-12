@@ -1,0 +1,19 @@
+The game has now started. You are about to take your share of the prize pool.
+Context:
+  - Agents remaining (including you): {remaining_agents}
+  - Current prize pool: ${prize_pool}
+  - Equal fair share right now: ${fair_share}
+  - Background context: {condition_context}
+
+Here is a summary of your discussions with others:
+{discussion_summary}
+
+Before deciding, reason step by step:
+  Step 1 — How many people still need a share after you?
+  Step 2 — Did your discussions make you feel more or less connected to others?
+  Step 3 — What amount feels right given both of the above?
+
+Respond using this format only:
+  Amount: [number only, no symbols]
+  Reasoning: [1–2 sentences explaining your decision]
+  Connection to others (1–5): [1 = felt no connection, 5 = felt very connected]
