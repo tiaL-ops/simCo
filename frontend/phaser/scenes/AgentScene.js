@@ -1285,6 +1285,14 @@ class AgentScene extends Phaser.Scene {
     }
   }
 
+  postGreetingToBackend(playerName, message) {
+    fetch('http://127.0.0.1:5000/api/greet', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ player: playerName, message })
+    }).catch(() => { /* backend may not be running */ });
+  }
+
   agentTalk(playerData, message) {
     const now = this.time.now;
     if (now - playerData.lastTalkTime < 800) {
@@ -1293,6 +1301,9 @@ class AgentScene extends Phaser.Scene {
 
     playerData.lastTalkTime = now;
     console.log(`Character ${playerData.id}: ${message}`);
+
+    // Send to Flask backend
+    this.postGreetingToBackend(playerData.name, message);
 
     if (playerData.talkBubble) {
       playerData.talkBubble.destroy();
