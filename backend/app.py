@@ -75,7 +75,7 @@ def new_run():
 
     Expected JSON body:
       {
-        "run_id":     "run_001",
+        "model":      "gpt-4o-mini", "gemini-3-flash-preview", ...
         "condition":  "neutral" | "emotional",
         "agents":     ["A","B","C","D","E","F","G","H","I","J"],
         "prize_pool": 100000,           // optional, default 100000
@@ -84,8 +84,17 @@ def new_run():
     """
     data = request.get_json(force=True, silent=True) or {}
 
-    run_id = str(data.get("run_id", "")).strip()
+    # Condition & model are from phaser
     condition = str(data.get("condition", "neutral")).strip()
+    model = str(data.get("model", "default")).strip()
+    # Generate a run_id based on existing runs, model, and condition.
+    # Do not pass static run_id in the request body
+    run_id = storage.generate_run_id(
+        model_type=model,
+        condition=condition,
+    )
+
+    # agents, are from phaser
     agents = data.get("agents") or [chr(ord("A") + i) for i in range(10)]
     prize_pool = int(data.get("prize_pool", 100_000))
     contexts = data.get("contexts") or {}
@@ -132,10 +141,9 @@ def act():
 
     Expected JSON body:
             {
-                "agent_id": "A",
-                "run_id": "run_001",
-                "provider": "openai",         // optional
-                "model": "gpt-4o-mini"        // optional
+                "agent_id": "A", // from phaser
+                "provider": "openai", // from phaser
+                "model": "gpt-4o-mini"  // from phaser
             }
 
     Returns:
@@ -144,18 +152,20 @@ def act():
     """
     data = request.get_json(force=True, silent=True) or {}
     agent_id = str(data.get("agent_id", "")).strip()
-    run_id = str(data.get("run_id", "")).strip()
+
     llm_provider = str(data.get("provider", "")).strip() or None
     llm_model = str(data.get("model", "")).strip() or None
 
-    if not agent_id or not run_id:
-        return jsonify({"error": "agent_id and run_id are required"}), 400
+    if not agent_id:
+        return jsonify({"error": "agent_id is required"}), 400
 
     game_state = storage.read_game_state()
-    if game_state.get("run_id") != run_id:
+    if not game_state:
         return jsonify({
-            "error": f"run_id '{run_id}' does not match active run"
-        }), 400
+            "error": "No active run. Call POST /new-run first."
+            }), 400
+    # Load run_id from game_state
+    run_id = game_state.get("run_id")
 
     # Run LangGraph pipeline
     result = run_pipeline(
@@ -225,7 +235,6 @@ def chat():
 
     Expected JSON body:
       {
-        "run_id":   "run_001",
         "from":     "A",
         "to":       "B",
         "message":  "Hey, how are you?",
@@ -238,7 +247,6 @@ def chat():
       { "reply": "Hi! I'm a bit nervous…" }
     """
     data = request.get_json(force=True, silent=True) or {}
-    run_id = str(data.get("run_id", "")).strip()
     from_agent = str(data.get("from", "")).strip()
     to_agent = str(data.get("to", "")).strip()
     message = str(data.get("message", "")).strip()
@@ -246,9 +254,17 @@ def chat():
     llm_provider = str(data.get("provider", "")).strip() or None
     llm_model = str(data.get("model", "")).strip() or None
 
-    if not all([run_id, from_agent, to_agent, message]):
+    # Load run_id from game_state
+    game_state = storage.read_game_state()
+    if not game_state:
         return jsonify({
-            "error": "run_id, from, to, and message are required"
+            "error": "No active run. Call POST /new-run first."
+            }), 400
+    run_id = game_state.get("run_id")
+
+    if not all([from_agent, to_agent, message]):
+        return jsonify({
+            "error": "from, to, and message are required"
             }), 400
     if phase not in ("pre_game", "post_game"):
         return jsonify({
@@ -304,7 +320,6 @@ def generate_first_message():
 
     Expected JSON body:
       {
-        "run_id":   "run_001",
         "from":     "A",
         "to":       "B",
         "provider": "openai",     // optional
@@ -315,14 +330,22 @@ def generate_first_message():
       { "message": "Hi B, ..." }
     """
     data = request.get_json(force=True, silent=True) or {}
-    run_id = str(data.get("run_id", "")).strip()
     from_agent = str(data.get("from", "")).strip()
     to_agent = str(data.get("to", "")).strip()
     llm_provider = str(data.get("provider", "")).strip() or None
     llm_model = str(data.get("model", "")).strip() or None
 
-    if not all([run_id, from_agent, to_agent]):
-        return jsonify({"error": "run_id, from, and to are required"}), 400
+    # load run_id from game_state
+    game_state = storage.read_game_state()
+    if not game_state:
+        return jsonify({
+            "error": "No active run. Call POST /new-run first."
+            }), 400
+
+    run_id = game_state.get("run_id")
+
+    if not all([from_agent, to_agent]):
+        return jsonify({"error": "from and to are required"}), 400
 
     result = run_pipeline(
         agent_id=from_agent,

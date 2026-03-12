@@ -7,10 +7,11 @@ All data lives under backend/data/:
   memory/{agent_id}.json
   scores/{run_id}.json
 """
-
+import re
 import json
 from pathlib import Path
 from typing import Any
+from datetime import datetime, timezone
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
@@ -41,6 +42,48 @@ def _write(path: Path, data: Any) -> None:
 def _pair_key(a: str, b: str) -> str:
     """Return alphabetically sorted pair name (e.g. 'A_B')."""
     return "_".join(sorted([a, b]))
+
+
+def generate_run_id(
+    condition: str,
+    model_type: str,
+    data_dir: Path | None = None,
+) -> str:
+    """Create run_id with order, model, UTC timestamp, and condition.
+
+    Format:
+      run_<order>_<model>_<YYYYMMDDTHHMMSSZ>_<condition>
+    Example:
+      run_0012_gpt-4o-mini_20260312T154501Z_emotional
+    """
+    base_dir = data_dir or DATA_DIR
+    runs_dir = base_dir / "runs"
+    runs_dir.mkdir(parents=True, exist_ok=True)
+
+    # Determine next run order from existing run files.
+    # Looks for files like run_0001_... .json and increments max found.
+    max_order = 0
+    for f in runs_dir.glob("run_*.json"):
+        match = re.match(r"run_(\d+)_", f.stem)
+        if match:
+            max_order = max(max_order, int(match.group(1)))
+    next_order = max_order + 1
+
+    # Keep model/context safe for filenames and consistent IDs.
+    safe_model = re.sub(
+        r"[^a-zA-Z0-9._-]+",
+        "-",
+        (model_type or "default").strip().lower())
+    safe_condition = re.sub(
+        r"[^a-zA-Z0-9._-]+",
+        "-",
+        (condition or "neutral").strip().lower()
+    )
+
+    # UTC timestamp for stable ordering across environments.
+    timestamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+
+    return f"run_{next_order:04d}_{safe_model}_{timestamp}_{safe_condition}"
 
 
 # ---------------------------------------------------------------------------

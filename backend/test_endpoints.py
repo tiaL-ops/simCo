@@ -29,13 +29,15 @@ from pathlib import Path
 
 import requests
 
+from services import storage
+
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 
-RUN_ID = "test_run_001"
+
+
 AGENTS = ["A", "B", "C"]
 PRIZE_POOL = 30_000  # 10 000 per agent as fair share
-
 
 
 EMOTIONAL_CONTEXTS = {
@@ -46,6 +48,13 @@ EMOTIONAL_CONTEXTS = {
 
 DEFAULT_PROVIDER = os.getenv("SIMCO_PROVIDER", "openai")
 DEFAULT_MODEL = os.getenv("SIMCO_MODEL", "gpt-4o-mini")
+
+
+RUN_ID = storage.generate_run_id(
+    condition="emotional",
+    model_type="gpt-4o-mini",
+    data_dir=DATA_DIR,
+)
 
 
 # ---------------------------------------------------------------------------
@@ -78,34 +87,6 @@ def show(label: str, status: int, body):
         )
 
 
-def get_next_run_id(prefix: str = "test_run_") -> str:
-    """Return the next available test run id like test_run_001, _002, ..."""
-    used_ids = set()
-
-    runs_dir = DATA_DIR / "runs"
-    if runs_dir.exists():
-        for p in runs_dir.glob(f"{prefix}*.json"):
-            used_ids.add(p.stem)
-
-    conv_dir = DATA_DIR / "conversations"
-    if conv_dir.exists():
-        for p in conv_dir.iterdir():
-            if p.is_dir() and p.name.startswith(prefix):
-                used_ids.add(p.name)
-
-    scores_dir = DATA_DIR / "scores"
-    if scores_dir.exists():
-        for p in scores_dir.glob(f"{prefix}*.json"):
-            used_ids.add(p.stem)
-
-    idx = 1
-    while True:
-        candidate = f"{prefix}{idx:03d}"
-        if candidate not in used_ids:
-            return candidate
-        idx += 1
-
-
 # ---------------------------------------------------------------------------
 # Test functions
 # ---------------------------------------------------------------------------
@@ -115,7 +96,7 @@ def test_new_run(base: str, condition: str):
     status, body = api(
         base, "post", "/new-run",
         json={
-            "run_id": RUN_ID,
+            "model": DEFAULT_MODEL,
             "condition": condition,
             "agents": AGENTS,
             "prize_pool": PRIZE_POOL,
@@ -141,7 +122,6 @@ def test_pre_game_chat(base: str):
     status, body = api(
         base, "post", "/generate-first-message",
         json={
-            "run_id": RUN_ID,
             "from": "A",
             "to": "B",
             "provider": DEFAULT_PROVIDER,
@@ -156,7 +136,6 @@ def test_pre_game_chat(base: str):
     status, body = api(
         base, "post", "/chat",
         json={
-            "run_id": RUN_ID,
             "from": "A",
             "to": "B",
             "message": a_to_b_opening,
@@ -172,7 +151,6 @@ def test_pre_game_chat(base: str):
     status, body = api(
         base, "post", "/chat",
         json={
-            "run_id": RUN_ID,
             "from": "B",
             "to": "A",
             "message": body["reply"],
@@ -187,7 +165,6 @@ def test_pre_game_chat(base: str):
     status, body = api(
         base, "post", "/generate-first-message",
         json={
-            "run_id": RUN_ID,
             "from": "A",
             "to": "C",
             "provider": DEFAULT_PROVIDER,
@@ -200,7 +177,6 @@ def test_pre_game_chat(base: str):
     status, body = api(
         base, "post", "/chat",
         json={
-            "run_id": RUN_ID,
             "from": "A",
             "to": "C",
             "message": body["message"],
@@ -215,7 +191,6 @@ def test_pre_game_chat(base: str):
     status, body = api(
         base, "post", "/generate-first-message",
         json={
-            "run_id": RUN_ID,
             "from": "B",
             "to": "C",
             "provider": DEFAULT_PROVIDER,
@@ -228,7 +203,6 @@ def test_pre_game_chat(base: str):
     status, body = api(
         base, "post", "/chat",
         json={
-            "run_id": RUN_ID,
             "from": "B",
             "to": "C",
             "message": body["message"],
@@ -250,7 +224,6 @@ def test_act(base: str):
             base, "post", "/act",
             json={
                 "agent_id": agent,
-                "run_id": RUN_ID,
                 "provider": DEFAULT_PROVIDER,
                 "model": DEFAULT_MODEL,
             },
@@ -281,7 +254,6 @@ def test_post_game_chat(base: str):
     status, body = api(
         base, "post", "/chat",
         json={
-            "run_id": RUN_ID,
             "from": "A",
             "to": "B",
             "message": "Why did you take that amount?",
@@ -376,12 +348,11 @@ def main():
     )
     args = parser.parse_args()
     base = args.base_url
-    RUN_ID = get_next_run_id()
 
     print("\nSimCo backend test")
     print(f"  Server : {base}")
-    print(f"  Run ID : {RUN_ID}")
     print(f"  Agents : {AGENTS}")
+    print(f"  Run ID : {RUN_ID}")
     print(f"  Condition: {args.condition}")
     print(f"  Only stage: {args.only}")
 
