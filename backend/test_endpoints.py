@@ -75,6 +75,34 @@ def show(label: str, status: int, body):
         )
 
 
+def get_next_run_id(prefix: str = "test_run_") -> str:
+    """Return the next available test run id like test_run_001, _002, ..."""
+    used_ids = set()
+
+    runs_dir = DATA_DIR / "runs"
+    if runs_dir.exists():
+        for p in runs_dir.glob(f"{prefix}*.json"):
+            used_ids.add(p.stem)
+
+    conv_dir = DATA_DIR / "conversations"
+    if conv_dir.exists():
+        for p in conv_dir.iterdir():
+            if p.is_dir() and p.name.startswith(prefix):
+                used_ids.add(p.name)
+
+    scores_dir = DATA_DIR / "scores"
+    if scores_dir.exists():
+        for p in scores_dir.glob(f"{prefix}*.json"):
+            used_ids.add(p.stem)
+
+    idx = 1
+    while True:
+        candidate = f"{prefix}{idx:03d}"
+        if candidate not in used_ids:
+            return candidate
+        idx += 1
+
+
 # ---------------------------------------------------------------------------
 # Test functions
 # ---------------------------------------------------------------------------
@@ -249,6 +277,7 @@ def inspect_conversation(run_id: str):
 # ---------------------------------------------------------------------------
 
 def main():
+    global RUN_ID
     parser = argparse.ArgumentParser(
         description="Test SimCo backend endpoints"
         )
@@ -273,6 +302,7 @@ def main():
     )
     args = parser.parse_args()
     base = args.base_url
+    RUN_ID = get_next_run_id()
 
     print("\nSimCo backend test")
     print(f"  Server : {base}")

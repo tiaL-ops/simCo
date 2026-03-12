@@ -146,6 +146,18 @@ def _build_post_game_chat_prompt(
     )
 
 
+def _build_summary_conv_prompt(
+    your_id_connection: str,
+    conversation: str,
+) -> str:
+    """Build prompt for global pre-game social reflection."""
+    return _render(
+        _load_template("summary_conv"),
+        yourID_connection=your_id_connection,
+        conversation=conversation,
+    )
+
+
 # ---------------------------------------------------------------------------
 # Node 1 — load_context
 # ---------------------------------------------------------------------------
@@ -187,11 +199,34 @@ def load_context(state: AgentTurnState) -> AgentTurnState:
 
         # Also include stored summaries from memory
         summaries = agent_memory.get("conversation_summaries", {})
+        overall_summary = summaries.get("overall_pre_game", "")
+        if overall_summary:
+            lines.append(f"Overall social reflection: {overall_summary}")
+
         for partner, summary in summaries.items():
+            if partner == "overall_pre_game":
+                continue
             if summary and not any(
                 partner in line_text for line_text in lines
             ):
                 lines.append(f"With {partner}: {summary}")
+
+        # Include partner ranking from pre-game connection scores.
+        scores = agent_memory.get("connection_scores", {})
+        ranked = sorted(
+            [
+                (partner, score)
+                for partner, score in scores.items()
+                if partner != "overall" and isinstance(score, (int, float))
+            ],
+            key=lambda item: item[1],
+            reverse=True,
+        )
+        if ranked:
+            ranking_text = ", ".join(
+                f"{partner}({int(score)})" for partner, score in ranked
+            )
+            lines.append(f"Connection ranking: {ranking_text}")
 
         discussion_summary = "\n".join(lines) if lines \
             else "No prior discussions."
@@ -313,6 +348,17 @@ def _parse_chat_output(state: AgentTurnState, raw: str) -> None:
     payload = match.group(1).strip() if match else raw.strip()
     state["reply_message"] = _normalize_chat_reply(payload)
 
+    conn_match = re.search(
+        rf"Connection_to_{re.escape(partner_id)}_from_"
+        rf"{re.escape(agent_id)}\s*:\s*([1-5])",
+        raw,
+        re.IGNORECASE,
+    )
+    if not conn_match:
+        conn_match = re.search(r"Connection\s*[:\-]\s*([1-5])", raw, re.IGNORECASE)
+    if conn_match:
+        state["connection_score"] = int(conn_match.group(1))
+
 
 def _normalize_chat_reply(text: str) -> str:
     """Normalize model formatting artifacts in chat replies."""
@@ -376,7 +422,7 @@ def update_memory(state: AgentTurnState) -> AgentTurnState:
     if phase == "game":
         conn = state.get("connection_score")
         if conn is not None:
-            # Store overall connection score
+            # Store overall game-phase connection score
             memory.setdefault("connection_scores", {})["overall"] = conn
         storage.write_memory(agent_id, memory)
 
@@ -385,13 +431,83 @@ def update_memory(state: AgentTurnState) -> AgentTurnState:
         if partner_id:
             partner_msg = state.get("partner_message") or ""
             reply = state.get("reply_message") or ""
+            conn = state.get("connection_score")
+
+            if phase == "pre_game_chat" and conn is not None:
+                memory.setdefault("connection_scores", {})[partner_id] = conn
+
             summaries = memory.setdefault("conversation_summaries", {})
+            # Keep a lightweight per-partner log snippet.
             prev = summaries.get(partner_id, "")
             new_entry = (
                 f"{partner_id}: \"{partner_msg}\" / "
                 f"{agent_id}: \"{reply}\""
             )
             summaries[partner_id] = (prev + " | " + new_entry).lstrip(" | ")
+
+            connection_scores = memory.get("connection_scores", {})
+            ranked = sorted(
+                [
+                    (pid, score)
+                    for pid, score in connection_scores.items()
+                    if pid != "overall" and isinstance(score, (int, float))
+                ],
+                key=lambda item: item[1],
+                reverse=True,
+            )
+            score_lines = [
+                f"- {pid}: {int(score)}/5" for pid, score in ranked
+            ]
+
+            snippets = []
+            for pid, text in summaries.items():
+                if pid == "overall_pre_game" or not text:
+                    continue
+                snippets.append(f"- {pid}: {text}")
+
+            all_convs = storage.get_all_agent_conversations(
+                state["run_id"],
+                agent_id,
+            )
+            transcript_blocks = []
+            for conv in all_convs:
+                pair = conv.get("pair", [])
+                pid = next((p for p in pair if p != agent_id), "")
+                pre_turns = conv.get("pre_game", [])
+                if not pre_turns:
+                    continue
+                turns_text = " | ".join(
+                    f"{m.get('from', '')}: {m.get('message', '')}"
+                    for m in pre_turns
+                )
+                transcript_blocks.append(f"- With {pid}: {turns_text}")
+
+            global_context = (
+                "Connection scores by partner:\n"
+                + ("\n".join(score_lines) if score_lines else "- none yet")
+                + "\n\nConversation highlights by partner:\n"
+                + ("\n".join(snippets) if snippets else "- none yet")
+            )
+
+            conversation_context = (
+                "Pre-game conversation transcripts:\n"
+                + ("\n".join(transcript_blocks) if transcript_blocks else "- none yet")
+            )
+
+            summary_prompt = _build_summary_conv_prompt(
+                your_id_connection=global_context,
+                conversation=conversation_context,
+            )
+
+            llm = get_llm(
+                provider=state.get("llm_provider"),
+                model=state.get("llm_model"),
+            )
+            summary = ask_llm(llm, summary_prompt).strip()
+
+            if summary:
+                summaries["overall_pre_game"] = summary
+
             storage.write_memory(agent_id, memory)
 
     return state
