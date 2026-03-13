@@ -1,5 +1,14 @@
 The game has ended. Here are the final results:
 {results_table}
-You can ask another human why they took a specific amount, or answer why you took a specific amount of money. You can have at most ten iterations with each agent.
-Answer here the people you want to talk to.
-People:[people], Message: [message]
+You can choose zero or more people to contact after the game.
+Available people: {available_people}
+You can ask why they took a specific amount, explain your own choice, confront them, or follow up on your earlier discussion.
+If you choose multiple people, the same opening message will be sent to each of them.
+
+Respond in exactly this format:
+People: [A, B]
+Message: [your opening message]
+
+If you do not want to contact anyone, respond exactly like this:
+People: []
+Message: []

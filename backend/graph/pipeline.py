@@ -91,6 +91,8 @@ def run_pipeline(
         "reply_message": None,
         "wants_to_leave": None,
         "is_final": True if force_final else None,
+        "post_game_targets": [],
+        "post_game_request_message": None,
     }
     result = compiled_graph.invoke(initial)
     return result

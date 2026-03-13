@@ -10,8 +10,9 @@ from services import storage
 from graph.pipeline import run_pipeline
 from graph.nodes import _strip_connection_line
 
-MIN_MESSAGES = 10   # 5 per side before LEAVE is honoured
-MAX_MESSAGES = 20   # 10 per side hard cap
+MIN_MESSAGES = 10           # 5 per side before LEAVE is honoured (pre-game)
+MAX_MESSAGES = 20           # 10 per side hard cap (pre-game)
+MAX_POST_GAME_MESSAGES = 10 # 5 per side hard cap (post-game)
 
 
 # ---------------------------------------------------------------------------
@@ -197,30 +198,96 @@ def act_agent(agent_id: str) -> dict:
 # ---------------------------------------------------------------------------
 
 def run_post_game_phase(game_state: dict) -> list[dict]:
-    """Run all post-game pair discussions. Returns pair summaries."""
+    """Run directed post-game discussions from stored agent requests.
+
+    Logic:
+    - Each agent states who they want to talk to + their opening message
+      (stored via post_game_init pipeline, no separate generation step).
+    - One-sided (A→B only): A's stored message is the opener; B replies
+      with LLM; they alternate up to the cap.
+    - Mutual (A→B AND B→A): A's stored message is turn 1; B's stored
+      message is turn 2 (no extra LLM call); then they alternate with LLM.
+    - Per-pair conversation stored in conversations/{run_id}/A_B.json under
+      the "post_game" key.
+    """
     run_id       = game_state["run_id"]
     llm_provider = game_state.get("llm_provider")
     llm_model    = game_state.get("llm_model")
     agents       = game_state.get("turn_order", [])
     pairs_summary = []
 
-    for agent_a, agent_b in itertools.combinations(agents, 2):
-        pair_log = {"pair": [agent_a, agent_b], "turns": 0}
+    # Step 1 — collect every agent's choice and opener (no separate message
+    # generation: the LLM produces People + Message in post_game_init and
+    # we store exactly that message).
+    storage.clear_post_game_requests(run_id)
+    storage.clear_conversation_phase(run_id, "post_game")
 
-        # Opening reflection from agent_a
-        open_result = run_pipeline(
-            agent_id=agent_a, run_id=run_id,
+    for agent_id in agents:
+        run_pipeline(
+            agent_id=agent_id,
+            run_id=run_id,
             phase="post_game_init",
-            llm_provider=llm_provider, llm_model=llm_model,
+            llm_provider=llm_provider,
+            llm_model=llm_model,
         )
-        current_message = open_result.get("reply_message") or ""
-        storage.append_conversation(run_id, agent_a, agent_b, current_message, "post_game")
 
-        current_sender, current_receiver = agent_a, agent_b
+    run = storage.read_run(run_id)
+    requests = run.get("post_game_requests", [])
 
+    # Build a fast lookup: (from, to) → stored message
+    requests_map: dict[tuple, str] = {
+        (r["from"], r["to"]): r["message"]
+        for r in requests
+        if r.get("from") and r.get("to") and r.get("message")
+    }
+
+    # Step 2 — run each unique pair exactly once
+    processed_pairs: set[frozenset] = set()
+
+    for request in requests:
+        agent_a = request.get("from") or ""
+        agent_b = request.get("to") or ""
+        opener_a = request.get("message") or ""
+        if not agent_a or not agent_b or not opener_a:
+            continue
+
+        pair_key = frozenset([agent_a, agent_b])
+        if pair_key in processed_pairs:
+            continue
+        processed_pairs.add(pair_key)
+
+        # Does B also have a stored message addressed to A?
+        opener_b = requests_map.get((agent_b, agent_a))
+        mutual = bool(opener_b)
+
+        pair_log = {
+            "pair": [agent_a, agent_b],
+            "turns": 0,
+            "initiator": agent_a,
+            "mutual": mutual,
+            "message": opener_a,
+        }
+
+        # Turn 1 — A's stored opener (no new LLM call)
+        storage.append_conversation(run_id, agent_a, agent_b, opener_a, "post_game")
+        pair_log["turns"] += 1
+
+        if mutual:
+            # Turn 2 — B's stored opener (no new LLM call)
+            storage.append_conversation(run_id, agent_b, agent_a, opener_b, "post_game")
+            pair_log["turns"] += 1
+            current_message  = opener_b
+            current_sender   = agent_b
+            current_receiver = agent_a
+        else:
+            current_message  = opener_a
+            current_sender   = agent_a
+            current_receiver = agent_b
+
+        # Remaining turns — LLM alternation
         while True:
             conv = storage.read_conversation(run_id, agent_a, agent_b)
-            if len(conv.get("post_game", [])) >= MAX_MESSAGES:
+            if len(conv.get("post_game", [])) >= MAX_POST_GAME_MESSAGES:
                 break
 
             result = run_pipeline(
@@ -238,7 +305,7 @@ def run_post_game_phase(game_state: dict) -> list[dict]:
             if result.get("wants_to_leave"):
                 break
 
-            current_message = reply
+            current_message  = reply
             current_sender, current_receiver = current_receiver, current_sender
 
         pairs_summary.append(pair_log)

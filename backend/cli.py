@@ -202,7 +202,9 @@ def main():
             hdr("PHASE 3 — Post-Game Discussions")
             post_pairs = run_post_game_phase(game_state)
             for p in post_pairs:
-                ok(f"{p['pair'][0]}↔{p['pair'][1]}  {p['turns']} turns")
+                tag = "⟷ mutual" if p.get("mutual") else "→ one-sided"
+                ok(f"{p['initiator']} → {p['pair'][1]}  [{tag}]  {p['turns']} turns")
+                info(f"    {p['message'][:100]}")
             pause("Post-game done — results below")
 
         # Results
@@ -215,6 +217,9 @@ def main():
         print(f"\n  {BOLD}Connection scores:{RESET}")
         for cs in run.get("connection_scores", []):
             print(f"    {cs['from']} → {cs['to']} : {cs['score']}/5")
+        print(f"\n  {BOLD}Post-game requests:{RESET}")
+        for req in run.get("post_game_requests", []):
+            print(f"    {req['from']} → {req['to']} : {req['message']}")
         print(f"\n  {BOLD}Gini:{RESET} {scores.get('gini', 'N/A')}")
         ok(f"All data saved under backend/data/  (run: {game_state['run_id']})")
 

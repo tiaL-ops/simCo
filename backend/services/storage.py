@@ -196,6 +196,21 @@ def append_conversation(
     _write(path, conv)
 
 
+def clear_conversation_phase(run_id: str, phase: str) -> None:
+    """Clear one phase across all pair conversation files for a run."""
+    conv_dir = DATA_DIR / "conversations" / run_id
+    if not conv_dir.exists():
+        return
+
+    phase_key = "pre_game" if phase == "pre_game" else "post_game"
+    for path in conv_dir.glob("*.json"):
+        data = _read(path)
+        if not data:
+            continue
+        data[phase_key] = []
+        _write(path, data)
+
+
 def get_all_agent_conversations(run_id: str, agent_id: str) -> list[dict]:
     """Return all conversation objects that involve agent_id."""
     conv_dir = DATA_DIR / "conversations" / run_id
@@ -261,6 +276,7 @@ def init_run_file(
         "llm_provider": llm_provider,
         "allocations": [],
         "connection_scores": [],
+        "post_game_requests": [],
     }
     _write(DATA_DIR / "runs" / f"{run_id}.json", data)
     return data
@@ -286,6 +302,42 @@ def append_connection_score(
             _write(DATA_DIR / "runs" / f"{run_id}.json", run)
             return
     scores.append({"from": from_agent, "to": to_agent, "score": score})
+    _write(DATA_DIR / "runs" / f"{run_id}.json", run)
+
+
+def clear_post_game_requests(run_id: str) -> None:
+    """Remove all post-game requests for a run."""
+    run = read_run(run_id)
+    run["post_game_requests"] = []
+    _write(DATA_DIR / "runs" / f"{run_id}.json", run)
+
+
+def replace_post_game_requests(
+    run_id: str,
+    from_agent: str,
+    targets: list[str],
+    message: str,
+) -> None:
+    """Replace one agent's post-game requests in runs/{run_id}.json."""
+    run = read_run(run_id)
+    requests = [
+        entry for entry in run.setdefault("post_game_requests", [])
+        if entry.get("from") != from_agent
+    ]
+
+    cleaned_message = _normalize_text(message)
+    for target in dict.fromkeys(targets):
+        if not target or target == from_agent or not cleaned_message:
+            continue
+        requests.append(
+            {
+                "from": from_agent,
+                "to": target,
+                "message": cleaned_message,
+            }
+        )
+
+    run["post_game_requests"] = requests
     _write(DATA_DIR / "runs" / f"{run_id}.json", run)
 
 
