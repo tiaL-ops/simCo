@@ -2,7 +2,8 @@ The game has ended. Here are the final results:
 {results_table}
 You can choose zero or more people to contact after the game.
 Available people: {available_people}
-You can ask why they took a specific amount, explain your own choice, confront them, or follow up on your earlier discussion.
+You can ask why they took a specific amount, explain your own choice (If you choose to take 0$ then explain whether it was your choice or jsut because 
+the prize run off before you could pick any amount), confront them, or follow up on your earlier discussion.
 If you choose multiple people, write a separate message for each person.
 
 Respond in exactly this format:
