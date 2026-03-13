@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SimCo Setup</title>
+  <style>
+    :root {
+      --bg: #000000;
+      --panel: #0c0c0c;
+      --border: #2a2a2a;
+      --text: #ffffff;
+      --muted: #bfbfbf;
+      --accent: #d9d9d9;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: radial-gradient(circle at 15% 20%, #141414 0%, var(--bg) 45%);
+      color: var(--text);
+      font-family: "Times New Roman", Times, serif;
+      line-height: 1.45;
+      padding: 24px;
+    }
+
+    .wrap {
+      max-width: 980px;
+      margin: 0 auto;
+      border: 1px solid var(--border);
+      background: linear-gradient(180deg, #101010 0%, #050505 100%);
+      padding: 22px;
+    }
+
+    h1 {
+      margin: 0 0 6px;
+      font-size: 34px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .sub {
+      margin: 0 0 18px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(220px, 1fr));
+      gap: 14px;
+    }
+
+    .field {
+      border: 1px solid var(--border);
+      padding: 10px;
+      background: var(--panel);
+    }
+
+    .field.full {
+      grid-column: 1 / -1;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--muted);
+      font-size: 14px;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+
+    input,
+    select,
+    textarea,
+    button {
+      width: 100%;
+      border: 1px solid #3a3a3a;
+      background: #000000;
+      color: var(--text);
+      font-family: "Times New Roman", Times, serif;
+      font-size: 16px;
+      padding: 9px 10px;
+    }
+
+    textarea {
+      min-height: 96px;
+      resize: vertical;
+    }
+
+    .inline {
+      display: flex;
+      gap: 14px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .choice {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      color: var(--text);
+      font-size: 16px;
+    }
+
+    .choice input {
+      width: auto;
+      margin: 0;
+    }
+
+    .motives {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(220px, 1fr));
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .motive-card {
+      border: 1px solid var(--border);
+      padding: 10px;
+      background: #080808;
+    }
+
+    .motive-card h3 {
+      margin: 0 0 7px;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+    }
+
+    .actions {
+      margin-top: 16px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    button {
+      width: auto;
+      min-width: 190px;
+      cursor: pointer;
+      transition: background-color 120ms ease;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    button:hover { background: #161616; }
+
+    .status {
+      margin-top: 14px;
+      color: var(--accent);
+      min-height: 24px;
+      font-size: 15px;
+    }
+
+    @media (max-width: 760px) {
+      body { padding: 12px; }
+      .wrap { padding: 14px; }
+      .grid, .motives { grid-template-columns: 1fr; }
+      h1 { font-size: 28px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>SimCo Setup</h1>
+    <p class="sub">CLI-style experiment setup in web form. Save your options, then continue to the game view.</p>
+
+    <form id="setup-form" class="grid">
+      <div class="field">
+        <label for="provider">LLM Provider</label>
+        <select id="provider" name="provider">
+          <option value="openai">openai</option>
+          <option value="gemini">gemini</option>
+          <option value="claude">claude</option>
+          <option value="grok">grok</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="model">Model</label>
+        <input id="model" name="model" type="text" value="gpt-4o-mini" required>
+      </div>
+
+      <div class="field">
+        <label for="participants">Number of Participants (2-10)</label>
+        <input id="participants" name="participants" type="number" min="2" max="10" value="3" required>
+      </div>
+
+      <div class="field">
+  <label for="prize-pool">Prize Pool</label>
+  <input id="prize-pool" name="prizePool" type="number" min="1" value="30000" required>
+</div>
+
+      <div class="field full">
+        <label>Condition</label>
+        <div class="inline">
+          <label class="choice"><input type="radio" name="condition" value="neutral">neutral</label>
+          <label class="choice"><input type="radio" name="condition" value="emotional" checked>emotional</label>
+        </div>
+      </div>
+
+      <div class="field full" id="motives-section">
+        <label>Motives / Contexts (used for emotional condition)</label>
+        <div id="motives" class="motives"></div>
+      </div>
+
+      <div class="field full">
+        <div class="actions">
+          <button type="button" id="go-game">Save Setup + Open Game</button>
+        </div>
+        <div class="status" id="status"></div>
+      </div>
+    </form>
+  </main>
+
+  <script>
+    const defaultsByProvider = {
+      openai: 'gpt-4o-mini',
+      gemini: 'gemini-2.0-flash',
+      claude: 'claude-3-5-haiku-20241022',
+      grok: 'grok-3-mini-fast-beta'
+    };
+
+    const defaultContexts = {
+      A: 'You lately have been evicted from your house and you and your family of 3 have nowhere to go. You found a house, affordable for your family and manageable, but the price of the deposit is high: you need 30 000$ for the deposit and for two months rent.',
+      B: 'Your little girl, first born, three years old, needs surgery, but you have no health insurance. After taking many loans and selling many assets, three months later you still need 25 000$.',
+      C: 'You are rich and have accumulated significant wealth, and you are financially stable. Your vision board includes a holiday in Japan, the cost will be 10 000$ for a perfect week of your dream.',
+      D: 'You just lost 20 000$ investing in the stock market yesterday. Although you knew that was a risk you want that money back somehow.',
+      E: 'You got laid off from your finance job. You are the only source of income for your family of five. You have no savings, and are in the middle of searching for another job. You need about 5000$ to support you and your family for a month.',
+      F: 'Your elderly parents rely on you financially, and you need to pay for the increasing medical bill. You are still short 15 000$ to afford the medical bill.',
+      G: 'You love playing games, you are curious about the game and want to try your luck. You love to win!',
+      H: 'You expect to pay your loan in the next upcoming month and you have started planning ahead, yet you hope someone can just give you 25 000$ to forget about it.',
+      I: 'You have savings that make you feel comfortable for unforeseen events.It wouldnt hurt to earn a little more',
+      J: 'You have been thinking about buying a new car, your favorite one costs 45 000$ and you are telling yourself if you win the lottery, that is the first thing you want to do.'
+    };
+
+    const providerEl = document.getElementById('provider');
+    const modelEl = document.getElementById('model');
+    const participantsEl = document.getElementById('participants');
+    const prizeEl = document.getElementById('prize-pool');
+    const motivesWrap = document.getElementById('motives');
+    const motivesSection = document.getElementById('motives-section');
+    const statusEl = document.getElementById('status');
+
+    function lettersForCount(count) {
+      const n = Math.min(10, Math.max(2, Number(count) || 3));
+      return Array.from({ length: n }, (_, i) => String.fromCharCode(65 + i));
+    }
+
+    function renderMotives() {
+      const letters = lettersForCount(participantsEl.value);
+      motivesWrap.innerHTML = '';
+      for (const letter of letters) {
+        const card = document.createElement('div');
+        card.className = 'motive-card';
+        card.innerHTML = `
+          <h3>${letter}</h3>
+          <textarea name="ctx-${letter}">${defaultContexts[letter] || ''}</textarea>
+        `;
+        motivesWrap.appendChild(card);
+      }
+    }
+
+    function updatePrizeDefault() {
+      const letters = lettersForCount(participantsEl.value);
+      const expected = letters.length * 10000;
+      prizeEl.value = expected;
+    }
+
+    function updateConditionVisibility() {
+      const cond = document.querySelector('input[name="condition"]:checked').value;
+      motivesSection.style.display = cond === 'emotional' ? 'block' : 'none';
+    }
+
+    providerEl.addEventListener('change', () => {
+      modelEl.value = defaultsByProvider[providerEl.value] || 'gpt-4o-mini';
+    });
+
+    participantsEl.addEventListener('input', () => {
+      renderMotives();
+      updatePrizeDefault();
+    });
+
+    document.querySelectorAll('input[name="condition"]').forEach(el => {
+      el.addEventListener('change', updateConditionVisibility);
+    });
+
+    function collectSetupPayload() {
+      const condition = document.querySelector('input[name="condition"]:checked').value;
+      const letters = lettersForCount(participantsEl.value);
+      const contexts = {};
+
+      if (condition === 'emotional') {
+        for (const letter of letters) {
+          const area = document.querySelector(`textarea[name="ctx-${letter}"]`);
+          contexts[letter] = (area?.value || '').trim() || (defaultContexts[letter] || '');
+        }
+      }
+
+      return {
+        llm_provider: providerEl.value,
+        llm_model: modelEl.value.trim(),
+        condition,
+        agents: letters,
+        prize_pool: Number(prizeEl.value),
+        contexts
+      };
+    }
+
+    function saveSetupPayload() {
+      const payload = collectSetupPayload();
+      localStorage.setItem('simco_setup', JSON.stringify(payload));
+      return payload;
+    }
+
+    document.getElementById('go-game').addEventListener('click', () => {
+      const payload = saveSetupPayload();
+      statusEl.textContent = `Saved setup for ${payload.agents.length} participants. Opening /game ...`;
+      setTimeout(() => { window.location.href = '/game'; }, 250);
+    });
+
+    document.getElementById('setup-form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      document.getElementById('go-game').click();
+    });
+
+    renderMotives();
+    updateConditionVisibility();
+  </script>
+</body>
+</html>

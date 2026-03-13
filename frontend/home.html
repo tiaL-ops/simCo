@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SimCo</title>
+  <style>
+    :root {
+      --bg: #000;
+      --panel: #0c0c0c;
+      --panel2: #101010;
+      --line: #272727;
+      --text: #fff;
+      --muted: #bdbdbd;
+      --dim: #6e6e6e;
+      --active: #2d2d2d;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: radial-gradient(circle at 18% 14%, #181818 0%, #000 50%);
+      color: var(--text);
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    /* ── hero ── */
+    .hero {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 72px 24px 48px;
+      text-align: center;
+    }
+
+    .hero-title {
+      margin: 0 0 12px;
+      font-size: 56px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .hero-sub {
+      margin: 0 0 44px;
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.5;
+    }
+
+    .actions {
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      min-width: 240px;
+      padding: 16px 28px;
+      border: 1px solid #3c3c3c;
+      background: var(--panel2);
+      color: var(--text);
+      font-family: "Times New Roman", Times, serif;
+      font-size: 17px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      cursor: pointer;
+      text-decoration: none;
+      text-align: center;
+      transition: border-color 120ms ease, background 120ms ease;
+    }
+
+    .btn:hover { border-color: #6a6a6a; background: #181818; }
+
+    .btn-primary {
+      border-color: #666;
+      background: #0e0e0e;
+    }
+
+    .btn-primary:hover { border-color: #aaa; }
+
+    /* ── run list ── */
+    .runs-wrap {
+      max-width: 920px;
+      margin: 0 auto 60px;
+      padding: 0 24px;
+      display: none;
+    }
+
+    .runs-wrap.visible { display: block; }
+
+    .runs-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 10px;
+      margin-bottom: 14px;
+    }
+
+    .runs-head h2 {
+      margin: 0;
+      font-size: 22px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .run-grid {
+      display: grid;
+      gap: 8px;
+    }
+
+    .run-card {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      padding: 12px 14px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+      align-items: center;
+      cursor: pointer;
+      transition: border-color 100ms ease, background 100ms ease;
+      text-align: left;
+    }
+
+    .run-card:hover { border-color: #4a4a4a; background: #141414; }
+    .run-card.active-run { border-color: #5a5a5a; }
+
+    .run-id-text {
+      font-size: 15px;
+      letter-spacing: 0.01em;
+      word-break: break-all;
+    }
+
+    .run-badge {
+      font-size: 12px;
+      padding: 2px 7px;
+      border: 1px solid #3a3a3a;
+      color: var(--muted);
+      background: #090909;
+      white-space: nowrap;
+    }
+
+    .run-badge.green { border-color: #4b4b4b; color: #d0d0d0; }
+
+    .run-meta {
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 5px;
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .run-meta span { white-space: nowrap; }
+
+    .run-cta {
+      display: flex;
+      gap: 8px;
+      flex-direction: column;
+    }
+
+    .link-btn {
+      border: 1px solid #353535;
+      background: #000;
+      color: var(--text);
+      font-family: "Times New Roman", Times, serif;
+      font-size: 13px;
+      padding: 5px 10px;
+      cursor: pointer;
+      text-decoration: none;
+      text-align: center;
+      white-space: nowrap;
+      transition: border-color 100ms ease;
+    }
+
+    .link-btn:hover { border-color: #666; }
+
+    .loading { color: var(--muted); padding: 12px 0; font-size: 15px; }
+    .error   { color: #c0c0c0; border: 1px dashed #3a3a3a; padding: 10px; font-size: 15px; }
+    .empty   { color: var(--dim); border: 1px dashed var(--line); padding: 14px; font-size: 15px; }
+
+    @media (max-width: 680px) {
+      .hero-title { font-size: 40px; }
+      .run-card { grid-template-columns: 1fr; }
+      .run-cta { flex-direction: row; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <h1 class="hero-title">SimCo</h1>
+    <p class="hero-sub">Social Connection Experiment<br>Observe how agents cooperate, negotiate, and share resources.</p>
+    <div class="actions">
+      <a href="/setup" class="btn btn-primary">Start New Simulation</a>
+      <button class="btn" id="view-past-btn" type="button">View Past Simulations</button>
+    </div>
+  </div>
+
+  <section class="runs-wrap" id="runs-section">
+    <div class="runs-head">
+      <h2>Past Simulations</h2>
+      <button class="link-btn" id="refresh-btn" type="button">Refresh</button>
+    </div>
+    <div class="run-grid" id="run-grid">
+      <div class="loading">Loading runs…</div>
+    </div>
+  </section>
+
+  <script>
+    function htmlSafe(text) {
+      return String(text || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+    }
+
+    function conditionTag(c) {
+      return `<span class="run-badge">${htmlSafe(c || '—')}</span>`;
+    }
+
+    function renderRuns(runs) {
+      const grid = document.getElementById('run-grid');
+      if (!runs || !runs.length) {
+        grid.innerHTML = '<div class="empty">No runs found in backend/data/runs/</div>';
+        return;
+      }
+
+      grid.innerHTML = '';
+      for (const run of runs) {
+        const card = document.createElement('div');
+        card.className = `run-card${run.is_active ? ' active-run' : ''}`;
+
+        const agentsStr = run.agents && run.agents.length
+          ? run.agents.join(' ')
+          : '—';
+
+        card.innerHTML = `
+          <div>
+            <div class="run-id-text">
+              ${htmlSafe(run.run_id)}
+              ${run.is_active ? '<span class="run-badge green" style="margin-left:8px">active</span>' : ''}
+            </div>
+            <div class="run-meta">
+              <span>model: ${htmlSafe(run.llm_model || '—')}</span>
+              <span>${conditionTag(run.condition)}</span>
+              <span>agents: ${htmlSafe(agentsStr)}</span>
+              <span>allocs: ${run.allocation_count}</span>
+              <span>conv pairs: ${run.conversation_pairs}</span>
+              <span>conn scores: ${run.connection_scores}</span>
+            </div>
+          </div>
+          <div class="run-cta">
+            <a class="link-btn" href="/chat?run_id=${encodeURIComponent(run.run_id)}">View Chats</a>
+            <a class="link-btn" href="/game">Open Game</a>
+          </div>
+        `;
+
+        grid.appendChild(card);
+      }
+    }
+
+    async function loadRuns() {
+      const grid = document.getElementById('run-grid');
+      grid.innerHTML = '<div class="loading">Loading…</div>';
+      try {
+        const res = await fetch('/api/runs');
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || 'Request failed');
+        renderRuns(data.runs || []);
+      } catch (err) {
+        grid.innerHTML = `<div class="error">Could not load runs: ${htmlSafe(err.message)}</div>`;
+      }
+    }
+
+    const viewBtn = document.getElementById('view-past-btn');
+    const section = document.getElementById('runs-section');
+    let loaded = false;
+
+    viewBtn.addEventListener('click', () => {
+      const open = section.classList.toggle('visible');
+      viewBtn.textContent = open ? 'Hide Past Simulations' : 'View Past Simulations';
+      if (open && !loaded) {
+        loaded = true;
+        loadRuns();
+      }
+    });
+
+    document.getElementById('refresh-btn').addEventListener('click', () => {
+      loadRuns();
+    });
+  </script>
+</body>
+</html>

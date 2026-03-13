@@ -457,7 +457,7 @@
     });
 
     function refreshChatLog() {
-      fetch('http://127.0.0.1:5000/api/greets')
+      fetch('/api/greets')
         .then(r => r.json())
         .then(entries => {
           const list = document.getElementById('chat-log-list');

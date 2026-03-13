@@ -19,10 +19,16 @@ class AgentScene extends Phaser.Scene {
     this.moneyLayer = data.moneyLayer;
     this.rooms = data.rooms || {};
     
+    const setup = window.SIMCO_SETUP || null;
+    const setupAgentCount = Math.min(
+      10,
+      Math.max(2, Array.isArray(setup?.agents) ? setup.agents.length : 10)
+    );
+
     // Multi-character support
     this.players = [];          // Array of all player objects
     this.selectedPlayer = null; // Currently selected/controlled player
-    this.maxCharacters = 10;
+    this.maxCharacters = setupAgentCount;
     this.characterCounter = 1;
     this.usedCharacters = [];   // Track which character indices have been used
     this.availableCharacters = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -53,7 +59,7 @@ class AgentScene extends Phaser.Scene {
     this.isGameOn = false;      // Game state toggle
     
     // Money Prize System
-    this.moneyPrizePool = 1000; // Starting prize pool
+    this.moneyPrizePool = Number(setup?.prize_pool) || 1000; // Starting prize pool
 
     // Behavior system
     this.moneyTarget = null;
@@ -115,6 +121,11 @@ class AgentScene extends Phaser.Scene {
 
     // Create the first player
     this.addNewCharacter();
+
+    // Spawn the remaining configured participants from /setup.
+    while (this.players.length < this.maxCharacters) {
+      this.addNewCharacter();
+    }
 
     this.buildWalkableGridFromMap();
     this.moneyTarget = this.findMoneyTarget();
@@ -1286,7 +1297,7 @@ class AgentScene extends Phaser.Scene {
   }
 
   postGreetingToBackend(playerName, message) {
-    fetch('http://127.0.0.1:5000/api/greet', {
+    fetch('/api/greet', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ player: playerName, message })

@@ -1,3 +1,11 @@
+// Setup payload saved from /setup route.
+try {
+  const rawSetup = localStorage.getItem('simco_setup');
+  window.SIMCO_SETUP = rawSetup ? JSON.parse(rawSetup) : null;
+} catch (err) {
+  window.SIMCO_SETUP = null;
+}
+
 // Game configuration
 const config = {
   type: Phaser.AUTO,
