@@ -14,9 +14,11 @@ Endpoints:
 """
 import os
 import sys
+import json
 from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 from datetime import datetime
+from pathlib import Path
 
 from services import storage
 from services.runner import new_run, run_pre_game_phase, act_agent, run_post_game_phase, send_chat
@@ -40,9 +42,43 @@ greetings = []
 # POST /api/greet  |  GET /api/greets  |  DELETE /api/greets
 # ---------------------------------------------------------------------------
 
+@app.route('/')
 @app.route('/hi')
-def hi():
-    return 'hi'
+def home():
+    return send_from_directory(FRONTEND_DIR, 'home.html')
+
+
+@app.route('/api/runs', methods=['GET'])
+def list_runs():
+    """List all runs with summary info (agents, condition, allocations, convs)."""
+    runs_dir = Path(storage.DATA_DIR) / 'runs'
+    conv_base = Path(storage.DATA_DIR) / 'conversations'
+    active_run_id = (storage.read_game_state() or {}).get('run_id', '')
+    items = []
+    for f in sorted(runs_dir.glob('*.json'), reverse=True):
+        try:
+            run = json.loads(f.read_text(encoding='utf-8'))
+        except (json.JSONDecodeError, OSError):
+            continue
+        run_id = run.get('run_id') or f.stem
+        # Count conversation pair files
+        conv_dir = conv_base / run_id
+        pair_count = len(list(conv_dir.glob('*.json'))) if conv_dir.exists() else 0
+        allocations = run.get('allocations') or []
+        agents = sorted({a['agent'] for a in allocations}) or []
+        items.append({
+            'run_id': run_id,
+            'condition': run.get('condition', ''),
+            'llm_model': run.get('llm_model', ''),
+            'llm_provider': run.get('llm_provider', ''),
+            'agents': agents,
+            'allocation_count': len(allocations),
+            'conversation_pairs': pair_count,
+            'connection_scores': len(run.get('connection_scores') or []),
+            'post_game_requests': len(run.get('post_game_requests') or []),
+            'is_active': run_id == active_run_id,
+        })
+    return jsonify({'runs': items})
 
 
 @app.route('/game')
@@ -53,6 +89,11 @@ def game():
 @app.route('/setup')
 def setup():
     return send_from_directory(FRONTEND_DIR, 'setup.html')
+
+
+@app.route('/chat', methods=['GET'])
+def chat_page():
+    return send_from_directory(FRONTEND_DIR, 'chat.html')
 
 
 @app.route('/game/<path:filename>')
@@ -97,6 +138,59 @@ def get_greets():
 def clear_greets():
     greetings.clear()
     return jsonify({'cleared': True})
+
+
+@app.route('/api/conversations', methods=['GET'])
+def list_conversations():
+    """Return conversation threads grouped by pair for one run.
+
+    Query param: ?run_id=<id> (optional). If omitted, uses active game_state run.
+    """
+    run_id = request.args.get('run_id', '').strip()
+    game_state = storage.read_game_state()
+    if not run_id:
+        run_id = str(game_state.get('run_id', '')).strip()
+    if not run_id:
+        return jsonify({'error': 'run_id is required'}), 400
+
+    turn_order = game_state.get('turn_order', []) if game_state.get('run_id') == run_id else []
+    expected_pairs = {}
+    for i in range(len(turn_order)):
+        for j in range(i + 1, len(turn_order)):
+            a, b = sorted([turn_order[i], turn_order[j]])
+            expected_pairs[f'{a}_{b}'] = {'pair': [a, b], 'pre_game': [], 'post_game': []}
+
+    conv_dir = Path(storage.DATA_DIR) / 'conversations' / run_id
+    if conv_dir.exists():
+        for f in sorted(conv_dir.glob('*.json')):
+            try:
+                data = json.loads(f.read_text(encoding='utf-8'))
+            except (json.JSONDecodeError, OSError):
+                continue
+            pair = data.get('pair') or f.stem.split('_')
+            if len(pair) != 2:
+                continue
+            a, b = sorted([str(pair[0]), str(pair[1])])
+            key = f'{a}_{b}'
+            expected_pairs[key] = {
+                'pair': [a, b],
+                'pre_game': data.get('pre_game') or [],
+                'post_game': data.get('post_game') or [],
+            }
+
+    items = []
+    for key in sorted(expected_pairs.keys()):
+        row = expected_pairs[key]
+        pre = row.get('pre_game') or []
+        post = row.get('post_game') or []
+        items.append({
+            'pair': row['pair'],
+            'pre_game': pre,
+            'post_game': post,
+            'message_count': len(pre) + len(post),
+        })
+
+    return jsonify({'run_id': run_id, 'pairs': items})
 
 
 # ---------------------------------------------------------------------------
@@ -192,7 +286,7 @@ def act():
 # ---------------------------------------------------------------------------
 
 @app.route("/chat", methods=["POST"])
-def chat():
+def chat_api():
     """Log a message from one agent and return the recipient's reply."""
     data = request.get_json(force=True, silent=True) or {}
     from_agent = str(data.get("from", "")).strip()
