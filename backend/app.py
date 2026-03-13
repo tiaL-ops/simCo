@@ -50,6 +50,11 @@ def game():
     return send_from_directory(FRONTEND_DIR, 'index.html')
 
 
+@app.route('/setup')
+def setup():
+    return send_from_directory(FRONTEND_DIR, 'setup.html')
+
+
 @app.route('/game/<path:filename>')
 def game_static(filename):
     return send_from_directory(FRONTEND_DIR, filename)
