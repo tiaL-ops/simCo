@@ -10,6 +10,7 @@ class GameState(TypedDict, total=False):
     phase: str
     condition: str
     prize_pool: int
+    initial_prize_pool: int
     turn_order: list[str]
     current_turn: int
     agents_remaining: int
@@ -51,3 +52,6 @@ class AgentTurnState(TypedDict):
     reasoning: Optional[str]        # game phase
     connection_score: Optional[int]  # game or pre_game_chat (1-5)
     reply_message: Optional[str]    # chat phases
+    wants_to_leave: Optional[bool]  # pre_game_chat: agent signals end of conversation
+    is_final: Optional[bool]        # pre_game_chat: hard-cap turn (max 10 per side)
+    post_game_requests: list[dict]  # post_game_init: [{"to": "C", "message": "..."}]

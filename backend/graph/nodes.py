@@ -67,6 +67,7 @@ def _build_pre_game_chat_prompt(
     agent_memory: dict,
     conversation_history_text: str,
     is_final: bool = False,
+    can_leave: bool = False,
 ) -> str:
     """Build prompt for pre-game pair discussion."""
     agent_context = _to_text(agent_memory.get("context", "")).strip()
@@ -91,8 +92,16 @@ def _build_pre_game_chat_prompt(
     prompt = identity + "\n\n" + pre_setup + "\n\n" + during
     if is_final:
         prompt += (
-            f"\n\nThis is your last exchange with {partner_id}. "
-            f"After your reply, rate your connection:\n"
+            f"\n\nThis is your last allowed exchange with {partner_id}. "
+            f"You MUST end your reply with:\n"
+            f"LEAVE\n"
+            f"Connection_to_{partner_id}_from_{agent_id}: [1-5]"
+        )
+    elif can_leave:
+        prompt += (
+            f"\n\nYou may choose to end this conversation if you feel it has run "
+            f"its course. If you wish to leave, end your reply with:\n"
+            f"LEAVE\n"
             f"Connection_to_{partner_id}_from_{agent_id}: [1-5]"
         )
     return prompt
@@ -127,10 +136,20 @@ def _build_pre_game_first_msg_prompt(
 def _is_final_exchange(
     run_id: str, agent_id: str, partner_id: str, phase_key: str
 ) -> bool:
-    """Return True if this is the last allowed exchange for this pair."""
+    """Return True if this is the last allowed exchange (hard cap: 10 per side)."""
     conv = storage.read_conversation(run_id, agent_id, partner_id)
     # 20 messages total = 10 per side; after this reply it will be full.
     return len(conv.get(phase_key, [])) >= 19
+
+
+def _can_leave_exchange(
+    run_id: str, agent_id: str, partner_id: str, phase_key: str
+) -> bool:
+    """Return True if the minimum exchanges have been met (5 per side = 10 total)."""
+    conv = storage.read_conversation(run_id, agent_id, partner_id)
+    # At this point the sender's latest message has already been stored,
+    # so >= 9 means 5 from sender + 4 previous replies = this is the 5th reply.
+    return len(conv.get(phase_key, [])) >= 9
 
 
 def _build_game_prompt(
@@ -140,6 +159,7 @@ def _build_game_prompt(
 ) -> str:
     """Build prompt for allocation decision during the game phase."""
     prize_pool = game_state.get("prize_pool", 0)
+    initial_prize_pool = game_state.get("initial_prize_pool", prize_pool)
     agents_remaining = game_state.get("agents_remaining", 1)
     fair_share = round(prize_pool / agents_remaining, 2) \
         if agents_remaining else 0
@@ -156,6 +176,7 @@ def _build_game_prompt(
     return _render(
         _load_template("game_decision"),
         remaining_agents=str(agents_remaining),
+        initial_prize_pool=f"{initial_prize_pool:,}",
         prize_pool=f"{prize_pool:,}",
         fair_share=f"{fair_share:,.2f}",
         condition_context=condition_context,
@@ -163,9 +184,14 @@ def _build_game_prompt(
     )
 
 
-def _build_post_game_init_prompt(run_id: str) -> str:
+def _build_post_game_init_prompt(run_id: str, agent_id: str) -> str:
     """Build prompt for post-game initial reflection."""
     run = storage.read_run(run_id)
+    game_state = storage.read_game_state()
+    people = [
+        pid for pid in game_state.get("turn_order", [])
+        if pid and pid != agent_id
+    ]
     allocations = run.get("allocations", [])
     rows = [
         (
@@ -180,6 +206,7 @@ def _build_post_game_init_prompt(run_id: str) -> str:
     return _render(
         _load_template("post_game_init"),
         results_table=results_table,
+        available_people=", ".join(people) if people else "None",
     )
 
 
@@ -312,10 +339,18 @@ def build_prompt(state: AgentTurnState) -> AgentTurnState:
     )
 
     if phase == "pre_game_chat":
-        # Check if this is the final exchange — only then ask for rating.
-        is_final = _is_final_exchange(
-            state["run_id"], agent_id, partner_id, "pre_game"
-        )
+        # Respect force_final if already set in state; otherwise compute.
+        if state.get("is_final") is True:
+            is_final = True
+            can_leave = True
+        else:
+            is_final = _is_final_exchange(
+                state["run_id"], agent_id, partner_id, "pre_game"
+            )
+            can_leave = _can_leave_exchange(
+                state["run_id"], agent_id, partner_id, "pre_game"
+            )
+        state["is_final"] = is_final
         state["prompt"] = _build_pre_game_chat_prompt(
             agent_id=agent_id,
             partner_id=partner_id,
@@ -323,6 +358,7 @@ def build_prompt(state: AgentTurnState) -> AgentTurnState:
             agent_memory=agent_memory,
             conversation_history_text=conversation_history_text,
             is_final=is_final,
+            can_leave=can_leave,
         )
     elif phase == "pre_game_first_msg":
         state["prompt"] = _build_pre_game_first_msg_prompt(
@@ -339,6 +375,7 @@ def build_prompt(state: AgentTurnState) -> AgentTurnState:
     elif phase == "post_game_init":
         state["prompt"] = _build_post_game_init_prompt(
             run_id=state["run_id"],
+            agent_id=agent_id,
         )
     elif phase == "post_game_chat":
         state["prompt"] = _build_post_game_chat_prompt(
@@ -379,6 +416,8 @@ def _reset_output_fields(state: AgentTurnState) -> None:
     state["reasoning"] = None
     state["connection_score"] = None
     state["reply_message"] = None
+    state["wants_to_leave"] = None
+    state["post_game_requests"] = []
 
 
 def _parse_game_output(state: AgentTurnState, raw: str) -> None:
@@ -403,13 +442,22 @@ def _parse_game_output(state: AgentTurnState, raw: str) -> None:
 
 
 def _strip_connection_line(text: str) -> str:
-    """Remove any Connection_to_...from_... scoring line from chat text."""
-    return re.sub(
-        r"\s*Connection_to_\S+_from_\S+\s*:\s*[1-5]\s*",
+    """Remove Connection_to_...from_... scoring lines and LEAVE signals from chat text."""
+    # Handle scores written as `: [3]`, `: [4`, `: 3`, etc.
+    text = re.sub(
+        r"\s*Connection_to_\S+_from_\S+\s*:\s*\[?[1-5][^\n]*",
         "",
         text,
         flags=re.IGNORECASE,
-    ).strip()
+    )
+    # Handle LEAVE on its own line OR inline as `LEAVE]` at end of content
+    text = re.sub(
+        r"\s*\bLEAVE\]?\s*$",
+        "",
+        text,
+        flags=re.IGNORECASE | re.MULTILINE,
+    )
+    return text.strip()
 
 
 def _parse_chat_output(state: AgentTurnState, raw: str) -> None:
@@ -422,18 +470,25 @@ def _parse_chat_output(state: AgentTurnState, raw: str) -> None:
     )
     match = re.search(pattern, raw, re.IGNORECASE | re.DOTALL)
     payload = match.group(1).strip() if match else raw.strip()
-    # Always extract connection score before stripping it from the reply.
-    conn_match = re.search(
-        rf"Connection_to_{re.escape(partner_id)}_from_"
-        rf"{re.escape(agent_id)}\s*:\s*([1-5])",
-        payload,
-        re.IGNORECASE,
+
+    # Detect voluntary LEAVE signal — handles both standalone line and inline `LEAVE]`
+    leave_match = re.search(
+        r"\bLEAVE\]?\b", payload, re.IGNORECASE
     )
-    if not conn_match:
-        conn_match = re.search(r"Connection\s*[:\-]\s*([1-5])", payload, re.IGNORECASE)
-    if conn_match:
-        state["connection_score"] = int(conn_match.group(1))
-    # Strip the connection line so it never appears in stored chat messages.
+    state["wants_to_leave"] = bool(leave_match) or bool(state.get("is_final"))
+
+    # Parse connection score only when the agent is actually leaving.
+    if state["wants_to_leave"]:
+        conn_match = re.search(
+            rf"Connection_to_{re.escape(partner_id)}_from_"
+            rf"{re.escape(agent_id)}\s*:\s*\[?([1-5])",
+            payload,
+            re.IGNORECASE,
+        )
+        if conn_match:
+            state["connection_score"] = int(conn_match.group(1))
+
+    # Strip LEAVE and connection lines so they never appear in stored messages.
     state["reply_message"] = _normalize_chat_reply(_strip_connection_line(payload))
 
 
@@ -465,7 +520,54 @@ def _normalize_chat_reply(text: str) -> str:
 
 
 def _parse_post_game_init_output(state: AgentTurnState, raw: str) -> None:
-    """Parse post-game-init output; keep raw response as reply_message."""
+    """Parse post-game-init output into per-recipient opening messages.
+
+    Preferred format:
+      People_and_messages:
+      C: [message for C]
+      D: [message for D]
+
+    Backward-compatible fallback:
+      People: [C, D]
+      Message: [same message for all]
+    """
+    requests = []
+
+    # Preferred per-person lines
+    line_matches = re.findall(
+        r"^\s*(?:-|\*)?\s*([A-Z])\s*:\s*(.+?)\s*$",
+        raw,
+        re.IGNORECASE | re.MULTILINE,
+    )
+    seen_targets = set()
+    for target, message in line_matches:
+        t = target.upper()
+        if t == state["agent_id"] or t in seen_targets:
+            continue
+        msg = message.strip()
+        if msg.startswith("[") and msg.endswith("]") and len(msg) >= 2:
+            msg = msg[1:-1].strip()
+        if msg:
+            seen_targets.add(t)
+            requests.append({"to": t, "message": msg})
+
+    # Fallback to old shared message format if no per-person lines found
+    if not requests:
+        people_match = re.search(r"People\s*:\s*(.+)", raw, re.IGNORECASE)
+        message_match = re.search(r"Message\s*:\s*(.+)", raw, re.IGNORECASE)
+        people_blob = people_match.group(1).strip() if people_match else ""
+        message = message_match.group(1).strip() if message_match else ""
+        if message.startswith("[") and message.endswith("]") and len(message) >= 2:
+            message = message[1:-1].strip()
+        raw_targets = re.findall(r"\b[A-Z]\b", people_blob.upper())
+        for target in raw_targets:
+            if target == state["agent_id"] or target in seen_targets:
+                continue
+            if message:
+                seen_targets.add(target)
+                requests.append({"to": target, "message": message})
+
+    state["post_game_requests"] = requests
     state["reply_message"] = raw.strip()
 
 
@@ -503,6 +605,13 @@ def update_memory(state: AgentTurnState) -> AgentTurnState:
             memory.setdefault("connection_scores", {})["overall"] = conn
         storage.write_memory(agent_id, memory)
 
+    elif phase == "post_game_init":
+        storage.replace_post_game_requests(
+            state["run_id"],
+            agent_id,
+            state.get("post_game_requests") or [],
+        )
+
     elif phase in ("pre_game_chat", "pre_game_first_msg", "post_game_chat"):
         partner_id = state.get("partner_id") or ""
         if partner_id:
@@ -513,6 +622,9 @@ def update_memory(state: AgentTurnState) -> AgentTurnState:
             # Save per-partner connection score during pre-game phases.
             if phase in ("pre_game_chat", "pre_game_first_msg") and conn is not None:
                 memory.setdefault("connection_scores", {})[partner_id] = conn
+                storage.append_connection_score(
+                    state["run_id"], agent_id, partner_id, conn
+                )
 
             # For first-msg phase there is no conversation yet — skip summary.
             if phase == "pre_game_first_msg":

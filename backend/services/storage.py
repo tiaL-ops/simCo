@@ -196,6 +196,21 @@ def append_conversation(
     _write(path, conv)
 
 
+def clear_conversation_phase(run_id: str, phase: str) -> None:
+    """Clear one phase across all pair conversation files for a run."""
+    conv_dir = DATA_DIR / "conversations" / run_id
+    if not conv_dir.exists():
+        return
+
+    phase_key = "pre_game" if phase == "pre_game" else "post_game"
+    for path in conv_dir.glob("*.json"):
+        data = _read(path)
+        if not data:
+            continue
+        data[phase_key] = []
+        _write(path, data)
+
+
 def get_all_agent_conversations(run_id: str, agent_id: str) -> list[dict]:
     """Return all conversation objects that involve agent_id."""
     conv_dir = DATA_DIR / "conversations" / run_id
@@ -259,10 +274,75 @@ def init_run_file(
         "condition": condition,
         "llm_model": llm_model,
         "llm_provider": llm_provider,
-        "allocations": []
+        "allocations": [],
+        "connection_scores": [],
+        "post_game_requests": [],
     }
     _write(DATA_DIR / "runs" / f"{run_id}.json", data)
     return data
+
+
+def append_connection_score(
+    run_id: str,
+    from_agent: str,
+    to_agent: str,
+    score: int,
+) -> None:
+    """Record a directional connection score in runs/{run_id}.json.
+
+    Directional: how from_agent rates to_agent (asymmetric by design).
+    Overwrites any previous score for the same (from, to) pair.
+    """
+    run = read_run(run_id)
+    scores = run.setdefault("connection_scores", [])
+    # Replace existing entry for same pair, or append.
+    for entry in scores:
+        if entry["from"] == from_agent and entry["to"] == to_agent:
+            entry["score"] = score
+            _write(DATA_DIR / "runs" / f"{run_id}.json", run)
+            return
+    scores.append({"from": from_agent, "to": to_agent, "score": score})
+    _write(DATA_DIR / "runs" / f"{run_id}.json", run)
+
+
+def clear_post_game_requests(run_id: str) -> None:
+    """Remove all post-game requests for a run."""
+    run = read_run(run_id)
+    run["post_game_requests"] = []
+    _write(DATA_DIR / "runs" / f"{run_id}.json", run)
+
+
+def replace_post_game_requests(
+    run_id: str,
+    from_agent: str,
+    requests_for_agent: list[dict],
+) -> None:
+    """Replace one agent's post-game requests in runs/{run_id}.json."""
+    run = read_run(run_id)
+    requests = [
+        entry for entry in run.setdefault("post_game_requests", [])
+        if entry.get("from") != from_agent
+    ]
+
+    seen_targets = set()
+    for req in requests_for_agent:
+        target = _normalize_text(req.get("to"))
+        cleaned_message = _normalize_text(req.get("message"))
+        if not target or target == from_agent or not cleaned_message:
+            continue
+        if target in seen_targets:
+            continue
+        seen_targets.add(target)
+        requests.append(
+            {
+                "from": from_agent,
+                "to": target,
+                "message": cleaned_message,
+            }
+        )
+
+    run["post_game_requests"] = requests
+    _write(DATA_DIR / "runs" / f"{run_id}.json", run)
 
 
 # ---------------------------------------------------------------------------
@@ -335,6 +415,7 @@ def init_new_run(
         "phase": "pre_game",
         "condition": condition,
         "prize_pool": prize_pool,
+        "initial_prize_pool": prize_pool,
         "turn_order": turn_order,
         "current_turn": 0,
         "agents_remaining": len(agents),

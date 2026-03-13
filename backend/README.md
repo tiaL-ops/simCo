@@ -1,26 +1,23 @@
-# Setup
+# Backend CLI Quickstart
 
-First setup with no virutal environemt
-cd backend 
+## Setup
+```bash
+cd backend
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+```
 
+## Run
+```bash
+python cli.py
+```
 
-Already have virtual env
-cd backend 
-source .venv/bin/activate
-pip install -r requirements.txt
+## What the CLI does
+- Creates or resumes a run
+- Runs pre-game discussions
+- Runs game allocation decisions
+- Runs post-game discussions
+- Prints final results (allocations, connection scores, gini)
 
-## To test API endpoints:
-1. Start the Flask server: `python app.py`
-2. In another terminal, run the test script: `python test_endpoints.py`
-
-## To do:
-- [ ] update parsing better depeding on model
-- [ ] Choose which model to use 
-- [ ] Conversation summary
-
-
-## Understand the work:
-So it is 
+All data is saved under `backend/data/`.

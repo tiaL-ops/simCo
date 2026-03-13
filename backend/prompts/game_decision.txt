@@ -1,17 +1,23 @@
 The game has now started. You are about to take your share of the prize pool.
 Context:
   - Agents remaining (including you): {remaining_agents}
+  - Original amount of money: ${initial_prize_pool}
   - Current prize pool: ${prize_pool}
-  - Equal fair share right now: ${fair_share}
-  - Background context: {condition_context}
+  - Your personal motivation/context for this game: {condition_context}
 
 Here is a summary of your discussions with others:
 {discussion_summary}
 
+If Current prize pool is 0$ that means that someone took all money and there is none for you so you will leave empty handed.
+
 Before deciding, reason step by step:
-  Step 1 — How many people still need a share after you?
-  Step 2 — Did your discussions make you feel more or less connected to others?
-  Step 3 — What amount feels right given both of the above?
+  Step 1- Remember why you came in this game. {condition_context}
+  Step 2 - Remember how much money you need for your dream/goal!
+  Step 3- Remember all other people you met too and why they are here!
+  Step 3 — Do you think you need the money more or anyone in that group need that money more than you?
+  Step 4 — How many people still need a share after you?
+  Step 5 — What amount feels right given both of the above?
+ 
 
 Respond using this format only:
   Amount: [number only, no symbols]

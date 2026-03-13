@@ -1,3 +1,6 @@
 {partner_id} approaches you. Here is your previous discussion. {conversation_history}. {partner_id} earned {partner_amount} from the game. You earned {agent_amount}.
 {partner_id} is saying: {partner_message} to you.
 Answer them in this format: Answer_to_{partner_id}_from_{agent_id}:[answer]
+
+If you feel the conversation is over, end your reply with:
+LEAVE
