@@ -81,6 +81,69 @@ def list_runs():
     return jsonify({'runs': items})
 
 
+@app.route('/api/run-view', methods=['GET'])
+def run_view():
+    """Return historical run data needed to render /game for a past simulation."""
+    run_id = request.args.get('run_id', '').strip()
+    if not run_id:
+        return jsonify({'error': 'run_id is required'}), 400
+
+    run = storage.read_run(run_id)
+    scores = storage.read_scores(run_id)
+    game_state = storage.read_game_state() or {}
+
+    agents = set()
+    for entry in run.get('allocations') or []:
+        agent = str(entry.get('agent', '')).strip()
+        if agent:
+            agents.add(agent)
+    for entry in scores.get('agents') or []:
+        agent = str(entry.get('agent', '')).strip()
+        if agent:
+            agents.add(agent)
+
+    conv_dir = Path(storage.DATA_DIR) / 'conversations' / run_id
+    if conv_dir.exists():
+        for f in conv_dir.glob('*.json'):
+            try:
+                data = json.loads(f.read_text(encoding='utf-8'))
+            except (json.JSONDecodeError, OSError):
+                continue
+            for agent in data.get('pair') or []:
+                cleaned = str(agent).strip()
+                if cleaned:
+                    agents.add(cleaned)
+
+    if game_state.get('run_id') == run_id:
+        for agent in game_state.get('turn_order') or []:
+            cleaned = str(agent).strip()
+            if cleaned:
+                agents.add(cleaned)
+
+    agents_list = sorted(agents)
+    allocations = run.get('allocations') or []
+    total_taken = sum(int(entry.get('taken', 0) or 0) for entry in allocations)
+
+    initial_prize_pool = None
+    remaining_prize_pool = None
+    if game_state.get('run_id') == run_id:
+        initial_prize_pool = game_state.get('initial_prize_pool')
+        remaining_prize_pool = game_state.get('prize_pool')
+    elif allocations:
+        initial_prize_pool = total_taken
+        remaining_prize_pool = 0
+
+    return jsonify({
+        'run_id': run_id,
+        'agents': agents_list,
+        'run': run,
+        'scores': scores,
+        'total_taken': total_taken,
+        'initial_prize_pool': initial_prize_pool,
+        'remaining_prize_pool': remaining_prize_pool,
+    })
+
+
 @app.route('/game')
 def game():
     return send_from_directory(FRONTEND_DIR, 'index.html')

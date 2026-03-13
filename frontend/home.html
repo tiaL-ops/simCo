@@ -256,9 +256,16 @@
           </div>
           <div class="run-cta">
             <a class="link-btn" href="/chat?run_id=${encodeURIComponent(run.run_id)}">View Chats</a>
-            <a class="link-btn" href="/game">Open Game</a>
+            <a class="link-btn open-game-link" data-run-id="${htmlSafe(run.run_id)}" href="/game?run_id=${encodeURIComponent(run.run_id)}">Open Game</a>
           </div>
         `;
+
+        const openGameLink = card.querySelector('.open-game-link');
+        if (openGameLink) {
+          openGameLink.addEventListener('click', () => {
+            localStorage.setItem('simco_selected_run_id', run.run_id);
+          });
+        }
 
         grid.appendChild(card);
       }

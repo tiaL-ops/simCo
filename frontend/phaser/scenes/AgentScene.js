@@ -20,9 +20,13 @@ class AgentScene extends Phaser.Scene {
     this.rooms = data.rooms || {};
     
     const setup = window.SIMCO_SETUP || null;
+    const runView = window.SIMCO_RUN_VIEW || null;
+    const configuredAgents = Array.isArray(runView?.agents) && runView.agents.length
+      ? runView.agents
+      : (Array.isArray(setup?.agents) && setup.agents.length ? setup.agents : ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']);
     const setupAgentCount = Math.min(
       10,
-      Math.max(2, Array.isArray(setup?.agents) ? setup.agents.length : 10)
+      Math.max(2, configuredAgents.length)
     );
 
     // Multi-character support
@@ -31,7 +35,9 @@ class AgentScene extends Phaser.Scene {
     this.maxCharacters = setupAgentCount;
     this.characterCounter = 1;
     this.usedCharacters = [];   // Track which character indices have been used
-    this.availableCharacters = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    this.availableCharacters = configuredAgents
+      .map(agent => (String(agent).charCodeAt(0) - 64))
+      .filter(num => num >= 1 && num <= 10);
     this.characterNameMap = {
       1: 'A',
       2: 'B',
@@ -57,9 +63,14 @@ class AgentScene extends Phaser.Scene {
     
     // Game state (ON/OFF)
     this.isGameOn = false;      // Game state toggle
+    this.isHistoricalRun = !!runView;
+    this.historicalRunView = runView;
     
     // Money Prize System
-    this.moneyPrizePool = Number(setup?.prize_pool) || 1000; // Starting prize pool
+    const configuredPrizePool = runView?.remaining_prize_pool ?? setup?.prize_pool;
+    this.moneyPrizePool = configuredPrizePool == null
+      ? 1000
+      : Number(configuredPrizePool); // Starting prize pool
 
     // Behavior system
     this.moneyTarget = null;
@@ -175,7 +186,49 @@ class AgentScene extends Phaser.Scene {
     }
 
     console.log('AgentScene created - Player sprite ready with animations');
+    this.applyHistoricalRunData();
     this.updatePlayerInfoPanel();
+  }
+
+  applyHistoricalRunData() {
+    if (!this.isHistoricalRun || !this.historicalRunView) {
+      return;
+    }
+
+    const allocations = this.historicalRunView.run?.allocations || [];
+    const byAgent = new Map(allocations.map(entry => [entry.agent, entry]));
+
+    this.players.forEach(player => {
+      const allocation = byAgent.get(player.name);
+      player.money = Number(allocation?.taken || 0);
+    });
+
+    const addBtn = document.getElementById('add-character-btn');
+    const gameStateBtn = document.getElementById('game-state-btn');
+    if (addBtn) addBtn.disabled = true;
+    if (gameStateBtn) {
+      gameStateBtn.disabled = true;
+      gameStateBtn.textContent = 'Historical View';
+      gameStateBtn.style.background = '#3a3a3a';
+    }
+
+    this.updateRunSummary();
+    this.updateUI();
+  }
+
+  updateRunSummary() {
+    const summaryDisplay = document.getElementById('run-summary-display');
+    if (!summaryDisplay) return;
+
+    if (!this.isHistoricalRun || !this.historicalRunView) {
+      summaryDisplay.textContent = 'Live simulation';
+      return;
+    }
+
+    const totalTaken = Number(this.historicalRunView.total_taken || 0);
+    const gini = this.historicalRunView.scores?.gini;
+    const scoreText = gini === undefined ? 'score: N/A' : `gini: ${Number(gini).toFixed(4)}`;
+    summaryDisplay.textContent = `Taken: $${totalTaken.toFixed(2)} | ${scoreText}`;
   }
 
   addNewCharacter() {
@@ -321,9 +374,11 @@ class AgentScene extends Phaser.Scene {
     }
 
     if (prizePoolDisplay) {
-      prizePoolDisplay.textContent = `Prize Pool: $${this.moneyPrizePool.toFixed(2)}`;
+      const label = this.isHistoricalRun ? 'Remaining' : 'Prize Pool';
+      prizePoolDisplay.textContent = `${label}: $${this.moneyPrizePool.toFixed(2)}`;
     }
 
+    this.updateRunSummary();
     this.updateLeaderboard();
   }
 
@@ -338,7 +393,9 @@ class AgentScene extends Phaser.Scene {
     sortedPlayers.forEach((player, index) => {
       const rank = index + 1;
       const className = player.isSelected ? 'leaderboard-entry selected' : 'leaderboard-entry';
-      leaderboardHTML += `<div class="${className}">${rank}. Player ${player.name}: $${player.money.toFixed(2)}</div>`;
+      const scoreEntry = this.historicalRunView?.scores?.agents?.find(entry => entry.agent === player.name);
+      const suffix = scoreEntry ? `  |  g_k=${Number(scoreEntry.g_k).toFixed(2)}` : '';
+      leaderboardHTML += `<div class="${className}">${rank}. Player ${player.name}: $${player.money.toFixed(2)}${suffix}</div>`;
     });
 
     leaderboardDisplay.innerHTML = leaderboardHTML;
@@ -587,7 +644,13 @@ class AgentScene extends Phaser.Scene {
       const padded = i.toString().padStart(2, '0');
       const avatarStyle = `background-image:url('phaser/assets/agents/Premade_Character_${padded}.png');background-size:${bsw}px auto;background-position:-${bx}px -${by}px`;
 
-      infoHtml += `<div class="player-info-row${selectedClass}"><span class="player-info-avatar" style="${avatarStyle}"></span><span>Player ${name}</span></div>`;
+      const scoreEntry = this.historicalRunView?.scores?.agents?.find(entry => entry.agent === name);
+      const allocation = this.historicalRunView?.run?.allocations?.find(entry => entry.agent === name);
+      const extra = allocation || scoreEntry
+        ? ` - $${Number(allocation?.taken || 0).toFixed(2)}${scoreEntry ? ` | g_k=${Number(scoreEntry.g_k).toFixed(2)}` : ''}`
+        : '';
+
+      infoHtml += `<div class="player-info-row${selectedClass}"><span class="player-info-avatar" style="${avatarStyle}"></span><span>Player ${name}${extra}</span></div>`;
     }
 
     infoList.innerHTML = infoHtml;
