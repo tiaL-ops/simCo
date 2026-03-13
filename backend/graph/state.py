@@ -54,5 +54,4 @@ class AgentTurnState(TypedDict):
     reply_message: Optional[str]    # chat phases
     wants_to_leave: Optional[bool]  # pre_game_chat: agent signals end of conversation
     is_final: Optional[bool]        # pre_game_chat: hard-cap turn (max 10 per side)
-    post_game_targets: list[str]    # post_game_init: chosen recipients
-    post_game_request_message: Optional[str]  # post_game_init: opener sent to recipients
+    post_game_requests: list[dict]  # post_game_init: [{"to": "C", "message": "..."}]

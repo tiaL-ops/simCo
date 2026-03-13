@@ -159,6 +159,7 @@ def _build_game_prompt(
 ) -> str:
     """Build prompt for allocation decision during the game phase."""
     prize_pool = game_state.get("prize_pool", 0)
+    initial_prize_pool = game_state.get("initial_prize_pool", prize_pool)
     agents_remaining = game_state.get("agents_remaining", 1)
     fair_share = round(prize_pool / agents_remaining, 2) \
         if agents_remaining else 0
@@ -175,6 +176,7 @@ def _build_game_prompt(
     return _render(
         _load_template("game_decision"),
         remaining_agents=str(agents_remaining),
+        initial_prize_pool=f"{initial_prize_pool:,}",
         prize_pool=f"{prize_pool:,}",
         fair_share=f"{fair_share:,.2f}",
         condition_context=condition_context,
@@ -415,8 +417,7 @@ def _reset_output_fields(state: AgentTurnState) -> None:
     state["connection_score"] = None
     state["reply_message"] = None
     state["wants_to_leave"] = None
-    state["post_game_targets"] = []
-    state["post_game_request_message"] = None
+    state["post_game_requests"] = []
 
 
 def _parse_game_output(state: AgentTurnState, raw: str) -> None:
@@ -519,27 +520,55 @@ def _normalize_chat_reply(text: str) -> str:
 
 
 def _parse_post_game_init_output(state: AgentTurnState, raw: str) -> None:
-    """Parse post-game-init output into recipients + opener message."""
-    people_match = re.search(r"People\s*:\s*(.+)", raw, re.IGNORECASE)
-    message_match = re.search(r"Message\s*:\s*(.+)", raw, re.IGNORECASE)
+    """Parse post-game-init output into per-recipient opening messages.
 
-    people_blob = people_match.group(1).strip() if people_match else ""
-    raw_targets = re.findall(r"\b[A-Z]\b", people_blob.upper())
-    seen = set()
-    targets = []
-    for target in raw_targets:
-        if target == state["agent_id"] or target in seen:
+    Preferred format:
+      People_and_messages:
+      C: [message for C]
+      D: [message for D]
+
+    Backward-compatible fallback:
+      People: [C, D]
+      Message: [same message for all]
+    """
+    requests = []
+
+    # Preferred per-person lines
+    line_matches = re.findall(
+        r"^\s*(?:-|\*)?\s*([A-Z])\s*:\s*(.+?)\s*$",
+        raw,
+        re.IGNORECASE | re.MULTILINE,
+    )
+    seen_targets = set()
+    for target, message in line_matches:
+        t = target.upper()
+        if t == state["agent_id"] or t in seen_targets:
             continue
-        seen.add(target)
-        targets.append(target)
+        msg = message.strip()
+        if msg.startswith("[") and msg.endswith("]") and len(msg) >= 2:
+            msg = msg[1:-1].strip()
+        if msg:
+            seen_targets.add(t)
+            requests.append({"to": t, "message": msg})
 
-    message = message_match.group(1).strip() if message_match else ""
-    if message.startswith("[") and message.endswith("]") and len(message) >= 2:
-        message = message[1:-1].strip()
+    # Fallback to old shared message format if no per-person lines found
+    if not requests:
+        people_match = re.search(r"People\s*:\s*(.+)", raw, re.IGNORECASE)
+        message_match = re.search(r"Message\s*:\s*(.+)", raw, re.IGNORECASE)
+        people_blob = people_match.group(1).strip() if people_match else ""
+        message = message_match.group(1).strip() if message_match else ""
+        if message.startswith("[") and message.endswith("]") and len(message) >= 2:
+            message = message[1:-1].strip()
+        raw_targets = re.findall(r"\b[A-Z]\b", people_blob.upper())
+        for target in raw_targets:
+            if target == state["agent_id"] or target in seen_targets:
+                continue
+            if message:
+                seen_targets.add(target)
+                requests.append({"to": target, "message": message})
 
-    state["post_game_targets"] = targets
-    state["post_game_request_message"] = message or None
-    state["reply_message"] = message or raw.strip()
+    state["post_game_requests"] = requests
+    state["reply_message"] = raw.strip()
 
 
 def parse_output(state: AgentTurnState) -> AgentTurnState:
@@ -580,8 +609,7 @@ def update_memory(state: AgentTurnState) -> AgentTurnState:
         storage.replace_post_game_requests(
             state["run_id"],
             agent_id,
-            state.get("post_game_targets") or [],
-            state.get("post_game_request_message") or "",
+            state.get("post_game_requests") or [],
         )
 
     elif phase in ("pre_game_chat", "pre_game_first_msg", "post_game_chat"):

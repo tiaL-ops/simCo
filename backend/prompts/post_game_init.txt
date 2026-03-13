@@ -3,12 +3,12 @@ The game has ended. Here are the final results:
 You can choose zero or more people to contact after the game.
 Available people: {available_people}
 You can ask why they took a specific amount, explain your own choice, confront them, or follow up on your earlier discussion.
-If you choose multiple people, the same opening message will be sent to each of them.
+If you choose multiple people, write a separate message for each person.
 
 Respond in exactly this format:
-People: [A, B]
-Message: [your opening message]
+People_and_messages:
+C: [message for C]
+D: [message for D]
 
 If you do not want to contact anyone, respond exactly like this:
-People: []
-Message: []
+People_and_messages: []

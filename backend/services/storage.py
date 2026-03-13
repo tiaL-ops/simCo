@@ -315,8 +315,7 @@ def clear_post_game_requests(run_id: str) -> None:
 def replace_post_game_requests(
     run_id: str,
     from_agent: str,
-    targets: list[str],
-    message: str,
+    requests_for_agent: list[dict],
 ) -> None:
     """Replace one agent's post-game requests in runs/{run_id}.json."""
     run = read_run(run_id)
@@ -325,10 +324,15 @@ def replace_post_game_requests(
         if entry.get("from") != from_agent
     ]
 
-    cleaned_message = _normalize_text(message)
-    for target in dict.fromkeys(targets):
+    seen_targets = set()
+    for req in requests_for_agent:
+        target = _normalize_text(req.get("to"))
+        cleaned_message = _normalize_text(req.get("message"))
         if not target or target == from_agent or not cleaned_message:
             continue
+        if target in seen_targets:
+            continue
+        seen_targets.add(target)
         requests.append(
             {
                 "from": from_agent,
