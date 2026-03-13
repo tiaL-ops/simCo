@@ -21,3 +21,7 @@ python cli.py
 - Prints final results (allocations, connection scores, gini)
 
 All data is saved under `backend/data/`.
+
+## Game Interface 
+You will see the gaming interface : at 
+http://localhost:5001/game 
