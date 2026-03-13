@@ -10,36 +10,36 @@
       padding: 0;
       box-sizing: border-box;
     }
-    
+
     body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
       min-height: 100vh;
       background-color: #000000;
       font-family: 'Times New Roman', Times, serif;
       color: #ffffff;
+      overflow: hidden;
     }
-    
-    #game-container {
+
+    #app-layout {
       width: 100%;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 280px minmax(320px, 1fr) 360px;
+      gap: 14px;
+      padding: 14px;
       background-color: #000000;
+      align-items: stretch;
     }
 
     #character-ui {
-      position: fixed;
-      top: 20px;
-      left: 20px;
-      z-index: 1000;
       background-color: #000000;
       color: #ffffff;
       font-family: 'Times New Roman', Times, serif;
       font-size: 13px;
       line-height: 1.6;
+      border: 1px solid #2a2a2a;
+      padding: 12px;
+      overflow-y: auto;
+      min-height: 0;
     }
 
     .ui-section {
@@ -90,13 +90,44 @@
       font-weight: bold;
     }
 
+    #game-column {
+      min-width: 0;
+      min-height: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #1f1f1f;
+      background: radial-gradient(circle at 30% 20%, #111111 0%, #060606 55%, #000000 100%);
+      overflow: hidden;
+    }
+
+    #game-container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 8px;
+    }
+
+    #game-container canvas {
+      max-width: 100%;
+      max-height: calc(100vh - 44px);
+      object-fit: contain;
+      border: 1px solid #333333;
+      image-rendering: pixelated;
+    }
+
+    #side-panels {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      min-height: 0;
+    }
+
     #player-discussion-panel {
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      z-index: 1200;
-      width: 520px;
-      max-height: 90vh;
+      width: 100%;
+      max-height: 56vh;
       overflow-y: auto;
       background: #000000;
       color: #ffffff;
@@ -107,7 +138,9 @@
       font-size: 12px;
     }
 
-    #player-discussion-panel.open { display: block; }
+    #player-discussion-panel.open {
+      display: block;
+    }
 
     .talk-matrix {
       width: 100%;
@@ -131,7 +164,9 @@
       width: 28px;
     }
 
-    .matrix-col-header.inactive { color: #444444; }
+    .matrix-col-header.inactive {
+      color: #444444;
+    }
 
     .matrix-row-header {
       padding: 2px 8px 2px 0;
@@ -146,7 +181,9 @@
       gap: 5px;
     }
 
-    .matrix-row-header.inactive .matrix-row-inner { opacity: 0.3; }
+    .matrix-row-header.inactive .matrix-row-inner {
+      opacity: 0.3;
+    }
 
     .matrix-avatar {
       display: block;
@@ -166,11 +203,32 @@
       vertical-align: middle;
     }
 
-    .matrix-cell.talked   { background: #123315; color: #58d66f; font-weight: bold; }
-    .matrix-cell.planned  { background: #132d4f; color: #6db8ff; font-weight: bold; }
-    .matrix-cell.not-talked { background: #3a3a3a; color: #b8b8b8; }
-    .matrix-cell.self     { background: #222222; color: #555555; font-size: 10px; }
-    .matrix-cell.unavailable { background: #1a1a1a; }
+    .matrix-cell.talked {
+      background: #123315;
+      color: #58d66f;
+      font-weight: bold;
+    }
+
+    .matrix-cell.planned {
+      background: #132d4f;
+      color: #6db8ff;
+      font-weight: bold;
+    }
+
+    .matrix-cell.not-talked {
+      background: #3a3a3a;
+      color: #b8b8b8;
+    }
+
+    .matrix-cell.self {
+      background: #222222;
+      color: #555555;
+      font-size: 10px;
+    }
+
+    .matrix-cell.unavailable {
+      background: #1a1a1a;
+    }
 
     .discussion-section-title {
       margin: 10px 0 6px;
@@ -207,12 +265,8 @@
     }
 
     #player-info-panel {
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      z-index: 1200;
-      width: 260px;
-      max-height: 70vh;
+      width: 100%;
+      max-height: 30vh;
       overflow-y: auto;
       background: #000000;
       color: #ffffff;
@@ -261,12 +315,8 @@
     }
 
     #chat-log-panel {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      z-index: 1200;
-      width: 320px;
-      max-height: 340px;
+      width: 100%;
+      max-height: 30vh;
       overflow-y: auto;
       background: #000000;
       color: #ffffff;
@@ -277,7 +327,9 @@
       font-size: 12px;
     }
 
-    #chat-log-panel.open { display: block; }
+    #chat-log-panel.open {
+      display: block;
+    }
 
     .chat-log-header {
       display: flex;
@@ -294,89 +346,116 @@
       color: #cccccc;
     }
 
-    .chat-entry .chat-time   { color: #666666; margin-right: 4px; }
-    .chat-entry .chat-player { color: #ffffff; font-weight: bold; margin-right: 4px; }
-    .chat-entry .chat-msg    { color: #aaaaaa; }
+    .chat-entry .chat-time {
+      color: #666666;
+      margin-right: 4px;
+    }
+
+    .chat-entry .chat-player {
+      color: #ffffff;
+      font-weight: bold;
+      margin-right: 4px;
+    }
+
+    .chat-entry .chat-msg {
+      color: #aaaaaa;
+    }
+
+    @media (max-width: 1200px) {
+      body {
+        overflow: auto;
+      }
+
+      #app-layout {
+        min-height: auto;
+        grid-template-columns: 1fr;
+      }
+
+      #game-column {
+        min-height: 56vh;
+      }
+
+      #game-container canvas {
+        max-height: 72vh;
+      }
+    }
   </style>
 </head>
 <body>
-  <div id="game-container"></div>
-  
-  <!-- Minimal Control Panel -->
-  <div id="character-ui">
-    <div class="ui-section">
-      <button id="add-character-btn">Add Character</button>
-      <button id="game-state-btn">Game: Off</button>
-      <button id="see-player-info-btn">See Player Information</button>
-      <button id="see-player-discussion-btn">Player Discussion</button>
-      <button id="see-chat-log-btn">Chat Log</button>
+  <div id="app-layout">
+    <div id="character-ui">
+      <div class="ui-section">
+        <button id="add-character-btn">Add Character</button>
+        <button id="game-state-btn">Game: Off</button>
+        <button id="see-player-info-btn">See Player Information</button>
+        <button id="see-player-discussion-btn">Player Discussion</button>
+        <button id="see-chat-log-btn">Chat Log</button>
+      </div>
+
+      <div class="ui-section">
+        <div class="ui-section-title">Status</div>
+        <div class="ui-row" id="selected-character-display">Selected: None</div>
+        <div class="ui-row" id="character-count">Characters: 0/10</div>
+      </div>
+
+      <div class="ui-section">
+        <div class="ui-section-title">Prize Pool</div>
+        <div class="ui-row" id="prize-pool-display">$1000.00</div>
+      </div>
+
+      <div id="leaderboard-display">
+        <div class="ui-section-title">Leaderboard</div>
+      </div>
     </div>
 
-    <div class="ui-section">
-      <div class="ui-section-title">Status</div>
-      <div class="ui-row" id="selected-character-display">Selected: None</div>
-      <div class="ui-row" id="character-count">Characters: 0/10</div>
+    <div id="game-column">
+      <div id="game-container"></div>
     </div>
 
-    <div class="ui-section">
-      <div class="ui-section-title">Prize Pool</div>
-      <div class="ui-row" id="prize-pool-display">$1000.00</div>
-    </div>
+    <div id="side-panels">
+      <div id="player-info-panel" aria-hidden="true">
+        <div class="player-info-header">
+          <div class="ui-section-title" style="margin-bottom:0; text-decoration:none;">Player Information</div>
+          <button id="close-player-info-btn">Close</button>
+        </div>
+        <div id="player-info-list"></div>
+      </div>
 
-    <div id="leaderboard-display">
-      <div class="ui-section-title">Leaderboard</div>
+      <div id="chat-log-panel" aria-hidden="true">
+        <div class="chat-log-header">
+          <div class="ui-section-title" style="margin-bottom:0; text-decoration:none;">Chat Log</div>
+          <button id="close-chat-log-btn">Close</button>
+        </div>
+        <div id="chat-log-list"><em style="color:#555">No messages yet.</em></div>
+      </div>
+
+      <div id="player-discussion-panel" aria-hidden="true">
+        <div class="player-info-header">
+          <div class="ui-section-title" style="margin-bottom:0; text-decoration:none;">Player Discussion</div>
+          <button id="close-player-discussion-btn">Close</button>
+        </div>
+        <div id="player-discussion-list"></div>
+      </div>
     </div>
   </div>
 
-  <div id="player-info-panel" aria-hidden="true">
-    <div class="player-info-header">
-      <div class="ui-section-title" style="margin-bottom:0; text-decoration:none;">Player Information</div>
-      <button id="close-player-info-btn">Close</button>
-    </div>
-    <div id="player-info-list"></div>
-  </div>
-
-  <!-- Chat Log Panel -->
-  <div id="chat-log-panel" aria-hidden="true">
-    <div class="chat-log-header">
-      <div class="ui-section-title" style="margin-bottom:0; text-decoration:none;">Chat Log</div>
-      <button id="close-chat-log-btn">Close</button>
-    </div>
-    <div id="chat-log-list"><em style="color:#555">No messages yet.</em></div>
-  </div>
-
-  <!-- Player Discussion: talk matrix -->
-  <div id="player-discussion-panel" aria-hidden="true">
-    <div class="player-info-header">
-      <div class="ui-section-title" style="margin-bottom:0; text-decoration:none;">Player Discussion</div>
-      <button id="close-player-discussion-btn">Close</button>
-    </div>
-    <div id="player-discussion-list"></div>
-  </div>
-  
-  <!-- Include Phaser library -->
   <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
-  
-  <!-- Include scene scripts -->
   <script src="phaser/scenes/MapScene.js"></script>
   <script src="phaser/scenes/AgentScene.js"></script>
-  
-  <!-- Include the game script -->
   <script src="game.js"></script>
 
   <script>
-    // Chat Log panel toggle
     const chatLogPanel = document.getElementById('chat-log-panel');
     document.getElementById('see-chat-log-btn').addEventListener('click', () => {
       chatLogPanel.classList.toggle('open');
       chatLogPanel.setAttribute('aria-hidden', chatLogPanel.classList.contains('open') ? 'false' : 'true');
     });
+
     document.getElementById('close-chat-log-btn').addEventListener('click', () => {
       chatLogPanel.classList.remove('open');
       chatLogPanel.setAttribute('aria-hidden', 'true');
     });
 
-    // Poll backend every 2 s and refresh the chat log list
     function refreshChatLog() {
       fetch('http://127.0.0.1:5000/api/greets')
         .then(r => r.json())
@@ -386,7 +465,7 @@
             list.innerHTML = '<em style="color:#555">No messages yet.</em>';
             return;
           }
-          // Newest first
+
           list.innerHTML = [...entries].reverse().map(e =>
             `<div class="chat-entry">` +
               `<span class="chat-time">${e.time}</span>` +
@@ -395,7 +474,7 @@
             `</div>`
           ).join('');
         })
-        .catch(() => { /* backend offline */ });
+        .catch(() => {});
     }
 
     setInterval(refreshChatLog, 2000);
