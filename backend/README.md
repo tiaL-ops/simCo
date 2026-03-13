@@ -1,44 +1,23 @@
-# Setup
+# Backend CLI Quickstart
 
-First setup with no virutal environemt
-cd backend 
+## Setup
+```bash
+cd backend
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+```
 
-
-Already have virtual env
-cd backend 
-source .venv/bin/activate
-pip install -r requirements.txt
-
-## Run a full experiment (CLI — no server needed)
+## Run
 ```bash
 python cli.py
 ```
-Interactive prompts guide you through setup (model, condition, agents, contexts).
-Breakpoints pause between each phase so you can inspect data before continuing.
 
-Phases:
-1. **New run** — initialises game_state + memory files
-2. **Pre-game** — all pairs discuss, rate each other, scores saved
-3. **Game** — each agent decides how much to take from the pool
-4. **Post-game** — pairs reflect on the results
-5. **Results** — allocations, connection scores, Gini printed + saved
+## What the CLI does
+- Creates or resumes a run
+- Runs pre-game discussions
+- Runs game allocation decisions
+- Runs post-game discussions
+- Prints final results (allocations, connection scores, gini)
 
-## Run via Flask API (server mode)
-1. Start the Flask server: `python app.py`
-2. Call endpoints in order:
-   - `POST /new-run`
-   - `POST /run-pre-game`
-   - `POST /act` (once per agent)
-   - `GET /results`
-
-## To do:
-- [ ] update parsing better depeding on model
-- [ ] Choose which model to use 
-- [ ] Conversation summary
-
-
-## Understand the work:
-So it is 
+All data is saved under `backend/data/`.
