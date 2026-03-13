@@ -359,6 +359,7 @@ def init_new_run(
         "phase": "pre_game",
         "condition": condition,
         "prize_pool": prize_pool,
+        "initial_prize_pool": prize_pool,
         "turn_order": turn_order,
         "current_turn": 0,
         "agents_remaining": len(agents),

@@ -83,10 +83,10 @@ def prompt_setup() -> dict:
                 condition=condition, agents=agents,
                 prize_pool=prize_pool, contexts=contexts)
 
-# ── Resume existing run ─────────────────────────────────────────────────────
+# ── Resume / redo existing run ───────────────────────────────────────────────
 def offer_resume() -> "tuple[dict, str] | None":
-    """If game_state.json has a run_id, offer to resume it.
-    Returns (game_state, start_phase) or None to start fresh.
+    """If game_state.json has a run_id, offer to resume or redo it.
+    Returns (game_state, start_phase) or None to start a new run.
     """
     try:
         gs = storage.read_game_state()
@@ -99,29 +99,44 @@ def offer_resume() -> "tuple[dict, str] | None":
     stored_phase = gs.get("phase", "pre_game")
 
     run_data = storage.read_run(run_id)
-    has_scores = bool(run_data.get("connection_scores"))
+    has_scores  = bool(run_data.get("connection_scores"))
     has_allocs  = bool(run_data.get("allocations"))
+    has_post    = stored_phase == "post_game"
 
-    # Auto-detect true start phase even if game_state.phase is stale
-    if has_allocs:
+    # Determine completion status and sensible default
+    if has_allocs and has_post:
+        completed = True
+        auto_phase = "pre_game"   # redo from scratch by default
+    elif has_allocs:
+        completed = False
         auto_phase = "post_game"
     elif has_scores or stored_phase == "game":
+        completed = False
         auto_phase = "game"
     else:
+        completed = False
         auto_phase = "pre_game"
 
-    hdr("Resume existing run?")
+    status_parts = []
+    if has_scores:  status_parts.append(f"{len(run_data['connection_scores'])} connection scores")
+    if has_allocs:  status_parts.append(f"{len(run_data['allocations'])} allocations")
+    status = "  |  " + ", ".join(status_parts) if status_parts else ""
+
+    label = "Redo completed run?" if completed else "Resume existing run?"
+    hdr(label)
     info(f"Run     : {run_id}")
-    info(f"Phase   : {stored_phase}  |  Suggested start: {auto_phase}")
+    info(f"Phase   : {stored_phase}{status}")
     info(f"Agents  : {', '.join(gs.get('turn_order', []))}  |  Pool: ${gs.get('prize_pool', 0):,}")
-    c = input("\n  Resume? [Y/n]: ").strip().lower()
+
+    prompt = "\n  Redo? [Y/n]: " if completed else "\n  Resume? [Y/n]: "
+    c = input(prompt).strip().lower()
     if c in ("n", "no"):
         return None
 
     phases = ["pre_game", "game", "post_game"]
     print(f"\n  Start from which phase?")
     for i, p in enumerate(phases, 1):
-        tag = " ← suggested" if p == auto_phase else ""
+        tag = " ← default" if p == auto_phase else ""
         print(f"    {i}. {p}{tag}")
     sel = input(f"  [Enter = {auto_phase}]: ").strip()
     if sel.isdigit() and 1 <= int(sel) <= len(phases):
@@ -165,6 +180,15 @@ def main():
         # Phase 2 — game
         if start_phase in ("pre_game", "game"):
             hdr("PHASE 2 — Game")
+            # When explicitly redoing game phase, reset turn counters
+            if start_phase == "game":
+                n = len(game_state["turn_order"])
+                orig_pool = game_state.get("initial_prize_pool") or n * 10_000
+                game_state["current_turn"] = 0
+                game_state["agents_remaining"] = n
+                game_state["prize_pool"] = orig_pool
+                game_state["phase"] = "game"
+                storage.write_game_state(game_state)
             current_turn = game_state.get("current_turn", 0)
             for agent_id in game_state["turn_order"][current_turn:]:
                 r = act_agent(agent_id)

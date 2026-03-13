@@ -433,14 +433,16 @@ def _parse_game_output(state: AgentTurnState, raw: str) -> None:
 
 def _strip_connection_line(text: str) -> str:
     """Remove Connection_to_...from_... scoring lines and LEAVE signals from chat text."""
+    # Handle scores written as `: [3]`, `: [4`, `: 3`, etc.
     text = re.sub(
-        r"\s*Connection_to_\S+_from_\S+\s*:\s*[1-5]\s*",
+        r"\s*Connection_to_\S+_from_\S+\s*:\s*\[?[1-5][^\n]*",
         "",
         text,
         flags=re.IGNORECASE,
     )
+    # Handle LEAVE on its own line OR inline as `LEAVE]` at end of content
     text = re.sub(
-        r"^\s*LEAVE\s*$",
+        r"\s*\bLEAVE\]?\s*$",
         "",
         text,
         flags=re.IGNORECASE | re.MULTILINE,
@@ -459,9 +461,9 @@ def _parse_chat_output(state: AgentTurnState, raw: str) -> None:
     match = re.search(pattern, raw, re.IGNORECASE | re.DOTALL)
     payload = match.group(1).strip() if match else raw.strip()
 
-    # Detect voluntary LEAVE signal or hard-cap forced exit.
+    # Detect voluntary LEAVE signal — handles both standalone line and inline `LEAVE]`
     leave_match = re.search(
-        r"^\s*LEAVE\s*$", payload, re.MULTILINE | re.IGNORECASE
+        r"\bLEAVE\]?\b", payload, re.IGNORECASE
     )
     state["wants_to_leave"] = bool(leave_match) or bool(state.get("is_final"))
 
@@ -469,7 +471,7 @@ def _parse_chat_output(state: AgentTurnState, raw: str) -> None:
     if state["wants_to_leave"]:
         conn_match = re.search(
             rf"Connection_to_{re.escape(partner_id)}_from_"
-            rf"{re.escape(agent_id)}\s*:\s*([1-5])",
+            rf"{re.escape(agent_id)}\s*:\s*\[?([1-5])",
             payload,
             re.IGNORECASE,
         )
