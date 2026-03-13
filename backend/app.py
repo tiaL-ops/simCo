@@ -14,7 +14,7 @@ Endpoints:
 """
 import os
 import sys
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 from datetime import datetime
 
@@ -26,6 +26,8 @@ from graph.nodes import _strip_connection_line
 
 # Allow imports of sibling packages (services/, graph/) when run from backend/
 sys.path.insert(0, os.path.dirname(__file__))
+
+FRONTEND_DIR = os.path.join(os.path.dirname(__file__), '..', 'frontend')
 
 app = Flask(__name__)
 CORS(app)
@@ -41,6 +43,26 @@ greetings = []
 @app.route('/hi')
 def hi():
     return 'hi'
+
+
+@app.route('/game')
+def game():
+    return send_from_directory(FRONTEND_DIR, 'index.html')
+
+
+@app.route('/game/<path:filename>')
+def game_static(filename):
+    return send_from_directory(FRONTEND_DIR, filename)
+
+
+@app.route('/game.js')
+def game_js():
+    return send_from_directory(FRONTEND_DIR, 'game.js')
+
+
+@app.route('/phaser/<path:filename>')
+def phaser_static(filename):
+    return send_from_directory(FRONTEND_DIR, 'phaser/' + filename)
 
 
 @app.route('/api/greet', methods=['POST'])
