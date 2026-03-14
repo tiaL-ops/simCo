@@ -92,6 +92,21 @@ def prompt_setup() -> dict:
                 prize_pool=prize_pool, contexts=contexts)
 
 
+# ── Pre-game pair completeness check ────────────────────────────────────────
+def _pregame_incomplete_pairs(run_id: str, agents: list) -> list:
+    """Return list of (agentA, agentB, msg_count) for pairs that haven't
+    finished pre-game (i.e. fewer than 2 messages stored).
+    """
+    import itertools
+    incomplete = []
+    for a, b in itertools.combinations(agents, 2):
+        conv = storage.read_conversation(run_id, a, b)
+        count = len(conv.get("pre_game", []))
+        if count < 2:
+            incomplete.append((a, b, count))
+    return incomplete
+
+
 # ── Resume / redo existing run ───────────────────────────────────────────────
 def offer_resume() -> "tuple[dict, str] | None":
     """If game_state.json has a run_id, offer to resume or redo it.
@@ -145,6 +160,19 @@ def offer_resume() -> "tuple[dict, str] | None":
         f"Agents  : {', '.join(gs.get('turn_order', []))}  "
         f"|  Pool: ${gs.get('prize_pool', 0):,}"
         )
+
+    # Pre-game completeness check — show any pairs that never fully talked
+    agents = gs.get("turn_order", [])
+    if agents:
+        missing = _pregame_incomplete_pairs(run_id, agents)
+        if missing:
+            print(f"\n  {YELLOW}⚠  Pre-game incomplete pairs:{RESET}")
+            for a, b, n in missing:
+                if n == 0:
+                    print(f"    {a}↔{b}  — not started")
+                else:
+                    print(f"    {a}↔{b}  — only {n} message{'s' if n != 1 else ''} (abruptly stopped)")
+            print(f"  {DIM}(resume from 'pre_game' to re-run these pairs){RESET}")
 
     prompt = "\n  Redo? [Y/n]: " if completed else "\n  Resume? [Y/n]: "
     c = input(prompt).strip().lower()
