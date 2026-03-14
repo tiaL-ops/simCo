@@ -52,6 +52,13 @@ DEFAULT_CONTEXTS = storage.load_default_contexts()
 # ── Default models by provider ──────────────────────────────────────────────
 DEFAULT_MODELS_BY_PROVIDER = storage.load_default_models_by_provider()
 
+# ── Predefined turn-order variants ──────────────────────────────────────────
+TURN_ORDER_VARIANTS = {
+    1: list("ABCDEFGHIJ"),
+    2: list("CJGAFHIEDB"),
+    3: list("JGHECFIBDA"),
+}
+
 
 # ── Setup prompt ────────────────────────────────────────────────────────────
 def prompt_setup() -> dict:
@@ -69,10 +76,21 @@ def prompt_setup() -> dict:
     cond = input("  Condition — 1) neutral  2) emotional [2]: ").strip() or "2"
     condition = "neutral" if cond == "1" else "emotional"
 
-    n = input("  Number of agents (2–10) [3]: ").strip() or "3"
-    agents = [
-        chr(ord("A") + i)
-        for i in range(max(2, min(10, int(n) if n.isdigit() else 3)))
+    print("\n  Turn-order variant (10 agents, preset order):")
+    print("    1. Standard  : A B C D E F G H I J")
+    print("    2. Alternate : C J G A F H I E D B")
+    print("    3. Third     : J G H E C F I B D A")
+    print("    0. Custom    : specify number of agents manually")
+    vsel = input("  Variant [0]: ").strip() or "0"
+    if vsel.isdigit() and 1 <= int(vsel) <= 3:
+        variant = int(vsel)
+        agents = TURN_ORDER_VARIANTS[variant]
+    else:
+        variant = None
+        n = input("  Number of agents (2–10) [3]: ").strip() or "3"
+        agents = [
+            chr(ord("A") + i)
+            for i in range(max(2, min(10, int(n) if n.isdigit() else 3)))
         ]
 
     contexts = {}
@@ -89,7 +107,23 @@ def prompt_setup() -> dict:
 
     return dict(llm_provider=llm_provider, llm_model=llm_model,
                 condition=condition, agents=agents,
-                prize_pool=prize_pool, contexts=contexts)
+                prize_pool=prize_pool, contexts=contexts,
+                variant=variant)
+
+
+# ── Pre-game pair completeness check ────────────────────────────────────────
+def _pregame_incomplete_pairs(run_id: str, agents: list) -> list:
+    """Return list of (agentA, agentB, msg_count) for pairs that haven't
+    finished pre-game (i.e. fewer than 2 messages stored).
+    """
+    import itertools
+    incomplete = []
+    for a, b in itertools.combinations(agents, 2):
+        conv = storage.read_conversation(run_id, a, b)
+        count = len(conv.get("pre_game", []))
+        if count < 2:
+            incomplete.append((a, b, count))
+    return incomplete
 
 
 # ── Resume / redo existing run ───────────────────────────────────────────────
@@ -145,6 +179,19 @@ def offer_resume() -> "tuple[dict, str] | None":
         f"Agents  : {', '.join(gs.get('turn_order', []))}  "
         f"|  Pool: ${gs.get('prize_pool', 0):,}"
         )
+
+    # Pre-game completeness check — show any pairs that never fully talked
+    agents = gs.get("turn_order", [])
+    if agents:
+        missing = _pregame_incomplete_pairs(run_id, agents)
+        if missing:
+            print(f"\n  {YELLOW}⚠  Pre-game incomplete pairs:{RESET}")
+            for a, b, n in missing:
+                if n == 0:
+                    print(f"    {a}↔{b}  — not started")
+                else:
+                    print(f"    {a}↔{b}  — only {n} message{'s' if n != 1 else ''} (abruptly stopped)")
+            print(f"  {DIM}(resume from 'pre_game' to re-run these pairs){RESET}")
 
     prompt = "\n  Redo? [Y/n]: " if completed else "\n  Resume? [Y/n]: "
     c = input(prompt).strip().lower()

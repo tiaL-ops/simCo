@@ -26,9 +26,12 @@ def init_new_run(
     agents: list[str],
     prize_pool: int,
     contexts: dict[str, str],
+    variant: int | None = None,
 ) -> dict:
     """Initialise game_state + memory files. Returns the new game_state."""
-    run_id = storage.generate_run_id(model_type=llm_model, condition=condition)
+    run_id = storage.generate_run_id(
+        model_type=llm_model, condition=condition, variant=variant
+    )
     game_state = storage.init_new_run(
         run_id=run_id,
         condition=condition,
