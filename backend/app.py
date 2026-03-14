@@ -21,9 +21,14 @@ from datetime import datetime
 from pathlib import Path
 
 from services import storage
-from services.runner import new_run, run_pre_game_phase, act_agent, run_post_game_phase, send_chat
+from services.runner import (
+    init_new_run,
+    run_pre_game_phase,
+    act_agent,
+    run_post_game_phase,
+    send_chat
+)
 from graph.pipeline import run_pipeline
-from graph.nodes import _strip_connection_line
 
 
 # Allow imports of sibling packages (services/, graph/) when run from backend/
@@ -48,9 +53,20 @@ def home():
     return send_from_directory(FRONTEND_DIR, 'home.html')
 
 
+@app.route('/api/setup-defaults', methods=['GET'])
+def setup_defaults():
+    """Return setup defaults loaded from backend config files."""
+    return jsonify({
+        'defaults_by_provider': storage.load_default_models_by_provider(),
+        'default_contexts': storage.load_default_contexts(),
+    })
+
+
 @app.route('/api/runs', methods=['GET'])
 def list_runs():
-    """List all runs with summary info (agents, condition, allocations, convs)."""
+    """List all runs with summary info
+    (agents, condition, allocations, convs).
+    """
     runs_dir = Path(storage.DATA_DIR) / 'runs'
     conv_base = Path(storage.DATA_DIR) / 'conversations'
     active_run_id = (storage.read_game_state() or {}).get('run_id', '')
@@ -63,7 +79,8 @@ def list_runs():
         run_id = run.get('run_id') or f.stem
         # Count conversation pair files
         conv_dir = conv_base / run_id
-        pair_count = len(list(conv_dir.glob('*.json'))) if conv_dir.exists() else 0
+        pair_count = len(list(conv_dir.glob('*.json'))) \
+            if conv_dir.exists() else 0
         allocations = run.get('allocations') or []
         agents = sorted({a['agent'] for a in allocations}) or []
         items.append({
@@ -83,7 +100,9 @@ def list_runs():
 
 @app.route('/api/run-view', methods=['GET'])
 def run_view():
-    """Return historical run data needed to render /game for a past simulation."""
+    """Return historical run data needed to render
+    /game for a past simulation.
+    """
     run_id = request.args.get('run_id', '').strip()
     if not run_id:
         return jsonify({'error': 'run_id is required'}), 400
@@ -207,7 +226,8 @@ def clear_greets():
 def list_conversations():
     """Return conversation threads grouped by pair for one run.
 
-    Query param: ?run_id=<id> (optional). If omitted, uses active game_state run.
+    Query param: ?run_id=<id> (optional).
+    If omitted, uses active game_state run.
     """
     run_id = request.args.get('run_id', '').strip()
     game_state = storage.read_game_state()
@@ -216,12 +236,18 @@ def list_conversations():
     if not run_id:
         return jsonify({'error': 'run_id is required'}), 400
 
-    turn_order = game_state.get('turn_order', []) if game_state.get('run_id') == run_id else []
+    turn_order = game_state.get('turn_order', []) \
+        if game_state.get('run_id') == run_id else []
     expected_pairs = {}
     for i in range(len(turn_order)):
         for j in range(i + 1, len(turn_order)):
             a, b = sorted([turn_order[i], turn_order[j]])
-            expected_pairs[f'{a}_{b}'] = {'pair': [a, b], 'pre_game': [], 'post_game': []}
+            expected_pairs[
+                f'{a}_{b}'] = {
+                    'pair': [a, b],
+                    'pre_game': [],
+                    'post_game': []
+                    }
 
     conv_dir = Path(storage.DATA_DIR) / 'conversations' / run_id
     if conv_dir.exists():
@@ -259,7 +285,6 @@ def list_conversations():
 # ---------------------------------------------------------------------------
 # POST /new-run
 # ---------------------------------------------------------------------------
-
 @app.route("/new-run", methods=["POST"])
 def new_run():
     """Initialise game_state.json and per-agent memory for a fresh run.
@@ -300,7 +325,7 @@ def new_run():
             "error": "condition must be 'neutral' or 'emotional'"
             }), 400
 
-    game_state = new_run(
+    game_state = init_new_run(
         llm_provider=llm_provider,
         llm_model=llm_model,
         condition=condition,
@@ -338,7 +363,9 @@ def act():
     if not agent_id:
         return jsonify({"error": "agent_id is required"}), 400
     if not storage.read_game_state():
-        return jsonify({"error": "No active run. Call POST /new-run first."}), 400
+        return jsonify({
+            "error": "No active run. Call POST /new-run first."
+            }), 400
 
     result = act_agent(agent_id)
     return jsonify(result)
@@ -353,18 +380,22 @@ def chat_api():
     """Log a message from one agent and return the recipient's reply."""
     data = request.get_json(force=True, silent=True) or {}
     from_agent = str(data.get("from", "")).strip()
-    to_agent   = str(data.get("to", "")).strip()
-    message    = str(data.get("message", "")).strip()
-    phase      = str(data.get("phase", "pre_game")).strip()
+    to_agent = str(data.get("to", "")).strip()
+    message = str(data.get("message", "")).strip()
+    phase = str(data.get("phase", "pre_game")).strip()
 
     if not all([from_agent, to_agent, message]):
         return jsonify({"error": "from, to, and message are required"}), 400
     if phase not in ("pre_game", "post_game"):
-        return jsonify({"error": "phase must be 'pre_game' or 'post_game'"}), 400
+        return jsonify({
+            "error": "phase must be 'pre_game' or 'post_game'"
+            }), 400
 
     game_state = storage.read_game_state()
     if not game_state:
-        return jsonify({"error": "No active run. Call POST /new-run first."}), 400
+        return jsonify({
+            "error": "No active run. Call POST /new-run first."
+            }), 400
 
     try:
         result = send_chat(
@@ -389,9 +420,13 @@ def run_pre_game():
     """Run all pre-game pair discussions automatically."""
     game_state = storage.read_game_state()
     if not game_state:
-        return jsonify({"error": "No active run. Call POST /new-run first."}), 400
+        return jsonify({
+            "error": "No active run. Call POST /new-run first."
+            }), 400
     if len(game_state.get("turn_order") or []) < 2:
-        return jsonify({"error": "Need at least 2 agents to run discussions."}), 400
+        return jsonify({
+            "error": "Need at least 2 agents to run discussions."
+            }), 400
 
     pairs = run_pre_game_phase(game_state)
     return jsonify({"status": "ok", "pairs": pairs}), 200

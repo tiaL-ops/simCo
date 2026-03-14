@@ -4,7 +4,7 @@ All data lives under backend/data/:
   game_state.json
   runs/{run_id}.json
   conversations/{run_id}/{A}_{B}.json   (pair sorted alphabetically)
-  memory/{agent_id}.json
+    memory/{run_id}/{agent_id}.json
   scores/{run_id}.json
 """
 import re
@@ -15,6 +15,7 @@ from datetime import datetime, timezone
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
+CONFIG_DIR = BASE_DIR / "config"
 
 GAME_STATE_FILE = DATA_DIR / "game_state.json"
 
@@ -53,6 +54,31 @@ def _normalize_text(value: Any) -> str:
     if isinstance(value, (list, tuple)):
         return " ".join(str(item) for item in value if item is not None)
     return str(value)
+
+
+def load_default_contexts() -> dict[str, str]:
+    """Load default emotional contexts from config/default_contexts.json."""
+    path = CONFIG_DIR / "default_contexts.json"
+    data = _read(path)
+    if isinstance(data, dict):
+        return {
+            str(k): _normalize_text(v)
+            for k, v in data.items()
+        }
+    return {}
+
+
+def load_default_models_by_provider() -> dict[str, str]:
+    """Load default provider-model mapping from config JSON."""
+    path = CONFIG_DIR / "default_models_by_provider.json"
+    data = _read(path)
+    if isinstance(data, dict):
+        return {
+            str(k): _normalize_text(v)
+            for k, v in data.items()
+            if _normalize_text(v)
+        }
+    return {}
 
 
 def generate_run_id(
@@ -118,12 +144,34 @@ def write_game_state(state: dict) -> None:
 
 
 # ---------------------------------------------------------------------------
-# memory/{agent_id}.json
+# memory/{run_id}/{agent_id}.json
 # ---------------------------------------------------------------------------
 
-def read_memory(agent_id: str) -> dict:
-    path = DATA_DIR / "memory" / f"{agent_id}.json"
+def _resolve_memory_paths(
+    agent_id: str,
+    run_id: str | None = None,
+) -> tuple[Path, Path]:
+    """Return (primary_run_path, legacy_flat_path) for an agent memory file."""
+    resolved_run_id = (run_id or "").strip()
+    if not resolved_run_id:
+        state = read_game_state()
+        resolved_run_id = str(state.get("run_id", "")).strip()
+
+    if resolved_run_id:
+        primary = DATA_DIR / "memory" / resolved_run_id / f"{agent_id}.json"
+    else:
+        primary = DATA_DIR / "memory" / f"{agent_id}.json"
+
+    legacy = DATA_DIR / "memory" / f"{agent_id}.json"
+    return primary, legacy
+
+
+def read_memory(agent_id: str, run_id: str | None = None) -> dict:
+    path, legacy_path = _resolve_memory_paths(agent_id, run_id)
     data = _read(path)
+    if data is None and legacy_path != path:
+        # Backward compatibility for runs created before run-scoped memory.
+        data = _read(legacy_path)
     if data is None:
         return {
             "agent_id": agent_id,
@@ -135,13 +183,20 @@ def read_memory(agent_id: str) -> dict:
     return data
 
 
-def write_memory(agent_id: str, data: dict) -> None:
-    path = DATA_DIR / "memory" / f"{agent_id}.json"
+def write_memory(
+    agent_id: str,
+    data: dict,
+    run_id: str | None = None,
+) -> None:
+    path, _legacy_path = _resolve_memory_paths(agent_id, run_id)
     _write(path, data)
 
 
 def init_agent_memory(
-        agent_id: str, condition: str, context: str = ""
+        agent_id: str,
+        condition: str,
+        context: str = "",
+        run_id: str | None = None,
         ) -> dict:
     memory = {
         "agent_id": agent_id,
@@ -150,7 +205,7 @@ def init_agent_memory(
         "conversation_summaries": {},
         "connection_scores": {},
     }
-    write_memory(agent_id, memory)
+    write_memory(agent_id, memory, run_id=run_id)
     return memory
 
 
@@ -429,6 +484,7 @@ def init_new_run(
             agent_id,
             condition=condition,
             context=contexts.get(agent_id, ""),
+            run_id=run_id,
         )
 
     init_run_file(run_id, condition, llm_model, llm_provider)
@@ -436,5 +492,9 @@ def init_new_run(
     # Create conversations directory for this run
     conv_dir = DATA_DIR / "conversations" / run_id
     conv_dir.mkdir(parents=True, exist_ok=True)
+
+    # Create run-scoped memory directory for this run
+    memory_dir = DATA_DIR / "memory" / run_id
+    memory_dir.mkdir(parents=True, exist_ok=True)
 
     return game_state
