@@ -250,9 +250,12 @@ def test_post_game_chat(base: str):
     show("A → B (post_game)", status, body)
 
 
-def inspect_memory():
+def inspect_memory(run_id: str):
     section("7. Inspect memory files")
-    memory_dir = DATA_DIR / "memory"
+    memory_dir = DATA_DIR / "memory" / run_id
+    if not memory_dir.exists():
+        print(f"  No memory directory for run '{run_id}'")
+        return
     for agent in AGENTS:
         path = memory_dir / f"{agent}.json"
         if path.exists():
@@ -383,7 +386,7 @@ def main():
                 test_get_results(base)
                 test_post_game_chat(base)
 
-        inspect_memory()
+        inspect_memory(RUN_ID)
         inspect_conversation(RUN_ID)
 
         section("All tests passed ✓")

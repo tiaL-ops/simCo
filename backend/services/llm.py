@@ -9,6 +9,10 @@ from typing import Literal
 
 from dotenv import load_dotenv
 from langchain_core.messages import HumanMessage
+from langchain_openai import ChatOpenAI
+from langchain_anthropic import ChatAnthropic
+from langchain_google_genai import ChatGoogleGenerativeAI
+
 
 load_dotenv()
 
@@ -27,8 +31,6 @@ def get_llm(
       2. ``LLM_PROVIDER`` env var
       3. Defaults to ``openai``
     """
-    provider = (provider or os.getenv("LLM_PROVIDER", "openai")).lower()
-    model = model or os.getenv("LLM_MODEL")
 
     if provider == "openai":
         return _openai(model, temperature)
@@ -52,7 +54,13 @@ def ask_llm(llm, prompt: str) -> str:
     if isinstance(content, str):
         return content
     if isinstance(content, list):
-        return " ".join(str(item) for item in content)
+        parts = []
+        for item in content:
+            if isinstance(item, dict):
+                parts.append(item.get("text", str(item)))
+            else:
+                parts.append(str(item))
+        return " ".join(parts)
     if isinstance(content, dict):
         return content.get("text", str(content))
     return str(content)
@@ -63,8 +71,6 @@ def ask_llm(llm, prompt: str) -> str:
 # ---------------------------------------------------------------------------
 
 def _openai(model: str | None, temperature: float):
-    from langchain_openai import ChatOpenAI
-
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
         raise ValueError("OPENAI_API_KEY not set.")
@@ -76,8 +82,6 @@ def _openai(model: str | None, temperature: float):
 
 
 def _claude(model: str | None, temperature: float):
-    from langchain_anthropic import ChatAnthropic
-
     api_key = os.getenv("ANTHROPIC_API_KEY")
     if not api_key:
         raise ValueError("ANTHROPIC_API_KEY not set.")
@@ -89,8 +93,6 @@ def _claude(model: str | None, temperature: float):
 
 
 def _gemini(model: str | None, temperature: float):
-    from langchain_google_genai import ChatGoogleGenerativeAI
-
     api_key = os.getenv("GOOGLE_API_KEY")
     if not api_key:
         raise ValueError("GOOGLE_API_KEY not set.")
@@ -102,8 +104,6 @@ def _gemini(model: str | None, temperature: float):
 
 
 def _grok(model: str | None, temperature: float):
-    from langchain_openai import ChatOpenAI
-
     api_key = os.getenv("XAI_API_KEY")
     if not api_key:
         raise ValueError("XAI_API_KEY not set.")

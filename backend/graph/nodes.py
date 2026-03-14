@@ -77,7 +77,8 @@ def _build_pre_game_chat_prompt(
         agent_name=agent_id,
         context=agent_context or "No special context.",
     )
-    context_block = f"Personal context:\n{agent_context}\n\n" if agent_context else ""
+    context_block = f"Personal context:\n{agent_context}\n\n" \
+        if agent_context else ""
     pre_setup = _render(
         _load_template("pre_discussion"),
         context_block=context_block,
@@ -99,8 +100,8 @@ def _build_pre_game_chat_prompt(
         )
     elif can_leave:
         prompt += (
-            f"\n\nYou may choose to end this conversation if you feel it has run "
-            f"its course. If you wish to leave, end your reply with:\n"
+            f"\n\nYou may choose to end this conversation if you feel it has "
+            f"run its course. If you wish to leave, end your reply with:\n"
             f"LEAVE\n"
             f"Connection_to_{partner_id}_from_{agent_id}: [1-5]"
         )
@@ -120,7 +121,8 @@ def _build_pre_game_first_msg_prompt(
         agent_name=agent_id,
         context=agent_context or "No special context.",
     )
-    context_block = f"Personal context:\n{agent_context}\n\n" if agent_context else ""
+    context_block = f"Personal context:\n{agent_context}\n\n" \
+        if agent_context else ""
     pre_setup = _render(
         _load_template("pre_discussion"),
         context_block=context_block,
@@ -136,7 +138,9 @@ def _build_pre_game_first_msg_prompt(
 def _is_final_exchange(
     run_id: str, agent_id: str, partner_id: str, phase_key: str
 ) -> bool:
-    """Return True if this is the last allowed exchange (hard cap: 10 per side)."""
+    """Return True if this is the last allowed exchange
+    (hard cap: 10 per side).
+    """
     conv = storage.read_conversation(run_id, agent_id, partner_id)
     # 20 messages total = 10 per side; after this reply it will be full.
     return len(conv.get(phase_key, [])) >= 19
@@ -145,7 +149,9 @@ def _is_final_exchange(
 def _can_leave_exchange(
     run_id: str, agent_id: str, partner_id: str, phase_key: str
 ) -> bool:
-    """Return True if the minimum exchanges have been met (5 per side = 10 total)."""
+    """Return True if the minimum exchanges
+    have been met (5 per side = 10 total).
+    """
     conv = storage.read_conversation(run_id, agent_id, partner_id)
     # At this point the sender's latest message has already been stored,
     # so >= 9 means 5 from sender + 4 previous replies = this is the 5th reply.
@@ -259,7 +265,7 @@ def load_context(state: AgentTurnState) -> AgentTurnState:
     phase = state["phase"]
 
     game_state = storage.read_game_state()
-    agent_memory = storage.read_memory(agent_id)
+    agent_memory = storage.read_memory(agent_id, run_id=run_id)
 
     conversation_history: list = []
     discussion_summary = ""
@@ -442,7 +448,9 @@ def _parse_game_output(state: AgentTurnState, raw: str) -> None:
 
 
 def _strip_connection_line(text: str) -> str:
-    """Remove Connection_to_...from_... scoring lines and LEAVE signals from chat text."""
+    """Remove Connection_to_...from_... scoring lines
+    and LEAVE signals from chat text.
+    """
     # Handle scores written as `: [3]`, `: [4`, `: 3`, etc.
     text = re.sub(
         r"\s*Connection_to_\S+_from_\S+\s*:\s*\[?[1-5][^\n]*",
@@ -471,7 +479,8 @@ def _parse_chat_output(state: AgentTurnState, raw: str) -> None:
     match = re.search(pattern, raw, re.IGNORECASE | re.DOTALL)
     payload = match.group(1).strip() if match else raw.strip()
 
-    # Detect voluntary LEAVE signal — handles both standalone line and inline `LEAVE]`
+    # Detect voluntary LEAVE signal
+    # handles both standalone line and inline `LEAVE]`
     leave_match = re.search(
         r"\bLEAVE\]?\b", payload, re.IGNORECASE
     )
@@ -489,7 +498,9 @@ def _parse_chat_output(state: AgentTurnState, raw: str) -> None:
             state["connection_score"] = int(conn_match.group(1))
 
     # Strip LEAVE and connection lines so they never appear in stored messages.
-    state["reply_message"] = _normalize_chat_reply(_strip_connection_line(payload))
+    state["reply_message"] = _normalize_chat_reply(
+        _strip_connection_line(payload)
+        )
 
 
 def _normalize_chat_reply(text: str) -> str:
@@ -557,7 +568,9 @@ def _parse_post_game_init_output(state: AgentTurnState, raw: str) -> None:
         message_match = re.search(r"Message\s*:\s*(.+)", raw, re.IGNORECASE)
         people_blob = people_match.group(1).strip() if people_match else ""
         message = message_match.group(1).strip() if message_match else ""
-        if message.startswith("[") and message.endswith("]") and len(message) >= 2:
+        if message.startswith("[") \
+                and message.endswith("]") \
+                and len(message) >= 2:
             message = message[1:-1].strip()
         raw_targets = re.findall(r"\b[A-Z]\b", people_blob.upper())
         for target in raw_targets:
@@ -593,17 +606,18 @@ def parse_output(state: AgentTurnState) -> AgentTurnState:
 # ---------------------------------------------------------------------------
 
 def update_memory(state: AgentTurnState) -> AgentTurnState:
-    """Persist relevant fields back to memory/{agent_id}.json."""
+    """Persist relevant fields back to memory/{run_id}/{agent_id}.json."""
     agent_id = state["agent_id"]
+    run_id = state["run_id"]
     phase = state["phase"]
-    memory = storage.read_memory(agent_id)
+    memory = storage.read_memory(agent_id, run_id=run_id)
 
     if phase == "game":
         conn = state.get("connection_score")
         if conn is not None:
             # Store overall game-phase connection score
             memory.setdefault("connection_scores", {})["overall"] = conn
-        storage.write_memory(agent_id, memory)
+        storage.write_memory(agent_id, memory, run_id=run_id)
 
     elif phase == "post_game_init":
         storage.replace_post_game_requests(
@@ -615,20 +629,22 @@ def update_memory(state: AgentTurnState) -> AgentTurnState:
     elif phase in ("pre_game_chat", "pre_game_first_msg", "post_game_chat"):
         partner_id = state.get("partner_id") or ""
         if partner_id:
-            partner_msg = state.get("partner_message") or ""
-            reply = state.get("reply_message") or ""
-            conn = state.get("connection_score")
+            # get connection score
+            connection_score = state.get("connection_score")
 
             # Save per-partner connection score during pre-game phases.
-            if phase in ("pre_game_chat", "pre_game_first_msg") and conn is not None:
-                memory.setdefault("connection_scores", {})[partner_id] = conn
+            if phase in ("pre_game_chat", "pre_game_first_msg") \
+                    and connection_score is not None:
+                memory.setdefault(
+                    "connection_scores", {}
+                    )[partner_id] = connection_score
                 storage.append_connection_score(
-                    state["run_id"], agent_id, partner_id, conn
+                    state["run_id"], agent_id, partner_id, connection_score
                 )
 
             # For first-msg phase there is no conversation yet — skip summary.
             if phase == "pre_game_first_msg":
-                storage.write_memory(agent_id, memory)
+                storage.write_memory(agent_id, memory, run_id=run_id)
                 return state
 
             summaries = memory.setdefault("conversation_summaries", {})
@@ -671,7 +687,8 @@ def update_memory(state: AgentTurnState) -> AgentTurnState:
 
             conversation_context = (
                 "Pre-game conversation transcripts:\n"
-                + ("\n".join(transcript_blocks) if transcript_blocks else "- none yet")
+                + ("\n".join(transcript_blocks)
+                   if transcript_blocks else "- none yet")
             )
 
             summary_prompt = _build_summary_conv_prompt(
@@ -693,6 +710,6 @@ def update_memory(state: AgentTurnState) -> AgentTurnState:
                 "overall_pre_game": summaries.get("overall_pre_game", "")
             }
 
-            storage.write_memory(agent_id, memory)
+            storage.write_memory(agent_id, memory, run_id=run_id)
 
     return state

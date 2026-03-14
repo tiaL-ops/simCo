@@ -12,14 +12,14 @@ from graph.nodes import _strip_connection_line
 
 MIN_MESSAGES = 10           # 5 per side before LEAVE is honoured (pre-game)
 MAX_MESSAGES = 20           # 10 per side hard cap (pre-game)
-MAX_POST_GAME_MESSAGES = 10 # 5 per side hard cap (post-game)
+MAX_POST_GAME_MESSAGES = 10  # 5 per side hard cap (post-game)
 
 
 # ---------------------------------------------------------------------------
 # Phase 0 — new run
 # ---------------------------------------------------------------------------
 
-def new_run(
+def init_new_run(
     llm_provider: str,
     llm_model: str,
     condition: str,
@@ -51,10 +51,10 @@ def run_pre_game_phase(game_state: dict) -> list[dict]:
     Returns a list of pair summaries:
       [{"pair": ["A","B"], "turns": 12, "scores": {"A": 4, "B": 3}}, ...]
     """
-    run_id       = game_state["run_id"]
+    run_id = game_state["run_id"]
     llm_provider = game_state.get("llm_provider")
-    llm_model    = game_state.get("llm_model")
-    agents       = game_state.get("turn_order", [])
+    llm_model = game_state.get("llm_model")
+    agents = game_state.get("turn_order", [])
     pairs_summary = []
 
     for agent_a, agent_b in itertools.combinations(agents, 2):
@@ -110,7 +110,9 @@ def run_pre_game_phase(game_state: dict) -> list[dict]:
             pair_log["turns"] += 1
 
             if result.get("connection_score") is not None:
-                pair_log["scores"][current_receiver] = result["connection_score"]
+                pair_log[
+                    "scores"
+                    ][current_receiver] = result["connection_score"]
 
             if result.get("wants_to_leave"):
                 # Give the other side a forced final rating turn
@@ -154,10 +156,10 @@ def act_agent(agent_id: str) -> dict:
     Reads and updates game_state.json internally.
     """
     game_state = storage.read_game_state()
-    run_id       = game_state["run_id"]
+    run_id = game_state["run_id"]
     llm_provider = game_state.get("llm_provider")
-    llm_model    = game_state.get("llm_model")
-    prize_pool   = game_state.get("prize_pool", 0)
+    llm_model = game_state.get("llm_model")
+    prize_pool = game_state.get("prize_pool", 0)
     agents_remaining = game_state.get("agents_remaining", 1)
 
     result = run_pipeline(
@@ -165,13 +167,13 @@ def act_agent(agent_id: str) -> dict:
         phase="game", llm_provider=llm_provider, llm_model=llm_model,
     )
 
-    amount    = max(0, min(result.get("amount") or 0, prize_pool))
+    amount = max(0, min(result.get("amount") or 0, prize_pool))
     reasoning = result.get("reasoning") or ""
     fair_share = prize_pool / agents_remaining if agents_remaining else 0
 
     storage.append_allocation(run_id, agent_id, amount, fair_share, reasoning)
 
-    new_pool         = prize_pool - amount
+    new_pool = prize_pool - amount
     agents_remaining = max(0, agents_remaining - 1)
     game_state.update({
         "prize_pool":        new_pool,
@@ -210,10 +212,10 @@ def run_post_game_phase(game_state: dict) -> list[dict]:
     - Per-pair conversation stored in conversations/{run_id}/A_B.json under
       the "post_game" key.
     """
-    run_id       = game_state["run_id"]
+    run_id = game_state["run_id"]
     llm_provider = game_state.get("llm_provider")
-    llm_model    = game_state.get("llm_model")
-    agents       = game_state.get("turn_order", [])
+    llm_model = game_state.get("llm_model")
+    agents = game_state.get("turn_order", [])
     pairs_summary = []
 
     # Step 1 — collect every agent's choice and opener (no separate message
@@ -269,19 +271,29 @@ def run_post_game_phase(game_state: dict) -> list[dict]:
         }
 
         # Turn 1 — A's stored opener (no new LLM call)
-        storage.append_conversation(run_id, agent_a, agent_b, opener_a, "post_game")
+        storage.append_conversation(
+            run_id,
+            agent_a, agent_b,
+            opener_a,
+            "post_game"
+            )
         pair_log["turns"] += 1
 
         if mutual:
             # Turn 2 — B's stored opener (no new LLM call)
-            storage.append_conversation(run_id, agent_b, agent_a, opener_b, "post_game")
+            storage.append_conversation(
+                run_id,
+                agent_b, agent_a,
+                opener_b,
+                "post_game"
+            )
             pair_log["turns"] += 1
-            current_message  = opener_b
-            current_sender   = agent_b
+            current_message = opener_b
+            current_sender = agent_b
             current_receiver = agent_a
         else:
-            current_message  = opener_a
-            current_sender   = agent_a
+            current_message = opener_a
+            current_sender = agent_a
             current_receiver = agent_b
 
         # Remaining turns — LLM alternation
@@ -305,7 +317,7 @@ def run_post_game_phase(game_state: dict) -> list[dict]:
             if result.get("wants_to_leave"):
                 break
 
-            current_message  = reply
+            current_message = reply
             current_sender, current_receiver = current_receiver, current_sender
 
         pairs_summary.append(pair_log)
@@ -342,7 +354,8 @@ def send_chat(
         _strip_connection_line(message), phase
     )
 
-    pipeline_phase = "pre_game_chat" if phase == "pre_game" else "post_game_chat"
+    pipeline_phase = "pre_game_chat" \
+        if phase == "pre_game" else "post_game_chat"
     result = run_pipeline(
         agent_id=to_agent, run_id=run_id,
         phase=pipeline_phase, partner_id=from_agent,
@@ -355,7 +368,8 @@ def send_chat(
 
     # Suppress LEAVE until minimum met
     conv_now = storage.read_conversation(run_id, from_agent, to_agent)
-    below_min = phase == "pre_game" and len(conv_now.get("pre_game", [])) < MIN_MESSAGES
+    below_min = phase == "pre_game" \
+        and len(conv_now.get("pre_game", [])) < MIN_MESSAGES
     wants_to_leave = bool(result.get("wants_to_leave")) and not below_min
 
     return {"reply": reply, "leave": wants_to_leave}
