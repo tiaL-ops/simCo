@@ -52,6 +52,13 @@ DEFAULT_CONTEXTS = storage.load_default_contexts()
 # ── Default models by provider ──────────────────────────────────────────────
 DEFAULT_MODELS_BY_PROVIDER = storage.load_default_models_by_provider()
 
+# ── Predefined turn-order variants ──────────────────────────────────────────
+TURN_ORDER_VARIANTS = {
+    1: list("ABCDEFGHIJ"),
+    2: list("CJGAFHIEDB"),
+    3: list("JGHECFIBDA"),
+}
+
 
 # ── Setup prompt ────────────────────────────────────────────────────────────
 def prompt_setup() -> dict:
@@ -69,10 +76,21 @@ def prompt_setup() -> dict:
     cond = input("  Condition — 1) neutral  2) emotional [2]: ").strip() or "2"
     condition = "neutral" if cond == "1" else "emotional"
 
-    n = input("  Number of agents (2–10) [3]: ").strip() or "3"
-    agents = [
-        chr(ord("A") + i)
-        for i in range(max(2, min(10, int(n) if n.isdigit() else 3)))
+    print("\n  Turn-order variant (10 agents, preset order):")
+    print("    1. Standard  : A B C D E F G H I J")
+    print("    2. Alternate : C J G A F H I E D B")
+    print("    3. Third     : J G H E C F I B D A")
+    print("    0. Custom    : specify number of agents manually")
+    vsel = input("  Variant [0]: ").strip() or "0"
+    if vsel.isdigit() and 1 <= int(vsel) <= 3:
+        variant = int(vsel)
+        agents = TURN_ORDER_VARIANTS[variant]
+    else:
+        variant = None
+        n = input("  Number of agents (2–10) [3]: ").strip() or "3"
+        agents = [
+            chr(ord("A") + i)
+            for i in range(max(2, min(10, int(n) if n.isdigit() else 3)))
         ]
 
     contexts = {}
@@ -89,7 +107,8 @@ def prompt_setup() -> dict:
 
     return dict(llm_provider=llm_provider, llm_model=llm_model,
                 condition=condition, agents=agents,
-                prize_pool=prize_pool, contexts=contexts)
+                prize_pool=prize_pool, contexts=contexts,
+                variant=variant)
 
 
 # ── Pre-game pair completeness check ────────────────────────────────────────

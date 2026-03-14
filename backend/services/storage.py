@@ -84,17 +84,18 @@ def load_default_models_by_provider() -> dict[str, str]:
 def generate_run_id(
     condition: str,
     model_type: str,
+    variant: int | None = None,
     data_dir: Path | None = None,
 ) -> str:
     """Create run_id with per-spec order, model, UTC timestamp, condition.
 
     Format:
-      run_<order>_<model>_<YYYYMMDDTHHMMSSZ>_<condition>
+      run_<order>_<model>_<YYYYMMDDTHHMMSSZ>_<condition>[_v<N>]
     Example:
-      run_0012_gpt-4o-mini_20260312T154501Z_emotional
+      run_0012_gpt-4o-mini_20260312T154501Z_emotional_v2
 
-    Order is scoped by (model, condition), not global. This means
-    each model/condition pair has its own independent sequence.
+    Order is scoped by (model, condition[_vN]), not global. This means
+    each model/condition/variant tuple has its own independent sequence.
     """
     base_dir = data_dir or DATA_DIR
     runs_dir = base_dir / "runs"
@@ -110,6 +111,8 @@ def generate_run_id(
         "-",
         (condition or "neutral").strip().lower()
     )
+    if variant is not None:
+        safe_condition = f"{safe_condition}_v{variant}"
 
     # Determine next run order for this specific model/condition pair.
     # Looks for files like: run_0001_<model>_<ts>_<condition>.json
