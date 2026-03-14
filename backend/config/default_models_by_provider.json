@@ -1,6 +1,6 @@
 {
   "openai": "gpt-4o-mini",
-  "gemini": "gemini-2.0-flash",
+  "gemini": "gemini-3-flash-preview",
   "claude": "claude-3-5-haiku-20241022",
   "grok": "grok-3-mini-fast-beta"
 }

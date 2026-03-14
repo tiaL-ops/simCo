@@ -49,6 +49,9 @@ def pause(label):
 # ── Default contexts ────────────────────────────────────────────────────────
 DEFAULT_CONTEXTS = storage.load_default_contexts()
 
+# ── Default models by provider ──────────────────────────────────────────────
+DEFAULT_MODELS_BY_PROVIDER = storage.load_default_models_by_provider()
+
 
 # ── Setup prompt ────────────────────────────────────────────────────────────
 def prompt_setup() -> dict:
@@ -60,13 +63,7 @@ def prompt_setup() -> dict:
     llm_provider = providers[int(c)-1] \
         if c.isdigit() and 1 <= int(c) <= 4 else "openai"
 
-    defaults = {
-        "openai": "gpt-4o-mini",
-        "gemini": "gemini-2.0-flash",
-        "claude": "claude-3-5-haiku-20241022",
-        "grok": "grok-3-mini-fast-beta"
-    }
-    default_model = defaults.get(llm_provider, "gpt-4o-mini")
+    default_model = DEFAULT_MODELS_BY_PROVIDER.get(llm_provider, "gpt-4o-mini")
     llm_model = input(f"  Model [{default_model}]: ").strip() or default_model
 
     cond = input("  Condition — 1) neutral  2) emotional [2]: ").strip() or "2"
