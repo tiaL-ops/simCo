@@ -71,7 +71,13 @@ def prompt_setup() -> dict:
         if c.isdigit() and 1 <= int(c) <= 4 else "openai"
 
     default_model = DEFAULT_MODELS_BY_PROVIDER.get(llm_provider, "gpt-4o-mini")
-    llm_model = input(f"  Model [{default_model}]: ").strip() or default_model
+    user_model = input(f"  Model [{default_model}]: ").strip()
+    # Reject numeric input (user probably typed a number by mistake)
+    if user_model and user_model.isdigit():
+        print(f"    {YELLOW}⚠ Model names should not be numbers. Using default: {default_model}{RESET}")
+        llm_model = default_model
+    else:
+        llm_model = user_model or default_model
 
     cond = input("  Condition — 1) neutral  2) emotional [2]: ").strip() or "2"
     condition = "neutral" if cond == "1" else "emotional"

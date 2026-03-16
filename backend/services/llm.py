@@ -31,6 +31,10 @@ def get_llm(
       2. ``LLM_PROVIDER`` env var
       3. Defaults to ``openai``
     """
+    # Defensive check: reject model names that are all digits (likely a user error)
+    if model and model.isdigit():
+        print(f"Warning: Invalid model name '{model}' (numeric). Using provider default.")
+        model = None
 
     if provider == "openai":
         return _openai(model, temperature)
