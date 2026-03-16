@@ -460,13 +460,11 @@ def init_new_run(
     contexts: dict[str, str] | None = None,
 ) -> dict:
     """Initialise game_state.json, memory files, and runs/{run_id}.json."""
-    import random
 
     if contexts is None:
         contexts = {}
 
     turn_order = agents.copy()
-    random.shuffle(turn_order)
 
     game_state = {
         "run_id": run_id,
