@@ -46,6 +46,19 @@ def pause(label):
     input("  Press Enter to continue (Ctrl-C to abort)…")
 
 
+def prompt_execution_mode() -> str:
+    """Ask whether to run the full flow or game-only flow.
+
+    Returns:
+        "full" or "game_only"
+    """
+    print("\n  Execution mode:")
+    print("    1. full      (pre-game -> game -> post-game)")
+    print("    2. game_only (skip pre-game and post-game)")
+    choice = input("  Mode [1]: ").strip() or "1"
+    return "game_only" if choice == "2" else "full"
+
+
 # ── Default contexts ────────────────────────────────────────────────────────
 DEFAULT_CONTEXTS = storage.load_default_contexts()
 
@@ -222,31 +235,42 @@ def offer_resume() -> "tuple[dict, str] | None":
 def main():
     print(f"\n{BOLD}{CYAN}  SimCo — Social Connection Experiment{RESET}")
     start_phase = "pre_game"
+    execution_mode = "full"
     try:
         resume = offer_resume()
         if resume is not None:
             game_state, start_phase = resume
+            execution_mode = prompt_execution_mode()
             ok(
                 f"Resuming {BOLD}{game_state['run_id']}{RESET}"
                 f" from phase: {start_phase}"
                 )
+            if execution_mode == "game_only":
+                info("Execution mode: game_only (pre-game/post-game will be skipped)")
         else:
             cfg = prompt_setup()
             hdr("PHASE 0 — New Run")
             game_state = init_new_run(**cfg)
+            execution_mode = prompt_execution_mode()
             ok(f"Run created: {BOLD}{game_state['run_id']}{RESET}")
             info(
                 f"Agents: {', '.join(game_state['turn_order'])}  "
                 f"|  Pool: ${game_state['prize_pool']:,}"
                 )
-            pause("Run ready — about to start pre-game discussions")
+            if execution_mode == "full":
+                pause("Run ready — about to start pre-game discussions")
+            else:
+                pause("Run ready — game-only mode (skipping pre/post discussions)")
     except (KeyboardInterrupt, EOFError):
         print("\n  Aborted.")
         return
 
     try:
         # Phase 1 — pre-game
-        if start_phase == "pre_game":
+        should_run_pre_game = (
+            execution_mode == "full" and start_phase == "pre_game"
+        )
+        if should_run_pre_game:
             hdr("PHASE 1 — Pre-Game Discussions")
             pairs = run_pre_game_phase(game_state)
             for p in pairs:
@@ -259,7 +283,11 @@ def main():
             pause("Pre-game done — about to run game (allocation decisions)")
 
         # Phase 2 — game
-        if start_phase in ("pre_game", "game"):
+        should_run_game = (
+            start_phase in ("pre_game", "game")
+            or execution_mode == "game_only"
+        )
+        if should_run_game:
             hdr("PHASE 2 — Game")
             # When explicitly redoing game phase, reset turn counters
             if start_phase == "game":
@@ -276,10 +304,15 @@ def main():
                 print(f"  {BOLD}{agent_id}{RESET}  took ${r['amount']:>8,}  "
                       f"(fair ${r['fair_share']:,.0f})")
                 info(f"    {r['reasoning'][:100]}")
-            pause("Game done — about to start post-game discussions")
+            if execution_mode == "full":
+                pause("Game done — about to start post-game discussions")
 
         # Phase 3 — post-game
-        if start_phase in ("pre_game", "game", "post_game"):
+        should_run_post_game = (
+            execution_mode == "full"
+            and start_phase in ("pre_game", "game", "post_game")
+        )
+        if should_run_post_game:
             hdr("PHASE 3 — Post-Game Discussions")
             post_pairs = run_post_game_phase(game_state)
             for p in post_pairs:
