@@ -59,6 +59,13 @@ def prompt_execution_mode() -> str:
     return "game_only" if choice == "2" else "full"
 
 
+def set_execution_mode(game_state: dict, execution_mode: str) -> dict:
+    """Persist the chosen execution mode on the active game state."""
+    game_state["execution_mode"] = execution_mode
+    storage.write_game_state(game_state)
+    return game_state
+
+
 # ── Default contexts ────────────────────────────────────────────────────────
 DEFAULT_CONTEXTS = storage.load_default_contexts()
 
@@ -241,6 +248,7 @@ def main():
         if resume is not None:
             game_state, start_phase = resume
             execution_mode = prompt_execution_mode()
+            game_state = set_execution_mode(game_state, execution_mode)
             ok(
                 f"Resuming {BOLD}{game_state['run_id']}{RESET}"
                 f" from phase: {start_phase}"
@@ -252,6 +260,7 @@ def main():
             hdr("PHASE 0 — New Run")
             game_state = init_new_run(**cfg)
             execution_mode = prompt_execution_mode()
+            game_state = set_execution_mode(game_state, execution_mode)
             ok(f"Run created: {BOLD}{game_state['run_id']}{RESET}")
             info(
                 f"Agents: {', '.join(game_state['turn_order'])}  "

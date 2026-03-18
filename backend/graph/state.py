@@ -8,6 +8,7 @@ class GameState(TypedDict, total=False):
     """Canonical persisted overall game state schema loaded from storage."""
     run_id: str
     phase: str
+    execution_mode: str
     condition: str
     prize_pool: int
     initial_prize_pool: int

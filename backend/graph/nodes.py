@@ -159,6 +159,8 @@ def _can_leave_exchange(
 
 
 def _build_game_prompt(
+    run_id: str,
+    agent_id: str,
     game_state: dict,
     agent_memory: dict,
     discussion_summary: str,
@@ -171,6 +173,7 @@ def _build_game_prompt(
         if agents_remaining else 0
 
     condition = game_state.get("condition", "neutral")
+    execution_mode = _to_text(game_state.get("execution_mode", "full")) or "full"
     condition_context = (
         "neutral — no personal context"
         if condition == "neutral"
@@ -178,6 +181,34 @@ def _build_game_prompt(
             agent_memory.get("context", "neutral — no personal context")
         )
     )
+
+    # If "game_only" mode, include other agents' contexts directly in the game prompt
+    # Use the 'game_only_decision' template which omits the discussion summary section.
+    if execution_mode == "game_only":
+        other_context_lines = []
+        for other_agent_id in game_state.get("turn_order", []):
+            if not other_agent_id or other_agent_id == agent_id:
+                continue
+
+            if condition == "neutral":
+                other_context = "neutral — no personal context"
+            else:
+                other_memory = storage.read_memory(other_agent_id, run_id=run_id)
+                other_context = _to_text(
+                    other_memory.get("context", "neutral — no personal context")
+                ).strip() or "neutral — no personal context"
+
+            other_context_lines.append(f"- {other_agent_id}: {other_context}")
+
+        return _render(
+            _load_template("game_only_decision"),
+            remaining_agents=str(agents_remaining),
+            initial_prize_pool=f"{initial_prize_pool:,}",
+            prize_pool=f"{prize_pool:,}",
+            fair_share=f"{fair_share:,.2f}",
+            condition_context=condition_context,
+            others_context="\n".join(other_context_lines) or "- None",
+        )
 
     return _render(
         _load_template("game_decision"),
@@ -374,6 +405,8 @@ def build_prompt(state: AgentTurnState) -> AgentTurnState:
         )
     elif phase == "game":
         state["prompt"] = _build_game_prompt(
+            run_id=state["run_id"],
+            agent_id=agent_id,
             game_state=game_state,
             agent_memory=agent_memory,
             discussion_summary=state.get("discussion_summary") or "None",
