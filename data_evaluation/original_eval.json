@@ -26,7 +26,14 @@
       "B_IN": "2 – Strong",
       "B_EX": "2 – Strong"
     },
-
+    "QC": {
+      "A_ER": "1 – Weak",
+      "A_IN": "1 – Weak",
+      "A_EX": "1 – Weak",
+      "B_ER": "0 – None",
+      "B_IN": "0 – None",
+      "B_EX": "0 – None"
+    },
     "Claude_N": {
       "A_ER": "1 – Weak",
       "A_IN": "2 – Strong",
@@ -35,7 +42,14 @@
       "B_IN": "2 – Strong",
       "B_EX": "2 – Strong"
     },
-   
+    "GPT_E": {
+      "A_ER": "1 – Weak",
+      "A_IN": "2 – Strong",
+      "A_EX": "0 – None",
+      "B_ER": "1 – Weak",
+      "B_IN": "2 – Strong",
+      "B_EX": "0 – None"
+    },
     "Grok_N": {
       "A_ER": "1 – Weak",
       "A_IN": "1 – Weak",
@@ -51,11 +65,27 @@
       "B_ER": "2 – Strong",
       "B_IN": "2 – Strong",
       "B_EX": "0 – None"
+    },
+    "GPT_N": {
+      "A_ER": "0 – None",
+      "A_IN": "1 – Weak",
+      "A_EX": "0 – None",
+      "B_ER": "0 – None",
+      "B_IN": "0 – None",
+      "B_EX": "0 – None"
     }
   },
   {
     "rater": "rater2",
     "form": "Form 2",
+    "GPT_N": {
+      "A_ER": "0 – None",
+      "A_IN": "0 – None",
+      "A_EX": "1 – Weak",
+      "B_ER": "0 – None",
+      "B_IN": "0 – None",
+      "B_EX": "0 – None"
+    },
     "Gemini_E": {
       "A_ER": "2 – Strong",
       "A_IN": "2 – Strong",
@@ -71,8 +101,23 @@
       "B_ER": "2 – Strong",
       "B_IN": "0 – None",
       "B_EX": "1 – Weak"
-    }
-   ,
+    },
+    "QC": {
+      "A_ER": "1 – Weak",
+      "A_IN": "1 – Weak",
+      "A_EX": "1 – Weak",
+      "B_ER": "0 – None",
+      "B_IN": "0 – None",
+      "B_EX": "0 – None"
+    },
+    "GPT_E": {
+      "A_ER": "2 – Strong",
+      "A_IN": "2 – Strong",
+      "A_EX": "1 – Weak",
+      "B_ER": "1 – Weak",
+      "B_IN": "1 – Weak",
+      "B_EX": "0 – None"
+    },
     "Claude_N": {
       "A_ER": "2 – Strong",
       "A_IN": "1 – Weak",
@@ -117,7 +162,14 @@
       "B_IN": "2 – Strong",
       "B_EX": "2 – Strong"
     },
-
+    "GPT_E": {
+      "A_ER": "2 – Strong",
+      "A_IN": "2 – Strong",
+      "A_EX": "1 – Weak",
+      "B_ER": "2 – Strong",
+      "B_IN": "2 – Strong",
+      "B_EX": "0 – None"
+    },
     "Claude_N": {
       "A_ER": "2 – Strong",
       "A_IN": "1 – Weak",
@@ -126,7 +178,11 @@
       "B_IN": "1 – Weak",
       "B_EX": "2 – Strong"
     },
-  
+    "QC": {
+      "A_ER": "1 – Weak",
+      "A_IN": "1 – Weak",
+      "A_EX": "1 – Weak"
+    },
     "Grok_E": {
       "B_ER": "2 – Strong",
       "B_IN": "2 – Strong",
@@ -151,7 +207,14 @@
       "B_IN": "2 – Strong",
       "B_EX": "1 – Weak"
     },
-  
+    "GPT_N": {
+      "A_ER": "1 – Weak",
+      "A_IN": "1 – Weak",
+      "A_EX": "2 – Strong",
+      "B_ER": "2 – Strong",
+      "B_IN": "1 – Weak",
+      "B_EX": "0 – None"
+    },
     "Gemini_E": {
       "A_ER": "2 – Strong",
       "A_IN": "2 – Strong",

@@ -1,115 +1,246 @@
 """
 Inter-rater agreement analysis
-  - Aggregate JSON scores using the median of 3 human raters
+  - Extract individual scores from JSON (raters 1, 2, 3)
   - Extract Rater 4 (column D, items A & B) from multi-section CSV files
-  - Compare aggregate vs Rater 4 cell-by-cell
-  - Compute Cohen's Kappa (unweighted, linear-weighted, quadratic-weighted)
+  - Cohen's Kappa: each human rater individually vs Rater 4 (LLM)
+  - Krippendorff's Alpha:
+      * humans only (raters 1-2-3) — baseline
+      * all 4 raters together    — human+LLM reliability
+      * per model and per dimension breakdowns for both
 
 Usage:
-    python analysis.py
+    python eval.py
     (CSV files must be in the same folder as this script)
 """
 
 import json
+import re
 import statistics
 from pathlib import Path
+
+import krippendorff
+import numpy as np
+from sklearn.metrics import cohen_kappa_score
 
 # ─────────────────────────────────────────────────────────────────────────────
 # DATA
 # ─────────────────────────────────────────────────────────────────────────────
+BASE_DIR = Path(__file__).resolve().parent
+path = BASE_DIR / "eval.json"
 
-raw_json = '''
-[
-  {
-        "rater": "rater1", "form": "Form 1",
-    "Claude_E":  {"A_ER":"2","A_IN":"1","A_EX":"1","B_ER":"2","B_IN":"2","B_EX":"1"},
-    "Claude_N":  {"A_ER":"1","A_IN":"2","A_EX":"2","B_ER":"1","B_IN":"2","B_EX":"2"},
-    "Gemini_E":  {"A_ER":"2","A_IN":"2","A_EX":"1","B_ER":"2","B_IN":"2","B_EX":"0"},
-    "Gemini_N":  {"A_ER":"1","A_IN":"1","A_EX":"1","B_ER":"0","B_IN":"1","B_EX":"0"},
-    "GPT_E":     {"A_ER":"1","A_IN":"2","A_EX":"0","B_ER":"1","B_IN":"2","B_EX":"0"},
-    "GPT_N":     {"A_ER":"0","A_IN":"1","A_EX":"0","B_ER":"0","B_IN":"0","B_EX":"0"},
-    "Grok_E":    {"A_ER":"2","A_IN":"2","A_EX":"2","B_ER":"2","B_IN":"2","B_EX":"2"},
-    "Grok_N":    {"A_ER":"1","A_IN":"1","A_EX":"1","B_ER":"1","B_IN":"1","B_EX":"1"}
-  },
-  {
-    "rater": "rater2", "form": "Form 2",
-    "Claude_E":  {"A_ER":"2","A_IN":"2","A_EX":"2","B_ER":"2","B_IN":"2","B_EX":"1"},
-    "Claude_N":  {"A_ER":"2","A_IN":"1","A_EX":"1","B_ER":"2","B_IN":"2","B_EX":"1"},
-    "Gemini_E":  {"A_ER":"2","A_IN":"2","A_EX":"2","B_ER":"2","B_IN":"2","B_EX":"2"},
-    "Gemini_N":  {"A_ER":"2","A_IN":"1","A_EX":"1","B_ER":"1","B_IN":"1","B_EX":"0"},
-    "GPT_E":     {"A_ER":"2","A_IN":"2","A_EX":"1","B_ER":"1","B_IN":"1","B_EX":"0"},
-    "GPT_N":     {"A_ER":"0","A_IN":"0","A_EX":"1","B_ER":"0","B_IN":"0","B_EX":"0"},
-    "Grok_E":    {"A_ER":"2","A_IN":"2","A_EX":"2","B_ER":"2","B_IN":"2","B_EX":"2"},
-    "Grok_N":    {"A_ER":"2","A_IN":"0","A_EX":"1","B_ER":"2","B_IN":"0","B_EX":"1"}
-  },
-  {
-    "rater": "rater3", "form": "Form 3",
-    "Claude_E":  {"A_ER":"2","A_IN":"2","A_EX":"2","B_ER":"2","B_IN":"2","B_EX":"1"},
-    "Claude_N":  {"A_ER":"2","A_IN":"1","A_EX":"2","B_ER":"2","B_IN":"1","B_EX":"2"},
-    "Gemini_E":  {"A_ER":"2","A_IN":"2","A_EX":"2","B_ER":"2","B_IN":"2","B_EX":"1"},
-    "Gemini_N":  {"A_ER":"1","A_IN":"1","A_EX":"2","B_ER":"2","B_IN":"1","B_EX":"1"},
-    "GPT_E":     {"A_ER":"2","A_IN":"2","A_EX":"1","B_ER":"2","B_IN":"2","B_EX":"0"},
-    "GPT_N":     {"A_ER":"1","A_IN":"1","A_EX":"2","B_ER":"2","B_IN":"1","B_EX":"0"},
-    "Grok_E":    {"A_ER":"2","A_IN":"2","A_EX":"2","B_ER":"2","B_IN":"2","B_EX":"2"},
-    "Grok_N":    {"A_ER":"2","A_IN":"1","A_EX":"2","B_ER":"2","B_IN":"2","B_EX":"2"}
-  }
-]
-'''
+raw_json = path.read_text(encoding="utf-8")
 
 CSV_FILES = {
-    "Claude_E": "Claude_E.csv",
-    "Claude_N": "Claude_N.csv",
-    "Gemini_E": "Gemini_E.csv",
-    "Gemini_N": "Gemini_N.csv",
-    "GPT_E":    "GPT_E.csv",
-    "GPT_N":    "GPT_N.csv",
-    "Grok_E":   "Grok_E.csv",
-    "Grok_N":   "Grok_N.csv",
+    "Claude_E": "matrix_Claude_E.csv",
+    "Claude_N": "matrix_Claude_N.csv",
+    "Gemini_E": "matrix_Gemini_E.csv",
+    "Gemini_N": "matrix_Gemini_N.csv",
+    "Grok_E":   "matrix_Grok_E.csv",
+    "Grok_N":   "matrix_Grok_N.csv",
 }
 
-MODELS     = ["Claude_E","Claude_N","Gemini_E","Gemini_N","GPT_E","GPT_N","Grok_E","Grok_N"]
-DIMS       = ["A_ER","A_IN","A_EX","B_ER","B_IN","B_EX"]
-RATER4_COL = "D"    # column D = Rater 4 in every CSV
+MODELS     = ["Claude_E", "Claude_N", "Gemini_E", "Gemini_N", "Grok_E", "Grok_N"]
+DIMS       = ["A_ER", "A_IN", "A_EX", "B_ER", "B_IN", "B_EX"]
+RATER4_COL = "D"
 LABELS     = [0, 1, 2]
-BASE_DIR   = Path(__file__).resolve().parent
+RATER_KEYS = ["rater1", "rater2", "rater3"]
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# STEP 1 — Aggregate JSON scores (median across 3 raters)
+# HELPERS
 # ─────────────────────────────────────────────────────────────────────────────
 
-def aggregate_json(raw_json: str) -> dict:
+def _parse_label_score(value) -> int | None:
+    """Parse score labels like 0, 1, 2 or strings such as '2 - Strong'."""
+    if value is None:
+        return None
+    if isinstance(value, int):
+        return value if value in LABELS else None
+    if isinstance(value, float):
+        iv = int(value)
+        return iv if iv in LABELS and value == iv else None
+    text = str(value).strip()
+    if not text:
+        return None
+    m = re.search(r"\b([012])\b", text)
+    if not m:
+        return None
+    return int(m.group(1))
+
+
+def kappa_band(k: float) -> str:
+    """Landis & Koch (1977) interpretation of kappa."""
+    if k != k:    return "n/a"       # NaN check
+    if k < 0:     return "Poor"
+    if k < 0.20:  return "Slight"
+    if k < 0.40:  return "Fair"
+    if k < 0.60:  return "Moderate"
+    if k < 0.80:  return "Substantial"
+    return "Almost perfect"
+
+
+def compute_kappa(y1: list, y2: list) -> dict:
+    """Unweighted, linear-weighted, and quadratic-weighted kappa."""
+    pairs = [(a, b) for a, b in zip(y1, y2) if a is not None and b is not None]
+    if not pairs:
+        nan = float("nan")
+        return {"k": nan, "k_linear": nan, "k_quadratic": nan}
+    y1v = [a for a, _ in pairs]
+    y2v = [b for _, b in pairs]
+    k   = cohen_kappa_score(y1v, y2v, labels=LABELS)
+    kl  = cohen_kappa_score(y1v, y2v, labels=LABELS, weights="linear")
+    kq  = cohen_kappa_score(y1v, y2v, labels=LABELS, weights="quadratic")
+    return {"k": k, "k_linear": kl, "k_quadratic": kq}
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Krippendorff's Alpha
+# ─────────────────────────────────────────────────────────────────────────────
+
+def _alpha_band(a: float) -> str:
+    """Krippendorff's own thresholds (>= 0.800 reliable, >= 0.667 tentative)."""
+    if a != a:    return "n/a"
+    if a >= 0.80: return "Reliable"
+    if a >= 0.67: return "Tentative"
+    return "Unreliable"
+
+
+def compute_alpha(reliability_data: list[list]) -> dict:
     """
-    For each (model, dimension) pair collect the integer score from all
-    three raters and return the median.
+    reliability_data : list of rater vectors, each of length n_items.
+                       None / np.nan = missing.
+    Returns nominal and ordinal alpha.
+    """
+    # krippendorff expects shape (n_raters, n_items), missing as np.nan
+    arr = np.array(
+        [[np.nan if v is None else float(v) for v in row]
+         for row in reliability_data],
+        dtype=float,
+    )
+    if arr.shape[1] == 0:
+        nan = float("nan")
+        return {"nominal": nan, "ordinal": nan}
+    try:
+        a_nom = krippendorff.alpha(reliability_data=arr, level_of_measurement="nominal")
+    except ValueError:
+        a_nom = float("nan")   # degenerate: all scores identical, zero variance
+    try:
+        a_ord = krippendorff.alpha(reliability_data=arr, level_of_measurement="ordinal")
+    except ValueError:
+        a_ord = float("nan")
+    return {"nominal": a_nom, "ordinal": a_ord}
 
-    Returns: { model: { dim: float (median) } }
+
+def build_reliability_matrix(score_dicts: list[dict]) -> list[list]:
+    """
+    score_dicts : one dict per rater, each { model: { dim: score } }.
+    Returns rows = raters, cols = items (model×dim in fixed order).
+    """
+    return [
+        [sd[m][d] for m in MODELS for d in DIMS]
+        for sd in score_dicts
+    ]
+
+
+def compute_all_alphas(per_rater: dict, rater4: dict) -> dict:
+    """
+    Compute Krippendorff's Alpha at three levels:
+      overall   : all items pooled  (6 models × 6 dims = 36 items)
+      per_model : one alpha per model (6 items each)
+      per_dim   : one alpha per dim   (6 items each — one per model)
+
+    Each level has two variants:
+      humans_only : raters 1-2-3
+      all_raters  : raters 1-2-3 + rater 4 (LLM)
+    """
+    humans = [per_rater[rk] for rk in RATER_KEYS]   # list of 3 score dicts
+    all4   = humans + [rater4]                        # list of 4 score dicts
+
+    def _alpha_pair(score_dicts_h, score_dicts_a, items_fn):
+        rows_h = [items_fn(sd) for sd in score_dicts_h]
+        rows_a = [items_fn(sd) for sd in score_dicts_a]
+        return {
+            "humans_only": compute_alpha(rows_h),
+            "all_raters":  compute_alpha(rows_a),
+        }
+
+    # Overall
+    overall = _alpha_pair(
+        humans, all4,
+        lambda sd: [sd[m][d] for m in MODELS for d in DIMS],
+    )
+
+    # Per model
+    per_model = {}
+    for m in MODELS:
+        per_model[m] = _alpha_pair(
+            humans, all4,
+            lambda sd, m=m: [sd[m][d] for d in DIMS],
+        )
+
+    # Per dimension
+    per_dim = {}
+    for d in DIMS:
+        per_dim[d] = _alpha_pair(
+            humans, all4,
+            lambda sd, d=d: [sd[m][d] for m in MODELS],
+        )
+
+    return {"overall": overall, "per_model": per_model, "per_dim": per_dim}
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# STEP 1 — Parse JSON: extract per-rater scores AND aggregate median
+# ─────────────────────────────────────────────────────────────────────────────
+
+def parse_json(raw_json: str) -> tuple[dict, dict]:
+    """
+    Returns:
+      per_rater  : { "rater1": { model: { dim: int } }, "rater2": ..., "rater3": ... }
+      aggregate  : { model: { dim: float (median of rater1/2/3) } }
     """
     data = json.loads(raw_json)
+
+    # Index by rater key
+    by_rater = {}
+    for entry in data:
+        rater_key = entry.get("rater")          # "rater1", "rater2", "rater3"
+        if rater_key not in RATER_KEYS:
+            continue
+        by_rater[rater_key] = entry
+
+    # Build per_rater scores
+    per_rater = {rk: {} for rk in RATER_KEYS}
+    for rk in RATER_KEYS:
+        entry = by_rater.get(rk, {})
+        for model in MODELS:
+            per_rater[rk][model] = {}
+            for dim in DIMS:
+                raw = entry.get(model, {}).get(dim)
+                per_rater[rk][model][dim] = _parse_label_score(raw)
+
+    # Build aggregate (median across the 3 raters, ignoring None)
     aggregate = {}
     for model in MODELS:
         aggregate[model] = {}
         for dim in DIMS:
             scores = [
-                int(rater[model][dim])
-                for rater in data
-                if model in rater and dim in rater.get(model, {})
+                per_rater[rk][model][dim]
+                for rk in RATER_KEYS
+                if per_rater[rk][model][dim] is not None
             ]
+            if not scores:
+                raise ValueError(f"No valid scores for {model}/{dim}")
             aggregate[model][dim] = statistics.median(scores)
-    return aggregate
+
+    return per_rater, aggregate
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# STEP 2 — Parse multi-section CSVs and extract Rater 4 (column D)
+# STEP 2 — Parse CSVs and extract Rater 4 (column D, rows A & B)
 # ─────────────────────────────────────────────────────────────────────────────
 
 def parse_csv_sections(filepath: str) -> dict:
-    """
-    Parse a multi-section CSV.  Each section begins with a header row
-    whose first cell is the section name (ER / IN / EX) and second cell is A.
-
-    Returns: { section: { row: { col: int|None } } }
-    """
     csv_path = Path(filepath)
     if not csv_path.is_absolute():
         candidate = BASE_DIR / csv_path
@@ -134,247 +265,221 @@ def parse_csv_sections(filepath: str) -> dict:
                 sections[current_section] = {}
                 continue
 
-            if current_section and first in list("ABCDEFGHIJ"):  # data row
+            if current_section and first in list("ABCDEFGHIJ"):
                 row_scores = {}
                 for i, col in enumerate(current_header[1:], start=1):
                     if col in list("ABCDEFGHIJ") and i < len(parts):
                         val = parts[i]
-                        row_scores[col] = None if val == "-" else int(val)
+                        row_scores[col] = None if val in ("-", "?") else int(val)
                 sections[current_section][first] = row_scores
 
     return sections
 
 
 def extract_rater4(csv_files: dict) -> dict:
-    """
-    Extract Rater 4's (column D) scores for items A and B from every CSV.
-
-    Returns: { model: { "A_ER": int, ..., "B_EX": int } }
-    """
+    """{ model: { dim: int } } — column D, rows A & B only."""
     rater4 = {}
     for model, fpath in csv_files.items():
         sections      = parse_csv_sections(fpath)
         rater4[model] = {}
-        for item, section in [("A","ER"),("A","IN"),("A","EX"),
-                               ("B","ER"),("B","IN"),("B","EX")]:
+        for item, section in [("A", "ER"), ("A", "IN"), ("A", "EX"),
+                               ("B", "ER"), ("B", "IN"), ("B", "EX")]:
             key   = f"{item}_{section}"
-            score = sections.get(section, {}).get(item, {}).get(RATER4_COL, None)
+            score = sections.get(section, {}).get(item, {}).get(RATER4_COL)
             rater4[model][key] = score
     return rater4
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# STEP 3 — Cohen's Kappa
+# STEP 3 — Compute all kappas
 # ─────────────────────────────────────────────────────────────────────────────
 
-def kappa_band(k: float) -> str:
-    """Landis & Koch (1977) interpretation of kappa."""
-    if k < 0:     return "Poor"
-    if k < 0.20:  return "Slight"
-    if k < 0.40:  return "Fair"
-    if k < 0.60:  return "Moderate"
-    if k < 0.80:  return "Substantial"
-    return "Almost perfect"
+def flatten(scores: dict) -> list:
+    """Flatten { model: { dim: score } } into a single list (fixed order)."""
+    return [scores[m][d] for m in MODELS for d in DIMS]
 
 
-def compute_kappa(y1: list, y2: list) -> dict:
+def compute_all_kappas(per_rater: dict, aggregate: dict, rater4: dict) -> dict:
     """
-    Compute unweighted, linear-weighted, and quadratic-weighted kappa.
-    Returns dict with keys: k, k_linear, k_quadratic.
+    Returns kappas at three levels for each comparison:
+      - rater1 vs rater4
+      - rater2 vs rater4
+      - rater3 vs rater4
+      - aggregate vs rater4   (median rounded to int)
+
+    Each comparison has:
+      overall   : all 48 cells pooled
+      per_model : one kappa per model (6 cells)
+      per_dim   : one kappa per dim   (6 cells — one per model)
     """
-    k = _cohen_kappa(y1, y2, weight="none")
-    kl = _cohen_kappa(y1, y2, weight="linear")
-    kq = _cohen_kappa(y1, y2, weight="quadratic")
-    return {"k": k, "k_linear": kl, "k_quadratic": kq}
+    r4_flat = flatten(rater4)
 
+    results = {}
 
-def _cohen_kappa(y1: list, y2: list, weight: str) -> float:
-    """Pure-Python Cohen's kappa for none, linear, and quadratic weights."""
-    pairs = [(a, b) for a, b in zip(y1, y2) if a is not None and b is not None]
-    if not pairs:
-        return float("nan")
-
-    n_labels = len(LABELS)
-    if n_labels < 2:
-        return float("nan")
-
-    label_to_idx = {label: idx for idx, label in enumerate(LABELS)}
-    matrix = [[0 for _ in range(n_labels)] for _ in range(n_labels)]
-    row_totals = [0 for _ in range(n_labels)]
-    col_totals = [0 for _ in range(n_labels)]
-
-    for a, b in pairs:
-        if a not in label_to_idx or b not in label_to_idx:
-            continue
-        i = label_to_idx[a]
-        j = label_to_idx[b]
-        matrix[i][j] += 1
-        row_totals[i] += 1
-        col_totals[j] += 1
-
-    n = sum(sum(row) for row in matrix)
-    if n == 0:
-        return float("nan")
-
-    if weight == "none":
-        weights = [[0.0 if i == j else 1.0 for j in range(n_labels)] for i in range(n_labels)]
-    elif weight == "linear":
-        denom = float(n_labels - 1)
-        weights = [[abs(i - j) / denom for j in range(n_labels)] for i in range(n_labels)]
-    elif weight == "quadratic":
-        denom = float((n_labels - 1) ** 2)
-        weights = [[((i - j) ** 2) / denom for j in range(n_labels)] for i in range(n_labels)]
-    else:
-        return float("nan")
-
-    observed = [[matrix[i][j] / n for j in range(n_labels)] for i in range(n_labels)]
-    expected = [
-        [((row_totals[i] / n) * (col_totals[j] / n)) for j in range(n_labels)]
-        for i in range(n_labels)
-    ]
-
-    num = 0.0
-    den = 0.0
-    for i in range(n_labels):
-        for j in range(n_labels):
-            num += weights[i][j] * observed[i][j]
-            den += weights[i][j] * expected[i][j]
-
-    if den == 0:
-        return 1.0 if num == 0 else float("nan")
-
-    return 1.0 - (num / den)
-
-
-def compute_all_kappas(aggregate: dict, rater4: dict) -> dict:
-    """
-    Compute Cohen's Kappa at three levels:
-      - overall   : all 48 cells pooled
-      - per_model : one kappa per model (6 cells each)
-      - per_dim   : one kappa per dimension (8 cells each)
-
-    Note: aggregate medians are rounded to the nearest integer before
-    computing kappa, as kappa requires discrete category labels.
-    """
-    all_agg, all_r4 = [], []
-    for m in MODELS:
+    # Individual raters vs rater4
+    for rk in RATER_KEYS:
+        rk_flat = flatten(per_rater[rk])
+        entry = {
+            "overall":   compute_kappa(rk_flat, r4_flat),
+            "per_model": {},
+            "per_dim":   {},
+        }
+        for m in MODELS:
+            y1 = [per_rater[rk][m][d] for d in DIMS]
+            y2 = [rater4[m][d]        for d in DIMS]
+            entry["per_model"][m] = compute_kappa(y1, y2)
         for d in DIMS:
-            all_agg.append(round(aggregate[m][d]))
-            all_r4.append(rater4[m][d])
+            y1 = [per_rater[rk][m][d] for m in MODELS]
+            y2 = [rater4[m][d]        for m in MODELS]
+            entry["per_dim"][d] = compute_kappa(y1, y2)
+        results[rk] = entry
 
-    result = {
-        "overall":   compute_kappa(all_agg, all_r4),
+    # Aggregate vs rater4
+    agg_flat = [round(aggregate[m][d]) for m in MODELS for d in DIMS]
+    entry = {
+        "overall":   compute_kappa(agg_flat, r4_flat),
         "per_model": {},
         "per_dim":   {},
     }
-
     for m in MODELS:
         y1 = [round(aggregate[m][d]) for d in DIMS]
-        y2 = [rater4[m][d] for d in DIMS]
-        result["per_model"][m] = compute_kappa(y1, y2)
-
+        y2 = [rater4[m][d]          for d in DIMS]
+        entry["per_model"][m] = compute_kappa(y1, y2)
     for d in DIMS:
         y1 = [round(aggregate[m][d]) for m in MODELS]
-        y2 = [rater4[m][d] for m in MODELS]
-        result["per_dim"][d] = compute_kappa(y1, y2)
+        y2 = [rater4[m][d]          for m in MODELS]
+        entry["per_dim"][d] = compute_kappa(y1, y2)
+    results["aggregate"] = entry
 
-    return result
+    return results
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# STEP 4 — Print all results
+# STEP 4 — Print results
 # ─────────────────────────────────────────────────────────────────────────────
 
-def print_results(aggregate: dict, rater4: dict, kappas: dict) -> None:
+def _kappa_row(label: str, kv: dict, width: int = 14) -> str:
+    return (f"  {label:<{width}}  "
+            f"k={kv['k']:>6.3f}  "
+            f"k_lin={kv['k_linear']:>6.3f}  "
+            f"k_quad={kv['k_quadratic']:>6.3f}  "
+            f"[{kappa_band(kv['k'])}]")
 
-    W = 72
 
-    # ── Aggregate table ──────────────────────────────────────────────────────
-    print("=" * W)
-    print("TABLE 1 — Aggregate scores (median of 3 raters)")
-    print("=" * W)
-    print(f"{'Model':<12}", end="")
-    for d in DIMS: print(f"  {d}", end="")
-    print()
-    print("-" * W)
+def _alpha_row(label: str, av: dict, width: int = 14) -> str:
+    nom, ord_ = av["nominal"], av["ordinal"]
+    return (f"  {label:<{width}}  "
+            f"nominal={nom:>6.3f}  ordinal={ord_:>6.3f}  "
+            f"[{_alpha_band(ord_)}]")
+
+
+def print_results(per_rater: dict, aggregate: dict, rater4: dict,
+                  kappas: dict, alphas: dict) -> None:
+    W = 80
+    result_path = BASE_DIR / "result.txt"
+    KAPPA_COMPARISONS = [
+        ("rater1", "Rater 1 vs Rater 4 (LLM)"),
+        ("rater2", "Rater 2 vs Rater 4 (LLM)"),
+        ("rater3", "Rater 3 vs Rater 4 (LLM)"),
+        ("aggregate", "Aggregate (median) vs Rater 4 (LLM)"),
+    ]
+
+    # Full detail goes to result.txt
+    lines: list[str] = []
+
+    def add(line: str = "") -> None:
+        lines.append(line)
+
+    add("=" * W)
+    add("KRIPPENDORFF'S ALPHA — Overall (36 items: 6 models × 6 dims)")
+    add("=" * W)
+    ov = alphas["overall"]
+    add(_alpha_row("Humans only (R1-R2-R3)", ov["humans_only"], width=26))
+    add(_alpha_row("All 4 raters (+ LLM)", ov["all_raters"], width=26))
+    add()
+    add("  Thresholds (Krippendorff): >= 0.800 Reliable | >= 0.667 Tentative | < 0.667 Unreliable")
+    add("  Ordinal alpha is the right metric for your 0/1/2 scale.")
+    add("  Compare the two rows: if 'all 4' ≈ 'humans only', the LLM rates like a human.")
+
+    add("\n" + "=" * W)
+    add("KRIPPENDORFF'S ALPHA — Per model")
+    add("=" * W)
+    add(f"  {'Model':<12}  {'humans nom':>10}  {'humans ord':>10}  {'all4 nom':>8}  {'all4 ord':>8}  Band (all4 ord)")
+    add("  " + "-" * 66)
     for m in MODELS:
-        print(f"{m:<12}", end="")
-        for d in DIMS: print(f"  {aggregate[m][d]:>4}", end="")
-        print()
+        h = alphas["per_model"][m]["humans_only"]
+        a = alphas["per_model"][m]["all_raters"]
+        add(f"  {m:<12}  {h['nominal']:>10.3f}  {h['ordinal']:>10.3f}  {a['nominal']:>8.3f}  {a['ordinal']:>8.3f}  {_alpha_band(a['ordinal'])}")
 
-    # ── Rater 4 table ────────────────────────────────────────────────────────
-    print("\n" + "=" * W)
-    print("TABLE 2 — Rater 4 scores (column D, items A & B)")
-    print("=" * W)
-    print(f"{'Model':<12}", end="")
-    for d in DIMS: print(f"  {d}", end="")
-    print()
-    print("-" * W)
-    for m in MODELS:
-        print(f"{m:<12}", end="")
-        for d in DIMS: print(f"  {str(rater4[m][d]):>4}", end="")
-        print()
+    add("\n" + "=" * W)
+    add("KRIPPENDORFF'S ALPHA — Per dimension")
+    add("=" * W)
+    add(f"  {'Dim':<8}  {'humans nom':>10}  {'humans ord':>10}  {'all4 nom':>8}  {'all4 ord':>8}  Band (all4 ord)")
+    add("  " + "-" * 62)
+    for d in DIMS:
+        h = alphas["per_dim"][d]["humans_only"]
+        a = alphas["per_dim"][d]["all_raters"]
+        add(f"  {d:<8}  {h['nominal']:>10.3f}  {h['ordinal']:>10.3f}  {a['nominal']:>8.3f}  {a['ordinal']:>8.3f}  {_alpha_band(a['ordinal'])}")
 
-    # ── Comparison table ─────────────────────────────────────────────────────
-    print("\n" + "=" * W)
-    print("TABLE 3 — Cell-by-cell comparison: aggregate vs Rater 4")
-    print("=" * W)
-    print(f"{'Model':<12}  {'Dim':<6}  {'Agg':>4}  {'R4':>4}  {'Diff':>5}  Match")
-    print("-" * W)
-    matches, total = 0, 0
+    add("\n" + "=" * W)
+    add("COHEN'S KAPPA — Each human rater vs Rater 4 (LLM), overall (48 obs pooled)")
+    add("=" * W)
+    for key, label in KAPPA_COMPARISONS:
+        kv = kappas[key]["overall"]
+        add(_kappa_row(label, kv, width=34))
+    add()
+    add("  Bands — Landis & Koch (1977):")
+    add("  <0 Poor | 0.01-0.20 Slight | 0.21-0.40 Fair")
+    add("  0.41-0.60 Moderate | 0.61-0.80 Substantial | 0.81-1.00 Almost perfect")
+
+    for key, label in KAPPA_COMPARISONS:
+        add("\n" + "=" * W)
+        add(f"COHEN'S KAPPA DETAIL — {label}")
+        add("=" * W)
+        add("\n  Per model (6 cells each):")
+        add(f"  {'Model':<12}  {'k':>6}  {'k_lin':>6}  {'k_quad':>7}  Band")
+        add("  " + "-" * 50)
+        for m in MODELS:
+            kv = kappas[key]["per_model"][m]
+            add(f"  {m:<12}  {kv['k']:>6.3f}  {kv['k_linear']:>6.3f}  {kv['k_quadratic']:>7.3f}  {kappa_band(kv['k'])}")
+        add("\n  Per dimension (6 cells each):")
+        add(f"  {'Dim':<8}  {'k':>6}  {'k_lin':>6}  {'k_quad':>7}  Band")
+        add("  " + "-" * 50)
+        for d in DIMS:
+            kv = kappas[key]["per_dim"][d]
+            add(f"  {d:<8}  {kv['k']:>6.3f}  {kv['k_linear']:>6.3f}  {kv['k_quadratic']:>7.3f}  {kappa_band(kv['k'])}")
+
+    add("\n" + "=" * W)
+    add("REFERENCE — Raw scores (R1 R2 R3 = humans, AGG = median, R4 = LLM)")
+    add("=" * W)
+    add(f"{'Model':<12}  {'Dim':<6}  {'R1':>3}  {'R2':>3}  {'R3':>3}  {'AGG':>4}  {'R4':>3}")
+    add("-" * W)
     for m in MODELS:
         for d in DIMS:
-            a    = aggregate[m][d]
-            r    = rater4[m][d]
-            diff = r - a
-            sym  = "=" if diff == 0 else ("+" if diff > 0 else str(int(diff)))
-            matches += 1 if diff == 0 else 0
-            total   += 1
-            print(f"{m:<12}  {d:<6}  {a:>4}  {str(r):>4}  {str(diff):>5}  {sym}")
-    print("-" * W)
-    print(f"Exact match rate: {matches}/{total} = {matches/total:.1%}")
+            r1 = per_rater["rater1"][m][d]
+            r2 = per_rater["rater2"][m][d]
+            r3 = per_rater["rater3"][m][d]
+            agg = aggregate[m][d]
+            r4 = rater4[m][d]
+            add(f"{m:<12}  {d:<6}  {str(r1):>3}  {str(r2):>3}  {str(r3):>3}  {agg:>4}  {str(r4):>3}")
+        add()
 
-    # ── Model-level summary + kappa ──────────────────────────────────────────
-    print("\n" + "=" * W)
-    print("TABLE 4 — Model-level summary with Cohen's Kappa")
-    print("=" * W)
-    print(f"{'Model':<12}  {'AggMean':>7}  {'R4Mean':>6}  {'Diff':>6}  "
-          f"{'kappa':>6}  {'k_lin':>6}  {'k_quad':>7}  Band")
-    print("-" * W)
-    for m in MODELS:
-        am = sum(aggregate[m][d] for d in DIMS) / 6
-        rm = sum(rater4[m][d]   for d in DIMS) / 6
-        df = rm - am
-        kv = kappas["per_model"][m]
-        print(
-            f"{m:<12}  {am:>7.2f}  {rm:>6.2f}  {df:>+6.2f}  "
-            f"{kv['k']:>6.3f}  {kv['k_linear']:>6.3f}  {kv['k_quadratic']:>7.3f}  "
-            f"{kappa_band(kv['k'])}"
-        )
+    result_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
-    # ── Per-dimension kappa ──────────────────────────────────────────────────
-    print("\n" + "=" * W)
-    print("TABLE 5 — Per-dimension Cohen's Kappa (across all 8 models)")
+    # Terminal output: only final summary results
     print("=" * W)
-    print(f"{'Dim':<8}  {'kappa':>6}  {'k_lin':>6}  {'k_quad':>7}  Band")
-    print("-" * W)
-    for d in DIMS:
-        kv = kappas["per_dim"][d]
-        print(f"{d:<8}  {kv['k']:>6.3f}  {kv['k_linear']:>6.3f}  "
-              f"{kv['k_quadratic']:>7.3f}  {kappa_band(kv['k'])}")
-
-    # ── Overall kappa ────────────────────────────────────────────────────────
-    print("\n" + "=" * W)
-    print("TABLE 6 — Overall Cohen's Kappa (48 observations pooled)")
+    print("FINAL RESULTS")
     print("=" * W)
-    kv = kappas["overall"]
-    print(f"  kappa (unweighted)  : {kv['k']:.4f}  [{kappa_band(kv['k'])}]")
-    print(f"  kappa (linear)      : {kv['k_linear']:.4f}  [{kappa_band(kv['k_linear'])}]")
-    print(f"  kappa (quadratic)   : {kv['k_quadratic']:.4f}  [{kappa_band(kv['k_quadratic'])}]")
-    print("=" * W)
-    print("Bands — Landis & Koch (1977):")
-    print("  <0 Poor | 0.01-0.20 Slight | 0.21-0.40 Fair")
-    print("  0.41-0.60 Moderate | 0.61-0.80 Substantial | 0.81-1.00 Almost perfect")
+    print("Krippendorff's Alpha (overall)")
+    print(_alpha_row("Humans only (R1-R2-R3)", ov["humans_only"], width=26))
+    print(_alpha_row("All 4 raters (+ LLM)", ov["all_raters"], width=26))
+    print()
+    print("Cohen's Kappa (overall)")
+    for key, label in KAPPA_COMPARISONS:
+        kv = kappas[key]["overall"]
+        print(_kappa_row(label, kv, width=34))
+    print()
+    print(f"Detailed report saved to: {result_path.name}")
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -382,7 +487,8 @@ def print_results(aggregate: dict, rater4: dict, kappas: dict) -> None:
 # ─────────────────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    aggregate = aggregate_json(raw_json)
-    rater4    = extract_rater4(CSV_FILES)
-    kappas    = compute_all_kappas(aggregate, rater4)
-    print_results(aggregate, rater4, kappas)
+    per_rater, aggregate = parse_json(raw_json)
+    rater4               = extract_rater4(CSV_FILES)
+    kappas               = compute_all_kappas(per_rater, aggregate, rater4)
+    alphas               = compute_all_alphas(per_rater, rater4)
+    print_results(per_rater, aggregate, rater4, kappas, alphas)
