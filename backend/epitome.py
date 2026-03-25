@@ -117,6 +117,8 @@ def discover_runs(conditions: set[str]) -> list[dict]:
             m = RUN_FOLDER_RE.match(folder.name)
             if not m or m.group("condition") not in conditions:
                 continue
+            if m.group("version") != "1":
+                continue
             runs.append(
                 {
                     "path": folder,
@@ -304,50 +306,15 @@ def confirm_plan(runs: list[dict], judge: str, limit: Optional[int]) -> bool:
 
 
 # ── Evaluation loop ──────────────────────────────────────────────────────────
-def _eval_model_label(runs: list[dict] | None, results: list[dict] | None) -> str:
-    """Return a safe filename token for the model(s) being evaluated."""
-    models: list[str] = []
-    if runs:
-        models = list(dict.fromkeys(r["model"] for r in runs))  # unique, ordered
-    elif results:
-        models = list(dict.fromkeys(r["model"] for r in results))
-    if not models:
-        return "unknown"
-    label = "_".join(models) if len(models) <= 2 else f"{models[0]}_and_{len(models)-1}_more"
-    return re.sub(r"[^a-zA-Z0-9_-]", "_", label)
-
-
-def _checkpoint_path(eval_label: str, session_ts: str) -> Path:
-    return RESULTS_DIR / f"epitome_{eval_label}_{session_ts}_checkpoint.json"
-
-
-def _write_checkpoint(results: list[dict], eval_label: str, session_ts: str) -> None:
-    path = _checkpoint_path(eval_label, session_ts)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(results, f, indent=2, ensure_ascii=False)
-
-
 def evaluate_runs(
-    runs: list[dict], llm, judge_name: str, limit: Optional[int] = None,
-    session_ts: str | None = None,
-    prior_results: list[dict] | None = None,
-    eval_label: str | None = None,
+    runs: list[dict],
+    llm,
+    judge_name: str,
+    limit: Optional[int] = None,
+    on_run_complete=None,
 ) -> list[dict]:
-    results: list[dict] = list(prior_results) if prior_results else []
+    results: list[dict] = []
     RESULTS_DIR.mkdir(exist_ok=True)
-    if session_ts is None:
-        session_ts = datetime.datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
-    if eval_label is None:
-        eval_label = _eval_model_label(runs, results)
-
-    # Build set of already-scored (folder_name, pair_file, speaker) to skip
-    already_scored: set[tuple[str, str, str]] = {
-        (r["folder_name"], r["pair_file"], r["speaker"])
-        for r in results
-    }
-    if already_scored:
-        info(f"Resuming — {len(results)} pair-directions already scored, skipping them.")
-
     remaining = limit  # None means unlimited
 
     total = len(runs)
@@ -359,7 +326,6 @@ def evaluate_runs(
         if remaining is not None:
             pair_files = pair_files[:remaining]
 
-        scored_in_run = 0
         for pf in pair_files:
             conv = load_conversation(pf)
             pair = conv.get("pair", [])
@@ -371,10 +337,6 @@ def evaluate_runs(
             agent_a, agent_b = pair[0], pair[1]
 
             for speaker, listener in [(agent_a, agent_b), (agent_b, agent_a)]:
-                if (run["folder_name"], pf.name, speaker) in already_scored:
-                    info(f"  skipping {speaker}→{listener}  ({pf.name})  [already scored]")
-                    continue
-
                 info(f"  scoring {speaker}→{listener}  ({pf.name}) …")
                 scores = score_ordered_pair(llm, speaker, listener, transcript)
                 if scores is None:
@@ -403,19 +365,12 @@ def evaluate_runs(
                         ),
                     }
                 )
-                already_scored.add((run["folder_name"], pf.name, speaker))
-                scored_in_run += 1
-                # Write checkpoint after every scored pair so a crash loses nothing
-                _write_checkpoint(results, eval_label, session_ts)
 
-        ok(f"Done — {scored_in_run} new pair-direction(s) scored in this run")
+        ok(f"Done — {len(pair_files)} pair file(s) processed")
+        if on_run_complete is not None:
+            on_run_complete(results, run)
         if remaining is not None:
-            remaining -= scored_in_run
-
-    # Remove checkpoint on clean completion — final save_results takes over
-    ckpt = _checkpoint_path(eval_label, session_ts)
-    if ckpt.exists():
-        ckpt.unlink()
+            remaining -= len(pair_files)
 
     return results
 
@@ -432,13 +387,20 @@ def _build_matrix(results: list[dict], dim: str) -> tuple[list[str], dict[tuple[
     return agents, averaged
 
 
-def save_results(results: list[dict], judge_name: str, session_ts: str | None = None) -> None:
+def save_results(
+    results: list[dict],
+    judge_name: str,
+    *,
+    ts: Optional[str] = None,
+    announce: bool = True,
+) -> None:
     RESULTS_DIR.mkdir(exist_ok=True)
-    ts        = session_ts or datetime.datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
-    eval_label = _eval_model_label(None, results)
+    if ts is None:
+        ts = datetime.datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
+    safe_name = re.sub(r"[^a-zA-Z0-9_-]", "_", judge_name)
 
-    json_path = RESULTS_DIR / f"epitome_{eval_label}_{ts}.json"
-    csv_path  = RESULTS_DIR / f"epitome_{eval_label}_{ts}.csv"
+    json_path = RESULTS_DIR / f"epitome_{safe_name}_{ts}.json"
+    csv_path  = RESULTS_DIR / f"epitome_{safe_name}_{ts}.csv"
 
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
@@ -450,8 +412,9 @@ def save_results(results: list[dict], judge_name: str, session_ts: str | None = 
             writer.writeheader()
             writer.writerows(results)
 
-    ok(f"JSON → {json_path.relative_to(BACKEND_DIR)}")
-    ok(f"CSV  → {csv_path.relative_to(BACKEND_DIR)}")
+    if announce:
+        ok(f"JSON → {json_path.relative_to(BACKEND_DIR)}")
+        ok(f"CSV  → {csv_path.relative_to(BACKEND_DIR)}")
 
     # ── Per-run matrix CSVs (one file per run, one sheet-like block per dim) ─
     runs_seen: dict[str, list[dict]] = {}
@@ -464,7 +427,7 @@ def save_results(results: list[dict], judge_name: str, session_ts: str | None = 
         if not valid:
             continue
         safe_folder = re.sub(r"[^a-zA-Z0-9_-]", "_", folder_name)
-        mpath = RESULTS_DIR / f"matrix_{safe_folder}_{eval_label}_{ts}.csv"
+        mpath = RESULTS_DIR / f"matrix_{safe_folder}_{safe_name}_{ts}.csv"
         with open(mpath, "w", newline="", encoding="utf-8") as f:
             writer = csv.writer(f)
             for dim in ("ER", "IN", "EX"):
@@ -488,8 +451,9 @@ def save_results(results: list[dict], judge_name: str, session_ts: str | None = 
                 writer.writerow([])  # blank separator between dimensions
         matrix_paths.append(mpath)
 
-    for mp in matrix_paths:
-        ok(f"Matrix CSV → {mp.relative_to(BACKEND_DIR)}")
+    if announce:
+        for mp in matrix_paths:
+            ok(f"Matrix CSV → {mp.relative_to(BACKEND_DIR)}")
 
 
 def print_matrix(results: list[dict], dim: str, label: str) -> None:
@@ -582,68 +546,13 @@ def print_summary(results: list[dict]) -> None:
     print_matrices(valid)
 
 
-# ── Resume from checkpoint ───────────────────────────────────────────────────
-def offer_resume_checkpoint() -> "tuple[list[dict], str, str] | None":
-    """Detect checkpoint files and offer to resume from one.
-    Returns (prior_results, judge_name, session_ts) or None to start fresh.
-    """
-    RESULTS_DIR.mkdir(exist_ok=True)
-    ckpts = sorted(RESULTS_DIR.glob("*_checkpoint.json"))
-    if not ckpts:
-        return None
-
-    hdr("Checkpoint(s) Detected — Resume?")
-    for i, c in enumerate(ckpts, 1):
-        try:
-            data = json.loads(c.read_text(encoding="utf-8"))
-            n = len(data)
-            judge = data[0].get("judge", "?") if data else "?"
-            folders = sorted({r["folder_name"] for r in data})
-            print(f"    {i}. {c.name}")
-            print(f"       {n} pair-directions scored  |  judge: {judge}")
-            print(f"       runs: {', '.join(folders[:3])}{'…' if len(folders) > 3 else ''}")
-        except Exception:
-            print(f"    {i}. {c.name}  (unreadable)")
-
-    print(f"    {len(ckpts) + 1}. Start fresh  ← default")
-    sel = input("\n  Select [Enter = fresh]: ").strip()
-
-    if not sel.isdigit() or not (1 <= int(sel) <= len(ckpts)):
-        return None
-
-    ckpt_file = ckpts[int(sel) - 1]
-    prior_results = json.loads(ckpt_file.read_text(encoding="utf-8"))
-
-    # Extract session_ts from filename: epitome_<eval_label>_<ts>_checkpoint.json
-    stem = ckpt_file.stem
-    session_ts = next(
-        (p for p in stem.split("_") if re.match(r"^\d{8}T\d{6}Z$", p)),
-        datetime.datetime.utcnow().strftime("%Y%m%dT%H%M%SZ"),
-    )
-    judge_name = prior_results[0].get("judge", "unknown") if prior_results else "unknown"
-    eval_label = _eval_model_label(None, prior_results)
-
-    ok(f"Resuming from {ckpt_file.name}  ({len(prior_results)} already scored)")
-    return prior_results, judge_name, session_ts, eval_label
-
-
 # ── Entry point ──────────────────────────────────────────────────────────────
 def main() -> None:
     print(f"\n{BOLD}{CYAN}══ EPITOME Empathy Evaluator ══{RESET}")
     print(f"{DIM}Scores ER / IN / EX across multi-agent SimCo conversations{RESET}")
 
-    resumed = offer_resume_checkpoint()
-
-    if resumed is not None:
-        prior_results, _judge_from_ckpt, session_ts, eval_label = resumed
-        conditions = choose_conditions()
-        llm, judge = choose_judge()
-    else:
-        prior_results = None
-        session_ts = datetime.datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
-        eval_label = None  # derived from selected runs inside evaluate_runs
-        conditions = choose_conditions()
-        llm, judge = choose_judge()
+    conditions  = choose_conditions()
+    llm, judge  = choose_judge()
 
     all_runs = discover_runs(conditions)
     if not all_runs:
@@ -661,14 +570,22 @@ def main() -> None:
         info("Aborted by user.")
         sys.exit(0)
 
+    session_ts = datetime.datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
+
+    def _checkpoint_save(partial_results: list[dict], _run: dict) -> None:
+        save_results(partial_results, judge, ts=session_ts, announce=False)
+        ok(f"Checkpoint saved ({len(partial_results)} ordered pairs)")
+
     results = evaluate_runs(
-        selected, llm, judge, limit=limit,
-        session_ts=session_ts, prior_results=prior_results,
-        eval_label=eval_label,
+        selected,
+        llm,
+        judge,
+        limit=limit,
+        on_run_complete=_checkpoint_save,
     )
 
     hdr("Saving Results")
-    save_results(results, judge, session_ts=session_ts)
+    save_results(results, judge, ts=session_ts)
     print_summary(results)
 
 
