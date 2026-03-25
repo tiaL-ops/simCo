@@ -180,18 +180,44 @@ def parse_scores(response: str) -> Optional[dict]:
     return scores
 
 
+# Regex that matches common LLM model-name patterns (provider-name + version tokens)
+_MODEL_NAME_RE = re.compile(
+    r"\b(gpt|claude|gemini|grok|mistral|llama|palm|bard|openai|anthropic|deepseek)"
+    r"[\w.\-]*",
+    re.IGNORECASE,
+)
+
+
+def _anonymize(text: str, model_name: str) -> str:
+    """Remove the evaluated model's name and any recognisable LLM identifiers
+    from *text* before it is sent to the judge LLM."""
+    if model_name:
+        # Exact match first (case-insensitive)
+        text = re.sub(re.escape(model_name), "[MODEL]", text, flags=re.IGNORECASE)
+    # Broad sweep for remaining provider/model tokens
+    text = _MODEL_NAME_RE.sub("[MODEL]", text)
+    return text
+
+
 def score_ordered_pair(
     llm,
     speaker: str,
     listener: str,
     transcript: str,
+    evaluated_model: str = "",
 ) -> Optional[dict]:
-    """Score ER/IN/EX from speaker's perspective toward listener."""
+    """Score ER/IN/EX from speaker's perspective toward listener.
+
+    *evaluated_model* is the name of the model whose conversations are being
+    scored.  It is stripped from the transcript so the judge cannot infer which
+    model produced the data.
+    """
+    clean_transcript = _anonymize(transcript, evaluated_model)
     prompt = JUDGE_PROMPT.format(
         rubric=RUBRIC,
         speaker=speaker,
         listener=listener,
-        transcript=transcript,
+        transcript=clean_transcript,
     )
     response = ask_llm(llm, prompt)
     scores = parse_scores(response)
@@ -220,17 +246,22 @@ def choose_conditions() -> set[str]:
 
 def choose_judge() -> tuple[object, str]:
     hdr("Step 2 — LLM Judge")
+    gpt_model    = _DEFAULT_MODELS.get("openai", "gpt-4o-mini")
     claude_model = _DEFAULT_MODELS.get("claude", "claude-haiku-4-5-20251001")
     gemini_model = _DEFAULT_MODELS.get("gemini", "gemini-3-flash-preview")
-    print(f"  1. Claude  [{claude_model}]  (default)")
-    print(f"  2. Gemini  [{gemini_model}]")
+    print(f"  1. GPT     [{gpt_model}]  (default)")
+    print(f"  2. Claude  [{claude_model}]")
+    print(f"  3. Gemini  [{gemini_model}]")
     raw = input("  Select [1]: ").strip() or "1"
     if raw == "2":
+        model_name = claude_model
+        llm = get_llm("claude", model=model_name, temperature=0.0)
+    elif raw == "3":
         model_name = gemini_model
         llm = get_llm("gemini", model=model_name, temperature=0.0)
     else:
-        model_name = claude_model
-        llm = get_llm("claude", model=model_name, temperature=0.0)
+        model_name = gpt_model
+        llm = get_llm("openai", model=model_name, temperature=0.0)
     ok(f"Judge: {model_name}")
     return llm, model_name
 
@@ -306,14 +337,75 @@ def confirm_plan(runs: list[dict], judge: str, limit: Optional[int]) -> bool:
 
 
 # ── Evaluation loop ──────────────────────────────────────────────────────────
+def _write_json(results: list[dict], path: Path) -> None:
+    """Atomically overwrite *path* with current results JSON."""
+    tmp = path.with_suffix(".tmp")
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(results, f, indent=2, ensure_ascii=False)
+    tmp.replace(path)  # atomic on POSIX
+
+
+# ── Resume helpers ──────────────────────────────────────────────────────────
+def find_checkpoints() -> list[Path]:
+    """Return epitome_*.json files in RESULTS_DIR, newest first."""
+    if not RESULTS_DIR.exists():
+        return []
+    return sorted(
+        RESULTS_DIR.glob("epitome_*.json"),
+        key=lambda p: p.stat().st_mtime,
+        reverse=True,
+    )
+
+
+def choose_resume() -> "tuple[list[dict], Path] | None":
+    """If checkpoints exist, offer to resume from one.
+
+    Returns ``(seed_results, checkpoint_path)`` or ``None`` for a fresh start.
+    """
+    checkpoints = find_checkpoints()
+    if not checkpoints:
+        return None
+
+    hdr("Resume from checkpoint?")
+    for i, cp in enumerate(checkpoints, 1):
+        try:
+            with open(cp, encoding="utf-8") as f:
+                data = json.load(f)
+            n = len(data)
+            judge  = data[0]["judge"] if data else "?"
+            provs  = ", ".join(sorted({r["provider"] for r in data}))
+            conds  = ", ".join(sorted({r["condition"] for r in data}))
+        except Exception:
+            n, judge, provs, conds = 0, "?", "?", "?"
+        print(f"    {i}. {cp.name}  ({n} pairs | judge={judge} | {provs} | {conds})")
+    print(f"    {len(checkpoints) + 1}. Start fresh  (default)")
+
+    raw = input(f"\n  Select [{len(checkpoints) + 1}]: ").strip() or str(len(checkpoints) + 1)
+    if not (raw.isdigit() and 1 <= int(raw) <= len(checkpoints)):
+        return None
+
+    chosen = checkpoints[int(raw) - 1]
+    with open(chosen, encoding="utf-8") as f:
+        seed = json.load(f)
+    ok(f"Resuming — {len(seed)} pair(s) already done, continuing from {chosen.name}")
+    return seed, chosen
+
+
 def evaluate_runs(
     runs: list[dict],
     llm,
     judge_name: str,
     limit: Optional[int] = None,
     on_run_complete=None,
+    checkpoint_json: Optional[Path] = None,
+    seed_results: Optional[list[dict]] = None,
 ) -> list[dict]:
-    results: list[dict] = []
+    results: list[dict] = list(seed_results) if seed_results else []
+    # Set of (folder_name, pair_file, speaker, listener) already scored
+    already_done: set[tuple[str, str, str, str]] = {
+        (r["folder_name"], r["pair_file"], r["speaker"], r["listener"])
+        for r in results
+    }
     RESULTS_DIR.mkdir(exist_ok=True)
     remaining = limit  # None means unlimited
 
@@ -337,11 +429,22 @@ def evaluate_runs(
             agent_a, agent_b = pair[0], pair[1]
 
             for speaker, listener in [(agent_a, agent_b), (agent_b, agent_a)]:
+                if (run["folder_name"], pf.name, speaker, listener) in already_done:
+                    info(f"  skip {speaker}→{listener}  ({pf.name}) — already in checkpoint")
+                    continue
                 info(f"  scoring {speaker}→{listener}  ({pf.name}) …")
-                scores = score_ordered_pair(llm, speaker, listener, transcript)
+                scores = score_ordered_pair(
+                    llm, speaker, listener, transcript,
+                    evaluated_model=run["model"],
+                )
                 if scores is None:
                     scores = {"ER": None, "IN": None, "EX": None,
                               "rationale": "PARSE_ERROR"}
+                else:
+                    print(
+                        f"    {speaker}→{listener}  "
+                        f"ER={scores['ER']}  IN={scores['IN']}  EX={scores['EX']}"
+                    )
 
                 results.append(
                     {
@@ -365,12 +468,18 @@ def evaluate_runs(
                         ),
                     }
                 )
+                already_done.add((run["folder_name"], pf.name, speaker, listener))
+
+            # Persist after every pair file so a crash loses at most one file
+            if checkpoint_json is not None:
+                _write_json(results, checkpoint_json)
 
         ok(f"Done — {len(pair_files)} pair file(s) processed")
         if on_run_complete is not None:
             on_run_complete(results, run)
         if remaining is not None:
             remaining -= len(pair_files)
+
 
     return results
 
@@ -387,6 +496,9 @@ def _build_matrix(results: list[dict], dim: str) -> tuple[list[str], dict[tuple[
     return agents, averaged
 
 
+_COND_ABBREV = {"emotional": "E", "neutral": "N"}
+
+
 def save_results(
     results: list[dict],
     judge_name: str,
@@ -399,61 +511,67 @@ def save_results(
         ts = datetime.datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
     safe_name = re.sub(r"[^a-zA-Z0-9_-]", "_", judge_name)
 
+    # ── Full JSON dump (timestamped, for debugging / checkpoints) ────────────
     json_path = RESULTS_DIR / f"epitome_{safe_name}_{ts}.json"
-    csv_path  = RESULTS_DIR / f"epitome_{safe_name}_{ts}.csv"
-
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
-
-    if results:
-        fields = list(results[0].keys())
-        with open(csv_path, "w", newline="", encoding="utf-8") as f:
-            writer = csv.DictWriter(f, fieldnames=fields)
-            writer.writeheader()
-            writer.writerows(results)
-
     if announce:
         ok(f"JSON → {json_path.relative_to(BACKEND_DIR)}")
-        ok(f"CSV  → {csv_path.relative_to(BACKEND_DIR)}")
 
-    # ── Per-run matrix CSVs (one file per run, one sheet-like block per dim) ─
-    runs_seen: dict[str, list[dict]] = {}
+    # ── Per-(provider, condition) CSVs:  {Provider}_{E|N}.csv ────────────────
+    groups: dict[tuple[str, str], list[dict]] = {}
     for r in results:
-        runs_seen.setdefault(r["folder_name"], []).append(r)
+        groups.setdefault((r["provider"], r["condition"]), []).append(r)
 
+    csv_paths: list[Path] = []
     matrix_paths: list[Path] = []
-    for folder_name, run_results in sorted(runs_seen.items()):
-        valid = [r for r in run_results if r["ER"] is not None]
-        if not valid:
-            continue
-        safe_folder = re.sub(r"[^a-zA-Z0-9_-]", "_", folder_name)
-        mpath = RESULTS_DIR / f"matrix_{safe_folder}_{safe_name}_{ts}.csv"
-        with open(mpath, "w", newline="", encoding="utf-8") as f:
-            writer = csv.writer(f)
-            for dim in ("ER", "IN", "EX"):
-                agents, averaged = _build_matrix(valid, dim)
-                # header rows
-                writer.writerow([dim] + agents + ["Score"])
-                for sender in agents:
-                    row_sum = sum(
-                        int(averaged[(sender, rec)])
-                        for rec in agents
-                        if rec != sender and averaged.get((sender, rec), "?").lstrip("-").isdigit()
-                    )
-                    row = [sender]
-                    for receiver in agents:
-                        if sender == receiver:
-                            row.append("-")
-                        else:
-                            row.append(averaged.get((sender, receiver), "?"))
-                    row.append(row_sum)
-                    writer.writerow(row)
-                writer.writerow([])  # blank separator between dimensions
-        matrix_paths.append(mpath)
+
+    for (provider, condition), group_results in sorted(groups.items()):
+        abbrev = _COND_ABBREV.get(condition, condition[0].upper())
+        base_name = f"{provider}_{abbrev}"
+
+        # Raw scores CSV
+        if group_results:
+            cpath = RESULTS_DIR / f"{base_name}.csv"
+            fields = list(group_results[0].keys())
+            with open(cpath, "w", newline="", encoding="utf-8") as f:
+                writer = csv.DictWriter(f, fieldnames=fields)
+                writer.writeheader()
+                writer.writerows(group_results)
+            csv_paths.append(cpath)
+
+        # Matrix CSV (ER / IN / EX blocks)
+        valid = [r for r in group_results if r["ER"] is not None]
+        if valid:
+            mpath = RESULTS_DIR / f"matrix_{base_name}.csv"
+            with open(mpath, "w", newline="", encoding="utf-8") as f:
+                writer = csv.writer(f)
+                for dim in ("ER", "IN", "EX"):
+                    agents, averaged = _build_matrix(valid, dim)
+                    writer.writerow([dim] + agents + ["Score"])
+                    for sender in agents:
+                        row_sum = sum(
+                            int(averaged[(sender, rec)])
+                            for rec in agents
+                            if rec != sender
+                            and averaged.get((sender, rec), "?").lstrip("-").isdigit()
+                        )
+                        row = [sender]
+                        for receiver in agents:
+                            if sender == receiver:
+                                row.append("-")
+                            else:
+                                row.append(averaged.get((sender, receiver), "?"))
+                        row.append(row_sum)
+                        writer.writerow(row)
+                    writer.writerow([])  # blank separator between dimensions
+            matrix_paths.append(mpath)
 
     if announce:
+        for cp in csv_paths:
+            ok(f"CSV    → {cp.relative_to(BACKEND_DIR)}")
         for mp in matrix_paths:
-            ok(f"Matrix CSV → {mp.relative_to(BACKEND_DIR)}")
+            ok(f"Matrix → {mp.relative_to(BACKEND_DIR)}")
 
 
 def print_matrix(results: list[dict], dim: str, label: str) -> None:
@@ -551,6 +669,12 @@ def main() -> None:
     print(f"\n{BOLD}{CYAN}══ EPITOME Empathy Evaluator ══{RESET}")
     print(f"{DIM}Scores ER / IN / EX across multi-agent SimCo conversations{RESET}")
 
+    resume = choose_resume()
+    seed_results:     list[dict]      = []
+    checkpoint_path:  Optional[Path]  = None
+    if resume is not None:
+        seed_results, checkpoint_path = resume
+
     conditions  = choose_conditions()
     llm, judge  = choose_judge()
 
@@ -570,18 +694,24 @@ def main() -> None:
         info("Aborted by user.")
         sys.exit(0)
 
-    session_ts = datetime.datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
-
-    def _checkpoint_save(partial_results: list[dict], _run: dict) -> None:
-        save_results(partial_results, judge, ts=session_ts, announce=False)
-        ok(f"Checkpoint saved ({len(partial_results)} ordered pairs)")
+    RESULTS_DIR.mkdir(exist_ok=True)
+    if checkpoint_path is not None:
+        # Resuming — extract original timestamp from filename to keep same output files
+        m = re.search(r"_(\d{8}T\d{6}Z)\.json$", checkpoint_path.name)
+        session_ts = m.group(1) if m else datetime.datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
+    else:
+        session_ts = datetime.datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
+        safe_judge = re.sub(r"[^a-zA-Z0-9_-]", "_", judge)
+        checkpoint_path = RESULTS_DIR / f"epitome_{safe_judge}_{session_ts}.json"
+    info(f"Checkpoint JSON: {checkpoint_path.relative_to(BACKEND_DIR)}")
 
     results = evaluate_runs(
         selected,
         llm,
         judge,
         limit=limit,
-        on_run_complete=_checkpoint_save,
+        checkpoint_json=checkpoint_path,
+        seed_results=seed_results or None,
     )
 
     hdr("Saving Results")
