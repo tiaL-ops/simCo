@@ -141,6 +141,25 @@ COHEN'S KAPPA DETAIL — Aggregate (median) vs Rater 4 (LLM)
   B_EX       0.182   0.308    0.471  Slight
 
 ================================================================================
+EXACT AGREEMENT PERCENTAGE — Each rater vs Rater 4 (LLM)
+================================================================================
+Per-model agreement (% of 6 dimensions matching):
+  Model           R1 %    R2 %    R3 %    AGG %
+  ----------------------------------------------
+  Claude_E       66.7%   83.3%   83.3%    83.3%
+  Claude_N       50.0%   33.3%   50.0%    33.3%
+  Gemini_E       66.7%  100.0%   83.3%    83.3%
+  Gemini_N       16.7%   50.0%   50.0%    33.3%
+  Grok_E         83.3%   83.3%   83.3%    83.3%
+  Grok_N         66.7%   16.7%   50.0%    33.3%
+
+Overall agreement (% of 36 dimensions matching per rater):
+  Rater 1:       58.3%
+  Rater 2:       61.1%
+  Rater 3:       66.7%
+  Aggregate:     58.3%
+
+================================================================================
 REFERENCE — Raw scores (R1 R2 R3 = humans, AGG = median, R4 = LLM)
 ================================================================================
 Model         Dim      R1   R2   R3   AGG   R4

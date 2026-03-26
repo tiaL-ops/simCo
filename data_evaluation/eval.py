@@ -373,8 +373,36 @@ def _alpha_row(label: str, av: dict, width: int = 14) -> str:
             f"[{_alpha_band(ord_)}]")
 
 
+def compute_agreement_percentages(per_rater: dict, aggregate: dict, rater4: dict) -> dict:
+    """Compute exact-match percentage for each model and rater vs Rater 4 (LLM)."""
+    by_model = {}
+    for model in MODELS:
+        matches_r1 = sum(1 for d in DIMS if per_rater["rater1"][model][d] == rater4[model][d])
+        matches_r2 = sum(1 for d in DIMS if per_rater["rater2"][model][d] == rater4[model][d])
+        matches_r3 = sum(1 for d in DIMS if per_rater["rater3"][model][d] == rater4[model][d])
+        matches_agg = sum(1 for d in DIMS if round(aggregate[model][d]) == rater4[model][d])
+        by_model[model] = {
+            "rater1_pct": 100.0 * matches_r1 / len(DIMS),
+            "rater2_pct": 100.0 * matches_r2 / len(DIMS),
+            "rater3_pct": 100.0 * matches_r3 / len(DIMS),
+            "aggregate_pct": 100.0 * matches_agg / len(DIMS),
+        }
+    total_dims = len(MODELS) * len(DIMS)
+    matches_r1_all = sum(1 for m in MODELS for d in DIMS if per_rater["rater1"][m][d] == rater4[m][d])
+    matches_r2_all = sum(1 for m in MODELS for d in DIMS if per_rater["rater2"][m][d] == rater4[m][d])
+    matches_r3_all = sum(1 for m in MODELS for d in DIMS if per_rater["rater3"][m][d] == rater4[m][d])
+    matches_agg_all = sum(1 for m in MODELS for d in DIMS if round(aggregate[m][d]) == rater4[m][d])
+    by_rater = {
+        "rater1_pct": 100.0 * matches_r1_all / total_dims,
+        "rater2_pct": 100.0 * matches_r2_all / total_dims,
+        "rater3_pct": 100.0 * matches_r3_all / total_dims,
+        "aggregate_pct": 100.0 * matches_agg_all / total_dims,
+    }
+    return {"by_model": by_model, "by_rater": by_rater}
+
+
 def print_results(per_rater: dict, aggregate: dict, rater4: dict,
-                  kappas: dict, alphas: dict) -> None:
+                  kappas: dict, alphas: dict, agreements: dict) -> None:
     W = 80
     result_path = BASE_DIR / "result.txt"
     KAPPA_COMPARISONS = [
@@ -450,6 +478,23 @@ def print_results(per_rater: dict, aggregate: dict, rater4: dict,
             add(f"  {d:<8}  {kv['k']:>6.3f}  {kv['k_linear']:>6.3f}  {kv['k_quadratic']:>7.3f}  {kappa_band(kv['k'])}")
 
     add("\n" + "=" * W)
+    add("EXACT AGREEMENT PERCENTAGE — Each rater vs Rater 4 (LLM)")
+    add("=" * W)
+    add("Per-model agreement (% of 6 dimensions matching):")
+    add(f"  {'Model':<12}  {'R1 %':>6}  {'R2 %':>6}  {'R3 %':>6}  {'AGG %':>7}")
+    add("  " + "-" * 46)
+    for m in MODELS:
+        ag = agreements["by_model"][m]
+        add(f"  {m:<12}  {ag['rater1_pct']:>5.1f}%  {ag['rater2_pct']:>5.1f}%  {ag['rater3_pct']:>5.1f}%  {ag['aggregate_pct']:>6.1f}%")
+    add()
+    add("Overall agreement (% of 36 dimensions matching per rater):")
+    ag_overall = agreements["by_rater"]
+    add(f"  Rater 1:       {ag_overall['rater1_pct']:.1f}%")
+    add(f"  Rater 2:       {ag_overall['rater2_pct']:.1f}%")
+    add(f"  Rater 3:       {ag_overall['rater3_pct']:.1f}%")
+    add(f"  Aggregate:     {ag_overall['aggregate_pct']:.1f}%")
+
+    add("\n" + "=" * W)
     add("REFERENCE — Raw scores (R1 R2 R3 = humans, AGG = median, R4 = LLM)")
     add("=" * W)
     add(f"{'Model':<12}  {'Dim':<6}  {'R1':>3}  {'R2':>3}  {'R3':>3}  {'AGG':>4}  {'R4':>3}")
@@ -466,7 +511,7 @@ def print_results(per_rater: dict, aggregate: dict, rater4: dict,
 
     result_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
-    # Terminal output: only final summary results
+    ag_overall = agreements["by_rater"]
     print("=" * W)
     print("FINAL RESULTS")
     print("=" * W)
@@ -478,6 +523,12 @@ def print_results(per_rater: dict, aggregate: dict, rater4: dict,
     for key, label in KAPPA_COMPARISONS:
         kv = kappas[key]["overall"]
         print(_kappa_row(label, kv, width=34))
+    print()
+    print("Exact Agreement Percentage (overall)")
+    print(f"  Rater 1:       {ag_overall['rater1_pct']:.1f}%")
+    print(f"  Rater 2:       {ag_overall['rater2_pct']:.1f}%")
+    print(f"  Rater 3:       {ag_overall['rater3_pct']:.1f}%")
+    print(f"  Aggregate:     {ag_overall['aggregate_pct']:.1f}%")
     print()
     print(f"Detailed report saved to: {result_path.name}")
 
@@ -491,4 +542,5 @@ if __name__ == "__main__":
     rater4               = extract_rater4(CSV_FILES)
     kappas               = compute_all_kappas(per_rater, aggregate, rater4)
     alphas               = compute_all_alphas(per_rater, rater4)
-    print_results(per_rater, aggregate, rater4, kappas, alphas)
+    agreements           = compute_agreement_percentages(per_rater, aggregate, rater4)
+    print_results(per_rater, aggregate, rater4, kappas, alphas, agreements)
