@@ -1,0 +1,45 @@
+Connection Visualization Summary
+================================================================================
+Heatmap image: connection_heatmap_all_models.png
+Network image: connection_network_all_models.png
+
+Interpretation
+- Heatmap: cell(i, j) is the mean score assigned by i to j across runs.
+- Network map: directed edges only for high-trust links (>= 4.4).
+- Self-links are excluded.
+
+Provider: Claude
+  runs -> neutral=3, emotional=3
+  overall mean directed score: 3.931
+  strongest directed pair: J -> B (4.167)
+  most trusted target (incoming avg): B (4.000)
+  reciprocity gap |A_ij - A_ji| mean: 0.099
+  emotional - neutral mean shift: -0.022
+  largest condition shift: C -> D (-0.667, decrease)
+
+Provider: GPT
+  runs -> neutral=1, emotional=3
+  overall mean directed score: 4.597
+  strongest directed pair: A -> B (5.000)
+  most trusted target (incoming avg): B (4.750)
+  reciprocity gap |A_ij - A_ji| mean: 0.135
+  emotional - neutral mean shift: 0.081
+  largest condition shift: B -> A (+1.000, increase)
+
+Provider: Gemini
+  runs -> neutral=3, emotional=3
+  overall mean directed score: 4.009
+  strongest directed pair: A -> F (4.333)
+  most trusted target (incoming avg): F (4.111)
+  reciprocity gap |A_ij - A_ji| mean: 0.130
+  emotional - neutral mean shift: -0.167
+  largest condition shift: C -> B (-1.333, decrease)
+
+Provider: Grok
+  runs -> neutral=3, emotional=3
+  overall mean directed score: 4.307
+  strongest directed pair: D -> G (4.833)
+  most trusted target (incoming avg): I (4.430)
+  reciprocity gap |A_ij - A_ji| mean: 0.224
+  emotional - neutral mean shift: -0.033
+  largest condition shift: A -> D (-1.000, decrease)

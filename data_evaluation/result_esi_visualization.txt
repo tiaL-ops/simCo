@@ -1,0 +1,21 @@
+ESI and g_k Visualization Notes
+================================================================================
+Why Gemini can appear blank:
+- Gemini_N correlation = nan (g_k has zero variance).
+- This is not missing data. Correlation is undefined when all g_k values are identical.
+
+Per provider-condition correlation summary:
+- Claude_E: r=0.4209 (ok)
+- Claude_N: r=0.2210 (ok)
+- Gemini_E: r=0.7295 (ok)
+- Gemini_N: r=nan (g_k has zero variance)
+- Grok_E: r=-0.1093 (ok)
+- Grok_N: r=0.2558 (ok)
+
+Record counts:
+- Claude_E: n=10
+- Claude_N: n=10
+- Gemini_E: n=10
+- Gemini_N: n=10
+- Grok_E: n=10
+- Grok_N: n=10
