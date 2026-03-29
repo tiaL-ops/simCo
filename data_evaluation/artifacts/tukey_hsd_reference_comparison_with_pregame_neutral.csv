@@ -1,0 +1,5 @@
+Model,Mean g_k,Delta vs Claude,p vs Claude,Cohen's d vs Claude
+Claude-Haiku-4.5,0.6750666666666666,-,-,-
+Gemini-3-Flash,1.0,+0.32,<0.001,13.60
+GPT-5-mini,1.0099066666666665,+0.33,<0.001,5.73
+Grok-3-mini,0.9466633333333333,+0.27,<0.001,10.36

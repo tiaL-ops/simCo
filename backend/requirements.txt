@@ -6,7 +6,12 @@ langchain-core>=0.3.0
 langchain-openai>=0.2.0
 langchain-anthropic>=0.2.0
 langchain-google-genai>=2.0.0
+matplotlib==3.10.8
+numpy==2.4.3
 openai>=1.0.0
+pandas==3.0.1
+seaborn==0.13.2
+scipy==1.17.1
 anthropic>=0.30.0
 google-generativeai>=0.8.0
 python-dotenv>=1.0.0
