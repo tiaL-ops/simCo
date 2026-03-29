@@ -1,0 +1,7 @@
+Setup × Context,ρ,p,p_text,n,r²,95% CI,decision
+"No interaction, Neutral",0.115,0.21117194322241303,.211,120,0.013,"[-0.066, 0.288]",not significant
+"No interaction, Emotion",0.241,0.00925953391177141,.009,116,0.058,"[0.061, 0.405]",significant
+"With interaction, Neutral",0.002,0.9835344588896003,.984,120,0.0,"[-0.177, 0.181]",not significant
+"With interaction, Emotion",0.241,0.012633355391143379,.013,106,0.058,"[0.053, 0.413]",significant
+Combined Neutral,0.005,0.9417105484806423,.942,240,0.0,"[-0.122, 0.131]",not significant
+Combined Emotion,0.197,0.003231529686702691,.003,222,0.039,"[0.067, 0.320]",significant

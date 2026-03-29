@@ -1,0 +1,5 @@
+setup,condition,test,F,H,p,eta_sq,epsilon_sq,df_between,df_within,decision
+game_only,neutral,ANOVA,3.2131147540983624,,0.08297764687357821,0.5464684014869896,,3,8,not significant
+game_only,emotional,ANOVA,3.3196263924037783,,0.07762477549572366,0.5545379017777744,,3,8,not significant
+with_pregame,neutral,ANOVA,42.309515114862236,,2.9681611527589895e-05,0.9407093585751688,,3,8,significant
+with_pregame,emotional,ANOVA,4.091179108652412,,0.04930706377928128,0.6053969333828491,,3,8,significant
