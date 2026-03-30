@@ -1,244 +1,256 @@
-"""
-Inter-rater agreement analysis
-  - Extract individual scores from JSON (raters 1, 2, 3)
-  - Extract Rater 4 (column D, items A & B) from multi-section CSV files
-  - Cohen's Kappa: each human rater individually vs Rater 4 (LLM)
-  - Krippendorff's Alpha:
-      * humans only (raters 1-2-3) — baseline
-      * all 4 raters together    — human+LLM reliability
-      * per model and per dimension breakdowns for both
+"""Evaluation script using majority-vote human labels.
+
+Metrics reported (no kappa):
+- Accuracy (classification)
+- Macro-F1 (classification, labels 0/1/2)
+- Random baseline accuracy (1/3)
+- T-f1 and IOU-f1 for rationale extraction when rationale annotations exist
+
+Gold labels are established by taking the most common score among the 3 human
+raters for each (model, dimension) cell.
 
 Usage:
     python eval.py
-    (CSV files must be in the same folder as this script)
 """
+
+from __future__ import annotations
 
 import json
 import re
 import statistics
+from collections import Counter
 from pathlib import Path
 
-import krippendorff
 import numpy as np
-from sklearn.metrics import cohen_kappa_score
+from sklearn.metrics import accuracy_score, f1_score
 
-# ─────────────────────────────────────────────────────────────────────────────
-# DATA
-# ─────────────────────────────────────────────────────────────────────────────
+# ---------------------------------------------------------------------------
+# Data config
+# ---------------------------------------------------------------------------
 BASE_DIR = Path(__file__).resolve().parent
-path = BASE_DIR / "eval.json"
-
-raw_json = path.read_text(encoding="utf-8")
+EVAL_JSON_PATH = BASE_DIR / "eval.json"
 
 CSV_FILES = {
     "Claude_E": "matrix_Claude_E.csv",
     "Claude_N": "matrix_Claude_N.csv",
     "Gemini_E": "matrix_Gemini_E.csv",
     "Gemini_N": "matrix_Gemini_N.csv",
-    "Grok_E":   "matrix_Grok_E.csv",
-    "Grok_N":   "matrix_Grok_N.csv",
+    "Grok_E": "matrix_Grok_E.csv",
+    "Grok_N": "matrix_Grok_N.csv",
 }
 
-MODELS     = ["Claude_E", "Claude_N", "Gemini_E", "Gemini_N", "Grok_E", "Grok_N"]
-DIMS       = ["A_ER", "A_IN", "A_EX", "B_ER", "B_IN", "B_EX"]
+MODELS = ["Claude_E", "Claude_N", "Gemini_E", "Gemini_N", "Grok_E", "Grok_N"]
+DIMS = ["A_ER", "A_IN", "A_EX", "B_ER", "B_IN", "B_EX"]
 RATER4_COL = "D"
-LABELS     = [0, 1, 2]
+LABELS = [0, 1, 2]
 RATER_KEYS = ["rater1", "rater2", "rater3"]
 
-
-# ─────────────────────────────────────────────────────────────────────────────
-# HELPERS
-# ─────────────────────────────────────────────────────────────────────────────
+# ---------------------------------------------------------------------------
+# Helpers
+# ---------------------------------------------------------------------------
 
 def _parse_label_score(value) -> int | None:
-    """Parse score labels like 0, 1, 2 or strings such as '2 - Strong'."""
+    """Parse score labels like 0, 1, 2 or strings like '2 - Strong'."""
     if value is None:
         return None
     if isinstance(value, int):
         return value if value in LABELS else None
     if isinstance(value, float):
         iv = int(value)
-        return iv if iv in LABELS and value == iv else None
+        return iv if value == iv and iv in LABELS else None
     text = str(value).strip()
     if not text:
         return None
     m = re.search(r"\b([012])\b", text)
-    if not m:
+    return int(m.group(1)) if m else None
+
+
+def _majority_vote(values: list[int | None]) -> int | None:
+    """Most common score among 3 raters; tie fallback uses rounded median."""
+    valid = [v for v in values if v is not None]
+    if not valid:
         return None
-    return int(m.group(1))
+
+    counts = Counter(valid)
+    top_count = max(counts.values())
+    top_labels = sorted([label for label, c in counts.items() if c == top_count])
+    if len(top_labels) == 1:
+        return top_labels[0]
+
+    # Tie fallback for cases like [0, 1, 2].
+    return int(round(statistics.median(valid)))
 
 
-def kappa_band(k: float) -> str:
-    """Landis & Koch (1977) interpretation of kappa."""
-    if k != k:    return "n/a"       # NaN check
-    if k < 0:     return "Poor"
-    if k < 0.20:  return "Slight"
-    if k < 0.40:  return "Fair"
-    if k < 0.60:  return "Moderate"
-    if k < 0.80:  return "Substantial"
-    return "Almost perfect"
-
-
-def compute_kappa(y1: list, y2: list) -> dict:
-    """Unweighted, linear-weighted, and quadratic-weighted kappa."""
-    pairs = [(a, b) for a, b in zip(y1, y2) if a is not None and b is not None]
-    if not pairs:
-        nan = float("nan")
-        return {"k": nan, "k_linear": nan, "k_quadratic": nan}
-    y1v = [a for a, _ in pairs]
-    y2v = [b for _, b in pairs]
-    k   = cohen_kappa_score(y1v, y2v, labels=LABELS)
-    kl  = cohen_kappa_score(y1v, y2v, labels=LABELS, weights="linear")
-    kq  = cohen_kappa_score(y1v, y2v, labels=LABELS, weights="quadratic")
-    return {"k": k, "k_linear": kl, "k_quadratic": kq}
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-# Krippendorff's Alpha
-# ─────────────────────────────────────────────────────────────────────────────
-
-def _alpha_band(a: float) -> str:
-    """Krippendorff's own thresholds (>= 0.800 reliable, >= 0.667 tentative)."""
-    if a != a:    return "n/a"
-    if a >= 0.80: return "Reliable"
-    if a >= 0.67: return "Tentative"
-    return "Unreliable"
-
-
-def compute_alpha(reliability_data: list[list]) -> dict:
-    """
-    reliability_data : list of rater vectors, each of length n_items.
-                       None / np.nan = missing.
-    Returns nominal and ordinal alpha.
-    """
-    # krippendorff expects shape (n_raters, n_items), missing as np.nan
-    arr = np.array(
-        [[np.nan if v is None else float(v) for v in row]
-         for row in reliability_data],
-        dtype=float,
-    )
-    if arr.shape[1] == 0:
-        nan = float("nan")
-        return {"nominal": nan, "ordinal": nan}
-    try:
-        a_nom = krippendorff.alpha(reliability_data=arr, level_of_measurement="nominal")
-    except ValueError:
-        a_nom = float("nan")   # degenerate: all scores identical, zero variance
-    try:
-        a_ord = krippendorff.alpha(reliability_data=arr, level_of_measurement="ordinal")
-    except ValueError:
-        a_ord = float("nan")
-    return {"nominal": a_nom, "ordinal": a_ord}
-
-
-def build_reliability_matrix(score_dicts: list[dict]) -> list[list]:
-    """
-    score_dicts : one dict per rater, each { model: { dim: score } }.
-    Returns rows = raters, cols = items (model×dim in fixed order).
-    """
-    return [
-        [sd[m][d] for m in MODELS for d in DIMS]
-        for sd in score_dicts
-    ]
-
-
-def compute_all_alphas(per_rater: dict, rater4: dict) -> dict:
-    """
-    Compute Krippendorff's Alpha at three levels:
-      overall   : all items pooled  (6 models × 6 dims = 36 items)
-      per_model : one alpha per model (6 items each)
-      per_dim   : one alpha per dim   (6 items each — one per model)
-
-    Each level has two variants:
-      humans_only : raters 1-2-3
-      all_raters  : raters 1-2-3 + rater 4 (LLM)
-    """
-    humans = [per_rater[rk] for rk in RATER_KEYS]   # list of 3 score dicts
-    all4   = humans + [rater4]                        # list of 4 score dicts
-
-    def _alpha_pair(score_dicts_h, score_dicts_a, items_fn):
-        rows_h = [items_fn(sd) for sd in score_dicts_h]
-        rows_a = [items_fn(sd) for sd in score_dicts_a]
+def _metrics(y_true: list[int], y_pred: list[int]) -> dict:
+    if not y_true:
         return {
-            "humans_only": compute_alpha(rows_h),
-            "all_raters":  compute_alpha(rows_a),
+            "n": 0,
+            "accuracy": float("nan"),
+            "macro_f1": float("nan"),
+            "random_baseline_accuracy": 1.0 / 3.0,
         }
-
-    # Overall
-    overall = _alpha_pair(
-        humans, all4,
-        lambda sd: [sd[m][d] for m in MODELS for d in DIMS],
-    )
-
-    # Per model
-    per_model = {}
-    for m in MODELS:
-        per_model[m] = _alpha_pair(
-            humans, all4,
-            lambda sd, m=m: [sd[m][d] for d in DIMS],
-        )
-
-    # Per dimension
-    per_dim = {}
-    for d in DIMS:
-        per_dim[d] = _alpha_pair(
-            humans, all4,
-            lambda sd, d=d: [sd[m][d] for m in MODELS],
-        )
-
-    return {"overall": overall, "per_model": per_model, "per_dim": per_dim}
+    return {
+        "n": len(y_true),
+        "accuracy": float(accuracy_score(y_true, y_pred)),
+        "macro_f1": float(f1_score(y_true, y_pred, labels=LABELS, average="macro", zero_division=0)),
+        "random_baseline_accuracy": 1.0 / 3.0,
+    }
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-# STEP 1 — Parse JSON: extract per-rater scores AND aggregate median
-# ─────────────────────────────────────────────────────────────────────────────
+# ---------------------------------------------------------------------------
+# Rationale metrics (only computed when rationale text is available)
+# ---------------------------------------------------------------------------
+TOKEN_RE = re.compile(r"\w+", re.UNICODE)
 
-def parse_json(raw_json: str) -> tuple[dict, dict]:
+
+def _tokenize_with_spans(text: str) -> list[tuple[str, int, int]]:
+    return [(m.group(0), m.start(), m.end()) for m in TOKEN_RE.finditer(text)]
+
+
+def _extract_segments(rationale_text: str) -> list[str]:
+    parts = re.split(r"\||\n+", rationale_text)
+    return [p.strip() for p in parts if p.strip()]
+
+
+def _build_mask_from_rationale(response_text: str, rationale_text: str) -> list[int]:
+    tokens = _tokenize_with_spans(response_text)
+    mask = [0] * len(tokens)
+    if not rationale_text.strip():
+        return mask
+
+    response_lower = response_text.lower()
+    matched = False
+    for seg in _extract_segments(rationale_text):
+        seg_l = seg.lower()
+        if len(seg_l) < 2:
+            continue
+        start = 0
+        while True:
+            idx = response_lower.find(seg_l, start)
+            if idx == -1:
+                break
+            end = idx + len(seg_l)
+            for i, (_, ts, te) in enumerate(tokens):
+                if te > idx and ts < end:
+                    mask[i] = 1
+            matched = True
+            start = idx + 1
+
+    if matched:
+        return mask
+
+    rat_toks = {tok.lower() for tok, _, _ in _tokenize_with_spans(rationale_text)}
+    for i, (tok, _, _) in enumerate(tokens):
+        if tok.lower() in rat_toks:
+            mask[i] = 1
+    return mask
+
+
+def _binary_f1(true_mask: list[int], pred_mask: list[int]) -> float:
+    n = min(len(true_mask), len(pred_mask))
+    if n == 0:
+        return 0.0
+    tp = fp = fn = 0
+    for t, p in zip(true_mask[:n], pred_mask[:n]):
+        if t == 1 and p == 1:
+            tp += 1
+        elif t == 0 and p == 1:
+            fp += 1
+        elif t == 1 and p == 0:
+            fn += 1
+    den = 2 * tp + fp + fn
+    return 0.0 if den == 0 else (2 * tp) / den
+
+
+def _spans_from_mask(mask: list[int]) -> list[tuple[int, int]]:
+    spans: list[tuple[int, int]] = []
+    start = None
+    for i, val in enumerate(mask):
+        if val == 1 and start is None:
+            start = i
+        elif val == 0 and start is not None:
+            spans.append((start, i - 1))
+            start = None
+    if start is not None:
+        spans.append((start, len(mask) - 1))
+    return spans
+
+
+def _span_iou(a: tuple[int, int], b: tuple[int, int]) -> float:
+    left = max(a[0], b[0])
+    right = min(a[1], b[1])
+    if right < left:
+        return 0.0
+    inter = right - left + 1
+    union = (a[1] - a[0] + 1) + (b[1] - b[0] + 1) - inter
+    return 0.0 if union <= 0 else inter / union
+
+
+def _span_f1(true_mask: list[int], pred_mask: list[int], threshold: float = 0.5) -> float:
+    true_spans = _spans_from_mask(true_mask)
+    pred_spans = _spans_from_mask(pred_mask)
+    if not true_spans and not pred_spans:
+        return 1.0
+    if not true_spans or not pred_spans:
+        return 0.0
+
+    matched_true: set[int] = set()
+    tp = 0
+    for pred in pred_spans:
+        best_idx = -1
+        best_iou = 0.0
+        for idx, gt in enumerate(true_spans):
+            if idx in matched_true:
+                continue
+            iou = _span_iou(pred, gt)
+            if iou > best_iou:
+                best_iou = iou
+                best_idx = idx
+        if best_idx >= 0 and best_iou > threshold:
+            tp += 1
+            matched_true.add(best_idx)
+
+    fp = len(pred_spans) - tp
+    fn = len(true_spans) - tp
+    den = 2 * tp + fp + fn
+    return 0.0 if den == 0 else (2 * tp) / den
+
+
+# ---------------------------------------------------------------------------
+# Data parsing
+# ---------------------------------------------------------------------------
+
+def parse_json_raters(raw_json: str) -> tuple[dict, dict]:
     """
     Returns:
-      per_rater  : { "rater1": { model: { dim: int } }, "rater2": ..., "rater3": ... }
-      aggregate  : { model: { dim: float (median of rater1/2/3) } }
+      per_rater: {rater_key: {model: {dim: int|None}}}
+      majority:  {model: {dim: int|None}}
     """
     data = json.loads(raw_json)
 
-    # Index by rater key
     by_rater = {}
     for entry in data:
-        rater_key = entry.get("rater")          # "rater1", "rater2", "rater3"
-        if rater_key not in RATER_KEYS:
-            continue
-        by_rater[rater_key] = entry
+        rk = entry.get("rater")
+        if rk in RATER_KEYS:
+            by_rater[rk] = entry
 
-    # Build per_rater scores
     per_rater = {rk: {} for rk in RATER_KEYS}
     for rk in RATER_KEYS:
         entry = by_rater.get(rk, {})
         for model in MODELS:
             per_rater[rk][model] = {}
             for dim in DIMS:
-                raw = entry.get(model, {}).get(dim)
-                per_rater[rk][model][dim] = _parse_label_score(raw)
+                per_rater[rk][model][dim] = _parse_label_score(entry.get(model, {}).get(dim))
 
-    # Build aggregate (median across the 3 raters, ignoring None)
-    aggregate = {}
+    majority = {}
     for model in MODELS:
-        aggregate[model] = {}
+        majority[model] = {}
         for dim in DIMS:
-            scores = [
-                per_rater[rk][model][dim]
-                for rk in RATER_KEYS
-                if per_rater[rk][model][dim] is not None
-            ]
-            if not scores:
-                raise ValueError(f"No valid scores for {model}/{dim}")
-            aggregate[model][dim] = statistics.median(scores)
+            values = [per_rater[rk][model][dim] for rk in RATER_KEYS]
+            majority[model][dim] = _majority_vote(values)
 
-    return per_rater, aggregate
+    return per_rater, majority
 
-
-# ─────────────────────────────────────────────────────────────────────────────
-# STEP 2 — Parse CSVs and extract Rater 4 (column D, rows A & B)
-# ─────────────────────────────────────────────────────────────────────────────
 
 def parse_csv_sections(filepath: str) -> dict:
     csv_path = Path(filepath)
@@ -247,21 +259,21 @@ def parse_csv_sections(filepath: str) -> dict:
         if candidate.exists():
             csv_path = candidate
 
-    sections        = {}
+    sections = {}
     current_section = None
-    current_header  = None
+    current_header = None
 
     with csv_path.open(newline="", encoding="utf-8-sig") as fh:
         for line in fh:
-            line  = line.rstrip("\r\n")
+            line = line.rstrip("\r\n")
             if not line.strip():
                 continue
             parts = [p.strip() for p in line.split(",")]
             first = parts[0]
 
-            if len(parts) > 1 and parts[1] == "A":          # header row
+            if len(parts) > 1 and parts[1] == "A":
                 current_section = first
-                current_header  = parts
+                current_header = parts
                 sections[current_section] = {}
                 continue
 
@@ -277,270 +289,161 @@ def parse_csv_sections(filepath: str) -> dict:
 
 
 def extract_rater4(csv_files: dict) -> dict:
-    """{ model: { dim: int } } — column D, rows A & B only."""
+    """Return { model: { dim: int|None } } from column D, rows A and B."""
     rater4 = {}
     for model, fpath in csv_files.items():
-        sections      = parse_csv_sections(fpath)
+        sections = parse_csv_sections(fpath)
         rater4[model] = {}
-        for item, section in [("A", "ER"), ("A", "IN"), ("A", "EX"),
-                               ("B", "ER"), ("B", "IN"), ("B", "EX")]:
-            key   = f"{item}_{section}"
-            score = sections.get(section, {}).get(item, {}).get(RATER4_COL)
-            rater4[model][key] = score
+        for item, section in [
+            ("A", "ER"), ("A", "IN"), ("A", "EX"),
+            ("B", "ER"), ("B", "IN"), ("B", "EX"),
+        ]:
+            key = f"{item}_{section}"
+            rater4[model][key] = sections.get(section, {}).get(item, {}).get(RATER4_COL)
     return rater4
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-# STEP 3 — Compute all kappas
-# ─────────────────────────────────────────────────────────────────────────────
+# ---------------------------------------------------------------------------
+# Metric evaluation
+# ---------------------------------------------------------------------------
 
-def flatten(scores: dict) -> list:
-    """Flatten { model: { dim: score } } into a single list (fixed order)."""
-    return [scores[m][d] for m in MODELS for d in DIMS]
+def compute_classification_metrics(majority: dict, rater4: dict) -> dict:
+    y_true_all: list[int] = []
+    y_pred_all: list[int] = []
 
-
-def compute_all_kappas(per_rater: dict, aggregate: dict, rater4: dict) -> dict:
-    """
-    Returns kappas at three levels for each comparison:
-      - rater1 vs rater4
-      - rater2 vs rater4
-      - rater3 vs rater4
-      - aggregate vs rater4   (median rounded to int)
-
-    Each comparison has:
-      overall   : all 48 cells pooled
-      per_model : one kappa per model (6 cells)
-      per_dim   : one kappa per dim   (6 cells — one per model)
-    """
-    r4_flat = flatten(rater4)
-
-    results = {}
-
-    # Individual raters vs rater4
-    for rk in RATER_KEYS:
-        rk_flat = flatten(per_rater[rk])
-        entry = {
-            "overall":   compute_kappa(rk_flat, r4_flat),
-            "per_model": {},
-            "per_dim":   {},
-        }
-        for m in MODELS:
-            y1 = [per_rater[rk][m][d] for d in DIMS]
-            y2 = [rater4[m][d]        for d in DIMS]
-            entry["per_model"][m] = compute_kappa(y1, y2)
-        for d in DIMS:
-            y1 = [per_rater[rk][m][d] for m in MODELS]
-            y2 = [rater4[m][d]        for m in MODELS]
-            entry["per_dim"][d] = compute_kappa(y1, y2)
-        results[rk] = entry
-
-    # Aggregate vs rater4
-    agg_flat = [round(aggregate[m][d]) for m in MODELS for d in DIMS]
-    entry = {
-        "overall":   compute_kappa(agg_flat, r4_flat),
-        "per_model": {},
-        "per_dim":   {},
-    }
-    for m in MODELS:
-        y1 = [round(aggregate[m][d]) for d in DIMS]
-        y2 = [rater4[m][d]          for d in DIMS]
-        entry["per_model"][m] = compute_kappa(y1, y2)
-    for d in DIMS:
-        y1 = [round(aggregate[m][d]) for m in MODELS]
-        y2 = [rater4[m][d]          for m in MODELS]
-        entry["per_dim"][d] = compute_kappa(y1, y2)
-    results["aggregate"] = entry
-
-    return results
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-# STEP 4 — Print results
-# ─────────────────────────────────────────────────────────────────────────────
-
-def _kappa_row(label: str, kv: dict, width: int = 14) -> str:
-    return (f"  {label:<{width}}  "
-            f"k={kv['k']:>6.3f}  "
-            f"k_lin={kv['k_linear']:>6.3f}  "
-            f"k_quad={kv['k_quadratic']:>6.3f}  "
-            f"[{kappa_band(kv['k'])}]")
-
-
-def _alpha_row(label: str, av: dict, width: int = 14) -> str:
-    nom, ord_ = av["nominal"], av["ordinal"]
-    return (f"  {label:<{width}}  "
-            f"nominal={nom:>6.3f}  ordinal={ord_:>6.3f}  "
-            f"[{_alpha_band(ord_)}]")
-
-
-def compute_agreement_percentages(per_rater: dict, aggregate: dict, rater4: dict) -> dict:
-    """Compute exact-match percentage for each model and rater vs Rater 4 (LLM)."""
-    by_model = {}
+    per_model = {}
     for model in MODELS:
-        matches_r1 = sum(1 for d in DIMS if per_rater["rater1"][model][d] == rater4[model][d])
-        matches_r2 = sum(1 for d in DIMS if per_rater["rater2"][model][d] == rater4[model][d])
-        matches_r3 = sum(1 for d in DIMS if per_rater["rater3"][model][d] == rater4[model][d])
-        matches_agg = sum(1 for d in DIMS if round(aggregate[model][d]) == rater4[model][d])
-        by_model[model] = {
-            "rater1_pct": 100.0 * matches_r1 / len(DIMS),
-            "rater2_pct": 100.0 * matches_r2 / len(DIMS),
-            "rater3_pct": 100.0 * matches_r3 / len(DIMS),
-            "aggregate_pct": 100.0 * matches_agg / len(DIMS),
-        }
-    total_dims = len(MODELS) * len(DIMS)
-    matches_r1_all = sum(1 for m in MODELS for d in DIMS if per_rater["rater1"][m][d] == rater4[m][d])
-    matches_r2_all = sum(1 for m in MODELS for d in DIMS if per_rater["rater2"][m][d] == rater4[m][d])
-    matches_r3_all = sum(1 for m in MODELS for d in DIMS if per_rater["rater3"][m][d] == rater4[m][d])
-    matches_agg_all = sum(1 for m in MODELS for d in DIMS if round(aggregate[m][d]) == rater4[m][d])
-    by_rater = {
-        "rater1_pct": 100.0 * matches_r1_all / total_dims,
-        "rater2_pct": 100.0 * matches_r2_all / total_dims,
-        "rater3_pct": 100.0 * matches_r3_all / total_dims,
-        "aggregate_pct": 100.0 * matches_agg_all / total_dims,
+        y_true: list[int] = []
+        y_pred: list[int] = []
+        for dim in DIMS:
+            gt = majority[model][dim]
+            pred = rater4[model][dim]
+            if gt is None or pred is None:
+                continue
+            y_true.append(int(gt))
+            y_pred.append(int(pred))
+        per_model[model] = _metrics(y_true, y_pred)
+        y_true_all.extend(y_true)
+        y_pred_all.extend(y_pred)
+
+    per_dim = {}
+    for dim in DIMS:
+        y_true: list[int] = []
+        y_pred: list[int] = []
+        for model in MODELS:
+            gt = majority[model][dim]
+            pred = rater4[model][dim]
+            if gt is None or pred is None:
+                continue
+            y_true.append(int(gt))
+            y_pred.append(int(pred))
+        per_dim[dim] = _metrics(y_true, y_pred)
+
+    return {
+        "overall": _metrics(y_true_all, y_pred_all),
+        "per_model": per_model,
+        "per_dim": per_dim,
     }
-    return {"by_model": by_model, "by_rater": by_rater}
 
 
-def print_results(per_rater: dict, aggregate: dict, rater4: dict,
-                  kappas: dict, alphas: dict, agreements: dict) -> None:
-    W = 80
-    result_path = BASE_DIR / "result.txt"
-    KAPPA_COMPARISONS = [
-        ("rater1", "Rater 1 vs Rater 4 (LLM)"),
-        ("rater2", "Rater 2 vs Rater 4 (LLM)"),
-        ("rater3", "Rater 3 vs Rater 4 (LLM)"),
-        ("aggregate", "Aggregate (median) vs Rater 4 (LLM)"),
-    ]
+def compute_rationale_metrics() -> dict:
+    """
+    This dataset currently contains EI labels only (0/1/2) without rationale spans.
+    We report rationale metrics as unavailable to avoid fabricated numbers.
+    """
+    return {
+        "available": False,
+        "t_f1": float("nan"),
+        "iou_f1": float("nan"),
+        "note": "Rationale annotations/predictions are not present in eval.json + matrix_*.csv inputs.",
+        "iou_threshold": 0.5,
+    }
 
-    # Full detail goes to result.txt
+
+# ---------------------------------------------------------------------------
+# Reporting
+# ---------------------------------------------------------------------------
+
+def _fmt(v: float) -> str:
+    return "nan" if v != v else f"{v:.4f}"
+
+
+def print_and_save_report(class_metrics: dict, rationale_metrics: dict) -> None:
+    report_txt = BASE_DIR / "result.txt"
+    report_json = BASE_DIR / "result_metrics.json"
+
     lines: list[str] = []
+    lines.append("=" * 88)
+    lines.append("EVALUATION (Majority vote among 3 human raters vs Rater 4)")
+    lines.append("=" * 88)
 
-    def add(line: str = "") -> None:
-        lines.append(line)
+    ov = class_metrics["overall"]
+    lines.append("Overall classification metrics")
+    lines.append(f"  n                         : {ov['n']}")
+    lines.append(f"  accuracy                  : {_fmt(ov['accuracy'])}")
+    lines.append(f"  macro_f1                  : {_fmt(ov['macro_f1'])}")
+    lines.append(f"  random_baseline_accuracy  : {_fmt(ov['random_baseline_accuracy'])}")
 
-    add("=" * W)
-    add("KRIPPENDORFF'S ALPHA — Overall (36 items: 6 models × 6 dims)")
-    add("=" * W)
-    ov = alphas["overall"]
-    add(_alpha_row("Humans only (R1-R2-R3)", ov["humans_only"], width=26))
-    add(_alpha_row("All 4 raters (+ LLM)", ov["all_raters"], width=26))
-    add()
-    add("  Thresholds (Krippendorff): >= 0.800 Reliable | >= 0.667 Tentative | < 0.667 Unreliable")
-    add("  Ordinal alpha is the right metric for your 0/1/2 scale.")
-    add("  Compare the two rows: if 'all 4' ≈ 'humans only', the LLM rates like a human.")
+    lines.append("\nPer-model classification metrics")
+    lines.append(f"  {'model':<12}  {'n':>3}  {'accuracy':>10}  {'macro_f1':>10}  {'baseline':>10}")
+    lines.append("  " + "-" * 56)
+    for model in MODELS:
+        m = class_metrics["per_model"][model]
+        lines.append(
+            f"  {model:<12}  {m['n']:>3}  {_fmt(m['accuracy']):>10}  {_fmt(m['macro_f1']):>10}  {_fmt(m['random_baseline_accuracy']):>10}"
+        )
 
-    add("\n" + "=" * W)
-    add("KRIPPENDORFF'S ALPHA — Per model")
-    add("=" * W)
-    add(f"  {'Model':<12}  {'humans nom':>10}  {'humans ord':>10}  {'all4 nom':>8}  {'all4 ord':>8}  Band (all4 ord)")
-    add("  " + "-" * 66)
-    for m in MODELS:
-        h = alphas["per_model"][m]["humans_only"]
-        a = alphas["per_model"][m]["all_raters"]
-        add(f"  {m:<12}  {h['nominal']:>10.3f}  {h['ordinal']:>10.3f}  {a['nominal']:>8.3f}  {a['ordinal']:>8.3f}  {_alpha_band(a['ordinal'])}")
+    lines.append("\nPer-dimension classification metrics")
+    lines.append(f"  {'dim':<6}  {'n':>3}  {'accuracy':>10}  {'macro_f1':>10}  {'baseline':>10}")
+    lines.append("  " + "-" * 50)
+    for dim in DIMS:
+        d = class_metrics["per_dim"][dim]
+        lines.append(
+            f"  {dim:<6}  {d['n']:>3}  {_fmt(d['accuracy']):>10}  {_fmt(d['macro_f1']):>10}  {_fmt(d['random_baseline_accuracy']):>10}"
+        )
 
-    add("\n" + "=" * W)
-    add("KRIPPENDORFF'S ALPHA — Per dimension")
-    add("=" * W)
-    add(f"  {'Dim':<8}  {'humans nom':>10}  {'humans ord':>10}  {'all4 nom':>8}  {'all4 ord':>8}  Band (all4 ord)")
-    add("  " + "-" * 62)
-    for d in DIMS:
-        h = alphas["per_dim"][d]["humans_only"]
-        a = alphas["per_dim"][d]["all_raters"]
-        add(f"  {d:<8}  {h['nominal']:>10.3f}  {h['ordinal']:>10.3f}  {a['nominal']:>8.3f}  {a['ordinal']:>8.3f}  {_alpha_band(a['ordinal'])}")
+    lines.append("\nRationale extraction metrics")
+    lines.append(f"  available   : {rationale_metrics['available']}")
+    lines.append(f"  T-f1        : {_fmt(rationale_metrics['t_f1'])}")
+    lines.append(f"  IOU-f1      : {_fmt(rationale_metrics['iou_f1'])}")
+    lines.append(f"  IOU thresh  : {rationale_metrics['iou_threshold']}")
+    lines.append(f"  note        : {rationale_metrics['note']}")
 
-    add("\n" + "=" * W)
-    add("COHEN'S KAPPA — Each human rater vs Rater 4 (LLM), overall (48 obs pooled)")
-    add("=" * W)
-    for key, label in KAPPA_COMPARISONS:
-        kv = kappas[key]["overall"]
-        add(_kappa_row(label, kv, width=34))
-    add()
-    add("  Bands — Landis & Koch (1977):")
-    add("  <0 Poor | 0.01-0.20 Slight | 0.21-0.40 Fair")
-    add("  0.41-0.60 Moderate | 0.61-0.80 Substantial | 0.81-1.00 Almost perfect")
+    lines.append("\nLoss function reference")
+    lines.append("  L = lambda_EI * L_EI + lambda_RE * L_RE")
+    lines.append("  L_EI and L_RE: cross-entropy")
+    lines.append("  Best hyperparameters: lambda_EI=1, lambda_RE=0.5")
 
-    for key, label in KAPPA_COMPARISONS:
-        add("\n" + "=" * W)
-        add(f"COHEN'S KAPPA DETAIL — {label}")
-        add("=" * W)
-        add("\n  Per model (6 cells each):")
-        add(f"  {'Model':<12}  {'k':>6}  {'k_lin':>6}  {'k_quad':>7}  Band")
-        add("  " + "-" * 50)
-        for m in MODELS:
-            kv = kappas[key]["per_model"][m]
-            add(f"  {m:<12}  {kv['k']:>6.3f}  {kv['k_linear']:>6.3f}  {kv['k_quadratic']:>7.3f}  {kappa_band(kv['k'])}")
-        add("\n  Per dimension (6 cells each):")
-        add(f"  {'Dim':<8}  {'k':>6}  {'k_lin':>6}  {'k_quad':>7}  Band")
-        add("  " + "-" * 50)
-        for d in DIMS:
-            kv = kappas[key]["per_dim"][d]
-            add(f"  {d:<8}  {kv['k']:>6.3f}  {kv['k_linear']:>6.3f}  {kv['k_quadratic']:>7.3f}  {kappa_band(kv['k'])}")
+    text = "\n".join(lines) + "\n"
+    report_txt.write_text(text, encoding="utf-8")
 
-    add("\n" + "=" * W)
-    add("EXACT AGREEMENT PERCENTAGE — Each rater vs Rater 4 (LLM)")
-    add("=" * W)
-    add("Per-model agreement (% of 6 dimensions matching):")
-    add(f"  {'Model':<12}  {'R1 %':>6}  {'R2 %':>6}  {'R3 %':>6}  {'AGG %':>7}")
-    add("  " + "-" * 46)
-    for m in MODELS:
-        ag = agreements["by_model"][m]
-        add(f"  {m:<12}  {ag['rater1_pct']:>5.1f}%  {ag['rater2_pct']:>5.1f}%  {ag['rater3_pct']:>5.1f}%  {ag['aggregate_pct']:>6.1f}%")
-    add()
-    add("Overall agreement (% of 36 dimensions matching per rater):")
-    ag_overall = agreements["by_rater"]
-    add(f"  Rater 1:       {ag_overall['rater1_pct']:.1f}%")
-    add(f"  Rater 2:       {ag_overall['rater2_pct']:.1f}%")
-    add(f"  Rater 3:       {ag_overall['rater3_pct']:.1f}%")
-    add(f"  Aggregate:     {ag_overall['aggregate_pct']:.1f}%")
+    payload = {
+        "classification": class_metrics,
+        "rationale": rationale_metrics,
+        "loss_reference": {
+            "formula": "L = lambda_EI * L_EI + lambda_RE * L_RE",
+            "L_EI": "cross-entropy",
+            "L_RE": "cross-entropy",
+            "lambda_EI": 1.0,
+            "lambda_RE": 0.5,
+        },
+    }
+    report_json.write_text(json.dumps(payload, indent=2), encoding="utf-8")
 
-    add("\n" + "=" * W)
-    add("REFERENCE — Raw scores (R1 R2 R3 = humans, AGG = median, R4 = LLM)")
-    add("=" * W)
-    add(f"{'Model':<12}  {'Dim':<6}  {'R1':>3}  {'R2':>3}  {'R3':>3}  {'AGG':>4}  {'R4':>3}")
-    add("-" * W)
-    for m in MODELS:
-        for d in DIMS:
-            r1 = per_rater["rater1"][m][d]
-            r2 = per_rater["rater2"][m][d]
-            r3 = per_rater["rater3"][m][d]
-            agg = aggregate[m][d]
-            r4 = rater4[m][d]
-            add(f"{m:<12}  {d:<6}  {str(r1):>3}  {str(r2):>3}  {str(r3):>3}  {agg:>4}  {str(r4):>3}")
-        add()
-
-    result_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
-
-    ag_overall = agreements["by_rater"]
-    print("=" * W)
-    print("FINAL RESULTS")
-    print("=" * W)
-    print("Krippendorff's Alpha (overall)")
-    print(_alpha_row("Humans only (R1-R2-R3)", ov["humans_only"], width=26))
-    print(_alpha_row("All 4 raters (+ LLM)", ov["all_raters"], width=26))
-    print()
-    print("Cohen's Kappa (overall)")
-    for key, label in KAPPA_COMPARISONS:
-        kv = kappas[key]["overall"]
-        print(_kappa_row(label, kv, width=34))
-    print()
-    print("Exact Agreement Percentage (overall)")
-    print(f"  Rater 1:       {ag_overall['rater1_pct']:.1f}%")
-    print(f"  Rater 2:       {ag_overall['rater2_pct']:.1f}%")
-    print(f"  Rater 3:       {ag_overall['rater3_pct']:.1f}%")
-    print(f"  Aggregate:     {ag_overall['aggregate_pct']:.1f}%")
-    print()
-    print(f"Detailed report saved to: {result_path.name}")
+    print(text)
+    print(f"Saved text report: {report_txt.name}")
+    print(f"Saved json report: {report_json.name}")
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-# MAIN
-# ─────────────────────────────────────────────────────────────────────────────
-
+# ---------------------------------------------------------------------------
+# Main
+# ---------------------------------------------------------------------------
 if __name__ == "__main__":
-    per_rater, aggregate = parse_json(raw_json)
-    rater4               = extract_rater4(CSV_FILES)
-    kappas               = compute_all_kappas(per_rater, aggregate, rater4)
-    alphas               = compute_all_alphas(per_rater, rater4)
-    agreements           = compute_agreement_percentages(per_rater, aggregate, rater4)
-    print_results(per_rater, aggregate, rater4, kappas, alphas, agreements)
+    raw_json = EVAL_JSON_PATH.read_text(encoding="utf-8")
+    _per_rater, majority = parse_json_raters(raw_json)
+    rater4 = extract_rater4(CSV_FILES)
+
+    class_metrics = compute_classification_metrics(majority, rater4)
+    rationale_metrics = compute_rationale_metrics()
+
+    print_and_save_report(class_metrics, rationale_metrics)
