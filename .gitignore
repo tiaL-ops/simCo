@@ -7,3 +7,6 @@ dataset data_evaluation/result_esi_visualization.txt
 data_evaluation/result_esi.txt
 data_evaluation/esi_gk_visualization.py
 data_evaluation/esi.py
+data_evaluation/result_esi_visualization.txt
+data_evaluation/result_metrics.json
+dataset/
