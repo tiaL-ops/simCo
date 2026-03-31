@@ -10,7 +10,14 @@ window.SIMCO_RUN_VIEW = null;
 
 async function bootstrapGame() {
   const params = new URLSearchParams(window.location.search);
-  const runId = (params.get('run_id') || localStorage.getItem('simco_selected_run_id') || '').trim();
+  const standaloneMode = params.get('standalone') === '1';
+  const runId = standaloneMode
+    ? ''
+    : (params.get('run_id') || '').trim();
+
+  if (standaloneMode) {
+    localStorage.removeItem('simco_selected_run_id');
+  }
 
   if (runId) {
     try {

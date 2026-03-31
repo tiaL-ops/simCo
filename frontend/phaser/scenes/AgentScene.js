@@ -132,9 +132,12 @@ class AgentScene extends Phaser.Scene {
     // Create the first player
     this.addNewCharacter();
 
-    // Spawn the remaining configured participants from /setup.
-    while (this.players.length < this.maxCharacters) {
-      this.addNewCharacter();
+    // Historical run view should render all run agents immediately.
+    // Standalone mode keeps Add Character meaningful by starting with one.
+    if (this.isHistoricalRun) {
+      while (this.players.length < this.maxCharacters) {
+        this.addNewCharacter();
+      }
     }
 
     this.buildWalkableGridFromMap();

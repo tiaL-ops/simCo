@@ -5,11 +5,11 @@ __pycache__
 data
 .vscode
 .env
-all_data
-epitome_results
+data_Claude
+data_Gemini
+data_GPT
 gemini.py
 left_experiment.py
-esi.py
-esi_gk_visualization.py
-result_esi.txt
-result_metrics.json
+epitome_results
+data_Grok
+epitome_results_ex

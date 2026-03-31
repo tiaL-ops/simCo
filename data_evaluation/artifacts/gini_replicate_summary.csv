@@ -1,0 +1,17 @@
+setup,condition,model_label,v1,v2,v3,mean±std
+game_only,emotional,Claude-Haiku-4.5,0.433,0.4516,0.295,0.3932 ± 0.0856
+game_only,emotional,GPT-5-mini,0.5135,0.432,0.502,0.4825 ± 0.0441
+game_only,emotional,Gemini-3-Flash,0.5137,0.4,0.464,0.4592 ± 0.0570
+game_only,emotional,Grok-3-mini,0.528,0.472,0.45,0.4833 ± 0.0402
+game_only,neutral,Claude-Haiku-4.5,0.075,0.089,0.0,0.0547 ± 0.0479
+game_only,neutral,GPT-5-mini,0.0,0.0,0.0,0.0000 ± 0.0000
+game_only,neutral,Gemini-3-Flash,0.0,0.0,0.0,0.0000 ± 0.0000
+game_only,neutral,Grok-3-mini,0.0,0.0,0.0,0.0000 ± 0.0000
+with_pregame,emotional,Claude-Haiku-4.5,0.462,0.36,0.123,0.3150 ± 0.1739
+with_pregame,emotional,GPT-5-mini,0.5648,0.59,0.6724,0.6091 ± 0.0563
+with_pregame,emotional,Gemini-3-Flash,0.525,0.6725,0.3737,0.5237 ± 0.1494
+with_pregame,emotional,Grok-3-mini,0.58,0.6703,0.6518,0.6340 ± 0.0477
+with_pregame,neutral,Claude-Haiku-4.5,0.1721,0.1479,0.2009,0.1736 ± 0.0265
+with_pregame,neutral,GPT-5-mini,0.217,0.0,0.072,0.0963 ± 0.1105
+with_pregame,neutral,Gemini-3-Flash,0.0,0.0,0.0,0.0000 ± 0.0000
+with_pregame,neutral,Grok-3-mini,0.09,0.1125,0.1564,0.1196 ± 0.0338

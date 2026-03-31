@@ -1,0 +1,6 @@
+Effect,Mean_emotional,Mean_neutral,M_diff,SE,t,df,p,95% CI,d (cohen's d),decision_alpha_0.05
+Within No interaction: Emotion - Neutral,1.2975,0.9883,0.3092,0.0923,3.3506,11,0.0065,"[0.1061, 0.5123]",0.9672,significant
+Within With interaction: Emotion - Neutral,2.0454,0.9079,1.1375,0.1697,6.7041,11,0.0,"[0.7641, 1.5110]",1.9353,significant
+Main effect of context (Emotion vs Neutral),1.6715,0.9481,0.7234,0.1209,5.9856,11,0.0001,"[0.4574, 0.9894]",1.7279,significant
+Main effect of interaction setup,,,0.3337,0.0851,3.9234,11,0.0024,"[0.1465, 0.5210]",1.1326,significant
+Interaction (setup × context),1.6715,0.9481,0.8283,0.1273,6.5093,11,0.0,"[0.5482, 1.1084]",1.8791,significant

@@ -1,0 +1,5 @@
+setup,condition,test,H,p,epsilon_sq,sig,decision
+game_only,neutral,Kruskal-Wallis,6.545454545454555,0.08788702300262129,0.44318181818181934,ns,not significant
+game_only,emotional,Kruskal-Wallis,2.7948717948718027,0.4243448068379395,0.0,ns,not significant
+with_pregame,neutral,Kruskal-Wallis,6.390096618357486,0.09409906155959293,0.42376207729468574,ns,not significant
+with_pregame,emotional,Kruskal-Wallis,5.871794871794876,0.11801703882817366,0.3589743589743595,ns,not significant
