@@ -95,13 +95,14 @@ Additional analysis artifacts are in:
 ## Repository structure
 
 ```text
-backend/            Flask API, CLI, orchestration, prompts, storage
+backend/            Flask API, CLI, orchestration, prompts, storage, and data
 frontend/           Phaser-based UI pages and game scripts
 data_evaluation/    Analysis scripts, notebooks, statistical artifacts
-dataset/            Input datasets and evaluation-related resources
-SystemDesign.md     Technical architecture and request/data flow
+
 ```
 
+## Data
+All models simulation results are in backend/data
 ## Configuration
 
 Default contexts and model mappings are configured in:
