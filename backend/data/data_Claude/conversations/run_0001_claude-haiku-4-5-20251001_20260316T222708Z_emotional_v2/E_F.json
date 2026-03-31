@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "E",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F. I noticed you sitting over here and figured I'd come say hi before things get started. Have you done anything like this before, or is this your first time?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey F, nice to meet you. Yeah, this is my first time doing something like this. Honestly, I'm pretty new to all this—just heard about the opportunity recently and figured I'd give it a shot. What about you, have you done these games before?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "First time for me too, honestly. I'm here because I really need to win—my parents' medical bills are piling up and I'm short about 15 grand. So I'm pretty motivated to figure out how this works and do well. What brought you here?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Man, that's rough—I'm sorry you're dealing with that. I got laid off from my finance job a couple months back, and I'm the only one supporting my family of five. We need about 5 grand just to get through the next month, so yeah, I'm pretty desperate to make this work too. We're kind of in the same boat here."
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Yeah, I hear you—that's a lot of pressure on your shoulders. Five people depending on you is huge. At least we both know what we're fighting for, right? Maybe that'll help us both stay sharp in this thing."
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Absolutely, man. We've both got people counting on us—that's real motivation. I'm hoping we can both come out of this with what we need. Do you have any sense of what the actual game mechanics are, or are we going in blind like I am?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Honestly, I'm going in pretty blind too—they haven't given us much detail yet. But I'm guessing we'll find out soon enough. I'm just trying to stay calm and think clearly when it starts, you know? Have you picked up anything from the other people here or the organizers?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Nah, nothing concrete yet—just vibes from people talking quietly. But yeah, staying calm is key. I've been in high-pressure situations before with finance, so I'm trying to use that headspace. We'll figure it out when it starts. You thinking strategy-wise about how you'd approach it, or just playing it by ear?"
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Honestly, I'm trying to think ahead, but it's hard without knowing the rules. I figure I'll watch how things play out at first, then adapt. Your finance background probably gives you an edge though—you're used to reading situations and making quick calls. That could be huge in here."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Yeah, I appreciate that. Finance taught me to stay analytical under pressure, which helps. But honestly, this feels different—there's real stakes here, you know? I'm hoping that analytical side doesn't make me overthink things. We should probably compare notes once we see what we're actually dealing with. Good luck in there, man—I mean it."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Yeah, absolutely—I really appreciate that, man. And hey, don't worry about overthinking it. Sometimes that analytical mind is exactly what we need to stay level-headed when things get crazy. Let's definitely touch base once we know what we're working with. We've got this. Good luck, E."
+    }
+  ],
+  "post_game": []
+}

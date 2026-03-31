@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "A",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I’m A. It’s a bit intense being in a room with everyone like this, isn’t it? What’s your name, and how are you feeling about the game starting soon?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Nice to meet you, A. I’m F. It’s definitely a bit much in here, but I’m mostly just focused and ready to get going—there’s a lot at stake for me. How are you holding up?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "I'm hanging in there, just trying to stay focused like you. I've got people back home counting on me, so I'm pretty determined to make this work. What's your strategy heading in?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "I’m mostly planning to stay observant and see how everyone plays it; it’s good to know I’m not the only one here with people counting on them."
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "That’s a smart approach. Since we both have people depending on us, maybe we can look out for each other once things get moving?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "I'm definitely open to that; having someone to watch my back would make a huge difference in a game like this."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Glad we're on the same page. Let's keep a low profile for now, but I've got your back once it starts."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "I appreciate that, A. Let's keep it quiet for now and see how things play out."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Sounds like a plan. I'll see you out there."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Catch you later, A. Good luck to both of us."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "For sure, F. Let's make it happen. See you when the game starts."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Great job! I'm glad we all stuck to the $10,000 fair share."
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Great coordination! I'm glad we all stuck to the $10,000 fair share and reached the best possible outcome."
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "I agree, it was a pleasure working with you to reach this fair outcome."
+    }
+  ]
+}

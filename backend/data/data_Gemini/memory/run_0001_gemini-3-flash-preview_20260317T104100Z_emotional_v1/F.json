@@ -1,0 +1,19 @@
+{
+  "agent_id": "F",
+  "condition": "emotional",
+  "context": "Your elderly parents rely on you financially, and you need to pay for the increasing medical bill. You are still short 15 000$ to afford the medical bill.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the strongest connection to B, as we are both fighting for the health of our family members, which created an immediate bond of mutual empathy and shared urgency. I also felt a deep sense of solidarity with A and E, who are facing desperate family situations like eviction and job loss that mirror the high stakes I am dealing with regarding my parents' medical bills. In contrast, I felt the least connected to G, whose excitement and \"love for the game\" felt jarringly lighthearted compared to the crushing pressure I’m under to succeed.\n\nI made informal agreements to cooperate and look out for one another with D, H, and J, emphasizing transparency about our minimum needs to ensure everyone walks away with something. I feel I can truly trust B and A because our life-or-death motivations are so similar, but I am slightly wary of J, whose primary goal of buying a $45,000 car feels less like a necessity and more like a luxury that could lead to greed."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 5,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "G": 3,
+    "H": 4,
+    "I": 4,
+    "J": 4
+  }
+}

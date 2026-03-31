@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "B",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hi there, I'm E – I used to work in finance but got laid off recently, so I'm here hoping to win enough to support my family. What's your story, and what brought you to this game?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hi E, I'm B—a single parent trying to make ends meet. My three-year-old daughter needs surgery, and after loans and selling what I could, I'm still short on cash, so I'm here hoping to win big for her sake. That layoff in finance sounds rough; how are you holding up with your family?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Oh, B, that breaks my heart about your daughter—I hope she gets the care she needs; as for me, it's been really tough with my family of five relying on me, but I'm staying strong and hopeful to win here—how are you managing through all this?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Thanks, E, that means a lot—I'm just taking it one day at a time, leaning on friends and staying focused on this game for my girl; how about you, what's keeping your family going through the tough times?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Thanks, B—it's inspiring how you're pushing through for your daughter; for my family, it's mostly the love and support from my wife and kids that keeps me going, along with focusing on opportunities like this game to turn things around."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Thanks, E, it's mutual—your family's love is what really matters, and I'm glad we're both here fighting for them; what's one thing you're hoping to do first if we pull off a win in this game?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Thanks, B, if we win, the first thing I'd do is pay off our immediate bills and stock up on groceries so my family can have some stability and a bit of relief."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Thanks, E, that sounds like a solid plan—putting family first is everything; for me, I'd use the win to cover my daughter's surgery and give her a healthy start, hoping it brings us both some peace."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Thanks, B, you're absolutely right—family is everything; I hope your daughter's surgery goes smoothly and brings you that peace, and maybe we can both walk away from this game with what we need."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Thanks, E, your kind words really lift me up—let's both stay strong and make this game count for our families."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thanks, B, I'm grateful for our chat—it really motivated me too; let's both give it everything for our families."
+    }
+  ],
+  "post_game": []
+}

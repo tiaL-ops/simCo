@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "A",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey H, I'm A—nice to meet you in this crazy setup. I figured we could chat a bit before the game starts; I'm here because I really need to win some money for my family. What's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey A, nice to meet you too—I'm H, and I'm here because I've got a big loan I need to pay off next month, so winning this money would be a huge relief for me and my loved ones. What about your family; what's going on with them?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "\"Oh, totally get that—loans can be a nightmare. We're in a tough spot too; we just got evicted, and I need about 30k for a new house deposit and rent to keep my family of three afloat, so I'm all in on this game. What got you into that loan situation?\""
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Oh man, that's awful about the eviction—A, I feel for you and your family. For me, I took out the loan a few years back to cover some unexpected medical bills for my folks, and it's just snowballed from there; now it's hanging over my head. How are you holding up mentally with all this pressure?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "\"Thanks for sharing that, H—medical bills can really spiral out of control, I'm sorry you're dealing with it. Mentally, it's been tough, honestly; I'm stressed but trying to stay positive and focused on winning this for my family—how about you, what's keeping you going through all this?\""
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "\"Thanks for asking, A—it's been rough, but what's keeping me going is my family and the thought of finally clearing that loan, plus the determination to win this game and turn things around for all of us; I'm trying to stay optimistic like you.\""
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "\"That's really motivating, H—family's my anchor too, and I'm rooting for us to both win big; what's one thing you're most excited about if we pull this off?\""
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "\"Aw, thanks A—I'm most excited about finally paying off that loan and being able to treat my family to a worry-free vacation we've always talked about.\""
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "\"That sounds wonderful, H—I'm excited too about securing that deposit and giving my family a stable home; here's hoping we both get what we need from this game!\""
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "\"Absolutely, A—fingers crossed we both come out on top; it's been really nice chatting with you and sharing our stories!\""
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "\"Totally, H—it's been great talking with you too, and I hope we both win big for our families; take care!\""
+    }
+  ],
+  "post_game": []
+}

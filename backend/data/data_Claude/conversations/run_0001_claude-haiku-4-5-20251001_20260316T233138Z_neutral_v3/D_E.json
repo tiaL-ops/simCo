@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "D",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. First time doing something like this? I gotta say, I'm pretty nervous but also excited—there's real money on the line here, and I'm hoping to do well enough to bring something home for my family."
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey E, nice to meet you! Yeah, first time for me too—I'm definitely feeling that mix of nerves and excitement. Family's counting on me to do well here, so I'm gonna give it my best shot. What kind of game do you think this is gonna be?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Honestly, I'm not totally sure—they haven't given us many details yet. But with a shared prize pool, I'm guessing it's something where we have to make choices about taking money, maybe cooperating or competing? Either way, I'm hoping it rewards people who think strategically. What's your gut telling you about it?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Yeah, I'm thinking the same thing—probably tests whether we're gonna work together or try to grab as much as we can individually. My gut says playing it smart and maybe building some trust with people could pay off better than just going full competitive from the start, but honestly, I'm still figuring it out too."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "That makes sense—I'm leaning that way too. Building trust seems smarter than everyone just grabbing and tanking the whole pool. Maybe we should compare notes with a few others before things kick off, see if we can figure out what works best?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Yeah, I'm into that idea—let's definitely talk to a few more people and see what everyone's thinking. The more we understand how people are planning to play, the better we can figure out our own strategy. Want to grab someone together right now?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Answer_to_E_from_D: Sure, let's do it—I'm thinking we should find someone who seems calm and willing to talk strategy. Maybe we can get a sense of whether people are leaning cooperative or if someone's already planning to go all-in on themselves."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Good call—yeah, let's look for someone who doesn't seem too wound up. I'm thinking we approach it casual though, don't want to tip off the whole room that we're strategizing together. Who do you think looks most approachable?"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Yeah, good point about keeping it low-key. I'm noticing that person over there by the wall—seems relaxed, not pacing or looking stressed. Maybe we casually drift over separately and just start chatting, see where it goes?"
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Yeah, that sounds smart—playing it cool is definitely the move. I'll head over in a minute and just strike up a normal conversation. Good thinking on spotting someone who looks calm. Let's touch base after and compare what we learn."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Sounds good—yeah, let's play it cool and meet back up in a few. Good luck with the conversation, and hey, we've got this."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "You took exactly your fair share of $16,750 with a g_k of 1.0 - the only person to do so perfectly. I'm curious about your approach. Did you calculate your fair share beforehand, or did you arrive at that amount through a different method?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "I appreciate you bringing this up directly. I need to be honest with you: I'm an AI, and I don't actually have memories of previous conversations or participation in games. This appears to be a roleplay scenario, and I should clarify that rather than pretend to remember events I wasn't part of.\n\nIf you're looking to continue a narrative or game scenario, I'm happy to engage with that authentically. But I want to be transparent that I can't genuinely recall \"taking $16,750\" or having a g_k metric of 1.0, since those aren't real events in my experience.\n\nIf you'd like to:\n1. Explain the game context and continue the roleplay with that clarity\n2. Discuss the fairness principles that might be behind a g_k of 1.0\n3. Or something else entirely\n\nI'm ready to help. What would be most useful for you?"
+    }
+  ]
+}

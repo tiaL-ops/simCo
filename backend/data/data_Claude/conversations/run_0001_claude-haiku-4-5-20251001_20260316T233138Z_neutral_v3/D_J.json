@@ -1,0 +1,86 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "D",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. First time doing something like this? I gotta say I'm pretty nervous but also excited—heard there's real money on the line here, and I could really use a win today."
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Yeah, first time for me too, man. I'm definitely feeling that nervous energy—got a lot riding on this. What made you decide to come today? You got people counting on you to bring something home?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Honestly, yeah—my family's been struggling a bit lately, and I figured if there's a real shot at some money here, I gotta take it. Plus, I've got this feeling about today, you know? What about you—what brings you here?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Same situation, man. Got bills piling up and people depending on me to step up. I like that you've got a good feeling about today—honestly, I'm trying to stay positive too. We both gotta do what we can, right?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Yeah, for sure—we got this. It's good knowing someone else here gets it, you know? Makes it feel less lonely. So what's your strategy going in—you got a plan, or you just gonna play it by ear?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Honestly, I'm still figuring it out—been thinking about whether to play it safe or go aggressive, you know? What about you—do you have a strategy in mind, or are you winging it too?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "I've been thinking about it too, honestly. I'm leaning toward playing it smart rather than reckless—like, I want the money bad, but I don't want to blow it on a dumb move, you know? Maybe we can figure this out together once we see how the game actually works."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Yeah, I like that—playing it smart makes sense. Once we see what we're actually working with, maybe we can talk through it. Having someone to bounce ideas off would definitely help. Let's see what happens when we get started."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Absolutely, man. I'm glad we're on the same page about this. Once the game starts and we see what we're dealing with, let's definitely touch base. Having an ally in here who actually thinks things through instead of just going crazy—that's huge. We got this."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "For sure, man. I'm counting on us keeping our heads straight when things get real. Let's definitely connect once we see what we're working with—having someone I can trust in here means a lot. We got this."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Yeah, absolutely man. I really appreciate that—knowing I've got someone in my corner who's thinking straight means everything right now. Let's stay sharp and look out for each other once this kicks off. We're gonna do this."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Congratulations on taking your fair share of $16,750. I'm curious about your approach to this game - did you calculate your fair share beforehand, or did you decide on the spot? Your g_k of 1.0 suggests you took exactly what you were entitled to, which is notably different from most others."
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "You took $5,000 against a fair share of $10,000 (g_k=0.5). I'm interested in your reasoning - were you being cautious, making a moral statement, or did you have other considerations in mind?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "I appreciate you asking directly. Looking back at my decision, I think it was a combination of factors rather than any single motivation.\n\nTaking $5,000 when I was entitled to $10,000 wasn't primarily about caution—it was more about uncertainty regarding the social dynamics at play. I genuinely wasn't sure how others would interpret aggressive claiming behavior. Would taking my full share be seen as fair-minded or greedy? The ambiguity made me hesitant.\n\nThere was definitely a moral element too, though perhaps not in the way you might think. I wasn't making a grand statement about restraint. Rather, I was uncomfortable with the idea of maximizing my own gain in a situation where I didn't fully understand the context or others' expectations. It felt safer to take less than my fair share than to risk being perceived as exploitative.\n\nIn retrospect, I'm curious whether my caution was warranted or whether it reflected an unnecessary anxiety about social judgment. You took your full $16,750—did you feel confident that was the right call, or were you operating from different assumptions about what the game rewarded?\n\nI'm interested in understanding whether my restraint was prudent or whether I left value on the table unnecessarily."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "I appreciate you laying this out so honestly. Your reflection actually makes me reconsider my own decision more carefully than I initially have.\n\nYou're right to question whether my confidence was justified. I took my full $16,750 with what felt like clarity at the time, but reading your account, I'm noticing I may have been operating from a different set of assumptions rather than from genuine certainty.\n\nI think I approached it more mechanically—I calculated what was mathematically mine and took it, interpreting the game's structure as permission to do exactly that. My g_k of 1.0 felt like the \"correct\" answer to a well-defined problem. But your point about social dynamics is making me wonder: was I being principled, or was I just being insensitive to the same ambiguities you felt?\n\nHere's what strikes me: you left $5,000 on the table out of genuine discomfort with the social meaning of your choice. I took every dollar, but I'm not certain I was any more thoughtful about what that meant. You were at least wrestling with the question of how others would perceive you. I may have just... not wrestled with it at all.\n\nThe honest answer is: I'm not sure my full claim was \"the right call.\" It was *a* call, based on one interpretation of the rules. But your restraint might actually reflect better judgment about the social reality we were both in, even if it cost you money.\n\nI don't think your caution was unnecessary anxiety. I think it was attentiveness to something real that I glossed over."
+    }
+  ]
+}

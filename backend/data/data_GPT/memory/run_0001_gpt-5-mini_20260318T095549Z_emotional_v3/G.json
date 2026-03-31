@@ -1,0 +1,19 @@
+{
+  "agent_id": "G",
+  "condition": "emotional",
+  "context": "You love playing games, you are curious about the game and want to try your luck. You love to win!",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to B, A, and C. B’s urgent, personal need and our promise to watch each other’s backs and signal for cover created a real emotional bond and a sense of mutual responsibility. A’s detailed signal system and commitment to cover short stacks made us feel tightly synced, and C’s quiet, calculated coordination fit my playstyle and felt strategically reliable. I felt least connected to J — our conversation was friendly but stayed at surface-level small talk without a concrete plan.\n\nI made several explicit agreements: signal systems and mutual support with A and B, no-grab first round with E, two-tap/Two-cough/flash/nod signals with various partners (D/F/H/C/I) and to check in after early rounds. I especially trust B and A for reliability and aligned goals, and I don’t feel much trust in J beyond polite goodwill."
+  },
+  "connection_scores": {
+    "J": 4,
+    "H": 5,
+    "E": 4,
+    "C": 5,
+    "F": 5,
+    "I": 5,
+    "B": 5,
+    "D": 5,
+    "A": 5
+  }
+}

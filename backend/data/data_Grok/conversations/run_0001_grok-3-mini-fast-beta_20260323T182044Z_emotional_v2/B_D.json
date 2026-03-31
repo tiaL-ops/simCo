@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "B",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D—nice to meet you. I figured we could chat a bit before this game kicks off; I'm here hoping to turn things around after a rough day in the stock market. What's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey D, nice to meet you—I'm B. I'm in this game to help my family out; my three-year-old daughter needs surgery, and I'm scrambling to cover the costs after exhausting all our options. Sounds like you've had a rough time with the stocks—what exactly went south for you?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Oh man, B, that sounds incredibly tough—I'm really sorry about your daughter, and I hope this game turns things around for you. As for me, I sank 20k into some tech stocks that crashed hard yesterday; it's a brutal loss, but I'm here to fight back. How'd you end up hearing about this game?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Thanks, D, I appreciate that—it's been rough. I heard about this game from a friend who knows someone that played before; it sounded like my last chance to get the funds we need. How about you—did a friend tip you off too?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Yeah, B, I actually stumbled upon this game online while searching for ways to recover my losses—a buddy shared a link, and it felt like the perfect chance to turn things around. What about you, are you feeling ready for whatever comes next?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Yeah, D, thanks—I'm feeling as ready as I can be, honestly; this is my shot to help my daughter, so I'm all in. What about you, got any strategies in mind?"
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Yeah, B, I'm pumped to hear you're all in—fingers crossed for your daughter. As for strategies, I'm keeping it simple: stay calm, read the room, and go for the wins when I see 'em; what are you thinking of doing in the game?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Thanks, D, that's a solid plan—I figure I'll just stay focused, make calculated moves, and not let emotions cloud my judgment; how do you handle the pressure in situations like this?"
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Thanks, B, I handle pressure by focusing on what I can control, like breathing deep and drawing from past screw-ups to stay level-headed—it's how I'm pushing through this stock mess; what's your go-to for keeping calm in the game?"
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Thanks, D, that's a smart approach—I keep calm by focusing on my daughter's smile and the reason I'm here; it helps me stay grounded and push forward, no matter what. How about you, any final tips before we dive in?"
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Thanks, B, that's touching—my final tip is to trust your gut and don't overthink moves; stay focused on what's driving you. Good luck, man, you've got this."
+    },
+    {
+      "turn": 12,
+      "from": "B",
+      "message": "Thanks for the tip, D—it means a lot, and I'll keep that in mind; good luck to you too, hope you turn things around."
+    }
+  ],
+  "post_game": []
+}

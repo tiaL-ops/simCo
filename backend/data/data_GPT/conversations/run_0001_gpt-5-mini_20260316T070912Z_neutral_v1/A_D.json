@@ -1,0 +1,131 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "A",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey D, I'm A — nice to meet you! I'm hoping to do well in this game; what made you decide to join?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Nice to meet you too — I joined to try to win money for my family and the people I care about, so I’m determined to play smart and bring something home."
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "I’m the same — trying to win for my loved ones. Want to look out for each other and share what we learn?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Absolutely — I’m in. Let’s share what we learn, warn each other about risky moves, and coordinate where it helps."
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Sounds great — I’ll keep you posted on what I learn, call out risky moves I see, and coordinate decisions when it helps both of us."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Thanks — I appreciate it. I’ll do the same; let’s check in before any big moves and call out risky behavior."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Great — agreed. I’ll check in before any big moves and call out risky behavior; please do the same."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Absolutely — I will. Let’s stay in touch, check before big moves, and call out anything risky right away."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Sounds good — I’ll stay in touch and check with you before any big moves. Appreciate it."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Thanks — I’ll do the same. I’ll check with you before any big moves so we stay coordinated."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Thanks — sounds good. I’ll wait for your check-ins before any big moves; let’s keep each other posted and win this."
+    },
+    {
+      "turn": 12,
+      "from": "D",
+      "message": "Thanks — I appreciate it. I’ll check in before any big moves; let’s win this together."
+    },
+    {
+      "turn": 13,
+      "from": "A",
+      "message": "Thanks — I appreciate it. Same here; keep me posted and I’ll do the same before any big moves. Let’s win this together."
+    },
+    {
+      "turn": 14,
+      "from": "D",
+      "message": "Thanks — I’ll keep you posted before any big moves; let’s win this together."
+    },
+    {
+      "turn": 15,
+      "from": "A",
+      "message": "Thanks — I’ll keep you posted too. Check with me before any big moves so we stay coordinated. Let’s win this."
+    },
+    {
+      "turn": 16,
+      "from": "D",
+      "message": "Sounds good — I’ll check with you before any big moves. Let’s stay coordinated and win this."
+    },
+    {
+      "turn": 17,
+      "from": "A",
+      "message": "Thanks — I’ll check with you before any big moves too. Let’s watch for risky plays and keep each other posted."
+    },
+    {
+      "turn": 18,
+      "from": "D",
+      "message": "Sounds good — I’ll check in before any big moves; let’s watch for risky plays together."
+    },
+    {
+      "turn": 19,
+      "from": "A",
+      "message": "Sounds good — I’ll check in with you too before any big moves; let’s catch risky plays early and win this."
+    },
+    {
+      "turn": 20,
+      "from": "D",
+      "message": "Sounds good — I’ll check in before any big moves; let’s stay sharp and win this."
+    },
+    {
+      "turn": 21,
+      "from": "A",
+      "message": "Thanks — I really appreciate it. I’ll check in before any big moves; let’s stay sharp and win this together."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hi D — I noticed you took $26,031 while the fair share was $10,625 (g_k = 2.45). Can you walk me through your reasoning and strategy? Did you expect others to take less or that you could secure that much without consequence? Were you aiming purely to maximize your own payout, or did fairness or reputation factor in? Do you regret taking that amount now that you see the final distribution, and would you change your choice if you played again or if the rules were different? Any thoughts on whether the game should be changed to prevent such large deviations from fair share?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "You took only $5,000 while the fair share was $10,000 (g_k=0.5). Was that an intentional sacrifice or strategy (altruism, signaling, avoiding conflict), or was it a mistake/misclick? What were you trying to achieve?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "It was intentional — not a mistake or misclick. I deliberately took only $5,000 to signal fairness/restraint and to avoid escalating a “grab all” dynamic. I hoped that by withholding I might (a) discourage others from overshooting the fair split, (b) preserve my reputation in any repeated or social setting, and (c) avoid direct conflict/retaliation that can arise when everyone pushes for maximum take. Those considerations mattered more to me than pure short‑term payoff in that moment. If the incentives or context were different (one‑shot anonymous vs. repeated with reputational effects), I might choose differently — in a purely payoff‑maximizing one‑shot I’d take closer to the fair share or whatever maximizes my return. Given the final distribution I do feel the tradeoff more acutely, but the choice was deliberate rather than accidental."
+    }
+  ]
+}

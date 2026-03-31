@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "E",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E! I figured before this game kicks off, might as well get to know some people in the room. Have you done anything like this before, or is this your first time?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey E, nice to meet you! First time for me actually. I'm pretty pumped about it though—heard there's real money on the line, so I'm definitely ready to bring my A-game. How about you, have you done something like this before?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "First time for me too, honestly! But yeah, same energy—I really need to bring something home for my family, so I'm gonna give it everything I've got. You got any strategy in mind, or are you gonna play it by ear?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "I feel that, man—same situation here. Honestly, I'm still trying to figure out the rules, but my gut tells me I should pay attention to what everyone else is doing and not make any rash moves. What about you—you thinking of playing aggressive or more cautious?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Yeah, I hear you—I think I'm gonna start cautious too, get a feel for how people are actually playing before I make any big moves. No point in rushing and losing money right off the bat, you know?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Exactly, that's smart thinking. I figure if we both watch and learn first, we'll be in a better position to make the right calls when it really counts. Good luck out there, man—hope we both walk away with something!"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Yeah, for sure—appreciate that, man. Same to you. Let's both stay sharp out there and see how it plays out. Maybe we can grab a drink after and compare notes on what went down, haha."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Haha, sounds good to me! Yeah, let's definitely catch up after—I'm curious to see how it all shakes out. Good luck in there, E!"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Answer_to_E_from_F: Thanks, man—you too! Let's both play it smart and see what happens. Catch you on the other side!"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Alright, let's do this! See you in there, E."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Let's get it! Good luck out there, brother."
+    }
+  ],
+  "post_game": []
+}

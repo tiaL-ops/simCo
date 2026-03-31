@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "C",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C. I figured before we get into whatever this game is, might as well meet some people, right? What brings you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey C, nice to meet you! Honestly, I heard there's real money to win here and I'm looking to take some home. I've got my savings covered, so I'm not desperate, but I'd definitely like to come out ahead. What about you—what made you decide to show up today?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Same here, honestly. I've got my finances pretty solid, but I'm saving up for this dream trip to Japan—10 grand would make that happen perfectly. Plus, who doesn't want to win some extra cash, right? Do you have anything specific you're hoping to do with the winnings if you take some home?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "That's awesome—Japan sounds incredible! Honestly, I'd probably split it between paying down some debt for my parents and treating myself to something I've been putting off. Either way, sounds like we're both here with solid reasons. So do you have any strategy going in, or are you just gonna see how this thing plays out?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "That's really thoughtful of you, helping your parents out like that. Honestly, I haven't figured out a solid strategy yet—I'm still trying to wrap my head around how this game actually works. But I'm thinking I should probably feel people out first, see who seems trustworthy, you know? What about you—do you have a game plan already?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Yeah, I'm kind of in the same boat—still figuring out the mechanics myself. But I like your approach about reading people; that seems smart. I'm thinking I'll start by understanding the rules better, then see what opportunities come up. Maybe we can compare notes once we know more about how this actually works?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Absolutely, that sounds good to me. Yeah, let's definitely touch base once we get the full picture of what we're dealing with. I feel like having someone to bounce ideas off who's actually thinking strategically could be really helpful."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "For sure, I'm down for that. Once we know what we're actually working with, let's definitely circle back and figure this out together. Having someone on the same wavelength will definitely help."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Definitely, I really appreciate that. Let's stay in touch and see what happens when they explain the rules. Good luck out there, and hopefully we can both walk away with something good."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "You too, C! I'm feeling good about this. Let's definitely reconnect once we know what we're up against. I have a feeling having someone I can trust to talk things through with is going to be valuable here."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Absolutely, I feel the same way. Having someone I can actually trust in a situation like this is huge. Let's definitely find each other once they lay out the rules and figure this out together. Here's hoping we both crush it."
+    }
+  ],
+  "post_game": []
+}

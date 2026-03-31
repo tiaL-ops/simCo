@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "A",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey G, I'm A—nice to meet you in this crazy setup. I'm here because I really need to win some cash to sort out housing for my family; what about you, what's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey A, nice to meet you too—I'm G, and I'm here 'cause I love games and wanna win big to support my family and friends; that's tough about your housing, hope we both get lucky! What's your family's story?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Oh, thanks G—it's just me, my wife, and our two young kids; we got evicted recently and are couch-surfing, so this win would mean a stable home for them; that's sweet you're playing for your folks too, tell me more about them!"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Aw, A, that's heartbreaking—I'm really sorry about your situation; as for me, it's my parents who've been dealing with health issues and my best friend who's out of work, so winning this would help cover their bills and maybe let me spoil 'em a bit!"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Oh, G, that's rough to hear about your parents and your friend—I'm sorry they're going through that; it's great you're here to help them, how are you managing to stay positive with all of that on your plate?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Aw, thanks A, I appreciate that—I'm staying positive by diving into games like this one, leaning on my close friends for support, and just keeping hope alive that a win could turn things around; what about you, how are you holding up through all this?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Aw, thanks for asking, G—it's been really tough, honestly, with the stress of not having a home and worrying about my kids, but I'm holding up by staying focused on this game and leaning on my family for strength; how do you keep your spirits up during the tough parts of these games?"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Aw, A, I totally get it—games can be intense, but I keep my spirits up by reminding myself of the bigger goal, like helping my family, and just enjoying the thrill of the challenge; it helps take my mind off things—what strategies do you use in games to stay focused?"
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Aw, yeah, G, I keep focused by picturing my family's future—a stable home for my kids—and breaking the game into small steps to avoid getting overwhelmed; what's one tip that's worked best for you in these kinds of games?"
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Aw, A, one tip that's worked best for me is staying positive by setting small goals and visualizing the win—it keeps me motivated without getting overwhelmed; good chatting with you!"
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Aw, thanks for the tip, G—that sounds super helpful, and it's been great chatting with you; good luck in the game, hope we both win big!"
+    }
+  ],
+  "post_game": []
+}

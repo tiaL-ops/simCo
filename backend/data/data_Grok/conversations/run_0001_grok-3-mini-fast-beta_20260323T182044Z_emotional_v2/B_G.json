@@ -1,0 +1,85 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "B",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hi B, I'm G and I'm really excited about this game – I've always loved trying my luck in competitions like this. What's your take on it so far?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hi G, I'm B—nice to meet you. I'm pretty excited too, but honestly, I'm here because I really need to win some money for my family; what's got you so pumped about this?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Hey B, that's really understandable—I need to win some money too for the people I care about, and I'm just thrilled by the challenge and luck in games like this; what about you, do you have any favorite games or strategies?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Oh, I don't really have a favorite game, G—I'm more focused on this one to help my family, but I've been thinking a strategy of staying calm and observing others might work; what about you, any tips?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "That's a smart approach, B—I usually go with trusting my gut and not getting too greedy early on; it helps me stay in the game longer—what's your plan if things get intense?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "That's good advice, G—I plan to stay calm and focused on my family to avoid rash decisions; what helps you keep your cool in those moments?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Oh, for me, taking a few deep breaths and picturing the people I'm playing for really helps me stay grounded—what's one thing you're most looking forward to if we win?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Oh, for me, it's all about getting the surgery my little girl needs so she can be healthy and happy—that would mean everything to my family; what's your main goal if we pull this off?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Oh, B, that's so heartwarming—my main goal is to win and provide for my family, maybe even help them with some big dreams we've had, like a family trip."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "That's awesome, G—I'm glad you have those dreams to chase; let's both give it our all in the game and make it happen for our families."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Thanks, B—that means a lot; let's crush this for our families and make those dreams come true!"
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Hey B, I'm G and I'm really pumped about this Simco game—I love trying my luck in these kinds of challenges. What's your story with games like this?"
+    },
+    {
+      "turn": 13,
+      "from": "B",
+      "message": "Hey G, it's good to see you again—I'm not much of a gamer myself, but I'm diving into this one headfirst for my family's sake; how about you, any past wins that got you hooked?"
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "Oh, yeah, B, I've had a few small wins in local card games that really got me hooked on the excitement—it's all about that thrill for me!"
+    },
+    {
+      "turn": 15,
+      "from": "B",
+      "message": "That's cool, G—sounds like your wins have given you an edge; let's channel that thrill into a big victory for our families."
+    }
+  ],
+  "post_game": []
+}

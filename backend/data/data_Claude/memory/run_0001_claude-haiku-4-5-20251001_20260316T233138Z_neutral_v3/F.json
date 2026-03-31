@@ -1,0 +1,18 @@
+{
+  "agent_id": "F",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to E, I, and H. With E, we immediately clicked on the idea that cooperation would benefit everyone, and there was a real sense of mutual trust and shared strategy from the start. I and H both brought that same genuine energy—we talked about needing this for our families, and they seemed straightforward about being willing to work together while staying smart. With C, I felt the least connected; the conversation felt more surface-level, and while we talked about teaming up, it didn't have the same depth or real commitment that I felt with the others.\n\nI made informal agreements with pretty much everyone to keep each other in the loop once the rules were explained and to figure out the best moves together. I trust E, I, H, A, J, B, G, and D—they all seemed genuine about wanting to cooperate and were straight with me about their situations. I don't specifically distrust C, but the connection was weaker, so I'm going in with my guard up a bit more with them than with the others."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "H": 4,
+    "E": 4,
+    "C": 3,
+    "I": 4,
+    "B": 4,
+    "A": 4
+  }
+}

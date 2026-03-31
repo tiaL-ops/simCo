@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "C",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C. I figured before we get started with this game, might as well get to know some people in the room. Have you done something like this before, or is this your first time?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey C, nice to meet you! First time for me actually. I'm pretty excited about it though — heard there's real money to win here. Have you done something like this before?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "First time for me too, honestly. But yeah, that's exactly why I'm here — I really need to bring some money home. You seem pretty pumped about it. What made you decide to join?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Same here, man — I've got people depending on me, and I figured this could be a real opportunity to help out. Plus, I like a good challenge. Do you have any idea what kind of game we're playing, or is it a total mystery to you too?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Nah, total mystery to me too. All I know is there's a shared prize pool and we get to take money from it, but I have no clue how the actual game works or what the rules are. You thinking it's gonna be competitive, or more like we're all working together somehow?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Honestly, I'm not sure either, but my gut tells me it's probably competitive — I mean, if there's a shared pool and we're all trying to take money from it, someone's gotta lose out, right? But who knows, maybe there's a twist where cooperation pays off better. Either way, I'm planning to stay sharp and see how it plays out."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Yeah, that makes sense. I'm thinking the same thing — gotta be ready for either scenario, you know? I guess we'll find out soon enough. Either way, I'm gonna try to play it smart and not make any moves I'll regret."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Absolutely, I'm with you on that. Smart play is key here — no point in getting greedy and messing things up. Hey, once we know the rules, maybe we can compare notes and figure out the best strategy together?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Yeah, I'm down for that. Sounds good — two heads are better than one, especially when we don't know what we're walking into. Let's see how it goes and touch base once we know what we're actually dealing with."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "For sure, man. I appreciate that. Good luck out there, and yeah, let's definitely talk strategy once we see what we're working with."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Thanks, D. You too — I've got a good feeling about this. Let's touch base once the rules are clear and figure out our best move together."
+    }
+  ],
+  "post_game": []
+}

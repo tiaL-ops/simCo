@@ -1,0 +1,80 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "G",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J—nice to meet you! I've been super excited about this game because I'm dreaming of buying a new car if I win big, what about you?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey J, nice to meet you! I'm G, and I'm super stoked about this game too—I wanna win big to help out my family and friends. What's your plan for the game?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Oh, cool that you're in it for your family—I'm aiming to play strategically and maybe collaborate a bit to maximize our chances, but I'm still figuring out the details. What's your strategy, G?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Hey J, I'm planning to start cautious and watch the game unfold, maybe join forces if it boosts our wins—sounds smart, how do you think we could collaborate?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Hey G, that's a solid plan—maybe we could keep an eye on each other's moves and agree to hold back if one of us is going for a big take, to avoid messing things up; what specific ideas do you have for teaming up?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Hey J, that sounds good—maybe we could agree on a simple signal, like a quick chat before rounds, to coordinate our moves and ensure we don't undercut each other; what do you think?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Hey G, I like that idea—a quick chat before rounds could help us stay in sync without overcomplicating things; maybe we could just nod or say a quick word if we're about to make a move, what do you think works best for you?"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Hey J, nodding or a quick word works great for me—maybe something simple like saying \"hold\" if we're backing off; let's go with that and see how it plays out!"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Hey G, awesome, let's go with \"hold\" as our signal—it'll keep things smooth; I'm excited to team up and see how we do!"
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Hey J, that's awesome—I'm excited to team up too, let's make this game count!"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Hey G, totally agree—let's team up and win big for our goals!"
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Hey, I'm J—nice to meet you. I've been thinking about this game a lot because I'm hoping to win enough to buy my dream car, and I figure it's a chance for all of us to walk away with something great. What's your story, why are you here?"
+    },
+    {
+      "turn": 13,
+      "from": "G",
+      "message": "Hey J, nice to meet you too—wait, we've chatted before, right? I'm G, and I'm in this to win big for my family and friends, like helping with bills or trips. What's on your mind now?"
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Hey G, yeah, we've definitely chatted before—I'm still hyped about our team-up plan and winning big for my car dream and your family's needs. Let's make it happen!"
+    }
+  ],
+  "post_game": []
+}

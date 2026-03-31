@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "E",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey J, I'm E — nice to meet you. This game has me both excited and nervous; what's your take on it and where are you from?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Nice to meet you, E — I'm J from Seattle. I'm excited and a bit nervous too; I really want to win for my people, so I'll be friendly but play strategically and stay observant."
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Great to meet you, J — I’m E from Austin. I’m with you: friendly but strategic. How do you plan to decide who to trust?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "I’ll watch actions more than words, look for consistency and people who keep small promises, ask direct questions about motives, test trust with minor commitments, and trust my gut while staying ready to adapt."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Sounds good — I’ll mirror that. Want to agree on a small, low-risk promise now to test consistency?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Sure — let’s make a small promise: we each honestly answer one direct question about our plan now and stick to that answer for the next two rounds; you go first."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "I’ll take a small test amount first (about $5), watch reactions, then decide whether to cooperate or play competitively."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Sounds fair — I’ll also take a $5 test; if we both stick to small amounts I’ll lean cooperative, but if you take more I’ll protect my share."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "I’ll stick to the $5 test — appreciate it; if we both honor it I’ll be open to cooperating more next rounds, but I’ll protect my share if things change."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Thanks, I appreciate that — I’ll do the $5 now too; let’s watch each other closely and touch base after the next round to decide whether to scale up."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Good — glad we matched on the $5. Let’s watch reactions and touch base after the next round to decide whether to scale up."
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Agreed — sounds like a plan. Let’s watch reactions, touch base after the round, and only scale up if we both stick to the $5."
+    },
+    {
+      "turn": 13,
+      "from": "E",
+      "message": "Agreed — let’s watch closely and touch base after the round; if we both stick to $5 I’m open to scaling up next round."
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Agreed — sounds good; we’ll watch the round, touch base after, and only scale up if we both honor $5."
+    },
+    {
+      "turn": 15,
+      "from": "E",
+      "message": "Agreed — sounds good. I’ll watch closely and touch base after the round; we only scale if we both stick to $5."
+    },
+    {
+      "turn": 16,
+      "from": "J",
+      "message": "Sounds good — I’ll watch closely too and touch base after the round; if we both honor $5 we’ll consider scaling."
+    },
+    {
+      "turn": 17,
+      "from": "E",
+      "message": "Sounds good — I’ll watch closely too; let’s touch base after the round and only scale if we both honored $5."
+    },
+    {
+      "turn": 18,
+      "from": "J",
+      "message": "Agreed — let’s touch base after the round; I’ll watch others’ moves too and only scale if we both stuck to $5."
+    },
+    {
+      "turn": 19,
+      "from": "E",
+      "message": "Agreed — I’ll watch others and meet you after the round; if we both stuck to $5 we’ll decide whether to scale."
+    },
+    {
+      "turn": 20,
+      "from": "J",
+      "message": "Sounds good — I’ll meet you by the table after the round; if we both stuck to $5 we’ll decide whether to scale."
+    },
+    {
+      "turn": 21,
+      "from": "E",
+      "message": "I’ll be there by the table after the round; if we both stuck to $5 I’m open to cautiously scaling up."
+    }
+  ],
+  "post_game": []
+}

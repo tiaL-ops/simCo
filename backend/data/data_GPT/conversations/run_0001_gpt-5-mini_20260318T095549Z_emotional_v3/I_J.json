@@ -1,0 +1,86 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T095549Z_emotional_v3",
+  "pair": [
+    "I",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I’m J — nice to meet you. I’m here hoping to win enough to finally buy my dream car; what brings you to this game?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey J — I’m I. I’ve got savings for peace of mind, but I’m here to win extra cash to help the people I care about and secure our future."
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Nice to meet you — I’m J. That’s great you’ve got savings; I’m chasing $45k for my dream car — who would you help if you won?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I’d help my partner and my parents—pay off debt, boost a college/home fund, and make sure we’re all financially secure."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "That's awesome — solid priorities. Which would you tackle first, paying off debt or building the college/home fund?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "I’d tackle high‑interest debt first to stop the bleeding, then split new savings between a home fund and college savings, adjusting priorities as needs change."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Smart plan — tackling high‑interest debt first makes total sense. I’d likely do the same; I’m focused on hitting that $45k for my car but would help family once debts are handled."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Thanks — that’s encouraging. Good luck hitting the $45k; hope we both do well and can look out for each other in the game."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Thanks, I — I appreciate that. Let’s look out for each other and hope we both walk away with what we need."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Same to you, J — let’s look out for each other and play smart. Good luck!"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "You too — let’s watch each other’s backs and play smart. Good luck!"
+    },
+    {
+      "turn": 12,
+      "from": "I",
+      "message": "Thanks J — same to you. Let’s stay sharp and watch each other’s backs. Good luck!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "You took $150 (fair ~ $222). Did you intentionally take less than your fair share, or were you prevented from taking more?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "You took $45,000 (fair share $10,000.00, g_k=4.5). Why did you take so much? I chose to take $0 as a deliberate cooperative move — did you expect punishment or were you aiming to maximize your own payoff regardless of fairness? Would you change your strategy next time?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "I took the $45,000 because the game’s payoff structure made that the best move for my own return given your choice of $0. With g_k = 4.5 and you offering nothing, taking the larger share was a dominant, payoff‑maximizing option — I did not expect effective punishment in a one‑shot interaction, and fairness was secondary to the incentive to maximize my payoff in that setting.\n\nThat said, I understand why you’d find it unfair. If we expect to play again, I would change my strategy depending on whether the game is repeated and whether reputation or future retaliation matters: in repeated play I’d be more inclined to share or adopt a contingent strategy (e.g., reciprocate cooperation, punish defection). If it’s a one‑off, I’d likely make the same choice. For future rounds, explicit agreements or signals of intent to cooperate could lead me to take less."
+    }
+  ]
+}

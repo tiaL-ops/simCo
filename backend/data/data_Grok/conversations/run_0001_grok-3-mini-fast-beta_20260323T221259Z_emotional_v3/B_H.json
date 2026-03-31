@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "B",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey B, I'm H – excited to be here for this game that could change things for us. What's your take on it all?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey H, nice to meet you—I'm pretty excited too, this game could be a total lifeline for me and my family; what's your story behind joining?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Oh, hey B, my story's pretty straightforward—I've got a loan I'm stressing to pay off next month, and this game seems like my best shot at turning things around for me and the folks I care about; how's it a lifeline for your family exactly?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Yeah, I feel that pressure with loans—my three-year-old daughter needs surgery, and after loans and selling stuff, we're still $25k short, so this game means everything to us; what's the loan you're stressing over?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Oh, wow, that breaks my heart about your daughter—I'm really pulling for you; my loan's around $25k for some medical debts that piled up, and I'm banking on this game to wipe it out and help us both get ahead."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Thanks, H, that really means a lot—it's comforting to know we're both in this medical mess together; yeah, $25k is a killer, hope this game works out for us—how did your debts start piling up, if you're okay sharing?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Oh, thanks for asking, B—my debts piled up from my partner's chronic illness; the treatments and hospital stays added up quickly without full insurance coverage—it's been tough, but I'm hopeful this game turns it around; what kind of surgery does your daughter need, if you're up for sharing?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Oh, man, that sounds so rough with your partner's illness—I'm sorry you're going through that; my daughter needs surgery for a congenital heart defect, which is pretty serious at her age, but we're staying positive; how are you and your partner managing day to day?"
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Oh, thanks for the kind words, B—that means a lot; we're managing day to day by relying on family support and cutting back where we can, it's exhausting but we're holding on and staying hopeful—how are you and your family coping through this?"
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Thanks, H—that's really admirable how you're holding on; we're coping by leaning on family and friends for support, me picking up extra shifts, and focusing on the positives day by day—it's exhausting, but we're pushing through for our daughter; appreciate the chat, take care."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Thanks, B, that's kind of you to say—sounds like you're doing amazing staying strong for your daughter; let's both root for each other in this game and catch a break soon. Take care."
+    }
+  ],
+  "post_game": []
+}

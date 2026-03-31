@@ -1,0 +1,18 @@
+{
+  "agent_id": "B",
+  "condition": "emotional",
+  "context": "Your little girl, first born, three years old, needs surgery, but you have no health insurance. After taking many loans and selling many assets, three months later you still need 25 000$.",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to I, E, and F. With I, there was an immediate understanding about doing this for the people we love—my daughter, their parents—and it felt genuine and grounded. E's situation with three kids and a recent layoff hit close to home; we both understood what it meant to have everything on the line and no safety net. F's willingness to be vulnerable about their parents' medical bills and their suggestion to watch people carefully made me feel like we were strategizing together, not just commiserating.\n\nI felt least connected to C, honestly. While they were kind and rooting for me, there was a lightness to their situation—funding a trip to Japan—that made the conversation feel less equal. They even acknowledged my daughter's surgery was more urgent, which made me feel like they were being sympathetic rather than truly understanding what desperation feels like.\n\nI didn't make any formal agreements with anyone, but I came closest with D and H—we talked about staying in touch and sharing what we learn about the rules. With F, we kind of agreed that if there's a way we can both win, we'd be open to it. I trust most of these people going in because they all seem genuinely motivated by family obligations rather than greed, but I'm most cautious about J and C. J's willingness to shift their priorities based on hearing my situation felt a bit too convenient, and C's lighter motivations make me wonder if they'd be ruthless if it came down to it."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "A": 4,
+    "F": 4,
+    "H": 4,
+    "I": 4,
+    "E": 4,
+    "D": 4
+  }
+}

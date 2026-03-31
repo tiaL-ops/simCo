@@ -1,0 +1,80 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "F",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey F, I'm J—nice to meet you. I'm pretty excited about this game since I've got my heart set on buying a new car if I win big. What about you, what's your take on all this?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey J, nice to meet you too—I'm pretty pumped about this game myself since I need the winnings to help with my parents' medical bills. What's your dream car you're eyeing?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Oh, that's tough about your parents' bills—hope this game helps. My dream car's a beauty that costs around 45k; it's the one I've had my eye on for ages. What kind of car do you drive now?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Thanks, J, I appreciate that—I'm driving a reliable old Honda Accord that's paid off, but it's nothing exciting compared to your dream ride; what about you, do you have a car already?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Oh, yeah, I've got a beat-up old Ford that's still running but definitely needs replacing—that's why I'm so set on winning for that new ride; what made you stick with the Honda all this time?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Oh, the Honda's just reliable and paid off, which has been a lifesaver with all the medical expenses piling up—I can't afford to splurge on something new right now. What about you, have you been saving up for that dream car or is this game your big chance?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Yeah, I totally get it—sounds like a smart choice with everything you're dealing with; I've been trying to save for that car, but it's been tough with my expenses, so this game feels like my real shot at making it happen. Have you played games like this before?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "No, I haven't played games like this before—it's all new to me, but I'm hoping it pans out for my folks' sake; how about you, J, any experience with these?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Oh, same here, F—I've never played anything like this before, but I'm feeling positive about our chances; what do you think might make this game go our way?"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Oh, I think if we all communicate well and play smart, maybe with a dash of luck, we could turn things in our favor—sounds like you've got a good vibe about it too!"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Yeah, F, I'm with you—good communication and a little luck could really make this work for all of us; best of luck with your folks, and let's hope we both win big!"
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Hey, I'm J – excited to be here for this game, as I'm hoping to win enough to finally buy that dream car I've been eyeing. What about you, what's your story?"
+    },
+    {
+      "turn": 13,
+      "from": "F",
+      "message": "Hey J, we already chatted about this, but I'm F—excited too, though I'm here to win money for my parents' medical bills, short about 15k; good luck with your car!"
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Hey F, yeah, we've covered that ground—appreciate the chat, and I hope you nail that 15k for your parents' bills; best of luck to you too!"
+    }
+  ],
+  "post_game": []
+}

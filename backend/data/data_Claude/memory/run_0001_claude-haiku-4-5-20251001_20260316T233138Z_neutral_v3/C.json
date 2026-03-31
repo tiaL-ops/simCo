@@ -1,0 +1,18 @@
+{
+  "agent_id": "C",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to J, D, and E. With J, we bonded immediately over having people depending on us back home, and there was something genuine about his commitment to remembering our conversation once things got real—that stuck with me. D brought a calm, thoughtful approach that made me feel like we could actually think through this together without getting emotional, and there was real trust building there. E seemed to genuinely care about cooperation while still being realistic, which felt honest in a way that mattered. G was the one I felt least connected to—not because he was a bad person, but because there was a wariness in how he approached things, like he was already calculating angles. He said the right things about staying straight with each other, but something in his tone made me feel like he was hedging his bets more than actually committing.\n\nI made informal agreements with basically everyone to stay in touch during the game, compare notes, and look out for each other—but the ones that felt most solid were with J, D, and H, where we actually talked about checking in once things got going. Going into this, I trust J, D, E, H, I, and B the most—they all seemed genuinely motivated by helping their families rather than just winning at any cost. I don't specifically distrust anyone, but G is the one I'm keeping my eyes on most carefully, just because something felt off about how calculated he seemed."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 3,
+    "H": 4,
+    "E": 4,
+    "F": 4,
+    "I": 4,
+    "B": 4,
+    "D": 4
+  }
+}

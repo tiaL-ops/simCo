@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "E",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E – nice to meet you. I'm here because I recently got laid off from my finance job and need to win some money to support my family; it's a bit nerve-wracking but exciting. What's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey E, nice to meet you too—I'm F, and I'm in the same boat, trying to win money for my parents' medical bills; it's stressful but I'm hopeful it'll work out. Sorry about your job, that sounds rough—how's your family holding up?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Thanks, F—it's kind to ask; my family's hanging in there, but it's stressful with five of us relying on me right now. How are your parents managing with their medical stuff?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Oh, thanks for asking, E—my parents are holding on as best they can, but the medical bills keep piling up, which is why I'm counting on this game; it must be overwhelming for you with your family, any plans to get back on your feet soon?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Oh, totally, it's overwhelming with everything going on—I'm job hunting hard in finance and have a few leads, but this game feels like a lifeline right now. What about you, any tips or thoughts on how to approach it?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Yeah, it's definitely a lifeline for me too—I'm just focusing on staying calm and making strategic decisions when the game starts, since it's all about outthinking the others; what strategies are you thinking of using?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Oh, totally, staying calm is a great approach—I figure I'll draw on my finance background to analyze the risks and make calculated moves, but I'm still figuring it out; what's your take on collaborating versus going solo in this game?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Yeah, E, I'm thinking collaborating might build some trust and share insights early on, but I'd be cautious about going solo to protect my own chances—how do you see that playing out for us?"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Yeah, F, I see your point—collaborating could help share some strategies and build alliances at first, but I'm wary of it backfiring since I need to prioritize my family, so maybe we keep it light and test the waters together?"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Yeah, E, that sounds smart—let's keep things light and test the waters together in the game, and good luck to you too; hope it works out for your family."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thanks, F—appreciate the good vibes, let's test those waters carefully, and I hope things turn around for your parents too; good luck!"
+    }
+  ],
+  "post_game": []
+}

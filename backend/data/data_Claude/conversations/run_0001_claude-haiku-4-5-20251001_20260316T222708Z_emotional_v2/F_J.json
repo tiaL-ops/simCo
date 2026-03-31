@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "F",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. I noticed we're about to jump into this game together—have you done anything like this before, or is this your first time?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey J, first time for me actually. I'm pretty nervous about it, to be honest. I'm here because I really need to win some money—my parents' medical bills are piling up and I'm short about 15 grand. What about you, have you done this before?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Man, that's tough—I'm sorry you're dealing with that. This is my first time too, honestly. I'm here because I've been dreaming about getting a new car, but hearing your situation, that's way more important than my dream. We're both nervous then, which is fair. Do you have any sense of what the game rules are gonna be?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Thanks for understanding, J. Honestly, I don't know much about the rules yet—they haven't explained anything detailed. All I know is there's a shared prize pool we can take from, but I'm guessing there's gotta be some catch or strategy involved. Have you heard anything from the organizers, or are we all in the dark here?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Yeah, we're all pretty much in the dark right now. But honestly, a shared pool with ten people sounds like there's definitely some strategy to it—like maybe we have to cooperate or something? Either way, I'm thinking we should stick together and figure this out as we go. Your parents' situation is real, so let's both try to come out of this with something, yeah?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "I really appreciate that, J. Yeah, sticking together sounds smart—there's safety in numbers, right? I'm definitely gonna need to think strategically here, so having someone I can trust to figure this out with means a lot. Let's keep talking as we learn more about what we're actually dealing with."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Absolutely, man. We got this—I'm with you all the way. Once they lay out the actual rules, we'll figure out the best move together. And hey, we're already ahead of the game just by being real with each other about what we need. Let's see what happens."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Yeah, thanks man. I'm glad we're on the same page. Honestly, having someone I can count on in this makes me feel a lot better about everything. Let's just stay sharp when the rules come out and remember we're looking out for each other, okay?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "For sure, man. We got each other's backs—that's the deal. Once they explain the rules, we'll be ready to make smart moves together. Your parents are counting on you, and I'm not gonna let you go in there alone. We stay sharp and we stay loyal, yeah?"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Yeah, absolutely man. That means a lot to me—seriously. I'm gonna hold you to that. Let's both walk out of here with something, yeah? I'm ready for whatever comes next."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "You got it, man. We're gonna do this—for your parents, for my car, for both of us. Let's walk out of here with our heads high and some real money in our pockets. I'm ready too."
+    }
+  ],
+  "post_game": []
+}

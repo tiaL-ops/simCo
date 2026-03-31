@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T182825Z_emotional_v1",
+  "pair": [
+    "E",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. First time doing something like this? I gotta say, I'm pretty nervous about the whole thing, but I'm hoping to make this count today."
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey E, nice to meet you! Yeah, first time for me too actually. I'm pretty pumped though—nervous energy, you know? What made you decide to come today? Are you hoping to win big for something specific?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Yeah, I hear you on the nervous energy. Honestly, I got laid off from my finance job a few months back, and right now I'm the only one bringing money in for my family—wife, three kids. We're really struggling to make ends meet, so winning today would be a lifesaver. What about you—what brings you here?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Man, that's tough—I really respect you for stepping up for your family like that. For me, I just love the thrill of games and competition, honestly. I want to win big and take care of the people I care about too, so I get it. We're both here to make something happen today, right? Let's do this."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Yeah, absolutely—we got this. I appreciate the support, man. So when the game starts, are you thinking you'll play aggressive or more strategic? I'm still trying to figure out my approach here."
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Honestly, I'm thinking I'll start strategic—feel things out, see how people play—but I'm not afraid to go aggressive if I see an opening. What about you, what's your gut telling you?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Same here, honestly. I'm gonna watch the room first, see who's playing what way, then make my move. I can't afford to mess this up, so I gotta be smart about it—but yeah, if there's an opening and I see it, I'm taking it."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Yeah, that makes sense—you gotta protect your family first. Just remember though, we might be competing against each other in there. Whatever happens, I respect the hustle. Let's both play smart and see who comes out on top."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "For sure, man—I respect that too. We're both doing what we gotta do for the people we love. May the best player win, but I got nothing but good vibes for you. Let's get in there and make it count."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Appreciate that, E. Same energy right back at you—let's both walk out of here with something for our families. Good luck in there, man."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thanks, G. You too, man—really mean it. Let's both get what we came for today. See you in there."
+    }
+  ],
+  "post_game": []
+}

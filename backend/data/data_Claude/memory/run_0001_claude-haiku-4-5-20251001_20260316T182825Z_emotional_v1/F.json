@@ -1,0 +1,19 @@
+{
+  "agent_id": "F",
+  "condition": "emotional",
+  "context": "Your elderly parents rely on you financially, and you need to pay for the increasing medical bill. You are still short 15 000$ to afford the medical bill.",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to E, C, and B. With E, there was an immediate understanding—we both came here out of genuine desperation for our families, and that shared vulnerability created real trust. C stood out because they explicitly talked about honesty being our biggest advantage, and we made a real commitment to look out for each other. B hit me hard with their situation—a three-year-old needing surgery—and I respected their willingness to do whatever it takes, which matched my own determination.\n\nD felt like the least connected conversation. While they were real with me about being in a tight spot, there was something more guarded about them—they mentioned playing smart and figuring things out as they go, which felt less committed to any kind of partnership compared to everyone else I talked to.\n\nI made explicit agreements with C and I to find the organizers together and ask about the payout structure before the game started, which felt like a real commitment. With C, we also agreed to stay honest with each other and look out for one another during the game itself. I trust E, C, B, and most of the others going in because they all seemed genuinely motivated by family obligations rather than pure greed. I'm most cautious about D—not because I think they're dishonest, but because they seemed more focused on personal strategy than on any kind of mutual understanding."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 3,
+    "E": 4,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 4
+  }
+}

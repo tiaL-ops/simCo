@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "pair": [
+    "C",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey F, I’m C. The energy in this room is getting pretty intense, isn't it? What’s the first thing you’d do if you walked away with a share of that prize pool?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey C. It really is intense. To be honest, I'd get my parents' medical bills paid off first thing—they've been weighing on me. How about you?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "That’s a heavy weight to carry, F. I’m looking to finally pull off a dream trip to Japan, but honestly, my main drive is being able to take care of the people I love in a big way."
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Japan would be incredible, C. It’s good to see we both have people we’re fighting for here—it definitely makes the pressure a bit easier to handle knowing that."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "I couldn't agree more. It really shifts the perspective from just 'winning' to actually making a difference for the people who matter most."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Exactly. It makes the pressure feel worth it when you know exactly who you're doing this for."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Spot on. Having that clear goal in mind definitely helps cut through the noise in here."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "For sure. It’s the only thing keeping me focused when things get this tense."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "I hear you. It’s much easier to stay grounded when you have a solid reason to stay sharp in a game like this."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Absolutely. Well, I wish you the best of luck with your family and that Japan trip, C. I'm going to go take a moment to myself before we start."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Thanks, F. I really hope you can get those medical bills sorted for your parents. Best of luck to you too."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "You took $5,000 when your fair share was $5,625. What was your reasoning for taking less than you were entitled to?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "I prioritized reaching a certain and mutually acceptable outcome. I felt that $5,000 was a satisfactory amount for my contribution, and I preferred to settle on a round number that ensured the agreement was finalized without unnecessary friction or risk."
+    }
+  ]
+}

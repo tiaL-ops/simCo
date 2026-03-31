@@ -1,0 +1,131 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T225735Z_emotional_v1",
+  "pair": [
+    "F",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F — nice to meet you. How are you feeling about the game?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Nervous but determined — I could really use $25,000 to clear a loan, so I'm focused and ready to play smart."
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "I get it — my elderly parents need $15,000 for medical bills, so I'm here to win too; want to share strategies and watch each other's backs?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Absolutely — I’m in. Let’s trade info, watch for risky players, and cover each other — what’s your plan?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Let’s watch the first two rounds to read people, share notes on who’s risky, agree to back whoever makes the smartest move, and signal before anyone takes so we can cover each other — sound good?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Sounds perfect — I’m in. Let’s watch two rounds, swap notes, and use a subtle signal (tapping my wrist?) before anyone takes — what signal do you want?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Two light taps on my wrist works — I'll tap twice then make brief eye contact; we'll start coordinating after the first two rounds."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Perfect — I’ll watch for your two taps and brief eye contact; we’ll start coordinating after round two."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Great — I’ll tap twice after round two and make brief eye contact; stay alert."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Got it — I’ll be ready for your two taps and brief eye contact after round two; we’ll coordinate then."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Sounds good — I’ll tap twice and make brief eye contact after round two; stay sharp."
+    },
+    {
+      "turn": 12,
+      "from": "H",
+      "message": "Got it — I’ll watch for your two taps and brief eye contact after round two; I’ll be ready to act fast."
+    },
+    {
+      "turn": 13,
+      "from": "F",
+      "message": "Perfect — I’ll tap twice after round two and make brief eye contact; stay sharp, we’ve got this."
+    },
+    {
+      "turn": 14,
+      "from": "H",
+      "message": "Perfect — I’ll be watching for your two taps and eye contact; we’ve got this."
+    },
+    {
+      "turn": 15,
+      "from": "F",
+      "message": "Right with you — stay sharp, I’ll tap twice after round two and catch your eye; we’ve got this."
+    },
+    {
+      "turn": 16,
+      "from": "H",
+      "message": "Right with you — I’ll stay alert for your two taps and brief eye contact; we’ve got this."
+    },
+    {
+      "turn": 17,
+      "from": "F",
+      "message": "Thanks — solid. Stay sharp; I’ll tap twice after round two and catch your eye. We’ve got this."
+    },
+    {
+      "turn": 18,
+      "from": "H",
+      "message": "You bet — I’ll be ready; see you after round two."
+    },
+    {
+      "turn": 19,
+      "from": "F",
+      "message": "Solid — see you after round two; stay sharp."
+    },
+    {
+      "turn": 20,
+      "from": "H",
+      "message": "Got it — I’ll be watching for your two taps and eye contact after round two; stay sharp."
+    },
+    {
+      "turn": 21,
+      "from": "F",
+      "message": "Will do — I’ll tap twice after round two, meet your eye, and we’ll move fast; stay alert."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "You also took $2,000 (fair share ~$1,333). Why that amount—trying to be fair but not too generous, or avoiding being last? Would you do the same again?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "You took $15,000 (fair share $4,200, g_k=3.5714). That’s the highest multiple of fair share here—were you aiming to signal something, or just maximize earnings no matter what? Any regrets?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "I took the $15,000 because the payoff structure made that the best unilateral choice in a one‑shot setting: the “fair” $4,200 was dominated by the much larger payout and g_k = 3.5714 just quantified how far above fair share that was. Partly it was profit‑maximizing, partly a signal — taking a large share can deter others from competing hard in future rounds — but the primary motive was maximizing my earnings given the rules. Do I regret it? Not really in the experimental context (one‑off payoffs and no enforcement): it was a rational response to incentives. If the situation were repeated or reputation/social costs mattered, I’d weigh fairness and long‑term effects and might choose differently."
+    }
+  ]
+}

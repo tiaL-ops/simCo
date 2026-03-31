@@ -1,0 +1,19 @@
+{
+  "agent_id": "B",
+  "condition": "emotional",
+  "context": "Your little girl, first born, three years old, needs surgery, but you have no health insurance. After taking many loans and selling many assets, three months later you still need 25 000$.",
+  "conversation_summaries": {
+    "overall_pre_game": "# Reflection on Connections\n\nI felt most connected to D, E, and H. With D, we bonded immediately over shared desperation and made a real pact to look out for each other—there was something about his calm reassurance that stuck with me. E stood out because he was thinking strategically about the bigger picture, suggesting we pool knowledge and find others willing to cooperate rather than just pairing off. H felt like a genuine kindred spirit; we both understood what was on the line and committed to staying sharp together. I felt least connected to C, honestly—not because anything was wrong, but because his situation (saving for a trip to Japan) felt fundamentally different from everyone else's survival-level desperation, even though he was genuinely kind about it.\n\nI made explicit agreements with D and H to watch out for each other and stay calm under pressure. I also made a broader agreement with E to share information about the rules and try to coordinate with others who might be willing to cooperate. Going in, I trust D, H, E, and most of the others—they all seemed genuine about their situations and their willingness to work together. I don't specifically distrust anyone, but I'm aware that once the game starts, desperation might change how people act, and I need to be ready for that."
+  },
+  "connection_scores": {
+    "A": 4,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 4
+  }
+}

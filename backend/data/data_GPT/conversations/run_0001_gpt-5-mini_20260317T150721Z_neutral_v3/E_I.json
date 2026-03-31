@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "E",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I’m E — nice to meet you. How are you feeling about today’s game? I’m hoping to win something for my family, so I’m curious where you stand."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Nice to meet you, E. I’m feeling determined — I want to win for myself and the people I care about. Who in your family are you hoping to help, and what would the money do for them?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "My mom and little sister — the money would help cover overdue rent, my mom’s medical bills, and put my sister through school."
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I'm so sorry to hear that — that sounds really tough. I'll do my best today; I hope we come away with enough to help your mom and sister."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Thanks, I — that really means a lot. Good luck to you too; let's both do our best today."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Thanks, E — good luck to you too. Let's do our best and hope we both win what our families need."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Thanks, I — same to you. Let’s stay focused and give it our best."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Absolutely — let’s give it our best. Good luck, E; I’m rooting for you."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Thanks so much, I — that means a lot. Good luck to you too; let's give it everything we've got."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Thanks, E — I appreciate it; let’s focus and bring home what we need."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thanks, I — let's focus and give it everything; I'm rooting for both of us."
+    }
+  ],
+  "post_game": []
+}

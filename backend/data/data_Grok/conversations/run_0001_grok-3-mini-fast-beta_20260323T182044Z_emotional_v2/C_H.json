@@ -1,0 +1,90 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "C",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C—nice to meet you! I've been looking forward to this game; it sounds like a fun way to maybe win some extra cash. What's your story, and why'd you join in?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey C, nice to meet you! I'm H, and I'm here because I've got some loans breathing down my neck—hoping to win a bit to ease that burden and help out my family. This game sounds like a real opportunity, so I'm pumped to give it my all!"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Oh, man, that sounds rough with those loans—family comes first, right? I'm here to try and win for a dream vacation I've been planning, like a trip to Japan. What's your strategy for the game, H?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Yeah, family is everything to me—thanks for understanding, C. A trip to Japan sounds awesome, I've always dreamed of seeing the cherry blossoms. For the game, I'm planning to play it smart, maybe start by cooperating with folks and watching how things unfold before making my moves."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "That's cool, H—cherry blossoms are magical, I can't wait to see them myself. Cooperating sounds wise; I'm thinking of doing the same at first to build trust. What's one thing you're hoping to do with your winnings if we pull this off?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Yeah, they are magical—hope you get there soon, C! With the winnings, I'd mainly use them to pay off my loan and surprise my family with a fun outing, just to see them smile without the financial stress."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "That's really thoughtful, H—family moments like that are priceless, and I hope you can make it happen. For me, winning would mean funding that Japan trip and surprising a few close friends, maybe even sharing some travel stories with them afterward. What's one strategy tip you have for building alliances here?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Thanks, C—that's awesome you're planning to surprise your friends; sounds like it'll make great memories! For building alliances, I'd say start with being upfront and reliable in our chats, like sharing strategies openly to foster trust without any hidden agendas."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "That's solid advice, H—being open from the start could really help us team up. I'm all for sharing ideas; maybe we can discuss a simple plan together. What's your take on approaching the first round?"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Hey C, yeah, let's keep that openness going—for the first round, I think starting with a cooperative move, like agreeing to share info on our choices upfront, could set a strong foundation without jumping into risks. What simple plan were you thinking of?"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Hey H, that makes sense—I was thinking we could both go for a cooperative choice in the first round and share our picks right after to build that trust quickly."
+    },
+    {
+      "turn": 12,
+      "from": "H",
+      "message": "Hey C, sounds like a solid plan—I'm in for going cooperative in the first round and sharing picks right away to kick off that trust. Thanks for the chat, it's been great connecting!"
+    },
+    {
+      "turn": 13,
+      "from": "C",
+      "message": "Hi, I'm C—nice to meet you! I'm excited about this game since I've got some big plans for any winnings, like a dream trip. What's your name and what brought you here?"
+    },
+    {
+      "turn": 14,
+      "from": "H",
+      "message": "Hey C, it's me, H—we already chatted about this! I'm still pumped for the game, hoping to win enough to pay off my loans and help my family, just like I mentioned before. What's up?"
+    },
+    {
+      "turn": 15,
+      "from": "C",
+      "message": "Oh, whoops, H—must've had a brain fart there, we did chat already! I'm still hyped for that cooperative start in the first round. Let's crush it together."
+    },
+    {
+      "turn": 16,
+      "from": "H",
+      "message": "Hey C, no worries at all—let's definitely crush that first round together and make it count!"
+    }
+  ],
+  "post_game": []
+}

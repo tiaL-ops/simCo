@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "A",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi A, I'm C – nice to meet you. I'm really excited about this game since I heard it could be a fun way to win some extra cash for things like my dream trip. What about you, what got you interested in it?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hi C, nice to meet you too—I'm excited about the game as well since I really need the cash for my family's housing troubles; what kind of trip are you dreaming about?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Oh, that's tough about your family's housing—I'm sorry to hear that; my dream trip is a week in Japan, exploring Tokyo and the countryside, costing about $10,000, and I hope winning here funds it while helping folks like you too—what's the biggest challenge you're facing right now?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Thanks for the kind words, C—my biggest challenge right now is coming up with $30,000 for a house deposit to keep my family of three off the streets; how do you think you'll handle the competition in this game?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "That sounds incredibly tough, A—I feel for you and your family; for the competition, I'll try to stay strategic, maybe build alliances here, and keep a cool head—what's your game plan?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Thanks, C, that means a lot—my game plan is to play fair, build some alliances like you're thinking, and keep my focus on winning for my family; what's one alliance you'd hope to make here?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "That's great you're planning to play fair too, A— I'd hope to make an alliance with someone reliable like you to watch each other's backs; what qualities do you value most in an ally?"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "That's really kind, C— I value trustworthiness and honesty most in an ally, so we can rely on each other and stick to our plans without any backstabbing."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Absolutely, A—I feel the same way about trust and honesty; it's what makes an alliance strong, so let's commit to that and see how we can team up effectively in the game."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "That's awesome, C—I'm glad we're aligned on trust, so let's team up and watch each other's backs in the game;"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "That's fantastic, A—I'm excited to team up and support each other, let's make this work for both our goals;"
+    }
+  ],
+  "post_game": []
+}

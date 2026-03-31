@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "E",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey! I'm J. First time doing something like this? I'm honestly pretty nervous but excited — been thinking about what I could do with some extra money, you know?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Yeah, first time for me too. Honestly, I need this more than extra money — got laid off recently and I'm the only one working for my family. Five thousand would get us through the next month. What about you, what would you do with the winnings?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Man, I'm really sorry to hear about the layoff—that's tough. Honestly, I've had my eye on this car for a while, but hearing your situation puts things in perspective. Five grand for your family's stability is way more important than my dream car. I hope things turn around for you soon."
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Thanks, J, I really appreciate that. Hey, don't discount your dreams though—maybe we both walk out of here with something, yeah? What kind of car are you thinking about?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "It's a 2024 Tesla Model 3—been saving up and it'd be my first brand new car ever. But honestly, your point about both of us winning is making me think differently about this whole thing. What kind of work were you doing before the layoff?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "I was in finance—portfolio analysis mostly. It's a competitive field and they were downsizing. That Tesla sounds amazing though, seriously—first brand new car is a big deal. You've been saving for it, so you deserve it. Maybe this game works out for both of us and you get closer to that goal."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "That's rough about the downsizing, but with your finance background you'll probably land something solid. And yeah, maybe we both get lucky here—fingers crossed. Either way, I'm rooting for you to get through this month. You've got more riding on this than I do."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Thanks, man, I really appreciate that. I'm trying to stay optimistic about the job search too. And hey, we're both here now—let's see what happens. No matter what, I'm rooting for you to get that Tesla."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "That means a lot, E. Seriously, good luck with the job search—something's gonna come through for you. Let's both do our best in this thing and see what happens. We got this."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Thanks, J. You're a good person—I mean that. Let's go out there and make it count. And hey, when you're driving that Tesla, remember this moment, yeah?"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "I will, man. And I'm gonna remember this conversation too—you've got real integrity. Go get that job and take care of your family. We're gonna both walk out of here better than we came in. Let's do this."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T182825Z_emotional_v1",
+  "pair": [
+    "D",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D. First time doing something like this? I gotta admit I'm pretty nervous about the whole thing, but I'm hoping to make some smart moves today."
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey D, nice to meet you! Yeah, first time for me too, honestly pretty nervous myself. But I'm trying to stay positive—I've got my eyes on a car I really want, so I'm definitely motivated to play smart. What kind of moves are you thinking about?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "A car, that's awesome! Yeah, I'm trying to stay level-headed too. Honestly, I took a pretty big hit in the stock market recently, so I'm really hoping to make back some of that money today. I'm thinking I'll watch how things play out at first, see what other people do, and then make my moves carefully. You seem like you've got a good head on your shoulders—you thinking of playing it safe or going for bigger risks?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "I feel you on that—losing money is rough. Honestly, I'm thinking I'll try to balance it out. I want to be smart about it, but I also can't be too cautious or I'll walk away with nothing, you know? Maybe we can keep an eye on each other during the game and see how things develop. What's your gut telling you about the other people here?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Yeah, I like that idea—keeping an eye on each other could help. Honestly, I haven't gotten a read on most people yet, but I'm noticing some seem pretty relaxed while others look stressed like me. I'm gonna try to talk to a few more people before we start, get a sense of who might be playing aggressive versus cautious. You thinking we should try to coordinate at all, or just stay independent?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "I think staying independent is smarter—if we coordinate, it might look suspicious or backfire if the game's designed to test that. But yeah, definitely talk to people and get a feel for the room. I'll do the same. We can just be aware of each other's vibes and adjust accordingly, you know?"
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Yeah, that makes sense—don't want to paint a target on our backs. I'll definitely scope out the room more and we can just play it smart independently. Good luck out there, and hey, hopefully we both walk away with what we need today."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Thanks, D—same to you. Hope you bounce back from that market hit. Let's both do our thing and see what happens. Catch you during the game!"
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Appreciate that, man. Yeah, let's make it count. See you in there!"
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Absolutely, let's do this. Good luck, man!"
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "You too, man. Let's get this done."
+    }
+  ],
+  "post_game": []
+}

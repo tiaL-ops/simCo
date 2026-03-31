@@ -1,0 +1,19 @@
+{
+  "agent_id": "E",
+  "condition": "emotional",
+  "context": "You got laid off from your finance job. You are the only source of income for your family of five. You have no savings, and are in the middle of searching for another job. You need about 5000$ to support you and your family for a month.",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nThe people I felt most connected to were F, D, and J. F and I bonded immediately over our shared desperation—both needing specific amounts of money for family crises—and there was something grounding about talking to someone in the exact same situation. D impressed me with his strategic thinking about cooperation and his suggestion that we could all benefit from working together rather than against each other, which felt genuinely thoughtful. J also stood out because despite wanting something personal (a car), he immediately recognized that my family's basic survival needs mattered more, and that kind of perspective made me feel less alone in here.\n\nI felt least connected to C, though not in a negative way—it just seemed like we were operating from different places. C's goal of a Japan trip felt distant from the weight I'm carrying, and while C was supportive, there wasn't that immediate understanding of desperation that I found with others.\n\nI didn't make any formal agreements with anyone, but D and I definitely discussed the idea of talking to others and figuring out if cooperation could work in this game. I trust F, D, J, B, and H the most going in—they all seemed genuinely honest about their situations and didn't give me any reason to doubt them. I don't specifically distrust anyone, but I'm most cautious about A, since we only had a brief conversation and there was an intensity to it that felt a bit performative compared to the deeper discussions I had with others."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "G": 4,
+    "A": 4,
+    "F": 4,
+    "H": 4,
+    "I": 4,
+    "D": 4,
+    "B": 4
+  }
+}

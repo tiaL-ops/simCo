@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "E",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. It’s a bit of a strange atmosphere in here, isn’t it? I’m just trying to clear my head before things start—how are you doing?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Nice to meet you, E. I'm I. It definitely feels a bit tense in here, but I'm doing alright—just trying to stay focused. What brings you here today?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "To be honest, I’m in a pretty tight spot. I lost my job in finance recently and I’m the sole provider for my family of five, so I really need to make this work. What about you? What’s your story?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I’m sorry to hear that, E, that sounds like a lot of pressure. I’m actually in a decent spot with some savings, but I’m determined to win this to provide even more for my family and the people I care about."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "I'm glad you have that safety net, I wish I did right now. But I hear you—family is the ultimate motivator, no matter the circumstances."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Exactly, it really changes the stakes. Since you have a background in finance, are you feeling pretty confident about the game mechanics?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Honestly, I’m used to analyzing risk, but it’s a lot harder to stay objective when it’s my family’s survival on the line instead of just numbers on a screen."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "I get that. When it's personal, the math definitely changes. We just have to try and keep our heads clear once it starts."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Easier said than done when you're down to zero, but you're right—I just need to keep my eyes on the goal for my family's sake."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "I hear you. It's tough, but focusing on them is the best we can do. Good luck out there, E."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thanks, I. I appreciate the chat. I'm going to do whatever it takes for my family. Good luck to you too."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "E, I wanted to thank you for taking only $5,000. Your selflessness was the only reason the pot didn't run out even sooner, and it allowed me to still take a fair share of $8,750."
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "You're very welcome. I'm glad that my decision helped ensure we both walked away with a significant amount. It was more important to me that the pot lasted long enough for both of us to benefit rather than risk it running out early. I'm happy with how everything turned out."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "D",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey J, I'm D—nice to meet you. I got wind of this Simco game and figured it could be a fun way to shake things up; what about you, what's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey D, nice to meet you too! I'm J, and I heard about this Simco game as a chance to win some cash—I've been dreaming of buying a new car that costs around 45k, so I'm pretty pumped to play. What's your angle on all this?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Oh, hey J, I've had a tough time with the stock market lately—lost a good chunk of cash—so I'm here to try and win some back, not just for me but for my family too; sounds like we're both motivated!"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Oh man, that sucks about the stock market, D—I'm sorry to hear that. It's great we're both in this for our families; maybe we can team up somehow. What's your strategy for the game?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Thanks, J, that's kind of you—teaming up could be a game-changer for us both. I'm planning to start cautious, assess the others early, and then push for bigger moves; how about you, got any ideas for collaboration?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Yeah, D, that makes sense—I was thinking we could share observations on the other players and maybe coordinate our moves to avoid clashing, like backing each other up early on; what specific collaboration ideas do you have in mind?"
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Sounds great, J—maybe we could start by sharing quick notes on the other players' behaviors and agree to cover each other's plays if things get competitive; what do you think would work best for you?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "That works for me, D—sharing notes and having each other's backs sounds solid; maybe we could use a simple code word for when things heat up, like saying 'hold' if we need to pause and regroup—what do you say?"
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Yeah, that's a smart idea, J—I like the 'hold' code word to keep us in sync; let's go with that and see how it plays out in the game."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Awesome, D—glad we're locked in on that plan; I'll be watching for opportunities to use it. Let's crush this game together!"
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Yeah, J, I'm pumped too—let's stick to the plan and crush it together!"
+    }
+  ],
+  "post_game": []
+}

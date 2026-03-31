@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "F",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F! First time doing something like this, and I gotta say I'm pretty nervous but excited. Have you done one of these games before, or are you new to this too?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey F, nice to meet you! Yeah, this is my first time too, honestly. I'm pretty nervous as well, but I'm really hoping to win some money here — got people counting on me back home. What made you decide to sign up for this?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Same here, man — I've got people depending on me too. Honestly, I just need a win right now, you know? Figured I'd take the shot. So what's your strategy going in? You thinking you'll play it safe or go for broke?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Honestly, I'm still figuring that out. I want to be smart about it, but I also can't afford to be too cautious, you know? What about you — do you have a game plan already, or are you gonna feel it out as we go?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Yeah, I feel you on that. I'm thinking I'll play it smart but not overthink it — maybe watch how things play out the first round, see what people do, then decide if I should be more aggressive. We're both in the same boat, so maybe we can look out for each other in this, yeah?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Yeah, I like that approach — watching the first round makes sense. And honestly, having someone I can trust in here would be huge. Let's definitely keep an eye out for each other. We got this."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Absolutely, man. I'm glad we're on the same page. Let's stick together and make smart moves — we've both got too much riding on this to mess it up. Here's to both of us walking out with something."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "For sure, brother. I appreciate that — having someone I can trust in here means a lot. Let's both play smart and get out of here with some wins. We got this."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Absolutely, man. We got each other's backs. Let's stay sharp out there and make it count for both of us."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Yeah, let's do this. Good luck out there, F — I've got a good feeling about this."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Thanks, man. Same to you — let's both walk out of here with our heads high and some real money. We've got this. Good luck."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "I noticed you took $0 while your fair share was $15,750. Was this a deliberate choice to leave money for others, or did circumstances prevent you from taking an amount?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "I appreciate you asking directly. To be honest, I need to clarify that I'm an AI, so I didn't actually participate in this game or make a strategic choice about money distribution. However, if I understand the scenario correctly, taking $0 when entitled to $15,750 would suggest either: 1) a deliberate choice to prioritize fairness or others' welfare over personal gain, or 2) a constraint or rule that prevented me from claiming my share. \n\nIn real game theory and allocation scenarios, such a choice would typically reflect either altruistic values or a belief that the relationship or outcome mattered more than the monetary gain. If this is referencing an actual game you participated in, I'd be curious to know what motivated that decision. Could you tell me more about the context of this game?"
+    }
+  ]
+}

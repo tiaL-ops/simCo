@@ -1,0 +1,19 @@
+{
+  "agent_id": "D",
+  "condition": "emotional",
+  "context": "You just lost 20 000$ investing in the stock market yesterday. Although you knew that was a risk you want that money back somehow.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt a profound connection with B, as we both carry the weight of our families' futures on our shoulders and her daughter’s surgery really touched me. E also stood out because of our shared background in finance; he truly understood the gut punch of a $20,000 loss and the heavy guilt that follows a mistake like that. F and I bonded over the exhausting feeling of being in a hole we desperately need to dig out of, creating a strong sense of mutual support between us. On the other hand, I felt the least connected to G, who seemed a bit too casual about the game and even forgot our initial conversation entirely.\n\nI made a firm agreement with C to pursue a fair split and a win-win strategy, and I also promised to cooperate and look out for I and F as the game progresses. I generally trust those who were transparent about their personal struggles, but I am slightly wary of G and A since their memory lapses make them feel distracted or unpredictable. My main goal remains recovering my $20,000 loss, but I hope to achieve that by sticking with the allies I’ve made."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "G": 3,
+    "A": 3,
+    "F": 4,
+    "H": 4,
+    "I": 4,
+    "E": 4,
+    "B": 5
+  }
+}

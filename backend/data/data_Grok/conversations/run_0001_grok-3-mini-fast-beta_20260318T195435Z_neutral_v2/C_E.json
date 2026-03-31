@@ -1,0 +1,55 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "C",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey E, I'm C and I'm really excited about this Simco game—I heard it's a chance to win some cash and help out the people I care about. What brought you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey C, nice to meet you! I'm here because I heard about this Simco game as a way to win some money and support the people I care about—sounds like we're on the same page. What's your background or how'd you find out about it?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Oh, cool—we are on the same page! I'm just a regular guy from a small town, working a day job, and I found out about this game through a buddy who mentioned it at a get-together; he said it could be a game-changer for some extra cash. How about you, what's your story?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Oh, same here—I'm from a busy city, working a retail job to pay the bills, and I stumbled upon this game through a coworker who shared it on social media; I figured it could be a real boost for helping my family out financially."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "That's awesome, E—sounds like we're both hustling day-to-day; my buddy's tip got me excited about this game too, what do you think our chances are of walking away with some winnings?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Oh, totally, C—I think our chances are pretty solid if we team up and play strategically; I've heard a bit about the game mechanics, what are your thoughts on how to approach it?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Yeah, E, I agree—teaming up could be key; I figure we should start by observing others and maybe cooperate on early moves to build trust, what exactly have you heard about the game mechanics?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Yeah, C, that's a smart plan—I've heard the game involves a shared pot where players decide how much to take or leave, and if too many take early, it shrinks for everyone, so cooperation really pays off; how do you want to coordinate our strategy?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Sounds good, E—let's agree to hold back early and only take if needed, building that trust we talked about; I'll look for your cues in the game."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,91 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "F",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J—nice to meet you. I've been thinking about this game as a chance to win some money, maybe even enough for that dream car I've got my eye on. What brought you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey J, I'm F—nice to meet you too. I'm here because I really need to win some cash to help with family expenses, like covering medical bills for my parents. What's this dream car you're eyeing?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Oh, that sounds really tough with your parents' medical bills—hope you get the help you need from this. My dream car's a sleek sports model that costs around 45 grand; I've had my eye on it for ages. What about you, got any fun plans if we win big?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Thanks, J, I appreciate that—it's been tough, but I'm hopeful. That sports car sounds like a blast; I can picture you cruising in it. As for me, if we win big, I'd mainly use it to clear those medical bills and maybe take my parents out for a nice dinner to celebrate."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "That's awesome you're prioritizing your parents, F—it really puts things in perspective for me. My car's a pipe dream, but yeah, I'd probably treat my folks to something special too if we win. What kind of dinner are you thinking for them?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Thanks, J—that means a lot; family really does come first for me. I'd probably go for a cozy Italian spot with homemade pasta and a bottle of wine to make it special for them. How about you—what's your idea of treating your folks if we pull off a win?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Oh, that's a great choice—I'd probably take my folks to a seafood spot since my dad loves fresh fish, and maybe splurge on a family vacation if there's extra. What's your take on how this game might play out?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Oh, a seafood spot and a vacation sound like amazing treats for your folks—that's really thoughtful. As for the game, I think it'll be tricky with everyone eyeing the prize pool, but if we all communicate and play fair, we could end up with a win for everyone; what strategies are you considering?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Thanks, F, that's kind—family's everything to me. For strategies, I'm leaning on open communication like you said, maybe proposing we discuss our needs upfront and aim for a fair share so no one gets left out; what's your top idea for making that work?"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Thanks, J—family's everything for me too. My top idea is to have a quick group chat where we all share our needs briefly, then vote on a fair split that prioritizes essentials like medical bills, to keep things honest and balanced."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Sounds great, F—I'm fully on board with that group chat idea to keep things fair and prioritize needs like yours; let's make it happen."
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Hey, I'm J—nice to meet you! I've been really pumped about this game since I heard it could be a game-changer for me, like finally getting that dream car I've had my eye on. What brings you here?"
+    },
+    {
+      "turn": 13,
+      "from": "F",
+      "message": "Hey J, it's great to chat again—we already covered this, but I'm here for my parents' medical bills, just like before. Let's circle back to that group chat idea soon!"
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Hey F, absolutely—let's push for that group chat to make sure everyone's needs are covered, and good luck with everything for your parents."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "J, you took $45,000, which is much more than your fair share of $10,000. I'm curious about your reasoning for taking that amount. For my part, I ended up taking $0 because the prize pool ran out before I could take any."
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey F, I get why you're curious about me taking $45,000—it's true that it ended up being more than the fair share we discussed. My reasoning was straightforward: in the game, I saw an opportunity to secure as much as possible while it was available, and I went for it to maximize my earnings. I didn't mean to leave you out, but things moved fast, and the prize pool dried up quicker than I expected. Sorry you ended up with zero from that part; sounds like you still earned $5,000 elsewhere, which is something at least. What are your thoughts on all this?"
+    }
+  ]
+}

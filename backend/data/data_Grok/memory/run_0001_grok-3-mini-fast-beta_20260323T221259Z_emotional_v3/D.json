@@ -1,0 +1,19 @@
+{
+  "agent_id": "D",
+  "condition": "emotional",
+  "context": "You just lost 20 000$ investing in the stock market yesterday. Although you knew that was a risk you want that money back somehow.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to J, as our conversation built a strong alliance based on shared strategies and signals for the game, making me feel like we were truly in this together. I also connected deeply with I, where we discussed collaborating quietly and even set up specific signals like a nod for agreement, which made our interaction feel collaborative and trustworthy. Additionally, F resonated with me through our heartfelt talk about family struggles and hopes for the winnings, creating a sense of mutual support. In contrast, I felt least connected to B, as while we shared personal stories about financial hardships, the conversation didn't lead to any strategic alignments or deeper plans, leaving it feeling more surface-level.\n\nYes, I made agreements with I and J, including using subtle signals like a nod for agreement or a phrase like \"watch out\" for potential issues during the game. Going into the game, I trust J and I based on our open discussions and mutual agreements, but I don't fully trust others like B, given the weaker connection and lack of shared strategies."
+  },
+  "connection_scores": {
+    "J": 5,
+    "G": 5,
+    "H": 4,
+    "E": 4,
+    "C": 4,
+    "F": 5,
+    "I": 5,
+    "B": 4,
+    "A": 5
+  }
+}

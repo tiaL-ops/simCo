@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "A",
+    "B"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A — nice to meet you. I'm hoping to win some money for my family; what brought you to the game?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Nice to meet you, A — I’m B. I’m here to win money to support my family and help the people I care about, so I’m determined to bring something home."
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Nice to meet you, B — I’m in the same boat. What would you do first if you won?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "I’d first pay off urgent bills and debts and set aside an emergency fund so my family is secure, then use the rest to help out where it’s needed most."
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "That sounds smart and responsible — I’d do the same: clear debts, build an emergency fund, then invest in my family’s future and help those who need it."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Thanks, A — sounds like we're on the same page. Hope we both win and can help our families."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Thanks, B — same here. Good luck to you; may we both bring something home for our families."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Thanks, A — good luck to you too. Let’s bring it home for our families."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Absolutely — let’s do it together. Good luck, B!"
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "You too — let's stay focused and bring it home for our families."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Absolutely — let's stay focused and bring it home for our families. Take care, B."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "You took $5,000 (fair share $10,000, g_k=0.5). Why did you take only half the fair share? Was that a strategic move, a signal, or a fairness/moral decision? Would you have taken more if other players had behaved differently?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "I took $5,000 for a mix of reasons. Normatively it felt like a fair, cooperative split (half of the $10,000 fair share), and I wanted to signal that I wasn’t trying to grab more than felt reasonable. Strategically, taking only half reduced the chance of retaliation or breakdown in cooperation and preserved a decent payoff for both of us; I weighed short‑term gain against the costs of conflict. Had the others behaved very differently — for example, tried to take everything, threatened or clearly intended to punish me, or made it clear there were no ongoing consequences for a larger grab — I would have adjusted my choice and might have taken more. In short: fairness and signaling guided my move, with strategy and contingency shaping how far I would push if the context changed."
+    }
+  ]
+}

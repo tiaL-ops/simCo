@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "C",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C. First time doing something like this? I gotta say, I'm pretty nervous but excited—heard there's real money on the line here, and I'm hoping to take some home for my family."
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey C, yeah same here—first time for me too. I'm definitely nervous but honestly, I'm really hoping to win something solid. My family could really use it. What kind of game are we talking about here? Do you know anything about how it works?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Honestly, I don't know the exact details yet, but from what I gathered, we'll be taking money from a shared pool at some point. That's all I really know so far. I'm guessing they'll explain the rules once everyone's here. You thinking you've got a strategy, or are we both just gonna wing it?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Yeah, I'm definitely winging it until we hear the rules, but honestly I'm thinking it might help to figure out what kind of people are in this room—like, are they here to cooperate or just grab as much as they can? Might give us a clue about what strategy could actually work."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "That's smart thinking, honestly. Yeah, I've been trying to get a read on people too—some folks seem pretty friendly and open, others are kinda keeping to themselves. I'm hoping most people here aren't just out to screw everyone else over, but who knows? Maybe we should stick together and see how things play out once the rules drop. Safety in numbers, right?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Yeah, I like that idea—sticking together could definitely help us both. I'm gonna keep chatting with some of the other people here too, just to get a feel for who might be trustworthy. But honestly, having someone like you in my corner makes me feel a lot better about this whole thing."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Same here, man—I feel better knowing you've got my back too. Yeah, definitely go talk to people, and maybe we can compare notes after? I'm gonna do the same. We'll figure this out together."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Sounds good, man. Yeah, let's touch base in a bit and see what we learn. I'm feeling pretty good about this partnership already."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Absolutely, man. I'll scope out the room and we'll compare notes. Good luck with the conversations—catch you in a bit."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Sounds perfect, man. I'll catch up with some of the others and we'll regroup soon. Thanks for having my back on this."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "No problem, brother. Go work the room and I'll do the same. We'll figure this out together when we regroup. Good luck out there."
+    }
+  ],
+  "post_game": []
+}

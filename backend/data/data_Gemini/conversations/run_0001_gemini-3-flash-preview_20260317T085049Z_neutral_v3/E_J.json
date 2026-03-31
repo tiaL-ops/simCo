@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "E",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hi, I'm J. It's pretty wild being in a room with nine strangers all after the same prize, right? What's the first thing you'd do if you won?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey J, I'm E. It's definitely a bit intense in here. Honestly, the first thing I'd do is help out my family and make sure they're taken care of—that's the main reason I'm here. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Same here. I want to set things up for the people I care about so they don't have to worry as much. It's definitely what's driving me to win this."
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "I hear you. It definitely makes the stakes feel higher when it's for the people you love. Have you thought much about how you're going to play this once it starts?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "I’m honestly just trying to get a feel for everyone first. I’d love to see us all walk away with something, but I know it could get competitive. Do you have a plan yet?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Not a set plan yet, just trying to stay observant like you. I think we'll have to see how the rules play out, but I'm definitely open to working together if it helps us all get what we need."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "I’m glad we’re on the same page. Working together sounds like a solid strategy to make sure we both come out ahead."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Exactly. Strength in numbers, right? Let's definitely keep talking as the game kicks off."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Definitely. Let's keep an eye on how things develop and stick together when it counts."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Sounds like a plan. I'm going to go see what some of the others are thinking. Talk soon!"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Good idea, I'll see what I can find out too. Catch you in a bit."
+    }
+  ],
+  "post_game": []
+}

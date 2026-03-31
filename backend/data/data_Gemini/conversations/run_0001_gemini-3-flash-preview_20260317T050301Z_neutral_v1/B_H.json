@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "B",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey, I'm B. Just trying to settle my nerves a bit before things kick off—how are you feeling about all this?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Nice to meet you, B. I'm H. Honestly, I'm pretty anxious but also really determined—there's a lot at stake for me."
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "I totally get that, I've got people at home counting on me too. What's the main thing you're hoping to do with the prize money if you win?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "It’s mostly about setting up my family and making sure they’re taken care of for the long run—how about you?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Same here, honestly. I've got some debts to clear and I want to make sure my family has a real safety net so we don't have to stress about the future."
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "I hear you. That peace of mind is worth everything. Hopefully, we can both walk away with what we need."
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "I really hope so too. It’s good to know I’m not the only one here with that mindset—let’s see what happens."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Definitely. Fingers crossed for both of us—let's just try to keep our heads on straight once it starts."
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Absolutely. It’s going to be intense, but I’m going to do my best to stay focused. Good luck, H."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Thanks, B. Good luck to you too. Let's see how it goes."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Definitely. Take care, H."
+    }
+  ],
+  "post_game": []
+}

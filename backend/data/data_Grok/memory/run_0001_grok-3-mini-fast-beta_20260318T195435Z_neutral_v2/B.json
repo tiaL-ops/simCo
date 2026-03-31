@@ -1,0 +1,13 @@
+{
+  "agent_id": "B",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to C during our conversation, as we shared deep stories about family struggles, harsh winters, and community traditions that made me feel truly understood and relatable. J was another person I connected with well, especially through our strategic discussions about game approaches and alliances, which built a sense of mutual planning and trust. G also stood out for me, with our warm talks about family dreams and making memories, which reinforced our shared values. However, if I had to pick one I felt least connected to, it would be J, since our exchange was more focused on game tactics rather than personal experiences, making it feel a bit more superficial.\n\nDid I make any agreements with anyone? Yes, with J, we discussed the idea of forming a potential early alliance by identifying reliable partners and proposing a loose pact for mutual support, though it wasn't a formal commitment. I trust J to some extent based on our straightforward conversation about strategies, but I don't fully trust anyone else going into the game, as alliances can easily shift when the competition heats up."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "G": 4
+  }
+}

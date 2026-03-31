@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "C",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey! I'm C. I noticed you sitting over here and thought I'd come say hi before we get started. Have you done anything like this before, or is this your first time?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey C, nice to meet you! First time actually—I'm pretty nervous but also excited, you know? I really need this win to help with some stuff I've got coming up. Have you done one of these before?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "First time for me too, actually! I'm pretty excited about it. What kind of stuff are you hoping to do with the winnings? I'm saving up for this dream trip to Japan, so I'm definitely motivated to bring something home."
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "That's awesome about Japan! Honestly, I've got a loan payment coming up next month that's been stressing me out, so winning would be a huge relief for me and my family. Japan sounds incredible though—I hope you get to make that trip happen!"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "I really hope things work out for you with that payment—that's a lot of pressure. We're both in this to win then! Maybe we can both walk away with something that helps us out. Good luck in there."
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Thanks so much, C—that really means a lot. Yeah, we've both got our reasons to bring something home. Good luck to you too, and hey, maybe we'll both get lucky today!"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Absolutely, fingers crossed! We've both got good reasons to be here. Let's hope lady luck is on our side today—rooting for both of us!"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Thanks C, I really appreciate that! Yeah, let's both crush this thing today. I have a good feeling about it!"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Me too! I've got a good feeling about this. Let's go in there and make it happen for both of us!"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Yeah, let's do this! I'm ready. See you on the other side, C!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Let's go get it! Good luck out there, H—rooting for you!"
+    }
+  ],
+  "post_game": []
+}

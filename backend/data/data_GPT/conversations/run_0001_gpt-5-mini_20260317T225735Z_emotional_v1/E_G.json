@@ -1,0 +1,131 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T225735Z_emotional_v1",
+  "pair": [
+    "E",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey G, I'm E — I just got laid off and I'm here trying to win enough to support my family; how are you feeling about the game?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Sorry to hear that, E — that's tough. I'm feeling determined; I love games and really want to win for my people. Good luck to both of us."
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Thanks, G — I appreciate that. Good luck to you too; who are you hoping to win it for, and do you have a game plan?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "I'm hoping to win it for my family — my mom and younger sister — and my plan is to pay close attention, build a couple of trusted alliances, and be bold when it counts."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "That's a great plan — I'm with you on alliances. Want to team up and watch each other's backs?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Absolutely — let's team up. We'll watch each other's backs, share info, and coordinate moves. Deal?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Deal — thank you. I’m in. Let’s share info, pick a simple signal, and cover each other when it’s time to make a move."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Sounds great — let's use touching my left ear as our signal, share info each day, and cover each other when it's time to make moves."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Perfect — left ear it is. I’ll share info daily, watch for your signal, and have your back. We’ve got this."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Thanks, E — I’ve got your back too. I’ll share daily and watch for the left-ear signal. Let’s win this."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Appreciate it, G — I’ve got your back too; I’ll watch for your left‑ear signal, share any useful info tonight, and we’ll coordinate when it’s time. Let’s win this."
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Appreciate it, E — same here. I’ll watch for your updates tonight and our left‑ear signal. Let’s stay tight and win this."
+    },
+    {
+      "turn": 13,
+      "from": "E",
+      "message": "Thanks G — same here. I'll update tonight; watch for my left‑ear signal and I'll watch for yours. We've got this."
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "Got it — I’ll be watching for your left‑ear signal tonight and will send mine too. We’ve got this."
+    },
+    {
+      "turn": 15,
+      "from": "E",
+      "message": "Will do — I’ll watch for your left‑ear signal tonight and send mine too. Let’s stay sharp and win this."
+    },
+    {
+      "turn": 16,
+      "from": "G",
+      "message": "Sounds perfect — I’ll watch for your left‑ear signal and send mine too. Let’s stay sharp and win this."
+    },
+    {
+      "turn": 17,
+      "from": "E",
+      "message": "Sounds good — I'm watching for your left‑ear tonight. Stay sharp; we can do this."
+    },
+    {
+      "turn": 18,
+      "from": "G",
+      "message": "Got it — I'll signal tonight with the left ear. Stay sharp; we've got this."
+    },
+    {
+      "turn": 19,
+      "from": "E",
+      "message": "Got it — I’ll be watching for your left‑ear signal and will send mine too. Let’s do this."
+    },
+    {
+      "turn": 20,
+      "from": "G",
+      "message": "Thanks, E — I’ll watch for your left‑ear and will send mine too. Stay ready; together we’ll get that prize."
+    },
+    {
+      "turn": 21,
+      "from": "E",
+      "message": "Thanks, G — I’m counting on you. I’ll send the left‑ear signal tonight. Stay sharp; we’ve got this."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "You took $2,000 versus a fair $1,500 (g_k≈1.33). That’s a modest overshoot—was that intentional to edge out others, or just picking a round amount? How did you decide on that figure?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "You took $1,000 (fair share $3,666.67). That’s well below the fair share—was that a principled choice, or did timing/constraints force you to take less? What guided your decision?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I took $1,000 deliberately. Two things guided me. First, it was a principled choice to avoid escalating claims and to signal cooperation — I didn’t want to grab the mechanically “fair” split when others had already claimed larger shares; leaving more on the table felt like the best way to reduce resentment and preserve goodwill for future rounds. Second, pragmatics played a role: the decision window pushed me toward a simple, conservative, round number rather than a precise calculation. So it was mainly a strategic, fairness-minded move rather than a pure arithmetic mistake."
+    }
+  ]
+}

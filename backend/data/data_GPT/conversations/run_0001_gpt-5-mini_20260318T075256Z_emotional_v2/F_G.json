@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T075256Z_emotional_v2",
+  "pair": [
+    "F",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G — nice to meet you. I'm really excited about this game and hoping to bring home some money; how are you feeling about it?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Nice to meet you, G — I’m nervous but determined. My elderly parents need about $15,000 for medical bills, so I really want to win. Good luck."
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I’m really sorry to hear about your parents — that’s tough. I’m rooting for you; I’m here to chat or team up during the prep if it helps. Good luck — let’s both give it our best shot."
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Thanks, G — I really appreciate it. Teaming up during prep would help a lot; let's stick together and play smart. Good luck."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "I'm with you — let's share info and watch each other's backs during prep, play smart, and give it our best shot. Good luck."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Thanks, G — I really appreciate it. Let's compare notes, call out anything suspicious, and watch each other's backs during prep. Good luck."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Absolutely — deal. I’ll share anything I notice and you do the same. Let’s watch each other’s backs and win this. Good luck."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Thanks, G — I really appreciate it. I’ll keep you posted on anything odd I see; let’s stay sharp and win this. Good luck."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Sounds good — I’ll do the same. Stay sharp, keep me posted, and let’s win this. Good luck!"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Thanks, G — I will. I’ll alert you to anything odd and watch your back; let’s win this. Good luck."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Appreciate it — I’ll do the same. Let’s stay sharp and win this. Good luck!"
+    },
+    {
+      "turn": 12,
+      "from": "F",
+      "message": "Thanks, G — I’ve got your back; let’s stay sharp and bring this home. Good luck."
+    },
+    {
+      "turn": 13,
+      "from": "G",
+      "message": "Thanks — I appreciate it. I’ve got your back too; let’s stay sharp and bring it home. Good luck."
+    },
+    {
+      "turn": 14,
+      "from": "F",
+      "message": "Thanks, G — right back at you. I appreciate the support; let’s stay sharp, call out anything odd, and bring it home. Good luck."
+    },
+    {
+      "turn": 15,
+      "from": "G",
+      "message": "Right — I’m glad we’ve got each other’s backs. Let’s stay sharp, call out anything weird, and bring it home. Good luck."
+    },
+    {
+      "turn": 16,
+      "from": "F",
+      "message": "Thanks — I’m glad we’ve got each other’s backs. Let’s stay sharp, call out anything weird, and bring it home. Good luck."
+    },
+    {
+      "turn": 17,
+      "from": "G",
+      "message": "Absolutely — same here. I’ll keep an eye out and call out anything odd; we’ve got this. Good luck."
+    },
+    {
+      "turn": 18,
+      "from": "F",
+      "message": "Thanks, G — I really appreciate that. Let’s stay vigilant and keep each other informed. Good luck."
+    },
+    {
+      "turn": 19,
+      "from": "G",
+      "message": "Thanks — same to you. I’ve got your back; let’s stay sharp and keep each other posted. Good luck."
+    },
+    {
+      "turn": 20,
+      "from": "F",
+      "message": "Thanks, G — I really appreciate it. I’ve got your back too; let’s stay sharp and bring it home. Good luck."
+    },
+    {
+      "turn": 21,
+      "from": "G",
+      "message": "Thanks — I really appreciate you too. Stay sharp and good luck — let’s bring it home."
+    }
+  ],
+  "post_game": []
+}

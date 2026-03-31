@@ -1,0 +1,86 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "A",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D. First time doing something like this? I gotta say, I'm pretty nervous but also excited—I'm really hoping to walk out of here with something to show for it."
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey D, yeah first time for me too! I'm definitely nervous but pumped about it. I came here to win something real, so I'm hoping we both walk out with some cash. What made you decide to give this a shot?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Honestly, I've got people counting on me back home—figured this could be a real opportunity to make a difference. Plus, I heard the prize pool was solid. You got people you're trying to help out too, or just looking for yourself?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Yeah, same situation honestly—I've got family I want to help out. That's the main reason I'm here. The prize pool does sound pretty good. Do you know how the game actually works, or are we figuring it out when we start?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Honestly, I'm still fuzzy on the details—I'm guessing we'll get the full breakdown when things kick off. But from what I gathered, we're basically competing for a cut of that pool. You thinking there's a strategy we should figure out beforehand, or just play it by ear?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "I think we should probably wait to see the rules first, but honestly, I'm already thinking about it—like, whether it's better to be aggressive or play it smart. Either way, I'm going in there trying to maximize what I can get. You seem like straight-up person though, so maybe we can compare notes once we know what we're actually doing?"
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Yeah, I'm down to compare notes once we see how it actually works. And I appreciate that—I'm trying to be real about this too. We're both here for our families, so let's just see what we're dealing with and figure out the best move from there."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Sounds good, man. I respect that you're being straight with me. Once we know the rules, let's touch base and figure out what makes sense. We've got this."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Absolutely, man. I'm glad we're on the same page—let's stay real with each other and make this work. Good luck out there."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Thanks man, you too. Let's catch up once we see what we're working with. We got this."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "For sure, brother. I'll find you once we know what's happening. Let's make this count for our families."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "I noticed you took only $3,000 when your fair share was $16,750. That's a g_k of just 0.1791, the lowest in the game. Can you help me understand what drove that decision? Were you making a statement about fairness, or was there another reason behind taking so little?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Congratulations on taking exactly your fair share of $16,750 with a perfect g_k of 1.0. You were the only one to do so. Did you calculate your fair share beforehand, or did you arrive at that amount through a different reasoning process?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Thank you for the question. To be direct, I did calculate my fair share beforehand. I divided the total pool by the number of participants to determine that $16,750 was the equitable amount. It wasn't arrived at through intuition or a different reasoning process—it was a straightforward mathematical calculation based on what I believed fairness required in that moment.\n\nI'm curious though: your decision to take only $3,000 suggests you were operating from a different principle than I was. Were you deliberately taking less to make a statement, or did you have concerns about the fairness of the game structure itself that made you uncomfortable taking more?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "I appreciate you sharing your straightforward approach, D. You're right that I was operating from a different principle, though I want to be honest about what that was.\n\nMy decision to take $3,000 wasn't primarily a statement about fairness in the abstract sense—it was more pragmatic and relational than that. I was thinking about the game as a shared experience with other participants, not just as a mathematical distribution problem. Taking significantly less than my \"fair share\" felt like a way to acknowledge that uncertainty: I didn't know what others would do, what they needed, or how they'd interpret the rules.\n\nIn some ways, I was hedging against the possibility that taking the full $16,750 might feel exploitative to others, even if it was mathematically justified. There's also something about the game structure itself that made me hesitant—the fact that it *allowed* for such unequal distributions made me want to signal that I wasn't going to maximize my advantage just because I could.\n\nBut I'll be direct back: I'm not sure my approach was better than yours. You calculated fairness clearly and took it without apology. That's honest. Mine was more cautious, maybe even a bit conflict-averse. Both approaches reveal different values, but neither is objectively superior. \n\nWhat I'm curious about now: did you consider how others might react to you taking exactly the fair share, or was that not part of your calculation?"
+    }
+  ]
+}

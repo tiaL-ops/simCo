@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T182825Z_emotional_v1",
+  "pair": [
+    "G",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey! I'm G. So, have you played in one of these games before, or is this your first time like me? I'm pretty excited but also curious what I'm getting myself into here."
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "First time for me too, honestly. I'm pretty nervous but also really hoping this works out—I've got some serious financial stuff I need to handle. What about you, what brings you here?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Yeah, I feel that. I'm in a similar boat—got people depending on me and I really need a win here. But hey, at least we're both going in fresh, right? Do you have any strategy in mind, or are you just gonna see how it plays out?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Honestly, I'm still figuring it out as I go, but I'm thinking I need to pay attention to what everyone else is doing and maybe not be too greedy right off the bat. What's your take—you got any ideas on how to approach this?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Yeah, I like that thinking—staying observant makes sense. I'm kind of in the same headspace, honestly. I want to win big, but I also don't want to blow it by being too aggressive early on. Maybe we can both keep our eyes open and see what kind of vibe the group has, you know?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Yeah, that makes sense. I'm definitely gonna watch how people interact before I make any big moves. Maybe we can check in with each other once we get a feel for things—could be good to have someone I trust a bit in this."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Absolutely, I'm down for that. Having someone to bounce ideas off sounds smart—let's definitely touch base once we see how things unfold. Good luck out there, H."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Thanks, G—same to you. Let's stick together and see what happens. I've got a good feeling about this."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "For sure, man. I'm feeling it too—let's keep our heads on straight and look out for each other. We got this."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Definitely, man. I appreciate that—having someone I can trust in here makes this feel less overwhelming. Let's both play smart and we'll catch up once the game starts."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Sounds good, brother. Let's play it smart and remember why we're here. I'll catch you after—rooting for both of us."
+    }
+  ],
+  "post_game": []
+}

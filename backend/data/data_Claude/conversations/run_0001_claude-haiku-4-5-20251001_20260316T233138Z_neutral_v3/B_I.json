@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "B",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hey, I'm I. First time doing something like this? I'm honestly pretty nervous but excited—heard there's real money on the line here, so I'm trying to figure out what we're actually getting into."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Yeah, first time for me too! I'm B, by the way. Same here—I'm nervous but really hoping to win something. Have you heard anything about how the game actually works? Like, what we're supposed to do to get money from that prize pool?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "Honestly, I haven't gotten the full details yet either—that's what's got me on edge. But from what I gathered, it's something about taking money from a shared pool, so I'm guessing it's like... we all have access to it, but how much we can actually take probably depends on what everyone else does? That's why I wanted to talk to people first, figure out if there's some strategy to this."
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Yeah, that makes sense—it does sound like one of those games where everyone's decisions affect everyone else. I'm thinking the same thing, honestly. Maybe if we all take a little, there's more for everyone? But I don't know... I'm trying to figure out if being strategic means cooperating with people or just looking out for myself. What's your gut telling you?"
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "Honestly? My gut says cooperation probably wins, but I'd be lying if I said I wasn't worried about getting screwed if everyone else takes the max. Maybe we should try to figure out who's trustworthy in this room before we commit to anything—like, talk to more people and see if we can get a sense of who actually wants to work together versus who's just out for themselves."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Yeah, that's smart—I like that idea. Let's both talk around and see what vibes we get from people. Maybe we can circle back after and compare notes? I'm with you though—I'd rather figure out who I can actually trust before making any moves."
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "Sounds good—let's definitely reconnect after we've talked to people. I'll keep an eye out for who seems genuine versus who's got that greedy vibe, and we can compare notes. Good luck with your conversations!"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Thanks, you too! Yeah, let's catch up in a bit—I'll see what I can learn from the others and we can figure out our next move together."
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Definitely—I'll do the same. Talk soon!"
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Sounds good—catch you in a few!"
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "Yeah, for sure. I'll catch up with you soon and we can figure out what we learned. Wish me luck!"
+    }
+  ],
+  "post_game": []
+}

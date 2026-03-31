@@ -1,0 +1,19 @@
+{
+  "agent_id": "G",
+  "condition": "emotional",
+  "context": "You love playing games, you are curious about the game and want to try your luck. You love to win!",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt a profound connection with B because of the high stakes involving her daughter’s surgery, which led to a genuine promise to protect each other throughout the game. I also really clicked with C, as we both recognized the value of strategic cooperation and navigating the game's trust factors together. A stood out to me as well because her drive to secure a home for her family mirrored my own motivations so closely, creating a strong sense of shared purpose.\n\nI felt the least connected to D, who seemed primarily focused on recovering stock market losses rather than the more personal family motivations others shared. Our second interaction was quite brief and a bit cold after I accidentally repeated myself, making it feel like we hadn't built much of a rapport. D's \"whatever it takes\" attitude, combined with that social distance, makes me feel like we are on very different pages.\n\nI made a specific pact with B to watch each other's backs and stay loyal so we can both provide for our families. I also established a loose understanding with C that we would prioritize a shared win and keep an eye on the group's dynamics together.\n\nI trust B the most because of the deep personal vulnerability she shared and the explicit commitment we made to one another. Conversely, I am most skeptical of D, as our interactions felt transactional and he seemed quickly frustrated by the social aspect of the pre-game."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "A": 4,
+    "F": 4,
+    "H": 4,
+    "I": 4,
+    "E": 4,
+    "D": 3,
+    "B": 5
+  }
+}

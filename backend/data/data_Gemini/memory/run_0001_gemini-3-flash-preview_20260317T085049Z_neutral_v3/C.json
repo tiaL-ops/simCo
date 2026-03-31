@@ -1,0 +1,19 @@
+{
+  "agent_id": "C",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the strongest connections with H, F, and G, as we all shared a deep focus on our families and a mutual desire to coordinate for a fair outcome. H’s empathy regarding my parents' retirement and F’s direct suggestion that we look out for each other made me feel like I have genuine allies in this room. In contrast, I felt the least connected to D, whose emphasis on logic and quick departure made our conversation feel more transactional and less personal than the rest.\n\nI made a clear agreement with F to look out for one another and stay in the loop once the game starts. I feel a significant amount of trust toward H and G due to our shared values and our discussions about maintaining a fair split. I haven't found a reason to explicitly distrust anyone yet, but I'll be watching the more strategically-minded players closely to ensure they stay honest."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "H": 5,
+    "E": 4,
+    "F": 5,
+    "I": 4,
+    "B": 4,
+    "D": 4,
+    "A": 4
+  }
+}

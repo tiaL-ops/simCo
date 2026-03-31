@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "C",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey H, I'm C and I'm really excited about this game—I've got my sights set on winning some cash for a dream trip. What's your take on all this?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey C, nice to meet you—I'm H, and I'm pretty pumped about this game too; I'm hoping to win some cash to help with a few personal things, like sorting out some bills. What's this dream trip you're eyeing?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Oh, that's relatable—my dream trip is a week in Japan, costing around $10,000 for the perfect getaway, so I'm all in on this game; what kind of bills are you trying to tackle?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Oh, that's cool—Japan sounds like an epic adventure! For my bills, it's mainly a loan I'm trying to pay off next month, so I'm super motivated to win big in this game too."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "That's awesome you're motivated too—sounds like we both have big stakes here; tell me more about what got you into this loan situation in the first place?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Oh, it's nothing too dramatic—I took out a loan a couple years ago for some unexpected medical bills, and it's just been hanging over me; what about your Japan trip—have you started planning any specifics yet?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Oh, man, that sounds rough with the medical bills—hope we both score big here; for Japan, I've been eyeing Tokyo for the amazing food scene and Kyoto for the temples, maybe timing it with cherry blossoms if I can swing it."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Yeah, thanks—it's been a hassle, but I'm optimistic about this game; Tokyo's food scene sounds incredible, and Kyoto with cherry blossoms would be magical—have you picked out any must-try dishes yet?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Oh, absolutely, I'm dying to try fresh sushi and steaming ramen in Tokyo, maybe even some okonomiyaki—have you ever had Japanese food before, or is this all new to you?"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Oh, yeah, I've tried Japanese food a couple of times—mostly sushi from a local place, but nothing fancy like in Tokyo, so I'm excited to hear more about your plans!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "That's cool you've tried sushi—I'm planning to hit up some authentic ramen spots and maybe a kaiseiki meal in Tokyo; excited for it all, and hey, good luck in the game!"
+    },
+    {
+      "turn": 12,
+      "from": "H",
+      "message": "That's awesome, C—authentic ramen and kaiseki sound like a dream; good luck to you too, hope we both cash in big!"
+    }
+  ],
+  "post_game": []
+}

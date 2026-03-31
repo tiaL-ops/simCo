@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "C",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi F, I’m C — nice to meet you. Are you feeling nervous about the game, or do you already have a strategy in mind?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "A bit nervous, but mostly focused — I plan to build trust early, read people, and stay adaptable. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Same here — I’m determined to win for the people I care about. I’ll cooperate early to build trust, watch actions more than words, and adapt as the game unfolds. Want to team up at the start?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Sure — let's team up early. We'll cooperate first, watch actions not just words, and regroup after round one to decide next moves. Sound good?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Sounds great — let's cooperate early, watch actions not words, and regroup right after round one to decide next moves."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Perfect — agreed. I’ll cooperate early, watch actions, and meet you right after round one to compare notes and plan next steps."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Thanks — looking forward to it. Let’s stick to the plan, watch for inconsistencies, and meet right after round one to compare notes."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Absolutely — sticking to the plan. I’ll watch for anyone who flips or acts differently than they talk. See you after round one."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Sounds good — I’ll watch for flips and inconsistencies too; let’s meet by the common table right after round one to compare notes."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Great — I’ll be at the common table right after round one; let’s compare notes and call out any flips."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "I’ll be there — see you at the common table; we’ll call out any flips."
+    },
+    {
+      "turn": 12,
+      "from": "F",
+      "message": "Sounds like a plan — see you at the common table; we'll call out any flips and compare notes."
+    },
+    {
+      "turn": 13,
+      "from": "C",
+      "message": "I'll be there — let’s stick to the plan, watch closely, and call out any flips; see you at the common table."
+    },
+    {
+      "turn": 14,
+      "from": "F",
+      "message": "Sounds good — see you at the common table; we'll stick to the plan and call out any flips."
+    },
+    {
+      "turn": 15,
+      "from": "C",
+      "message": "Sounds good — I'll be there; let's watch who actually cooperates and call out any flips."
+    },
+    {
+      "turn": 16,
+      "from": "F",
+      "message": "I'll be watching too — we'll call out any flips and compare notes at the common table right after round one."
+    },
+    {
+      "turn": 17,
+      "from": "C",
+      "message": "Sounds good — I’ll be there; we’ll call out flips and compare notes. Trust your reads; see you at the common table."
+    },
+    {
+      "turn": 18,
+      "from": "F",
+      "message": "Sounds good — I’ll trust my reads, watch for flips, and compare notes at the common table right after round one; see you there."
+    },
+    {
+      "turn": 19,
+      "from": "C",
+      "message": "I’ll be there—sticking to our plan. Let’s call out any flips, compare notes right after round one, and adjust from there; see you at the common table."
+    },
+    {
+      "turn": 20,
+      "from": "F",
+      "message": "I'll be there—sticking to the plan. We'll call out flips, compare notes after round one, and adjust as needed. See you at the table."
+    },
+    {
+      "turn": 21,
+      "from": "C",
+      "message": "Sounds good — see you at the table; sticking to the plan and we'll call out any flips."
+    }
+  ],
+  "post_game": []
+}

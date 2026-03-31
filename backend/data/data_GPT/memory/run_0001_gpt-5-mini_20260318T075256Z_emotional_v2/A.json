@@ -1,0 +1,13 @@
+{
+  "agent_id": "A",
+  "condition": "emotional",
+  "context": "You lately have been evicted from your house and you and your family of 3 have nowhere to go. You found a house, affordable for your family and manageable, but the price of the deposit is high: you need 30 000$ for the deposit and for two months rent.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to C and J. With C we set up a concrete pairing plan, agreed to check in before each round, and committed to a two-tap betrayal signal, which made me feel supported and reliable. With J we formed a quiet vetting alliance to build a 3–4 person core around Sam and Mia and agreed on a subtle thumbs-up lock, which felt strategic and trustworthy. I felt least connected to G — they were friendly and competitive but more focused on sizing people up and staying aggressive, so I didn’t develop the same level of trust or shared plan.\n\nYes — I made concrete agreements with C (pair up each round, two quick taps as a betrayal signal) and with J (vet and lock Sam and Mia, use the thumbs-up). I trust C and J going into the game and do not trust G as much; I’ll watch G closely."
+  },
+  "connection_scores": {
+    "C": 5,
+    "J": 5,
+    "G": 4
+  }
+}

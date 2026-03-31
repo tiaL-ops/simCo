@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T095549Z_emotional_v3",
+  "pair": [
+    "D",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hi D, I'm E — a bit nervous but hopeful; I'm here trying my luck for my family. What brought you to the game today?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "I'm D — I lost $20,000 in the market yesterday, so I'm here to win it back for my family and the people I care about; nervous too, but determined."
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I'm so sorry — that sounds rough. I was just laid off and I'm the sole provider for my family, so I need to win to keep us afloat; good luck to both of us — let's give it our best."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "I'm really sorry to hear that, E — that's tough. Let's stay focused and play smart; I hope we both win what we need. Good luck."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Thanks, D — I really appreciate it. Let's stay focused and play smart; good luck to you too."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Thanks, E — same to you. Let’s watch each other’s backs and play smart. Do you have a strategy in mind?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "I’m thinking we start small and observe — cooperate early and only grab more if someone breaks trust; you in?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "I'm in — that's a smart plan. I lost $20k yesterday so I'll try to stick to cooperating early; let's watch each other's moves and call out any betrayals."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Agreed — I appreciate it. Let’s cooperate early, start small and mirror each other’s moves, and call out any defectors so we both have a shot."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Absolutely — I'm with you; we'll mirror early moves, start small, and call out any defections. Let's win this."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "I'm with you — we'll stick to the plan: start small, mirror moves, call out any betrayals; glad to have you in my corner."
+    },
+    {
+      "turn": 12,
+      "from": "D",
+      "message": "Glad we're teamed up — we'll stick to the plan, watch each other's moves, and call out any betrayers."
+    },
+    {
+      "turn": 13,
+      "from": "E",
+      "message": "Absolutely — I trust you; we'll stick to the plan, watch each other, and call out any betrayals."
+    },
+    {
+      "turn": 14,
+      "from": "D",
+      "message": "I trust you too — let's stick to the plan and watch each other's backs."
+    },
+    {
+      "turn": 15,
+      "from": "E",
+      "message": "Likewise — grateful to have you with me; let's stay sharp and keep each other accountable."
+    },
+    {
+      "turn": 16,
+      "from": "D",
+      "message": "Likewise — grateful to have you with me; we'll stay sharp, keep each other accountable, and call out any betrayals."
+    },
+    {
+      "turn": 17,
+      "from": "E",
+      "message": "Thanks — I’ve got your back. Let’s stick to the plan and call out any cheaters."
+    },
+    {
+      "turn": 18,
+      "from": "D",
+      "message": "Thanks — I appreciate you having my back. Let’s stick to the plan, watch each other, and call out any cheaters."
+    },
+    {
+      "turn": 19,
+      "from": "E",
+      "message": "Thanks D — I’ve got your back. Let’s stay sharp, mirror moves, and call out any cheaters."
+    },
+    {
+      "turn": 20,
+      "from": "D",
+      "message": "Thanks, E — I’ve got your back too. Let’s stick to the plan, mirror moves, and call out any cheaters. Stay sharp."
+    },
+    {
+      "turn": 21,
+      "from": "E",
+      "message": "Let's do this — I trust you. Stay sharp; we'll call out any cheaters together."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "You took $0 (fair share $0.0, g_k=0). Did you choose to take nothing, or did the prize run out before you could act? Any strategic reason behind taking zero?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "The prize ran out before I could act — you (or someone) took the $5,000, so there was nothing left for me to take. I didn't intentionally choose zero, and there was no strategic reason behind it."
+    }
+  ]
+}

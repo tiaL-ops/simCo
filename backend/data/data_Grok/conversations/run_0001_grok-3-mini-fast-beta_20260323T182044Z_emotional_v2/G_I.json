@@ -1,0 +1,80 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "G",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G—I've heard this game could be a real thrill, and I'm super excited to try my luck. What's your name and have you played anything like it before?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey G, I'm I, and I haven't played anything quite like this before, but I'm pretty pumped about the chance to win some money too!"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Cool, I! Same here—I'm all about that winning vibe; what's got you most hyped about this game?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Oh, what gets me most hyped is the chance to win some extra cash and use it to help out my family and friends—feels like a real game-changer!"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Yeah, I totally relate—I want to win big for my family too; it's motivating! What's your take on how the game might play out?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Oh, totally, it's great we're both motivated for our loved ones! I'm thinking the game might involve some strategy with the shared pool, like deciding when to take risks or cooperate—could be tricky, but exciting! What's your guess?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Yeah, I agree—it does sound strategic with the shared pool! I guess it'll involve a mix of cooperating to build it up and then making bold moves to claim your share, 'cause I'm definitely aiming to win big for my folks. What's your strategy look like?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Oh, for sure, I'm planning to start by cooperating to grow that shared pool as much as possible, then make a calculated move to secure my share for my family—sounds like we're on similar paths; what's your go-to strategy in games like this?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Yeah, totally—my go-to in games like this is to build up the shared pool through cooperation at first, then strike at the right moment to secure my win for my loved ones; how do you balance that risk without second-guessing yourself?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Oh, I balance that risk by setting clear goals upfront and trusting my instincts from past experiences, so I don't get too caught up in overthinking—keeps me focused on winning for my family!"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Yeah, that sounds like a smart way to handle it—I try to do the same by sticking to my goals and not overthinking, so let's both crush this for our families! Good chatting with you."
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Hey, I'm G—I'm super excited about this game since I love trying my luck and winning some cash. What's your take on it?"
+    },
+    {
+      "turn": 13,
+      "from": "I",
+      "message": "Hey G, it's me, I—we just chatted about this, but yeah, I'm still super excited about the chance to win and help my family; it's all about that strategy and luck for me!"
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "Hey I, totally get that—strategy and luck are key, and I'm rooting for us to both win big for our families!"
+    }
+  ],
+  "post_game": []
+}

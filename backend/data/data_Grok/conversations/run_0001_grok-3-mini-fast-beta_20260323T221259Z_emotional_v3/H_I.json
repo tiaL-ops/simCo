@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "H",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H—nice to meet you. I'm really excited about this game since I need to win some money to sort out a few things in my life. What about you, what's bringing you here?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey H, nice to meet you—I'm I. I'm excited about the game too; I want to win some extra cash for my family and friends, just for that added security. What kind of things are you trying to sort out?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Oh, just some financial stuff like paying off a loan—it's been weighing on me, so winning this would be a huge relief. What about you, how's that extra cash going to help your family?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Oh, yeah, for my family, it would mainly go towards building a bigger safety net—maybe cover unexpected bills or treat them to something nice, just to ease any worries we have."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Yeah, that makes total sense—building a safety net is smart, especially with life's surprises; I've been stressing over this loan forever, so I feel you on easing worries. What's one thing you'd treat your family to if we win?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Oh, totally, H—it's all about that peace of mind. If we win, I'd probably treat my family to a fun weekend getaway; we've been dreaming of one for a while. What would you do with your share if we pull it off?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Oh, that getaway sounds like a blast for your family—I'd probably use my share to knock out that loan once and for all, and maybe splurge on a quiet night out to celebrate feeling free from the stress. What's your top pick for that weekend trip?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Oh, that sounds like a perfect way to celebrate—my top pick for the trip would be a cozy cabin in the mountains for some hiking and family bonding; we've always wanted that peaceful vibe. What's your ideal spot for that quiet night out?"
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Oh, that mountain cabin sounds so relaxing—I'd pick a quiet little jazz bar in my neighborhood for some live music and a drink to unwind; what's one activity you'd look forward to most on that trip?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Oh, definitely the hiking—nothing beats exploring those mountain trails and just relaxing with my family around a campfire; it's been fun talking with you, H!"
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Oh, that sounds like the perfect family adventure—hiking and campfires are just the best for unwinding; it's been awesome chatting with you too, I, and I hope we both win big!"
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,121 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "A",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G—I've been hearing all about this game and I'm super pumped to see if I can win some cash. What about you, are you excited to give it a shot?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey G, I'm A—yeah, I'm really excited about this game; it's a chance to turn things around for my family. What about you, what's your story with all this?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Oh, hey A, I've always been a bit of a game junkie—love the excitement and the chance to win big. I heard about this Simco thing and figured it could help me bring in some cash for my family and friends, you know? What's your background with games?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Oh, hey G, I'm not really a big gamer myself—just played some casual board games with my family growing up—but this Simco thing feels like my best shot at getting the cash we desperately need for a new place. What sorts of games do you get into?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Hey A, I get into all sorts of games—video games like Fortnite, card games, and even poker with friends for that thrill. What about you, are you feeling any nerves about diving into Simco?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Yeah, G, I'm definitely feeling a bit nervous since I'm not really experienced with games like this, but I'm determined to push through for my family's sake—what about you, do you get nervous in high-stakes situations?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Yeah, A, I do get a bit nervous in high-stakes situations sometimes—it adds to the excitement for me—but I'm always hyped to push through and win, especially for my family. How are you planning to handle the nerves when the game starts?"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Yeah, G, I'm planning to handle the nerves by just focusing on my family and taking it one step at a time—maybe some deep breaths to stay calm. How do you usually keep your cool in the moment?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Yeah, A, I usually keep my cool by focusing on my breathing too and reminding myself of the bigger picture, like winning for my family—sometimes I even hum a favorite tune to chill out. What's one thing you're most looking forward to if we win this?"
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Yeah, G, if we win, I'm most looking forward to finally getting a stable home for my family and putting this rough patch behind us—it's all about that peace of mind, you know?"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Yeah, A, I totally get that—it's awesome you're fighting for your family's stability; for me, winning means treating my folks to some fun adventures, and I'm rooting for both of us!"
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Hey A, I'm G and I'm super excited about this game—I love playing and winning, especially with a chance to win some money. What's your story with games?"
+    },
+    {
+      "turn": 13,
+      "from": "A",
+      "message": "Hey G, we've talked about this before, but I'm A—I don't play games much, just casual board games with my family, but this Simco thing is my chance to win money for a new home for us. What's your go-to game for fun?"
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "Yeah, A, my go-to game is definitely Fortnite—it's all about the thrill and teaming up with friends; what about you, any board game you love playing with your family?"
+    },
+    {
+      "turn": 15,
+      "from": "A",
+      "message": "Yeah, G, Monopoly has always been a favorite with my family—it's simple fun and gets us all strategizing together; what do you like most about teaming up in Fortnite?"
+    },
+    {
+      "turn": 16,
+      "from": "G",
+      "message": "Yeah, A, I love teaming up in Fortnite because it's all about coordinating strategies with friends and sharing those epic wins—it makes the game way more thrilling; what's the most intense strategy moment you've had in Monopoly?"
+    },
+    {
+      "turn": 17,
+      "from": "A",
+      "message": "Yeah, G, the most intense strategy moment in Monopoly was when I had to trade a key property with my sibling to complete my set, and it turned the game around for me—we ended up winning that night! What's your craziest win story in Fortnite?"
+    },
+    {
+      "turn": 18,
+      "from": "G",
+      "message": "Yeah, A, my craziest win in Fortnite was this one time my squad and I were pinned down in the storm, but we turned it around with a wild build-off and took out the last team with a perfect snipe – felt like a movie!"
+    },
+    {
+      "turn": 19,
+      "from": "A",
+      "message": "Wow, G, that Fortnite win sounds absolutely thrilling—like something out of a blockbuster! I'm glad we chatted; good luck in the game, and hope you get that win for your family."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "You took $30,000, which is much more than your fair share of $5,571.43. Can you explain your reasoning behind that amount? Just to share, I decided to take 0$ because I felt it was the fairer choice for the group."
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "I understand your perspective, G, and I appreciate you sharing that you chose to take $0 for the sake of the group. My reasoning for taking $30,000 was based on the amount I personally earned in the game—30,000—which I felt entitled me to claim it as my fair share. I saw it as a reward for my efforts, even if it differs from the equal split you mentioned. What do you think about that?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I appreciate you explaining your reasoning, A. It's clear that you see the $30,000 as a direct reward for your hard work in the game, and I respect that perspective. However, my view is still centered on the group's overall fairness. With a total pot that seems to suggest an equal share of about $5,571.43 for everyone, taking the full amount you earned could leave others, like myself who only earned $6,000, at a disadvantage. I chose $0 to prioritize the team, but maybe we can discuss a compromise that balances individual efforts with collective equity. What are your thoughts on that?"
+    }
+  ]
+}

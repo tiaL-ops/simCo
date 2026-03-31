@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "B",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey, I'm B! I figured before we get into this game, might as well get to know some people. What brings you here today—are you hoping to win big like the rest of us?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Yeah, absolutely! I heard about this opportunity and I'm really hoping to take some money home—got some people counting on me, you know? What about you, what made you decide to show up today?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Same here, man—got family I want to help out. So you thinking you're gonna play it safe in this game or go for broke? What's your strategy?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Honestly, I'm still figuring that out—depends on what the game actually is, right? But I'm thinking I gotta be smart about it, not just reckless. What about you, you got a plan going in?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Yeah, I feel that—smart move waiting to see what we're dealing with. I'm thinking I gotta balance being aggressive enough to actually win something, but not stupid about it, you know? Like, I need to come home with something for my people, but I don't wanna blow it all on a bad call."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Yeah, that's exactly it—gotta find that sweet spot. We're both in the same boat then. You think it helps to team up with people in here, or do you reckon it's every person for themselves?"
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "That's a good question, man. Honestly, I think it depends on the game itself—if it's competitive, teaming up might hurt us both. But if there's a way to cooperate without losing out, I'm open to it. Maybe we figure out the rules first and then decide if we can help each other out?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Yeah, that sounds fair—let's see what we're actually working with first. But I appreciate you being straight with me about it. Either way, I'd rather know where people stand than get blindsided, you know?"
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Absolutely, I respect that—honesty's gonna matter in here. Once we know what we're dealing with, we can figure out if it makes sense to work together or not. Either way, I'm glad we talked before things got competitive."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Yeah, me too man. I think we've got a good understanding now—let's both go in with our eyes open and see what happens. Good luck out there."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "You too, man. I'm gonna go talk to some of the others before we start, but I'll remember this conversation. Let's both do what we gotta do and see how it plays out."
+    }
+  ],
+  "post_game": []
+}

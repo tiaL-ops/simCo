@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "A",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey A, I'm F and I'm pretty pumped about this game—it's a chance to win some cash and help out the folks I care about. What's your take on it, and what brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey F, nice to meet you—I'm pumped about this game too, it's a great way to win some cash for my family and friends. I heard about the opportunity and figured I'd go for it; what's your background or why are you here?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Hey A, I'm just a regular person from a small town, working a everyday job and always on the lookout for chances like this to win money for my family—sounds like we're both here for similar reasons; what kind of work do you do?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Hey F, that's awesome we're both in the same boat—I'm a teacher at a local school, dealing with the usual hustle to support my family, nothing too exciting. How about you, what's your everyday job like?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Hey A, that's cool you're a teacher—I'm a warehouse worker in my small town, just handling inventory and shipments to keep things going for my family; it's not glamorous, but it gets the job done. What's the most rewarding part of teaching for you?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Hey F, thanks—being a teacher is definitely rewarding; the best part is seeing my students light up when they finally get a tough concept, and knowing I'm helping shape their futures. What's the most fulfilling moment in your warehouse work?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Hey A, that's inspiring— for me, the most fulfilling moments in the warehouse are when we pull off a tight deadline on a big shipment, and I know I've helped my team avoid any chaos, making everyone's day a bit easier; what's one challenge you face as a teacher that keeps things interesting?"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Hey F, that sounds super rewarding—hitting those tight deadlines must feel great; as a teacher, one challenge that keeps things interesting is balancing different learning styles in the classroom, like trying to engage both the quiet kids and the energetic ones—it's always unpredictable! What's a tough challenge you face in the warehouse?"
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Hey A, yeah, balancing those learning styles sounds like a real juggling act! In the warehouse, a tough challenge is dealing with equipment breakdowns that halt everything—it's frustrating; how do you keep things running smoothly in your classroom?"
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Hey F, keeping things smooth in the classroom means staying flexible—I prep lessons with varied activities and backup plans to adapt quickly, plus I encourage student input to keep everyone involved; it's a team effort!"
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Hey A, that's a smart approach—flexibility really does make all the difference, and it's inspiring to hear how you make it work; it's been awesome getting to know you, and I hope we both do well in the game."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hi A, you only took $405, even though your fair share was $4,050. I'm curious—what led to that decision?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "I appreciate your curiosity, F. I decided to take only $405 because I wanted to prioritize fairness and ensure that the overall distribution didn't leave anyone at a disadvantage, even if it meant accepting less than my fair share. What about your decision to take $10,125?"
+    }
+  ]
+}

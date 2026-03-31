@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "E",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey E, I'm G—nice to meet you. I'm really pumped about this game since it could mean winning some cash for folks back home; how about you, what's your take on it?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey G, nice to meet you too! I'm totally pumped about this game myself—I'm here to win some money for my family and friends, it could make a big difference. What's your plan for the cash if we pull it off?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Oh, for sure, if we win, I'd use the cash to support my family and friends back home—maybe pay off some bills or take a little trip. How about you, got any fun ideas for yours?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Oh, yeah, I'd probably use my share to help out my family with some bills and maybe splurge on a fun weekend getaway with friends—sounds like we both have similar vibes! What's your background, G, like where are you from?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Oh, cool—I'm from a small town in the Midwest, nothing fancy, just a place where everyone's always looking out for each other; how about you, where are you from?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Oh, that's awesome—I'm from a lively city on the West Coast, it's all about the beaches and vibe, but family keeps me grounded; what's your favorite memory from your hometown?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Oh, one of my favorite memories is going to the county fair every summer with my family—rides, cotton candy, and all that small-town fun; what about you, do you have a go-to memory from the West Coast?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "That sounds like a blast, G! One of my favorite memories from the West Coast is family beach bonfires at sunset with s'mores and waves crashing—simple joys; what's your take on teaming up in this game?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Oh, that beach bonfire sounds epic—simple joys like that are the best! Teaming up could be a smart move in this game to boost our chances of winning big for everyone we care about."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Yeah, totally agree—teaming up sounds like a solid plan to help us all win big for our loved ones; it's been great talking with you, G!"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Yeah, E, I'm stoked we're aligned on teaming up—it'll be awesome for our families! It's been great talking with you too, take care."
+    }
+  ],
+  "post_game": []
+}

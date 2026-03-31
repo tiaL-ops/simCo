@@ -1,0 +1,19 @@
+{
+  "agent_id": "D",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt a particularly strong bond with B and J because we explicitly moved past small talk to form solid alliances, agreeing to stick together to protect our families' interests. E also stood out to me since we bonded over our similar working-class backgrounds and shared a clear understanding of the stakes involved. On the other hand, I felt the least connected to C; while we both value strategy over luck, our conversation felt more like a tactical assessment than a personal connection.\n\nI made informal agreements to look out for B, J, and E, viewing them as my primary allies heading into the game. I generally trust B the most right now because we were very direct about being each other's safety net in this high-pressure environment. While I don't explicitly distrust anyone yet, I am keeping my guard up with the others until I see how they handle the first round of competition."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "H": 4,
+    "E": 4,
+    "C": 4,
+    "F": 4,
+    "I": 4,
+    "B": 4,
+    "A": 4
+  }
+}

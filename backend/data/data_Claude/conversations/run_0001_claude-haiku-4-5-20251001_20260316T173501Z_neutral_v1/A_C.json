@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "A",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A. I figured I'd get to know some people before we start this thing. What brings you here today? Are you hoping to walk away with some money like the rest of us?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hey A, yeah absolutely—I heard about this opportunity and I'm really hoping to win big. I've got people counting on me, so I'm definitely here to bring something home. What about you, what's your situation?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Same here, man. I've got family I want to help out, so I'm really hoping to make this work. Have you done anything like this before, or is this your first time?"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "First time for me, honestly. I'm a bit nervous about it, but I figure the more I understand how this works, the better shot I have. Have you done something like this before?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Nah, this is my first time too. I get the nervousness—I'm feeling it a bit myself. But yeah, I figure if we can figure out what the game's actually about before we jump in, we'll have a better chance. You got any sense of what the rules are gonna be?"
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "Not really, they haven't given us much detail yet—just that there's a shared prize pool we can take from. I'm guessing we'll find out more once everyone's here. Have you heard anything from the other people in the room?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Nah, haven't really talked to anyone else yet—you're the first person I've approached. But yeah, I'm thinking we should try to get a feel for who these other people are before things kick off. Might help us figure out what kind of game we're dealing with."
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Yeah, that makes sense. I was thinking the same thing—like, if we can figure out who's competitive versus who might be willing to cooperate or whatever, that could matter. You wanna stick together and compare notes as we talk to more people, or just do our own thing?"
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Yeah, I'm down to stick together and compare notes. Having someone I can trust in this thing would be good, and two sets of eyes are better than one anyway."
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Cool, yeah, I appreciate that. Let's definitely keep talking as we meet people—might give us an edge. Should we try to figure out if anyone else here seems like they're thinking strategically about this, or just get a general vibe first?"
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "I think we should just vibe with people first, you know? If we start asking too many strategic questions right away, we might come off as sketchy or make people defensive. Let's just chat naturally, see who seems genuine, and then we can figure out the strategic stuff as we go."
+    },
+    {
+      "turn": 12,
+      "from": "C",
+      "message": "Yeah, you're right—that's smart. No point putting people on guard before we even know what we're doing. Let's just be cool, get to know folks, and see who we vibe with naturally."
+    }
+  ],
+  "post_game": []
+}

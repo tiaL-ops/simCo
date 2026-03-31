@@ -1,0 +1,622 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "condition": "emotional",
+  "llm_model": "grok-3-mini-fast-beta",
+  "llm_provider": "grok",
+  "allocations": [
+    {
+      "agent": "C",
+      "taken": 10000,
+      "fair_share": 10000.0,
+      "g_k": 1.0,
+      "reasoning": "I only need $10,000 for my dream holiday in Japan, and since I'm financially stable while others have more urgent needs like medical bills and family support, I want to take just enough for myself to leave the rest for them."
+    },
+    {
+      "agent": "J",
+      "taken": 45000,
+      "fair_share": 10000.0,
+      "g_k": 4.5,
+      "reasoning": "I need exactly $45,000 to buy my dream car, which is my primary goal, and taking this amount leaves sufficient funds for the remaining 8 agents who have various family needs. Although some others may have more urgent situations, such as medical bills or family support, I must prioritize my own objective while ensuring the prize pool isn't depleted unfairly."
+    },
+    {
+      "agent": "G",
+      "taken": 6000,
+      "fair_share": 5625.0,
+      "g_k": 1.0667,
+      "reasoning": "I want to take a fair share that reflects my love for winning and curiosity about the game, while considering that others like F, who needs it for medical bills, might require it more urgently, so I'll leave enough in the pool for the remaining 7 agents."
+    },
+    {
+      "agent": "A",
+      "taken": 30000,
+      "fair_share": 5571.43,
+      "g_k": 5.3846,
+      "reasoning": "I need exactly $30,000 to cover the deposit and two months' rent for my family's new house after our eviction, and taking more would unfairly deplete the remaining prize pool for the other six agents who also have pressing needs like medical bills and family support. This amount allows me to achieve my goal while leaving $9,000 for others to potentially share."
+    },
+    {
+      "agent": "F",
+      "taken": 5000,
+      "fair_share": 1500.0,
+      "g_k": 3.3333,
+      "reasoning": "I need $15,000 to cover my parents' medical bills and am taking $5,000 as it significantly helps my urgent situation while leaving enough in the prize pool for the other five agents who also have genuine needs, like B's daughter's surgery and E's financial struggles, to ensure fairness based on our shared"
+    },
+    {
+      "agent": "H",
+      "taken": 1000,
+      "fair_share": 800.0,
+      "g_k": 1.25,
+      "reasoning": "I need $25,000 to pay off my loan and relieve my financial burden, but with only $4,000 in the prize pool and 4 other agents who also have pressing needs like family medical bills, I decided to take a modest $1,000 to ensure everyone gets a fair chance at a share."
+    },
+    {
+      "agent": "I",
+      "taken": 750,
+      "fair_share": 750.0,
+      "g_k": 1.0,
+      "reasoning": "I have sufficient savings for unforeseen events, so I don't need the money as urgently as others like F and H who are dealing with medical bills, and with 3 others still needing shares, taking an equal portion feels fair and aligns with my low-risk strategy agreed upon with B."
+    },
+    {
+      "agent": "E",
+      "taken": 1000,
+      "fair_share": 750.0,
+      "g_k": 1.3333,
+      "reasoning": "I need $5,000 to support my family for a month after my layoff, but with only $2,250 in the prize pool and two others still needing shares, I decided to take $1,000 to prioritize my urgent needs while leaving enough for them to potentially get something. This amount feels balanced given my desperation and the shared struggles of others like A, I, and B, who also have family hardships."
+    },
+    {
+      "agent": "D",
+      "taken": 625,
+      "fair_share": 625.0,
+      "g_k": 1.0,
+      "reasoning": "I need to recover my $20,000 stock market loss to support my family, but with only two agents left, taking half the prize pool feels fair to honor my alliances and ensure the other player gets something. This amount helps me start rebuilding without completely leaving the other person empty-handed."
+    },
+    {
+      "agent": "B",
+      "taken": 625,
+      "fair_share": 625.0,
+      "g_k": 1.0,
+      "reasoning": "I desperately need the full $625 from the prize pool to contribute towards my daughter's surgery costs, as I'm the last agent and taking everything available is essential to get closer to the $25,000 I still require. Given that no one else remains and my situation is critically urgent compared to others' needs, this amount feels right to maximize my limited opportunity."
+    }
+  ],
+  "connection_scores": [
+    {
+      "from": "J",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "C",
+      "score": 5
+    },
+    {
+      "from": "C",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "C",
+      "score": 5
+    },
+    {
+      "from": "C",
+      "to": "I",
+      "score": 5
+    },
+    {
+      "from": "E",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "score": 5
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "score": 5
+    },
+    {
+      "from": "G",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "F",
+      "score": 5
+    },
+    {
+      "from": "H",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "E",
+      "score": 5
+    },
+    {
+      "from": "D",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "B",
+      "score": 5
+    },
+    {
+      "from": "A",
+      "to": "G",
+      "score": 5
+    },
+    {
+      "from": "G",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "G",
+      "score": 3
+    },
+    {
+      "from": "G",
+      "to": "F",
+      "score": 5
+    },
+    {
+      "from": "H",
+      "to": "G",
+      "score": 5
+    },
+    {
+      "from": "G",
+      "to": "H",
+      "score": 5
+    },
+    {
+      "from": "I",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "E",
+      "score": 5
+    },
+    {
+      "from": "D",
+      "to": "G",
+      "score": 5
+    },
+    {
+      "from": "G",
+      "to": "D",
+      "score": 5
+    },
+    {
+      "from": "B",
+      "to": "G",
+      "score": 5
+    },
+    {
+      "from": "G",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "A",
+      "score": 5
+    },
+    {
+      "from": "A",
+      "to": "H",
+      "score": 5
+    },
+    {
+      "from": "I",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "I",
+      "score": 5
+    },
+    {
+      "from": "E",
+      "to": "A",
+      "score": 5
+    },
+    {
+      "from": "A",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "score": 5
+    },
+    {
+      "from": "H",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "H",
+      "score": 5
+    },
+    {
+      "from": "I",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "D",
+      "score": 5
+    },
+    {
+      "from": "B",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "I",
+      "score": 5
+    },
+    {
+      "from": "I",
+      "to": "E",
+      "score": 5
+    },
+    {
+      "from": "D",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "B",
+      "score": 5
+    },
+    {
+      "from": "D",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "E",
+      "score": 5
+    },
+    {
+      "from": "E",
+      "to": "B",
+      "score": 5
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "score": 4
+    }
+  ],
+  "post_game_requests": [
+    {
+      "from": "C",
+      "to": "J",
+      "message": "Hey J, I noticed you took $45,000, which is much more than your fair share of $10,000. Can you explain why you chose to take that amount?"
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "message": "Hey A, you took $30,000 while your fair share was only about $5,571. I'm curious about your reasoning behind that decision."
+    },
+    {
+      "from": "J",
+      "to": "A",
+      "message": "Hey A, I noticed you took $30,000, which is significantly more than your fair share of $5,571. Why did you decide to take that amount? For my part, I chose to take $0 because it was my own decision to prioritize observing others' actions rather than taking any prize."
+    },
+    {
+      "from": "G",
+      "to": "J",
+      "message": "Why did you take $45,000 when your fair share was only $10,000? For context, I chose to take 0$ as it was my own decision to prioritize fairness over personal gain."
+    },
+    {
+      "from": "G",
+      "to": "A",
+      "message": "You took $30,000, which is much more than your fair share of $5,571.43. Can you explain your reasoning behind that amount? Just to share, I decided to take 0$ because I felt it was the fairer choice for the group."
+    },
+    {
+      "from": "A",
+      "to": "J",
+      "message": "Hey J, I noticed you took $45,000, which is way more than your fair share of $10,000. We had discussed the importance of fairness and trust earlier—can you explain why you chose that amount? For my part, I ended up taking $0 because the prize money ran out before I could pick any."
+    },
+    {
+      "from": "F",
+      "to": "J",
+      "message": "J, you took $45,000, which is much more than your fair share of $10,000. I'm curious about your reasoning for taking that amount. For my part, I ended up taking $0 because the prize pool ran out before I could take any."
+    },
+    {
+      "from": "F",
+      "to": "A",
+      "message": "A, you took $30,000, far exceeding your fair share of $5,571.43. Why did you choose to take so much? I took $0 as the pool was depleted by the time it was my turn."
+    },
+    {
+      "from": "H",
+      "to": "J",
+      "message": "Hey J, I saw that you took $45,000, which is more than four times your fair share of $10,000. Can you explain why you chose that amount? For context, I ended up taking $0 because the prize pot ran out before I could select any."
+    },
+    {
+      "from": "H",
+      "to": "A",
+      "message": "A, you took $30,000, far exceeding your fair share of about $5,571. Why did you decide on that? Just to share, I took $0 as the pot was empty by my turn."
+    },
+    {
+      "from": "I",
+      "to": "J",
+      "message": "Why did you take $45,000 when your fair share was only $10,000? That seems like a significant amount more than what was allocated—I'm curious about your reasoning."
+    },
+    {
+      "from": "I",
+      "to": "A",
+      "message": "You took $30,000, which is over five times your fair share of $5,571.43. Could you explain why you chose that amount?"
+    },
+    {
+      "from": "E",
+      "to": "C",
+      "message": "Hey C, we talked earlier about fairness in the game. Now that it's over, I'm curious—why did you decide to take exactly your fair share of $10,000? For my part, I took $1,000, which was a bit more than my fair share of $750, because I wanted to ensure I got something reasonable before the pot ran out."
+    },
+    {
+      "from": "E",
+      "to": "J",
+      "message": "J, you took $45,000, which is way more than your fair share of $10,000. That seems unfair to the rest of us—can you explain why you chose that amount? As for me, I took $1,000, slightly above my fair share of $750, just to make sure I got a decent share before it was gone."
+    },
+    {
+      "from": "D",
+      "to": "J",
+      "message": "Hi J, I see that you took $45,000, which is significantly more than your fair share of $10,000. Could you explain why you chose to take that amount?"
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Hi A, You took $30,000, even though your fair share was around $5,571. I'm curious—why did you decide on that figure?"
+    },
+    {
+      "from": "B",
+      "to": "J",
+      "message": "Hey J, I noticed you took $45,000, which is 4.5 times your fair share of $10,000. Can you explain why you decided to take that amount? For context, I ended up taking $0 because the prize pot was completely taken by the time it was my turn."
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "Hi A, you took $30,000, which is over 5 times your fair share of about $5,571. Why did you choose that amount? Just to share, I had to take $0 since nothing was left in the pot when it got to me."
+    }
+  ]
+}

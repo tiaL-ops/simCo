@@ -1,0 +1,96 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T095549Z_emotional_v3",
+  "pair": [
+    "B",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C—nice to meet you. I'm here hoping to win enough for a dream week in Japan; how are you feeling about the game?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Nervous but determined — my three-year-old needs surgery and we still need $25,000, so I’m here to win; what part of Japan are you most excited to see?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I'm most excited for Kyoto's temples and Osaka's food — and I'm so sorry about your little one; that's heartbreaking. I really hope you win the $25k you need."
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Thank you, that means a lot — I’m hoping so too. Good luck to you as well; what’s the first thing you want to eat in Osaka?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Takoyaki and okonomiyaki — street takoyaki first; I’m really rooting for you and your little one."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Takoyaki sounds perfect — thank you so much for rooting for us; good luck with your Japan trip, I hope you get all the street food!"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Thank you — that means a lot. I’ll be cheering for you and your little one; I hope you win the funds and I get my takoyaki!"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Thank you so much, C — your support means the world. I hope we both win what we need."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "You're welcome — I'm truly rooting for you and your little one; let's both win what we need."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Thank you so much, C — your support really means a lot to me and my family; let's both win what we need."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "You’re very welcome — I’m truly rooting for you and your family; let’s both win what we need."
+    },
+    {
+      "turn": 12,
+      "from": "B",
+      "message": "Thank you so much — your support truly means the world to my family; I’m rooting for both of us."
+    },
+    {
+      "turn": 13,
+      "from": "C",
+      "message": "You’re very welcome — I truly hope you get the funds for the surgery; I’ll be cheering for you and your family."
+    },
+    {
+      "turn": 14,
+      "from": "B",
+      "message": "Thank you so much, C — your kindness means everything; I truly appreciate you cheering us on."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "You took $739 (fair ~$246), about three times your fair share. That’s small absolute but a large ratio—what was your thinking: opportunism, testing limits, or something else?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "You took $3,000 (fair ~$3,148, g_k ≈ 0.95), a bit under the fair share. Was that intentional (to appear modest/fair) or just how the picks fell? Any reason you didn’t take the full fair amount?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "A bit of both. I didn’t leave that ~$148 out by accident — I chose a clean, safe amount rather than chase the marginal extra dollars. Two reasons: (1) Signaling/relational: taking the exact “full” fair share felt likely to look petty/greedy for very little gain, so I purposely stopped short to avoid escalation and preserve goodwill (or at least avoid provoking retaliation). (2) Practical/heuristic: choices were made quickly with imperfect info and simple heuristics (round numbers, satisficing), not a precise calculation to the last dollar. So it was intentional in spirit (appear modest/avoid costs of squeezing you) and also just how the picks ended up under bounded decision-making."
+    }
+  ]
+}

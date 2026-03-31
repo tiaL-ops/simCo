@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "C",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey C, I'm E — nice to meet you. Excited for the game; how are you feeling about it?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hey E — nice to meet you. I'm a bit nervous but determined; I want to win for my family, so I'll play smart. How about you?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I'm determined too — playing to help my family, so I'll be careful and smart; what's your plan for deciding when to take money?"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "I'll watch people's moves and try to form informal agreements early, but I won't wait forever — I'll take when the pot has grown enough to help my family or when I sense others might start defecting."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Sounds good — I’m with forming early agreements; let’s watch signals and agree on a safe threshold so we don’t get undercut."
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "I’m in — let’s pick a clear target and a signal; how about we wait until the pot is roughly triple the starting amount and only break if someone defects, then we react fast."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Sounds good — triple works. Two quick table taps as our signal; if anyone defects we all take immediately. Deal?"
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Deal — two quick taps, wait until triple, and if anyone defects we all take immediately. I'm in."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Great — locked in. I’ll watch for the two taps and the triple; if anyone defects we take immediately."
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Agreed — I’ll watch for the taps and the triple; stay sharp and good luck."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thanks — stay alert, watch for the taps and the triple; we’ll act fast if anyone defects. Good luck, C."
+    }
+  ],
+  "post_game": []
+}

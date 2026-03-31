@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "E",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey! I'm J. First time doing something like this, honestly pretty nervous but also excited. You been in one of these games before, or are you new to this too?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey J, nice to meet you. Yeah, this is my first time too. I'm pretty nervous myself, to be honest—I really need this win. What brought you here?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Yeah, I get that—there's definitely some pressure here. Honestly, I've been dreaming about getting a new car, a really nice one that costs 45 grand, and I figured if I could win something here, that'd be a huge step toward making it happen. But it's not just about me, you know? I want to help out the people I care about too. What about you—what do you need the money for?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "I hear you on wanting to help people you care about—that's what matters most. Honestly, I just lost my job in finance, so I'm the only one bringing money home for my family of five right now. I need about five grand just to get us through the next month while I'm job hunting. A car would be nice someday, but right now I'm just focused on keeping a roof over our heads and food on the table, you know?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Man, that's tough—I'm really sorry to hear about the job situation. Five grand for your family's basics is way more important than my car dream, honestly. That's a lot of pressure on your shoulders right now. Have you got any leads on new positions, or are you still in the early stages of the search?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Thanks for understanding, man—I appreciate that. I've got a couple of interviews lined up for next week, so there's some hope there. But honestly, those things take time, and my family can't wait. That's why I'm here trying to make something happen now. How are you feeling about the game itself—do you have any strategy in mind?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Honestly, I'm still figuring it out—I don't really know what to expect yet. But hearing about your situation, I'm thinking we should all try to be smart about this. Have you heard anything about how the game actually works, or are we all going in blind?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Yeah, I'm pretty much going in blind too, honestly. All I know is there's a shared prize pool and we get a chance to take money from it at some point. I'm hoping once we get more details, it'll become clearer what the best move is. You thinking we should try to coordinate with people, or just play it as it comes?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "I think coordinating could help us all, honestly—especially knowing what you're going through. But I'm also realistic that people might look out for themselves when the moment comes. Maybe we just stay honest with each other about what we need and see what happens when the game starts?"
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Yeah, I think you're right—staying honest is probably our best bet. I appreciate that you get it, and I'm not gonna lie, knowing there are people in here who actually care about doing right by each other makes this feel a little less cutthroat. Let's just be real with each other when the time comes."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Absolutely, man. I really mean that—we're in this together, and I've got your back. Good luck with those interviews next week, seriously. Let's both walk out of here with something we can feel good about."
+    }
+  ],
+  "post_game": []
+}

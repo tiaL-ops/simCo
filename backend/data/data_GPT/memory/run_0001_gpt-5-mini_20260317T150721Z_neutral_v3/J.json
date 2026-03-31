@@ -1,0 +1,19 @@
+{
+  "agent_id": "J",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to C, D, and E. With C we built a concrete cooperation plan—logging contributions and splitting proportionally after a few rounds—which made me feel confident about teaming up. D matched my preference for a tight, observant alliance and we even divided outreach roles (I’d handle Sam, D would approach Mira), so our strategy felt aligned. E was consistently supportive and offered to watch each other’s backs, which felt reassuring going in.\n\nI made explicit agreements with C (the contribution log and proportional split) and a tactical agreement with D to form a small, discreet alliance, and I committed to mutual support with E. I trust C and D most right now for their clear plans, and while I don’t have anyone I actively distrust yet, I’ll stay cautious with more surface-level reads like B until I see their moves."
+  },
+  "connection_scores": {
+    "G": 4,
+    "H": 4,
+    "E": 5,
+    "C": 5,
+    "F": 5,
+    "I": 4,
+    "B": 4,
+    "D": 5,
+    "A": 5
+  }
+}

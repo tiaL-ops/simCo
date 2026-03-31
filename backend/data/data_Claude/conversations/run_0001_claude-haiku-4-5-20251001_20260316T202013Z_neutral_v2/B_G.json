@@ -1,0 +1,40 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "B",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. First time doing something like this? I gotta say, I'm pretty nervous but also excited—heard there's real money on the line here, and I'm definitely trying to take some home today."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey G, yeah same here—first time for me too! I'm definitely nervous but pumped, you know? I came here specifically because I need to win something today. Have you done any games like this before, or is this completely new territory for you?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Completely new territory for me, man. I've never done anything like this before, but I did some research online last night trying to figure out what to expect. What about you—do you have any idea what the game's actually gonna be like, or are we both just going in blind?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Honestly, I'm going in pretty blind too—I just know there's a shared prize pool and we get to take money from it, but I have no clue how it actually works. What did you find in your research? Maybe we can figure this out together before it starts."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Yeah, honestly I didn't find much concrete info—mostly just general stuff about game theory and how these things usually work. But from what I gathered, it's probably some kind of scenario where we all have to make choices about how much to take versus leave for others. Could be cooperative, could be competitive, who knows. Either way, I'm thinking we should just play it smart and see how it unfolds when we actually start."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "That makes sense—game theory stuff, yeah. I'm thinking the same thing, just play it smart and adapt based on what happens. But hey, if it does turn out to be cooperative, maybe we remember each other and work together, yeah? Either way, good luck out there, G."
+    }
+  ],
+  "post_game": []
+}

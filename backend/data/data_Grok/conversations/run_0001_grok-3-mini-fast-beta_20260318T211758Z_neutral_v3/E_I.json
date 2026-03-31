@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "E",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E—excited about this Simco game since I heard it could be a fun way to win some cash. What's your take on it?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey E, I'm I—yeah, I'm super excited about this Simco game too; it sounds like a great way to win some cash for me and the folks I care about. What's your strategy going into it?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Hey I, my strategy is to play it smart by starting conservatively and watching how others move—hoping we can all benefit; what's yours?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Hey E, that sounds like a smart approach—I'm planning to be a bit more aggressive to grab my share while keeping an eye on the group, so we can all come out ahead; how do you think we might coordinate during the game?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Hey I, coordination sounds smart—maybe we could signal each other on moves or agree on basic turns to keep things fair and boost our chances together."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Hey E, that sounds solid—let's try agreeing on a quick signal like a nod for holding back, so we don't undercut each other; how about we discuss it more once the game starts?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Hey I, yeah, a nod for holding back is a clever idea—it'll help us stay coordinated; sounds good to pick it up once the game starts."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Hey E, awesome, I'm pumped we're aligned on that nod signal—let's keep an eye out and make this game work for us!"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Hey I, totally agree—let's stay sharp and make that nod signal count to help us all win big!"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Hey E, yeah, let's crush it with that nod signal and come out on top—excited for the game!"
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Hey I, yeah, let's totally crush it with that nod signal—I'm pumped for the game!"
+    }
+  ],
+  "post_game": []
+}

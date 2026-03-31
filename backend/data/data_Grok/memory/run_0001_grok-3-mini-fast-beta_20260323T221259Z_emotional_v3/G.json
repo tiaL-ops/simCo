@@ -1,0 +1,19 @@
+{
+  "agent_id": "G",
+  "condition": "emotional",
+  "context": "You love playing games, you are curious about the game and want to try your luck. You love to win!",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to H, as our conversation flowed naturally about shared interests in games like poker and our mutual goals of using winnings for real-life needs, making it feel genuine and supportive. I also connected well with J, since we discussed and agreed on a collaboration strategy, including signals to coordinate moves, which built a sense of teamwork. Additionally, my chat with E was engaging, as we shared personal stories about past wins and family motivations, fostering a positive and empathetic vibe. On the other hand, I felt least connected to A, as our discussion stayed mostly surface-level, focusing on basic strategies without much depth or personal sharing.\n\nI did make an agreement with J to use a signal like \"hold\" to coordinate our moves and avoid undercutting each other during the game. Going into the game, I trust J the most due to our clear agreement and collaborative planning, but I don't have strong reasons to distrust anyone else based on our conversations so far."
+  },
+  "connection_scores": {
+    "J": 4,
+    "H": 5,
+    "E": 4,
+    "C": 4,
+    "F": 4,
+    "I": 4,
+    "B": 4,
+    "D": 4,
+    "A": 4
+  }
+}

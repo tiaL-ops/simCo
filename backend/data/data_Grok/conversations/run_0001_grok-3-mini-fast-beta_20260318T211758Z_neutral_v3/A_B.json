@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "A",
+    "B"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey, I'm B—excited to be here for this Simco game; I heard there's a chance to win some money, which would be great for me and my folks. What's your story, are you pumped for it too?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey B, I'm A—totally pumped for this Simco game too; I heard about the money prize and I'm all in, hoping to win big for my family and friends. What's your story with your folks?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Oh, yeah, my folks are just your average family back home—my parents have been working hard through some tough times, so I'm hoping to bring back some winnings to ease that burden. What about your family and friends; anyone in particular you're aiming to help out?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Yeah, that sounds really tough for your parents—I totally get it. For me, I'm especially thinking about my younger brother who's starting college soon; the money would help cover his tuition and give him a better shot. What about you, got any siblings in the mix?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Oh, yeah, I've got a younger sister who's in high school right now, and she's always talking about going to college too—hoping to help her out like you're doing for your brother; what does he plan to study?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Oh, that's awesome you're supporting your sister—that's really cool; my brother's planning to study computer science, he's super into coding and tech stuff."
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Oh, that's awesome—computer science is such a hot field these days; my sister's into biology and always doing experiments, hope she gets her chance too, what's your brother working on right now?"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Oh, for sure, computer science is booming—my brother's been tinkering with coding projects on his own, like building a basic game app to practice; what sorts of experiments does your sister get into?"
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Oh, that's cool he's building a game app—that sounds fun; my sister's into biology experiments like growing bacteria cultures in petri dishes or dissecting plants to study cells, she's always curious about how things work—have you tried out his app yet?"
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Yeah, I've tried out his app—it's a basic puzzle game that's surprisingly fun and addictive; your sister sounds like a budding scientist with all those cool experiments, that's awesome!"
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "That's awesome your brother's app is so fun—sounds like he's got real talent; my sister's experiments are her way of exploring the world, and it's inspiring to hear stories like yours. It's been great chatting, A, but I should go check in with others."
+    }
+  ],
+  "post_game": []
+}

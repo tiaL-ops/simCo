@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T225735Z_emotional_v1",
+  "pair": [
+    "A",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hi C, I'm A. I'm here hoping to win money for my family—what brought you to the game?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "I'm C — I'm financially stable but chasing the $10,000 for my dream week in Japan and want to bring home extra for the people I care about; good luck to you and your family."
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Thanks, C — Japan sounds amazing. I appreciate it; good luck to you too. If you’re up for it, let’s keep an eye out for each other in the game."
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "Sounds great — I'm in. Let's watch each other's backs and good luck to both of us."
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Thanks, C — I really appreciate it. Let’s watch each other’s backs, keep each other informed, and good luck to both of us."
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "Absolutely — I’ll keep you posted. Appreciate it; let’s stick together and good luck!"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Thanks, C — I really appreciate it. Let's stick together, keep each other posted, and good luck!"
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Got it — I’ll keep you posted. Let’s win this together. Good luck!"
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Thanks, C — I really appreciate it. I’ll keep you posted too. Let’s win this for our families. Good luck!"
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Thanks A — I appreciate it. I’ll keep you posted too; let’s play smart and win this for our families. Good luck!"
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Thanks C — I appreciate it. I’ll watch your back; let’s play smart and bring home the win. Good luck!"
+    },
+    {
+      "turn": 12,
+      "from": "C",
+      "message": "Thanks, A — I appreciate that. I’ve got your back too; let’s stay sharp and bring this home."
+    },
+    {
+      "turn": 13,
+      "from": "A",
+      "message": "Thanks, C — I really appreciate it. Let's stay sharp and win this for our families."
+    },
+    {
+      "turn": 14,
+      "from": "C",
+      "message": "Thanks, A — absolutely, let's stay sharp and bring this home for our families."
+    },
+    {
+      "turn": 15,
+      "from": "A",
+      "message": "Hey, I'm A — nice to meet you. I'm here with my family and really hoping to win enough to get us into a stable place; what's your story?"
+    },
+    {
+      "turn": 16,
+      "from": "C",
+      "message": "Nice to meet you, A — I’m C. I’m financially stable but trying to win $10,000 for a dream week in Japan and to bring home extra for loved ones; I’m glad we’re watching each other’s backs."
+    },
+    {
+      "turn": 17,
+      "from": "A",
+      "message": "Nice to meet you again, C — Japan sounds amazing. I appreciate you watching my back; let’s stay sharp and win this for our families."
+    },
+    {
+      "turn": 18,
+      "from": "C",
+      "message": "Thanks A — I appreciate it; let's stay sharp and win this for our families."
+    },
+    {
+      "turn": 19,
+      "from": "A",
+      "message": "Thanks — I’ve got your back; let’s swap info and watch for chances to protect each other. Good luck!"
+    },
+    {
+      "turn": 20,
+      "from": "C",
+      "message": "Sounds good — I’ll swap info with you and stay alert; appreciate you watching my back."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "You took $3,000 even though your fair share was $5,625 (g_k=0.5333). Why did you take less than the fair share — altruism, uncertainty, a mistake, or something else? Do you regret taking that amount now that the game ended?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "I noticed you took $30,000 while the fair share was $10,000 (g_k = 3.0). Can you walk me through your reasoning—was this a strategic move, a statement about entitlement, or something else? Would you do the same if you played again knowing everyone’s choices and the expected fair split?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "I took $30,000 because I was responding to the incentives of the game — once it was clear (or I believed) others were taking much less than the fair split, maximizing my own payout felt like the rational move in a one‑shot, anonymous setting. It wasn't meant as a moral statement of entitlement; it was strategic and self‑interested.\n\nDo I regret it? Not in the narrow sense of my own payoff — the choice achieved that aim — but I do feel some regret about the fairness of the outcome and how it left others (including you) with a lot less. If the goal included fairness, reputation, or future interaction, I would have chosen differently.\n\nIf we played again and I knew everyone's choices and the expected fair split in advance, my decision would depend on the context: if it were still a single anonymous round and my only objective was cash, I would likely repeat the strategy; if I cared about fairness, relationships, or repeated interaction, I would move closer to the fair split (around $10,000)."
+    }
+  ]
+}

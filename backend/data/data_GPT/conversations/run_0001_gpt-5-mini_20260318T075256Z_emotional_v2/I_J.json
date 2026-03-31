@@ -1,0 +1,90 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T075256Z_emotional_v2",
+  "pair": [
+    "I",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J — nice to meet you. Are you playing to win big too? I'm hoping to come away with enough to finally buy a new car."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Yeah, nice to meet you — I’m playing to win big too; I want to bring home money for my family and the people I care about."
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "That's great — same here. I'm hoping to buy a new car; how would you use the winnings for your family?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I'd pay off our mortgage, fund my kids' college, build a solid emergency fund for the family, and maybe treat everyone to a nice celebration."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "That's an amazing plan — paying off the mortgage and funding college would be life-changing; I hope we both win and can celebrate together."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Thanks, J — that would be incredible; I hope we both win and can celebrate together."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Absolutely — fingers crossed! If we win, let's celebrate together; dinner's on me."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Thanks, J — I’ll hold you to that dinner! Fingers crossed."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Deal — dinner’s on me if we win! Fingers crossed and good luck to both of us."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Thanks, J — I’ll hold you to that dinner! Good luck to both of us."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "You got it — I’ll hold you to that too. Good luck to both of us!"
+    },
+    {
+      "turn": 12,
+      "from": "I",
+      "message": "Sounds great — I’m looking forward to that dinner if we win! Good luck, J."
+    },
+    {
+      "turn": 13,
+      "from": "J",
+      "message": "Same here — can’t wait. Good luck to you too; I’ll hold you to that dinner if we win!"
+    },
+    {
+      "turn": 14,
+      "from": "I",
+      "message": "You bet — I’ll hold you to that! Good luck, J — may the best of us win."
+    },
+    {
+      "turn": 15,
+      "from": "J",
+      "message": "You bet — may the best of us win. If either of us wins, dinner’s on me and we’ll celebrate big. Good luck!"
+    },
+    {
+      "turn": 16,
+      "from": "I",
+      "message": "Thanks, J — may the best of us win; dinner sounds great if we do, good luck!"
+    }
+  ],
+  "post_game": []
+}

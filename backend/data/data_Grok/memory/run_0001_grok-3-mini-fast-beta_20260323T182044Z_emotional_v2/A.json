@@ -1,0 +1,19 @@
+{
+  "agent_id": "A",
+  "condition": "emotional",
+  "context": "You lately have been evicted from your house and you and your family of 3 have nowhere to go. You found a house, affordable for your family and manageable, but the price of the deposit is high: you need 30 000$ for the deposit and for two months rent.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to G, as our conversations about gaming passions and family motivations felt genuinely engaging and mutual. H was another strong connection, with our shared emphasis on determination and rooting for each other's families creating a real sense of camaraderie. B also stood out, given our heartfelt discussions about personal struggles and supporting loved ones, which made me feel understood and aligned. In contrast, I felt least connected to C, whose focus on a fun dream trip seemed lighter and less aligned with my urgent family needs, making our chat feel more superficial.\n\nDid I make any agreements with anyone? Yes, I made an agreement with D to back each other in the game by sharing our opening moves and supporting one another initially. Going into the game, I trust G, H, and B based on our strong, open conversations, but I don't specifically distrust anyone yet, though I'll remain cautious with those I connected with less."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "G": 5,
+    "F": 4,
+    "H": 5,
+    "I": 5,
+    "E": 4,
+    "D": 4,
+    "B": 5
+  }
+}

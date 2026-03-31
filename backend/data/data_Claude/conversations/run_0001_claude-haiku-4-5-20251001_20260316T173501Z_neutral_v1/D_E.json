@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "D",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D. First time doing something like this? I'm pretty nervous but excited — figured I'd get to know some people before we start. What brings you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey D, nice to meet you! Yeah, first time for me too. Honestly, I heard about the money opportunity and I really need to win something here — got people counting on me back home. I'm nervous but trying to stay positive. What made you decide to come?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Same here, man — got people depending on me too. That's actually what pushed me to sign up. I figure if there's a real shot at some money, I gotta take it. Sounds like we're in similar boats. You got any idea what the game's actually gonna be like?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Nah, they didn't really explain the details—just said it involves a shared prize pool and we'll get a chance to take money from it. Kinda vague, right? I'm guessing it's some kind of strategy thing. You think it's better to go in with a plan or just see how it plays out?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "I think having some kind of plan is smart, but yeah, we're flying blind right now. My gut says it might be about timing—like, do we all grab at once or take turns? Either way, I'm thinking we should watch what happens first, see if people cooperate or go for themselves, then adjust. What's your instinct telling you?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Yeah, I like that approach—playing it smart rather than desperate. My gut says the same thing, honestly. I'm thinking if everyone just rushes in, we all lose. But if some people cooperate while others don't... that's where it gets tricky. Maybe we should try to feel out who's willing to work together before things kick off?"
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "That's smart thinking. Yeah, I'm gonna try talking to a few more people, see who seems genuine about cooperating versus who's just looking out for themselves. Maybe we can at least get a sense of who we might be able to trust when things get real."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Answer_to_E_from_D: Yeah, good idea. Hey, if you figure anything out from talking to people, let me know—I'll do the same. We might be able to help each other out when it actually starts."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Definitely, I'll keep my eyes open and circle back with you. And hey, I appreciate that—feels good to know I'm not in this completely alone."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Yeah, same here man. Good luck talking to the others—I'll do the same and we'll compare notes. Appreciate you being straight with me about this."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "For sure, man. Let's touch base before things start—I got a good feeling about working with you. Good luck out there."
+    }
+  ],
+  "post_game": []
+}

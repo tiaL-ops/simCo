@@ -1,0 +1,91 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "A",
+    "B"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A—nice to meet you. I'm here because I really need to win some money for my family after we got evicted, and this game seems like our best shot. What about you, what's bringing you into all this?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey A, I'm B—nice to meet you too. I'm in a real bind; my three-year-old daughter needs surgery, and I'm scrambling for the cash after maxing out loans and selling everything. What's your family's story with the eviction?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Oh, B, that breaks my heart about your daughter—I really hope you get the money for her surgery soon. As for us, we got evicted 'cause my hours at work got slashed and we couldn't cover the rent anymore; it's just me, my spouse, and our little one, and we're scrambling to afford a new place with a big deposit upfront. Hang in there, man—what kind of surgery does she need?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Thanks, A, that means a lot—it's been tough. She's got a heart defect that needs fixing, and we're hoping this fixes it for good. How's your little one holding up through all this?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Oh man, that's so rough—I can't imagine the worry you're going through with her heart surgery. My little one's trying to stay strong, but it's been hard on them; they're scared about not having a stable home, and we're doing our best to keep things upbeat for 'em. How are you holding up yourself through all this stress?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "It's been brutal, A—I'm barely sleeping and the worry's eating at me, but I'm staying strong for my daughter and keeping hope in this game; how are you coping with all the uncertainty yourself?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Hey B, I totally get it—it's exhausting dealing with that constant worry, but it's awesome you're staying strong for her; I'm coping by leaning on my spouse for support and focusing on small wins like prepping for this game, though some days it's really overwhelming—what's helping you push through right now?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Thanks, A, it's rough for sure, but what's helping me push through is thinking about my daughter's future and how winning this game could change everything—keeps me focused; what's your go-to for those overwhelming days?"
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Yeah, for those overwhelming days, I lean on my spouse for a good talk and try to focus on small things like planning for this game—it keeps me grounded; what's been your main motivator besides your daughter's future?"
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Besides my daughter's future, it's the support from my family and friends that keeps me going—they remind me I'm not alone in this fight."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Hey B, that's really inspiring—family and friends can make all the difference in tough times, and I'm glad you've got that support; it's been great chatting with you, and I hope we both pull through for our loved ones."
+    },
+    {
+      "turn": 12,
+      "from": "A",
+      "message": "Hey B, I'm A and I'm pretty nervous about this game since I need to win some cash for my family—we've just been evicted and are scrambling for a new place. What's your reason for being here?"
+    },
+    {
+      "turn": 13,
+      "from": "B",
+      "message": "Hey A, it's me, B—we've already chatted about this, but I'm here for my three-year-old daughter's heart surgery to cover the costs. Hope you nail this for your family too."
+    },
+    {
+      "turn": 14,
+      "from": "A",
+      "message": "Hey B, yeah, we've definitely connected over our stories—I'm pulling for you and your daughter big time, and thanks for the well-wishes; let's both crush this for our families."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hi A, you took $30,000, which is over 5 times your fair share of about $5,571. Why did you choose that amount? Just to share, I had to take $0 since nothing was left in the pot when it got to me."
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hi B, I understand you're upset about the amount I took. In the game, I decided to go for $30,000 because I wanted to maximize my earnings early on, thinking it was a strategic move. I didn't mean to leave you with nothing – that wasn't my intention. Sorry you ended up with $0; that's tough. How are you feeling about the game overall?"
+    }
+  ]
+}

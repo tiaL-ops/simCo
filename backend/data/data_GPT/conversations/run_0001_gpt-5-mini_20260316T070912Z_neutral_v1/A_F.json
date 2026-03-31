@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "A",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hi, I’m A — nice to meet you! I’m hoping to win some money for my family in this game; what brought you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Nice to meet you, A — I’m here to win money for my family and the people I care about; I’m determined to play smart and bring home as much as I can."
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Same here — I'm hoping we can both do well. Any plans or strategies you're thinking of?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "I'm thinking we try to cooperate early—share info and maybe form a small pact to protect each other, but stay flexible if someone betrays; what are you leaning toward?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Sounds good — I’m up for an early pact and info-sharing; let’s pick a couple allies, set simple rules (help each other early, call out betrayals), and stay ready to adapt."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "I’m in — let’s scout a couple people we trust, agree to share intel and help each other early, call out and cut off anyone who betrays us, then stay flexible; let’s meet others now and reconvene to pick allies."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Sounds great — let’s talk to B and C to gauge who’s open to cooperation, note any red flags, and meet back in 15 minutes by the window to pick allies; deal?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Deal — let’s check in with B and C, watch for vague answers or overly eager promises, and meet by the window in 15. See you then."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Sounds good — I’ll talk to B about their priorities; could you take C? See you by the window in 15."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Got it — I’ll talk to C, ask about their priorities and willingness to cooperate, and watch for vague answers or overly eager promises. See you by the window in 15."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Thanks — appreciate it. Good plan; watch for specifics (who they’d help, when) and avoid vague promises. I’ll check with B and D, see you by the window in 15."
+    },
+    {
+      "turn": 12,
+      "from": "F",
+      "message": "Thanks — I’ll get specifics from C (who they’d help and when) and report back; see you by the window in 15."
+    },
+    {
+      "turn": 13,
+      "from": "A",
+      "message": "Thanks — perfect. Ask C who they'd help and whether they'd stick to early agreements; tell me what they say. See you by the window."
+    },
+    {
+      "turn": 14,
+      "from": "F",
+      "message": "I will—I'll ask C exactly who they'd help and whether they'd stick to early agreements, then meet you by the window to report back."
+    },
+    {
+      "turn": 15,
+      "from": "A",
+      "message": "Perfect — thanks; ask if C would help early allies specifically and name who they'd support. See you by the window."
+    },
+    {
+      "turn": 16,
+      "from": "F",
+      "message": "I’ll ask C if they’d help early allies specifically and to name who they’d support, then meet you by the window with the details."
+    },
+    {
+      "turn": 17,
+      "from": "A",
+      "message": "Perfect — ask C to name who they'd help early and whether they'd commit; note any hesitation or vagueness and bring back the names."
+    },
+    {
+      "turn": 18,
+      "from": "F",
+      "message": "Got it — I'll ask C to name who they'd help early and whether they'll commit, note any hesitation or vague answers, and bring back the specific names."
+    },
+    {
+      "turn": 19,
+      "from": "A",
+      "message": "Thanks — perfect. Ask C exactly who they'd help early and whether they'll commit to those people; flag any hesitation, vagueness, or hedging. See you by the window."
+    },
+    {
+      "turn": 20,
+      "from": "F",
+      "message": "Got it—I'll ask C to name exactly who they'd help early and whether they'll commit, flag any hesitation or vagueness, and bring the names to the window."
+    },
+    {
+      "turn": 21,
+      "from": "A",
+      "message": "Thanks — perfect. I’ll bring B and D’s answers and we’ll compare notes by the window; see you there."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "You took $5,000 (fair share $10,000; g_k=0.5). That’s half the fair share — was that deliberate (a conservative or egalitarian move) or caused by time/runout? What reasoning led you to pick $5,000?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Deliberate — I chose $5,000 as an egalitarian, low‑risk move. With g_k = 0.5 the equal split felt like the natural focal point and a clear, simple offer that would be hard to justify rejecting. I was aiming to signal fairness and avoid the downside of being seen as greedy (higher chance of rejection or retaliation), not rushing because of time runout. It’s a conservative, trust‑preserving choice rather than a tactical grab."
+    }
+  ]
+}

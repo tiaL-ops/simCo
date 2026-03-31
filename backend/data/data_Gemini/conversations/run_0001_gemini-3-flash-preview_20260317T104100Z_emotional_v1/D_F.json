@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "pair": [
+    "D",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I’m D. It’s a bit of a heavy atmosphere in here, isn't it? What brings you to a game like this?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey D, I'm F. It really is. I'm just here to try and help my parents; their medical bills have become more than I can handle alone. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "I’m sorry to hear about your parents, that’s a lot to carry. I’m here because I made a bad bet on the market and lost a huge chunk of money yesterday—I need to win this to set things right for my family."
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "That sounds incredibly stressful, D; the market can be so unforgiving. It seems we’re both carrying a lot of weight for our families right now."
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "It really is. I just want to make things right again and get back what I lost. Have you heard anything about how this game actually works?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Honestly, I’m in the dark too. I just know there’s a prize pool and I’m hoping it’s something we can both benefit from."
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "I really hope it’s not a winner-takes-all situation; if there’s a way for us to help each other out and both get what we need, I’m definitely in."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "I’m with you on that; if there’s a way for us to both walk away with what we need without sabotaging each other, I’d much prefer to work together."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Absolutely, let's stick together then; it's much better to have an ally in a room full of strangers."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "I agree, it’s a relief to have someone to trust. Let's look out for each other when the game starts."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Definitely. Let's keep our heads clear and make sure we both walk out of here with what we need; I'm glad I found an ally."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "You took $15,000, which was triple your fair share at the time. Why did you take so much when there was so little left?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "I took that amount to ensure I secured a strong return for myself. In a competitive setting, my priority was to maximize my own earnings when the opportunity arose."
+    }
+  ]
+}

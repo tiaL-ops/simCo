@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "E",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hi F, I'm E – nice to meet you. I'm here because I recently got laid off and need to win some cash to support my family; what brought you to this game?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hi E, nice to meet you too—sorry about the layoff, that sounds really tough. I'm here to win money for my elderly parents' medical bills, as they're relying on me and I'm still short. What kind of job were you in before?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Thanks, F, I really appreciate your sympathy—it means a lot right now. Yeah, I was in finance, working as an analyst in investments, but the layoff hit us hard. That must be stressful with your parents' medical bills; what kind of work do you do to help them?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Oh, absolutely, it's been really stressful—I'm a freelance graphic designer, which helps a bit but doesn't cover everything; how have you been managing since the layoff?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Yeah, freelancing sounds unpredictable and tough—I'm sorry you're dealing with that. Since the layoff, I've been scrambling to apply for jobs daily, but with no savings and a family of five depending on me, we're just getting by day by day; how are you coping with the medical bills right now?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Oh, man, that sounds so overwhelming with a family of five—I'm really sorry you're in that spot. As for me, I'm hustling with extra freelance gigs and cutting corners wherever I can, but the bills keep piling up; it's scary not knowing if I'll make it. Have you had any leads on job applications lately?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Yeah, it is overwhelming—thanks for the sympathy, F. I haven't had any solid leads on jobs yet, but I'm pushing through the applications every day. How have those extra freelance gigs been working out for you lately?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Oh, yeah, it's been a mixed bag with the gigs—I've landed a few more clients lately, but they're not steady enough to make a big dent; what about you, have you considered side gigs or temp work while job hunting?"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Yeah, I've definitely thought about side gigs or temp work to tide us over, but with job applications eating up my time and taking care of the family, I haven't jumped in yet—it's all I can handle right now; do you have any advice on how to make that work without burning out?"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Yeah, I totally understand—burning out is a real risk when you're stretched thin like that. From my freelancing hustle, I'd say start small with one side gig that fits your schedule, set strict boundaries like dedicated family time, and build in short breaks to recharge; it helps a lot to avoid overload."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thanks a lot, F, your advice on starting small and setting boundaries really resonates—I'll give it a shot to keep things manageable without overwhelming myself. Appreciate the support; it's been great talking."
+    }
+  ],
+  "post_game": []
+}

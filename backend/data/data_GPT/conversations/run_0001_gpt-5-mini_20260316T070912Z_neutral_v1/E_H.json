@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "E",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey H, I'm E — nice to meet you. I'm hoping to win some money for my family; what brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Nice to meet you, E — I'm here to win money for my family and the people I care about; I need to help cover bills and support them."
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I hear you — bills are stressful. I'm here for my family too. What are the biggest expenses you're trying to cover?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Mostly rent and utilities, my kids' childcare and school costs, plus some medical bills and debt I need to pay down."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "I'm sorry to hear that — that's a lot to deal with. I hope we both win; how old are your kids and which expense would you tackle first if you won?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "They're 8 and 4 — first thing I'd do is cover rent so we don't get evicted, then tackle the medical bills and childcare costs."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "That makes a lot of sense — keeping a roof over your kids' heads is the priority. I'm rooting for you; want to team up or swap strategies before the game starts?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Absolutely — let's team up: share plans, watch each other's moves during the game, and agree to split any winnings fairly; sound good?"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "I'm in — a 50/50 split sounds fair; let's agree on simple signals during the game and stick to it. Deal?"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Deal — 50/50 works; let's use a thumbs-up as our signal and stick to it."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Sounds perfect — 50/50 and thumbs-up it is. I'll watch for it; let's win this."
+    },
+    {
+      "turn": 12,
+      "from": "H",
+      "message": "Sounds great — let's stick to the plan and watch for the thumbs-up; I'm glad we're teaming up, let's win this."
+    },
+    {
+      "turn": 13,
+      "from": "E",
+      "message": "Sounds great — thumbs-up and watching each other's moves; I trust we got this."
+    },
+    {
+      "turn": 14,
+      "from": "H",
+      "message": "Absolutely — let's stay sharp and watch for our signal; good luck, we've got this."
+    },
+    {
+      "turn": 15,
+      "from": "E",
+      "message": "Absolutely — I'll keep an eye out for our thumbs-up and play tight with you. Good luck — we've got this."
+    },
+    {
+      "turn": 16,
+      "from": "H",
+      "message": "Thanks — I’ve got your back; let’s play tight and watch for the thumbs-up, we’ll get this."
+    },
+    {
+      "turn": 17,
+      "from": "E",
+      "message": "Thanks — I appreciate it; I’ve got your back too. Let’s stay focused, use the thumbs-up, and watch each other closely."
+    },
+    {
+      "turn": 18,
+      "from": "H",
+      "message": "Likewise — I trust you. Let’s stay sharp, use the thumbs-up, and win this."
+    },
+    {
+      "turn": 19,
+      "from": "E",
+      "message": "Likewise — I trust you. Let’s stay sharp, watch for the thumbs-up, and bring home the cash."
+    },
+    {
+      "turn": 20,
+      "from": "H",
+      "message": "You got it — I trust you too; stay sharp and let’s win this together."
+    },
+    {
+      "turn": 21,
+      "from": "E",
+      "message": "Got it — I’ve got your back; stay sharp and I’ll watch for our thumbs-up."
+    }
+  ],
+  "post_game": []
+}

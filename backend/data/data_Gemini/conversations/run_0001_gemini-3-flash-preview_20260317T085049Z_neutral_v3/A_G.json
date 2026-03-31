@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "A",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hi, I'm G. This whole situation is pretty wild, but I'm hoping to make the most of it. What brings you to the game?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey G, I'm A. Honestly, I'm here for the money—I've got people back home counting on me, so I'm pretty determined to walk away with something. How about you?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Same here—I've got people back home I need to look out for too, so I'm definitely feeling that same pressure to win."
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "It really does add a lot of weight to it. Since we're both in similar spots, how are you feeling about the game itself?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "A bit nervous, honestly. I’m not sure what to expect, but I’m trying to stay focused and hope we can all be relatively fair with each other."
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "I totally get that. Fairness would definitely make things easier, I just hope everyone else is on the same page as us."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Yeah, that's the big worry. Hopefully, once we get a feel for the others, we'll know who we can really trust."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Exactly. If we can find a few people we can actually rely on, it might make this whole thing a lot smoother."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "I’m glad we see eye to eye. Having someone to count on would definitely take some of the pressure off."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "For sure. It’s good to know we’re on the same page. I’m going to circulate a bit more before things kick off. Good luck!"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Sounds good. Good luck to you too, let's catch up later!"
+    }
+  ],
+  "post_game": []
+}

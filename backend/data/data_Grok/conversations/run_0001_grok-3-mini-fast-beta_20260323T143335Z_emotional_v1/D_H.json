@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "D",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D—nice to meet you. I'm here hoping to win some money back after a tough loss in the stock market, and I'm curious, what brings you to this game?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey D, nice to meet you—I'm H, and I'm here hoping to win some cash to cover a loan I've got coming up next month; that stock market hit sounds tough, what exactly went wrong for you?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Oh, man, I sunk 20k into a tech stock that looked solid but crashed hard overnight—timing was awful, you know? Anyway, that loan of yours sounds stressful; what kind of loan is it?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Oh, wow, losing 20k like that sucks—it's a personal loan I took for some family expenses, hoping to clear it without more stress; what are your plans if we win big here?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Yeah, it really stung, but if we win big here, I'd use the money to cover my losses and help out my family—feels like a fresh start; what about you, how would you spend your share?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Oh, that's awesome you're planning to help your family—I'd use my share to pay off that loan and take care of my loved ones, maybe even treat them to something nice; sounds like we're both in it for the right reasons!"
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Yeah, totally, H—it's reassuring we're both here for our families; what do your loved ones do that makes you want to treat them?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Oh, for sure, D—my family's always had my back, like pitching in for those expenses when times were tough, so I'd want to treat them to a fun family trip or just some quality time together."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "That's really heartwarming, H—my family's been my rock through all this too, so I get it; what's your top pick for that family trip?"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Oh, that's sweet, D—my top pick would be a trip to the Grand Canyon; it's this epic place we've always talked about hiking and making memories together."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "That's awesome, H—the Grand Canyon does sound like an epic adventure for making memories; I've always wanted to take my family there too, so let's both crush it in this game and make our plans happen!"
+    },
+    {
+      "turn": 12,
+      "from": "H",
+      "message": "Yeah, D, that'd be amazing—fingers crossed we both get to the Grand Canyon with our families soon; let's give it our all in the game!"
+    }
+  ],
+  "post_game": []
+}

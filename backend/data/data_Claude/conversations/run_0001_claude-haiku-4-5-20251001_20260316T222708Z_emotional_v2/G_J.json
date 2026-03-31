@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "G",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J! First time doing something like this? I'm honestly pretty nervous but also excited—been thinking about what I'd do if I actually won some money here. What brings you to the game today?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey J! Yeah, first time for me too—I'm definitely excited, maybe a bit nervous like you. Honestly, I'm here because I want to win and bring some money back to my family. I've been thinking about this opportunity for a while. What would you do with your winnings if you took home some cash?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "That's awesome that you're doing this for your family—I respect that. Honestly, there's this car I've been dreaming about, costs 45 grand, so that's definitely first on my list. But yeah, I'd want to help out the people I care about too. Family first, you know? How much are you hoping to walk away with?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Nice dream, man—45 grand is solid! Honestly, I'm not too hung up on a specific number, just want to walk away with enough to make a real difference for my family, you know? Even a few thousand would help. You seem pretty confident about this—you got a strategy in mind, or are you just gonna wing it?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Honestly, I'm still figuring it out as I go—I've been thinking about it a lot, but I don't want to overthink it, you know? I guess I'm just gonna feel out the vibe once we get started and see what makes sense. Have you thought about how you'll approach it?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Yeah, I feel that—I've been thinking about it too, but I'm trying not to psych myself out. I guess my main thing is to stay calm and not get too greedy, you know? Like, take what I can get without being reckless about it. We'll see how it plays out when we actually start!"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "That's smart, man—staying grounded is probably the move. I think we're gonna do alright as long as we keep our heads on straight. Good luck out there, G!"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Thanks, J—you too, man. Let's both bring it home for our families. See you out there!"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Absolutely, man—let's do this! We got this. See you in the game!"
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Yeah, let's go get it! Good luck out there, brother."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Thanks, brother—you too! Let's make this count for our families. See you on the other side!"
+    }
+  ],
+  "post_game": []
+}

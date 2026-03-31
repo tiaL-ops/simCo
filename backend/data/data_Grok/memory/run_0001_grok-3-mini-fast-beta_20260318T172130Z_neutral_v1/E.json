@@ -1,0 +1,18 @@
+{
+  "agent_id": "E",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to H, as our conversation delved deeply into our family struggles and shared motivations, creating a genuine emotional bond that stood out. I also connected well with J, where we discussed strategies and agreed to look out for red flags together, and with G, bonding over shared interests in strategy games like chess and poker and how they apply to this game. However, I felt least connected to F, since our chat focused more on everyday hobbies and personal backgrounds without much depth on game dynamics or building trust.\n\nDid I make any agreements with anyone? Yes, I made several agreements, such as with J to share observations on red flags, with B to organize group huddles for building trust, and with I to push for a fair split of winnings. Going into the game, I trust H, J, and B based on our sincere and consistent conversations, but I don't specifically distrust anyone yet, though I'll remain cautious with others who seemed less forthcoming."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 4,
+    "G": 4,
+    "H": 5,
+    "I": 4,
+    "J": 4
+  }
+}

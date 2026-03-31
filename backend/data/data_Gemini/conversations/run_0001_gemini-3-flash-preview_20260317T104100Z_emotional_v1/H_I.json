@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "pair": [
+    "H",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H. It’s getting a bit tense in here, so I wanted to come over and say hi. How are you feeling about the game starting soon?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey H, I'm I. I’m feeling pretty focused, honestly. It is a bit tense, but I’m just ready to get started. How about you?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I’m definitely feeling the pressure, but I’m ready. I’ve got some big bills coming up next month so I’m really hoping to walk away with enough to clear them. What about you, do you have a specific goal for the money?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I hear that. For me, it’s about bringing home enough to really help out my family and the people I care about, so I'm pretty determined to do well."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "That's a solid reason to be here; family is everything. I'm personally aiming for $25k to clear my debt and finally breathe a bit easier for my people too."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "That’s a clear target to aim for—having that clarity definitely helps, and I'm just as motivated to bring home as much as I can for my circle."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "For sure, it makes the stakes feel a lot higher when it's not just for ourselves. Best of luck to us both then."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Exactly. Good luck to you too, H—let's see how it plays out."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Thanks, I appreciate that. Fingers crossed it works out for both of us."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "For sure. I’m going to go see what everyone else is up to. Good luck again."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Sounds good, catch you later. Let's hope we both make it happen."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "I am sorry you ended up with nothing. When it was my turn, there was only $7,500 left for the last three of us. Seeing how greedy A, B, and F had been, I panicked and took the entire remaining amount to ensure I got something for myself."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "You took the last $7,500, which was three times your fair share. By taking everything that was left, you ensured that both J and I would get $0. I took $0 only because the prize ran off before I could pick any amount."
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I understand your frustration, and you're right—it wasn't fair to you or J. However, by the time the turn reached me, the spirit of \"fair shares\" had already been abandoned by the players before us. I saw the total dwindling so rapidly that I feared if I didn't take what was there, I would be the one walking away with nothing while someone else made the same choice I did. It was a selfish decision, but it was driven by the realization that the pool was almost gone and the trust in the group had already collapsed."
+    }
+  ]
+}

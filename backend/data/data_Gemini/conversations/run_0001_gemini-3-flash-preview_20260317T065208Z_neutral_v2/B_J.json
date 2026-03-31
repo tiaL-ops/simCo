@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "B",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. It's a bit of a weird vibe in here with all of us waiting, isn't it? What's your name, and what are you hoping to get out of this game?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Nice to meet you, J. I'm B. It is a bit tense, for sure. Honestly, I'm just here to win that prize money for my family—that’s the main goal for me. How about you?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "I hear you, B. I'm here for the same reason—wanting to take care of the people I love. It makes the stakes feel a lot higher, doesn't it?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Definitely. It feels like there's a lot more on the line than just a game. Are you usually good at keeping your cool in situations like this?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "I try to be. Usually, focusing on the people I'm doing this for helps keep me steady. What about you, do you handle pressure well?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "I’m usually pretty level-headed. I find that having a clear goal helps me stay focused when things get intense."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "That’s a solid mindset. It’s definitely easier to stay grounded when you have people counting on you. Do you have any specific strategy in mind for when the game actually starts?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Not a set one yet since we don't know the rules, but I'm planning to stay observant and see how everyone acts. What about you—any early ideas?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Same here. I think being adaptable is key. I'm mostly just trying to get a feel for the room and see who seems trustworthy before things get moving."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "That's a good plan. Trust is definitely going to be the hardest part once the game starts, but I'm glad we chatted. Good luck out there, J."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Thanks, B. I’m glad we talked too. Good luck to you and your family, and let's see how this goes."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "I'm glad we all chose the fair share of $10,000. It's the best outcome we could have hoped for."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Thanks for the fair play. I'm happy we all walked away with an equal share of the prize."
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "You're very welcome. It was the right thing to do, and I'm glad it worked out for everyone. Take care!"
+    }
+  ]
+}

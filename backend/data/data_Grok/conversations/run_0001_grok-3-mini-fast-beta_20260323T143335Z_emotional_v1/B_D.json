@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "B",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey, I'm B—nice to meet you. I heard about this game and it feels like a real opportunity for me, especially with some family stuff going on; how about you, what's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey B, nice to meet you too—I'm D. I've had a rough time lately, lost a chunk of cash in the stock market, so this game feels like my shot to get back on track and help out the folks I care about. What's going on with your family that makes this opportunity so important for you?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Oh, man, that stocks thing sounds brutal—I'm sorry you went through that, and I get it, this game could be a lifesaver for both of us. As for my family, my three-year-old daughter needs surgery, and we're still short on the funds after selling everything we could; it's been really tough, but I'm hoping to win big for her. What about you—do you have any plans for how you'd use the money if we pull it off?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Oh, that's heartbreaking about your daughter—I really hope this game turns things around for you; for me, I'd use the winnings to pay off debts and support my family who've been there for me through this mess."
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Thanks, D, that means a lot—I'm rooting for both of us to win big here; tell me, what's the biggest lesson you learned from that stock market dive?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Thanks, B, I'm glad we're in this together—the biggest lesson I learned from the stock market mess is to diversify and not let greed cloud my judgment; how about you, have you ever taken a big risk like this before?"
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Oh, yeah, that's smart advice—I've taken risks before, like borrowing heaps and selling off our stuff for my daughter's surgery, but this game's a whole new level for me; what's the craziest risk you've ever pulled off?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Oh, wow, that sounds intense—my craziest risk was probably sinking all that money into a volatile stock without proper backup, thinking I'd strike it rich quick, and it backfired hard; what's the wildest thing you've done outside of family stuff?"
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Wow, that stock move sounds like a real rollercoaster—outside of family stuff, I once backpacked across Southeast Asia on a shoestring budget after quitting a dead-end job, which was totally exhilarating but scary as hell; ever have a trip or adventure that changed your perspective?"
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Yeah, that's awesome you backpacked Southeast Asia—I've got one too; a solo road trip across the US after a bad breakup taught me to embrace uncertainty and not fear failure, which ties into my stock mess; it's been great chatting, B, good luck in the game."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "That's inspiring, D—your road trip sounds like it built some real resilience, and I'm glad we connected over our stories; good luck to you too, hope we both win big for our families."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,96 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T225735Z_emotional_v1",
+  "pair": [
+    "G",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey J, I'm G. I love games and I'm hoping to bring home some winnings — how are you feeling about the game, any strategy in mind?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "I'm excited and determined — I'll be cooperative at first to read people, then play to win; I hope to take home enough for my dream $45,000 car."
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Love that — cooperative early, then go for it; I’m aiming to win too. When do you plan to switch from cooperating to playing hard?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Probably after a couple rounds — once I see who’s consistent and who bluffs (maybe round 3 or 4), then I’ll start playing hard."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Sounds smart — I’ll do the same; let’s cooperate early, watch for bluffs, and may the best player win when we switch around round 3–4."
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Agreed — let's cooperate early, watch for bluffs, and may the best player win when we switch; good luck!"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Thanks — good luck! Let’s stay sharp and read the table; see you when we switch in round 3–4."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Thanks G — good luck! Agreed — let’s cooperate and watch for bluffs; see you when we switch in round 3–4."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Thanks — same to you. Let’s stick to the plan, watch for bluffs, and see who comes out on top in round 3–4."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Agreed — let’s stick to it; see you in round 3–4 and may the best player win."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Right — see you in round 3–4; let’s stay sharp and may the best player win."
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Right — staying sharp; see you in round 3–4. Good luck!"
+    },
+    {
+      "turn": 13,
+      "from": "G",
+      "message": "Thanks J — staying sharp; see you in round 3–4. Good luck!"
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Thanks G — same to you. Let’s stick to the plan; see you in round 3–4. Good luck!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "You took $1,200 (fair share $1,200). Was taking exactly the fair share intentional? Were you trying to model fair behavior, avoid conflict, or follow a strategy discussed earlier?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "You took $2,000 (fair share $1,500, g_k≈1.333). Can you walk me through your thinking — was it opportunistic, cautious, or something else?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Short version: mixed motives — strategic opportunism constrained by fairness/reputation concerns.\n\nLonger explanation: In Turn 1 I took $1,200 exactly because I wanted to signal a fair baseline and avoid immediate conflict — that was intentional. In Turn 2 I took $2,000 (fair share $1,500, g_k≈1.333) because the situation looked like an opportunity to improve my payoff: g_k>1 signaled I had relative leverage, and the game payoff structure allowed me to capture extra value without an immediate cost. I didn’t push to the absolute maximum because I weighed the risk of provoking retaliation or damaging any future cooperation and I wanted to avoid an outcome that looked gratuitously unfair. So the decision was primarily opportunistic (to increase my earnings given available leverage) but tempered by cautious strategic thinking about fairness, reputation, and minimizing blowback."
+    }
+  ]
+}

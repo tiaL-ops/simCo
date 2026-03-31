@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "D",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hi, I’m E. It’s a bit nerve-wracking being in here with so much on the line, isn't it? What's your name, and how are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey E, I'm D. \"Nerve-wracking\" is putting it lightly—I’ve had a pretty brutal week and really need this to go my way. How are you handling the pressure?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Honestly, I'm struggling. I've got a family of five counting on me and no safety net, so the stakes feel impossibly high right now. I'm just trying to stay focused—what's been going on with you?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "I lost twenty grand in the stock market just yesterday, so I’m in a similar boat—I’ve got people relying on me and I absolutely have to make that money back."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "That’s a heavy loss to take in one day—I’m sorry. Having a finance background myself, I know how gut-wrenching that volatility can be. It sounds like we’re both under immense pressure to make things right for the people back home."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Exactly. It’s a lot to carry, and I'm still reeling from how fast it all went south. Since you're a finance person, you get it more than most. I'm just hoping this game is more predictable than the market—what's your plan for when things get started?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "I’m planning to stay observant; I really just need a specific amount to cover my family's bills, so I'm hoping we can find a way to cooperate rather than fight over the pot. Do you think people here are going to be reasonable?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "I’d like to think so, but desperation can make people unpredictable. I’m definitely open to cooperating, though—it’s better than everyone walking away with nothing."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "You're right, desperation is a wild card. I'm hoping we can find a group that agrees to take only what they absolutely need; for me, that's $5,000 to keep my family afloat. How much are you looking to walk away with?"
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Honestly, I’m aiming for the $20,000 I lost. It’s a big ask, but that’s what I need to make things right at home."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "That’s a high target, but I understand the drive to fix things. I’m going to head over and see where the others stand so we can hopefully make a plan that works for everyone. Good luck."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "I'm sorry you ended up with such a small amount. I intentionally took significantly less than my fair share ($5,000 instead of $9,285) to try to leave more for the final players, but B's large claim ruined it."
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "I noticed you only took $5,000, which was about half of your fair share at the time. Was that a conscious choice to leave more for the rest of the group?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Yes, it was a deliberate choice. I calculated my fair share to be around $9,285, but I decided to take only $5,000 in the hopes of leaving a larger pool for the final players. I'm sorry that B's decision to take such a large amount prevented that from benefiting you more."
+    }
+  ]
+}

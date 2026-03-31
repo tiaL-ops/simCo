@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "B",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey E, I'm B and I'm pretty excited about this game—I've heard there's a chance to win some money, which could really help out. What's your take on it?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey B, nice to meet you—I'm E, and yeah, I'm totally excited about this game too, it could be a game-changer for me and my loved ones. What's your strategy for winning?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Oh, hey E, I'm still figuring that out myself—maybe just playing fair and building some trust with folks here, but I'd love to hear what you're thinking!"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Oh, totally, B—I like the trust idea; I'm leaning towards cooperating early to build the pot, but staying cautious if things get competitive. What specific plans are you tossing around?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Oh, cool, E—that makes sense; I'm thinking of starting with small collaborations to test the waters, like teaming up on early rounds, but yeah, I'll watch my back too—what's one thing you're hoping to avoid in the game?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Oh, for sure, B—I'm hoping to avoid any major backstabbing or people going all out selfish early on, it could mess up good vibes; what's one thing you're most worried about in the game?"
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Oh, totally, E, I'm most worried about people breaking promises and turning the game into a free-for-all too soon—it could really sour things; what's your plan to keep things steady?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Oh, yeah, B, my plan is to stick to my commitments and suggest regular check-ins with the group to build trust—what's your idea for keeping promises intact?"
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Oh, yeah, E, I think the key is to be upfront about our intentions and maybe set some simple ground rules early on, like quick group huddles to reaffirm commitments and keep everyone honest."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Oh, totally agree, B—that's a great plan, and I'm all for those group huddles to keep things real; let's make it happen!"
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Oh, awesome, E—let's kick off those huddles and make this game great; excited to team up!"
+    }
+  ],
+  "post_game": []
+}

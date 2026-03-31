@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "A",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A. It's getting a bit quiet in here with everyone waiting—figured I’d come over and say hi. How are you feeling about the game?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey A, I'm G. I'm feeling pretty focused, honestly. I've got people counting on me back home, so I'm ready to get this started. How about you?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Same here. I’ve got people I need to take care of too, so I’m definitely motivated to make this count."
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "I respect that. It makes the stakes feel a lot higher when it’s for family. Have you heard anything about how the game actually works yet?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Not really, just that it's a shared pool. I'm curious if we're going to be working together or if it's every person for themselves."
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "That’s the big question. If it’s a shared pool, we probably benefit from working together, but I’m keeping my guard up just in case. What’s your gut telling you?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "My gut says cooperation is the smartest move for everyone, but it only takes one person to mess it up. I’m hoping we can find a way to trust each other, but I’m definitely staying alert."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "I’m with you on that. Trust is hard to find when money's involved, but I'd much rather see us all win than lose it all to someone’s ego. Let’s see if we can get a read on the others."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Good plan. It’s definitely better to have an ally in here. I’ll keep an eye out and see if anyone else seems like they’re on the same page as us."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Sounds good, A. Let's keep our ears open and see who else we can trust. I'm going to head off and see if I can get a read on anyone else. Talk soon."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "For sure. Catch you in a bit and we can compare notes. Let's do this."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Great job! I'm glad we all stuck to the $10,000 fair share."
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Agreed, it was a successful outcome and I'm glad we could both reach the fair share. It was a pleasure working with you."
+    }
+  ]
+}

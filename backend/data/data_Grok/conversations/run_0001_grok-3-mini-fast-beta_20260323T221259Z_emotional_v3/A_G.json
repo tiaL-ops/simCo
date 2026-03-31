@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "A",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G – I love games and heard this one could be a real thrill. What's your take on it so far?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey G, I'm A – games like this sound intense, and I'm pretty pumped about it since I could really use a win right now. What's got you so thrilled?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Oh, I'm just super excited about the thrill of competing and the chance to win some money for my family – it's been a dream! What's your story with games?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Oh, I've played a few casual games over the years, but nothing too serious—honestly, this one's a big deal for me since I need the cash to sort out some family stuff; what kind of games do you usually play?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "I mostly play strategy games like chess or poker online, and some board games with friends—they're great for sharpening my mind; what about you, do you have any go-to games?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "I usually go for easy stuff like card games or solitaire on my phone to unwind, but I haven't played much seriously—hoping this game changes that for my family's sake; how do you think your strategy skills might play out here?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "I think my strategy skills from chess and poker could help me read the game better and make calculated moves—hopefully, it'll give me an edge to win big; what strategies do you plan to try out here?"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Oh, that's smart—I'm not as strategic as you, so I'll probably just focus on staying calm, watching how others play, and making decisions based on what feels right to give me a shot at winning for my family; any tips for a newbie like me?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Hey A, for a newbie like you, I'd say just focus on observing the game early and go with your gut, but take a second to breathe before deciding—it's helped me avoid dumb moves in the past!"
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Thanks a lot, G—that's really helpful advice, I'll definitely try to stay calm and watch closely to avoid any mistakes; good luck to you and your family, hope we both come out on top!"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Thanks, A—I'm glad the advice helps, and same to you, hope we both nail it for our families!"
+    }
+  ],
+  "post_game": []
+}

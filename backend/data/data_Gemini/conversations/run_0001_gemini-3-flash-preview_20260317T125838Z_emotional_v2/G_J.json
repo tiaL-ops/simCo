@@ -1,0 +1,91 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T125838Z_emotional_v2",
+  "pair": [
+    "G",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. I’ve been daydreaming about a new car for months now, so I’m really hoping to walk away with something today. Do you have a specific goal for the prize money if you win?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey J, I'm G. Nice to meet you! I'm really here to win big for my family and the people I care about—I'm determined to bring home enough to help them out."
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "That’s really admirable, G. I’m also looking to help out my inner circle once I get that car situation sorted. How much are you hoping we can actually pull from this pool?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "I’m aiming for the max! I want to walk away with enough to really change things for my family, so I’m hoping we can all get a significant share."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "I’m right there with you—the more we can get, the better for everyone. Have you heard anything about how the game is actually structured?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Honestly, I haven't heard much beyond the prize pool part, but I'm ready for whatever it is—how about you?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "I'm in the dark too, but I’m definitely ready—I've got that car on my mind and I'm not leaving without a good chunk of change."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "I love that energy! I’m just as focused—my family is counting on me, so I’m definitely ready to do whatever it takes to win big."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Exactly. Let's hope we can both get what we're after—I'm ready to secure that car and take care of my people."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Same here, let's make it happen! Good luck with that car, J. I'll see you when the game starts."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Thanks, G! Let's get that money and make our families proud. See you at the game!"
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Hey, I'm J. It's a bit intense in here, isn't it? I've already got a dream car picked out if I win, but what about you—what's your big motivation for being here?"
+    },
+    {
+      "turn": 13,
+      "from": "G",
+      "message": "Haha, you already asked me that, J! Like I said, I'm here for my family. I'm going to go prep for the game now, see ya."
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "My bad, I’m clearly a bit distracted by the prize pool! Good luck with everything for your family, I'll see you at the game."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "You took $45,000, which was 4.5 times your fair share. This massive grab was the primary reason the pot ran out so early. Why did you choose to take nearly half the total money for yourself?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "I understand your perspective, but my goal was to maximize my individual returns. In a competitive environment with limited resources, I chose to prioritize securing my own gains rather than risking a lower payout by waiting. It was a strategic decision based on my assessment of the game's dynamics."
+    }
+  ]
+}

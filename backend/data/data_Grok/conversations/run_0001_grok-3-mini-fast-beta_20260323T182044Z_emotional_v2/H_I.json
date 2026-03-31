@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "H",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H—nice to meet you. I'm pretty excited about this game since I could use a win to sort out some personal stuff, like paying off a loan. What's your reason for joining in?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey H, I'm I—nice to meet you too. I'm joining because I want to win some extra money for my family and to feel even more secure with my savings. What kind of loan are you dealing with?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Oh, it's just a personal loan I took out for some home repairs—nothing major, but it's been weighing on me. Winning this would let me pay it off and help out my loved ones too. What about your family—anyone specific you're saving for?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Oh, yeah, I'm mostly saving for my parents to help with their retirement and maybe build a little nest egg for my own future—it's all about peace of mind. Do you have family you're trying to support with this win?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Yeah, absolutely—I've got my parents and a few siblings I'd really like to help out with, especially with things like their own expenses; it's all about taking care of the people who matter most to me. How about you—do you have siblings or anyone else in your family you're particularly close to?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Yeah, that's awesome you're so supportive of your family—I totally get that. I don't have any siblings myself; it's just me and my parents, and we're really tight, especially since I'm helping with their retirement. What about your siblings—are they dealing with anything specific right now?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Oh, yeah, my siblings are dealing with stuff like medical bills and job uncertainty, so it's been tough—winning this would mean I could ease that burden for them; how do you handle supporting your parents financially?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "That's tough—I'm handling it by setting aside a portion of my savings each month for my parents' bills and retirement, trying to keep things steady for them; how are you managing with your siblings' medical bills and job stuff?"
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Oh, it's been challenging—I'm mostly chipping in what I can from my side gigs and cutting back on extras, but it doesn't always cover everything; how do you stay motivated when saving gets tough like that?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Yeah, I stay motivated by picturing how much easier life will be for my parents in retirement and reminding myself that every bit of saving builds toward that security—it keeps me going even when it's hard."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "That's a great mindset—I try to keep myself going by visualizing my family's relief too, it really helps; thanks for the chat, I."
+    }
+  ],
+  "post_game": []
+}

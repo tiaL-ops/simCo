@@ -1,0 +1,23 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T125838Z_emotional_v2",
+  "phase": "post_game",
+  "condition": "emotional",
+  "prize_pool": 0,
+  "initial_prize_pool": 100000,
+  "turn_order": [
+    "C",
+    "J",
+    "G",
+    "A",
+    "F",
+    "H",
+    "I",
+    "E",
+    "D",
+    "B"
+  ],
+  "current_turn": 10,
+  "agents_remaining": 0,
+  "llm_provider": "gemini",
+  "llm_model": "gemini-3-flash-preview"
+}

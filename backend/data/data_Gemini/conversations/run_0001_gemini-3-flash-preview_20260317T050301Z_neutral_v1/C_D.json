@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "C",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C. It's a little intense in here with everyone eyeing the prize, so I figured I'd say hi and break the ice. What's your story—are you here for something specific?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Nice to meet you, C, I'm D. It's definitely a bit heavy in here. I'm just looking to win for my family and get things back on track. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Honestly, same. I want to make sure the people I love are taken care of. It’s a lot of pressure, isn’t it?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "It really is. It’s hard not to feel the weight of it when you know exactly what’s at stake for the people back home."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Exactly. It makes every move feel so much heavier, but that's also what's driving me to win this."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "I feel that. Having people counting on you changes the whole game, doesn't it?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "It really does. It turns a game into a responsibility. Do you think people here are going to work together, or is it going to be every person for themselves?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "I’d like to think we can find a way to work together, but honestly, I’m expecting people to get pretty competitive once things really start."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "I'm worried about that too. It only takes one person to turn it into a free-for-all, but I'd much rather have an ally than another rival."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "I'm with you on that. Having someone to watch your back makes a huge difference. Let's try to look out for each other when the game starts."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Sounds like a plan. I'm glad we talked, D—it feels good to have an ally. Let's make this happen for our families."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "I'm really glad we all stuck to the fair share of $10,000. It's great to see such perfect cooperation!"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "I couldn't agree more. It was a pleasure working together to ensure a fair outcome for both of us. Perfect cooperation indeed!"
+    }
+  ]
+}

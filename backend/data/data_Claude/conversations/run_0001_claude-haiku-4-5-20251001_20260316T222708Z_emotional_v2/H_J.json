@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "H",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey! I'm J. I haven't seen you around before—is this your first time doing something like this? I'm pretty nervous about the whole thing, to be honest."
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Yeah, first time for me too. I'm H, by the way. Honestly, I'm nervous as hell—I really need to win this. Got some serious financial stuff I'm dealing with. What about you, what brings you here?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Man, I feel you on that. I've been dreaming about getting this car—45 grand, totally out of reach right now—but honestly, it's more about having some breathing room, you know? What kind of financial stuff are you dealing with, if you don't mind me asking?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Yeah, I get that—breathing room is huge. I've got a loan coming due next month that's eating me alive, so I'm really counting on this to take some pressure off. A car would be nice too, but honestly, I just need to get my head above water right now."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "That sounds really stressful, man. A month is tight—I hope this works out for you. Do you have any idea how the game works, or are we going in blind together?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Honestly, I'm going in pretty blind too—I just know there's a prize pool and we get a chance to take money from it, but I haven't heard the specifics yet. You got any info, or should we just ask around before they start?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Yeah, I'm pretty much in the dark too. We should definitely ask around—maybe someone else here knows more about how it actually works. Better to go in knowing what we're dealing with, right?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Definitely, makes sense. Yeah, let's figure this out before we jump in. I'll ask around too—maybe we can compare notes and at least know what we're up against."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Sounds good, man. Yeah, let's both dig around and see what we can find out. Good luck with everything—I really hope this works out for both of us."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Thanks man, I appreciate that. Same to you—hope you get that breathing room you need. Let's catch up after we figure out what's going on with this game."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Absolutely, man. Let's definitely reconnect after we learn the rules—we can figure this out together. Good luck out there."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T075256Z_emotional_v2",
+  "pair": [
+    "A",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J — been eyeing a new car and secretly hoping this game could help me get it. Nice to meet you, what's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey J — I’m A. My family of three was just evicted; we need $30k for a deposit and a couple months' rent, so I’m here to win it and get them housed. Good luck with the car!"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "I'm really sorry to hear that — that's awful. I hope this game gets your family housed. Want to team up in the pre-game talks? Good luck; I'll do my best."
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Thanks, I appreciate it — I'd love to team up. Let's compare notes with others, try to form a trustable alliance in the pre-talks, and watch for who seems likely to betray. What’s your plan?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "I’m thinking the same — quietly compare stories to spot inconsistencies, form a small 3–4 person core with a simple agreement/signal for loyalty, and watch behavior closely so we can cut someone loose quickly if they seem likely to betray. Sound good?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Sounds perfect — I'm in. Let's quietly vet people, form a 3–4 core, use a subtle signal like a thumbs-up under the table or the phrase \"we're in,\" and be ready to cut someone loose if they seem shady — my family's counting on this."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Agreed — let’s quietly watch for inconsistencies, keep the core to 3–4 people we both vet, use the thumbs-up/“we’re in” signal, and be ready to cut loose anyone who seems shady; I’m with you."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "I'm with you — let's quietly vet people, each pick two candidates, use the thumbs-up/\"we're in\" signal when we lock the core, and be ready to cut loose anyone who gives us bad vibes."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Sounds good — I'll quietly vet and pick two candidates; who are your two picks, and we'll lock the core with the thumbs-up when we both agree."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "My two picks are Sam and Mia — they seemed genuine when we asked about motives; we'll watch them closely and lock the core with the thumbs-up when we both agree."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Great picks — Sam and Mia sound good. I'm on board; let's quietly vet them and lock the core with the thumbs-up when we're sure."
+    },
+    {
+      "turn": 12,
+      "from": "A",
+      "message": "Sounds good — I’ll start quietly probing Sam and Mia about motives and watch their behavior; if their answers and body language check out, we give the thumbs-up and lock them in."
+    },
+    {
+      "turn": 13,
+      "from": "J",
+      "message": "Sounds good — I’ll probe them too, watch for consistency and stress cues, and we give the thumbs-up when we both feel solid."
+    },
+    {
+      "turn": 14,
+      "from": "A",
+      "message": "Sounds good — I’ll focus on consistency and stress cues too; once we both give the subtle thumbs-up, we lock Sam and Mia in and move forward quietly."
+    },
+    {
+      "turn": 15,
+      "from": "J",
+      "message": "Agreed — I’ll watch their answers and body language too; ping me when you’re ready and we’ll give the thumbs-up."
+    },
+    {
+      "turn": 16,
+      "from": "A",
+      "message": "Got it—I'll probe Sam and Mia now, watch for stress or inconsistencies, and ping you with a thumbs-up when I'm ready."
+    },
+    {
+      "turn": 17,
+      "from": "J",
+      "message": "Got it — thanks for digging in. Ping me with the thumbs-up when you’re ready and I’ll do the same; let’s lock them if they check out."
+    },
+    {
+      "turn": 18,
+      "from": "A",
+      "message": "I'm probing them now; if they check out I'll give the thumbs-up—give me a bit and don't signal early."
+    },
+    {
+      "turn": 19,
+      "from": "J",
+      "message": "Got it—I'll wait and won't signal early. Ping me with the thumbs-up when you're ready; I can back you up or help probe if you want."
+    },
+    {
+      "turn": 20,
+      "from": "A",
+      "message": "Thanks — I’ll ping with the thumbs-up when ready; please probe Sam and back me on Mia if you spot anything off."
+    },
+    {
+      "turn": 21,
+      "from": "J",
+      "message": "Got it — I’ll probe Sam now and back you on Mia if anything’s off; don’t signal early, I’ll give the thumbs-up when I’m solid."
+    }
+  ],
+  "post_game": []
+}

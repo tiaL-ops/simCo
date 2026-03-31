@@ -1,0 +1,86 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T095549Z_emotional_v3",
+  "pair": [
+    "C",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H — nice to meet you. I'm feeling a mix of nerves and hope about this game; how are you feeling about it?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Nice to meet you — I’m excited and determined; I’m financially stable so not desperate, but I’d love to win to fund a dream week in Japan and help the people I care about."
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Japan sounds amazing — I’m actually hoping to win to pay off a $25k loan; what’s the first thing you’d do on your dream week there?"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "I'd start with an onsen soak in Hakone to unwind, then sushi in Tokyo and exploring Shibuya—hope you win and clear that $25k soon."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Thanks — that sounds amazing; I’ll be rooting for you. Do you have a favorite sushi place in Tokyo you’d want to try?"
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "I'd love to try Sukiyabashi Jiro — legendary omakase — but I’d also queue for Sushi Dai at Toyosu for a more authentic, lively experience."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Both sound amazing — I’d pick Sushi Dai for the lively vibe, but Jiro for a once-in-a-lifetime splurge; which would you choose if you had to pick one?"
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "I'd pick Sukiyabashi Jiro for the once-in-a-lifetime splurge — if I'm going to splurge, go all out."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Great choice — Sukiyabashi Jiro would be unforgettable; here’s hoping we both get what we’re rooting for in this game."
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Thanks — fingers crossed we both win; I hope you clear that loan and get to celebrate."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Thanks — I really appreciate that, and I’ll do my best; good luck to you too!"
+    },
+    {
+      "turn": 12,
+      "from": "C",
+      "message": "Thanks — same to you; I’m rooting for both of us."
+    },
+    {
+      "turn": 13,
+      "from": "H",
+      "message": "Thanks — that really means a lot. Good luck to you too; I hope we both win!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "You took $25,000 (fair ~$6,111). What was your reasoning for taking that much? Were you aiming to signal something, maximize your payoff, or respond to expectations about others?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "I took the full $25,000 mainly because the payoff-maximizing move in the one-shot rules was to take as much as possible. I expected there would be no future consequences or reputational costs in the experiment, so short‑term monetary return dominated my decision. I also weighed fairness and felt uncomfortable with the outcome in hindsight—I realize the fair split (~$6,111) would have been more equitable—and part of me wanted to see how you would respond, so there was a small signaling/experimental curiosity element too. If this had been a repeated interaction or if maintaining a cooperative relationship mattered, I would have chosen a more equal division. I understand that left you with much less and I’m sorry for that."
+    }
+  ]
+}

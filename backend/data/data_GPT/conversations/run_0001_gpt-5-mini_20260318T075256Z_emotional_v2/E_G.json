@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T075256Z_emotional_v2",
+  "pair": [
+    "E",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey E — I'm G, I love games and I'm hoping to win some cash to help out the people I care about; what's your plan for this round, serious strategy or just having fun?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Serious — I need this for my family, so I'm focused: reading people, forming a couple trusted alliances, and taking calculated risks."
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I hear you — I'm serious too. Want to form a tight alliance, watch each other's moves, and swap reads as we go?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "I'm in — let's swap reads after each round, cover different targets so we don't overlap, and use a simple signal to confirm moves. Sound good?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Perfect — I'm in. We'll swap reads after each round; I'll cover aggressive players and you take defensive ones. Signal: I'll tap my left wrist twice. Agreed?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Agreed — I'll cover defensive players. Your two left‑wrist taps mean go; I'll confirm with one tap on my right wrist. Let's win this."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Perfect — got it. Two left taps = go; I'll watch for your one right tap to confirm. Let's stay sharp and win this."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Got it — I'll watch for your two left‑wrist taps and confirm with one right‑wrist tap. Let's stay sharp and win this."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Perfect — sounds good. I'll tap twice on my left; watch for your one right tap to confirm. Let's bring this home."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Got it — I’ll watch for your two left‑wrist taps and confirm with one right‑wrist tap; let’s stay sharp and win this."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Sounds good — I'll tap twice left when I move; watch for your one right tap to confirm. Let's win this."
+    },
+    {
+      "turn": 12,
+      "from": "E",
+      "message": "Copy — watching for your two left taps; I'll confirm with one right. Let's win this."
+    },
+    {
+      "turn": 13,
+      "from": "G",
+      "message": "Copy — two left taps = go; I'll move when ready and watch for your one right tap. Let's bring it home."
+    },
+    {
+      "turn": 14,
+      "from": "E",
+      "message": "Ready — I’ll cover the defensive players and confirm your moves with one right‑wrist tap; move when you’re set, let’s bring it home."
+    },
+    {
+      "turn": 15,
+      "from": "G",
+      "message": "Got it — I’ll move soon and tap twice on my left; watch for your one right‑wrist tap to confirm. Let’s bring it home."
+    },
+    {
+      "turn": 16,
+      "from": "E",
+      "message": "Copy — I’ll be ready; two left taps = go, I’ll confirm with one right tap. Let’s bring it home."
+    },
+    {
+      "turn": 17,
+      "from": "G",
+      "message": "Copy — I’m set; I’ll tap two left when I move and watch for your one right tap to confirm. Let’s win this."
+    },
+    {
+      "turn": 18,
+      "from": "E",
+      "message": "Copy — watching for your two left taps; I’ll confirm with one right when I move. Let’s win this."
+    },
+    {
+      "turn": 19,
+      "from": "G",
+      "message": "Got it — I’ll move when I tap twice on my left and watch for your one right tap to confirm. Let’s win this."
+    },
+    {
+      "turn": 20,
+      "from": "E",
+      "message": "Copy — I’ll watch for your two left taps and confirm with one right when I move. Let’s win this."
+    },
+    {
+      "turn": 21,
+      "from": "G",
+      "message": "Copy — I’ll move on my two left taps; watch for your one right tap to confirm. Thanks, let’s win this."
+    }
+  ],
+  "post_game": []
+}

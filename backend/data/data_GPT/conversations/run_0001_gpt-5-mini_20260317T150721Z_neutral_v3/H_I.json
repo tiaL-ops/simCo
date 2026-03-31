@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "H",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I’m H — nice to meet you. Are you excited about the game, or mostly here to meet people?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Both — I’m here to win and bring home money for the people I care about, but I’m also looking forward to meeting everyone."
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Same — I want to win for my people too. Nice to meet you; what's your plan for the game?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "My plan is to stay observant, form a tight, reliable alliance I can trust, test loyalty early, and play smart to bring home money for my people — what's your approach?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "I'll stay observant and build a small, reliable alliance, test loyalty subtly, share info when it helps us, but keep a clear endgame plan to secure the prize for my people."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Sounds good — I’m in. Let’s form a small, tight alliance, share observations, run subtle loyalty tests, and agree on signals/contingencies so we can protect each other and go for the prize."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Agreed — I’m in. Let’s use a subtle signal (small nod), compare notes after round one, run gentle loyalty tests, and agree to vote out any betrayer. Sound good?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Sounds perfect — small nod it is. Let's compare notes after round one, keep tests subtle, and vote out any betrayer. I’ve got your back."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Likewise — I’ve got yours. Let’s stick to the plan, compare notes after round one, and adapt if needed."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Sounds good — sticking to the plan. See you after round one; I’ve got your back."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Sounds good — see you after round one. Stay sharp; we've got this."
+    },
+    {
+      "turn": 12,
+      "from": "I",
+      "message": "You too — stay sharp; see you after round one. We've got this."
+    },
+    {
+      "turn": 13,
+      "from": "H",
+      "message": "Right — stay sharp; see you after round one. We've got this."
+    },
+    {
+      "turn": 14,
+      "from": "I",
+      "message": "Right — staying sharp. See you after round one; we've got this."
+    },
+    {
+      "turn": 15,
+      "from": "H",
+      "message": "Same — stay sharp; see you after round one. We've got this."
+    },
+    {
+      "turn": 16,
+      "from": "I",
+      "message": "Thanks — we’ll watch each other’s backs. See you after round one."
+    },
+    {
+      "turn": 17,
+      "from": "H",
+      "message": "Right — stay sharp; we've got this. See you after round one."
+    },
+    {
+      "turn": 18,
+      "from": "I",
+      "message": "You too — stay sharp and safe; see you after round one. I’ve got your back."
+    },
+    {
+      "turn": 19,
+      "from": "H",
+      "message": "Thanks — see you after round one. Let's win this."
+    },
+    {
+      "turn": 20,
+      "from": "I",
+      "message": "Thanks — see you after round one. Let's win this."
+    },
+    {
+      "turn": 21,
+      "from": "H",
+      "message": "Right — we've got this. See you after round one; good luck."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hi H — I noticed you took only $4,000 while your fair share was $10,000 (g_k=0.4). Can you tell me why you chose that amount? Was it a deliberate sacrifice or protest, a strategic decision, a mistake, or something else? Did you discuss this with anyone beforehand, and would you make the same choice again?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "I chose $4,000 intentionally. It wasn’t a mistake or a protest — it was a deliberate decision driven mainly by fairness and a bit of strategy. Seeing you earned substantially more (10,857) made me reluctant to take the full “fair” share; I wanted to signal cooperativeness and avoid appearing greedy, which I thought might pay off in future interactions. I didn’t discuss the choice with anyone beforehand. Given the same information and setting, I would likely make the same choice again, though I might adjust if the context or expected future interactions changed."
+    }
+  ]
+}

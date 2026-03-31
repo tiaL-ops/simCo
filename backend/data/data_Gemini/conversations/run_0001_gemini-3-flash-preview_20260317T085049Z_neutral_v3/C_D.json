@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "C",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi, I'm C. It's a bit nerve-wracking waiting around like this, isn't it? What brings you to a game like this?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey C, I'm D. It definitely is. Honestly, I'm here for the prize money; it would mean a lot for my family. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Same here, D. I’ve got people I care about that I want to help out, and honestly, the money would make a huge difference for my own future too."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "I totally get that. It’s a lot of pressure when you’re doing it for others. Have you heard anything about what kind of games we’ll be playing?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Not a word yet. They’re keeping us in the dark, which honestly just makes me more anxious. Are you hoping for anything in particular?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "I’m hoping for something that relies more on strategy than luck. I’d rather feel like I have some control over whether I win or not. How about you?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "I feel the same way. Luck is too fickle when there’s so much at stake for the people back home; I’d much rather use my head to secure a win."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "I’m with you on that. Since we’re both looking to use our heads, what kind of games or puzzles do you usually excel at?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "I’ve always been good at logic puzzles and anything that requires spotting patterns or reading people. How about you?"
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "I'm more into numbers and quick decision-making under pressure. It's been good chatting with you, C, but I think I'll move around a bit now. Good luck to us both."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Sounds like a great skill set to have; good luck to you too, D, let's hope we both come out on top."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "I'm really glad we all took our fair share of $10,000. It was a pleasure playing with you!"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "It was a pleasure playing with you too! I'm glad we were able to reach a fair outcome together."
+    }
+  ]
+}

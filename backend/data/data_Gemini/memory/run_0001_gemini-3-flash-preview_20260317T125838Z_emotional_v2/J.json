@@ -1,0 +1,19 @@
+{
+  "agent_id": "J",
+  "condition": "emotional",
+  "context": "You have been thinking about buying a new car, your favorite one costs 45 000$ and you are telling yourself if you win the lottery, that is the first thing you want to do.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the strongest connections with F, H, and I, as we all shared a deep motivation to provide for our families, whether it was for medical bills, debt, or long-term security. F’s urgency regarding their parents' health and H’s focus on clearing their loans really resonated with my own drive to help my loved ones while pursuing my dream car. Conversely, I felt the least connected to C, largely because my repeated memory lapses created an awkward dynamic that prevented us from moving past surface-level talk about cars and vacations.\n\nI made a firm agreement with E to prioritize a $5,000 baseline for everyone so that basic needs like food and housing are met before anyone pursues larger prizes. I feel I can trust E to stick to this fair arrangement, but I am wary of C given our low connection score and the frustration caused by my forgetfulness during our talks."
+  },
+  "connection_scores": {
+    "G": 3,
+    "A": 3,
+    "F": 4,
+    "H": 4,
+    "I": 4,
+    "E": 3,
+    "D": 4,
+    "B": 3,
+    "C": 2
+  }
+}

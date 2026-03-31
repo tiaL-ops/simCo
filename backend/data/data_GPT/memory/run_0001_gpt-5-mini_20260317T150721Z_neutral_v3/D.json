@@ -1,0 +1,19 @@
+{
+  "agent_id": "D",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected with G, H, and B. G and I agreed on a clear, usable trust signal and promised to share observations, which felt practical and dependable. H and I built rapport through a mutual tiny test and a 50/50 understanding if we both cooperated, which felt sincere. B’s steady, upfront commitment to cooperate in round one and check in afterward also resonated with how I want to play.\n\nI made small, explicit agreements with a few people — cooperate round one with B, the tiny-test then 50/50 plan with H, and a two-tap signal/info-sharing arrangement with G. I trust G and H most going into the game; I feel least connected to I and don’t have a reason to rely on them yet."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 5,
+    "H": 5,
+    "E": 5,
+    "C": 4,
+    "F": 4,
+    "I": 4,
+    "B": 5,
+    "A": 5
+  }
+}

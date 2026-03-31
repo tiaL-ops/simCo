@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "E",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey there, I'm H. It's a bit of a crowd in here, isn't it? I’m just trying to get my bearings before things start—how are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Nice to meet you, H. I'm E. It's definitely a full house, isn't it? I'm doing okay, just trying to stay focused. How are you feeling about everything so far?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I’m a bit anxious but mostly just determined; I’ve got family counting on me, so I’m trying to stay as sharp as possible. What’s driving you to be here?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Pretty much the same thing. I’ve got people I care about back home, and I want to make sure I can provide for them. It’s a lot of pressure, but it keeps me motivated."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "I hear you. It’s a lot of weight to carry, but it definitely keeps the goal clear. Hopefully, we can both walk away with what we need."
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "I hope so too. It’s good to meet someone else who’s focused on more than just themselves here."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Agreed. It helps keep things in perspective when the pressure starts to build."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Exactly. It’s easy to get caught up in the moment, but remembering why we’re doing this makes all the difference."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Definitely. Let’s just hope we can keep that clarity once the money is actually on the table."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "That’s the real test, for sure. I'll do my best to stay grounded. Good luck out there, H."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Thanks, E. Good luck to you too, I hope we both get what we need for our families."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Perfect coordination! Glad we all took the fair share."
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "I'm glad we all took the $10,000 fair share. It's great to see such perfect cooperation!"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Agreed, it was a pleasure working with you to achieve this outcome."
+    }
+  ]
+}

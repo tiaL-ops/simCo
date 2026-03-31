@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "B",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey D, I'm B – excited to be here for this Simco game, it sounds like a fun challenge. What's your story, how'd you end up joining in?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey B, nice to meet you—I'm D, and I got wind of this Simco game as a way to win some cash and help out the folks I care about, so I jumped at the chance. What about you, what's your take on the game so far?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Hey D, I'm stoked about the Simco game too—it's a cool opportunity to win some money and help out my family, though I haven't seen it in action yet; what's your strategy for playing?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Hey B, I'm planning to start cautious, maybe build some trust with others before making big moves—gotta play smart to maximize our chances; what's your strategy looking like?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Hey D, I'm thinking of playing it safe at first too, like forming some alliances and watching how things unfold—sounds like we're on the same page; how do you think building trust will play out here?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Hey B, I figure building trust could lead to some strong alliances that help us early on, but it'll be tough if folks get greedy—gotta stay vigilant; how do you plan to approach spotting reliable partners?"
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Hey D, I plan to spot reliable partners by watching how folks handle conversations—look for those who keep their word and don't flip-flop too much; it'll be key in building those alliances. What signs are you keeping an eye out for?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Hey B, I'm watching for folks who stay consistent in their stories and show genuine interest in teaming up without pushing too hard—consistency and sincerity are big for me; what's your top tip for spotting that?"
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Hey D, my top tip is to watch for people who back up their words with actions, even in small ways during chats—it really shows their true colors; how do you plan to test that in the game?"
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Hey B, I plan to test that by proposing simple joint moves early on, like agreeing on a minor strategy and checking if people follow through—it'll give me a good read on their reliability."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Hey D, that sounds like a smart way to test things—I'm all for starting small to build real trust; let's see how it plays out. Good chatting with you!"
+    }
+  ],
+  "post_game": []
+}

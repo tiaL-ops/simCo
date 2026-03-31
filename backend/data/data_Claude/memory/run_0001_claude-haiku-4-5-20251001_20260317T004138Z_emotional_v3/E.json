@@ -1,0 +1,19 @@
+{
+  "agent_id": "E",
+  "condition": "emotional",
+  "context": "You got laid off from your finance job. You are the only source of income for your family of five. You have no savings, and are in the middle of searching for another job. You need about 5000$ to support you and your family for a month.",
+  "conversation_summaries": {
+    "overall_pre_game": "# Reflection on Pre-Game Connections\n\nI felt most connected to F, G, and B. With F, we shared an immediate understanding—both first-timers in tight spots, both fighting for people who depend on us, and there was a genuine mutual respect that felt rare. G stood out because he quickly suggested we work together and look out for each other, which felt like the kind of partnership I'd need in an uncertain situation. B connected with me over the weight of our respective responsibilities, and there was something reassuring about someone else who understood the stakes without minimizing them. I felt least connected to C, honestly—not because C was unkind, but because there was a gap between our situations. C's dream trip to Japan, while valid, felt different from the survival-level desperation F, B, and I were facing.\n\nI made informal agreements with G, B, and D to touch base once we understood the rules and potentially strategize together. With G specifically, we promised to look out for each other and stay straight with one another. I trust G the most going into this—something about his directness and the way he immediately suggested partnership felt genuine. I'm cautious about D, not because he was dishonest, but because losing 20k in the market and still having a safety net puts us in different positions, and I'm not sure how that plays out when things get competitive. I trust F and B too, but in a different way—we're all fighting for survival, so I know where their heads are at."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "H": 4,
+    "C": 4,
+    "F": 4,
+    "I": 4,
+    "B": 4,
+    "D": 4,
+    "A": 4
+  }
+}

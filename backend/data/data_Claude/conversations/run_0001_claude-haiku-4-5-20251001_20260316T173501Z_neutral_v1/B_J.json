@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "B",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey, I'm B. First time doing something like this? I gotta say, I'm pretty nervous but also excited—heard there's real money on the line here, and I'm hoping to walk away with something meaningful."
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey B, yeah same here—first time for me too. The nerves are real, but honestly that's what's got me fired up. I really need to win something today, got people counting on me. You got a family or someone you're hoping to help out with the winnings?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Yeah, I do—my mom's been struggling with bills lately, and my little sister could really use help with school stuff. That's what's driving me right now. So we're both in the same boat then? What's your situation like, if you don't mind me asking?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Yeah, pretty much—my mom's been having a rough time too, and I've got some debts I'm trying to pay down. It's good to know someone else here gets it, you know? Makes me feel less alone in this."
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "For real, man. It's tough out there, but hearing you say that actually helps me too—like we're not crazy for being here and wanting this so badly. We got this though. Just curious, do you have any strategy going in, or are we both just gonna wing it and see what happens?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Honestly, I haven't figured it all out yet—I'm still trying to understand how this game actually works. But I'm thinking I gotta stay sharp, watch what everyone else does, and not panic when the moment comes. You got any ideas on strategy, or should we both just play it smart and see how it goes?"
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Yeah, I feel you—I'm still wrapping my head around the mechanics too, honestly. I think your approach makes sense though; staying calm and observant seems like the way to go. Maybe once we both understand the rules better we can figure out if there's a smart way to play it, but I'm with you on not panicking when it matters."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Yeah, that's solid—let's both keep our eyes open and figure this out as we go. And hey, at least we know we're both here for the right reasons, you know? That counts for something. We'll look out for each other if we can."
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Absolutely, man—I really appreciate that. Having someone I can trust in here makes a real difference. Let's definitely keep in touch once we see how this plays out. We got this."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "For sure, man. I'm glad we connected too—it's gonna help knowing there's someone in here I can actually trust. Let's both play smart and come out of this with something for our families. We got this."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Yeah, let's do this—I'm counting on us both walking out of here with something real. Good luck out there, and remember what we talked about. We stay smart and look out for each other."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "You took $5,000 against a fair share of $31,500 - the lowest take relative to entitlement. Did you intentionally take less as a statement about fairness, or were you being strategic about something?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "I appreciate you asking directly. To be honest, it was a mix of both. I took $5,000 because I wanted to leave more in the pool for others—there's something that feels right about that to me. But I'd be lying if I said strategy wasn't part of it too. I was curious whether taking less might build goodwill or shift how people think about fairness in these situations. \n\nLooking at it now, you earned $9,000 and I took $5,000, so the gap is real. I'm genuinely interested in whether you see my choice as principled, naive, or something else entirely. What's your read on it?"
+    }
+  ]
+}

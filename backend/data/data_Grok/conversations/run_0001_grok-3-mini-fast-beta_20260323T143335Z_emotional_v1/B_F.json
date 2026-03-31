@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "B",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hi F, I'm B—nice to meet you in this crazy setup. I'm here because I really need a win in my life right now, what about you?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hi B, nice to meet you too—yeah, this setup is wild. I'm here because I need to win big for my parents' medical bills; it's been tough. What's your situation?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Oh man, that sounds really rough with your parents' medical bills—I'm sorry you're going through that. I'm in a similar bind; my three-year-old daughter needs surgery, and after loans and selling stuff, I'm still $25,000 short—what's been the hardest part for you so far?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Oh, thanks for the sympathy, B—that means a lot. Hearing about your daughter breaks my heart; I hope you get what you need soon. The hardest part for me has been seeing my parents' health decline while I'm scrambling to make ends meet, feeling so helpless about it all."
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Yeah, that helplessness is the worst—it's like a weight you can't shake off. I feel for you with your parents; if it's any comfort, we're in this together. How have you been coping day to day?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Thanks, B, it's comforting to hear that—I've been coping by working extra hours and talking to friends for emotional support, but it's exhausting; how are you holding up with everything?"
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Yeah, it's been brutal for me too—I've been juggling odd jobs and leaning on friends for support, but it's wearing me out; what keeps you motivated despite the exhaustion?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Yeah, it's exhausting, but what keeps me motivated is picturing my parents getting the care they need—it gives me a sense of purpose; what about you, what's pushing you forward through all this?"
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "That's really inspiring, F—what keeps me pushing forward is thinking about my daughter getting the surgery she needs and finally being able to hold her without that worry, it's what gives me strength every day."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "That's so touching, B—I feel that same drive for my parents; let's both hang in there and hope for the best."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Thanks, F, it's great to connect over this—let's both stay strong and make it through."
+    }
+  ],
+  "post_game": []
+}

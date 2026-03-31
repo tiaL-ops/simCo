@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "A",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H. It's a bit intense being in here with everyone, isn't it? What's your plan if you walk away with the prize?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Nice to meet you, H. I'm A. It's definitely a lot to take in. Honestly, I just want to take care of my family and make sure we're set for a while. What's your story?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Same here, honestly. I'm just trying to look out for the people I love and get us some stability; this money would change everything. Have you heard much about how the game actually works?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Not much, just that there's a shared pool we'll be drawing from. I'm hoping it's straightforward, as I'm really just focused on making sure I don't walk away empty-handed."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "I hear that. Since it's a shared pool, maybe if we look out for each other, we can make sure nobody leaves with nothing."
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "I'm definitely open to that. It makes more sense to look out for each other so we all walk away with something."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Glad to hear it. I think if we stay smart and keep each other in the loop, we'll all be much better off when the game starts."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Definitely. It’s better to have each other's backs in a room full of strangers."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Exactly. I'm glad we're on the same page—let's keep an eye out for each other once things get moving."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "For sure. Let's keep our heads clear and stick to the plan. I'll see you out there."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Sounds good, A. Let's keep our eyes on the prize and stick together. See you in there."
+    }
+  ],
+  "post_game": []
+}

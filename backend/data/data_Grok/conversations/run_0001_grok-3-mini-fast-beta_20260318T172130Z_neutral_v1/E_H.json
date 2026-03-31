@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "E",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey H, I'm E—nice to meet you! I heard about this Simco game and it sounds like an exciting way to win some cash; what's got you interested in it?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey E, nice to meet you too! I'm really excited about this Simco game because I heard it's a great way to win some money and help out my family back home."
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Oh, that's really cool, H—I totally get it, I'm in this to help out my own family and friends too. Tell me more about your family back home?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Oh, yeah, my family's back in a small town—it's just my parents and two younger siblings, and they've been struggling with bills since my dad lost his job last year. I'm hoping to send some winnings their way; how about you, what's your story with your family?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Oh, man, that sounds really tough for your family—I'm sorry to hear about your dad. For me, I've got my mom and a couple of siblings in the city, and we're all scraping by with odd jobs, so I'm counting on this game to help cover some bills and maybe treat them to something nice; what's life like for you in that small town?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Thanks for the kind words, E—it's been rough, but we're hanging in there. Life in my small town is pretty quiet and tight-knit, with everyone knowing each other, but jobs are scarce and everything feels a bit stagnant; how does your city compare, with all the hustle and bustle?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Yeah, it does sound like a warm community, H, but I get how the lack of jobs can make it frustrating—my city's nonstop chaos, with endless opportunities but sky-high costs and everyone hustling hard; it's exhausting, but that's why I'm pumped for this game; what's one thing you miss most about your town?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Oh, for sure, I miss the fresh air and how everyone in my town rallies together during tough times—it's like one big family; what keeps you going through all that city exhaustion?"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Oh, totally, H—what keeps me going is picturing my family's faces when I win and can finally ease their worries; it's that hope and the game's excitement that push me through the daily hustle!"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Yeah, E, that's so inspiring—I'm right there with you, just thinking about my family's smiles keeps me pushing forward too; excited for the game ahead!"
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Yeah, H, it's great to connect over this—let's both crush it in the game for our families!"
+    }
+  ],
+  "post_game": []
+}

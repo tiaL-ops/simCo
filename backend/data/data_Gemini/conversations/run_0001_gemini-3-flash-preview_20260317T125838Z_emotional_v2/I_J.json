@@ -1,0 +1,96 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T125838Z_emotional_v2",
+  "pair": [
+    "I",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey there, I'm J. It's a bit nerve-wracking waiting for things to start, isn't it? I've already got a specific car in mind if I take home some cash—do you have any big plans for the winnings?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Nice to meet you, J. I'm I. It definitely is! I'm mostly focused on setting things up for my family and the people I care about. What kind of car are you thinking of getting?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "I’ve got my heart set on a $45,000 model I’ve been eyeing for a long time—it’s the first thing I’ll do. That’s really great about your family; I’m hoping to look after my loved ones too. What would setting things up look like for you?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "It’s mostly about long-term security, like helping my parents with their mortgage or setting aside a fund for my siblings. Just knowing they have that extra cushion would mean everything. That car sounds like a dream, though—what color are you thinking?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "I’m thinking a sleek midnight blue—it just looks so sharp. That’s really selfless of you to put your family first like that; I’m sure they’d be incredibly grateful. Do you have a specific goal for how much you're hoping to win?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "That color sounds stunning. Honestly, I'm aiming for as much as I can get—maybe around $100k to really clear those mortgages and set everyone up properly."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "$100k is a great goal—that would definitely take a lot of pressure off your parents. I’m keeping my fingers crossed for both of us! Do you have any strategy in mind for when the game actually starts?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "I’m planning to stay sharp and observant. It’s hard to have a set strategy without knowing the rules yet, but I’m definitely going to play to win. Do you have a plan yet?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Honestly, I’m just going to stay focused and adaptable; I really want that car, so I’ll do whatever it takes to walk away with enough to make it happen."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "I respect that drive. It's going to be interesting to see how we all handle the competition. Good luck, J!"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Thanks, I. Good luck to you too—I really hope you can help your family out. See you when the game starts!"
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Hey, I'm J. It’s a bit intense being in a room with everyone competing for the same prize, isn't it? Have you already decided what you'd do if you win?"
+    },
+    {
+      "turn": 13,
+      "from": "I",
+      "message": "J, we literally just talked about this! Like I said, I'm focused on my family's security. Good luck with that midnight blue car."
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Oh man, total brain fog—I guess the nerves are really getting to me! Best of luck with everything for your family, I'll see you in there."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "You took $45,000, which was 4.5 times your fair share. Why did you take so much, knowing it would leave others with nothing?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Fairness is a luxury that rarely survives a competitive environment. I didn't play to ensure everyone was comfortable; I played to maximize my own outcome. In a situation where I could either secure my own future or hope that others would do the same for me, I chose the only path that guaranteed a result. I prioritized my security over your sentimentality."
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "You’ve confused pragmatism with a lack of character. By framing fairness as a \"luxury\" and my expectation of it as \"sentimentality,\" you’re just trying to dress up greed as a strategic necessity. You didn't just secure your future; you sold your reputation for $45,000. I may have less money, but I don't have to wonder if I'm the kind of person who would bankrupt others for a bigger slice of the pie. I have my answer."
+    }
+  ]
+}

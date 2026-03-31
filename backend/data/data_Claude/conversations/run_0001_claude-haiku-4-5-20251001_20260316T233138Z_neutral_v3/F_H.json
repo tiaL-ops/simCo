@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "F",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H. I figured before we get into this game, might as well get to know some people, right? What brings you here today—are you hoping to win big like the rest of us?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey H, nice to meet you! Yeah, I'm definitely here to win—got people depending on me back home, so I'm taking this pretty seriously. What about you, what's your situation?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Same here, man—got family I want to help out. So we're both in it for the right reasons then. Do you have any idea how this game actually works, or are we going in blind like everyone else?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Honestly, I'm going in pretty blind too—just know there's a shared prize pool we can take from. I'm hoping they explain the rules before we start. You picked up anything else about how it works?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Nah, same boat as you honestly. All I know is there's money to win and we've got a shot at it. I'm guessing they'll lay out the rules once everyone's settled in. Guess we'll just have to see what we're dealing with when it starts."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Yeah, fair enough. Well, at least we'll figure it out together when the time comes. You seem like straight-up people though—might be good to stick together once we know what we're working with."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "I appreciate that, F. Yeah, I'm down to work together—seems smarter than going at it alone. Let's see what the rules are and figure out the best move from there."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Sounds good, man. I'm glad we're on the same page. Let's keep our eyes open when they explain the rules and figure out the smart play together."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Absolutely, I'm with you. We'll stay sharp, listen carefully, and make moves that benefit both of us. Good to have someone I can trust in this."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "That means a lot, H. I'm feeling good about this—having someone I can actually trust in here takes some of the pressure off. Let's stay solid and look out for each other. Good luck when this thing kicks off."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "You too, man. Same energy—we've got this. Let's make it count for our families. See you when the game starts."
+    }
+  ],
+  "post_game": []
+}

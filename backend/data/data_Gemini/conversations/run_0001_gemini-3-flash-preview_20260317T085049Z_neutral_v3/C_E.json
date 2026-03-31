@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "C",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I’m E. It’s a bit nerve-wracking just sitting around waiting for things to start, isn't it? How are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hey E, I'm C. It really is. I'm doing okay, just trying to stay focused on the goal. How about you?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I'm hanging in there. I've got people back home counting on me, so that's my main motivation. What would winning this money mean for you?"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "It would mean everything. It’s about finally giving the people I love the stability they deserve."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "I hear you, stability is everything. It sounds like we’re both here for the same reasons then."
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "Exactly. It’s good to meet someone who understands the pressure; it makes this whole thing feel a bit more grounded."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "I agree. Having a friendly face definitely helps. Let's hope we can both find a way to make this work for our families."
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "I hope so too. It’s good to know we’re on the same page about what really matters."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Definitely. It’s good to have that clarity before things kick off. Let’s see what happens next."
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Agreed. Good luck, E. I'm going to take a moment to clear my head before we start."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thanks, C. Take care and good luck to you and your family."
+    }
+  ],
+  "post_game": []
+}

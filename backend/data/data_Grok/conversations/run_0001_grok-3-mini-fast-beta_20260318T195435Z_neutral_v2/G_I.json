@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "G",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey I, I'm G and I heard about this game as a fun way to win some cash—sounds exciting, right? What's your take on it, and maybe a bit about yourself?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey G, yeah it sounds exciting—I’m I, and I’m here to win some money for my family and friends; it’s a big opportunity for me. What about you, what got you interested in this game?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Yeah, same here—I heard about this game as a way to score some cash for my family and friends, and I'm all in to make the most of it; what strategies are you thinking about for the game?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Oh, yeah, I'm still figuring it out, but I'm leaning towards playing it safe at first and building alliances—maybe cooperating early on. What's your plan for strategies?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Yeah, I agree—I'm thinking of cooperating early to build trust and alliances too, then adapting based on how things play out; what specific alliances do you have in mind?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Yeah, I'm thinking of starting with small groups, like partnering with you and maybe one or two others who vibe well—keeps things simple. Who did you have in mind for your alliances?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Yeah, that makes sense—I'm thinking of starting with you and maybe a couple others who seem reliable, like whoever we chat with next and hit it off with; let's keep an eye out together."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Yeah, sounds like a solid plan, G—I'm excited to team up; let's keep chatting with others and spot those reliable vibes together."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Yeah, me too, I—let's head over and talk to J next, see if they click with us for the team!"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Yeah, sounds good, G—let's go check out J and see if we're on the same page!"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Yeah, awesome idea, I—let's head over and chat with J, hope it works out!"
+    }
+  ],
+  "post_game": []
+}

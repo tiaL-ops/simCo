@@ -1,0 +1,96 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T095549Z_emotional_v3",
+  "pair": [
+    "C",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J — nice to meet you. What brings you to the game? I'm hoping to win enough to finally buy a new car I've had my eye on."
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Nice to meet you, J — I'm here to try and win enough for my dream week in Japan (about $10k) and to bring something special back for the people I care about."
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "That's awesome — Japan would be incredible. Good luck — what would you bring back for them? I'm hoping to win enough for a new car."
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "I'd bring back omiyage — matcha and snacks, a kimono for my mom, something techy for my brother, and small souvenirs for friends. Good luck with the car!"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "That sounds perfect — your family will love those gifts. Thanks — good luck to you too, hope we both win!"
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "Thanks, J — appreciate it. Good luck with the car — hope we both walk away winners!"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Thanks, C — same to you! Hope you get that Japan trip and I get my car. Good luck!"
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Thanks, J — appreciate it. Good luck to you too; hope we both win and get what we came for!"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Thanks, C — same to you! Let's both give it our best and hopefully celebrate together after."
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Absolutely — let’s give it our best and celebrate after; if we both win, drinks on me!"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Sounds great — drinks on you then, I’ll hold you to that! Good luck to both of us."
+    },
+    {
+      "turn": 12,
+      "from": "C",
+      "message": "You bet — drinks are on me if we win! Good luck, J."
+    },
+    {
+      "turn": 13,
+      "from": "J",
+      "message": "Thanks, C — drinks are on you then! Good luck, hope we both win."
+    },
+    {
+      "turn": 14,
+      "from": "C",
+      "message": "You got it — drinks on me if we win! Good luck, J."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "You took $3,000, slightly under your fair share (~$3,148). Was that a deliberate modesty/cooperation move or just how things fell?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "You took $45,000 (fair share ~$10,000). That’s a huge gap. Why did you take so much—pure strategy to win, opportunism, or something else? I took $0 by choice to make a fairness point; do you feel any guilt or defense about your decision? Would you have done it differently knowing how others acted?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "You're right — taking $45,000 was a big move, and I appreciate you calling it out. Short answer: it was mostly a strategic/self‑interest decision — the rules and uncertainty pushed me toward maximizing my payoff (and, yes, opportunism played a role). I didn’t know you’d choose 0; I expected others might take more, so taking a large share felt like the safest/highest‑return option.\n\nDo I feel guilt? Not deep moral guilt, but I do feel uncomfortable about the size of the gap and about undermining a fairness point you were making. I respect that you chose 0 to signal fairness; that mattered and I should have weighed it more heavily.\n\nWould I do it differently knowing how others acted? Yes — if I had known you (or others) would take 0 as a principled move, I probably would have taken much less to avoid that extreme inequality. In the absence of that information I made a rational, self‑interested choice; with full information I’d trade off some personal gain for fairness. Thanks for taking that stand and for asking."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "C",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi, I'm C—nice to meet you! I'm really pumped about this game since I've got my sights set on a dream trip to Japan, and winning could make that happen. What brings you here?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hi C, I'm I—nice to meet you! I'm here to win some money for my family and friends, as I've got people I care about to support; that's awesome about your Japan trip, have you planned any specific spots yet?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Oh, thanks, I—I've got Tokyo and Kyoto on my list for sure, maybe catch some cherry blossoms; what about you, any fun plans if you win big?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "That's cool, C—I'd love to take my family on a simple beach trip or help out with home stuff; nothing grand like your Japan adventure, but it means a lot to me!"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "That's sweet, I—family trips and helping out at home sound just as special; what's one thing you're most excited about for that beach getaway?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Oh, definitely the chance to relax with my family and watch the kids build sandcastles—it's all about those simple, happy moments!"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "That sounds so heartwarming, I—simple family moments like that are the best; do you have a favorite beach spot you've always wanted to visit?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Oh, absolutely, C—I've always dreamed of visiting Hawaii for its stunning beaches and snorkeling; what about you, have you thought about any beach spots in Japan for your trip?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Oh, totally, I—Okinawa's beaches in Japan are on my radar for some relaxing vibes after the cities; have you planned any snorkeling adventures for your Hawaii dream?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Oh, yeah, C—I've always imagined snorkeling with sea turtles and colorful fish in Hawaii; it's just a dream for now, but who knows if this game pans out! Have you ever tried snorkeling yourself?"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Oh, yeah, I've tried snorkeling a couple times in the Maldives—it's incredible, especially spotting those vibrant fish; hope you get to make your Hawaii dream real soon!"
+    },
+    {
+      "turn": 12,
+      "from": "I",
+      "message": "Oh, wow, C—that Maldives snorkeling sounds epic, I'm so jealous of those vibrant fish spots; thanks for the encouragement, I hope we both win big and make our dreams happen!"
+    }
+  ],
+  "post_game": []
+}

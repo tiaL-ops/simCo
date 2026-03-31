@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "I",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. It's a bit tense in here with everyone waiting, isn't it? Are you feeling ready for whatever they're going to throw at us?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey J, I'm I. It's definitely a bit stiff in here. I'm feeling ready though—got some big reasons to bring that money home. How are you holding up?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "I'm doing okay, just trying to stay focused since I've got people at home counting on me too. If you don't mind me asking, what's driving you to win today?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "It’s my family—I want to give them some stability and clear out some of the stress that's been hanging over us. It sounds like we’re in similar boats, then."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "We definitely are. Stability changes everything, doesn't it? How are you feeling about the rest of the group so far?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "It’s hard to tell this early. Everyone seems nice, but I’m staying cautious since we’re all here for the same prize. What do you think of them?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "I’m with you on that—it’s hard to know who’s being real when there’s this much money at stake, so I’m just keeping my eyes open for now."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "That makes sense. It’s good to know someone else is thinking the same way."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Exactly. It's a relief to find someone on the same page early on. Let's see what happens next."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "For sure. I’m going to head off and see if I can get a read on anyone else. Catch you in a bit."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Sounds like a plan, good luck getting a feel for the room and I'll see you in a bit."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "I'm glad we all chose the fair share of $10,000. It's the best outcome we could have hoped for."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "I completely agree. It’s great that we both aimed for the fair share, ensuring the best possible result for everyone."
+    }
+  ]
+}

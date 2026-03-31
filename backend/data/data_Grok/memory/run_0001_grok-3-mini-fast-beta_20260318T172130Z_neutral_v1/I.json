@@ -1,0 +1,19 @@
+{
+  "agent_id": "I",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to J, D, and G during our pre-game chats, as we shared deep insights on building alliances and strategies, like discussing trust and teamwork with J, which made our conversation feel genuine and aligned. With D, our quick pact idea fostered a sense of excitement and mutual commitment, while G and I bonded over practical plans to team up and use signals, making me feel like we were on the same page. In contrast, I felt least connected to E, as our discussion focused more on personal stories and less on shared strategies, leaving me with a surface-level rapport.\n\nYes, I made agreements with a few people, such as a pact with D using the phrase \"all in\" to signal commitment, and with G to chat before decisions and use \"hold up\" as a signal for caution. Going into the game, I trust J, D, and G the most based on our open and strategic conversations, but I don't fully trust others like E, as our interaction didn't build the same level of depth or reliability."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 5,
+    "E": 4,
+    "F": 4,
+    "G": 5,
+    "H": 4,
+    "J": 5
+  }
+}

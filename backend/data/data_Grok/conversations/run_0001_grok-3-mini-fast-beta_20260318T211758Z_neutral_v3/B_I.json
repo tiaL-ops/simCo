@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "B",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hey B, I'm I, and I'm really pumped about this Simco game—it's a chance to win some cash for the folks I care about. What's your take on it?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey I, nice to meet you—I'm just as excited about this Simco game; it's a great chance to win some cash for the people I care about too. What's your background with games like this?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "Hey B, I've dabbled in a few online strategy games here and there, but nothing as high-stakes as this—I'm hoping my luck holds up! How about you, any experience with these kinds of setups?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Hey I, I've played a few casual online games in the past, but nothing this intense—fingers crossed we both get lucky!"
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "Hey B, same here—hoping our luck kicks in big time; do you have any strategies in mind for this game?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Hey I, I'm still brainstorming, but I figure staying observant and not rushing into things might give us an edge—do you have any ideas?"
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "Hey B, that sounds smart—I'm thinking of building quick alliances to watch each other's backs; what do you reckon could work best for us?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Hey I, yeah, alliances could definitely help us out—I'm all for watching each other's backs while staying observant; maybe we team up early and share info on what others are doing?"
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Hey B, that sounds perfect—let's definitely team up and share observations on others' moves early on; it'll help us stay one step ahead!"
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Hey I, that's awesome—let's team up and keep sharing those observations to stay ahead!"
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "Hey B, that's great—looking forward to teaming up and crushing this together!"
+    }
+  ],
+  "post_game": []
+}

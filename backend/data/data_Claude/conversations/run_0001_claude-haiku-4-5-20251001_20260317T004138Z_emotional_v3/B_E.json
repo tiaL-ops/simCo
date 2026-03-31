@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "B",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. First time doing something like this? I gotta say, I'm pretty nervous but also hoping this could be a real game-changer for me and my family right now."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey E, yeah first time for me too. I'm really nervous honestly—my daughter needs surgery and we're running out of options. What's your situation, if you don't mind me asking?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Man, I'm really sorry to hear about your daughter—that's tough. Honestly, I just got laid off from my finance job, and I'm the only one bringing in money for my family of five. We're barely scraping by right now, so I'm really hoping this works out for both of us."
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Thanks for understanding, man. Five people depending on you—that's a lot of pressure. I really hope things turn around for you too. We're both in a tough spot, but at least we're here trying, right? Do you have any idea how this game actually works?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Honestly, not really—I've just heard there's a shared prize pool we can take from, but I'm still trying to figure out the details myself. Do you know anything more about how it works? Maybe we can figure it out together before things get started."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Yeah, I've been wondering the same thing—I haven't gotten clear details either, just that there's money we can take from a pool. I guess we'll find out more when they explain the rules, but I'm thinking we should both try to understand it before we make any moves. Maybe ask around and see if anyone else knows more?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Yeah, that makes sense—knowing the rules before we jump in is smart. I'll definitely ask around and see what I can learn. We should probably touch base again once we know more, because honestly, having someone else who gets what's at stake here makes this less scary, you know?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Absolutely, man—I really appreciate that. Yeah, let's definitely reconnect once we learn more about how this works. Having someone who understands what we're going through makes a huge difference. Good luck asking around, and I'll do the same."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Thanks, man. Yeah, let's definitely catch up again soon. We got this—just gotta stay smart and look out for each other. Good luck with everything."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "You too, E. Yeah, we'll figure this out together. Talk soon."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Sounds good, brother. Take care of yourself and your daughter. We'll talk soon."
+    }
+  ],
+  "post_game": []
+}

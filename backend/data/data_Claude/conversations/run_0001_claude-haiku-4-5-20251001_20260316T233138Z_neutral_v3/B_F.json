@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "B",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F. First time doing something like this? I gotta admit I'm a bit nervous but also really excited about what's about to happen here."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey F, nice to meet you! Yeah, first time for me too. I'm definitely nervous but honestly more excited—I really need to win something here, you know? What brings you to this game?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Same here, man—I really need this win too. Got some people counting on me back home. So you mentioned needing to win something... what's your situation, if you don't mind me asking?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Yeah, I've got family depending on me too. Been tight financially, and I'm hoping to bring something back for them. What kind of situation are you in, if you don't mind me asking?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Man, I feel you on that. My mom's been struggling with medical bills, and my little sister needs help with tuition next semester. That's really why I'm here—figured if I could win something, it'd take a huge weight off all of us, you know?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Yeah, I totally get it—that's a lot of responsibility on your shoulders. Medical bills are brutal, and tuition costs are insane. We're in similar boats then. I'm hoping to do well here too so I can help my family out. We'll both have to bring our A-game, yeah?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Absolutely, man. We got this. I'm thinking we should both play smart though—do you know anything about how this game actually works yet, or are we going in blind?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Honestly, I'm going in pretty blind right now—haven't gotten details on the rules yet. But yeah, we should definitely figure out how it works before we jump in. You thinking we should try to team up or at least keep each other in the loop once we understand what we're doing?"
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Yeah, for sure—I'm down to keep each other in the loop. Once we know the rules, we can figure out if teaming up makes sense, but either way it's good to have someone you trust in the room, you know?"
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Absolutely, man. Having someone I can trust here definitely makes this less intimidating. Let's stay sharp and look out for each other once the game starts. Hopefully we both walk out of here with something for our families."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "For sure, man. We got each other's backs. Let's both stay focused and play it smart out there. Good luck—I've got a good feeling about this."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "F",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F! I figured I'd introduce myself before we get started. Have you done one of these games before, or is this your first time like me?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey F, nice to meet you! Yeah, this is my first time too, actually. I'm pretty pumped about it though — heard there's real money on the line. You nervous at all, or are you feeling good about it?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Honestly, a little bit of both! I'm definitely nervous because I want to do well — I've got people counting on me to bring something home — but I'm also excited to see how this plays out. Do you have a strategy in mind, or are you just gonna wing it and see what happens?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "I feel that, man — same boat with people depending on me. Honestly, I'm still figuring it out, but I'm thinking I need to pay attention to what everyone else is doing and maybe try to work together rather than just go full competitive. What's your gut telling you?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Yeah, I hear you on that. My gut's telling me the same thing honestly — like, if we all just try to grab as much as we can, nobody wins big. But I'm also not trying to get played, you know? Maybe we should keep talking to people and see if we can figure out what's actually gonna work here before things get messy."
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Yeah, that makes sense. I'm definitely gonna chat with some of the others too, but I trust your instinct on this. Let's both feel people out and maybe compare notes before things kick off — no point in either of us getting blindsided."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Absolutely, that sounds like a plan. I'll do the same and we can touch base in a bit — hopefully we'll get a better read on who's thinking what before this thing starts."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Sounds good. Yeah, let's reconvene in a few and see what we learn. Good luck talking to people — and hey, I appreciate you being straight with me about this."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Thanks man, I appreciate that too. Yeah, let's touch base soon — I'll get some reads on the others and we can figure out our best move together."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "For sure, man. I'll do the same — catch you in a bit."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Sounds good, brother. Let's make this work for both of us."
+    }
+  ],
+  "post_game": []
+}

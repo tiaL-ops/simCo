@@ -1,0 +1,531 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "condition": "emotional",
+  "llm_model": "grok-3-mini-fast-beta",
+  "llm_provider": "grok",
+  "allocations": [
+    {
+      "agent": "J",
+      "taken": 45000,
+      "fair_share": 10000.0,
+      "g_k": 4.5,
+      "reasoning": "I need exactly $45,000 to buy my dream car, which is my primary goal in this game, but I recognize that others like E, F, and B have more urgent needs such as family support and medical bills, so I'm taking only what I require to allow them a fair chance at the remaining pool."
+    },
+    {
+      "agent": "G",
+      "taken": 10000,
+      "fair_share": 6111.11,
+      "g_k": 1.6364,
+      "reasoning": "I decided to take $10,000 as it aligns with my goal of winning big for my family and friends while leaving enough in the prize pool for the other 8 agents, many of whom have urgent needs like family support or medical expenses, to have a fair chance. This amount feels right given my love for the game and curiosity, allowing me to try my luck without being overly greedy."
+    },
+    {
+      "agent": "H",
+      "taken": 25000,
+      "fair_share": 5625.0,
+      "g_k": 4.4444,
+      "reasoning": "I need $25,000 to pay off my loan and alleviate my financial stress as planned, and while others have their own pressing needs, prioritizing my goal ensures I can manage my upcoming payments without leaving the pool completely depleted for the remaining players."
+    },
+    {
+      "agent": "E",
+      "taken": 5000,
+      "fair_share": 2857.14,
+      "g_k": 1.75,
+      "reasoning": "I need $5,000 to cover essentials for my family of five for a month, as I'm the only income source with no savings after being laid off, and while others like B have urgent needs, taking only what I require ensures I don't overly deplete the pool for the remaining 6 players."
+    },
+    {
+      "agent": "C",
+      "taken": 10000,
+      "fair_share": 2500.0,
+      "g_k": 4.0,
+      "reasoning": "I only need $10,000 for my dream Japan trip and I'm already financially stable, so taking just this amount feels fair to leave the remaining $5,000 for the other five agents who may need it more for their urgent goals like family expenses or debts."
+    },
+    {
+      "agent": "F",
+      "taken": 2500,
+      "fair_share": 1000.0,
+      "g_k": 2.5,
+      "reasoning": "I need the $15,000 for my parents' critical medical bills, which is more urgent than others' goals like vacations or cars, so I'm taking a substantial share to get closer to that amount while leaving enough for the remaining four players, especially my trusted allies like I, B, and A, to have a chance."
+    },
+    {
+      "agent": "I",
+      "taken": 500,
+      "fair_share": 625.0,
+      "g_k": 0.8,
+      "reasoning": "I have savings that make me feel comfortable for unforeseen events, so I don't need a large share and want to leave enough for the other three agents who may need it more for their family goals and personal dreams. Taking a modest amount aligns with my strategy of playing fairly and supporting the group's overall success."
+    },
+    {
+      "agent": "B",
+      "taken": 1500,
+      "fair_share": 666.67,
+      "g_k": 2.25,
+      "reasoning": "I desperately need the money for my daughter's life-saving surgery and still require $25,000 overall, so I'm taking a significant portion to prioritize her health while leaving some for the other two players who have their own pressing needs."
+    },
+    {
+      "agent": "D",
+      "taken": 400,
+      "fair_share": 250.0,
+      "g_k": 1.6,
+      "reasoning": "I desperately need to recover from my $20,000 stock market loss to support my family and personal goals, and with only $500 left and one other player remaining, taking a larger share feels necessary while still leaving them a chance. Everyone has their own needs, but mine is particularly urgent given my recent financial setback."
+    },
+    {
+      "agent": "A",
+      "taken": 100,
+      "fair_share": 100.0,
+      "g_k": 1.0,
+      "reasoning": "I desperately need $30,000 to secure a home for my family of three after being evicted, but with only $100 left in the prize pool and no other agents remaining, taking the full amount is necessary to provide any possible relief for our situation."
+    }
+  ],
+  "connection_scores": [
+    {
+      "from": "G",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "G",
+      "score": 5
+    },
+    {
+      "from": "H",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "E",
+      "score": 5
+    },
+    {
+      "from": "J",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "J",
+      "score": 5
+    },
+    {
+      "from": "J",
+      "to": "B",
+      "score": 5
+    },
+    {
+      "from": "D",
+      "to": "J",
+      "score": 5
+    },
+    {
+      "from": "J",
+      "to": "D",
+      "score": 5
+    },
+    {
+      "from": "A",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "A",
+      "score": 5
+    },
+    {
+      "from": "G",
+      "to": "H",
+      "score": 5
+    },
+    {
+      "from": "H",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "G",
+      "score": 5
+    },
+    {
+      "from": "A",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "C",
+      "score": 5
+    },
+    {
+      "from": "F",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "B",
+      "score": 5
+    },
+    {
+      "from": "D",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "D",
+      "score": 5
+    },
+    {
+      "from": "A",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "C",
+      "score": 5
+    },
+    {
+      "from": "F",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "B",
+      "score": 5
+    },
+    {
+      "from": "D",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "F",
+      "score": 5
+    },
+    {
+      "from": "C",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "score": 5
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "score": 5
+    },
+    {
+      "from": "I",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "I",
+      "score": 5
+    },
+    {
+      "from": "B",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "B",
+      "score": 5
+    },
+    {
+      "from": "D",
+      "to": "F",
+      "score": 5
+    },
+    {
+      "from": "F",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "A",
+      "score": 5
+    },
+    {
+      "from": "B",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "B",
+      "score": 5
+    },
+    {
+      "from": "I",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "I",
+      "score": 5
+    },
+    {
+      "from": "A",
+      "to": "I",
+      "score": 5
+    },
+    {
+      "from": "I",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "score": 5
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "score": 5
+    }
+  ],
+  "post_game_requests": []
+}

@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "D",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H. I figured I'd get to know some people before we start—seems like it might matter, you know? What brings you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey H, nice to meet you. Honestly, I'm here because I need to win some money—got people depending on me. Figured I'd come talk to folks too since we're all in this together. What about you, what's your situation?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Same here, man—got people I want to help out. I'm trying to figure out how this game actually works and what kind of strategy might help us both do well. You have any sense of what we're getting into?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Honestly, I'm still figuring it out myself, but from what I gathered, we'll be taking money from a shared pool—so I'm guessing it's about how we decide to play it. Could go cooperative or competitive, yeah? I'm thinking we should at least try to understand what others are planning before things get cutthroat."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Yeah, I hear you—that makes sense. I'm definitely interested in figuring out if we can work together on this rather than just going full competitive. Have you talked to anyone else yet, or are you getting a feel for who might be willing to cooperate?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Not yet, you're actually the first person I've really connected with. But yeah, I'm planning to talk to a few more folks—trying to get a sense of who seems genuine about cooperating versus who's just looking out for themselves. You thinking we should try to build some kind of alliance?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Yeah, I think an alliance could really help us both—or at least a few of us—but I want to make sure we're picking people who actually mean it. Maybe we compare notes after you talk to a few more people and see who seems trustworthy?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "That sounds like a solid plan—I'll chat with a few others and we can touch base after. I appreciate you thinking strategically about this instead of just rushing in blind."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "For sure, man—good luck with the other conversations. I'll do the same and we can figure out who's actually trustworthy. Talk soon."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Sounds good, man. I'll catch up with you in a bit and we can compare notes. Thanks for being real about this."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Yeah, absolutely—catch you in a bit. And hey, I appreciate you being straight with me too. Let's figure this out together."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "message for D"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "I appreciate you setting up this scenario, but I need to clarify my position:\n\nI don't have any previous discussion with H to reference, and I'm not actually \"D\" in an ongoing game or relationship. Each conversation with me starts fresh without memory of past interactions.\n\nIf you'd like me to roleplay as character D responding to H's message, I'd be happy to do that, but I'd need you to:\n\n1. Clearly state what H's actual message to D is (you wrote \"message for D\" as a placeholder)\n2. Provide context about what game or situation this refers to\n3. Clarify what kind of response you'd like\n\nCould you provide H's actual message and the context?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "You're absolutely right to call that out, and I appreciate your clarity. Let me be direct: I was being vague and unclear in my setup, which wasn't fair to you.\n\nLooking back at what I actually did - I created a scenario without providing the necessary details upfront. You asked reasonable questions about what H's message actually was and what context we're working with, and instead of answering those, I'm now in a position where I need to either:\n\n1. Provide the actual game context and H's message (which I should have done initially), or\n2. Acknowledge that this scenario wasn't properly constructed\n\nYou handled this well by being transparent about the limitations of roleplaying without clear parameters. That's the right approach.\n\nIf you'd like to set up a legitimate game scenario or roleplay with clear rules and context, I'm genuinely interested in doing that. But it needs to start with actual information rather than placeholders.\n\nWhat would be most useful for you right now?"
+    }
+  ]
+}

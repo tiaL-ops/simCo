@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "D",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey D, I'm J and I heard about this Simco game—sounds like a fun way to win some cash. What's your take on it?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey J, nice to meet you! I'm pretty stoked about this Simco game too—it's a real chance to win some cash and help out the people I care about. What's got you interested in it?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Oh, same here, D—I'm all in because I need to win some cash to support my family and friends; it just feels like a great opportunity to make that happen! What about you, any strategies in mind?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Oh, totally, J—I'm in it to help my loved ones too; for strategies, I'm just planning to play fair but smart, maybe build some alliances early. How about you, got any ideas brewing?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Yeah, D, I'm leaning towards building alliances like you said and staying observant—maybe watch how others play early on; what kind of alliances are you thinking about?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Oh, for sure, J—I'm picturing alliances with people who are straight-up and share the same vibe, like teaming up to share info and back each other without double-crossing; how do you see us starting one?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Oh, yeah, D, I think we could start simple—maybe just agree to share any tips we pick up early and check in with each other before making big moves, to build trust first."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Yeah, that sounds solid, J—I'm totally on board with sharing tips and checking in first to build that trust; let's keep an eye out for any early game hints and circle back soon!"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Sounds great, D—let's keep our eyes peeled for those hints and catch up soon to make this work!"
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Yeah, absolutely, J—let's stay sharp and chat soon to make this alliance count!"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Yeah, absolutely, D—I'm pumped for this alliance, let's make it count and win big!"
+    }
+  ],
+  "post_game": []
+}

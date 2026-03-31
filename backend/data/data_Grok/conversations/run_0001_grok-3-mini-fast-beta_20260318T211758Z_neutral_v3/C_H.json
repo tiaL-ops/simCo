@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "C",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H—excited to be here for this game where we might all win some cash. What's your name and have you played anything like this before?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hey H, I'm C—sounds fun! I haven't played anything quite like this before, but I'm pumped to see what it's about."
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "That's awesome, C—I'm new to this too, but I hear it's all about teamwork and strategy. What made you want to join in on this?"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "Oh, totally, H—I heard about the chance to win some money and figured it could help out my family and friends, plus it sounds like a fun challenge!"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Yeah, same here, C—winning for my loved ones is my big motivation too; what's one thing you're hoping to learn from this game?"
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "Oh, for sure, H—I'm hoping to learn more about teamwork and making smart decisions under pressure, it could really help me in everyday life!"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "That's great, C—I'm hoping to sharpen my own decision-making skills too; what's your favorite way to handle pressure in daily life?"
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Oh, yeah, H—I usually take a deep breath and break things down into smaller steps to stay calm; how do you handle it?"
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Oh, cool, C—I handle pressure by staying positive and focusing on one step at a time, like prioritizing tasks; it's helped me a lot, what's a time that technique really worked for you?"
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Oh, yeah, H—that technique really helped when I was prepping for a big family move; I felt overwhelmed, but breaking it into packing one room at a time kept me calm and got it all done without any hiccups!"
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "That's awesome, C—sounds like you nailed that move, and it's inspiring to hear how breaking things down works wonders; I'm excited to apply similar strategies in this game with you!"
+    }
+  ],
+  "post_game": []
+}

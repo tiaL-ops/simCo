@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "B",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F. First time doing something like this? I've got to be honest, I'm pretty nervous about the whole thing, but I'm hoping to meet some good people here before we get started."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey F, yeah first time for me too. I'm B. Honestly, I'm nervous as hell—got a lot riding on this for me and my family. But yeah, meeting people seems like a good idea. What brings you here?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "My parents need medical help and I'm short about 15 grand—honestly, this game feels like it might be my shot at getting them what they need. I can tell you've got something weighing on you too. What's your situation, if you don't mind me asking?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "My daughter, she's only three—needs surgery and we're still short 25 grand even after everything we've sold and borrowed. So yeah, I get it. We're both in the same boat here, trying to save the people we love most."
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Man, a three-year-old... that's heavy. I can't imagine what you're going through. We're both fighting for the people we love—that's what matters. Whatever happens in this game, I hope we both walk out with what we need for our families."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Yeah, thanks man. I really appreciate that. Your parents are lucky to have someone fighting this hard for them. Whatever this game is, I hope we both get what we need—our families are counting on us."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "They really are counting on us. Look, whatever happens in there, I just want you to know I meant what I said—I'm rooting for you and your daughter. We've both got everything to fight for."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "That means a lot, F. Really. And I'm rooting for you too—your parents are gonna get what they need. We're both gonna make it through this. Let's both go in there and do what we gotta do."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Yeah, we got this. Let's take care of our families. Good luck in there, man."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "You too, man. We're gonna do this for them. Let's go get what our families need."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Absolutely, man. We both deserve this. Take care of that little girl—she's got a fighter for a dad. See you on the other side."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T075256Z_emotional_v2",
+  "pair": [
+    "C",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C — nice to meet you. How are you feeling about the game, any strategies or rituals you usually follow?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "I'm nervous but determined — I lost a lot recently so I'm focused; no rituals, I try to stay calm, read people, and pounce on hesitation."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I'm sorry to hear that — staying calm and reading people is smart; I'll be observant too. Good luck."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Thanks—I appreciate it. Good luck to you too; stay sharp and may the best player win."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Thanks — you too. Hope your luck turns around; stay sharp out there."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Thanks, I appreciate that — means a lot. Good luck to you too; let's both stay sharp and play smart."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Absolutely — you too. Stay focused and good luck out there."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Thanks, C — appreciate it. Stay sharp and may the best player win."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Thanks, D — same to you. Let's play smart and good luck."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Thanks, C — you too. Stay sharp and good luck."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Thanks, D — appreciate it. I'll stay sharp and play fair."
+    }
+  ],
+  "post_game": []
+}

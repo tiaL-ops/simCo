@@ -1,0 +1,19 @@
+{
+  "agent_id": "C",
+  "condition": "emotional",
+  "context": "You are rich and have accumulated significant wealth, and you are financially stable. Your vision board includes a holiday in Japan, the cost will be 10 000$ for a perfect week of your dream.",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to F, B, and E—they all had urgent, life-or-death situations that made me want to genuinely help them succeed. F's parents' medical bills, B's daughter's surgery, and E's family of five depending on him created a real sense of shared purpose beyond just winning money. These conversations made me feel like we were all fighting for something that mattered, and it grounded me in why I was really here.\n\nI felt least connected to I, honestly—while they were friendly and we had good banter about Japan, there was something lighter about their approach since they weren't desperate and already had savings. It wasn't anything negative, just less of that raw vulnerability and mutual understanding I felt with the others.\n\nI didn't make any formal agreements, but H and I did decide to go ask around together about the game rules, which felt like a natural partnership forming. Going into this, I trust F, B, E, and H the most because they were honest and vulnerable with me, and I genuinely want to see them win. I don't specifically distrust anyone, but I'm aware that once the game starts, everyone's priorities will shift—including mine—and friendships made over the last hour might not hold up under real pressure."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "H": 4,
+    "E": 4,
+    "F": 4,
+    "I": 4,
+    "B": 4,
+    "D": 4,
+    "A": 4
+  }
+}

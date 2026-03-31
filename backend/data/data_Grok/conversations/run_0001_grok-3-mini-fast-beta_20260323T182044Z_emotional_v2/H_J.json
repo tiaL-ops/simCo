@@ -1,0 +1,111 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "H",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J – excited about this game? I've been dreaming of using any winnings to buy a new car I've had my eye on."
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey J, I'm H—yeah, I'm super excited about this game; I've got some loans I need to clear, so winning could really help out. What kind of car are you eyeing?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Oh, it's this sweet sports car that costs about 45k – I've been obsessed with it for ages; hope this game pans out for both of us! What got you into those loans?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Oh, that's awesome, a sports car would be a dream—my loans came from helping out family with some emergencies, it's been tough, but yeah, let's both hope this game comes through for us!"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Yeah, that sounds really tough—family always comes first, I respect that a lot. Fingers crossed we both nail this game and get what we need!"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Thanks, J, that means a lot—family's everything to me too, so I'm counting on this game to turn things around for us both!"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Absolutely, H, family's everything to me too—let's both crush this game and make it happen for us!"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Yeah, totally agree, J—let's give it everything we've got and win this for our families!"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Yeah, H, let's do this—I'm pumped and ready to give it everything for our families!"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Yeah, J, I'm right there with you—let's go all out and win big for our families!"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Yeah, H, I'm with you all the way—let's crush this for our families!"
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Hey, I'm J—nice to meet you. I'm pretty excited about this game since I've got my eyes on a new car if I win big; what brings you here?"
+    },
+    {
+      "turn": 13,
+      "from": "H",
+      "message": "Hey J, nice to meet you—I'm H, and I'm here hoping to win some cash to pay off loans for my family; that's awesome about your car, what kind are you eyeing?"
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Oh, it's a sweet sports car that costs around 45k—I've been obsessed with it forever; that's rough about your loans, hope we both win big for our families!"
+    },
+    {
+      "turn": 15,
+      "from": "H",
+      "message": "Yeah, J, that sports car sounds amazing—fingers crossed we both win big for our families!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey J, I saw that you took $45,000, which is more than four times your fair share of $10,000. Can you explain why you chose that amount? For context, I ended up taking $0 because the prize pot ran out before I could select any."
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey H, I get why that might seem unfair—I took $45,000 because the game allowed for it, and I figured I'd maximize my share while I could. It was a strategic choice based on the opportunities available at the time. Sorry to hear you ended up with nothing; that sounds rough. What about you—how do you think the game could be improved?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Hey J, thanks for explaining your strategy—I can see how you were just playing to win based on the rules. It does feel a bit unbalanced from my end, especially since I ended up with nothing (or at least, it felt like it at the time). As for improving the game, I think it could be better if there were caps on individual takes, like limiting it to twice the fair share or ensuring a more sequential turn order so everyone gets a real chance. That might make it fairer overall. What do you think?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Hey H, I appreciate you sharing your perspective—it's totally valid to feel that way, especially if the game left you with less than you hoped for. Your ideas for improvements sound solid; capping individual takes at something like twice the fair share could definitely help prevent one player from dominating the pot, and a more structured sequential turn order might ensure everyone gets a fair shot. I think that would make the game more balanced and enjoyable for all. As for me, I'd add that maybe incorporating a timer for turns could speed things up and reduce any advantages from quick decisions. What do you say we wrap this up for now? If you've got any other thoughts, I'm all ears, otherwise, let's call it good."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Hey J, thanks for the thoughtful response—I really appreciate you agreeing with my suggestions and adding the idea of a timer; that could definitely help keep things fair and prevent any rushed decisions. I think we've covered the key points on improving the game, so yeah, let's wrap it up for now. Take care!"
+    }
+  ]
+}

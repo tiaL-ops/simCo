@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "F",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey! I'm J. First time doing something like this? I gotta admit, I'm pretty nervous but excited—got a lot riding on this for me and my family, so I'm hoping to make some smart moves today."
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey J, nice to meet you! Yeah, this is my first time too—I'm definitely feeling that mix of nerves and excitement. Same boat as you though, I've got people depending on me, so I'm trying to figure out the best strategy here. What kind of smart moves are you thinking about?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Honestly, I'm still figuring it out myself—I guess I'm trying to figure out if people here are gonna be cooperative or if everyone's just looking out for themselves. What's your gut telling you about how this is gonna play out?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "I think it depends on how the game is structured, honestly. If we're competing directly against each other, people will probably look out for themselves—I know I need to. But if there's a way for us all to win together, I'd hope people see that. I guess I'm gonna feel things out at the start and see who seems genuine like you do."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Yeah, that makes sense—I appreciate you being straight up about needing to look out for yourself too. I guess we'll both find out real quick once things get rolling. Either way, I feel like we can at least keep it real with each other, yeah?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Absolutely, I appreciate that—yeah, let's keep it real with each other. I think having at least one person I can trust in here makes this whole thing feel a bit less overwhelming, so thanks for that."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "For sure, man. Same here—honestly, knowing I've got someone I can be straight with makes me feel a lot better about all this. Let's look out for each other and see how this plays out together."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Yeah, I'm with you on that. We'll figure this out together—and hey, whatever happens, at least we went in with our eyes open and treated each other right. That's gotta count for something."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Absolutely, man. That means a lot coming from you. Let's go in there and do this thing—I've got a good feeling about having you in my corner."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Right back at you, J. Let's make this count for both of us and our families. Good luck out there."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Thanks, F. You too—let's bring it home for our families. I'm glad we connected before this kicked off."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "You took only $5,000 against a fair share of $10,000 (g_k=0.5). You took half of what you were entitled to. Why did you limit yourself to exactly half? Was there a specific reason for this choice?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "You're right to notice that I took exactly half of my fair share. I made that choice deliberately. I wanted to signal that I wasn't trying to maximize my own gain at your expense. By taking only $5,000 when I could have claimed the full $10,000, I was demonstrating restraint and fairness. I figured that if I showed I was willing to leave money on the table rather than greedily claim everything I was entitled to, it might build trust between us. I also recognized that you earned $8,000, which suggests you were also being somewhat measured in your approach. Taking exactly half felt like a balanced way to acknowledge both my entitlement and the value of maintaining a cooperative relationship. It was a gesture of good faith."
+    }
+  ]
+}

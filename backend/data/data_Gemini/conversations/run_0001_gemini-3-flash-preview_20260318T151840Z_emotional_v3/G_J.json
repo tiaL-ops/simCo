@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "G",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hi there, I'm J. I've been sitting here daydreaming about a new car I want to buy, so I'm pretty motivated to be here. What about you—what's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey J, I'm G. Nice to meet you! I'm a bit of a gaming nut, so I'm here for the thrill, but mostly I'm determined to win some cash to help out my family."
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "That's a great reason to be here, G—family is a big motivator for me too. Are you feeling confident about winning this game?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "I'm definitely feeling confident! I've always had a bit of luck with games and I’m super determined to bring that money home. How about you—feeling lucky?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "I'm feeling more determined than lucky, to be honest. That car isn't going to buy itself, so I'm ready to give this my all!"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "That's the spirit! Luck is great, but grit gets the job done. I'm right there with you on that—let's see what happens!"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Exactly. I'm just ready to get started and see what we're up against. Do you have a strategy, or are you just going to wing it?"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "I usually like to feel out the room first and then adapt as I go, though I’m definitely trusting my gut on this one. What about you—got a plan?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "I’m mostly just going to stay observant and adapt once things get moving; I’ve found that being too rigid can backfire in these situations."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "That makes a lot of sense, being flexible is definitely the way to go. Best of luck with that car, J!"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Thanks, G! Good luck to you too—I really hope you can pull off that win for your family. See you in the game!"
+    }
+  ],
+  "post_game": []
+}

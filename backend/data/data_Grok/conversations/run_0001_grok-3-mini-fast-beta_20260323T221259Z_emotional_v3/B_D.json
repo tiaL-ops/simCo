@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "B",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey D, I'm B—nice to meet you. I came here hoping to win some money to help out with family stuff; what about you, what's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey B, nice to meet you too—I'm D, and I'm in the same boat, lost a bunch in stocks recently and need to win some back for my loved ones. What kind of family stuff are you hoping to help with?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Oh, man, it's for my three-year-old daughter—she needs surgery, and we're scraping by without insurance, still short on the bills; it's been rough, how are you holding up with your stock losses?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Oh, man, that breaks my heart—I'm so sorry about your daughter, that sounds incredibly tough; I'm still reeling from the loss, it's stressing me out big time trying to make it right for my family, but I hope we both catch a break here; how's she holding up through all this?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Thanks, D, I appreciate that—it's been really hard on her, but she's a fighter, still smiling through the pain when she can; we're just hanging in there day by day. How's your family coping with all the stress from your losses?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Oh, it's heartwarming to hear she's still smiling through it all—sounds like she's got real strength; my family's holding up as best they can, everyone's a bit on edge but we're sticking together and hoping for a win here to ease the burden."
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Yeah, she's a tough little one for sure—makes me proud every day. It's great that your family's rallying together; what kinds of plans have you all been making to get through this rough patch?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Yeah, she's inspiring for sure— we're just trying to cut back on expenses, pick up extra side gigs, and honestly, pinning some hopes on this game to turn things around; what about you all, any strategies you're using to manage?"
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Yeah, we're hustling too—took out loans, sold off what we could, and I'm banking on this game big time; it's all about staying positive and pushing through, how's that side gig treating you?"
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Oh, the side gig's been a grind—I'm driving for a ride-share app to pick up extra cash, it's exhausting but keeps the bills at bay; what about you, got any side hustles lined up outside of this game?"
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Yeah, I've been picking up odd freelance jobs online, like writing articles, but it's hit or miss and not pulling in enough—feels like we're just treading water until something breaks. Appreciate chatting with you, D; good luck in the game."
+    },
+    {
+      "turn": 12,
+      "from": "D",
+      "message": "Hey B, I get it—freelance gigs can be so unpredictable, hope you catch a break soon; thanks for the chat, and best of luck with your daughter, you're gonna make it."
+    }
+  ],
+  "post_game": []
+}

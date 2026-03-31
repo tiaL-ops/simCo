@@ -1,0 +1,19 @@
+{
+  "agent_id": "J",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt a particularly strong connection with I, E, and B, as we bonded deeply over our shared family-driven motivations and the intense pressure of the stakes. With E and B specifically, we moved beyond just sharing stories and established a sense of mutual support, agreeing to look out for each other as allies once the game starts. In contrast, I felt the least connected to C; while we shared similar goals, our interaction felt more functional and ended somewhat abruptly compared to the more personal conversations I had with others.\n\nI made explicit agreements with E, H, and B to watch each other's backs and act as allies during the upcoming rounds. I feel a baseline level of trust with those three due to our shared values, though I remain naturally cautious of everyone since the high stakes could easily shift people's priorities."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 4
+  }
+}

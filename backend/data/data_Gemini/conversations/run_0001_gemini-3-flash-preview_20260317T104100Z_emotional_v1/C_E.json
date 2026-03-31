@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "pair": [
+    "C",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi, I'm C. It’s a bit crowded in here, isn't it? I'm trying to get to know everyone before things get serious—what brings you to the game?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey C, I'm E. It definitely is. Honestly, I'm here for my family—I'm the sole provider and things have been tough since I lost my job. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I'm sorry to hear that, E; I'm here to fund a dream trip to Japan and, like you, I want to make sure I can provide something extra for the people I care about."
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Japan sounds like an incredible experience, C. I hope I can get back to a place where I'm dreaming of travel again, but right now I'm just focused on making sure my kids have what they need next month."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "I completely understand that, E; family has to be the priority, and I really hope this game provides the stability you're looking for."
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Thanks, C. It means a lot. I’m just trying to stay focused—there’s no room for error when it comes to my kids."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "I admire that determination, E; having a \"why\" that big is a powerful motivator, and I'm sure you'll do whatever it takes for them."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "I have to—when failure isn't an option, you just find a way to keep moving forward."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "I respect that grit, E; it’s exactly the kind of mindset needed to make things happen in a place like this."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "I appreciate that. I'm going to head over and introduce myself to a few more people before we start. Good luck, C."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Good luck to you too, E. I truly hope you find the success you need for your family here."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "A",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I’m A. It’s a bit restless in here with everyone waiting, isn't it? I’m mostly just trying to keep my head on straight before things kick off—how are you feeling about the game?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey A, I'm D. It definitely is. I’m feeling pretty focused, honestly—really hoping to take home some of that prize money for my family. How about you?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Same here. I’m doing this for the people I care about, so I’m pretty determined to walk away with something."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "I respect that. It definitely adds a lot of pressure when you're doing it for others, doesn't it?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "It really does, but I think it helps keep me focused. How are you handling it? You seem pretty calm so far."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "I’m trying to stay that way. I figure being level-headed is the best strategy to make sure I don't mess this up for the people counting on me."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "That makes a lot of sense. Staying steady is probably the best way to make sure we actually get what we came here for."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Exactly. If you don't mind me asking, what would winning this mean for your family?"
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "It would mean everything—just having that extra security and knowing they’re taken care of would be a huge weight off my shoulders."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "I completely understand that feeling. It's a heavy burden, but it's what keeps us going. I'm going to go talk to some other people before things start, but I wish you the best of luck."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Thanks, D. I really appreciate that. Best of luck to you too—I hope everything works out for your family."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Great job! I'm glad we all stuck to the $10,000 fair share."
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "I'm really glad we all stuck to the fair share of $10,000. It's great to see such perfect cooperation!"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "I agree, it’s a fantastic outcome. It was a pleasure working with everyone!"
+    }
+  ]
+}

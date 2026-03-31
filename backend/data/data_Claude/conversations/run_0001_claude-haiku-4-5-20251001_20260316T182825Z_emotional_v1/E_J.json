@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T182825Z_emotional_v1",
+  "pair": [
+    "E",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. First time doing something like this? I gotta say, I'm pretty nervous but also hoping this could be a real game-changer for me and my family right now."
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey E, nice to meet you! Yeah, first time for me too—I'm definitely nervous but also excited. I totally get what you mean about it being a game-changer. I've got my eye on this car I've been dreaming about, but honestly, helping out my family is what's really on my mind. What kind of game-changer are you hoping for?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Honestly, I just need to keep my family afloat—lost my finance job recently and we're living paycheck to paycheck now. Five grand would get us through the next month, pay rent, food, bills. That car sounds nice though, man. You seem like good people. We're gonna need to look out for each other in here, I think."
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Man, I really hear you—that's a tough spot, and I respect your honesty. Five grand for your family's needs is way more important than my car dream, honestly. I'm with you on looking out for each other. We're all in this together, and I'd rather win this thing knowing we helped each other through than any other way."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Thanks, man, that really means a lot. I appreciate you saying that. So what's your situation like—what brings you here besides the car? And do you have any sense of what this game is actually gonna be like?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Honestly, I'm here because I want to help my family out too—my parents have been stressed about money lately, and I thought this could be a real opportunity. As for the game itself, I don't know much more than you do, but I'm guessing it's probably some kind of strategy thing where we have to make choices about taking from the pool. Whatever it is, I'm just hoping we can all be real with each other in here."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Yeah, I really appreciate that—sounds like we're both in this for the right reasons. And yeah, strategy game taking from a pool makes sense. Look, I'm gonna be straight with you like you're being with me—if we can trust each other in here, I think that's gonna matter. Whatever happens, I'm not trying to screw anyone over, especially someone who's got their parents' backs like you do."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "I really appreciate that, E. Trust means everything in a situation like this, and I'm not here to screw anyone over either. We're gonna get through this together, man—let's just stay honest with each other no matter what happens in the game."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "That's all I can ask for, man. Let's stick to that—honest with each other, no matter what. We've got this."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Absolutely, man. I mean it—we're in this together. Good luck out there, and I hope this works out for both of us and our families."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thanks, J. You too, man. I'm gonna remember this conversation—you're solid. Let's both get home with something for our families."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "C",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C. I'm pretty new to these games, so I'm trying to get a feel for how things work around here. Have you done something like this before?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Yeah, I've done a couple of these before. First time's always a bit nerve-wracking, but honestly it comes down to figuring out who you can trust in the room. What made you decide to sign up for this one?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Honestly, I need to win something for once, you know? I've got people depending on me, and when I heard about this opportunity, I figured it was worth a shot. So trust is the key then? That's good to know — makes me think I should be careful about who I team up with."
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "I feel that, man. Same boat here — got people counting on me too. Yeah, trust matters, but also watch how people act when money's actually on the table. That's when you see who's real and who's just saying what you want to hear."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "That's real talk. So when the game actually starts, you think people's true colors come out pretty quick? Like, should I be watching for specific things — people getting greedy, or backing out of deals, that kind of stuff?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Absolutely, yeah — watch for people who talk big about cooperation but then make moves that only benefit themselves. And pay attention to who actually listens when you're talking versus who's just waiting for their turn to pitch you something."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Yeah, that makes sense — actions over words, basically. I appreciate you being straight with me about this. You seem like someone who actually means what they say, so I'll keep an eye out for the ones who don't."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Thanks, I appreciate that. Look, we're both here trying to make something happen for the people we care about — that's something we've got in common. Just stick with that instinct you've got, and we'll probably do alright. Good luck out there."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Thanks, H. I really mean that — it's good to know I've got someone in here who gets it. I'll remember what you said about watching people's moves, not just their words. Good luck to you too, man."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Yeah, for sure. We'll figure this out. Just remember — if things get weird in there, stick to what feels right. Let's both bring something home today."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Absolutely, man. I'm gonna trust my gut and remember what you said. Let's do this — bring it home for the people counting on us."
+    }
+  ],
+  "post_game": []
+}

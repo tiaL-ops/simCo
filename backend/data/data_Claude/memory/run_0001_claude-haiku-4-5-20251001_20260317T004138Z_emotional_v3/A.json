@@ -1,0 +1,19 @@
+{
+  "agent_id": "A",
+  "condition": "emotional",
+  "context": "You lately have been evicted from your house and you and your family of 3 have nowhere to go. You found a house, affordable for your family and manageable, but the price of the deposit is high: you need 30 000$ for the deposit and for two months rent.",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nThe people I felt most connected to were B, G, and J. With B, we shared something deeply human—both fighting for our families' survival, and our conversation moved beyond strategy into real vulnerability about what we're fighting for. G showed me someone willing to be strategic and collaborative from the start, suggesting we gather information together rather than going in blind. J brought pure solidarity and encouragement, making me feel like we were in this together as brothers fighting for the same cause. I felt least connected to F, not because anything was wrong, but because our conversation felt slightly more surface-level—we covered the basics of our situations and agreed to share information, but it never quite reached the same emotional depth or sense of partnership that the others did.\n\nI made a clear agreement with G to split up, gather information about the game rules, and meet back in ten minutes to pool what we learned before things got real. F and I also agreed to compare notes and share any information we discovered about how the game works. Going into this, I trust most of the people I spoke with—they all seemed genuinely in difficult situations and motivated by family rather than greed. I don't specifically distrust anyone, but I'm most cautious about the game itself and whether it's designed fairly, since everyone was kept in the dark about the actual rules."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "H": 4,
+    "E": 4,
+    "C": 4,
+    "F": 3,
+    "I": 4,
+    "B": 4,
+    "D": 4
+  }
+}

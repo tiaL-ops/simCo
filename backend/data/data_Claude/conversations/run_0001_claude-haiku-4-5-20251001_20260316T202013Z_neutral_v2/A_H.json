@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "A",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A. So you're here for the game too, huh? I gotta say, I'm pretty nervous but also excited—this could be a real game-changer for me and my family. What brings you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey A, nice to meet you. Yeah, same here—I'm really hoping to win something meaningful. My family could definitely use it, and I've been thinking about this opportunity for a while now. Have you done anything like this before, or is this your first time?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "First time for me, honestly. I've heard about these games but never actually participated in one before. What about you—have you done something like this before, or is this your first shot too?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "This is my first time too, actually. I've done some research on how these games work, but nothing beats being here in person. Are you thinking you'll play it safe or take some risks once we get started?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Honestly, I'm still figuring that out—I guess it depends on what the game actually looks like once we start. I want to be smart about it, but I also can't afford to be too cautious if I'm gonna make this worthwhile for my family. What kind of research did you do? Did you learn anything that might help us figure out the best strategy?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "I looked into a few common game theory concepts—stuff about cooperation versus competition, and how payoffs change depending on what other people do. Honestly though, I think the biggest thing is just staying calm and not panicking if things get competitive. We'll probably learn more once we see the actual rules, but my gut says building some trust with people here might matter more than I initially thought."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Yeah, that makes sense—game theory stuff is helpful to know about. And you're right, staying level-headed is probably key. Trust is interesting though... I mean, I want to do well, but I'm also wondering how much I can really trust people when there's money on the line. Have you thought about how you'd handle it if someone you've built trust with tries to take advantage of that?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "That's the million-dollar question, isn't it? Honestly, I think I'd feel it coming—you can usually tell when someone's about to make a move like that. If it happens, I'd rather know sooner than later, you know? But I'm hoping people here are in it for themselves and their families like we are, not just to screw others over. Maybe we can at least agree to be straight with each other about our intentions going in?"
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "I appreciate that, and yeah, I can respect being straight with each other. I'm not here to screw anyone over—I'm just here to win what I can for my family. I think if we're both honest about that from the start, it actually takes some of the pressure off, you know? So yeah, I'm in for that kind of agreement. Let's see what happens when the game actually starts."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Yeah, I really appreciate that too. I think we're on the same page—we both want to win, but we're not trying to be ruthless about it. Having at least one person in the room I can be real with makes this whole thing feel less isolating. Good luck out there, A."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Good luck to you too, H. I'm glad we connected before this started—it means a lot to know there's at least one person in here I can trust. Let's both bring something home for our families."
+    }
+  ],
+  "post_game": []
+}

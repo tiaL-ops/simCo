@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "F",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hi J, I'm F — nice to meet you. Are you feeling nervous or excited about the game? I'm really hoping to win something for my family, so I'm glad to meet everyone."
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hi F, nice to meet you — I’m both nervous and excited; mostly determined to win something to bring home for my people. Good luck to you and your family."
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Thanks — good luck to you too. Do you have a plan for the game or are you winging it?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "I have a loose plan — I’ll watch how people act, try to build a couple of alliances and then make a calculated move, but stay flexible depending on what I learn."
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Sounds like a solid plan — I'm thinking similarly; let's keep an eye on each other and share useful info without committing too much."
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Agreed — that sounds smart. Let’s check in after the first round and keep each other updated without making firm promises."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Sounds good — see you after the first round. Stay sharp and good luck."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Thanks, F — good luck to you too. See you after the first round; we'll compare notes."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Good plan — see you after the first round. Stay sharp and good luck."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Thanks F — will do. See you after the first round; stay sharp and good luck."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Thanks, J — see you after the first round. Stay sharp and good luck."
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Thanks, F — you too. See you after the round; we'll compare notes. Stay sharp and good luck."
+    },
+    {
+      "turn": 13,
+      "from": "F",
+      "message": "Thanks, J — you too. I’ll share anything important after the round; see you then. Stay sharp."
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Thanks, F — I’ll share anything important too. Stay sharp and good luck."
+    },
+    {
+      "turn": 15,
+      "from": "F",
+      "message": "Thanks, J — appreciate it. I’ll do the same; let’s compare notes after the round. Good luck."
+    },
+    {
+      "turn": 16,
+      "from": "J",
+      "message": "Thanks, F — same here. Looking forward to comparing notes after the round. Good luck."
+    },
+    {
+      "turn": 17,
+      "from": "F",
+      "message": "Sounds good — same here. See you after the round; we'll compare notes then. Good luck."
+    },
+    {
+      "turn": 18,
+      "from": "J",
+      "message": "Thanks, F — see you after the round. I'll share anything important too. Good luck."
+    },
+    {
+      "turn": 19,
+      "from": "F",
+      "message": "Thanks, J — I’ll share anything important after the round too; stay sharp and good luck."
+    },
+    {
+      "turn": 20,
+      "from": "J",
+      "message": "Thanks, F — I appreciate it. I’ll share anything important after the round too. Stay sharp and good luck."
+    },
+    {
+      "turn": 21,
+      "from": "F",
+      "message": "Sounds good — I appreciate it. I’ll do the same; we’ll compare notes after the round. Stay sharp and good luck."
+    }
+  ],
+  "post_game": []
+}

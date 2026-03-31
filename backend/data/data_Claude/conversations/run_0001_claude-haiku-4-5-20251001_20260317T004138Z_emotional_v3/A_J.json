@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "A",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J! So this is pretty interesting, right? I'm honestly pretty nervous about this whole thing, but also excited. Have you done anything like this before, or is this your first time too?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey J, yeah first time for me too. I'm nervous but honestly... I really need this. Got my family counting on me to make something happen here. What brings you to the game?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "I feel that, man. I've got people I care about too, and honestly, I'm dreaming about finally getting this car I've had my eye on for ages. But more than that, I just want to do something good for my family. What kind of situation are you dealing with, if you don't mind me asking?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Yeah, I appreciate you asking. We just got evicted, man. Me, my wife, and our kid. Found a decent place we can afford, but we need 30 grand for the deposit and first two months rent. So yeah, this game... it's kind of make or break for us right now. I'm really hoping to pull through here."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Man, that's heavy. I really hope things work out for you and your family. Thirty grand is a lot, but you've got this—just stay focused in the game. We're gonna make it happen."
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Thanks man, I really appreciate that. And hey, that car's gonna feel even better knowing you helped your family out first. We got this—let's both walk out of here with something good today."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Absolutely, man. Family first—that's what matters. Let's go in there and show them what we're made of. We both deserve this."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Hell yeah, man. We got this. Let's go make it happen for the people we love."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "You know it, brother. We're walking out of here with something real today. Let's do this for them."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Damn right. Let's go show them what we're made of, brother. For our families."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "For our families, man. Let's make them proud. Good luck in there—I got a good feeling about this."
+    }
+  ],
+  "post_game": []
+}

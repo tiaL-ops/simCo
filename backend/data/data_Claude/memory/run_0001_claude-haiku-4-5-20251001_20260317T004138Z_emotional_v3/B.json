@@ -1,0 +1,19 @@
+{
+  "agent_id": "B",
+  "condition": "emotional",
+  "context": "Your little girl, first born, three years old, needs surgery, but you have no health insurance. After taking many loans and selling many assets, three months later you still need 25 000$.",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to H, F, and A. With H, there was an immediate understanding about our desperation—he acknowledged that my daughter's situation carried a different urgency than his own, which showed real empathy and perspective. F and I bonded over the exact same financial target ($25k for my daughter's surgery, $15k for his parents' medical care) and he was genuinely rooting for me despite our competition. A stood out because we went deeper into what winning actually means—talking about my daughter running in the park and his kids having a stable home made it feel like we were fighting for the same kind of human dignity.\n\nI felt least connected to C, even though our conversation was warm. There was something about the contrast between his dream vacation and everyone else's survival situations that created an invisible distance, despite his good intentions and willingness to step back if it came down to it.\n\nI didn't make any formal agreements with anyone, though G and I did agree to watch the first round carefully together and figure out strategy before making moves. I trust most of these people—H, F, A, D, I, and E all felt genuine and grounded in real need. But I'm cautious about going in blind with anyone; I need to understand the actual rules before I commit to anything, because desperation can make people act in ways they don't expect."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "H": 4,
+    "E": 4,
+    "C": 4,
+    "F": 4,
+    "I": 4,
+    "D": 4,
+    "A": 4
+  }
+}

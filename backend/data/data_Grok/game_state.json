@@ -1,0 +1,23 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "phase": "post_game",
+  "condition": "emotional",
+  "prize_pool": 0,
+  "initial_prize_pool": 100000,
+  "turn_order": [
+    "J",
+    "G",
+    "H",
+    "E",
+    "C",
+    "F",
+    "I",
+    "B",
+    "D",
+    "A"
+  ],
+  "current_turn": 10,
+  "agents_remaining": 0,
+  "llm_provider": "grok",
+  "llm_model": "grok-3-mini-fast-beta"
+}

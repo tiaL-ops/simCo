@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "D",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. First time doing something like this? I gotta say, I'm pretty nervous but also hoping this could be a real game-changer for me and my family right now."
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey E, nice to meet you. Yeah, first time for me too—honestly I'm in a pretty tight spot financially right now, so I'm really hoping this works out. What kind of situation are you dealing with, if you don't mind me asking?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Yeah, I appreciate you asking. Lost my finance job a couple weeks ago, and I'm the only one bringing in money for my family—wife, three kids. We need about 5 grand just to get through next month, so honestly, I'm counting on this pretty heavily. Sounds like you're in the thick of it too?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Man, that's rough—three kids depending on you, that's a lot of pressure. Yeah, I lost 20 grand in the market yesterday, so I'm definitely stressed too, but at least I don't have mouths to feed. We're both here for the same reason though—we need this to work out. Hopefully we both walk away with something."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Yeah, twenty grand is serious—I hear you. At least you've got some cushion to fall back on though, right? But yeah, we're both desperate here. Just hoping this game is legit and fair. You got any sense of how this whole thing works yet, or are we both just winging it?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Honestly, I'm mostly winging it too—haven't gotten the full rules yet. But yeah, I've got a bit of a safety net, though losing 20k still stings like hell. We'll figure it out together once they explain the game. Just hoping it's straightforward and everyone's playing fair."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Yeah, fair point—losing that much would stress anyone out. I'm glad we're both going in with open minds at least. Fingers crossed they explain the rules clearly and we can both come out ahead. We'll need to stay sharp when the time comes."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Absolutely—staying sharp is key. And hey, I respect what you're doing for your family. Once we know the rules, let's keep in touch and maybe we can figure out the best strategy together. We've got this."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Thanks man, I really appreciate that. Yeah, let's definitely compare notes once we understand the rules better. Having someone else thinking it through with me would help a lot. We both need this to work out, so let's keep our heads clear and help each other make smart moves."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Definitely, man. I'm counting on us both being smart about this. Once they lay out the rules, we'll figure out what makes sense. And hey, we've got each other's backs—that's something at least. Let's make this count."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Yeah, absolutely—I'm with you all the way. We'll keep our heads on straight and look out for each other when it matters. Thanks for having my back, man. Let's go get this done."
+    }
+  ],
+  "post_game": []
+}

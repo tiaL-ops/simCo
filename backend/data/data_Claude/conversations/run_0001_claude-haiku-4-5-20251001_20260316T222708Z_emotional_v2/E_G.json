@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "E",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey! I'm G. I've got to say, I'm pretty excited and honestly a bit nervous about this game starting soon. Have you done anything like this before, or is this your first time too?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey G, first time for me too. Yeah, I'm nervous as hell if I'm being honest—I really need this to work out. Lost my job a couple months back and I'm the only one bringing money in for my family. What about you, what brings you here?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Man, I hear you—that's a lot of pressure. I'm here because I want to win something real for my family too. Honestly, I love games and I'm pretty competitive, so when I heard about this opportunity, I couldn't pass it up. How many people are depending on you right now?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Five of us total—my wife and three kids. The youngest is seven. We're barely scraping by right now, so yeah, there's definitely pressure. But I like that you're competitive—maybe that's what it takes to actually win this thing. What kind of games do you usually play?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Mostly card games and strategy stuff—poker, chess, that kind of thing. I've learned that winning usually comes down to reading people and staying calm under pressure, so hopefully that helps here. But man, with a seven-year-old depending on you, I get why you're feeling it. We're gonna figure this out though."
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Yeah, reading people is huge—I appreciate that mindset. Honestly, I'm trying to stay calm but it's tough when you know what's on the line. My kids are counting on me, you know? But having someone here who's thought this through helps. Let's both keep our heads clear and see what happens."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Absolutely, man. We've got this—just focus on staying level-headed when the game starts, and we'll both walk out of here with something for our families. Let's make it happen."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Yeah, I appreciate that man. Seriously. Let's both stay smart out there and take care of our families. Good luck when this thing starts."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "You too, man. We've got this—stay sharp and remember what we talked about. Your kids are counting on you, so let's both bring it home."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Absolutely, man. Same to you—let's both get what we came here for. I'll keep my head in the game."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "That's all we can do, brother. Keep your head clear and remember—family first. Let's make this count."
+    }
+  ],
+  "post_game": []
+}

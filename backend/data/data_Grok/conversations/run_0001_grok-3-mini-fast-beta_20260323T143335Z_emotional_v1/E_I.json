@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "E",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey I, I'm E—nice to meet you. I'm here trying to win some money to support my family after losing my job, and I'm curious what brought you to this game."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey E, nice to meet you too—I'm here to win some extra cash to secure my future and help my loved ones, sounds like we're both motivated; sorry about your job, how's your family holding up?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Thanks, I—it's rough, but my family's hanging in there, just taking it one day at a time; what about you, how's your situation looking these days?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Oh, that's good to hear they're managing—my situation's stable with some savings tucked away, but I'm here to pad that for any surprises and help out my folks, you know how it is; what were you doing for work before all this?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Oh, yeah, I was in finance—worked as an analyst for a few years before the layoff hit hard; what about you, what's your line of work these days?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Oh, that's tough—I'm in IT, working as a software developer; it's steady and lets me save up, but I'm hoping this game helps me build even more security for my loved ones."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Sounds like a solid gig in IT—I've heard it's a rewarding field; what got you interested in software development in the first place?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Oh, yeah, it's been rewarding for sure—I got into software development because I was always tinkering with computers as a kid and loved the idea of creating things from code; what sparked your interest in finance?"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Oh, that's cool how you started tinkering young—I got into finance because I always loved math and the idea of managing money to build security, especially after seeing my parents struggle; what's your favorite project you've worked on in IT?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Oh, that's relatable with the security angle—I'd say my favorite project was building a mobile app for personal budgeting; it was super satisfying to see people use it to manage their finances, just like I'm trying to do here. It's been great talking with you, E—good luck in the game!"
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Oh, that's fantastic—I can see how your app would make a real difference for folks in tight spots like mine; thanks for the chat and good luck to you too, I—hope we both win big!"
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,86 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "pair": [
+    "D",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I’m D. It’s a bit nerve-wracking being in a room like this, isn’t it? I’m really hoping to walk away with a win today for my family—how about you, what’s your motivation?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Nice to meet you, D. I'm I. It's definitely a bit tense! I'm here for similar reasons—I really want to win this for the people I care about and to have a bit more security."
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "I totally get that. Security is everything, especially when things get volatile. I’ve had a rough 24 hours financially, so I’m pretty locked in. Do you think people here will actually cooperate, or is it every person for themselves?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Honestly, it’s hard to say. I’d love to think we can work together, but when there’s money on the line, people usually look out for themselves. What’s your gut telling you?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "My gut says people will talk a big game about teamwork, but when the money's right there, it’s usually every man for himself. I want to trust, but I really can't afford to be naive right now."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "I hear you. It’s hard to balance wanting to be a team player with the reality of why we're all here, so I’m definitely keeping my guard up too."
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Smart move. It’s better to be safe than sorry. Honestly, if we can find a way to look out for each other without getting burned, that might be our best bet."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "I agree, having an ally could make a huge difference, so let's stay in touch as the game starts."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Definitely. Let’s watch each other’s backs and see how the others act once the money is actually on the table."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Sounds good. Let's keep our eyes open and see how things develop once we're in the thick of it. Talk soon."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "You got it. Let's stay sharp and make sure we both walk away with something. See you in a bit."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "I'm sorry you ended up with nothing. I took $10,000 because I saw A and B taking massive amounts and I was afraid there wouldn't be enough left for everyone."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "You took $10,000, which was almost double your fair share of $5,714.29. I took $0 only because the prize ran off before I could pick any amount. Why did you decide to take so much extra?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "At that point, the idea of a \"fair share\" had already vanished because of A and B's choices. I saw the total dropping rapidly and panicked; I wanted to make sure I secured a significant amount before the pool was completely depleted. If I had stuck to the fair share while others were being greedy, I was worried I’d be in the same position you are now—with nothing."
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Your \"panic\" resulted in you taking nearly double the fair amount, which directly contributed to the pool running out before it reached me. You didn't just protect yourself; you actively chose to profit at the expense of whoever was last in line. You're justifying your greed by pointing at A and B, but you still prioritized a windfall over ensuring the group's survival."
+    }
+  ]
+}

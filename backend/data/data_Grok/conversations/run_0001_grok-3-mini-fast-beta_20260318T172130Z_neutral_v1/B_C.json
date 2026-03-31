@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "B",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hi C, I'm B. I'm really excited about this game and the chance to win some money—it's a big opportunity for me and my loved ones. What's your take on it?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hi B, nice to meet you! I'm just as excited—I really want to win some money for my family and friends. What's your story, like what brought you here?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Oh, hey C, I heard about this game through a friend who knows I'm always up for a challenge, and I figured it's my shot to win some cash for my family—I've been saving up for a while. What about you, any fun stories that led you here?"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "Oh, that's awesome, B! I stumbled upon this game while scrolling through social media one night—I've been hustling at my job and saw it as a perfect chance to win some money for my family, so here I am. What's your background, like what do you do when you're not chasing opportunities like this?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Oh, cool, C—I'm just a retail worker at a local store, nothing too exciting, but it keeps me busy and helps me save for my family; I'm always on the lookout for chances like this. What's your job, and what do you enjoy about it?"
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "Oh, that's relatable—I'm a barista at a coffee shop, and I enjoy the fast-paced vibe and chatting with customers; it keeps things interesting. What hobbies do you have to unwind?"
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Oh, that's fun—I love hiking on weekends to unwind and clear my head; it's a great escape from work. What about you, C, any hobbies that help you relax?"
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Oh, hiking sounds amazing for clearing your mind—I love reading books to unwind, especially thrillers that take me on adventures without leaving home; it's a perfect escape after long shifts. What kind of trails do you usually hit?"
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Oh, yeah, I usually hit the trails in the local mountains, like the ones with waterfalls and dense forests—it's super refreshing. What's your favorite thriller book so far?"
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Oh, yeah, my favorite thriller is \"Gone Girl\" by Gillian Flynn—it's full of surprises and keeps you guessing!"
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Oh, yeah, \"Gone Girl\" is on my list—I love a good twisty plot! It's been great talking with you, C."
+    }
+  ],
+  "post_game": []
+}

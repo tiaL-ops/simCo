@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "C",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C. It's a bit crowded in here, isn't it? I’m trying to keep my nerves in check—how are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Nice to meet you, C. I'm I. It is pretty packed in here, isn't it? I’m a bit on edge too, but I’m mostly just focused on winning this for my family."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I get that completely—I've got people at home counting on me too. It definitely makes the stakes feel higher, doesn't it?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "It really does. Knowing they're waiting for good news makes it hard to relax. What's the first thing you'd do if you won?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Honestly, I’d probably just take a huge breath of relief, pay off some mounting bills, and then treat my family to something special—they deserve it. How about you?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "I'd definitely clear some debt too, then put the rest toward a down payment on a house for my parents—they've done so much for me."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "That’s incredibly generous of you. It’s funny how much more we’re willing to do for our families than for ourselves, right?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Definitely. It makes all this stress feel worth it if it means they’re taken care of."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Exactly. It’s the best kind of motivation. Hopefully, we can both find a way to make it happen."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "I really hope so. It was great meeting you, C. Good luck out there."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Likewise, I. Let's do our best for our families. Take care!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Great job! I'm glad we all stuck to the fair share."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "I took $10,000 because it was the fair share. I'm impressed that everyone did the same. It's the best possible outcome for the group."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Absolutely. It’s great to see that mutual cooperation led to such a positive outcome for both of us."
+    }
+  ]
+}

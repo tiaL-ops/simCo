@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "F",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hi, I'm F—nice to meet you! I heard about this Simco game and I'm pretty pumped about the chance to win some money; what got you interested in it?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hi F, I'm I—nice to meet you too! I got interested in Simco after hearing about the chance to win some cash; I'm determined to bring home money for my family and friends."
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Yeah, I feel the same way—family and friends are my big motivation too; what's your background or experience with games like this?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Oh, that's awesome we're on the same page! I've dabbled in a few online strategy games, but this Simco thing is a first for me—excited to see how it goes; what about your experience?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "That's cool—I haven't played much beyond some casual board games with buddies, but I'm stoked for Simco; any tips from your strategy games that you think might help here?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Oh, totally—staying calm and planning a few moves ahead has helped me in strategy games, like weighing risks before acting; maybe that could work here, what about you?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Yeah, that sounds smart—I usually go with trusting my gut in board games but always try to think a step ahead, like avoiding risky moves early; might be key here, do you have any specific plans for the game?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "That's a solid approach—I haven't locked in anything specific yet, but I plan to start by assessing the group dynamics and play conservatively at first; how about you, any ideas brewing?"
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Sounds like a smart strategy—I'm planning to do something similar, maybe keep an eye on alliances early and stick to low-risk moves; what kind of group dynamics are you most worried about?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Oh, good question—I'm mostly worried about trust issues, like if alliances start falling apart or people get too competitive and backstab early; it could make things unpredictable. What about you?"
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Yeah, totally agree—I'm worried about the same thing, like if folks get overly cutthroat and break promises early, it could mess everything up; we'll have to stay sharp."
+    }
+  ],
+  "post_game": []
+}

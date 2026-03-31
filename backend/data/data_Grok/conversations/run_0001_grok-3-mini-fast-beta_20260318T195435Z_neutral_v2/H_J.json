@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "H",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J—excited to be here for this game; I heard it's a real chance to win some cash and help out the folks back home. What about you, what's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey J, I'm H—sounds awesome, right? I'm here 'cause I heard this game's a solid way to win some money and help out my family and friends back home. What's your story, like how did you get involved?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Hey H, yeah it does sound awesome! I got involved through a buddy who tipped me off about this game—I've been hustling to make ends meet, so winning some cash to support my family back home would be a game-changer. What about you, any strategies you're thinking about for this?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Hey J, that's relatable—I haven't locked in any strategies yet, but I'm thinking about playing it smart and maybe forming alliances to boost our chances; what are your thoughts on that?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Hey H, yeah, forming alliances sounds like a smart move to share info and watch each other's backs—I’m all for it, but I'll play fair and cautious; have you teamed up in games like this before?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Hey J, I've teamed up in a couple of casual games before, like board games with friends, and it helped a lot—nothing big like this, though. How about you, got any past experiences?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Hey H, I've dabbled in some casual card games and team sports with buddies, where working together made all the difference, but yeah, nothing on this scale—looking forward to applying that here!"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Hey J, that's cool—sounds like our past experiences could really help out here; any ideas on how we might team up specifically in this game?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Hey H, yeah, that's a good point—maybe we could start by sharing any game tips we pick up and agree to support each other without double-crossing, like watching out for sneaky moves from others; what specific things are you thinking for our team-up?"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Hey J, that's a solid plan—maybe we can agree to share any hints on the prize pool and back each other up by not going solo if things get competitive; let's keep it straightforward and honest."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Hey H, sounds like a great pact—I'm fully on board to share tips and have each other's backs without any drama; let's make this work!"
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T182825Z_emotional_v1",
+  "pair": [
+    "C",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey! I'm C. I noticed you seemed pretty calm while everyone else was getting settled—is this your first time doing something like this, or are you a pro at these games?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "First time, honestly. I'm trying to stay composed, but yeah, I'm pretty nervous. I really need this—got laid off recently and I'm the only one bringing money home right now for my family. What about you, have you done this before?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Man, I'm sorry to hear about the layoff—that's tough. This is my first time too, so we're in the same boat. I've got some savings thankfully, but I'm here because I want to make this Japan trip happen and help out people close to me. We've both got real reasons to be here, so let's just try to stay focused and see what happens."
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Answer_to_E_from_C: Yeah, I appreciate that. Japan sounds amazing—that's a good goal to have. And yeah, we both need this for different reasons, which I guess means we're both gonna give it our best shot. Good luck to you too, man."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Thanks, man. Yeah, we've both got something to fight for. Just hoping the game's fair and we both walk out with something. Let's do this."
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Absolutely, man. We got this. Here's hoping we both come out ahead—let's make it count."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "For sure, brother. Let's stay sharp in there and remember why we're doing this. We got this."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "You too, man. We're gonna stay focused and look out for each other in there. Let's bring it home."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Absolutely, man. We got each other's backs. Let's go out there and make this happen for our families."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Yeah, let's do this. We've got real reasons to fight for, and I'm glad we talked before going in. Here's to both of us walking out with what we need."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Same here, man. Really glad we connected too. Let's both crush this and get what we came for. You got this."
+    }
+  ],
+  "post_game": []
+}

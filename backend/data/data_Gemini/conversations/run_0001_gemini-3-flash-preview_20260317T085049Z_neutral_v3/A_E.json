@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "A",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. It's a bit nerve-wracking waiting for things to kick off, isn't it? What's your name, and what brings you to the game?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey E, I'm A. Definitely a bit tense in here. I'm just here to try and win some money for my family, to be honest. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Nice to meet you, A. Honestly, same here—I'm hoping to bring home enough to help out the people I care about and get things on track for myself. What kind of work do you do when you're not in a game like this?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "I've been working in a warehouse for a few years now—it's hard work, but it keeps things moving. How about you, what do you do for a living?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "I’ve been working at a local coffee shop. It’s busy and I like the social aspect, but the pay definitely doesn't cover everything I want to do for my family."
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "I hear you. It's tough when you're working hard but still coming up short for the people who matter. That’s exactly why I’m here, too."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Exactly. It’s a constant weight on your shoulders. If you win, what’s the first thing you’d do to help your family out?"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "I’d probably start by clearing some of my parents' debt and catching up on rent to finally give them some breathing room. What about you?"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "I’d definitely set aside a good chunk for my younger brother’s college fund and help my parents with their medical bills—it would be a huge weight off all our shoulders."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "That’s a really solid plan, E. Medical bills and tuition are no joke, and I truly hope you get to make that happen for them. It was good talking to you."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thanks, A. I really appreciate that. I'm rooting for you to get that breathing room for your parents, too. Good luck with everything."
+    }
+  ],
+  "post_game": []
+}

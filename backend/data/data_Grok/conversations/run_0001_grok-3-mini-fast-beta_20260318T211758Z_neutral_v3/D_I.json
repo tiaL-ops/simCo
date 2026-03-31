@@ -1,0 +1,106 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "D",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hey D, I'm I and I'm pretty excited about this game—it's a chance to win some money and maybe even make new friends. What's your story, and how did you end up here?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey I, nice to meet you! I'm D, and I ended up here after hearing about this game as a way to win some cash for me and the folks I care about—I'm pretty pumped about it. What about you, what's got you excited?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "Oh, same here, D—I'm thrilled about the chance to win some cash and help out my family; it's motivating to be around folks with the same vibe, what's your take on the game so far?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Yeah, I'm loving the energy here—feels like a mix of competition and teamwork could lead to big wins, so I'm all in; what's your game plan to make the most of it?"
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "Hey D, my game plan is to play it smart by building alliances early and watching out for opportunities—gotta balance teamwork with a bit of strategy to win big; what's your approach to that mix?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Hey I, that makes sense—I plan to build alliances too, but I'll mix in some caution to protect my interests, aiming to collaborate where it helps everyone win; how do you decide who to ally with?"
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "Hey D, I decide to ally with folks who seem trustworthy and share my goals, like wanting to win for their loved ones—I go by gut feelings from our chats; what do you look for in potential allies?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Hey I, I look for people who are straightforward and share my drive to win for family, plus a good vibe from our talks to ensure they're reliable—helps me stay cautious; what's a key sign of trustworthiness for you?"
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Hey D, for me, a key sign of trustworthiness is when someone is consistent and genuine in their conversations, like not holding back on their real intentions—it helps build that bond; what's your biggest red flag in potential allies?"
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Hey I, my biggest red flag in potential allies is when someone flips their story or dodges questions—it screams inconsistency and makes me question their honesty; what about you, any deal-breakers you've spotted so far?"
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "Hey D, totally agree—my biggest deal-breaker is inconsistency too, like if someone contradicts themselves or avoids straight answers; I haven't spotted any yet in this group, which is a good sign so far."
+    },
+    {
+      "turn": 12,
+      "from": "D",
+      "message": "Hey I, totally with you on that—consistency is key, and it's reassuring we haven't seen any red flags yet; let's both play smart and see what happens."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hey D, you took $16,200, which is more than your fair share of $10,125. I'm curious—why did you decide to take that amount? It seems like it might have impacted others."
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "I took $16,200 because I saw it as a strategic opportunity in the game to maximize my earnings. I didn't intend to disrupt things for others, but sometimes that's how these games go—it's competitive. How did it affect you specifically?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "Thanks for explaining your perspective, D. It affected me by leaving me with $10,125, which felt a bit short compared to what I was expecting in a fair split. I guess it just made the game feel more competitive for me personally, but I get that it's all part of the strategy. How about you—do you think it changed the dynamic for the rest of the game?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "I appreciate you sharing how it affected you, and I'm glad you're seeing it as part of the game's strategy—it's all about that competitive edge. As for whether it changed the dynamic for the rest of the game, I think it probably made things a bit more tense overall, since everyone might have felt the need to play more aggressively to catch up. For me, it just reinforced focusing on my own moves, but it did add an extra layer of excitement. How did it influence your decisions moving forward?"
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "Thanks for your thoughts, D—it's interesting how that move added some tension and excitement for everyone involved. As for how it influenced my decisions moving forward, it definitely made me more cautious and strategic. I started paying closer attention to potential opportunities and tried to be more aggressive in my own plays to avoid getting left behind again. It turned the game into more of a challenge for me, which I actually enjoyed in the end. How about you—any reflections on your strategy after that?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Thanks for sharing that, I—it's great to hear that the game turned into an enjoyable challenge for you despite the initial surprise. Reflecting on my strategy after that move, I think it reinforced my focus on seizing opportunities when they arise, but it also made me more aware of how my decisions could influence the group's dynamics. I tried to balance being aggressive with not overstepping too much in later rounds, which helped me maintain my lead without escalating the tension unnecessarily. Overall, it was a learning experience that sharpened my gameplay. Anything else you'd like to discuss about the game?"
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "Thanks for sharing your reflections, D—it sounds like the game was a valuable learning experience for you too. I think we've covered everything pretty thoroughly, and it's been a good chat. No, I don't have anything else to discuss about the game right now."
+    }
+  ]
+}

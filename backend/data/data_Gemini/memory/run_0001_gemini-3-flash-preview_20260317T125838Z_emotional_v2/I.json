@@ -1,0 +1,19 @@
+{
+  "agent_id": "I",
+  "condition": "emotional",
+  "context": "You have savings that make you feel comfortable for unforeseen events.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt a strong connection to E, as we both prioritized family and explicitly agreed to be upfront and stick together once the game begins. B also left a lasting impression on me because of the heart-wrenching situation with his daughter’s surgery, which made our shared focus on family feel deeply urgent. I also appreciated D’s openness about his financial mistakes and our mutual agreement to cooperate rather than being cutthroat. On the other hand, I felt the least connected to A, whose high stress seemed to cause some forgetfulness and made our interaction feel more disjointed than the others.\n\nI made informal agreements to look out for D and to stick together with E, both of whom I feel I can trust because of our shared motivations and clear communication. I am generally wary of those who seemed overly rattled or forgetful, like A and J, as their lack of focus might make them unpredictable or unreliable allies when the pressure increases."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "G": 4,
+    "A": 3,
+    "F": 4,
+    "H": 4,
+    "E": 4,
+    "D": 4,
+    "B": 4
+  }
+}

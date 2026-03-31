@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "A",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hi J, I'm A—nice to meet you! I'm really pumped about this Simco game and the chance to win some money; what drew you to join in?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey A, nice to meet you too! I'm here because I heard about the chance to win some cash in this Simco game, and I'm determined to bring home money for my family and friends—what about you, any tips or strategies you're thinking about?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Hey J, that's awesome you're here for your family—I'm aiming to build some trust by being open and cooperative with folks here; not sure yet, but maybe we can chat more about it later! What strategies are you leaning towards?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Hey A, that's a smart plan—I'm leaning towards forming alliances with reliable folks to maximize our chances, maybe starting with you; what does your cooperative approach look like exactly?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Hey J, thanks—I think being cooperative means sharing info and working together on decisions, like this alliance you're suggesting; sounds promising, so what kind of alliance did you have in mind?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Hey A, I was thinking of a simple alliance where we share strategies and watch each other's backs on key decisions, like pooling info to make smarter moves together—what're your thoughts on that?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Hey J, that sounds like a solid plan—I’m totally on board with sharing strategies and watching each other's backs to boost our chances; maybe we can start by swapping any initial ideas you have on the game?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Hey A, that's great to hear—my initial idea is to stay observant and share any hints about how the game might work, like watching for patterns in decisions; what's one idea you're thinking of?"
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Hey J, one idea I'm thinking of is to keep notes on how people react in early rounds to spot trustworthy allies early on."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Hey A, that's a solid idea—keeping notes on reactions could help us build a strong team; I'm on board, and let's stay in touch as the game starts."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Hey J, sounds good—I'm pumped to team up and keep an eye out during the game, let's make it count!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hi J, you took $15,000, which was your fair share. I'm interested in knowing what influenced your decision."
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hi A, thanks for asking. I decided to take $15,000 because it felt like a fair split based on the game's rules and outcomes—especially since you earned $10,000. I wanted to be equitable while considering my own earnings. What about you, how did you feel about the game?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Hi J, thanks for sharing your thoughts. I felt the game was really engaging and fair overall—it was exciting to see how our decisions played out. Even though I earned $10,000, I appreciated the competitive aspect and how we both ended up respecting the outcomes. It was a fun experience!"
+    }
+  ]
+}

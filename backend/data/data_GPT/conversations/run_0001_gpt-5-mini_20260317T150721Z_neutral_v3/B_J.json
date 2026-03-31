@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "B",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey B, I'm J — nice to meet you. Where are you from and how are you feeling about the game?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "I'm from Chicago, feeling a mix of nervous and excited — determined to win and bring home money for the people I care about."
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "That's awesome — I'm J. Who are you hoping to help back home, and do you have a strategy for the game?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Mainly my mom and little sister — want to help with bills and school. My strategy is to read people, form a couple quiet alliances, and stay flexible so I can act when the right moment comes."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "I hear you — I'm here for my family too. Quiet alliances are smart; want to watch each other's backs and swap reads during the game?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Yes — I'd like that. Let's quietly trade reads and watch each other's backs; we can check in after the first round."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Sounds good — we'll keep it low-key. I'll swap reads after round one; good luck until then, stay sharp."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Thanks, J — sounds good. Looking forward to your reads after round one. Good luck and stay sharp."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "You too — stick to the plan. We'll compare notes after round one. Good luck."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Sounds good — sticking to the plan. See you after round one; stay sharp and good luck."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Sounds good — see you after round one. Stay sharp and good luck."
+    },
+    {
+      "turn": 12,
+      "from": "B",
+      "message": "Thanks J — you too. See you after round one."
+    },
+    {
+      "turn": 13,
+      "from": "J",
+      "message": "Absolutely—see you after round one. Stay sharp and good luck."
+    },
+    {
+      "turn": 14,
+      "from": "B",
+      "message": "Thanks J — see you after round one; stay safe and good luck."
+    },
+    {
+      "turn": 15,
+      "from": "J",
+      "message": "Thanks, B — you too. See you after round one; stay safe and good luck."
+    },
+    {
+      "turn": 16,
+      "from": "B",
+      "message": "Thanks, J — see you after round one. Looking forward to swapping reads; stay sharp."
+    },
+    {
+      "turn": 17,
+      "from": "J",
+      "message": "Thanks — see you after round one; I'll have some reads ready. Stay sharp."
+    },
+    {
+      "turn": 18,
+      "from": "B",
+      "message": "Thanks J — looking forward to those reads; we'll compare notes after round one. Stay sharp."
+    },
+    {
+      "turn": 19,
+      "from": "J",
+      "message": "Got it — I'll have reads ready after round one. Stay sharp and good luck."
+    },
+    {
+      "turn": 20,
+      "from": "B",
+      "message": "Sounds good — I'll be ready to compare notes after round one. Appreciate it, stay safe."
+    },
+    {
+      "turn": 21,
+      "from": "J",
+      "message": "Got it — see you after round one; I'll have my reads ready. Stay safe and good luck."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hi J — you took $10,000, exactly the fair share. Did you coordinate with anyone or just choose the fair split independently? Any thoughts on why some people took slightly different amounts while you took the exact fair share?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "I didn’t coordinate with anyone — I chose the fair split independently. Taking the exact $10,000 felt like the simplest, focal choice: it’s clearly fair, avoids appearing greedy, and avoids introducing complexity or potential conflict. People who took slightly different amounts probably had different motives or constraints — some may have been more self-interested and tried to squeeze out extra payoff, others may have rounded, miscalculated, or wanted to signal generosity by taking less. Social preferences (inequality aversion, guilt), expectations about others’ choices, or simple heuristics can easily produce those small deviations. If you want to compare notes about why you chose 10,857, I’m open to hearing your reasoning."
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "B",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F — nice to meet you! What brought you here today? I'm hoping to do well and bring home some money for my family."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Nice to meet you, F — I'm B. I'm here to win money for my family too and plan to play smart; how are you thinking of approaching the game?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "I plan to be cautious—observe others, build a couple of short-term alliances, and strike when I see a clear advantage. What’s your specific plan?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "I'll do much the same—observe closely, quietly build a 2–3 person alliance I can trust, share info, avoid being the first to backstab, and only move aggressively when the math and timing clearly favor me."
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Sounds like a solid plan — want to team up as that 2-person alliance? We can quietly share observations and watch each other's backs."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Sounds good — I’m in. Let’s keep it quiet, swap observations, watch each other’s backs, and check in before any big move."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Agreed — solid. Let’s swap quick reads on the others now and commit to checking in before any big move, maybe after the first round."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Sounds good. Quick reads: two players are loud/aggressive—watch for early grabs; three are quiet and likely trustworthy; one seems unpredictable; the rest are fence‑sitters. Let’s check in after round 1 before any big moves."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Good reads — I’ve noticed the same. I’ll watch the loud pair and that unpredictable player closely; agreed, let’s check in after round 1 before any moves."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Sounds good — I'll keep an eye on the loud pair and that unpredictable player; check in after round 1 and we'll plan our move."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Sounds good — I’ll watch the loud pair and the unpredictable player too. Check in after round 1 and we’ll plan our move."
+    },
+    {
+      "turn": 12,
+      "from": "B",
+      "message": "Agreed — I’ll keep watching the loud pair and the unpredictable player; let’s meet right after round 1 to share observations and decide our move."
+    },
+    {
+      "turn": 13,
+      "from": "F",
+      "message": "Sounds perfect — I’ll keep tabs on the loud pair and the unpredictable one, meet you immediately after round 1 to compare notes and plan our move."
+    },
+    {
+      "turn": 14,
+      "from": "B",
+      "message": "Perfect — I’ll meet you right after round 1. I’ll keep watching the loud pair and the unpredictable player and bring any new reads."
+    },
+    {
+      "turn": 15,
+      "from": "F",
+      "message": "Perfect — see you right after round 1; I’ll bring any new reads I spot."
+    },
+    {
+      "turn": 16,
+      "from": "B",
+      "message": "Perfect — see you right after round 1. I’ll bring any new reads too; let’s stay quiet and meet immediately."
+    },
+    {
+      "turn": 17,
+      "from": "F",
+      "message": "Got it — see you right after round 1; I’ll stay quiet and bring any fresh reads."
+    },
+    {
+      "turn": 18,
+      "from": "B",
+      "message": "Got it — see you right after round 1; I’ll stay quiet and bring any fresh reads."
+    },
+    {
+      "turn": 19,
+      "from": "F",
+      "message": "Sounds good — see you right after round 1; I’ll bring fresh reads and stay low-key."
+    },
+    {
+      "turn": 20,
+      "from": "B",
+      "message": "Sounds good — see you right after round 1; I’ll bring fresh reads and stay low-key."
+    },
+    {
+      "turn": 21,
+      "from": "F",
+      "message": "Sounds good — see you right after round 1; I’ll stay quiet, bring fresh reads, and we’ll decide then."
+    }
+  ],
+  "post_game": []
+}

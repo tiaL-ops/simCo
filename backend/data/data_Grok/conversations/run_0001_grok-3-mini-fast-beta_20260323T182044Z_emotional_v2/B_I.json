@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "B",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hey B, I'm I, and I'm pretty excited about this game—it's a chance to win some money and maybe have fun along the way. What's your story for joining in?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey I, nice to meet you—I'm B, and I'm here because my three-year-old daughter needs surgery, and we're short on cash after loans and selling stuff; I need this win badly for her. What's your take on the game?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "Oh man, that sounds really tough—I'm sorry about your daughter, and I hope this works out for you. As for the game, I'm excited about it too; I see it as a chance to win some cash and help out my family, so I'm going all in to make that happen. What's your strategy for playing?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Thanks, I, I appreciate that—it's been rough, but I'm focusing on staying focused and maybe teaming up early if it helps grab a bigger share; what's your plan for jumping in?"
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "Thanks, B—that sounds smart; I'm planning to dive in aggressively, keep an eye on everyone, and look for early alliances that could boost my chances, just like you mentioned—how do you see us potentially working together?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Hey I, I like your aggressive approach—it could work well with my plan; I think we could team up to share intel and support each other early, maybe coordinate on moves to maximize our shares, since we're both fighting for our families—what's your first idea for how we start?"
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "Hey B, that sounds like a solid plan—maybe we could start by quickly sharing any tips or observations we've picked up about the game setup, then decide on a simple coordinated move right at the beginning to test our teamwork."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Hey I, that makes sense—I've heard the game starts with a quick round where watching others' reactions can give an edge, so maybe we share that and start by both going for a low-risk joint claim in the first move to see how it plays out."
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Hey B, that's a smart move—I agree, let's share any quick observations on reactions and go for that joint claim to kick things off; what specific low-risk option were you thinking of?"
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Hey I, I was thinking of targeting the initial shared resource claim, like grabbing a small portion from the common pool early on to avoid any big risks—sounds good to you?"
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "Hey B, yeah, that sounds like a solid plan—let's go for that small claim to start things off and see how it goes; good luck to us both!"
+    }
+  ],
+  "post_game": []
+}

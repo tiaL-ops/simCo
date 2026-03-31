@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "E",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey! I'm G. So, have you played in one of these games before, or is this your first time? I'm pretty excited—and honestly a little nervous—about what's about to happen."
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey G, first time for me too. Yeah, I'm nervous as well, but I really need this—got laid off recently and I'm the main provider for my family right now. What about you, what brings you here?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Man, I hear you—that's tough about the layoff. Honestly, I'm in a similar boat; I want to win something to help out my family too. But hey, we're both here now, so let's see what happens. Do you have any strategy in mind for how you're gonna approach this game?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Honestly, I'm still figuring it out—I don't really know what to expect yet. I'm thinking I should just stay calm, listen carefully to the rules, and see what opportunities come up. Maybe we can figure things out as we go? What's your gut telling you?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Yeah, I think that's smart—staying calm and listening is key. My gut's telling me the same thing, honestly. I'm gonna try to figure out who I can trust in here, because I have a feeling this game might come down to how we work together. We should probably stick together if we can, you know?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "I appreciate that, G. Yeah, I'm thinking the same way—this feels like it could get complicated, and having someone I can actually talk to would help. Let's definitely keep an eye out for each other and see how things unfold, okay?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Absolutely, man. We got this—just promise me you'll be straight with me, and I'll do the same for you. Let's see what this game throws at us."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "You got it, man. I promise—straight up with you, always. We'll figure this out together. Let's do this."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Hell yeah, I'm glad we're on the same page. Let's stay sharp out there and remember—we look out for each other first. Ready when you are."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Absolutely, man. I've got your back. Let's go in there and make this work for both of us."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Right back at you, brother. Let's get in there and bring something home for our families. Stay smart out there."
+    }
+  ],
+  "post_game": []
+}

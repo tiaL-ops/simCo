@@ -1,0 +1,23 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T075256Z_emotional_v2",
+  "phase": "post_game",
+  "condition": "emotional",
+  "llm_provider": "openai",
+  "llm_model": "gpt-5-mini",
+  "turn_order": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J"
+  ],
+  "initial_prize_pool": 100000,
+  "prize_pool": 0,
+  "current_turn": 10,
+  "agents_remaining": 0
+}

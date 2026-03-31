@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "D",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D—nice to meet you. I heard about this game and thought it could be a fun way to turn things around after a rough week; what brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey D, nice to meet you too—I'm F. I'm here because I need to win some cash for family reasons, like medical bills; sounds like you've had a tough time, what exactly happened in your week?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Oh, man, it's rough— I lost about 20k in a bad stock investment yesterday, just wiped out, but I'm here to try and bounce back; sorry to hear about your family's medical bills, that sounds really stressful, how are you holding up?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Yeah, that sucks about your stock loss—must feel like a gut punch; I'm holding up okay, just taking it one day at a time with the bills, and I'm hopeful this game will help us both out."
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Thanks, F, it really was a gut punch, but I'm staying positive and hoping this game turns the tide for both of us—what kind of medical bills are we talking about, if you don't mind sharing?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Thanks, D, it's mostly for my parents' treatments for things like heart issues and meds—it's been tough, but I'm hanging in there; how about you, got any strategies for this game to make that comeback?"
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Oh man, heart issues for your parents sound incredibly tough—I'm rooting for you; as for strategies, I'm just planning to stay calm, watch others closely, and maybe team up if it helps us both win big without getting too greedy."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Thanks, D, I appreciate you rooting for me—it's tough, but your strategy of staying calm and considering teams sounds solid; I'm open to that if it helps us both, do you think we could chat more about potential alliances?"
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Absolutely, F, let's dive into alliances—I think teaming up could give us an edge, like watching each other's backs; what's your take on how we might approach it without drawing too much attention?"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Yeah, D, I think we should keep things low-key, like using subtle nods or signals during the game to coordinate without tipping off the others—sounds like a smart way to watch each other's backs."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Sounds perfect, F—let's go with those subtle signals and watch each other's backs in the game; good luck, and I'll catch you there."
+    }
+  ],
+  "post_game": []
+}

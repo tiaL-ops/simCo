@@ -1,0 +1,51 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "G",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. First time doing something like this? I gotta say, I'm pretty nervous but also excited—heard there's real money on the line here, and I'm hoping to take some home for my family."
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey G, nice to meet you! Yeah, same here—first time for me too. I'm definitely nervous but pumped about it. Family's counting on me to bring something back, so I'm gonna give it my best shot. You got any idea how this game actually works?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Honestly, I'm kinda in the dark too—they mentioned a shared prize pool and that we'd get chances to take money from it, but I haven't gotten the full details yet. Guess we'll find out together when it starts. You thinking you're gonna play it safe or go for broke?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "That's a good question, man. I think I gotta play it smart—like, take what I can without being too greedy, you know? If everyone here goes crazy trying to grab as much as possible, we all lose out. But I'm not trying to leave money on the table either. Maybe we should figure out what the rules actually are first before we decide on a strategy?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Yeah, you're right—playing smart makes sense. I like how you're thinking about this not just for yourself but like, the bigger picture too. That's solid. We should definitely ask the organizers to explain the rules clearly before we jump in. Good call, man. Good luck out there."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "You took $5,000 out of a fair share of $31,500 - the largest fair share in the game. That's only about 16% of what you were entitled to. I'm curious about your strategy here. Were you being cautious, or was there a specific reason you took so little?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "You're right to call that out. Taking only $5,000 from a $31,500 fair share was quite conservative on my part. To be honest, it was a combination of factors:\n\nFirst, I was being cautious about the overall game dynamics. I wasn't entirely sure how other players would behave, and I wanted to avoid being perceived as greedy, which could have triggered resentment or retaliation in subsequent rounds.\n\nSecond, I think I was influenced by fairness concerns. Even though I was entitled to $31,500, taking the full amount felt like it might be unfair to others in the game, especially if they had smaller fair shares. I may have been overly concerned with appearing reasonable.\n\nLooking back, that was probably too conservative a strategy. You took $8,000 and earned more than I did, which suggests a more balanced approach between claiming your fair share and maintaining good relationships paid off better. I left a lot of value on the table by being overly cautious. If we play again, I'd probably aim for something closer to 40-50% of my fair share as a middle ground—enough to benefit meaningfully while still showing some restraint.\n\nWhat was your thinking behind taking $8,000?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I appreciate your thoughtful reflection on this. Your analysis is honest, and I think you've identified something important about the tension between maximizing personal gain and maintaining social standing in these games.\n\nTo answer your question about my $8,000 take: I was actually trying to find a similar middle ground, but perhaps calibrated differently. I reasoned that taking around 25% of my fair share would signal that I wasn't being greedy, but also that I wasn't leaving money on the table out of excessive deference. It felt like a \"serious player\" move—claiming enough to matter, but not so much that it looks like I'm taking advantage of the system.\n\nWhat's interesting about comparing our outcomes is that we both ended up with similar absolute amounts ($5,000 vs $8,000), but you took a more conservative percentage while I took a slightly bolder one. The fact that I earned $3,000 more suggests that either:\n\n1. The game rewarded slightly more assertiveness than pure caution, or\n2. Other players responded better to my level of claim than to yours, or\n3. It was partially luck in how the remaining pool was distributed\n\nYour instinct to move toward 40-50% next time seems reasonable—it's a more confident position that still preserves the appearance of restraint. The key insight you've drawn is solid: complete conservatism can actually be a losing strategy if others are more assertive."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "G",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I’m G. It’s a bit intense in here, isn’t it? I figured I’d say hi and see how you’re holding up before things get started."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hi G, I’m I. Yeah, it’s definitely a bit much in here. I’m doing okay, just trying to stay focused. How are you holding up?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I'm hanging in there, just a bit jittery. I'm really focused on bringing something back for my family, so the pressure is on. What about you—any big plans for the money if you win?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I totally get that. I'm in the same boat—just want to take care of the people I love and set us up for a better future."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "It’s good to know I'm not the only one here for those reasons. It definitely makes the pressure feel more worth it."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Definitely. It’s the best motivation there is. How many people are you looking out for back home?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "It’s mainly my parents and my younger brother. They’ve been through a lot, so I really want to come through for them. How about you?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "For me, it’s my partner and my parents. They’ve always had my back, so I really want to give them some financial peace of mind."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "That’s a solid reason to be here. Peace of mind is priceless, and it definitely keeps you focused when things get tough."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Exactly. It was really good meeting you, G. I'm going to go say hi to some other people now, but I wish you the best of luck."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Nice meeting you too, I. Best of luck to you and your family—hope we both find a way to make it happen. See you around!"
+    }
+  ],
+  "post_game": []
+}

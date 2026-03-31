@@ -1,0 +1,91 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T125838Z_emotional_v2",
+  "pair": [
+    "D",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I’m G. It’s a bit tense in here with that prize pool on the line, isn’t it? Are you usually a big gamer, or is this your first time doing something like this?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Nice to meet you, G. I’m D. It is definitely tense. I’m not really a gamer—I usually stick to the stock market—but I’ve got a lot riding on this today. Is this your usual scene?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I love games, so I’m right in my element. I’m really here to win it for my family. Stock market stuff sounds like a different kind of high stakes—I bet you’re good under pressure!"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "I’m trying to stay sharp. I’m here for my people too, so I definitely get that drive. The market's been a nightmare lately, and I’m really counting on this win. What’s your usual strategy for games like this?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "I usually trust my gut and stay adaptable, but since my family's counting on me, I’m playing to win whatever it takes."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "\"Whatever it takes\" is a sentiment I can get behind—I'm in a position where losing isn't an option for me either."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "I respect that focus; it’s good to know I’m not the only one here who understands exactly how much is at stake."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Exactly. When you have people counting on you, the pressure is a different beast. I'm glad we're on the same page."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "100%. That pressure just makes me play sharper. I’m ready to see what this game throws at us."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Me too. Let's hope the game rewards that focus. I'm going to see who else is in the room before we start."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Sounds good, go do your thing. I'll catch you when the game starts—good luck!"
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Hey, I'm G. It’s a bit intense in here with everyone waiting for the game to start, isn't it? What brings you here today?"
+    },
+    {
+      "turn": 13,
+      "from": "D",
+      "message": "I think we're repeating ourselves, G—as I mentioned, I'm here to recover from some heavy market losses. I'm going to head off and meet the others now."
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "Sorry about that, I’ve got too much on my mind with the game starting soon! Good luck."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "I am sorry you ended up with nothing. I took exactly my fair share ($5,625) to try to leave enough for everyone else, but J, A, and E took far more than their portions."
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "I appreciate you being considerate and only taking what you felt was your fair share, G. It is disappointing that J, A, and E's actions resulted in me walking away with nothing, but I'm glad at least one person tried to look out for the group."
+    }
+  ]
+}

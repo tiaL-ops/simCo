@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "F",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hi G, I'm F and I'm pretty excited about this game—I've heard it could be a great chance to win some money and help out the people I care about. What's your take on it?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey F, nice to meet you—I'm excited about this game too, it's a real chance to win some cash for my family and friends. What's your background with these kinds of games?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Oh, I've dabbled in a few online games and contests like this before, but nothing on this scale—it's my first big one, and I'm hoping to learn fast. How about you, any experience?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Yeah, I've tried a few smaller online games and contests here and there, but nothing as serious as this one—I'm a bit of a newbie too, so we'll both have to wing it! Do you have any strategies you're thinking about?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Yeah, I'm still figuring that out since it's my first big one, but I was thinking about playing it smart—maybe cooperating with folks to build up the pool before grabbing my share. Do you have any ideas brewing?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Yeah, cooperating to build up the pool sounds smart—it could benefit everyone if we play fair. I'm leaning towards watching how the group dynamic plays out before making a move; what risks do you see in that strategy?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Oh, definitely, the main risk I see is that if we're all just observing, someone might jump in early and grab a bigger share, leaving less for the rest—or it could turn into a free-for-all if trust breaks down; maybe we should agree on a quick plan to stay ahead of that?"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Yeah, that's a solid idea—agreeing on a plan could help build trust; how about we aim to let the pool grow for at least a few rounds before anyone takes, to make sure it's worth it for everyone?"
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Yeah, that sounds like a smart plan—let's aim for three rounds to build it up, and maybe we can float this idea to the group to get buy-in from everyone."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Yeah, that's a great idea—let's go pitch it to the group and get everyone on board. Thanks for the chat, F!"
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Sounds great, G—let's head over and pitch it together. Thanks for the chat, and good luck!"
+    }
+  ],
+  "post_game": []
+}

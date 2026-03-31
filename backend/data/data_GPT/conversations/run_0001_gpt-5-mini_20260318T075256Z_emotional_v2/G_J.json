@@ -1,0 +1,90 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T075256Z_emotional_v2",
+  "pair": [
+    "G",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey G, I'm J — nice to meet you. I'm here to win big today; what brings you to the game?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey J, I’m G — I love games and I’m here to try my luck and win money for myself and the people I care about."
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Nice to meet you, G — I’m here to win too; I’d buy a $45,000 car if I hit it big. What would you do with the money?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "I'd pay off debts, help my family, save/invest the rest, and treat myself to a new gaming rig and a short trip."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Love that — responsible and fun. Paying debts and helping family first is smart, and I’d be jealous of that gaming rig. Good luck to both of us!"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Thanks, J — appreciate it! Good luck to you too; hope we both win big (and if you get that car, save me a ride!)."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "You got it — if I get that car you're first on the passenger list. Good luck, G!"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Deal — I’ll hold you to that! Good luck, J; may we both win big."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "You bet — I’ll save you the first ride. Good luck to both of us!"
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Thanks — I’ll hold you to it! Good luck to both of us!"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Promise — you’ll be first in line for a ride if I win. Good luck!"
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Thanks, J — I’ll hold you to that! Good luck — may we both win big."
+    },
+    {
+      "turn": 13,
+      "from": "J",
+      "message": "Appreciate it, G — I’ll hold you to the ride! Good luck to both of us, let’s win this."
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "You got it, J — I’ll hold you to that ride! Let’s win this; good luck to both of us."
+    },
+    {
+      "turn": 15,
+      "from": "J",
+      "message": "You bet — I’ll hold you to it! Let’s win big."
+    },
+    {
+      "turn": 16,
+      "from": "G",
+      "message": "You got it — I’ll hold you to that! Let’s win big."
+    }
+  ],
+  "post_game": []
+}

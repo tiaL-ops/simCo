@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "B",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey B, I'm J and I'm pretty excited about this game—heard we could win some money and I'm hoping to bring some home for my folks. What's your take on it?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey J, nice to meet you—I'm pumped about this game too, hoping to win some cash for my family and friends. What's your background with these kinds of games?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Oh, hey B, I've dabbled in a few online games like this before, but nothing super serious—just for fun. How about you, what's your experience with them?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Oh, cool—I've messed around with a few online games here and there, nothing too intense, just casual stuff with buddies, but I'm hoping this one pays off big. What's your strategy for the game?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Hmm, my strategy? I'm thinking of playing it smart—maybe hold back early and watch how everyone else plays, then make a move if I see an opening. What's your approach to this one?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Oh, yeah, that's a solid plan—I figure I'll start off a bit more aggressively to get a feel for the game and build some momentum, but I'll definitely watch the room dynamics too. How do you think the group might react to that kind of strategy?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Oh, interesting—I think an aggressive start could make some people in the group back off or play safer, but it might also push others to gang up on you early; it's a risky move, but could pay off if you're quick on your feet. What about you, how do you plan to handle any pushback?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Yeah, that's a good point—I'm planning to stay flexible, like maybe building some quick alliances if I feel the heat, or scaling back to avoid getting targeted too early. How do you think alliances might play out in this game?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Yeah, alliances could be a game-changer here, like they might help us team up early to take out bigger threats, but I bet they'll crumble once the prize gets tight and everyone starts looking out for themselves—it's all about trust, right? How would you go about forming one?"
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Yeah, totally— I'd start by finding people who seem reliable and straight-up, maybe chat about common goals and propose a quick pact to support each other early, like sharing tips without committing too hard."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Yeah, that makes sense—finding trustworthy folks first could really help early on, good luck with that, B."
+    }
+  ],
+  "post_game": []
+}

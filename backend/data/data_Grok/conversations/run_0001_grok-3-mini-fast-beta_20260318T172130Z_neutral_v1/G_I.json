@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "G",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey I, I'm G—nice to meet you. I'm pretty excited about this game since I heard we could win some cash, and I'm here to try and bring home something for the folks I care about. What brings you here?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey G, nice to meet you too! I'm here for the same reason—heard about the cash prize and I'm determined to win something for my family and friends. What about you, got any strategies for this game?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Oh, cool, we're on the same page! I'm still figuring out strategies myself—maybe playing it smart and building alliances, but we'll see. What's your take on how this game might work?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Yeah, I figure it's probably a mix of working together on the prize pool and some sneaky competition—maybe alliances could help early on, but I'll stay cautious. How do you see us playing that out?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Yeah, I agree—starting with alliances makes sense to build that prize pool together, but staying cautious is smart to avoid any backstabbing later. Maybe we could team up early and keep an eye out for each other; how does that sound to you?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Sounds like a solid plan, G—I'm down to team up early and watch each other's backs, but let's keep things transparent to avoid any surprises; what's your idea for how we make that work?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Yeah, that makes sense—I think we can keep things transparent by agreeing to chat about any decisions upfront and maybe set a quick signal if things get tricky, like a heads-up before we act; how's that for a start?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Yeah, that's a solid start, G—let's make sure we chat before any decisions and use something simple like saying \"hold up\" as our signal; I'm in!"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Awesome, I'm glad we're aligned on this—let's keep it simple and stick to chatting first and using \"hold up\" if needed; looking forward to seeing how it plays out!"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Yeah, same here, G—excited to team up and see how it goes!"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Yeah, me too, I—let's team up and crush this thing!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Why did you only take $5,000 when your fair share was $10,000? I'm curious about your reasoning behind that decision."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "I chose to take only $5,000 because I wanted to prioritize fairness and cooperation in the game. Even though $10,000 was my fair share, I decided that splitting it more evenly would help build trust and ensure a positive outcome for both of us. It's not just about maximizing my own earnings; it's about creating a balanced interaction. What do you think about that?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I appreciate your reasoning for taking only $5,000—it's refreshing to see someone prioritize fairness and cooperation over personal gain. Building trust like that can definitely lead to better outcomes in future interactions, and I respect your approach. As for me, ending up with $10,000 feels generous on your part, and it makes me think we could play more games with this mindset. What a balanced way to handle things!"
+    }
+  ]
+}

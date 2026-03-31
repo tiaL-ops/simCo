@@ -1,0 +1,19 @@
+{
+  "agent_id": "G",
+  "condition": "emotional",
+  "context": "You love playing games, you are curious about the game and want to try your luck. You love to win!",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to J, E, and A. With J, we bonded over both being first-timers with real stakes—he needs a car and wants to help people close to him, while I'm focused on family medical bills and financial pressure. E really resonated with me too since he's the sole provider for a family of five after losing his job, which mirrors the weight I'm carrying for my own family. A's situation hit hard as well—dealing with eviction while trying to secure housing for three kids felt like we were speaking the same language about desperation and family responsibility. I felt least connected to I, who came across as more cushioned financially with savings to fall back on, which made their approach feel less urgent and more like a calculated game rather than a genuine survival situation like the rest of us.\n\nI didn't make any formal agreements with anyone, though I did suggest to D that we track down the organizers together to clarify the rules before starting, and I told both H and I that we could check in with each other during the game to bounce observations off one another. I trust most of the people I spoke with—they all seemed genuine about their situations and motivations. The only person I'm slightly cautious about is D, since he mentioned losing money recently and needing to make it back, which could make him unpredictable or desperate enough to play recklessly."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "F": 4,
+    "H": 4,
+    "I": 4,
+    "J": 4
+  }
+}

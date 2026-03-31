@@ -1,0 +1,90 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "H",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey H, I'm J and I'm pretty excited about this Simco game—it's a chance to win some money and maybe help out the people I care about. What got you interested in joining?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey J, nice to meet you—I'm excited about this Simco game too, since I heard it's a solid chance to win some cash and support the people I care about. What about you, any strategies in mind?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Hey H, that's cool we're both pumped—I'm thinking about playing it smart and maybe forming some alliances, but I'm still figuring it out; what's your take on strategies?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Oh yeah, alliances could be key—I’m planning to play cautiously at first, maybe build trust with a few people before making big moves; how do you think we could start one?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Hey H, yeah, building trust sounds smart—maybe we could start by sharing more about our strategies in a small group chat or just chatting one-on-one here; what kind of people do you think would make good allies?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Hey J, totally agree—chatting one-on-one could help build that trust; I think good allies are folks who are honest, think ahead like you seem to, and aren't too aggressive at the start—what about you, anyone here catch your eye?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Hey H, yeah, I totally get that—honest and strategic folks like you stand out to me, so you're definitely on my list; I've noticed a couple of quieter ones, like maybe M, who seem thoughtful and not pushy—any thoughts on them?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Hey J, yeah, I think the quieter folks like M could be solid allies—they often play it cool and might have some smart ideas without all the drama; I've seen M around and they seem trustworthy, what do you say we try reaching out to them together?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Hey H, yeah, reaching out to M together sounds like a smart move—I like that idea; maybe we could start by inviting them to a quick chat and see if they're on board?"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Hey J, yeah, let's go ahead and invite M together—sounds like a solid plan to build our alliance!"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Hey H, awesome, let's team up and reach out to M—I'm excited about this alliance!"
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Hey H, I'm J—nice to meet you! I'm really pumped about this game since I heard it could be a chance to win some money for my family and friends. What's your take on it?"
+    },
+    {
+      "turn": 13,
+      "from": "H",
+      "message": "Hey J, we already chatted about this earlier, but it's great to reconnect—I'm H, and I'm still pumped for the game; it's a real chance to win money for my loved ones. What's on your mind now?"
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Hey H, yeah, my bad for repeating myself—still getting the hang of this! I'm excited about our plan to reach out to M and build that alliance; maybe we can chat about how to approach them next?"
+    },
+    {
+      "turn": 15,
+      "from": "H",
+      "message": "Hey J, yeah, no worries—let's keep it simple with M, maybe just say we're looking to team up for the game and see how they respond; I think we've got a good plan going, so I'll catch you later!"
+    },
+    {
+      "turn": 16,
+      "from": "J",
+      "message": "Hey H, sounds like a solid plan—let's go ahead and reach out to M together; excited to see how it goes!"
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "A",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. First time doing one of these games? I'm pretty nervous but also excited — heard there's real money on the line, so I'm hoping to learn the ropes from people who know what they're doing."
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey G, nice to meet you! Yeah, first time for me too actually. I'm pretty pumped about it though — been thinking about this all week. Have you got any sense yet of how the game actually works, or are we both going in blind here?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Honestly, we're kind of going in blind — I just know there's a shared prize pool and we'll get chances to take money from it. That's why I'm trying to talk to people before it starts. You picked up anything else about the rules yet, or should we figure this out together as we go?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Yeah, same boat honestly. I figure we'll learn the rules once things kick off, but I'm wondering if it's more about cooperation or competition — like, are we supposed to work together to grow the pool, or is it every person for themselves? That might change the whole strategy."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "That's a really good point — yeah, that's gonna be huge. My gut tells me there's probably some twist where we have to choose between helping everyone or looking out for ourselves, you know? Either way, I'm thinking it might be smart to feel people out first, see who seems trustworthy before making any big moves."
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Yeah, I like that approach — scope people out before committing to anything. I'm definitely gonna chat with a few others too, but honestly if I get a good read on someone early, I'd rather work with them than go full cutthroat. What's your instinct telling you so far about who seems solid?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Honestly, you seem pretty straightforward — I appreciate that you're thinking strategically but not trying to play games right now. I'm gonna keep chatting with people, but if things go the way I'm thinking, I'd be down to work together if we both feel good about it when the game actually starts."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "That sounds good to me — I appreciate you being straight with me too. Let's both get a feel for the room and then touch base before things kick off. I'm definitely interested in working together if the vibe feels right."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Cool, yeah, let's definitely circle back before we start. Good luck talking to people — I'll do the same and we can compare notes."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Sounds good, man. Yeah, let's touch base in a bit — I'll get a sense of who else is in here and we can figure out our play before things start. See you in a few."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Yeah, sounds good. I'll catch up with some other people and we'll regroup in a bit. Good talking with you, A."
+    }
+  ],
+  "post_game": []
+}

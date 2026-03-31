@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "H",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H. First time doing something like this? I'm pretty nervous but also excited—heard there's real money on the line here, which is wild. What brings you to the game today?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey H, yeah first time for me too! Honestly, I really need this—got people depending on me, so I'm hoping to take something home. The money part is definitely nerve-wracking but also motivating, you know? What about you, what made you sign up?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I hear you—same situation for me. I've got family counting on me too, so this feels like a real opportunity. I'm trying to stay optimistic but also realistic about it. Have you played games like this before, or is this totally new territory for you?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Totally new territory for me, honestly. I've played some regular games before but nothing with actual money involved. I'm trying to figure out the strategy as I go—do you have any experience with this kind of thing, or are we both just winging it?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Honestly, I'm winging it too—this is my first time with real money on the line. But I figure we're all in the same boat here, so maybe we can figure it out together. Have you thought about what strategy you might try once the game actually starts?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Not really, man—I'm kind of playing it by ear. But I like what you said about being in the same boat. Maybe the smart move is to see how people act first, get a feel for who's trustworthy before making any big moves. What do you think—you gonna go aggressive or more cautious?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Yeah, I think I'm gonna start cautious too—feel people out first. No point burning bridges right away when we don't even know the rules yet. Plus, if most people are being greedy from the jump, maybe there's an advantage to being the one person they can actually work with, you know?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "That's smart thinking—yeah, being the reliable one could definitely work in our favor. I'm gonna do the same, watch how people move before I commit to anything. Maybe we can check in once the game starts, see if we can actually help each other out."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Yeah, absolutely—I'm down for that. Let's definitely touch base once we get going. Feels good to know there's at least one person in here I can actually talk to about this."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "For sure, man. Same here—honestly feels good to have someone I can trust in here. Let's stick together and see how this plays out. Good luck out there."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "You too, man. I mean it—let's look out for each other in there. We got this."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "pair": [
+    "D",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D. It’s a bit of a weird vibe in here, isn't it? I’m mostly just trying to keep my head straight before things kick off—how are you feeling about all this?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey D, I'm J. It's definitely a strange atmosphere, but I'm feeling pretty focused—I've got some big plans for that prize money, so I'm just ready to get started."
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "I get that. I'm coming off a pretty heavy loss myself, so I'm definitely not here to play around. What are you planning to do with the cash if you take it home?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "I've got my heart set on a $45,000 car I've been eyeing for ages, and the rest is for my family. Sounds like we’re both pretty motivated—sorry to hear about your loss, what happened?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "I took a $20,000 hit on the market yesterday—a calculated risk that just went south, so now I’m feeling the pressure to make it back for my family. $45k for a car is a big target, you must be pretty determined."
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "That’s a massive hit to take, I’m really sorry. I definitely get the pressure to make it back for your family, though. Between them and the car, I’m definitely feeling more determined than ever to win this."
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Thanks, it’s definitely a motivator. Since we’re both pretty set on winning big, it'll be interesting to see how the group dynamics shake out once the money is actually on the table."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "For sure. It’s easy to talk now, but things usually change when the cash is right in front of you. I'm just hoping we can all keep our cool once it starts."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "I hear you. It’s one thing to talk, but when the stakes are this high, things are bound to get tense. I’m just going to try to stay sharp and keep my emotions out of it."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "That's a solid strategy. Keeping a level head is probably the only way to get through this. Best of luck to you, D."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Appreciate that, J. Good luck to you too—let's see what happens when the money is actually on the line."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "I'm sorry you ended up with nothing. I took $10,000 because I saw A and B taking massive amounts and I was afraid there wouldn't be enough left for everyone."
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "I understand that you were reacting to A and B, but by taking $10,000 for yourself, you contributed to the very problem you were afraid of. It’s hard to accept an apology for scarcity when you walked away with a significant amount and I’m left with nothing."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "agent_id": "B",
+  "condition": "emotional",
+  "context": "Your little girl, first born, three years old, needs surgery, but you have no health insurance. After taking many loans and selling many assets, three months later you still need 25 000$.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to C — they showed deep empathy right away, kept expressing support, and repeatedly offered to contribute funds and use their contacts if they won, which felt incredibly meaningful given my situation. I also felt strongly connected to J, who was consistently compassionate, checked in about my daughter, and offered to sit with me before the first round so I wouldn’t be alone. Both C and J stood out for different reasons: C’s concrete offers and sustained reassurance created the deepest bond, while J’s steady, calming presence felt reliably supportive. If I have to name one person I felt least connected to going in, it would be J only in comparison to C — not because J wasn’t kind, but because my rapport with C felt a little stronger and more personal.\n\nI made informal agreements: C promised to help financially and use their contacts if they win, and J agreed to meet me and sit with me before the first round. I trust C most to try to follow through and I trust J to be a supportive presence; I don’t have anyone I specifically distrust going into the game."
+  },
+  "connection_scores": {
+    "C": 5,
+    "J": 4
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T225735Z_emotional_v1",
+  "pair": [
+    "F",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey J, I'm F — it's nice to meet you. My elderly parents rely on me, so I'm a bit nervous but hopeful; what brings you here?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Nice to meet you, F — I'm J. I'm here to win money so I can buy a $45,000 car and help the people I care about; I hope your parents do well."
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Thanks, J — that car sounds great. I appreciate it; I'm about $15,000 short for my parents' medical bills. How long have you been planning to buy it?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "I've wanted that car for a few years and have been saving bit by bit—just hoping for a big win; I really hope you can cover that $15k for your parents."
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Thanks, J — that means a lot. I hope you get that car, and I hope we both get lucky so I can cover my parents' medical bills."
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Thanks, F — same here. Fingers crossed we both win; I'll be rooting for you and your parents."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Thanks so much, J — that really means a lot. Good luck to you too; here's hoping we both win."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Thanks, F — I appreciate it. Let’s both play smart and hope for the best; good luck to you and your parents."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Thanks, J — I appreciate it. Let’s play smart and may we both win; good luck to you too."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Absolutely — let's play smart and hope for the best. I'll be rooting for you and your parents. Good luck."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Thanks, J — that really means a lot. Let’s stay focused and play smart; good luck to you too."
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Thanks, F — I appreciate it. Let's stay focused and play smart. Good luck to you and your parents."
+    },
+    {
+      "turn": 13,
+      "from": "F",
+      "message": "Thanks, J — I appreciate it. Let's stay focused and give it our best. Good luck to you."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "You took exactly $1,200, which matches your fair share. Was that a conscious decision to follow the fair-share norm, and did you feel it was respected by others?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "You took $15,000 (fair share $4,200, g_k≈3.571), the highest g_k. What led you to take such a large share? Did you expect retaliation or cooperation in future rounds?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "I took the 15,000 to maximize my immediate payoff — it was a conscious, self-interested choice rather than an attempt to follow the fair-share norm. Given the game's incentives and the large multiplier (g_k ≈ 3.57), the marginal return to grabbing more looked high, so I prioritized the sure gain over concerns about fairness. I did expect some risk of retaliation or reduced cooperation in any future interactions, but I judged that risk acceptable because the situation felt either one-shot or anonymous enough that direct punishment would be limited. I also felt some ambivalence about it afterward — I recognize it comes across as unfair, but I made a deliberate strategic choice."
+    }
+  ]
+}

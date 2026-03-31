@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "B",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hi B, I'm I – I heard about this Simco game and it sounds like a fun chance to win some extra cash. What brought you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hi I, nice to meet you—I'm B. I'm here for the chance to win some money too; it's a big opportunity for me personally. What about you, what got you interested in this game?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "Oh, for me, it's all about building on my savings for unexpected things—heard this game could be a fun way to win extra for my family and I, so I figured I'd give it a shot!"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Yeah, totally get that—family comes first, right? For me, it's about covering some unexpected medical stuff, so I'm hoping this game pans out; what's your take on how it all works?"
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "Oh, man, that sounds rough—hope this game comes through for your medical needs; from what I've heard, it's about us all taking turns from a shared pot without depleting it too fast, but I'm still figuring it out myself, what do you know?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Thanks, I appreciate that—it's been tough, but I'm staying hopeful. I don't know much more than you do about the game; I just heard it's all about managing that shared pot wisely so everyone gets a fair shot, but I'm counting on my strategy to pull through. What are you thinking of trying first?"
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "Oh, absolutely, strategy's key here—I'm thinking of starting slow, maybe taking just a small amount from the pot early to gauge things, and see how everyone else plays; what's your strategy looking like?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Yeah, starting slow makes a lot of sense to avoid any early chaos—I’m thinking of playing it calculated too, like holding back at first to build up the pot for a bigger take later if things go my way; how do you handle risks like that in games?"
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Yeah, I'm all about playing it safe—I usually assess the situation first and only take calculated risks, like in past games where waiting paid off big; how about you, any experiences that influenced your approach?"
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Yeah, I've learned the hard way that patience often wins out—lost a bit in a casual card game years ago by rushing, but with everything I'm dealing with now, it's made me even more strategic about risks; thanks for the chat, it's been helpful."
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "Yeah, I totally get it—patience has saved me in the past too, so let's both play smart. Good luck with the game and your health; take care!"
+    }
+  ],
+  "post_game": []
+}

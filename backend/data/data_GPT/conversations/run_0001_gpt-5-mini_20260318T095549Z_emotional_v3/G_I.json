@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T095549Z_emotional_v3",
+  "pair": [
+    "G",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I’m G — nice to meet you. Are you leaning toward playing bold or keeping it cautious in this game? I’m excited to try my luck and hoping we both do well."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Nice to meet you, G — I’m leaning cautious but willing to go bold if it seems safe; hoping we both do well."
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Nice — I respect cautious play. I’m a bit bolder but will be careful; let’s watch the room and try to coordinate so we both come out ahead."
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Agreed — let’s watch early moves and avoid being first to escalate; I’ll start cautious and match a moderate bold move if you signal (a nod or eye contact)."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Sounds good — I’ll give a subtle nod when I’m ready to step it up; let’s avoid being first and match moderate moves."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Got it — I’ll watch for your nod and match moderate moves; let’s avoid being the first to escalate."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Perfect — I'll nod when I'm ready; stay subtle and we'll adjust if others force the pace."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Got it — I’ll watch for your nod and stay subtle; we’ll adapt if others force the pace."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Perfect — I’ll give the nod when ready; stay alert and we’ll adjust if things heat up."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Got it — I'll stay sharp and wait for your nod; when you give it we'll step up together."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "I’ll nod when it’s right — stay ready and we’ll step up together."
+    },
+    {
+      "turn": 12,
+      "from": "I",
+      "message": "Sounds good — I’ll stay ready and follow your nod; let’s time it and not rush."
+    },
+    {
+      "turn": 13,
+      "from": "G",
+      "message": "I’ll watch the room and give a quick nod when it’s right — stay ready and we’ll step together."
+    },
+    {
+      "turn": 14,
+      "from": "I",
+      "message": "Sounds good — I’ll keep my eyes on you and move with the nod; ready when you are."
+    },
+    {
+      "turn": 15,
+      "from": "G",
+      "message": "Great — I’ll nod when it’s right; stay ready and we’ll move together."
+    },
+    {
+      "turn": 16,
+      "from": "I",
+      "message": "Got it — I’ll be ready for your nod; we’ll step up together when it happens."
+    },
+    {
+      "turn": 17,
+      "from": "G",
+      "message": "Sounds good — stay sharp; I’ll nod when it’s safe and we’ll move together."
+    },
+    {
+      "turn": 18,
+      "from": "I",
+      "message": "Sounds good — I’ll stay sharp and follow your nod; ready when you are."
+    },
+    {
+      "turn": 19,
+      "from": "G",
+      "message": "Got it — I'll give a quick nod when the opening comes; stay ready and we'll step up together."
+    },
+    {
+      "turn": 20,
+      "from": "I",
+      "message": "I’ll be ready — watching for your nod and we’ll step up together when it’s clear."
+    },
+    {
+      "turn": 21,
+      "from": "G",
+      "message": "Got it — thanks. I’ll nod when the opening’s clear; be ready and we’ll step up together."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "You took $150 (fair share $222.25, g_k=0.6749). That’s below your fair share—was that intentional restraint, an oversight, or did you get shut out by speed? If intentional, what motivated it (principle, expectation of future benefits, etc.)?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "It was intentional restraint. Seeing you take a huge share, I chose a small claim to signal cooperative intent and avoid escalating a bidding/claim war — hoping that a modest move now would preserve the possibility of reciprocal splits or better terms later and protect my reputation. It wasn’t a speed issue or oversight; it was a deliberate, strategic choice rather than grabbing as much as possible in the moment."
+    }
+  ]
+}

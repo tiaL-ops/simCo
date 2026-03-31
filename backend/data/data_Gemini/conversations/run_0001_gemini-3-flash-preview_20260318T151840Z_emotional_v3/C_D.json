@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "C",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey D, I'm C. It’s a bit of a strange setup here, isn't it? What's your plan if you walk away with the prize money?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey C. Definitely strange. Honestly, I took a massive hit on the market yesterday, so I’m here to win back what I lost and help out my family. What’s your story?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Sorry to hear about the market hit—that’s stressful. I’m doing okay financially, but I’ve got my heart set on a $10k dream trip to Japan and want to bring home some extra for the people I care about."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Japan sounds like an incredible trip. I'd love to be playing for a vacation, but right now I'm just focused on digging myself out of this hole. It's good we're both thinking about our families, though."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Family definitely changes the stakes. I'm rooting for you to bounce back. Since we're both looking out for others, do you have any thoughts on how we should handle the shared pool?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "I’m leaning towards us all playing it fair—if we can agree to a clean split, everyone gets what they need without the risk of walking away with nothing."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "I'm definitely open to that; a clean split seems like the safest bet for everyone to get what they need. Have you checked if the others feel the same?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Not yet, you're one of the first I've really talked to. I'm going to start circulating now to see if everyone else is on board with a split."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Sounds like a plan. I’ll start chatting with a few others too—let’s see if we can get everyone on the same page."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Perfect, let’s touch base later once we’ve had a chance to feel everyone out. Good luck."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Sounds like a plan, D. I'll catch you in a bit after I've made the rounds. Good luck to you too!"
+    }
+  ],
+  "post_game": []
+}

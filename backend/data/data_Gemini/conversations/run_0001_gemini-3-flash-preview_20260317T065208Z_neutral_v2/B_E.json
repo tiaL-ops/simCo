@@ -1,0 +1,91 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "B",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. It’s a bit surreal being in here with everyone competing for the same pot, isn't it? What’s your plan if you take home the win?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey E, I'm B. It definitely feels a bit strange. Honestly, I'm just focused on winning for my family—they really need this. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Same here, B. I've got people back home counting on me too, so I'm pretty determined to make this happen."
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "I hear you. It definitely makes the stakes feel a lot higher when it's for more than just yourself."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Exactly. It adds a lot of pressure, but it's what keeps me focused. Are you planning on trying to work with others, or are you going to play it more solo?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "I think working with the right people could be the smartest move, but I'm keeping my guard up for now. How about you?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "I'm of the same mind; a solid alliance could be the key to winning, but I'm definitely taking my time to see who's actually trustworthy."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "That’s the smart way to play it. It’s hard to know who’s actually looking out for the group versus just themselves. Have you talked to many of the others yet?"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Just a couple so far, but it's hard to get a real read on anyone this early. Have you found anyone else who seems solid?"
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Not yet. You're actually the first person I've spoken to for more than a minute. Everyone else seems pretty guarded, which is to be expected. Have you noticed anyone acting particularly suspicious?"
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Not really, everyone just seems tense. It’s hard to tell if someone's being quiet because they're shy or because they're calculating. I'm just trying to stay observant for now. What about you, any gut feelings?"
+    },
+    {
+      "turn": 12,
+      "from": "B",
+      "message": "My gut says to watch the ones who are being too quiet, but I think I'll go mingle a bit and see if anyone else stands out. Good luck, E."
+    },
+    {
+      "turn": 13,
+      "from": "E",
+      "message": "Good call. I'll do some scouting myself. Let's keep each other in mind as things progress. Good luck out there."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "I'm glad we all took the $10,000 fair share. It's great to see such perfect cooperation!"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Well done. It's rare to see everyone cooperate so perfectly for an equal split."
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I agree, it's very satisfying when everyone works together for a fair outcome. It was a pleasure cooperating with you!"
+    }
+  ]
+}

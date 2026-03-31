@@ -1,0 +1,131 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T095549Z_emotional_v3",
+  "pair": [
+    "C",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I’m E — nice to meet you. I’m trying to get a read on the room before things start; what’s your plan for the game?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "I’ll listen first and build trust, make a couple of alliances, then take a fair-but-decisive share — I’m trying to fund a $10k dream trip to Japan for me and the people I care about."
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I respect that — I’m here to win too; I just got laid off and I’m the sole earner for a family of five, so I need about $5k — I’m open to a trusted alliance and splitting something fair so we both walk away covered."
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "I’m sorry about the layoff — let’s team up. I need $10k, you need $5k; we’ll coordinate to try to secure at least $15k from the pool, and if not we’ll split what we get fairly. Sound good?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Sounds good — I’m in. Let’s agree now to split any winnings proportionally (you 2/3, me 1/3) and coordinate publicly so we build trust; if that works I’ll back our plan in discussions."
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "Sounds good — I accept a 2/3 (me) : 1/3 (you) split; I’ll publicly back the plan and expect the same loyalty so we can coordinate our messages."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Agreed — I’ll publicly back our plan and stay loyal; let’s coordinate our messages and check in before any final move."
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Agreed — solid. I’ll publicly back our plan and I’ll check in with you right before any final move so we coordinate timing and messaging."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Sounds great — I’ll publicly back our plan, wait for your check-in right before the final move, and we’ll pull the trigger together; I’ve got your back."
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Thanks — I appreciate it. I’ll check in right before the final move; stay ready and keep our messaging aligned."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Got it — I’ll stay ready, keep our messaging aligned, and wait for your check‑in before the final move."
+    },
+    {
+      "turn": 12,
+      "from": "C",
+      "message": "Perfect — I’ll check in right before the final move; stay sharp and keep our messages aligned."
+    },
+    {
+      "turn": 13,
+      "from": "E",
+      "message": "Sounds good — I’ll be ready, keep our messaging tight, and I trust we’ll pull it off together."
+    },
+    {
+      "turn": 14,
+      "from": "C",
+      "message": "I appreciate it — I’ve got your back; I’ll check in just before the final move so we strike together."
+    },
+    {
+      "turn": 15,
+      "from": "E",
+      "message": "Thanks — I’ve got your back too. I’ll be ready; check in when you’re set and we’ll pull it off."
+    },
+    {
+      "turn": 16,
+      "from": "C",
+      "message": "Thanks — I’ll check in right before the move; stay ready and we’ll pull it off together."
+    },
+    {
+      "turn": 17,
+      "from": "E",
+      "message": "Got it — I’ll be ready. Check in when you’re set and we’ll strike together."
+    },
+    {
+      "turn": 18,
+      "from": "C",
+      "message": "I’ll check in just before we move—stay sharp and stick to the plan."
+    },
+    {
+      "turn": 19,
+      "from": "E",
+      "message": "Will do — I’ll be ready and stay sharp. Thanks for checking in; I’ve got your back."
+    },
+    {
+      "turn": 20,
+      "from": "C",
+      "message": "Thanks — appreciate it. I’ll check in right before we move; stay sharp and we’ll pull it off."
+    },
+    {
+      "turn": 21,
+      "from": "E",
+      "message": "Thanks — I appreciate it. I’ll be ready; check in when you’re set and we’ll strike together."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "You took $3,000 (fair share $3,148.17, g_k=0.9529). You were slightly under the fair share — was that intentional (to be fair/modest) or accidental (ran out of time/resources)?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "You took $5,000 (fair ~$3,413). You’re above fair but not extremely. What guided that choice—risk, fairness balance, or reacting to earlier moves?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "It was a mix. I wanted to improve my payoff (strategic incentive) but not push so far that it looked blatantly greedy and provoked retaliation — so I picked a moderate overshoot of the fair estimate. I was also reacting to the earlier move: after taking a relatively modest $3,000 in the first round, I felt I could nudge my share up this time while still signalling I wasn’t trying to exploit you. In short: moderate risk-taking tempered by concern for fairness and reciprocity."
+    }
+  ]
+}

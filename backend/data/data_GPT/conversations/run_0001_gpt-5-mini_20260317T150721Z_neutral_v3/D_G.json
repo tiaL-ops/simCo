@@ -1,0 +1,90 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "D",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G — nice to meet you. How are you feeling about the game, and what brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Nice to meet you, G. I'm a bit nervous but determined — I came to win money to help my family and the people I care about."
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I hear you — I'm here to win for my people too. Who are you looking to help, and have you thought about a strategy?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "I'm trying to help my mom and younger siblings; plan is to build trust and alliances early, read people's moves carefully, cooperate when it benefits us, and be ready to act decisively at the end."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "I’m with you — same goal. Sounds like a solid plan; I’m open to an alliance and sharing info. Want to team up?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Yes—let’s team up. I’ll share info and coordinate moves; let’s stick together early and agree on a simple signal for trust. Sound good?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Sounds great — I’m in. Let’s coordinate and use two short taps on the table as our trust signal; I’ll share info and expect the same."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Two taps it is — I'll use it. I’ll share important info and watch your back; let’s stay flexible."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Thanks — I’ve got your back. I’ll use the two taps too; I’ll share info and adapt as needed."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Appreciate it — glad we're aligned. Let’s keep sharing intel, watch each other’s moves, and use the taps when needed."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Agreed — let’s trade observations, flag suspicious moves, use the two taps when needed, and I’ll warn you if anyone seems off. Good luck."
+    },
+    {
+      "turn": 12,
+      "from": "D",
+      "message": "Thanks — I’ve got your back too. I’ll stay vigilant; let me know if you spot anything suspicious. Good luck."
+    },
+    {
+      "turn": 13,
+      "from": "G",
+      "message": "Thanks — I’ll do the same. I’ll tap if I see anything off; appreciate you watching my back."
+    },
+    {
+      "turn": 14,
+      "from": "D",
+      "message": "Appreciate it — I’ll stay sharp and trust the taps; let’s keep watching each other and share anything suspicious."
+    },
+    {
+      "turn": 15,
+      "from": "G",
+      "message": "Right on — I’ve got you; two taps when needed, I’ll call out anything suspicious."
+    },
+    {
+      "turn": 16,
+      "from": "D",
+      "message": "Thanks — I appreciate it. Two taps if anything feels off; I’ll watch your back like you’ll watch mine. Good luck."
+    }
+  ],
+  "post_game": []
+}

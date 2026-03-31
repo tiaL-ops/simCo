@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "D",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F. First time doing something like this? I gotta say, I'm pretty nervous but also hoping this could be a real game-changer for me and my family right now."
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey F, nice to meet you. Yeah, first time for me too—honestly, I'm in a similar boat. Lost some money recently and really need a win here, so I get what you mean about it being a game-changer. What kind of situation are you dealing with, if you don't mind me asking?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "My parents are getting older and their medical bills keep piling up—I'm about $15,000 short right now. It's stressful, you know? Sorry to hear about your losses though. Seems like a lot of us here are in tough spots. What kind of money situation are you trying to get out of?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Yeah, that's rough—medical bills are no joke. I lost $20k in the stock market yesterday, pretty stupid move on my part honestly. So I'm desperate to make it back, especially since I've got people counting on me too. We're both in the same headspace then—we need this."
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Man, that's a tough break with the stock market—$20k is a lot to swallow. But hey, we're both here now and we've got a shot at this, right? I guess the question is how we play it smart when the time comes. You thinking you're gonna go all-in or play it more cautious?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Honestly, I haven't figured that out yet—depends on what the game actually is, right? But I'm leaning toward being smart about it rather than just throwing everything at it. What about you, you got a strategy in mind?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Yeah, I hear you—we don't even know the rules yet. I'm thinking the same way though, play it smart rather than reckless. I mean, we're desperate but that's exactly when people make dumb moves, right? I'd rather walk out with something solid than risk it all and end up with nothing."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Exactly—that's smart thinking. We're both desperate enough that we could easily panic and mess up, so let's just keep our heads clear when it matters. Maybe we can help each other stay rational when things get intense in there, yeah?"
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Yeah, I appreciate that—having someone to check in with who gets what's at stake could actually help. Let's make sure we don't let the pressure get to our heads when it counts."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Absolutely, man. I'm glad we talked—knowing there's someone in here who actually understands what we're going through makes this feel less lonely. Let's stick together on this and keep each other grounded. Good luck in there, F."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Thanks, man. Really means a lot. Same to you—let's both get through this and take care of the people counting on us. See you in there."
+    }
+  ],
+  "post_game": []
+}

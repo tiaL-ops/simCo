@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "D",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D – nice to meet you. I heard this game could be a great chance to win some cash, what about you?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey D, nice to meet you too—I'm F. Yeah, I'm super pumped about this game; I really want to win some money for my family. What about you, what's your take on it?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Oh, totally, F—I'm super determined to win and bring some cash home for my family and friends; it could make a big difference. What's got you so pumped about this game?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Oh, for sure, D—my family's been dealing with some tight finances lately, so this win could really turn things around for us; it's all about making life a bit easier, you know? What about you, any specific reasons driving you?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Oh, absolutely, F—I can relate; I've got some student loans hanging over me and want to help my parents with their retirement, so this win would ease a lot of stress for us too. What's one thing you'd do first if we pull this off?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Oh, man, that sounds rough—same here, if we win, I'd probably pay off some bills and treat my family to a nice dinner to celebrate; it's been a while since we've had that. What about you, D, what's your first big plan?"
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Oh, yeah, F, that sounds like a solid plan—nothing beats family time. For me, I'd start by paying off my student loans to breathe easier, then use the rest to help my parents with their retirement savings; it's something they've worked hard for. What's one thing your family has been looking forward to lately?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Oh, that's sweet, D—we've been hoping to plan a simple family trip to the beach, but with everything tight, it's been on hold; it would mean the world to us. What's something fun your family has been excited about lately?"
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Oh, that's awesome, F—a beach trip sounds like a dream for your family. For us, we've been excited about a simple family reunion picnic in the park; it's been ages since we all got together like that. What about you, do you have any favorite beach spots?"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Oh, yeah, D, I've always loved the beaches in California—places like Santa Monica are perfect for relaxing and building sandcastles with the family; it's been way too long since we've gone."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Oh, that sounds amazing, F—Santa Monica is definitely on my list too, it'd be perfect for some family relaxation. Good luck in the game, and I hope you make that trip happen soon!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hi D, I decided to take $10,000 because it matched my fair share and seemed like the right move. Glad the game wrapped up fairly for most; what was your take on it?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey F, I totally get why you went for the $10,000—it felt like the fair and balanced option to me too. I'm glad it all worked out fairly for everyone involved. Overall, it was a straightforward game, and I'm happy with my share as well."
+    }
+  ]
+}

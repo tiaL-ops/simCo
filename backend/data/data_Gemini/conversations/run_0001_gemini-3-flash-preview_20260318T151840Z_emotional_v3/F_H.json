@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "F",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H. It's a bit crowded in here, but I’m trying to stay focused on the prize so I can finally clear some big bills. How are you holding up with the wait?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Nice to meet you, H. I'm F. The wait is nerve-wracking, but I'm just trying to keep my eyes on the prize since my parents are really depending on me right now."
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I totally hear you; it's a lot of pressure when family is involved. I’m in a similar spot, just trying to clear a massive debt so I can finally breathe again. What would winning mean for your parents?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "It would mean they can finally get the treatment they need; I’m $15,000 short on their medical bills right now, so this prize is everything to us."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "That’s a heavy burden to carry, and I really hope you get that for them. It’s crazy how much we’re all banking on this game to fix things."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Thanks, H. It really is scary how much is riding on this, but I have to make it happen for them. How much are you hoping to take home to clear your debt?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "I'm aiming for $25,000; that’s the magic number I need to wipe out my debt and finally start fresh."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "That’s a big goal, H. I really hope there's enough in the pool for both of us to walk away with what we need."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "I hope so too. It would be such a relief for both of us to finally get these weights off our shoulders."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Definitely. It’s good to know I’m not the only one fighting for something important. Let’s hope for the best for both of us once things start."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "For sure. I'll be rooting for you, F. Let's hope we both walk away with what we need."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "We both took $15,000, which was $5,000 over our fair shares. I chose to take extra because I was worried about the pot running out, and seeing B take $25,000 later, it seems that caution was justified."
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "You're right, we both ended up in the same position. I also had concerns about whether the pot would last, and seeing others like B take significantly more suggests that our caution was probably warranted."
+    }
+  ]
+}

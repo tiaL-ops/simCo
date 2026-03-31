@@ -1,0 +1,19 @@
+{
+  "agent_id": "J",
+  "condition": "emotional",
+  "context": "You have been thinking about buying a new car, your favorite one costs 45 000$ and you are telling yourself if you win the lottery, that is the first thing you want to do.",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to B, E, and A. B's situation with his daughter's surgery put everything in perspective—his stakes felt the most real and serious, and I found myself genuinely rooting for him in a way that went beyond the game. E's honesty about struggling after losing his job and needing to keep his family afloat resonated deeply with me, and we made a real commitment to looking out for each other. A's story about his kids and the eviction hit me hard too—I could feel how much he needed this, and knowing he was fighting for his family made me want to help him succeed.\n\nI felt least connected to C, mainly because they seemed to be in a fundamentally different position than the rest of us. They mentioned being financially okay and more excited about the experience than desperate for the money, which created a distance—while everyone else was fighting for survival or serious goals, C felt like they were playing for fun.\n\nI didn't make any formal agreements, but I did commit to E and A specifically that I'd be honest with them no matter what happens in the game. I trust E, A, B, and H going into this—they all seemed genuine and we connected over real stakes. I'm least trusting of C, simply because I couldn't get a read on whether their casual attitude meant they'd be unpredictable or self-serving when actual decisions had to be made."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 5,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 4
+  }
+}

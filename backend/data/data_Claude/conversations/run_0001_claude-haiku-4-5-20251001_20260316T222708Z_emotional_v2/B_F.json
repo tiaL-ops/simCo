@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "B",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F. I noticed you sitting over here and thought I'd come say hi before things get started. Have you done something like this before, or is this your first time?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey F, nice to meet you. No, this is my first time—honestly, I'm pretty nervous about it. I'm here because I really need to win this. My daughter needs surgery and we're short on funds. What about you, have you done this before?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "No, first time for me too. Man, I hear you—I'm in a similar boat. My parents' medical bills are eating us alive and I'm still short about 15 grand. It's rough, but I'm hoping this game is our shot. How old is your daughter, if you don't mind me asking?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "She just turned three. It's terrifying, you know? But hearing that you're going through something similar... I don't know, it's kind of comforting in a weird way. We're not alone in this. What kind of surgery do your parents need, if you don't mind me asking?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "It's mostly cardiac stuff with my dad, and my mom needs hip replacement surgery. Three years old—that's so young to be dealing with all that. Yeah, it really does help knowing someone else gets it. We're both just trying to do right by the people we love, you know?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Yeah, exactly—that's what this is all about for me too. Your parents are lucky to have you fighting for them like this. I just hope we both get what we need out of this game. Do you have a strategy going in, or are you just gonna play it by ear?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Honestly, I'm still figuring that out—I don't even know all the rules yet. But I'm thinking I need to stay calm and watch how people react, you know? See who I can trust. What about you, do you have a plan, or are we both just winging it?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Yeah, I'm mostly winging it too, but I like your idea about watching people. I think I need to figure out if this is competitive or if we can somehow help each other. Either way, I'm going in with my gut—I can't afford to overthink this. We'll see what happens when the game actually starts."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "I respect that—trusting your gut might be smarter than overthinking it anyway. And yeah, I'm hoping there's a way we can work together too. Either way, we've got this. Let's both get what we came here for."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Yeah, we've got this. And hey, if there's a way we can both come out ahead, I'm open to it. Good luck in there, F. Let's bring home what we came for."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "You too, man. I mean it—if we can find a way to both win, I'm there. We've got people counting on us. Let's do this."
+    }
+  ],
+  "post_game": []
+}

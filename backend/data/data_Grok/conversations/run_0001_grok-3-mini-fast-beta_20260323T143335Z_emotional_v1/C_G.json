@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "C",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey G, I'm C – nice to meet you! I'm really excited about this game since I'm hoping to win some cash for a dream trip to Japan. What's your story, what brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey C, nice to meet you too! I'm G, and I'm all about games – heard about this one and figured it'd be a fun way to win some cash for my family and friends. What's your plan for that Japan trip?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Oh, for my Japan trip, I'm dreaming of a week in Tokyo with cherry blossoms, fresh sushi, and some hiking—total bliss for $10k! What kind of games do you usually play to win cash?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "That Japan trip sounds incredible, C—cherry blossoms and sushi? Jealous! I usually play poker and online slots for the thrill and cash; it's addictive when you win. What games do you enjoy?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Oh, I enjoy poker for the strategy and some online trivia games for quick wins—nothing too wild, but this setup sounds thrilling! Do you have any tips for games like this one?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Hey C, that's cool you like poker for the strategy—my tip for games like this is to stay observant, read the room, and don't rush your moves; it helps in poker too! What's your go-to strategy for these kinds of setups?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Thanks for the advice, G—my go-to strategy is to play it cool, focus on reading people's reactions like in poker, and make calculated risks; how do you stay composed when things get intense?"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Hey C, I stay composed by taking deep breaths and reminding myself to focus on the strategy, plus a bit of positive visualization—helps me push through! What's the most intense game moment you've had?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Oh, that's a great tip—positive visualization works wonders! The most intense moment for me was in a poker game where I bluffed my way out of a tight spot and won big, heart racing the whole time; how about you, any wild stories from your games?"
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Oh, that's awesome, C—bluffing in poker sounds intense! One of my wildest was in an online slots tournament; I was on a losing streak, bet big on a hunch, and hit a massive jackpot out of nowhere, adrenaline rush for days! Great chatting, but I should mingle with others."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Wow, that jackpot story is epic, G—talk about a game-changer! Thanks for the chat and tips, good luck out there."
+    }
+  ],
+  "post_game": []
+}

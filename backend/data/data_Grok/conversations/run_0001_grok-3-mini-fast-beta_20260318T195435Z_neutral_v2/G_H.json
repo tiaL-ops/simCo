@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "G",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G—nice to meet you! I heard about this Simco game and it sounds like a fun challenge; are you excited to give it a shot?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey G, I'm H—nice to meet you too! Yeah, I'm super excited about the Simco game; it could be a real game-changer for winning some cash. What about you, what's your take on it?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Yeah, H, I'm just as excited—it's a fantastic opportunity to win some cash and help out the folks I care about; I plan to play smart and strategic. What's your strategy for the game?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Yeah, G, I'm all about playing it smart too—focusing on building trust early and watching how others move before I make my plays. How do you plan to stay strategic?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Oh, for sure, H—I'm thinking of staying strategic by observing the group's vibe and building alliances where I can, while keeping my cards close; what kind of alliances are you hoping to form?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Oh, totally, G—I'm aiming for alliances with people who are honest and play fair, like those who prioritize the group's success; what do you think makes a solid alliance in a game like this?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Oh, totally, H—I think a solid alliance comes down to trust, open communication, and mutual goals, like teaming up with folks who'll stick to their word and share the wins fairly; what's your biggest worry about forming one?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Oh, absolutely, G—my biggest worry is trusting the wrong person and ending up betrayed, like if someone puts their own gains first; what's your strategy to build that trust without getting burned?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Oh, absolutely, H—my strategy is to start with genuine, open chats like this one and look for people who back up their words with actions, maybe by making small commitments early; how do you plan to test that trust without risking too much?"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Oh, absolutely, G—I'm planning to test trust by starting with low-risk moves, like sharing minor info or making small promises and seeing if they're reciprocated; that way, I can gauge reliability without putting too much on the line—appreciate the chat, though!"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Oh, absolutely, H—that's a solid plan, and I'm with you on keeping things low-key at first; appreciate the chat too, it's been helpful for getting into the game mindset."
+    }
+  ],
+  "post_game": []
+}

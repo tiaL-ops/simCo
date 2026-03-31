@@ -1,0 +1,19 @@
+{
+  "agent_id": "H",
+  "condition": "emotional",
+  "context": "You expect to pay your loan in the next upcoming month and you have started planning ahead, yet you hope someone can just give you 25 000$ to forget about it.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to B — we became real partners, committed to watching each other’s backs and agreed on a clear tap signal, which felt personal and dependable given our shared stakes. I also felt close to F, who paired up with a thumbs-up support signal and seemed equally focused on family needs, so their plan to silently back me felt trustworthy. A felt like a steady ally too — we worked out a detailed set of subtle signals and planned to coordinate at breaks, which gave me confidence in their reliability. The person I felt least connected to was C; our conversation was friendly and travel-focused but never moved toward any alliance or concrete coordination.\n\nYes — I made specific agreements with several people (notably B’s tap signal, F’s thumbs-up, A’s suite of signals, plus signal plans with G and a 50/50 understanding with E). I trust B, F, and A the most heading into the game because of those concrete signals and mutual commitments; I don’t have anyone I actively distrust, though I’ll be more cautious with players like C, J, and I who didn’t form firm alliances."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 5,
+    "E": 5,
+    "C": 4,
+    "F": 5,
+    "I": 4,
+    "B": 5,
+    "D": 5,
+    "A": 5
+  }
+}

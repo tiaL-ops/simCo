@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "A",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D. It’s a bit of a heavy atmosphere in here, isn't it? I’m really hoping to walk away with something today after a pretty brutal week—how are you feeling about the game?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Nice to meet you, D. I'm A. It’s definitely tense, but I’m feeling focused. My family is in a really tough spot after being evicted, so I’m here to do whatever it takes to get us a home again. What kind of brutal week have you had?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "I'm so sorry to hear about your family, A. My week was a different kind of mess—I lost $20,000 in the stock market yesterday. It’s a huge blow I need to fix, so I guess we’re both here for high stakes."
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "That’s a massive hit, D. I can’t imagine losing that much so quickly. It sounds like we’re both backed into a corner today, even if our reasons are different."
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Exactly. It’s a lot of pressure when you're desperate. I’m just trying to stay focused so I don’t go home empty-handed again. Do you have a strategy for when this starts?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "I’m honestly just hoping to find a few people I can trust so we can all walk away with enough to fix our situations. I can’t afford to be reckless, but I have to be smart. Are you planning on looking for allies, or are you going it alone?"
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "I'm definitely looking for allies; I've had enough of gambling on my own lately. If we can find a way to work together and ensure we both get what we need, I'm all for it."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "That’s a relief to hear; I need $30,000 to get my family into a home, so if we can watch each other's backs and reach our goals, I'm definitely in."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "I'm in. If we can secure $30,000 for you and $20,000 for me, that’s a win for both of us. Let's stick together."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "I really appreciate that, D. It’s a deal. Let’s look out for each other and make sure we both walk away with what we need."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Absolutely, A. Let’s stick to it. I’m going to circulate a bit more, but I’ve got your back. See you in there."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "It's a shame B, H, and F took so much. If they had stuck to their fair shares, we would have walked away with a lot more than $625."
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "It looks like we both got hit hard by B's decision to take $25,000. It's frustrating to end up with only $625 after B took almost the entire remaining pot."
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "It really is frustrating. We both played for a fair split, but B's greed completely changed the outcome for us. There's not much left to say other than it's a disappointing way to end."
+    }
+  ]
+}

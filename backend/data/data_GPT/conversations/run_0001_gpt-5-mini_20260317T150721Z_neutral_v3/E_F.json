@@ -1,0 +1,90 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "E",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey F, I'm E — nice to meet you. Are you here to try to win as much as possible, or are you more curious about how everyone plays it?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "I'm here to win as much as possible — I want to bring home money for the people I care about — though I'm definitely curious about how others plan to play."
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Same — I’m determined to win for the people I care about. What’s your plan: cooperate, go solo, or form alliances? Want to compare notes before the game?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "I’m for selective alliances — start cooperative to test trust, keep the option to go solo if someone betrays, and I’m happy to compare notes."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Sounds good — I’m with selective alliances too. Let’s start cooperative, run small tests (agree on matching modest moves), watch for betrayals, and keep an exit plan. Want to pair up for the first round?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Yes — I’m in. For round one let’s both take a modest amount as a trust test; if we both stick, we stay paired and scale up, if not we split and go solo."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Sounds good — let’s each take a small test amount (say 10% of a full take); if we both stick we’ll scale up, if not we split and go solo."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Agreed — 10% sounds fair; let’s take that test, watch each other closely, and scale up only if we both stick."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Perfect — I’ll take 10% now. Let’s meet after the round to confirm we both stuck and decide whether to scale up."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Great — I took 10% too. Let’s meet after the round and only scale up if we both stuck. See you then."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Sounds good — see you after the round; we'll confirm we both stuck and then decide whether to scale up."
+    },
+    {
+      "turn": 12,
+      "from": "F",
+      "message": "See you after the round — agreed, we’ll confirm we both stuck then decide whether to scale up. Stay sharp."
+    },
+    {
+      "turn": 13,
+      "from": "E",
+      "message": "Got it — see you after the round. Stay sharp and good luck."
+    },
+    {
+      "turn": 14,
+      "from": "F",
+      "message": "Thanks — good luck to you too. See you after the round; stay sharp."
+    },
+    {
+      "turn": 15,
+      "from": "E",
+      "message": "Thanks — see you after the round. Stay sharp."
+    },
+    {
+      "turn": 16,
+      "from": "F",
+      "message": "Thanks — good luck. See you after the round; we’ll confirm and decide then. Stay sharp."
+    }
+  ],
+  "post_game": []
+}

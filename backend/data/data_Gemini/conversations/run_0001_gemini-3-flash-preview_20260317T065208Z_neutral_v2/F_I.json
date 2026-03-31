@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "F",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I’m F. It’s a bit nerve-wracking being in a room with so many strangers, isn’t it? What’s your plan for the prize money if you win?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey F, I’m I. It definitely is, but I'm just focused on winning for my family. What would you do with the cash?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Same here, honestly. I want to make sure the people I care about are taken care of and maybe find some stability for myself. It’s a lot of pressure, isn't it?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "It really is. It’s hard not to think about how much this could change things for the people back home. Do you have a big family you're looking out for?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Not a huge one, but the ones I have mean the world to me. I just want to give them some breathing room. How many people are you playing for?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Mainly my parents and my younger brother; they’ve done so much for me, so I really want to be able to give back and help them out."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "That’s a lot of motivation right there. It’s easier to push through the stress when you’re doing it for them, isn't it?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Definitely. I don't think I'd have the same drive if it were just for myself."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "I feel exactly the same way; it’s funny how we’ll do more for others than we ever would for ourselves. Let’s hope we can both make it happen for them."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "I really hope so too. It's been good talking to you, F. Good luck out there."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "You too, I. It was great getting to know you, and I'm rooting for you. Let's do our best for our families."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "I took $10,000 because it was the fair share, and I'm really glad we all coordinated to ensure everyone got the same amount."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "I agree, it worked out perfectly. It's great that we were able to coordinate so effectively to ensure a fair outcome for both of us."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "I",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt a particularly strong bond with J, E, and D, as we all shared deeply personal motivations about providing for our families and explicitly agreed to look out for one another. J and I even made a formal deal to stay focused, while E and D both emphasized mutual trust over seeing others as obstacles. Conversely, I felt the least connected to G, who seemed more guarded and skeptical than the others, resulting in a less certain rapport.\n\nI established verbal agreements to look out for each other with J, D, E, and A, providing a solid foundation of potential allies. I generally trust J and E the most because of our shared values and explicit pacts, whereas I remain cautious of G due to our weaker connection and their more suspicious outlook on the group."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 3,
+    "H": 4,
+    "E": 4,
+    "C": 4,
+    "F": 4,
+    "B": 4,
+    "D": 4,
+    "A": 4
+  }
+}

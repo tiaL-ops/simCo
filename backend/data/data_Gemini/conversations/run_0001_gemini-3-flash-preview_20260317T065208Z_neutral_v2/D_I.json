@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "D",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hey there, I'm I. It's a bit nerve-wracking waiting for things to start, isn't it? What's your name, and have you thought about what you'd do if you won?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Nice to meet you, I. I'm D. It really is, the suspense is killing me! If I win, I'm looking to help out my family and friends—they’re the reason I’m here. What would you do with the cash?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "Honestly, the exact same thing. I’ve got people back home I really want to look after, so winning would change everything for us. It’s good to meet someone with similar goals."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Definitely. It makes the stakes feel a lot more real when it's for the people you love. Do you have a strategy yet, or are you just going to wing it?"
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "I’m still feeling it out, honestly—I think observation is my best bet for now. How about you, do you have a plan in mind?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Same here, I'm just trying to keep an open mind and see who seems trustworthy before making any big moves."
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "That makes sense. It’s hard to know who to trust in a setup like this, but I’m glad we’ve had a chance to talk—it helps to find some common ground early on."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "I feel the same way. It’s definitely a relief to find a friendly face before things get intense."
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Absolutely. Let's try to look out for each other once things kick off—it’d be good to have someone I can count on."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "I'm with you on that. Let's stick together and see how this plays out. Good luck to both of us!"
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "Definitely, glad we're on the same page. Let's do our best for our families. See you in the game!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "I'm glad we all took our fair share of $10,000. It's great that everyone walked away with the same amount!"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "I agree, it’s great that we were able to reach a fair outcome where we both walked away with the same amount."
+    }
+  ]
+}

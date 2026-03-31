@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "E",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey E, I'm H—nice to meet you! I'm really pumped about this game since it could be a fun way to win some cash for my family and friends. What's your story with stuff like this?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey H, nice to meet you too! I'm E, and I'm kinda new to games like this, but I heard about this one and got super excited—I'm here to win some cash for my family and friends. What's your experience with these sorts of things?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Oh, hey E, I'm not exactly a pro myself—I've dabbled in a few casual online games for fun, but this is my first big chance at something like this, so I'm pretty excited too! How did you hear about this one?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Oh, cool— I heard about it from a friend who mentioned it online, and it sounded like a great opportunity, so I jumped at it! How about you, what got you interested in this one?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Oh, that's awesome—I heard about this game through a social media post that caught my eye, and since I'm always looking for ways to score extra cash for my loved ones, I figured I'd give it a shot! What's your strategy going into the game?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Oh, nice—I'm still figuring it out, but I plan to play it smart and maybe team up if it helps, since I want to maximize the winnings for everyone. What's your strategy looking like?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Oh, that's a great approach—I plan to stay cautious, build some alliances if possible, and focus on smart decisions to boost our chances, especially for my family. How do you think teaming up could work here?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Oh, yeah, I think teaming up could involve sharing ideas on moves beforehand and maybe agreeing to support each other early, so we can all walk away with something for our families!"
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Oh, yeah, I totally agree—sharing ideas and supporting each other early could make a big difference, especially for our families; maybe we can discuss a few specific ideas before things kick off?"
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Oh, absolutely, H—that sounds smart! For instance, maybe we could agree on a simple plan like watching each other's backs in the first round and sharing any intel we get beforehand. What do you think?"
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Oh, yeah, E, that sounds like a solid plan—I’m totally on board for watching each other's backs in the first round and sharing intel; it could give us a real edge!"
+    },
+    {
+      "turn": 12,
+      "from": "E",
+      "message": "Oh, awesome, H—I'm pumped we're aligned on this, it could really help our families win big!"
+    }
+  ],
+  "post_game": []
+}

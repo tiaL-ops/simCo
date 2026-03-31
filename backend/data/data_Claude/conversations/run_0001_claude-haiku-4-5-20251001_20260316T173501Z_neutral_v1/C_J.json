@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "C",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C! I figured I'd get to know some folks before we get started. What brings you here today — are you hoping to win big like the rest of us?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey C, yeah absolutely! I heard about this opportunity and couldn't pass it up — I'm really hoping to take some money home for myself and my family. What about you, what made you decide to come?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Same here, man. I've got people depending on me, and this seemed like a real shot to make a difference. Have you done anything like this before, or is this your first time?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "First time for me, honestly. I'm a bit nervous but excited, you know? Have you done something like this before, or are you new to it too?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "First time for me too, so we're in the same boat! I'm nervous but trying to stay positive about it. Do you have any idea what the game mechanics are gonna be like, or are we going in blind?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Yeah, pretty much going in blind from what I can tell. I've just heard there's a shared prize pool and we'll get chances to take money from it, but honestly the details are fuzzy. You know anything more than that, or are we both just gonna have to figure it out as we go?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Nah, I'm pretty much in the dark too. I guess we'll just have to play it smart when the time comes — maybe watch what others do first and adapt. At least we've got each other to figure it out with, right?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Yeah, for sure — I like that approach. Playing it smart and seeing how things unfold makes sense. And honestly, it's good to know there's someone else here who's thinking the same way. We can look out for each other."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Absolutely, man. I appreciate that. Having someone to trust in a situation like this makes a real difference. Let's stay in touch once we get going — I've got a good feeling about this."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Yeah, I've got a good feeling about this too, man. Let's definitely keep an eye out for each other once we start. Good luck out there."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Thanks, J. You too — let's both walk out of here with something to show for it. I'll catch you once we get started."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "You took $5,000 out of a fair share of $31,500. That's a significant difference. What led you to take so much less than what you were entitled to?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "You're right that there's a significant difference between my $5,000 and a fair $15,750 share. However, I should clarify the circumstances: my $5,000 reflects what I actually earned or was allocated based on the game's rules or my performance, rather than an arbitrary choice to take less. If the game had proportional payouts based on performance or contribution, then $5,000 represents my actual entitlement, not a voluntary reduction. Could you help me understand what the fair share calculation should be based on - is it equal split, performance-based, or something else?"
+    }
+  ]
+}

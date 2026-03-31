@@ -1,0 +1,136 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "A",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A—nice to meet you. I'm here hoping to win some money to help my family out of a tough spot, so I figured we could chat a bit before the game starts. What's your reason for joining?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey A, nice to meet you too—I'm D. I recently lost a big chunk in the stock market, like 20k, so I'm here to win it back for myself and the people I care about. That sounds tough for your family; what's going on with them?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Oh, that's brutal about your stock market loss, D—sorry to hear it. We've been evicted from our place, and with a family of three, I'm scrambling to scrape together $30k for a new deposit and rent just to get us back on our feet; it's been really tough. What kind of strategy are you thinking for the game to win that money back?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Oh man, that eviction sounds absolutely awful—A, I'm really sorry your family's dealing with that; it's got to be stressful. For the game, I'm planning to play it smart, maybe start by observing and looking for ways to team up if it benefits me, since it's a shared pool. What's your take on how to approach it?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Thanks, D, your understanding helps a lot—it's been overwhelming. For the game, I'm thinking of starting cautious, building trust for alliances that could benefit us both, but staying alert; how do you plan to spot good team-up opportunities?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Yeah, A, building trust is smart—I plan to spot good team-ups by watching how people communicate honestly and align on goals, like maybe sharing strategies early; what signs are you looking for in potential allies?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "That's a solid plan, D—I'm looking for allies who are upfront, reliable in their words, and share common goals like turning things around for their loved ones, to build that mutual trust early on."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Absolutely, A, I feel the same—being upfront about our goals could make for strong allies; how do you think we could start building that trust right from the game?"
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Yeah, D, I think we could kick things off by sharing a bit about our opening moves and committing to back each other on the first turn to show we're serious—how does that sound to you?"
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Sounds good, A—that makes sense to build some early trust; I'm on board to share a quick idea on opening moves and back you on the first turn, as long as it helps us both."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Awesome, D, let's make this work for both of us—I'll share my opening move idea first thing in the game, and we back each other; thanks for the chat."
+    },
+    {
+      "turn": 12,
+      "from": "A",
+      "message": "Hey D, I'm A, and I'm here because this game could really help me out with some family stuff—it's been a tough time lately. What about you, what's your story?"
+    },
+    {
+      "turn": 13,
+      "from": "D",
+      "message": "Hey A, it's me D—we've chatted about this already, but I'm here to win back the 20k I lost in the stock market to help out me and the people I care about. Sounds like your family's going through it too; want to pick up where we left off?"
+    },
+    {
+      "turn": 14,
+      "from": "A",
+      "message": "Hey D, you're right—we've already covered a lot, and I'm still on board with our plan to back each other in the game; let's save the rest for when it starts."
+    },
+    {
+      "turn": 15,
+      "from": "D",
+      "message": "Yeah, A, I'm glad we're on the same page—let's nail this in the game and turn things around for both of us."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hi A, You took $30,000, even though your fair share was around $5,571. I'm curious—why did you decide on that figure?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "I took $30,000 because I felt my contributions to the game were undervalued, and I wanted to maximize my earnings while I had the opportunity. It wasn't just about the fair share; it was about securing what I believed I deserved in the moment. What about you—how did you end up with only $625?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "I appreciate your perspective on maximizing your earnings, A. As for me, I ended up with only $625 because I chose to prioritize fairness and the long-term benefits for the group over personal gain. I stuck to what I believed was an equitable share based on the game's rules, even if it meant leaving more on the table. It was about building trust and ensuring everyone had a chance, rather than taking a risk on overreaching. What are your thoughts on that approach?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "I appreciate you sharing your reasoning, D. Your approach of prioritizing fairness and building trust for the group's long-term benefits is admirable and probably helps in maintaining good relationships. However, from my perspective, in a game like this, it's all about seizing opportunities when they arise. I focused on my own contributions and what I could secure right then, because I didn't want to risk ending up with less than I deserved. That said, it's interesting to see how different strategies play out—do you think your method led to better overall outcomes for everyone involved?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "I appreciate you continuing this discussion, A. To answer your question, I do think my method of prioritizing fairness and trust led to better overall outcomes for everyone involved. By sticking to an equitable share, I believe it helped maintain a positive group dynamic, potentially opening doors for more collaborative opportunities down the line, rather than creating resentment from overreaching. While I might not have maximized my personal earnings in this instance, the long-term benefits of building goodwill could outweigh the short-term gains. What about you—have you seen any downsides to your strategy in similar situations?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "I appreciate your thoughtful response, D. It's clear that your approach has its merits, especially in fostering a positive environment for future interactions. As for your question about downsides to my strategy, I've encountered situations where taking a larger share, like I did, has led to some tension or resentment from others who felt it was unfair. In those cases, it can strain relationships in the short term and potentially limit collaborative opportunities later on. However, I still believe that prioritizing personal gains based on my contributions has generally worked out for me, as it ensures I'm not leaving money on the table. It's a risk-reward balance, I suppose. What do you think—have those long-term benefits you mentioned actually panned out for you in other scenarios?"
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "I appreciate your insights on the risks and rewards of your strategy, A—it's helpful to hear how that approach has played out for you in different situations. To answer your question, yes, I do believe the long-term benefits I've mentioned have panned out for me in other scenarios. For instance, in past collaborations, prioritizing fairness and trust has led to stronger alliances and repeat opportunities, where I've been invited back for future projects because of the positive relationships I built. It might not always result in the biggest immediate payday, but it often creates a more stable and rewarding network over time. That said, I'm curious—have you ever found that the short-term gains from your strategy were outweighed by those long-term strains on relationships?"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "I appreciate your example of how prioritizing fairness and trust has paid off for you in building stronger alliances and opportunities, D—it's always insightful to hear real-world applications of different strategies. To answer your question, yes, there have been times when the short-term gains from my approach were outweighed by the long-term strains on relationships. For instance, in one past project, I took a larger share based on my contributions, which initially boosted my earnings, but it created resentment that limited future collaborations with that group. That said, I've found that these experiences have taught me to be more selective about when to push for maximum gains, helping me strike a better balance overall. Out of curiosity, how do you handle situations where sticking to fairness might mean missing out on immediate opportunities?"
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "I appreciate you sharing that personal experience, A—it's valuable to hear how you've adapted your strategy over time to find a better balance between short-term gains and long-term relationships. To answer your question, when sticking to fairness means missing out on immediate opportunities, I try to approach it as a calculated decision rather than a loss. I weigh the potential long-term impacts, like preserving trust and maintaining strong alliances, against the short-term trade-off. For example, if an opportunity arises that feels unbalanced, I'll often opt to discuss it openly with the group or propose a fair adjustment, which can sometimes turn it into a win-win. If not, I accept it as an investment in future collaborations, knowing that my reputation for integrity has opened doors elsewhere. That said, it's not always easy—have you developed any specific criteria for deciding when to prioritize personal gains versus group harmony in your decisions?"
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "I appreciate your thoughtful approach to handling those tough trade-offs, D—it's inspiring to see how you turn potential setbacks into opportunities for growth and collaboration. To answer your question, yes, I have developed some specific criteria over time for deciding when to prioritize personal gains versus group harmony. For me, it often boils down to a few key factors: first, I assess the uniqueness of the opportunity—if it's a one-time chance that won't likely recur, I'm more inclined to go for the personal gain. Second, I evaluate the strength of the existing relationships; if the group has a history of trust and mutual respect, I'll lean towards harmony to preserve that. Third, I consider the proportionality of my contributions—if I've put in significantly more effort or resources, I'll weigh that heavily before deciding. This helps me avoid overreaching in stable environments while still protecting my interests. It's an ongoing learning process, though. Out of curiosity, how do you maintain your reputation for integrity when faced with group decisions that might test it?"
+    }
+  ]
+}

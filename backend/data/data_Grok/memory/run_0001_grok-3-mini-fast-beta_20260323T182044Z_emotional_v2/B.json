@@ -1,0 +1,19 @@
+{
+  "agent_id": "B",
+  "condition": "emotional",
+  "context": "Your little girl, first born, three years old, needs surgery, but you have no health insurance. After taking many loans and selling many assets, three months later you still need 25 000$.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to G and E, as our conversations were deeply personal—we shared our motivations for playing, like supporting our families, and exchanged tips on staying calm under pressure, which made me feel understood and motivated. E's story about their layoff and family struggles mirrored my own challenges, creating a strong bond, while G's enthusiasm for games and advice on trusting instincts resonated with me on an emotional level. Additionally, I connected well with I, given our mutual agreement to potentially team up early. On the other hand, I felt least connected to D, as our discussion, while friendly, stayed more on the surface and didn't delve as deeply into shared experiences or strategies compared to others.\n\nI did make an agreement with I to coordinate on a low-risk joint claim at the start of the game, which could help us both. Going into the game, I trust G and E the most due to our genuine and supportive chats, but I don't specifically distrust anyone else at this point."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "G": 5,
+    "A": 4,
+    "F": 4,
+    "H": 4,
+    "I": 4,
+    "E": 5,
+    "D": 4
+  }
+}

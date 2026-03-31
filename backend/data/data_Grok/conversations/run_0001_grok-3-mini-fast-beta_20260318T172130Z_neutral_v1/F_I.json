@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "F",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey I, I'm F—excited to be here for this Simco game since I've heard it's a great chance to win some cash. What's your take on it so far?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey F, nice to meet you—I'm I, and yeah, I'm super pumped about this Simco game too; it's a real shot at winning some cash for my folks. What's got you most excited about it?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Hey I, that's awesome you're doing it for your folks—I'm most excited about finally bringing home some cash to help out my family and friends; it could really make a difference for us. What's your strategy for the game?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Hey F, that's great you're aiming to help your family—I'm planning to play it smart, maybe build some alliances early on. What's your strategy looking like?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Hey I, that's a solid plan—I'm thinking of building alliances like you and staying cautious with my moves to avoid early risks; how do you think alliances will play out in the game?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Hey F, I think alliances could be game-changers if we stick together, but they'll probably get tested with temptations to go solo—maybe we team up early; what do you see as the biggest challenge in keeping one?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Hey I, yeah, I think the biggest challenge in keeping an alliance is when personal temptations or big rewards make people second-guess, but I'm down to team up early and see if we can build that trust—what's your take on starting one?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Hey F, I totally agree that temptations can mess things up, but I'm all for starting an alliance with you right away—it could give us a real advantage; how do you think we should kick it off without drawing too much attention?"
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Hey I, totally—let's keep it casual, like just hanging out and dropping hints in our chats without making it obvious; maybe start by sharing quick thoughts on the other players?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Hey F, yeah, let's play it cool—for instance, I've noticed G seems pretty friendly and chatty, might make a good potential ally, but could flip if things get tense; what are your quick takes on anyone else?"
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Hey I, totally agree on G—seems solid but yeah, that flip potential is a worry; I've noticed J is super quiet, like they're playing it close to the vest, and H comes across as pretty straightforward and trustworthy; excited to see how our alliance shakes out."
+    }
+  ],
+  "post_game": []
+}

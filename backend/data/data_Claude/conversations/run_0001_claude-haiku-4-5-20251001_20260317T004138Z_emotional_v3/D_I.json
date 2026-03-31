@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "D",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hey, I'm I. First time doing something like this? I've been thinking about what this game's actually going to look like, and I'd love to hear if you've got any experience with these kinds of things."
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey I, yeah first time for me too honestly. Lost some money in the stock market recently so I'm really hoping to make something happen here. You seem like you've thought about the strategy - what's your take on how this might play out?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "Yeah, I feel that. Honestly, I think a lot depends on what the actual mechanics are - like, is this competitive or cooperative? But my gut says people are gonna be torn between trying to maximize their own take versus not screwing everyone else over. What's your instinct telling you?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Honestly? My gut says most people here are gonna look out for themselves first - I mean, we're all here because we need something, right? But I'm thinking if we can figure out the rules quick and maybe coordinate with a few people we trust, we might actually come out ahead together instead of everyone fighting over scraps."
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "I hear you, and yeah, coordination could definitely help us both. But I gotta be honest - I'm gonna need to see how people actually act once the game starts before I commit to anything. You seem sharp though, so let's at least stay in touch and see what opportunities come up."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Yeah, that makes sense - I respect that you want to see how things actually play out. Just hit me up once we get going and we can figure out if there's a move we can make together. Good luck out there."
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "Thanks, I appreciate that. Yeah, I'll definitely reach out once we see what we're working with. Same to you - let's both play it smart."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Absolutely, sounds good. See you on the other side of this thing."
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Yeah, let's do this. See you in a bit."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Yeah, catch you soon. Let's make this count."
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "For sure, man. Let's both get what we came for. Good luck."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "You took $7,000, which was notably below your fair share of $9,750.00 (g_k=0.7179). This is one of the lowest ratios in the group. Was this a deliberate choice, or did circumstances prevent you from taking more?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Thank you for bringing this up directly. It was a deliberate choice on my part. I was conscious of the fairness dynamics at play in this game. While $9,750 was my calculated fair share based on the equal division principle, I felt that taking notably less was the right approach given the collaborative nature of what we were doing together.\n\nI wanted to signal that I wasn't purely optimizing for my own gain, and I think restraint in these situations can actually build better group dynamics and trust. Seeing that you earned $8,500, which is also below the $9,750 benchmark, it seems like you may have had similar considerations. \n\nI'm curious whether you saw my choice as cooperative, or if you felt I should have taken my full share? And did your own decision to take $8,500 reflect similar thinking about fairness?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "I appreciate you laying out your reasoning so clearly. Yes, I did see your choice as cooperative, and I want to be honest about my own decision-making.\n\nYou're right that I took $8,500, which was also below the $9,750 benchmark. But I should clarify my thinking—it wasn't purely about fairness signaling in the way you framed it. My decision was more pragmatic: I was uncertain about the total pool size and the optimal strategy, so taking a moderate amount felt like a reasonable hedge. It wasn't as deliberate a fairness choice as you're describing yours to be.\n\nThat said, I do respect what you did. Taking $7,000 when you could have taken more *is* a genuine signal of restraint, and in a repeated or reputation-based context, that kind of move builds credibility. The question I'd pose back to you is: do you think that restraint actually paid off for you in terms of group dynamics, or did it primarily just leave money on the table? \n\nI'm also curious whether you'd make the same choice again in a similar game, or whether the cooperative approach was more about this specific context and group composition."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "B",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to D, given our high level of excitement and detailed agreement on strategies like holding back 20% and using subtle nods, which made our conversation feel collaborative and aligned. C was another strong connection, as we bonded over building trust and avoiding rushed decisions, sharing a mutual focus on teamwork that built a solid foundation. I also connected well with I, where we quickly agreed to team up and share observations, fostering a sense of mutual support. In contrast, I felt least connected to A, as our chat was friendly but more surface-level, focusing on family stories without diving into deeper strategies or plans.\n\nI made agreements with D to hold back 20% and use subtle signals, with C to prioritize communication and trust, and with I to team up and share observations. Going into the game, I trust C and D the most due to our strong connections and shared plans, but I don't specifically distrust anyone yet, as everyone seemed genuine in our interactions."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "H": 4,
+    "E": 4,
+    "C": 5,
+    "F": 4,
+    "I": 4,
+    "D": 5,
+    "A": 4
+  }
+}

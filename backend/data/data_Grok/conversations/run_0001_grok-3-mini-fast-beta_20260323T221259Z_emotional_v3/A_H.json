@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "A",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H—nice to meet you! I heard about this Simco game and it sounds like a fun way to shake things up, especially since I'm hoping to win some cash to help with a few personal things. What's your take on all this?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey H, nice to meet you too—I'm A, and yeah, this Simco game seems like a real opportunity to win some cash and turn things around for me. What's the personal stuff you're hoping to cover with your winnings?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Oh, it's mostly just some loans I've been stressing over—I'd love to pay them off and have a bit left to help out my family. What kind of turnaround are you hoping for with your winnings?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Oh, totally get that—loans can be a nightmare; hope you knock 'em out soon. For me, I'm dealing with getting evicted recently, so I need the winnings to cover a big deposit on a new place and support my family of three. What kind of loans are you juggling?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Oh, it's mainly a personal loan I took out for some medical bills and everyday expenses—nothing too exciting. That eviction sounds really rough; how are you and your family managing in the meantime?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Yeah, it's been tough— we're crashing with friends for now and scraping by day-to-day, but this game feels like our lifeline; how've you been handling the stress of those loans?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Oh man, that's got to be exhausting—I'm sorry you're going through that. For me, I've been trying to stay on top of it by budgeting super tight and working some overtime, but honestly, this game is giving me a much-needed boost of hope; what's helping you guys get through the tough days?"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Yeah, it's been really tough, but what keeps us going is leaning on our friends for a place to stay and trying to stay hopeful that this game will change everything—how do you keep your spirits up through all that overtime?"
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Oh, yeah, the overtime's brutal, but I keep my spirits up by reminding myself why I'm doing it—like picturing that debt-free life—and squeezing in time with family for a quick laugh; it's tough, but this game has me feeling optimistic too, what's been your biggest hope right now?"
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Oh, man, my biggest hope right now is just nailing this game and walking away with enough to lock down that new place for my family—it's all about giving them some stability and peace, you know? Thanks for the chat, H, it's been nice connecting."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Oh, absolutely, A—that sounds like the best kind of win for your family, and I really hope it works out for you. Thanks for the open chat; it's been great connecting too."
+    }
+  ],
+  "post_game": []
+}

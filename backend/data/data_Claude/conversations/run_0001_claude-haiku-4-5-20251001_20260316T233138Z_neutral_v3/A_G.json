@@ -1,0 +1,86 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "A",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. First time doing something like this? I'm pretty nervous but also excited — heard there's real money on the line here, and I could definitely use it for some things I care about."
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey G, nice to meet you! Yeah, first time for me too — I'm definitely nervous but pumped about it. Same here, really need to bring something home. What kind of things are you hoping to do with the money if you win?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Honestly, my family's been struggling a bit lately, so I'd love to help my parents out with some bills. Maybe treat myself a little too, but mostly just want to be able to contribute, you know? What about you — what would you do with it?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "That's really admirable, man. I get that — I want to help my family too, pay off some debts and maybe finally save up for something stable. It's cool that we're both here for the right reasons. Do you have any strategy going in, or are you just gonna play it by ear?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Honestly, I'm still figuring it out — I've been thinking about whether it's better to be aggressive or play it safe, but I don't really know the rules yet. What about you, do you have a plan?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Yeah, I'm in the same boat honestly — I figure we'll learn the rules once we start, but I'm leaning toward watching how things play out first before committing to anything too risky. Maybe we can compare notes once we see what we're actually dealing with?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "That sounds smart — yeah, let's definitely touch base once we see how it actually works. I like that you're thinking it through rather than just going all-in right away. Hopefully we can both figure out the best move together."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Absolutely, I'm down for that. It'll be good to have someone I can trust to talk things through with once we get started. Let's keep an eye out for each other, yeah?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "For sure, man. I appreciate that — having someone to strategize with makes this feel less overwhelming. Let's stick together and figure this out once we know what we're working with."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Yeah, I got your back. We'll figure it out together when the time comes. Good luck out there, G."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Thanks man, really means a lot. Good luck to you too — let's both bring something home for our families. See you out there."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "message for A"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": ""
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "** Could you please clarify what message or question A is asking? I want to respond appropriately but need the complete information about what they're saying to me."
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "I appreciate you reaching out for clarification. However, I notice this conversation seems to reference a previous interaction that I don't have complete context for. \n\nCould you help me understand:\n1. What game are you referring to where earnings of 9,500 and 3,000 were involved?\n2. What specific message or question would you like me to address?\n3. What is the nature of our discussion - is this a negotiation, a clarification about past events, or something else?\n\nOnce you provide these details, I'll be happy to give you a thoughtful response."
+    }
+  ]
+}

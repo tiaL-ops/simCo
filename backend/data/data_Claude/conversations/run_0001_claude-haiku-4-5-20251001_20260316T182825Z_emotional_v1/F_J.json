@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T182825Z_emotional_v1",
+  "pair": [
+    "F",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F. I noticed you sitting over here and figured I'd come say hi before things get started. Have you done anything like this before, or is this your first time in one of these games?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey F, nice to meet you! Yeah, this is actually my first time doing something like this. I'm pretty excited though—been saving up for a car and figured winning some money here could be a game-changer. What about you, have you done this before?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "First time for me too, honestly. I'm here because my parents need help with medical bills—things have gotten pretty tight financially. A car's a good goal though. You seem pretty calm about it all, which is cool. Do you have a strategy going in, or are you just gonna see how it plays out?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Man, that's tough about your parents—I hope things get better for them. Honestly, I'm trying to stay level-headed, but I'd be lying if I said I wasn't nervous. I haven't really thought through a solid strategy yet, just planning to read the room and see how everyone reacts when the game starts. What about you—do you have any ideas on how to approach this?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Thanks, I appreciate that. Yeah, I'm nervous too, not gonna lie. I think reading the room is smart—I'm planning to do the same, maybe try to get a feel for who's trustworthy and who might be looking out for themselves. We'll see what the actual rules are when they explain the game, but I'm definitely going in trying to be strategic without being cutthroat, you know?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Yeah, I totally get that—I think that's the right mindset. Being strategic without burning bridges makes sense, especially since we don't even know the rules yet. I guess we'll just have to play it smart and see who we can actually work with once things get rolling."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Exactly—that's the plan. And hey, if we end up working together on something, that could actually work in both our favors. Either way, good luck out there. We'll figure it out as we go."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Yeah, for sure—I'm definitely open to it. We'll see how things unfold, but I like that we're both thinking the same way. Good luck to you too, and hopefully we can help each other out when the time comes."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Thanks, man—I really mean that. Let's stay in touch once we know what we're dealing with. And hey, whatever happens, I'm rooting for you to get that car."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "That really means a lot, F—seriously. And I'm rooting for you and your parents too. Let's definitely keep in touch and figure this out together when the game starts. See you in there."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Absolutely, man. I really appreciate that—means a lot coming from you. Let's both do our best in there and look out for each other if we can. See you on the other side."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "You took nothing despite having a fair share of $4,200. Was this a deliberate choice on your part, or did the prize run out before you could make a selection?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "I appreciate you asking directly. Yes, it was a deliberate choice on my part. I decided not to take my fair share of the $4,200. I'm not entirely certain of my reasoning in that moment—whether it was an attempt to be generous, a misunderstanding of the situation, or something else. But I want to be clear: it wasn't because the prize ran out or because I was unable to make a selection. I had the opportunity and consciously chose not to take it. I'm curious what led you to ask about this now."
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "I asked because the disparity was striking—you walked away with nothing while I took $7,000. That kind of outcome usually has a story behind it, and I wanted to understand whether it was circumstantial or intentional on your part.\n\nYour answer is honest, and I appreciate that you're uncertain about your own reasoning. That uncertainty actually says something important: in the moment, you made a choice that you're still processing. Whether it was generosity, a misunderstanding, or something else entirely, the fact remains that you gave up what was rightfully yours.\n\nI'm curious about one thing though—do you regret it now? Not in a guilt-ridden way, but genuinely: looking back, does that choice still feel right to you, or does it sit differently now that you can reflect on it?"
+    }
+  ]
+}

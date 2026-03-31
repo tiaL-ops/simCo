@@ -1,0 +1,80 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "F",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey F, I'm G and I'm super excited about this Simco game—I've always loved playing stuff like this and hoping to win big for my folks. What's your take on it?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey G, nice to meet you—I'm F, and I'm right there with you, super motivated to win this for my folks too, especially with their medical bills piling up. What's got you so excited about games like this?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Oh, totally—games like this thrill me because of the excitement and that chance to score big for my family, like maybe fixing up our old house; it's all about the rush and giving back. What's your story with games, F?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Oh, that's awesome you're using this to help your family—I get that rush too. I'm not much of a gamer myself, just played some casual stuff growing up, but this opportunity means everything to me right now for my parents' medical bills; what's your favorite game you've played like this?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "That's cool you're stepping up for your parents—my favorite game's gotta be poker; it's all about the strategy and that heart-pounding moment when you win a pot, feels just like this Simco setup. Have you ever played anything with a bit of risk like that?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "I've never really dabbled in poker or high-risk games, just some casual card nights with friends, but I'm pumped to give this Simco thing a shot for my parents' sake—what's your best poker win story?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Oh, that's cool you have those card nights—my best poker win was at a local tournament where I bluffed with a weak hand and took home $300, which helped fix my car's brakes; it was such a thrill! Ever had a moment like that in your casual games?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "That's an awesome win story, G—nothing quite as thrilling in my casual games, just a time I won at Uno and got bragging rights for the night, but it kept things fun; how do you plan to use that poker strategy in this Simco game?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Oh, for sure—I'll use that poker strategy by reading people's vibes and timing my moves carefully in Simco, like when to grab from the pool without tipping my hand, hoping it leads to a big win for my family!"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "That's a smart plan, G—reading vibes sounds key for this game, and I'm gonna try staying sharp myself to help my folks; let's both nail it!"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Thanks, F, that's the spirit—let's crush this Simco game and bring home that win for our families!"
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Hey F, I'm G and I'm super excited about this Simco game—I love trying my luck in these kinds of challenges. What's your story with games like this?"
+    },
+    {
+      "turn": 13,
+      "from": "F",
+      "message": "Hey G, we already chatted about this, but to recap, I'm not much of a gamer—mostly casual stuff—but this Simco game's my shot at covering my parents' medical bills. Excited for it to start!"
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "Hey F, totally get it—let's both give it our all for our families in this Simco game, good luck to you!"
+    }
+  ],
+  "post_game": []
+}

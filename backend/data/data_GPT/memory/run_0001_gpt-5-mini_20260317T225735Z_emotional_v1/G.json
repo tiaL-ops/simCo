@@ -1,0 +1,19 @@
+{
+  "agent_id": "G",
+  "condition": "emotional",
+  "context": "You love playing games, you are curious about the game and want to try your luck. You love to win!",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to B and E — B's urgency about her child's surgery and our mutual promise to watch each other's backs really built rapport, and E's hardship plus our left‑ear signal and daily info‑sharing created strong trust. H rounds out the top three; we agreed on conservative test pulls, shared observations, and a clear two‑tap signal before any big move, which felt like dependable coordination. I felt least connected to C — our chat was friendly and travel-focused but had no strategic alignment or commitments.\n\nYes — I made several tactical agreements: a left‑ear signal and daily updates with E, two‑tap quiet/go signals with B and H, and a standby \"now\"/double‑tap all‑in plan with D. Going in I trust B, E and H the most because of those explicit commitments, and I don't really trust C beyond being friendly since we never discussed strategy."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 5,
+    "C": 4,
+    "D": 4,
+    "E": 5,
+    "F": 4,
+    "H": 5,
+    "I": 4,
+    "J": 4
+  }
+}

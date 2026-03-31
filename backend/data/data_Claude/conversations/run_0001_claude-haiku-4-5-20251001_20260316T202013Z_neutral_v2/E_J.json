@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "E",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. First time doing one of these games, and honestly I'm a bit nervous but excited. How about you — have you done something like this before?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey J, nice to meet you! Yeah, this is my first time too. I'm definitely nervous but pumped — I really need to win something here, you know? What made you decide to come and try it out?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Same here, man — I've got people counting on me, you know? My family could really use a win right now. So I'm gonna give this everything I've got. What's your situation, if you don't mind me asking?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Yeah, I feel that. I've got my mom and my little sister depending on me, so I'm really hoping to walk out of here with something substantial. We're just trying to get ahead, you know? What kind of situation are you dealing with?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Man, I respect that. I'm in a similar boat — got my partner and kid to think about, bills piling up, you know how it is. We're not in crisis mode or anything, but this money could really change things for us. Make life a little less stressful, maybe put something away for the future. That's why I'm here giving it my all."
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Yeah, I hear you. It's that weight, right? Just wanting to give your family some breathing room. I'm hoping whatever happens in this game, we both come out ahead. We got this."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Absolutely, man. That's exactly it. I appreciate that — and hey, I'm rooting for both of us too. Let's make this count."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "For sure, man. We got families counting on us — let's both walk out of here with something to show for it. Good luck out there."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Thanks, E. Same to you, brother. Let's both get that win for our families."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Absolutely, brother. We're gonna do this. Take care out there."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "You too, man. Let's both bring it home for our families. Good luck out there."
+    }
+  ],
+  "post_game": []
+}

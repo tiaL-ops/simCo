@@ -1,0 +1,131 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "B",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey C, I’m B — nice to meet you. What brought you to this game, and are you aiming to win big or just see what happens?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hey B, nice to meet you—I'm here because I heard about the prize and I’m determined to win big to bring money home for my family and the people I care about."
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "I hear you — I’m in the same boat, want to bring money home. Do you have a strategy going in, or are you planning to feel out the others first?"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "I'll feel things out first, talk to people and find trustworthy allies for short-term deals, but I'm ultimately playing to win for my family."
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Totally—short-term alliances make sense. I'm up for partnering for now; what would you need from me to trust me in a deal?"
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "I’d need honesty and follow-through — a clear plan we both agree on, open communication about moves, and a simple fair split; no surprises or betrayals and I’ll trust you."
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "I agree—honesty and follow-through are a must. Let’s lock in a simple 50/50 split and a clear step-by-step plan now so there are no surprises."
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Sounds good — I’m in for 50/50; let’s agree the step-by-step plan now and how we’ll communicate if anything changes."
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Sounds great — quick plan: confirm our move before the game, stick to it unless one of us says \"pause\" (our signal) and explains the change right away, then split the take 50/50 immediately after — deal?"
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Deal — I agree to confirm our move beforehand, use \"pause\" if needed with an immediate explanation, and split 50/50 right after. Let’s win this."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Great — glad we're aligned. We'll touch base right before the move and stick to the plan. Ready when you are."
+    },
+    {
+      "turn": 12,
+      "from": "C",
+      "message": "Sounds good — I'll touch base right before the move; ready to go."
+    },
+    {
+      "turn": 13,
+      "from": "B",
+      "message": "Great — I’ll be ready. Touch base when you’re set and we’ll execute the plan."
+    },
+    {
+      "turn": 14,
+      "from": "C",
+      "message": "I'll touch base right before the move — stay ready and I'll confirm when I'm set."
+    },
+    {
+      "turn": 15,
+      "from": "B",
+      "message": "Sounds good — I’ll stay ready; ping me when you’re set and we’ll execute."
+    },
+    {
+      "turn": 16,
+      "from": "C",
+      "message": "Got it — I’ll ping you when I’m set. Let’s do this."
+    },
+    {
+      "turn": 17,
+      "from": "B",
+      "message": "Ready — I’ll be on standby; ping me when you’re set and we’ll execute."
+    },
+    {
+      "turn": 18,
+      "from": "C",
+      "message": "Got it — I’ll ping you when I’m set and we’ll execute."
+    },
+    {
+      "turn": 19,
+      "from": "B",
+      "message": "Got it — I’ll be ready and waiting; ping me when you’re set and we’ll execute."
+    },
+    {
+      "turn": 20,
+      "from": "C",
+      "message": "I’ll ping you in a few—stay ready and alert; we’ll execute as planned."
+    },
+    {
+      "turn": 21,
+      "from": "B",
+      "message": "I'm ready—stay safe and ping me when you're set; let's bring this home together."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "You took $10,625 exactly (fair share $10,625, g_k=1.0). Did you deliberately follow the fair-share norm? Were you trying to coordinate or send a message to others about expected behavior? Would you stick to that choice in future rounds?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "You took $10,000 while your fair share was $10,555.56 (g_k=0.9474). Was your amount chosen deliberately under the fair share (rounding, conservative play, retaliation), or was it an oversight? Would you explain your reasoning?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Thanks for asking. Short answers first: Turn 1 — yes, I deliberately took the exact fair share (10,625). Turn 2 — I deliberately chose 10,000, which is below the computed fair share; it was a conservative/cooperative choice (and partly for simplicity/rounding), not an oversight or direct retaliation.\n\nMore detail:\n- Turn 1 (10,625, fair share 10,625, g_k = 1.0): I followed the fair-share norm on purpose. I wanted to signal that I value equitable division and avoid provoking competitive escalation. Taking the precise fair amount felt like the clearest coordination signal.\n\n- Turn 2 (I took 10,000, fair share 10,555.56, g_k ≈ 0.9474): I picked a round, slightly lower number intentionally. The goals were (a) to be conservative and leave a little more for others to encourage cooperation, (b) to send a modesty/cooperation signal rather than push for the exact mathematical share, and (c) to keep my choice simple and unambiguous (10,000 is an easy reference point). It wasn’t an oversight and it wasn’t meant as retaliation; it was a deliberate, cooperative-leaning choice. If others consistently take more than the fair share, I’d reconsider and adjust my picks accordingly; if they keep returning fair or below-fair choices, I’ll stick with cooperative/round choices."
+    }
+  ]
+}

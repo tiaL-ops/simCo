@@ -1,0 +1,85 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "C",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J—nice to meet you! I'm here because I've been dreaming of buying this awesome car if I win some money, so I'm really excited about this game. What brought you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hey J, nice to meet you too—I'm C. I'm here to try and win some cash for a dream trip I've got planned, sounds exciting! What kind of car are you hoping to get?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Hey C, that's awesome about your dream trip—sounds like an adventure! I'm eyeing this sweet sports car that costs around 45k; it's got me all excited for the win. Where's that trip you're planning?"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "That's great about your sports car—45k sounds like a splurge! My trip's to Japan, aiming for a perfect week in Tokyo with cherry blossoms and all."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Wow, Japan and cherry blossoms in Tokyo sound incredible—such a cool dream! I've heard it's magical; what's one thing you're most excited to do there?"
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "Oh, I'm super excited about wandering through the cherry blossom parks and trying authentic street food—it's gonna be magical! Have you ever been to Japan or anywhere like that?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Oh, that street food sounds delicious—I can imagine it! I haven't been to Japan, but I did visit Italy a couple years back and loved the food and sights; how about you, any trips you've taken recently?"
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Oh, Italy's food and sights are top-notch—I recently took a trip to France for a few days, explored Paris and its charming cafes, but I'm itching for something new like Japan; have you got any other travel plans lined up?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Oh, Paris sounds charming—I loved hearing about your trip there! I don't have any other travel plans right now, as I'm focused on this game to get that car, but maybe Japan could be next if things go well; what specifically drew you to Tokyo?"
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Oh, what drew me to Tokyo is the mix of buzzing city vibes, incredible food, and those iconic cherry blossoms—I just love the idea of experiencing a whole new culture firsthand! Are you feeling ready for the game ahead?"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Oh, Tokyo sounds like an absolute blast with all that energy and culture—I'm a bit jealous! Yeah, I'm feeling super ready for the game; I've got my sights set on that car win, so let's both go for it!"
+    },
+    {
+      "turn": 12,
+      "from": "C",
+      "message": "Hey J, that's awesome you're pumped for the game—Tokyo's going to be epic, and I hope we both win big for our dreams! Good luck, let's make it happen."
+    },
+    {
+      "turn": 13,
+      "from": "J",
+      "message": "Hey C, I'm J – nice to meet you. I've been thinking about entering this game to maybe win some cash for things like buying a new car, what about you?"
+    },
+    {
+      "turn": 14,
+      "from": "C",
+      "message": "Hey J, we just chatted about this earlier—I'm still here hoping to win for that dream trip to Japan, sounds like we're both motivated! Good luck in the game."
+    },
+    {
+      "turn": 15,
+      "from": "J",
+      "message": "Hey C, totally—it's been fun chatting, and I hope you win big for that Japan trip; good luck to you too, let's both crush it!"
+    }
+  ],
+  "post_game": []
+}

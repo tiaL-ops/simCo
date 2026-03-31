@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "D",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D. It’s a bit overwhelming in here with everyone, isn't it? I’m just trying to get to know a few people before things get real—how are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey D, I'm E. It’s definitely a lot to take in, but I’m doing okay—mostly just focused on why I’m here. How are you holding up?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "I'm doing alright, just trying to stay sharp. I've got people back home counting on me, so I’m pretty motivated to win this. What about you—is there someone you're hoping to help out with the money?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Yeah, definitely—I've got family and a few close friends I really want to take care of, so that's what's driving me to bring home as much as I can."
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "I hear you. It’s a lot easier to stay focused when you’re doing it for more than just yourself. Do you have any idea what kind of game we’re actually walking into?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Honestly, I’m in the dark too, but I’m just trying to stay ready for anything they throw at us."
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "That’s probably the best way to play it. I’m just hoping it’s the kind of game where we can look out for each other a bit instead of just cutting throats."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "I’m with you. It’d be a lot easier to get through this if we’ve got each other’s backs instead of just fighting everyone."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "I'm glad we're on the same page; knowing I have someone I can trust in here makes a huge difference."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Same here. It’s a relief to find someone who’s not just out for themselves. Let’s stay sharp."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Agreed. I'll be looking out for you. Let's get this done for the people back home."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "I'm really glad we all stuck to the fair share of $10,000. It's great to see such perfect cooperation!"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "I agree, it was a pleasure working with you to achieve such a fair outcome. I'm glad we could cooperate so effectively!"
+    }
+  ]
+}

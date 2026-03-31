@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "C",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi, I'm C. It’s nice to meet someone else in this room before the game kicks off—what’s the first thing you’d do if you walked away with the prize money?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey C, I'm I. Nice to meet you. Honestly, the first thing I'd do is set some aside for my family and friends to make sure they're taken care of. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "That’s a great priority, I. For me, I’ve been dreaming of a perfect trip to Japan, but I’m also here to make sure I can share the winnings with the people I care about most."
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Japan sounds like an incredible trip! Is there a specific city you’re most excited to visit?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Tokyo is definitely at the top of my list—I've heard the mix of modern and traditional is amazing."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "I’ve heard the food there is incredible, too. Are you more interested in the high-tech city life or the quieter, traditional spots?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "I’m definitely looking for a mix of both—I want to experience the futuristic energy of the city but also find some peace in those beautiful, traditional temples."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "That sounds like a perfect balance. I really hope we both manage to win enough today to make our plans a reality."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "I couldn't agree more—it would be great to see us both walk away with what we need to make those dreams happen."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Definitely. It was really nice meeting you, C. Let's see how this goes! Good luck."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Thanks, I! It was great chatting with you. Best of luck to you too, I hope we both walk away winners!"
+    }
+  ],
+  "post_game": []
+}

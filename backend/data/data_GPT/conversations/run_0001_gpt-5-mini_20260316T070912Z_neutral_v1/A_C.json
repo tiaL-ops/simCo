@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "A",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I’m A — nice to meet you. What brings you to this game and what are you hoping to get out of it?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Nice to meet you, A — I’m here to win money to help my family and the people I care about; I’m determined to play smart and see if cooperation makes sense."
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Same — I’m here to win money for my people. I’m open to cooperating if we can trust each other; want to talk strategy and see who else might join?"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "Absolutely — let's form a small, trusted coalition with a clear split and a simple signal; I'll talk to B and D to gauge interest — sound good?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Sounds good — I’m on board; let’s aim for a small trusted coalition (3–4 people), agree a clear split and a simple signal — what split and signal do you prefer so I can back it when you talk to B and D?"
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "Let's aim for 3 people and split equally (1/3 each); signal: place a pen across your notebook on the table before the game starts — I'll check with B and D and report back."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Sounds good — I'm in for a 3-person, 1/3 split; I'll place the pen across my notebook. Let me know if B and D agree or if we need a backup."
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "I'll talk to B and D now and let you know — if one won't join we'll recruit E as backup or move to a 4-person equal split."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Great — thanks for handling it. Pen signal works; keep me posted ASAP on B and D. I'm OK recruiting E or doing a 4-way split if needed."
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "I'll talk to B and D now and report back ASAP; if one says no we'll recruit E or switch to a 4-way equal split — I'll update you soon."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Thanks — I appreciate you talking to them. I’ve got the pen ready. If one of B/D won’t join I’d prefer recruiting E to keep it 3, but a 4-way equal split is acceptable; update me ASAP."
+    },
+    {
+      "turn": 12,
+      "from": "C",
+      "message": "Thanks — I’ll talk to B and D now and update you ASAP; if one won’t join I’ll recruit E to keep it 3, otherwise we’ll accept a 4-way split; good to know about the pen."
+    },
+    {
+      "turn": 13,
+      "from": "A",
+      "message": "Thanks — appreciate you handling this. Keep me posted ASAP; I’ll place the pen now and can talk to E if needed."
+    },
+    {
+      "turn": 14,
+      "from": "C",
+      "message": "Thanks — I’ll talk to B and D now and let you know ASAP; if one won’t join I’ll recruit E to keep it at three. Appreciate you placing the pen."
+    },
+    {
+      "turn": 15,
+      "from": "A",
+      "message": "Thanks — sounds good; keep me posted on B and D and I’ll be ready to recruit E if needed."
+    },
+    {
+      "turn": 16,
+      "from": "C",
+      "message": "I’ll update you ASAP after I talk to B and D — if one says no I’ll recruit E; appreciate you being ready."
+    },
+    {
+      "turn": 17,
+      "from": "A",
+      "message": "Thanks — appreciate it. I’ll stay ready and can talk to E if needed; let me know as soon as you hear back."
+    },
+    {
+      "turn": 18,
+      "from": "C",
+      "message": "Spoke with B and D — B's in, D's unsure; I'll recruit E if needed and let you know as soon as D decides."
+    },
+    {
+      "turn": 19,
+      "from": "A",
+      "message": "Great — glad B's in. I prefer recruiting E if D says no so we keep the 3-person, 1/3 split; please confirm once D decides."
+    },
+    {
+      "turn": 20,
+      "from": "C",
+      "message": "Got it — I’ll recruit E if D says no and confirm ASAP."
+    },
+    {
+      "turn": 21,
+      "from": "A",
+      "message": "Thanks — appreciate it. I’ll wait to hear back and will talk to E if D says no; pen ready."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "You took $5,000 while your fair share was $10,000 (g_k=0.5). Was that an intentional choice to take less, or was there some other reason (misunderstanding, technical issue, etc.)? What motivated choosing half the fair share?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "I intentionally took $5,000 rather than the $10,000 “fair” split. My motive was strategic/social: I wanted to signal cooperation and avoid appearing aggressive, to test whether you’d reciprocate in future rounds, and to leave room for negotiation rather than escalating conflict. It wasn’t a technical error or misunderstanding — it was a deliberate choice based on reciprocity/inequity-aversion considerations. If you prefer a different split next time, say so and I’ll adjust."
+    }
+  ]
+}

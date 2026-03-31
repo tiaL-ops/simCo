@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "C",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey G, I'm C and I'm really pumped about this game—it's a chance to win some money and help out the folks I care about. What's your take on it?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey C, nice to meet you—I'm totally pumped about this game too, it's a real chance for me to win some money and help out the people I care about. What's your strategy going in?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Hey G, nice meeting you too—I'm figuring on starting cooperative to build trust, but staying sharp to grab my share when it counts. What's your plan?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Hey C, that sounds smart—I'm thinking of playing it cooperative at first to build some trust and alliances, but I'll definitely keep an eye out for when to make my move and grab what's mine. How about you, any specific experiences that shaped your approach?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Oh, totally—I've got a buddy who lost big in a group challenge by trusting too easily, so that taught me to start cooperative but always have a backup plan; what experience led you to this strategy?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Hey C, oh man, I once got burned in a pickup game of poker with friends where I went all-in on trust early on and ended up with nothing—taught me to play nice at first but always watch my back; what's your backup plan involve exactly?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Hey G, my backup plan is all about keeping an eye on the group's dynamics—if things start getting too cutthroat, I'll look for a smart way to secure my fair share without burning bridges, like holding back a little extra for myself if needed."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Hey C, that sounds like a solid plan—I'm with you on not burning bridges, maybe I'll do something similar by keeping a low profile if it gets tense; how do you think we'll know when to make that move?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Hey G, I figure we'll know it's time to make a move when the group's vibe shifts—like if folks start hoarding or backstabbing becomes obvious; gotta stay alert and read the room, yeah? What signals are you watching for?"
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Hey C, yeah, I'm watching for similar signs, like if someone suddenly goes quiet or starts making deals on the sly—keeps things real."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Hey G, yeah, exactly—staying alert to those vibes will keep us ahead, let's both play smart out there."
+    }
+  ],
+  "post_game": []
+}

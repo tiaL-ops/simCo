@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "F",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J! So, I'm pretty new to this whole thing—have you done one of these games before? I'm honestly hoping to win big today, got my eyes on a car I've been dreaming about."
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey J, nice to meet you! Nah, this is my first time too. A car sounds nice—I'm here because my parents need help with medical bills, so I'm really hoping to make something happen today. What kind of car are you thinking about?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Oh man, that's a tough situation—I really hope things work out for your parents. I'm eyeing a 45k sedan, nothing too crazy, just something reliable. But honestly, hearing your story, I get why you're here. We're both counting on this, huh? Do you have a number in mind for what would help your family?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Yeah, we're definitely both in it for something real. I need about 15k to cover the medical bills—nothing fancy, just enough to get my parents the care they need. That sedan sounds solid though. Do you think you've got a strategy for the game, or are you just gonna play it by ear?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Honestly, I'm still figuring it out—I don't really know how this game works yet. But I'm thinking I should try to talk to people, get a feel for who's here and what everyone needs. Maybe that'll help me figure out the best move when the time comes. Have you thought about what you'd do if you had to choose between taking money or leaving it for others?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "That's a good approach, honestly. Yeah, I've thought about it—I mean, I need that 15k pretty badly, but I'm not trying to screw anyone over either. I guess it depends on the situation when it comes down to it. We'll see what the rules actually are when we start, right?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Yeah, totally—we'll figure it out once we know what we're actually working with. But I appreciate you being real about it. Hopefully there's a way we both walk away with something, you know?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "For sure, man. I appreciate that—and yeah, I'm hoping the same. We'll see how it plays out. Good luck today, J."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Thanks, F—same to you. Hope we both get what we need out of this. Let's make it count."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Absolutely, man. We got this. Good talking with you."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Yeah, we got this. Take care out there, and I really do hope your parents get the help they need. We'll talk after the game—let's both come out on top."
+    }
+  ],
+  "post_game": []
+}

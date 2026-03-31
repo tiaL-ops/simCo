@@ -1,0 +1,19 @@
+{
+  "agent_id": "A",
+  "condition": "emotional",
+  "context": "You lately have been evicted from your house and you and your family of 3 have nowhere to go. You found a house, affordable for your family and manageable, but the price of the deposit is high: you need 30 000$ for the deposit and for two months rent.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the strongest connection with C, as our conversation flowed easily into strategic planning and mutual support for our goals, making me feel genuinely aligned. E was another person I connected deeply with, sharing similar hardships about family financial struggles, which built a foundation of empathy and understanding. For a third, I connected well with G through heartfelt exchanges about staying positive amid personal challenges, though I felt least connected to J, as our talk focused more on surface-level collaboration without much emotional depth.\n\nYes, I made agreements with J to use subtle signals like a nod for collaboration and with C to team up early and share information. I trust C and E the most going into the game due to our high connection and shared vulnerabilities, while I don't specifically distrust anyone yet but plan to be cautious with those I interacted with less."
+  },
+  "connection_scores": {
+    "B": 4,
+    "C": 5,
+    "D": 4,
+    "E": 5,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 4
+  }
+}

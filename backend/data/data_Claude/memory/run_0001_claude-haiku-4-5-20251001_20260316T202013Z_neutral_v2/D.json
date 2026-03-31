@@ -1,0 +1,19 @@
+{
+  "agent_id": "D",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to H, I, and B. With H, there was an immediate sense of mutual understanding about the importance of trust and genuine connection before things got competitive. I and I bonded over our shared family situations and developed a real plan to scope out the room together and identify trustworthy people. B felt like a natural ally too—we both wanted to win but recognized that working together might be smarter than going solo, and we made a clear commitment to touch base right after the rules were explained. I didn't feel particularly disconnected from anyone, but G was the most surface-level conversation—it was brief and cordial but lacked the depth and specificity of my other connections.\n\nI made informal agreements with basically everyone to compare notes once the rules were explained, but the most concrete commitments were with B (to strategize together immediately after), H (to check in and figure out our play), and I (to split up, talk to others, and regroup with a plan to identify who we could count on). Going in, I trust H, I, B, J, and C the most—they all seemed genuinely motivated by family obligations like me and expressed openness to cooperation rather than pure cutthroat competition. I don't specifically distrust anyone yet, but I'm wary of the people who seemed \"too relaxed\" that H and I discussed, since that could mean they've done this before and might have hidden strategies."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "G": 4,
+    "A": 4,
+    "F": 4,
+    "H": 4,
+    "I": 4,
+    "E": 4,
+    "B": 4
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "B",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H. First time doing something like this? I gotta admit, I'm pretty nervous but also kind of excited about what's about to happen here."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Answer_to_B_from_H: Yeah, first time for me too. I'm B, by the way. Honestly, I'm nervous as hell—I really need this to work out. What brings you here?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Man, I feel that. I've got this loan breathing down my neck—need to pay it off next month. Twenty-five grand would be life-changing, honestly. What's your situation? What made you decide to jump into this?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "My daughter needs surgery—she's only three. We've already borrowed and sold everything we can, and we're still $25,000 short. I can't let her down, so here I am. Sounds like we're both in pretty tight spots, man."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Man, that's heavy—I'm really sorry you're dealing with that. A three-year-old depending on you... that's a different level of pressure than what I'm facing. We're definitely both in tough spots, but yours sounds urgent in a way mine isn't. I hope we both walk out of here with what we need."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Thanks, man. I appreciate that. Look, we're both here because we need this—your situation matters too. Maybe we can both make it work somehow. Have you done anything like this before, or are you going in completely blind like me?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Completely blind, man. I've never been in anything like this before. I'm just hoping the game is straightforward enough that we can both figure it out as we go. You got any sense yet of what we're actually supposed to be doing in there?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Nah, I'm just as lost as you are. All I know is there's a prize pool and we get a chance to take from it, but how that works exactly? No clue. Guess we'll find out together when we get in there."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Yeah, fair enough. Well, at least we're not alone in being confused, right? Maybe that's actually an advantage—we can figure it out together and not overthink it. Either way, I'm rooting for you in there, man. Your daughter needs you to win this."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "That means a lot, man. Really. I'm rooting for you too—let's both get what we came here for. And yeah, maybe figuring it out together will help. Thanks for being real with me about all this."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Hey, no problem at all. We got this—just remember, whatever happens in there, you're doing right by your daughter just by fighting for her. Let's go make it happen."
+    }
+  ],
+  "post_game": []
+}

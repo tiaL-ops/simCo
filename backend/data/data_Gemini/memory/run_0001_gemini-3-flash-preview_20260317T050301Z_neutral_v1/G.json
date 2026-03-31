@@ -1,0 +1,19 @@
+{
+  "agent_id": "G",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the strongest connection with F, as we bonded deeply over our families and made a firm commitment to look out for each other and stick to a fair split. I also felt very aligned with A and C, with whom I discussed specific strategies for cooperation and agreed to share information about the other players. Although my talk with J was pleasant, it felt the least connected because we didn't establish much of a tactical plan beyond general well-wishes and basic pleasantries.\n\nI made explicit agreements with F to pursue a fair split and with A and B to act as allies and look out for one another. I feel a high level of trust in F due to our shared motivations, but I am staying alert and haven't fully extended my trust to the rest of the group until I see their actions once the money is on the line."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "F": 5,
+    "H": 4,
+    "I": 4,
+    "J": 4
+  }
+}

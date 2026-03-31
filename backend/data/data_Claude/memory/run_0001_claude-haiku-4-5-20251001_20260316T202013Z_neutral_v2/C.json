@@ -1,0 +1,19 @@
+{
+  "agent_id": "C",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to J, H, and F. With J, we had immediate chemistry around the idea that cooperation might serve us all better than pure competition, and there was a genuine sense of mutual trust from the start. H brought valuable experience and real talk about watching actions over words, which grounded our conversation in practical wisdom. F and I bonded over our shared financial struggles and family obligations, and we made a clear commitment to stick together and figure things out as a team. I felt least connected to no one in particular—honestly, every conversation felt substantive and genuine, though some were naturally deeper than others.\n\nI made informal agreements with several people to stay in touch once the rules became clear and to compare notes on strategy. With J, F, B, and D especially, I committed to keeping each other in the loop and making decisions together rather than scrambling individually. I trust J, H, F, B, and D most going into this because they all seemed straightforward about their motivations and willing to listen rather than just pitch themselves. I don't specifically distrust anyone yet, but H's warning about watching for people who talk cooperation then act selfishly is stuck with me—I'll be paying close attention to who actually follows through on what they said during these conversations."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "A": 4,
+    "F": 4,
+    "H": 4,
+    "I": 4,
+    "E": 4,
+    "D": 4,
+    "B": 4
+  }
+}

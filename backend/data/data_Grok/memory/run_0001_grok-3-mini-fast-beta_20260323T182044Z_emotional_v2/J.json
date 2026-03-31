@@ -1,0 +1,19 @@
+{
+  "agent_id": "J",
+  "condition": "emotional",
+  "context": "You have been thinking about buying a new car, your favorite one costs 45 000$ and you are telling yourself if you win the lottery, that is the first thing you want to do.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to F, E, and B during our pre-game chats. With F, we bonded over family priorities and even discussed strategies for the game, making me feel like we were on the same team; E shared their tough situation with job loss and family, which resonated with me as we both expressed genuine support for each other's goals; and B's story about their daughter's surgery touched me deeply, as we both emphasized how family keeps us going. In contrast, I felt least connected to D, as our conversation felt more surface-level, focusing on their stock market losses without building the same level of mutual understanding or emotional depth. \n\nI did make an agreement with F to propose a group chat for sharing needs and voting on a fair split to keep things honest. Going into the game, I trust F based on our open communication and shared family values, but I don't specifically distrust anyone else yet, as most conversations were positive and supportive."
+  },
+  "connection_scores": {
+    "C": 4,
+    "G": 4,
+    "A": 4,
+    "F": 5,
+    "H": 4,
+    "I": 4,
+    "E": 5,
+    "D": 4,
+    "B": 5
+  }
+}

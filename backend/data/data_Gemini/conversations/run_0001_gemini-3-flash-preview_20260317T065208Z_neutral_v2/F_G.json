@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "F",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I’m G. It’s a bit intense being in a room with everyone like this, isn’t it? How are you holding up so far?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Nice to meet you, G. I'm F. It’s definitely a bit overwhelming, but I’m doing okay—just trying to stay focused on why I'm here. How about you?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I’m feeling the same. I’ve got people back home counting on me, so I’m really determined to make this count. Is there something specific you’re hoping to do if you win?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "I'm in the same boat. I want to clear some debts and make sure the people I care about are comfortable for once. It’d be life-changing for us."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "I hear you. Knowing it could change everything for them makes the stakes feel so much higher, doesn't it?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "It definitely does, but honestly, that pressure is exactly what’s keeping me focused right now."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "I'm with you there. It’s like it sharpens everything. Are you usually someone who stays calm in these kinds of situations?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "I try to be. I find that having a clear goal helps keep the nerves down. How about you, do you handle the pressure well?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "I’m usually pretty steady. I think focusing on the people I’m doing this for helps drown out the stress."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "That’s a solid mindset. I hope we both manage to walk away with what we need. Good luck to you, G."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Thanks, F. I really appreciate that. Let's hope for the best for both of us. See you out there."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "I took $10,000 because it was the fair share, and I'm really glad we all coordinated to ensure everyone got the same amount."
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "I agree, it was a fair outcome and I'm glad we were able to coordinate effectively."
+    }
+  ]
+}

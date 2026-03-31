@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "B",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hi, I’m B — nice to meet you. Are you here to play for the prize too, and do you have a strategy in mind?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Yeah — I’m here to win for my family and friends. I’ll start by getting to know people and cooperate where it makes sense, then adapt if needed."
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "I’m with you — same goal. I’ll cooperate early to build trust but be ready to adapt. Want to team up and feel out the others?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Sounds good — let’s cooperate early, watch how others act, share notes on who seems trustworthy, and have a backup plan if someone betrays. Agreed?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Agreed — let's cooperate early, compare notes after each round, and have a clear backup plan if someone betrays."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Sounds good — let’s use simple signals, compare notes after each round, and if someone betrays we retaliate and adapt; ready to start?"
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Ready — let's start. We'll use the signals, compare notes after each round, and retaliate if someone betrays."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Agreed — same plan. Let's use two taps to signal cooperate and one tap to warn; compare notes after rounds and adapt."
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Got it — two taps = cooperate, one tap = warn. I’ll stick to the plan, share notes after each round, and back you if someone betrays."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Glad we're aligned — I'll stick to the taps, watch for betrayals, share notes after rounds, and back you if needed."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Thanks — I appreciate it. I’ll watch for your taps, back you if needed, and we’ll adapt if anyone betrays."
+    },
+    {
+      "turn": 12,
+      "from": "F",
+      "message": "Thanks — I appreciate it. I’ll watch for your taps too, mirror them when it helps, and we’ll regroup after each round; I’ve got your back."
+    },
+    {
+      "turn": 13,
+      "from": "B",
+      "message": "Thanks — I’ve got your back too. I’ll watch and mirror taps, report after rounds, and we’ll adapt if someone betrays. Let’s win this."
+    },
+    {
+      "turn": 14,
+      "from": "F",
+      "message": "Appreciate it — same here; let’s keep the taps tight, share notes after each round, and retaliate if needed."
+    },
+    {
+      "turn": 15,
+      "from": "B",
+      "message": "Agreed — we’ll keep the taps tight, watch each other’s backs, share notes after rounds, and retaliate if needed; let’s win this together."
+    },
+    {
+      "turn": 16,
+      "from": "F",
+      "message": "Absolutely — I’m with you; I’ll stick to the taps, cover your back, report honestly after each round, and retaliate if someone betrays. Let’s win this."
+    },
+    {
+      "turn": 17,
+      "from": "B",
+      "message": "I appreciate it — I’ll mirror taps, cover you too, report honestly, and we’ll retaliate if needed; let’s win this."
+    },
+    {
+      "turn": 18,
+      "from": "F",
+      "message": "Good — I trust us to stick to the plan; I’ll mirror you too, watch for slips, and we’ll adapt after each round. Let’s win this."
+    },
+    {
+      "turn": 19,
+      "from": "B",
+      "message": "Sounds great — I trust our plan. I’ll watch for your taps, report after each round, and adapt if needed; let’s win this."
+    },
+    {
+      "turn": 20,
+      "from": "F",
+      "message": "Sounds great — I trust our plan. I’ll watch for your taps, report honestly after rounds, and adapt if needed."
+    },
+    {
+      "turn": 21,
+      "from": "B",
+      "message": "Thanks — same here; I’ll mirror taps, report honestly after each round, and adapt so we can win."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "You took $10,000 (fair share $10,555.56; g_k≈0.947). You were slightly under the fair share — was that strategic (e.g., avoid appearing greedy) or just rounding/accidental? How did you decide that amount?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "I chose $10,000 intentionally. I wanted to stay close to the calculated fair share while signalling I wasn’t trying to grab the maximum—leaving a small visible concession can reduce perceived greed and make cooperation or future interactions easier. I also prefer round numbers for clarity, so the combination of a strategic concession plus simplicity (not a random rounding error) produced the $10,000 choice. The gap (g_k≈0.947) was deliberate: close to fair, but modestly under, to balance fairness concerns and my own payoff."
+    }
+  ]
+}

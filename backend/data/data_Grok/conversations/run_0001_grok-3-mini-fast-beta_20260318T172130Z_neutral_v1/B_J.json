@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "B",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey, I'm B, and I got pulled into this Simco game because I heard it could be a fun way to win some cash—exciting, right? What's your story for joining in?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey B, I'm J—I joined this Simco game 'cause I heard it's a solid chance to win some cash and help out the people I care about. Yeah, it's exciting! What's your take on how the game might play out?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Oh, totally, J—I think this game could get competitive with everyone eyeing that prize pool, but if we strategize together, we might all walk away with something good! What's your game plan?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Oh, for sure, B—my game plan is to play fair but smart, maybe team up early and watch for opportunities, so I can bring home enough to support my people; what's yours looking like?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Sounds smart, J—my plan's to play fair, form alliances like this one, and stay alert for chances to boost the pot for my folks; how about we brainstorm some early moves together?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "That sounds like a great idea, B—let's brainstorm; maybe we could identify potential allies first and discuss how to protect the prize pool early on?"
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Absolutely, J, let's kick it off by scoping out a few folks here—maybe chat with K or L first and gauge if they're in for teaming up to guard that prize pool?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Yeah, B, that makes sense—let's start with K and see if they're up for teaming up, then move to L if it feels right."
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Sounds good, J—let's head over to K and casually ask if they'd be interested in teaming up to keep that prize pool safe."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Yeah, let's do it, B—I'll catch up with you after we chat with K."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Sounds good, J—let's go talk to K and see how it goes; catch you on the flip side!"
+    }
+  ],
+  "post_game": []
+}

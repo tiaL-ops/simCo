@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T125838Z_emotional_v2",
+  "pair": [
+    "B",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hey, I'm I. It’s a bit of a crowd in here, isn't it? What brings you to the game today?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey I, I'm B. It really is a lot to take in. Honestly, I'm here for my daughter—she needs a surgery that I just can't afford on my own right now, so I'm doing whatever it takes. What brings you here?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "I’m so sorry to hear about your daughter, B. That’s a lot of pressure. I’m here to win some extra security for my family and the people I care about, just to make sure we’re all well-provided for."
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "I appreciate that, I. It’s tough, but she’s my world. It sounds like we’re both here for the right reasons—family is everything. Do you have kids of your own, or are you looking out for your parents?"
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "No kids yet, so I'm mainly looking out for my parents and a few close friends who are like family to me. How old is your daughter?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "She’s only three, my firstborn. She’s the light of my life, and I’d do anything to see her healthy again. It’s really noble of you to be here for your parents and friends."
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "Three is such a sweet age. I really hope everything works out for her—it’s clear how much she means to you."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Thank you, I. It means a lot. I’m just trying to stay focused on the goal so I can get her what she needs. How are you feeling about the game starting?"
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "I’m feeling a mix of nerves and determination; it’s a lot to process knowing how much is on the line for everyone here."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "I hear you. It's tough knowing we're all fighting for something important, but I have to stay focused on her. I think I'll move around and see who else is here before things get started. Good luck, I."
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "I completely understand, B. Best of luck to you and your daughter—I really hope you get what you need for her surgery."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "I'm sorry you didn't get anything. I tried to be fair, but J, A, and E took far more than their shares, leaving nothing for the final players."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "I appreciate you reaching out. It's definitely disappointing to walk away with nothing, but I understand how these games can go when a few players decide to take more than their share. Congratulations on your earnings, though."
+    }
+  ]
+}

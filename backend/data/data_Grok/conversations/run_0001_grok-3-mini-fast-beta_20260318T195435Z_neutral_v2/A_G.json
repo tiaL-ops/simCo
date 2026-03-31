@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "A",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G—excited to be here and try my luck at this game. What's your name, and what's drawing you to it?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey G, I'm A—sounds fun! I'm drawn to this game because I heard about the chance to win some cash and I'm determined to bring some home for my family and friends. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Hey A, that's awesome—I'm in it for the same reason, hoping to win some cash and bring it home for my family and the people I care about; it's all about making a difference for us. What do you think our chances are?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Hey G, that's motivating—I'm optimistic about our chances if we all work together and play strategically; after all, determination goes a long way. How do you plan to approach the game?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Hey A, I plan to approach the game by staying cooperative, keeping things strategic, and making sure I play smart to boost our chances of winning that cash for everyone."
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Hey G, that makes total sense—I'm all for that cooperative vibe too, and I'll focus on building alliances to maximize our wins for everyone."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Hey A, totally agree—building alliances could be a game-changer; how do you think we can start forming them with the group?"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Hey G, yeah, let's kick things off by introducing ourselves around the room and sharing a bit about why we're here—maybe that could lead to some natural alliances forming."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Hey A, that sounds like a solid plan—I’m in, maybe we can start by me sharing my story first to get the ball rolling with the group."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Hey G, that's perfect—go ahead and share your story, it'll help kick things off with the group; I'm excited to see how it goes!"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Hey A, thanks for the encouragement—I'll go share my story with the group to get things started."
+    }
+  ],
+  "post_game": []
+}

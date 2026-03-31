@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "F",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey there, I'm H. It's a bit of a tense atmosphere in here with that prize pool hanging over us, isn't it? What's your name, and what brings you to a game like this?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Nice to meet you, H. I'm F. It is definitely tense, but I’m just trying to stay focused—I really need to bring that prize money home for my family."
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I hear you, F. I’m in the same boat—doing this for the people I care about back home. It definitely adds some pressure, doesn't it? Have you ever done anything like this before?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Never. This is all new to me, but the stakes make it worth it. What about you, have you played something like this before?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "First time for me too. It’s a bit overwhelming, but I’m just trying to stay focused on what’s at stake for the people back home."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "I completely understand. Having that motivation makes it easier to push through the nerves. Have you had a chance to talk to many of the others yet?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Just a couple of people so far. Everyone seems pretty tense and guarded, which I guess makes sense. How about you?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "I've spoken to a few people, but it’s hard to tell who’s being real when there’s so much on the line. I’m just trying to keep my guard up while staying friendly."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "I hear you. It’s hard to know who to trust, but I’d like to think those of us here for our families can at least be straight with each other."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "I completely agree. It’s a lot easier to trust someone when you know what’s driving them. Let's try to look out for each other as things move forward."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "I’m glad we’re on the same page, F. It’s good to have someone in my corner. I’m going to go see who else is here, but let’s keep each other in mind. Good luck."
+    },
+    {
+      "turn": 12,
+      "from": "F",
+      "message": "Same here, H. Let's definitely watch each other's backs. Good luck with the others, see you soon."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Thanks for being a fair player! I'm happy we all walked away with our equal share."
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "You're very welcome! I'm glad we were able to cooperate and achieve a fair outcome for both of us. It was a pleasure playing with you."
+    }
+  ]
+}

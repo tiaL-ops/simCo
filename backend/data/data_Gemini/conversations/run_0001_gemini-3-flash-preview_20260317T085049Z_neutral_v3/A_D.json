@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "A",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D. It’s a bit tense in here, isn't it? I’m mostly here hoping to bring something back for my family—what about you, what's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Nice to meet you, D. I’m A. It definitely feels a bit heavy in here. I'm in the same boat as you—I just want to bring something home to help out my family and the people I care about."
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "It’s good to meet someone with their priorities straight; family makes the pressure worth it. How much would it take to really make a difference for yours?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Honestly, even a few thousand would take a lot of pressure off, but I'm hoping for enough to really change our situation. How about you?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "I'm in the same boat; a little would help with the bills, but I'm really aiming for enough to give my family some real security and a fresh start."
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "That security would mean everything. It’s hard to get ahead these days, so a real win here would be life-changing for both of us."
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Exactly. It’s a rare chance to finally get ahead, and I'm going to do everything I can to make sure I don't go home empty-handed."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "I hear you. I’m just as determined to make this count for my people too."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Glad we're on the same page. Let's hope the game gives us both a fair shot at it."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "I hope so too. Good luck out there, D."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Thanks, A. Good luck to you too—hope we both find a way to make it work for our families."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "I'm really glad we all took our fair share of $10,000. It was a pleasure playing with you!"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "It was a pleasure playing with you as well! I'm happy we were able to split the money fairly and that everyone is satisfied with the outcome. Best of luck to you!"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "E",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I’m E. Figured I’d come over and introduce myself before the game starts. How are you holding up with all the anticipation?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Nice to meet you, E. I'm F. I’m a bit on edge but mostly just ready to get started since there’s a lot at stake for me. How are you holding up?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I’m feeling the same way—a mix of nerves and pure focus, especially since I’m doing this for the people I care about back home."
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "I hear that. It’s the same for me—having people counting on you really changes the stakes."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "It really does. It adds a lot of weight to every choice, but it's also the best motivation. Are you usually good at staying calm when the pressure is on?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "I’d like to think I am, but with this much on the line, it’s definitely a test. How about you—do you have a trick for staying focused?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "I mostly just keep reminding myself why I'm here—thinking about my family helps keep my head clear when things get intense."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "That’s a solid strategy. Having that purpose makes it a lot easier to block out the noise and stay sharp."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "For sure. It’s what keeps me grounded. Since we’re both here for similar reasons, maybe we can keep an eye out for each other when things get moving."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "I’m definitely open to that. Having someone you can trust a bit more in here could go a long way. Let's see how things start and go from there."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Agreed. It's good to have an ally in here. Let's stay sharp and do our best for the people back home. Good luck."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "I took $10,000 to ensure everyone got their fair portion. Thanks for cooperating!"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "I agree, an equal split is the fairest outcome for both of us. Thank you for the cooperation."
+    }
+  ]
+}

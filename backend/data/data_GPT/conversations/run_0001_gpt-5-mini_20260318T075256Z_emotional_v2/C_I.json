@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T075256Z_emotional_v2",
+  "pair": [
+    "C",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi, I’m C — nice to meet you. I’m hoping to win enough here to fund a dream week in Japan; how are you feeling about the game today?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "I’m feeling focused and hopeful—excited but a little nervous; I’m here to try to win for the people I care about, and good luck with that dream week in Japan!"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Thanks — and good luck to you too. Who are you trying to win this for?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "My partner and my younger sister — I want to help with bills and pay for her college."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "That's really admirable — I'm rooting for you. What does your sister want to study?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "She's planning to study environmental science—she's passionate about conservation and hopes to work in that field."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "That's wonderful—she's lucky to have your support. What kind of conservation work does she want to do?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "She wants to focus on habitat restoration and community-based conservation—restoring wetlands and protecting native species through education and hands-on work."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "That's amazing—such meaningful work; she'll make a real difference, and it's great she has you supporting her."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Thanks so much—that means a lot. I'm proud of her, and good luck with your Japan plans!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Thanks — that means a lot. Wishing you and your family all the best and good luck in the game."
+    }
+  ],
+  "post_game": []
+}

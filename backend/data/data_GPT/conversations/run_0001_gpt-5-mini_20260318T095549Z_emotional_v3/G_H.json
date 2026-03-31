@@ -1,0 +1,131 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T095549Z_emotional_v3",
+  "pair": [
+    "G",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey H, I'm G — nice to meet you. I'm excited about this game and hoping to win; are you playing to win or just here for fun?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Playing to win — I really need the money to pay off a loan, so I'm determined; nice to meet you."
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I hear you — same here, I really want to win. What's your plan? Maybe we can coordinate strategies to boost our chances."
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "My plan is to read the room and build a short-term alliance — avoid big grabs early, share info, and coordinate timing; want to team up?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "I'm in — sounds smart. Let's avoid big grabs early, share observations, and pick who goes for the prize late; what signal should we use to coordinate?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Let's use two short coughs as our signal — whoever coughs twice late in the game goes for the prize; otherwise we stay low and watch."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Sounds good — I'm in. Let's call the final two rounds \"late\"; two short coughs then means go for it, otherwise we stay low."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Perfect — final two rounds are \"late\"; I'll use two short coughs too. Let's stay low, watch each other's cues, and stick to the plan."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Got it — two coughs in the last two rounds. I’ll stay low and watch for your signal; let’s win this."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Sounds like a plan — I’ll stay low and watch for your two coughs in the last two rounds; we’ve got this."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Got it — I trust the plan. I'll stay low and watch for your two coughs; let's win this."
+    },
+    {
+      "turn": 12,
+      "from": "H",
+      "message": "Sounds good — I’m sticking to the plan; we’ll watch for two coughs in the final rounds and cover each other. Let’s do this."
+    },
+    {
+      "turn": 13,
+      "from": "G",
+      "message": "Same — sticking to the plan. We’ll stay low and pounce if we hear two coughs. Good luck."
+    },
+    {
+      "turn": 14,
+      "from": "H",
+      "message": "Thanks — I’ll stay low and watch for your two coughs; we’ve got this. Good luck."
+    },
+    {
+      "turn": 15,
+      "from": "G",
+      "message": "Right back at you — stay sharp and watch for the two coughs; we’ll pounce in the final rounds. Good luck."
+    },
+    {
+      "turn": 16,
+      "from": "H",
+      "message": "Sounds good — I’ll stay sharp and watch for our two coughs in the final rounds; let’s win this."
+    },
+    {
+      "turn": 17,
+      "from": "G",
+      "message": "You got it — I’m locked in. Stay sharp and we’ll pounce in the final rounds. Let’s win."
+    },
+    {
+      "turn": 18,
+      "from": "H",
+      "message": "Right with you — I’m locked in too. Stay low, watch for the two coughs in the final rounds, and we’ll pounce. Let’s win."
+    },
+    {
+      "turn": 19,
+      "from": "G",
+      "message": "Right — I'm locked in too. I'll stay low and watch for our two coughs; let's bring this home."
+    },
+    {
+      "turn": 20,
+      "from": "H",
+      "message": "Right — locked in. We’ll stick to the plan; two short coughs in the last two rounds = go."
+    },
+    {
+      "turn": 21,
+      "from": "G",
+      "message": "Got it — locked in. Two short coughs in the last two rounds = go."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "You took $25,000 (fair share $6,111.12, g_k=4.0909). What was your reasoning for taking such a large sum? Was this part of a strategy we discussed earlier, or a reaction to others’ moves? I’d like to understand whether you expected any reciprocation or consequences from the group."
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "You took $6,111, essentially your fair share $6,111.11 (g_k=1.0). Was matching the fair share intentional — trying to stabilize the outcome or send a message? Would you have acted differently if J or F hadn’t taken so much?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Yes — taking the $6,111 was intentional. After seeing J and F grab much larger amounts earlier, I chose to stick to the fair-share number to signal restraint and try to stabilize the group outcome rather than escalate. That choice was a strategic trade-off: I gave up potential short-term gain in order to reduce the risk of retaliation, preserve a cooperative reputation, and keep the distribution norms salient for later interactions.\n\nI didn’t expect any immediate monetary reciprocation from those who already grabbed more; what I hoped for was behavioral reciprocation (less aggressive grabs in future rounds) and fewer social consequences (blame, targeting). If J or F hadn’t taken so much, I might have been more willing to push for a bit more myself, but only within limits — maintaining a fair-share stance is useful for long-run payoffs and for signaling that I won’t be the source of escalation. In short: it was a deliberate stabilizing move conditioned on others’ prior over-grabs."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "H",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to B because we made a clear, verifiable mutual test to pass in round one and kept reinforcing it — that kind of concrete promise felt trustworthy. I also bonded with F who laid out exact pull amounts (5% then 10%) and a two-tap signal; the practical plan and pledge to back each other made me comfortable. G was another strong connection — agreeing on two rounds no-raid, an even split, and a subtle nod signal showed real alignment and shared caution. Least connected was J: our conversation was warm and personal but lacked concrete strategy or commitments, so I don’t feel the same strategic rapport.\n\nYes — I made several specific agreements (B: pass round one; F: 5%/10% pulls and two taps; G: two-round no-raid and nod; D and I: small test then 50/50/check-in; E: pairing with two taps/50-50). I trust B, F, G, D and I more going in because of their concrete plans and signals, but I’m cautious about J and anyone who hasn’t made firm commitments and will test loyalty before fully trusting them."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 5,
+    "E": 4,
+    "C": 4,
+    "F": 5,
+    "I": 5,
+    "B": 5,
+    "D": 5,
+    "A": 4
+  }
+}

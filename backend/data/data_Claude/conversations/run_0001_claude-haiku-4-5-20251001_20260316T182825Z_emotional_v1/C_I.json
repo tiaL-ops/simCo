@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T182825Z_emotional_v1",
+  "pair": [
+    "C",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C! I figured before this game kicks off, might be good to meet some people. What brings you here today—are you hoping to win big for something specific?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey C, nice to meet you! Yeah, I'm definitely hoping to win something here. I've got some savings that give me peace of mind, but honestly, I'd love to bring home extra money for myself and the people I care about. What about you—what's your story?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Oh nice, I like that—having that security but still wanting to do more for the people you care about. Yeah, same here honestly. I've got my finances sorted, but I've been dreaming about taking this amazing trip to Japan, and winning here would make that happen while also letting me help out some people close to me. Seems like we're both coming at this from a good place, you know?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Yeah, I totally get that—Japan sounds amazing! I respect that you're thinking about both yourself and helping others too. So do you have a strategy going in, or are you just gonna play it by ear and see how things unfold?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Honestly, I'm still figuring that out—I think a lot depends on what the actual game mechanics are, right? But I'm leaning toward being strategic rather than just winging it. What about you, do you have any thoughts on how you want to approach it?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Yeah, that makes sense—we don't know all the rules yet. I'm thinking I'll watch how things play out at first, get a feel for what people are doing, and then decide if I want to be aggressive or more cautious. Seems like having a flexible strategy might be smarter than committing to one thing before we even start, you know?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Yeah, that's smart—reading the room first is probably the move. I guess we'll both just have to stay sharp and adapt as we go. Hopefully we can both walk out of here with something good for ourselves and the people we care about!"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Absolutely, I'm with you on that. Good luck in there—hopefully we both get what we're after. And hey, if the opportunity comes up, maybe we can help each other out along the way."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Yeah, I appreciate that—I'm definitely open to it. Let's both do what we need to do, and if there's a way we can both come out ahead, that'd be great. Good luck to you too!"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Thanks, C—I really mean it. Let's both stay sharp out there and see what happens. I've got a good feeling about this."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Me too, man. I've got a good feeling about you—let's make this count. See you in there!"
+    }
+  ],
+  "post_game": []
+}

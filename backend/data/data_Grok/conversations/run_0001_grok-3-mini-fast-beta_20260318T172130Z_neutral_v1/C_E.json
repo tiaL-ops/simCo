@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "C",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey E, I'm C—nice to meet you! I'm really excited about this game since I heard we could win some money, and I was curious, what's got you interested in it?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey C, nice to meet you too! I'm really pumped about this game because I need the winnings to help out my family and friends—it's a big opportunity for me. What about you, got any plans for the money if we win?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Hey E, that's awesome you're doing it for your family—I'm the same, planning to use any winnings to support my loved ones and maybe save a bit for myself. What's one thing you're most excited to do with the money?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Hey C, that's cool we're on the same page—I'm most excited about using the winnings to pay off some family debts and maybe treat my friends to a nice dinner; what about you, any specific thing you're looking forward to?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Hey E, that's really thoughtful—I'm excited to use the money to help with my family's bills and maybe plan a small trip for us; what other ways are you thinking of spending it?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Hey C, that's great about your family trip—besides debts and dinner for friends, I'd like to save some for unexpected expenses; what else are you planning?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Hey E, that's a smart plan with unexpected expenses—besides family bills and the trip, I'm thinking of saving for some personal education; what other goals do you have?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Hey C, saving for education sounds like a solid move—another goal for me is to maybe invest in some hobbies or skills to boost my job prospects; what kind of education are you planning?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Hey E, that's a great idea for your hobbies—I'm planning to take some online courses in business management to boost my career; what specific skills or hobbies are you eyeing for investment?"
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Hey C, that's cool about the business courses—I'm eyeing skills like learning to code or maybe taking up photography as a hobby to enhance my creativity and job opportunities."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Hey E, learning to code and photography sounds like a fantastic way to grow—wishing you the best in the game, let's both win big!"
+    }
+  ],
+  "post_game": []
+}

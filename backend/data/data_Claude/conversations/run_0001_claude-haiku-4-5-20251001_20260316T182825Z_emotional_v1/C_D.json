@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T182825Z_emotional_v1",
+  "pair": [
+    "C",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey! I'm C. I noticed we're about to jump into this game together, so I figured I'd say hi before things get intense. What brings you here today—are you hoping to win big for something specific?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Yeah, honestly I had a rough day yesterday—lost a chunk of money in the market, so I'm really hoping to turn things around here. What about you, what's your story?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Oh man, that's rough—market swings can be brutal. For me, I'm doing okay financially, but I've got this dream trip to Japan I want to make happen, and honestly, winning here would make it feel extra special. Plus, I'd love to help out some people close to me. Sounds like we both could use a win today though!"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Yeah, for sure—Japan sounds amazing, honestly. And hey, I respect that you want to help people out too. We're in the same boat then, just gotta see how this plays out. You got any strategy going in, or are you just gonna wing it?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Honestly, I'm still figuring it out—I think a lot depends on how the game actually works once we get started. But I'm guessing it'll help to stay calm and maybe pay attention to what everyone else is doing. Have you played anything like this before?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Nah, nothing like this—but yeah, staying calm is probably key. I'm thinking I'll watch how people interact at first, see if there's a pattern or if anyone tips their hand about what they're planning. We'll figure it out as we go."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "That's smart—reading the room before making moves is probably our best bet. Yeah, let's see how it unfolds. Good luck out there, and hey, hopefully we both walk away with something good today."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Yeah, I appreciate that—same to you. Let's both get what we came for today. See you out there."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Absolutely, let's do this. Stay sharp out there!"
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Will do—you too. Let's make this count."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "For sure, man. Let's both walk out of here with our wins today. Good luck!"
+    }
+  ],
+  "post_game": []
+}

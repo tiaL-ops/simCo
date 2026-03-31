@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "B",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey, I'm B – it's nice to meet you. I've got a three-year-old daughter back home who's my whole world, and I'm here hoping to win enough to help her out; what's bringing you to this game?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hey B, nice to meet you too—sounds like you've got a lot of heart for your little one, I hope this game treats you well. I'm C, and I'm here to win some cash for a dream trip I've had my eye on, plus help out family and friends; what made you decide to join this game?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Oh, thanks, C—it's tough, but with my little girl needing surgery and us scraping by, this game felt like the only way to fight for her future and get us back on track."
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "Oh man, B, that breaks my heart—I'm rooting for you and your daughter; it's inspiring how you're fighting for her, and while I'm chasing that dream trip, I get the family drive; can you tell me more about what she's going through?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Thanks, C, that really means a lot—my little girl's got a heart condition that needs surgery, and we've exhausted loans and sales just to cover most of it, but we're still scraping for the rest; what's this dream trip you're excited about?"
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "Oh, B, that sounds incredibly tough—I'm really rooting for you and your little one to get through this; my dream trip is a week in Japan, all about soaking up the culture, food, and cherry blossoms, costing around 10k, which I'm saving up for to treat myself and help out family too."
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Thanks, C, your support means a lot—Japan sounds incredible, like a real adventure; I've always dreamed of traveling too, but family comes first, so what's your favorite thing about the culture there?"
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Aw, B, I totally get putting family first—it's admirable; my favorite thing about Japanese culture is the food, like trying fresh sushi and ramen, it just brings so much joy and a sense of adventure!"
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Oh, that sounds delicious, C—sushi and ramen have always intrigued me, even if I haven't tried them yet; it's cool how food can spark that joy, and I'm glad you're chasing your dreams while I focus on family—what's one thing you're most excited about on your trip?"
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Oh, B, one thing I'm really excited about is strolling through Kyoto under the cherry blossoms—it's just going to be so peaceful and magical, like a scene from a dream!"
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Oh, that sounds truly magical, C—I hope you get to experience that peaceful stroll and make some amazing memories; thanks for the kind words and good vibes, and best of luck to you in the game!"
+    }
+  ],
+  "post_game": []
+}

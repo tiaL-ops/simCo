@@ -1,0 +1,19 @@
+{
+  "agent_id": "F",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to E, I, and H. With E, we had an immediate understanding about playing cautiously and learning before making big moves—there was a real ease to our conversation. I and H both felt like genuine partners who understood my situation and were willing to look out for each other without being fake about it. The conversations with all three had this natural flow where we weren't just making promises, but actually seemed to be on the same wavelength about staying smart and grounded.\n\nI felt least connected to J, honestly. Don't get me wrong—J was straight with me and I respect that—but there was this underlying tension where we both kept circling back to the competitive angle. It felt like we were negotiating rather than connecting, and while I appreciate the honesty, it left me feeling a bit guarded in a way the other conversations didn't.\n\nI made agreements with basically everyone to some degree: watch the first round together, compare notes, keep an eye out for each other, and stay smart rather than desperate. With E, I, H, D, and G specifically, these felt like genuine pacts where we'd have each other's backs.\n\nGoing in, I trust E, I, H, and G the most—they felt genuinely invested in both of us doing well. I'm least sure about J because I sense we might end up competing hard when things get real, and while that's honest, it makes me cautious about how far I can actually rely on them."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 4
+  }
+}

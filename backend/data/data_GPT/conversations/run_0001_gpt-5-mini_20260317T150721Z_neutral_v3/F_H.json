@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "F",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey F, I'm H—nice to meet you. What brought you to this game? I'm hoping to win some money for my family and friends."
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Nice to meet you, H — I’m F. I’m here to win too; I want to bring money back for my family and help a few friends. How are you planning to play?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I’m planning to read people and build some trust—maybe coordinate early to keep the pool intact—but I’ll protect my family’s share when it counts."
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "I’m with that — let’s coordinate early to keep the pool steady, but stay ready to protect our shares when it counts."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "I'm in — let's take small amounts for the first two rounds, watch others closely, and back each other if someone tries to raid. Agreed?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Agreed — small pulls first two rounds, watch everyone closely, I’ll back you if anyone raids. Let’s pick exact amounts."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Sounds good — let’s each pull about 5% of the pool in round 1 and 10% in round 2; that’s small enough to keep things steady and easy to defend."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Sounds perfect — I’ll pull 5% in round 1 and 10% in round 2. I’ll back you if anyone raids; we’ll watch everyone and adjust if needed."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Perfect — I’ll match you (5% then 10%). If anyone raids we back each other and push back to discourage them; let’s watch who’s acting shady."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Love it — I’ll match 5% then 10%, back you if anyone raids; let’s watch who’s acting shady and pick a quick signal to coordinate pushback."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Love that — let's use two short table taps as our signal; I’ll back you if anyone raids."
+    },
+    {
+      "turn": 12,
+      "from": "F",
+      "message": "Two taps — got it. I’ll watch for it and back you if someone raids; counting on you too."
+    },
+    {
+      "turn": 13,
+      "from": "H",
+      "message": "Two taps — got it; I’ve got your back if things go sideways."
+    },
+    {
+      "turn": 14,
+      "from": "F",
+      "message": "Appreciate it — I’ve got your back too; let’s stick to the plan and watch for those two taps to coordinate pushback."
+    },
+    {
+      "turn": 15,
+      "from": "H",
+      "message": "Likewise — I’ve got your back; let’s stick to the plan, watch for those two taps, and stay sharp."
+    },
+    {
+      "turn": 16,
+      "from": "F",
+      "message": "Thanks — glad we’re aligned. Let’s stick to 5% then 10%, watch for the two taps, and back each other if anyone raids."
+    },
+    {
+      "turn": 17,
+      "from": "H",
+      "message": "Sounds great — I’m locked in on 5% then 10%, watching everyone; two taps ready, I’ve got your back."
+    },
+    {
+      "turn": 18,
+      "from": "F",
+      "message": "Awesome — locked in: 5% then 10%, two taps ready; I’ve got your back too."
+    },
+    {
+      "turn": 19,
+      "from": "H",
+      "message": "Great — glad we're aligned. I’ll watch for the two taps and have your back."
+    },
+    {
+      "turn": 20,
+      "from": "F",
+      "message": "Glad we're aligned — I'll watch for the two taps and back you if things go sideways."
+    },
+    {
+      "turn": 21,
+      "from": "H",
+      "message": "Glad we're set — I'll stick to 5%/10%, watch for the two taps, and back you if anyone raids."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "I noticed you took $4,000 while the fair share was $10,000 (g_k=0.4). Was that a deliberate choice? If so, what motivated taking much less than the fair share — altruism, protest, a signaling strategy, or an error? I'd like to understand how you reached 4k."
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Yes — it was deliberate. I took 4,000 because I didn’t want to appear greedy or to take more from someone who’d ended up with a larger payoff; I weighed fairness and minimizing harm more heavily than pure maximization. I also wanted to signal cooperative intentions (and to see how you’d respond), so I left you a larger share. It wasn’t a calculation mistake. If you’d like, I can walk through the specific reasoning or numbers that led me to pick 4k."
+    }
+  ]
+}

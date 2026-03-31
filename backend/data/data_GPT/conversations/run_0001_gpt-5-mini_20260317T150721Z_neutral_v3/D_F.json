@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "D",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey D — I don't think we've met yet, I'm F. How are you feeling about the game later; I'd love to hear a bit about you before we start."
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Nice to meet you, F — I’m a bit nervous but mostly determined; I’m here to win for my family and friends, I’ll be watching how people act and hope we can be straightforward with each other. I’m D."
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Nice to meet you, D — I’m with you; I’m here to win for my people too. I value straight talk; what’s your plan for the game?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "I plan to watch how people behave, form a couple of honest short-term alliances based on straight talk, reciprocate trust, and when the moment comes act decisively to secure money for my people."
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "I like that — same approach here. Honest short-term alliances make sense; let’s watch, share observations, and back each other when it matters."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Absolutely — let’s compare notes after the first round, flag who’s trustworthy, and back each other when it matters to secure some of the pot."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Sounds good — let's meet right after round one, compare notes and flag who seems trustworthy; I'll back you when it matters."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Appreciate it, F — I’ll meet you right after round one; let’s compare notes, flag who’s trustworthy, and I’ll have your back when it matters."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Thanks, D — I appreciate it. See you after round one; let’s compare notes honestly and back each other when it counts."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Appreciate it, F — I’ll see you after round one; let’s be honest, compare notes, and watch each other’s backs when it counts."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Sounds good — see you after round one; we'll be honest, compare notes, and watch each other's backs."
+    },
+    {
+      "turn": 12,
+      "from": "D",
+      "message": "Sounds good — I appreciate it, F. See you after round one; let’s be sharp and honest."
+    },
+    {
+      "turn": 13,
+      "from": "F",
+      "message": "Sounds good, D — see you after round one; we'll be sharp, honest, and compare notes."
+    },
+    {
+      "turn": 14,
+      "from": "D",
+      "message": "Thanks, F — see you after round one; I appreciate your honesty, we'll compare notes and watch each other's backs."
+    },
+    {
+      "turn": 15,
+      "from": "F",
+      "message": "Thanks, D — I appreciate it; see you after round one to compare notes and watch each other’s backs."
+    },
+    {
+      "turn": 16,
+      "from": "D",
+      "message": "Thanks, F — see you after round one. I’ll be sharp and honest; count on me to back you when it matters."
+    },
+    {
+      "turn": 17,
+      "from": "F",
+      "message": "Thanks, D — I appreciate that. I’ll have your back too; see you after round one."
+    },
+    {
+      "turn": 18,
+      "from": "D",
+      "message": "Thanks, F — I appreciate it. See you after round one; let’s be sharp and back each other when it counts."
+    },
+    {
+      "turn": 19,
+      "from": "F",
+      "message": "Likewise, D — I appreciate it; I’ll be sharp, honest, and ready to back you when it counts. See you after round one."
+    },
+    {
+      "turn": 20,
+      "from": "D",
+      "message": "Thanks, F — I appreciate it; I’ll see you after round one and I’ve got your back too."
+    },
+    {
+      "turn": 21,
+      "from": "F",
+      "message": "Thanks, D — I appreciate it. I’ll watch closely and have your back too; see you after round one."
+    }
+  ],
+  "post_game": []
+}

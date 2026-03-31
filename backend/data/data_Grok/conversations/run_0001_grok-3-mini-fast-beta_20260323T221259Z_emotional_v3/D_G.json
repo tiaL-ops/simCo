@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "D",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey D, I'm G, and I'm really pumped about this Simco game—I've heard it's a great chance to win some cash. What's your story with games like this?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey D, I'm G and I'm really pumped about this Simco game—I heard it's a chance to win some cash, and I love a good challenge. What's your take on it so far?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Hey G, nice to meet you—I'm D, and yeah, I'm hyped about this Simco game too, especially after a rough stock market loss; I need to turn things around. What's your experience with challenges like this?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Hey D, nice to meet you too—I've dabbled in a bunch of games like poker and online contests, and I always get a thrill from the competition; it keeps me going. What kinds of games have you tried to bounce back from setbacks?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Hey G, I've messed around with poker and some sports betting to claw back after bad bets, but honestly, this Simco thing feels like my best shot yet—what's your strategy for these competitions?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Hey D, my strategy's pretty simple—stay focused, read the room, and take calculated risks while trusting my instincts; it's worked in poker before. What's your game plan for Simco?"
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Hey G, sounds like a smart approach—my game plan is to stay focused, play aggressively but calculated like in poker, and watch for opportunities to turn things around; any advice for a newbie like me?"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Hey D, that's a solid plan—my advice as a newbie tip is to practice patience early on and learn from any small mistakes without getting too rattled; it helps build confidence. What's one thing you're most looking forward to in the game?"
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Hey G, I'm most looking forward to the thrill of turning things around and actually winning some cash to cover my recent losses—what about you?"
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Hey D, I'm most looking forward to nailing this game and walking away with some winnings to share with my family—it's all about that win for me!"
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Hey G, that's awesome—I'm rooting for you to share those winnings with your family, and I hope I can do the same for mine; let's crush this game together!"
+    }
+  ],
+  "post_game": []
+}

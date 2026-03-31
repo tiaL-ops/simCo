@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "F",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey F, I'm H – nice to meet you in this crazy setup. I'm pretty pumped about this game since I heard it's a chance to win some cash; what brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey H, nice to meet you too! I'm here because I heard about the chance to win some money and I'm determined to bring some home for my family – sounds like we're both excited about it. What about you, what's your background?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Hey F, that's awesome you're doing this for your family—I'm from a small town and work in retail to make ends meet, but I'm here to win some cash for my friends and folks back home; what kind of work do you do?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Hey H, that's great you're helping your friends and family—I'm a teacher, which keeps me busy but doesn't pay much, so this game could really make a difference for mine; how do you find working in retail?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Hey F, working in retail can be exhausting with long hours and demanding customers, but it teaches you to stay patient and handle people well—which might come in handy here! What got you into teaching in the first place?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Hey H, I got into teaching because I always loved helping kids learn and make a difference, like my old teacher inspired me—it's tough but fulfilling; what about you, any hobbies that keep you going outside of work?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "That's inspiring, F—teaching sounds rewarding despite the challenges; I love hiking and playing guitar to unwind after retail shifts, it keeps me sane, what hobbies do you have?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Hey H, thanks—teaching keeps me grounded, and my hobbies include reading books and jogging to clear my head; what made you start playing guitar?"
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Hey F, I started playing guitar back in high school as a way to unwind from all the stress—it was a friend's idea, and I've been hooked ever since; have you ever picked up an instrument yourself?"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Hey H, I haven't really picked up an instrument myself, though I did try the piano as a kid and wasn't half bad—maybe you could teach me sometime!"
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Hey F, that's cool you tried piano—sounds like you had a knack for it! I'd love to show you some guitar tricks if we team up later, but for now, let's both crush this game."
+    }
+  ],
+  "post_game": []
+}

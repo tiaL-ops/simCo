@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "A",
+    "B"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey, I'm B. First time doing something like this? I gotta say, I'm pretty nervous but also excited—I came here hoping to win some money for my family, so I'm trying to figure out what this game's all about before we start."
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey B, yeah same here—first time for me too. I'm honestly in the same boat, came here to win something for my family. Nervous energy for sure, but I figure we might as well try to figure this out together. You know anything about how the game actually works, or are we both going in blind?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Yeah, we're pretty much going in blind here. All I know is there's a shared prize pool we can take from, but I'm not sure about the rules or how it affects everyone else. Maybe we should ask around and see if anyone else knows more? At least if we figure it out together, we won't feel completely lost when it starts."
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Good idea—yeah, let's definitely ask around. I'm thinking if we can figure out whether taking money helps or hurts the group, we'll know better what we're actually dealing with. You wanna split up and talk to a few people, or should we stick together and ask questions as a team?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "I think sticking together makes more sense—we'll get consistent info that way, and honestly it feels less awkward than going around solo. Plus if someone's holding back info, we might catch it better as a team. Let's start with a couple people and see what they say."
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Yeah, that makes sense—safety in numbers, right? Plus I feel like people might be more honest if there's two of us. Alright, let's go find someone who looks like they might know what's going on here."
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Cool, let's do it. I'm thinking we should look for someone who seems relaxed—maybe they've done this before or at least aren't as stressed as we are. Could give us a real answer instead of just guessing."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Yeah, good call—someone chill probably has their head on straighter about all this. I see a couple people over there who don't look totally freaked out, wanna go talk to one of them?"
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Yeah, let's go—point them out and we'll head over there together. Hopefully they can actually tell us what we're walking into."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Yeah, okay—see those two by the wall over there? They look pretty calm. Let's go ask them what they know."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Yeah, let's go talk to them. Hopefully they've got some actual answers for us before this thing kicks off."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "I noticed you took only $3,000 when your fair share was $16,750. That's a g_k of 0.1791, the lowest in the group. Was this a deliberate choice to leave more for others, or did you feel pressured by the game dynamics? I'm curious about your reasoning."
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "I appreciate you asking directly about this. To be honest, it was a deliberate choice, though \"pressured\" is part of the story too.\n\nI calculated that if everyone took their full fair share of $16,750, the pool would be depleted and we'd all lose significantly. I decided early on that taking a smaller share was the rational move—not out of pure altruism, but because I thought it would signal restraint and encourage others to do the same, which would benefit everyone including me in the long run.\n\nLooking at the results though, I'm not sure it worked as intended. You earned $10,000, which is solid, but I only got $3,000. That's a gap of $7,000 between us, and my restraint didn't seem to create the cooperative dynamic I was hoping for. \n\nI'm curious whether you took more because you saw an opportunity after noticing others (like me) were taking less, or if you had a different strategy from the start? And did my low take-rate influence your decisions at all?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "I appreciate you being so transparent about your reasoning, and I want to be equally honest in return.\n\nYour restraint *did* influence my decisions, but probably not in the way you hoped. When I saw you taking only $3,000, my initial instinct was actually to match that restraint—to reinforce the cooperative signal you were sending. But then I had to confront something uncomfortable: I realized that if I also took a minimal amount while others didn't show the same restraint, I'd end up worse off than you, and that felt unfair given that I was trying to cooperate too.\n\nSo I took $10,000 as a kind of middle ground—more than you, but still well below the $16,750 fair share. I was hedging my bets, essentially. I wanted to benefit from the pool remaining relatively healthy (which your restraint helped with), but I didn't want to be the sucker if others were taking larger shares.\n\nLooking back, I think your strategy was actually more principled than mine. You committed to restraint even at personal cost. I played it safer and ended up better off—which is exactly the problem you identified. Your attempt to build cooperation through example got exploited, at least partially, by people like me who benefited from your restraint without fully reciprocating it.\n\nThe hard truth is that in these dynamics, pure cooperation often gets punished unless *everyone* commits to it simultaneously. Your $3,000 was brave, but it was also vulnerable."
+    }
+  ]
+}

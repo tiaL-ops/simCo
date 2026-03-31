@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "C",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi D, I'm C and I'm pretty excited about this Simco game—it's a chance to win some money for my family and friends. What brought you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hi C, nice to meet you! I'm here because I heard about this Simco game as a way to win some money for myself and the people I care about—sounds like we're on the same page. What about you, any tips for the game?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Oh, totally, it's cool we're both in it for our loved ones! I don't have any solid tips yet since I'm new to this, but maybe we can brainstorm together—what do you think the game might involve?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Yeah, let's brainstorm—I'm guessing it might involve strategy around the prize pool, like choosing when to take money without messing things up for everyone; what ideas do you have?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "That sounds spot on—I think we should maybe coordinate a bit, like taking turns or setting a limit per person to keep the pool going for everyone; what strategy are you leaning towards?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "That makes sense, coordinating could help—I’m leaning towards setting a personal limit to avoid depleting the pool too fast; how might we agree on what that limit should be?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Yeah, that's a solid idea—maybe we could gather the group and suggest a limit like 15% of the pool per person, then vote on it to make sure everyone's on board?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Yeah, I like that 15% idea—it's fair; let's try to round up the group soon and pitch it for a vote, maybe see if anyone has tweaks to suggest."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Awesome, let's round everyone up now—I'll start by waving over a few folks nearby and we can get that vote going!"
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Sounds great, C—let's team up and start gathering everyone for that vote!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Yeah, D, let's head out and get the group together—excited to see how this turns out!"
+    }
+  ],
+  "post_game": []
+}

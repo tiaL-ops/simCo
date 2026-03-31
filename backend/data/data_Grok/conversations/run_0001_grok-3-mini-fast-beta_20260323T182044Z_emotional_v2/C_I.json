@@ -1,0 +1,85 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "C",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C – nice to meet you in this mix before the game kicks off. I'm really looking forward to it, as I'm hoping to win some extra cash for a dream trip; what about you?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey C, I'm I—nice to meet you too! I'm pumped for the game since I'm aiming to win some cash for my family and friends; that's awesome about your dream trip, where are you thinking of going?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Oh, awesome that you're playing for your loved ones—I'm eyeing a trip to Japan, something I've dreamed of for years; what's the first thing you'd do with the winnings if we pull it off?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Oh, Japan sounds incredible—I'd probably use the winnings to treat my family to a fun outing or help cover some expenses for them, just to see them smile!"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "That's so heartwarming, I; family means everything to me too—maybe we can both make it happen, what's one thing your family loves doing together?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "That's sweet, C—my family loves going on weekend hikes and picnics to unwind; what about yours, any favorite family traditions?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "That's great to hear about your hikes, I—my family tradition is gathering for holiday feasts where we share stories and play board games; it always brings us closer!"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "That sounds like such a warm tradition, C—board games are a blast in my family too, especially on rainy days; what's your go-to game during those feasts?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Oh, absolutely, our go-to game is Monopoly—it always turns into a hilarious showdown with lots of trash talk, but it makes the feasts even more memorable; what's your family's favorite one on those rainy days?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Oh, that's hilarious about Monopoly—our family's favorite on rainy days is Scrabble; it gets super competitive with all the wordplay and laughs, really brings out the fun!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Haha, Scrabble sounds like a blast with all that wordplay—maybe we can challenge each other after this game! It's been awesome talking with you, I."
+    },
+    {
+      "turn": 12,
+      "from": "C",
+      "message": "Hi I, I'm C, and I have to say, this game has me buzzing with excitement—it's a chance to win some extra cash for things that matter to me. What's your take on all this, and what brought you here today?"
+    },
+    {
+      "turn": 13,
+      "from": "I",
+      "message": "Hey C, it's great to hear you're buzzing—I'm excited too, since I'm here to win some cash for my family and friends to make their lives a bit easier. What specifically are you hoping to do with your winnings?"
+    },
+    {
+      "turn": 14,
+      "from": "C",
+      "message": "Oh, that's wonderful you're aiming to help your family—I'm hoping to use my winnings for a dream holiday in Japan, like a perfect week of exploring and relaxing that I've always wanted; it's been great chatting with you, I!"
+    },
+    {
+      "turn": 15,
+      "from": "I",
+      "message": "That's fantastic about your Japan trip, C—I've loved our chat and wish you the best of luck in the game!"
+    }
+  ],
+  "post_game": []
+}

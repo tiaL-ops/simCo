@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "B",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey, I'm B. First time doing something like this? I gotta admit I'm pretty nervous about this game, but also excited to see what happens. You seem pretty calm about it all."
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey B, I'm E. Yeah, first time for me too, honestly. I'm trying to stay calm on the outside, but I'd be lying if I said I wasn't nervous—I really need to win something here. What made you decide to come today?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Honestly, I heard about the prize money and thought it could really help me and my family out. I've been looking for an opportunity like this, so when I found out about it, I knew I had to give it a shot. What about you—what's the situation that brought you here?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Same here, man. I've got people depending on me, and this felt like a real shot at making something happen. I'm hoping we both walk out of here with something good today."
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Yeah, I feel that. We're in the same boat then. I'm hoping we both do well, but I gotta be honest—I'm still trying to figure out what the actual strategy is here. You got any sense of how this game works yet, or are we both just winging it?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Honestly, I'm kind of winging it too right now. All I know is there's a shared pool and we can take from it, but I haven't figured out the catch yet. Maybe we should ask around and see if anyone else knows more before we jump in?"
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Yeah, that's smart thinking. Yeah, let's definitely ask around—maybe someone here has played before or knows the rules better. I'd rather go in with a game plan than just hope for the best, you know?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Absolutely, I'm with you on that. Let's split up and talk to a few people, see if anyone's got insider knowledge about how this actually works. Meet back up in a bit and compare notes?"
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Sounds good, man. Yeah, let's do that—I'll chat with a few people over there and catch up with you in a few minutes. Hopefully someone knows what we're walking into here."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Yeah, good call. I'll do the same over here. Let's meet back up in like five minutes and see what we find out. Good luck, man."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Thanks, man. You too—I'll catch you in a few. Let's figure this thing out together."
+    }
+  ],
+  "post_game": []
+}

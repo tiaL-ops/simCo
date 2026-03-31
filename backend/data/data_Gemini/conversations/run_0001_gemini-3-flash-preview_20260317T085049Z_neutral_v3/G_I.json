@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "G",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. It’s getting a bit tense in here, isn't it? What are you planning to do if you walk away with the prize?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey G, nice to meet you. It definitely is. If I win, I’m putting it toward helping my family and the people close to me—they’re the reason I’m here. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Same here, honestly. I’ve got people counting on me back home, and I don’t want to let them down. It’s why I’m so focused on winning."
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I totally get that. That kind of pressure is a huge motivator, but it definitely makes things more intense. Do you have a plan for how you're going to approach the game?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "I’m mostly trying to stay level-headed and see how everyone else plays it first. It’s hard to have a solid plan until the rules are clear, right?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Exactly. It's hard to commit to a strategy when we're still in the dark. I'm just trying to get a feel for the room for now."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Makes sense. Have you noticed anyone who seems particularly competitive yet?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Hard to say for sure since everyone’s playing it pretty close to the chest, but a couple of people seem really focused. What about you, anyone catch your eye?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Maybe a couple of the quieter ones—sometimes the people who say the least are the ones to watch out for. But like you said, everyone's still feeling things out."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "That’s a fair point. Sometimes they're the ones thinking ten steps ahead. I think I'm going to go see what the others are up to, though. Good luck, G."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Thanks, I. Good luck to you too—hope things go well for both of us and our families."
+    }
+  ],
+  "post_game": []
+}

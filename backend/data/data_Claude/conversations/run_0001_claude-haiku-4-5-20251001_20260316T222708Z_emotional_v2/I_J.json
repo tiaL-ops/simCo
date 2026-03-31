@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "I",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J! First time doing something like this? I gotta say, I'm pretty nervous but also excited—been thinking about what I'd do if I actually won some money here. What brings you to the game today?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey J, nice to meet you! Yeah, first time for me too. I've got some savings that give me peace of mind, but honestly, winning here could really help me support my family better. I'm definitely nervous like you, but I'm ready to give it my best shot. What would you do with the money if you won?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Oh man, honestly? There's this car I've been dreaming about—45 grand—but beyond that, I'd probably help my family out too, pay off some debts maybe. It's cool that you've already got some savings cushion though. How much are you hoping to walk away with today?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "That's a solid dream, man. Honestly, I'm not fixated on a specific number—I'd be happy with enough to make a real difference for my family, maybe 10 or 15 grand? But I'm curious, how are you thinking about playing this? Are you going aggressive or more cautious?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Honestly, I'm still figuring that out—I think I need to see how things play out first, but I'm leaning toward being smart about it rather than just going all-in. Your family support goal sounds solid though. Do you have a strategy in mind, or are you gonna feel it out too?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Yeah, I'm pretty much in the same boat—I think I'll play it smart and see what everyone else does first. Being cautious makes sense when there's real money on the line, you know? Plus, with my family depending on me, I can't afford to be reckless. Let's both try to keep our heads in the game."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Absolutely, man—I respect that. Yeah, keeping our heads is key. We're both in this to actually come out ahead, not just chase something crazy. Good luck out there, and hey, hopefully we both walk away with something we can be proud of."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Thanks man, I really appreciate that. Same to you—let's both stay smart and make this count. See you out there!"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "For sure, man. Let's do this—catch you in the game!"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Yeah, let's make it happen. Good luck out there, J!"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Thanks, I! You too—let's both get what we came for."
+    }
+  ],
+  "post_game": []
+}

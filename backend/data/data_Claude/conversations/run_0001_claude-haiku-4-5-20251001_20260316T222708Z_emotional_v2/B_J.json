@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "B",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J! First time doing something like this, and I gotta say I'm pretty nervous but excited. Have you done one of these games before, or are you new to this too?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey J, first time for me too. Honestly, I'm nervous as hell but I really need this—my daughter needs surgery and we're out of options. What brings you here?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Man, that's heavy—I really hope things work out for your daughter. For me, it's a bit different, I've been dreaming about getting a new car, but hearing what you just said puts things in perspective. We're both here trying to make something happen for the people we care about, so I respect that."
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Thanks J, I appreciate that. And hey, a car's important too—don't diminish that. We're all here for a reason, right? So what kind of car are you thinking about?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "It's a really nice sedan, costs about 45 grand—nothing crazy, but it's been my dream car for a while. Anyway, enough about me—how much are we talking for your daughter's surgery? Is this game your shot at getting the funds together?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Yeah, we need 25 grand to finish paying for her surgery—we're three months in and just hit a wall. This game is honestly my last real shot at this point. I've already borrowed and sold everything I can think of. So yeah, I'm pretty desperate to make something happen here."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Man, that's really tough—three months in and hitting a wall like that... I can feel how much this means to you. Look, I'm gonna be real with you: I came here wanting to win big for myself, but hearing your situation, I'm thinking we're both gonna do whatever it takes in this game. Your daughter needs you to come through, and that's heavier than a car dream. We got this."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "I really appreciate that, J—seriously. And I mean it when I say don't put your dreams on the back burner for mine. We're both here to win, and that's what matters. Let's both come through for the people we care about, yeah?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Yeah, absolutely—we both deserve this. Let's go in there and make it happen for our people. I got a good feeling about this, man."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "I got a good feeling too, man. Thanks for believing in this with me. Let's go show what we're made of."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Let's do this, brother. We're walking out of here with what we need. Good luck in there—your daughter's counting on you."
+    }
+  ],
+  "post_game": []
+}

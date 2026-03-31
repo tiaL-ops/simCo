@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T095549Z_emotional_v3",
+  "pair": [
+    "C",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi F, I’m C — nice to meet you. What brings you into this game? I’m trying to win enough to fund a dream week in Japan."
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hi C — nice to meet you too. I’m here to try to win about $15,000 to cover my elderly parents’ mounting medical bills."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I’m really sorry to hear that — that must be so stressful. I hope you win; how long have your parents been dealing with these medical bills?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "It's been going on for a few years—about three years, and it got a lot worse after my dad's hospitalization last year."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "I'm so sorry—that must be really tough. How's your dad doing now, and is there anything I can do to help while we're here?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "He’s stable and recovering but still needs regular care and meds; I really appreciate the offer—having someone to chat with and some encouragement during the game would mean a lot."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Of course — I'm happy to be here for you. I'll keep you company and cheer you on during the game; wishing the best for your dad."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Thanks, C — that really means a lot. I appreciate the company and encouragement, and good luck with your Japan dream."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Thanks, F — that means a lot. Good luck to you too; let’s keep each other company and give it our best shot."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Thanks, C — I really appreciate you sticking with me; let's keep each other company and good luck with your Japan plans."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Of course — I'm glad to be here for you; let's stay positive and give it our best shot."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "You took $15,000 (fair ~$3,178), one of the largest ratios. Why so high? Were you trying to punish, win big, or did you expect fewer people to take anything?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "You took $3,000 (fair share $3,148.17, g_k=0.9529). That’s slightly below fair—was that intentional (e.g., to appear fair) or accidental? Do you regret or stand by the amount you took?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I stand by the $3,000. It was intentional — I aimed to come across as fair (hence the slight undercut of the calculated fair share, g_k≈0.9529) while still taking something for myself. In some rounds I play more aggressively (the earlier $15,000 was situational), but here I preferred a low‑key move to avoid provoking retaliation or looking greedy. No regret."
+    }
+  ]
+}

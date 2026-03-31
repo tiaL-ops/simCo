@@ -1,0 +1,86 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "C",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C, and I'm pretty excited about this Simco game—sounds like a fun way to win some cash. What made you decide to join in?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey C, I'm I, and I joined because I heard this Simco game could be a great way to win some cash for me and the folks I care about—sounds exciting! What about you, got any strategies in mind?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Hey I, that's awesome—we're on the same page! I'm just winging it for now, maybe focusing on building trust with folks here, but I'd love to hear if you have any strategies brewing."
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Hey C, building trust is a solid start—I'm planning to be upfront and maybe team up with a few people here; what kind of alliances are you thinking about forming?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Hey I, yeah, I'm eyeing alliances with trustworthy folks like you—maybe a small group to watch each other's backs; how do you see that playing out?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Hey C, I see it as us forming a tight group of 3-4 people to share tips and protect our interests—maybe start by picking one more trustworthy player; who were you thinking of?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Hey I, I've been keeping an eye on a couple of people, and I think J seems really reliable from our quick chats—let's see if we can bring them in; what do you think?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Hey C, that sounds like a solid idea—I haven't chatted with J much, but if you vouch for them, let's try bringing them in and see if we click as a group!"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Hey I, awesome—let's go for it; I'll chat with J soon and gauge their interest, then we can all connect if it feels right!"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Hey C, sounds like a great next step—I'm excited about potentially teaming up, let's touch base once you've chatted with J!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Hey I, I'm pumped about this too—I'll chat with J soon and loop back if it works out; thanks for the vibe!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Why did you only take $5,000 when your fair share was $10,000?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "I chose to take only $5,000 because I wanted to prioritize fairness and avoid any potential conflict, even though I could have taken more. I believe in sharing equally to maintain a positive relationship."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I appreciate your explanation and your commitment to fairness. It's reassuring to hear that you're prioritizing our relationship and sharing equally. That makes sense given what we both earned—thank you for being straightforward about it."
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Thank you for your understanding and kind words—I truly value our relationship and am glad we can move forward with mutual respect."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "C",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey J, I'm C and I'm pretty pumped about this game—it's a chance to win some money and help out the folks I care about. What's your take on all this excitement?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey C, nice to meet you—I'm totally pumped too! This game's a big opportunity for me to win some cash and help out my loved ones. What's got you so excited about it?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Oh, for sure—I'm excited because winning could finally let me support my family better, like paying off some bills, and the thrill of the game just adds to it! How about you, any specific goals in mind?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Oh, totally get that—I'm hoping to win enough to help with my family's medical bills; it's been tough lately. What's your plan for approaching the game itself?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Oh man, that's tough with the medical bills—I'm sorry to hear that. For my plan, I figure I'll try to be strategic and maybe build alliances here to boost the shared pot, rather than going solo. What's your strategy looking like?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Yeah, thanks for the sympathy, C—it's been rough. My strategy is to play it smart by forming alliances too, maybe share info to grow that shared pot without getting too greedy; what alliances are you thinking of building?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Hey J, I'm thinking of building alliances with trustworthy folks like you who want to grow the shared pot—maybe we could team up and share strategies without overcommitting?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Sounds good to me, C—I'm in for teaming up and sharing strategies carefully; what specific ideas do you have to make sure we both benefit?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Hey J, that's great you're on board—maybe we could start by sharing any useful tips we hear from others and set a simple rule to only take from the pot if it benefits both of us, like after building it up together. What do you think?"
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Yeah, that sounds like a solid plan, C—sharing tips and holding off on the pot until it benefits us both makes total sense. I'm all in!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "That's awesome, J—I'm glad we're on the same page, let's make this alliance count and win big!"
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,25 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "I",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hi J, I'm I and I'm really excited about this game—I've been saving up and see it as a fun way to win some extra for my family. What's your story, how did you hear about it?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hi I, nice to meet you—I'm J, and I heard about this game from a friend; I'm really pumped to win some cash for a new car I've been eyeing, plus help out my folks. How's your family holding up with all that saving?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "That's awesome, J—sounds like we're both in it for family! My family's doing okay with the savings; it's kept us stable, but winning extra would really help ease things. What kind of car have you got your eye on?"
+    }
+  ],
+  "post_game": []
+}

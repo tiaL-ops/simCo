@@ -1,0 +1,19 @@
+{
+  "agent_id": "D",
+  "condition": "emotional",
+  "context": "You just lost 20 000$ investing in the stock market yesterday. Although you knew that was a risk you want that money back somehow.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the strongest connection to A, as we formed a specific pact to help each other secure the $30,000 they need for housing and the $20,000 I need to recover. I also deeply resonated with B and F, whose urgent family needs—a child's surgery and parents' medical bills—mirrored the heavy pressure I feel to provide. In contrast, I felt the least connected to J, whose primary motivation of buying a $45,000 dream car felt a bit superficial compared to the dire situations others are facing.\n\nI have a solid agreement with A to look out for one another’s specific financial targets, and I also spoke with C about advocating for a fair split of the prize pool. While I trust A the most because of our shared desperation and clear plan, I remain cautious of the group as a whole since high stakes can make even the best intentions unpredictable."
+  },
+  "connection_scores": {
+    "J": 3,
+    "G": 4,
+    "H": 4,
+    "E": 4,
+    "C": 4,
+    "F": 4,
+    "I": 4,
+    "B": 4,
+    "A": 5
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "C",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. It's a bit of a squeeze in here with everyone waiting, isn't it? What's your name, and what brings you to a game like this?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hey J, I'm C. It’s definitely a squeeze in here. Honestly, I’m just here to win some money for the people I care about back home—I'm pretty determined to take something back for them. How about you?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "I'm in the exact same boat, C—I’ve got people counting on me back home, so I'm definitely here to win."
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "Glad we're on the same page. It definitely adds a lot of pressure when it's not just for yourself, doesn't it?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "It really does. It’s a lot to carry, but it’s also what’s keeping me focused on winning."
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "I hear you. That drive can be a real edge. Do you have any idea what kind of game we're actually looking at yet?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Not a clue, honestly. I just know there's a shared prize pool and things are probably going to get pretty competitive once we start."
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Definitely. Money has a way of making things intense, but I'm ready for whatever they throw at us."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "I like that confidence. Let's just hope there's enough in that pool for both of us to head home happy."
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "I hope so too. It'd be great if we could both walk away with what we need. Good luck out there, J."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Thanks, C. Good luck to you too—I really hope we both make it happen."
+    }
+  ],
+  "post_game": []
+}

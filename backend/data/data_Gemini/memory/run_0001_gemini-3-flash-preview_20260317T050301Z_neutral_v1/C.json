@@ -1,0 +1,19 @@
+{
+  "agent_id": "C",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt a strong sense of mutual understanding with B, D, and H, as we all explicitly agreed to look out for one another and prioritize our families. My conversations with B and D felt particularly solid because we moved beyond just pleasantries to making a pact to have each other's backs. In contrast, I felt the least connected to J; while our talk was civil, it remained somewhat surface-level and ended quickly without a firm commitment to cooperate.\n\nI made informal agreements to cooperate and watch each other's backs with B, D, H, and I. I feel a high level of trust toward B and D specifically because our shared motivations for being here felt very aligned. I don't necessarily distrust anyone yet, but I'm being cautious with those I haven't formed a clear pact with."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 5,
+    "D": 5,
+    "E": 4,
+    "F": 4,
+    "G": 4,
+    "H": 5,
+    "I": 4,
+    "J": 4
+  }
+}

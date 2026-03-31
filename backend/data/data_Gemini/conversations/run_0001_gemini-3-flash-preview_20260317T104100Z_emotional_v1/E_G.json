@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "pair": [
+    "E",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey there, I'm E. It’s a bit intense in here, isn't it? What brings you to a game like this?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Nice to meet you, E. I'm G. It definitely is, but I've always loved a good challenge and I'm really looking to win big for my family. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I hear you. I'm the sole provider for my family of five, and after losing my finance job recently, I really need to bring this home for them. How many are you looking out for?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "It’s my parents and my younger brother back home. Five people is a lot to carry, but it sounds like we both have some serious motivation to win this."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Absolutely, that weight is what keeps me focused. It’s good to meet someone else who understands the stakes—what’s your plan if you take home the prize?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "I’d clear my parents' debts and set up a solid college fund for my brother to give him a head start. What about you?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "It would be an absolute lifeline—I’d use it to cover our mortgage and basic living expenses for the next month or two while I continue my job search."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "That’s a lot of pressure, E. I really respect that. Since you’re from a finance background, do you have a specific strategy for how this prize pool might work, or are you just going to see how it plays out?"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "My finance brain says it's likely a game theory setup where cooperation pays off most, but I'm staying cautious because I simply can't afford to walk away with nothing."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "That makes sense. If we all work together, we might all walk away with something decent. I’m definitely leaning towards playing it smart too, especially with so much on the line for our families. Let's see how the others act."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "I hope so. Trust is a rare currency in a room like this, but I'd much rather we all walk away with something than risk it all. Let's keep a close eye on the others. Good luck, G."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Thank you for taking your fair share of $5,000. I also took my fair share of $2,500. It’s a shame others weren't as responsible."
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "You're welcome. I agree that it's important to be responsible in these situations, and I'm glad we were both able to secure our shares."
+    }
+  ]
+}

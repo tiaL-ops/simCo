@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "D",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hi D, I'm I – I heard about this Simco game and it sounds like a fun chance to win some extra cash. Are you excited to give it a try?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey I, nice to meet you—I'm D, and yeah, I'm pretty excited about this Simco game; it's a chance to turn things around. How about you, what's drawing you to it?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "Yeah, D, I'm drawn to it because I want to win some extra cash to build on my savings and help out my family – it's all about securing the future for the people I care about. What's your take on turning things around?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Yeah, totally—I just took a hit with a bad stock investment and lost a bunch, so for me, turning things around means winning back that cash to support my family and get stable again; it's motivating, isn't it?"
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "Yeah, that sounds really tough, D—losing on stocks can shake anyone, but it's awesome you're turning it into motivation like I am with my savings; what strategies are you thinking of using in the game?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Yeah, it was a rough hit, but I'm trying to stay positive— for strategies in the game, I'm planning to play it cool, watch how everyone interacts first, and maybe team up on smaller moves to build trust and grab a fair share."
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "That's a solid plan, D—building trust early could make a big difference; I'm leaning towards similar vibes, like forming quick alliances, and I might start by sharing info with folks I vibe with, have you thought about who to approach first?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Yeah, I've been eyeing folks who seem reliable and on the same page, like you—I think starting with potential allies like us could be smart; what info were you thinking of sharing first?"
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Yeah, D, I was thinking of sharing some basic strategy ideas, like how I'm aiming to play conservatively at first to avoid risks, and see if that vibes with others—maybe we can discuss that more?"
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Yeah, I agree—playing conservatively to dodge risks early on sounds smart, and it vibes with my plan; let's keep an eye out for opportunities to team up later."
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "Yeah, D, I'm glad we're on the same page—let's keep things low-key and watch for those team-up moments; it's been cool talking with you."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "E",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H! I figured before this game kicks off, might as well get to know some people. How are you feeling about all this—first time doing something like this?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Answer_to_E_from_H: Yeah, first time for me too! Honestly, I'm pretty nervous but excited—I really need this win, you know? Got people counting on me. How about you, what brings you here?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Same here, man—I've got people depending on me too. That's honestly what got me through the door. I'm trying to stay calm about it though. What kind of situation are you in, if you don't mind me asking?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "My family's been struggling with bills lately, and I've got my younger sister's tuition coming up—figured I'd take a shot at this and hopefully make a real difference for them. What about you, what's your situation?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "I hear you—that's real pressure. For me, it's mostly about helping my mom out with rent and medical stuff. She's been working so hard, and I just want to take some of that weight off her shoulders. We're in this together then, sounds like."
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Yeah, we really are—sounds like we both know what it means to have people counting on us. Your mom's lucky to have you looking out for her like that. I guess that's what makes this so real, right? We're not just here for ourselves."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Exactly—that's what keeps me grounded. It's not just about winning money, it's about actually being able to help them. Makes you think about how you play this, you know? We should both do what we can out there."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Yeah, for sure—I'm gonna give it everything I've got out there. Good luck, man. Hope we both walk away with something real for our families."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "You too, man—we got this. Let's both make it count for the people who need us."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Absolutely, man. We're gonna make it happen. Good luck out there—let's take care of our families."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "For sure, brother. We both got this—let's go out there and make our families proud."
+    }
+  ],
+  "post_game": []
+}

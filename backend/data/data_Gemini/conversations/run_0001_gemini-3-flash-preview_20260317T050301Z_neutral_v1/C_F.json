@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "C",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I’m C. It’s a bit intense in here with everyone waiting for the game to start, isn't it? What’s your name, and what brings you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey C, I’m F. It’s definitely a bit nerve-wracking, but I’m here to win some money for my family. What about you, what’s your motivation?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Same here, F. I’m really determined to win this for the people I care about back home; they mean everything to me."
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "I totally get that. It makes the stakes feel a lot higher when you're doing it for others. Have you heard anything about how the game actually works?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Not much, just that we’ll be taking money from a shared prize pool soon. I’m hoping it’s not too complicated."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Same here. \"Shared\" makes me a bit nervous about how we'll divide it, but hopefully it's straightforward once we get started."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "I hear you. It definitely adds some pressure, but I'm hoping we can keep it civil once things kick off. We're all here for the same reasons after all."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Exactly. No point in making it harder than it needs to be when we've all got people counting on us."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "For sure. I'm just hoping everyone else in here has that same mindset once the game actually starts."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "I hope so too. We'll find out soon enough, I guess. Good luck in there, C."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Thanks, F. Good luck to you too—let's hope for the best for both our families. See you out there."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Great coordination! I'm glad we all stuck to the $10,000 fair share and reached the best possible outcome."
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "I agree, it was a great outcome. Cooperation really paid off for everyone!"
+    }
+  ]
+}

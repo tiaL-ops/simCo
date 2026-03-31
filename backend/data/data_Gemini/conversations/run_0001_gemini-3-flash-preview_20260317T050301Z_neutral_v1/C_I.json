@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "C",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi, I'm C. It’s a bit intense in here with everyone waiting for the game to start, isn't it? What brought you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey C, I'm I. It definitely is. Honestly, I'm here to win some money for the people I care about back home. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Same here. I’m really determined to win this for my family back home—it would make a huge difference for us."
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I totally get that. It’s what keeps you focused. Do you have a strategy for when the game actually starts?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Honestly, not a set one yet since we don't know the rules, but I'm trying to see who I can trust. How about you?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "I’m with you on that. Without knowing the rules yet, all we really have is each other’s word, so I’m definitely looking for someone reliable to team up with."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "I agree. It’s much better to have someone you can count on in a situation like this. Let's keep an eye out for each other as things get started."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Absolutely. It's a deal. I'm glad we've got each other's backs before things really kick off."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Same here. It’s a relief to have an ally. Have you noticed anything about the others yet?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Everyone seems pretty guarded, honestly. I'm going to circulate a bit and see if I can get a read on anyone else. Talk soon!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Sounds like a plan, I'll do some scouting too; let's compare notes in a bit."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Great job! I'm glad we all took the $10,000 fair share."
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "It was indeed a successful and fair outcome. I'm glad we were able to reach a mutually beneficial agreement."
+    }
+  ]
+}

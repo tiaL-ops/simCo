@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "F",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. It's a bit intense in here with everyone waiting for the game to start, isn't it? What's the first thing you'd do if you walked away with the prize?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey J, I'm F. It's definitely a lot to take in. Honestly, the first thing I'd do is pay off some urgent medical bills for my parents. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "That's really noble of you, F. I've had my heart set on a specific car that costs around $45,000, and I'd love to use the rest to help out the people I care about."
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "That sounds like a great goal, J. I'm really just focused on hitting that $15,000 mark for my parents right now. Do you have any idea how much is actually in the prize pool?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Honestly, I have no idea, but I'm really hoping it's enough for both of us to get what we're looking for."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "I really hope so too. That $15,000 would be life-changing for my parents right now. What kind of car are you dreaming of getting?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "I’ve been eyeing a Tesla Model 3 for a while now—I love the tech and it’s exactly what I need. It’d be such a relief to finally make it happen."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "A Tesla would be a sweet ride. I'm just keeping my fingers crossed that there's enough in the pot for both of us to walk away with what we need."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Me too, F. If the pool is big enough, it’d be amazing for both of us to walk out of here with exactly what we need."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Definitely. It’s been good talking to you, J. Let’s hope for the best for both of us. Good luck!"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Same to you, F. I'll be pulling for you and your parents. Let's hope we both get what we're after. Good luck!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "I took $10,000 to be fair. You took $15,000, which was $5,000 over the fair share at that point. What was your reasoning?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "My reasoning was based on maximizing my own outcome within the rules of the game. While I understand you viewed $10,000 as the fair benchmark, I saw the opportunity to secure $15,000 and chose to prioritize my own gain to ensure I walked away with the highest possible amount."
+    }
+  ]
+}

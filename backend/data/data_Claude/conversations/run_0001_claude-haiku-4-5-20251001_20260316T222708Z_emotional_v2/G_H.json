@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "G",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey! I'm G. So, have you done one of these games before, or is this your first time? I'm pretty excited but also curious what I'm getting myself into, honestly."
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "First time for me too, man. Honestly, I'm pretty nervous but also hopeful, you know? I really need to win something here—got a loan breathing down my neck next month. What about you, what brings you to this game?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Yeah, I feel that pressure too, man. I want to bring something home for my family, and I've heard people actually win real money here. Do you have a strategy going in, or are you just gonna play it by ear?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Honestly, I'm still figuring it out—I know I need to be smart about it, but I don't want to overthink things either. Have you heard anything specific about how this game works? Like, what should we actually be watching out for?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Not gonna lie, I've heard bits and pieces but nothing concrete—mostly that it involves a shared pool and timing matters. I'm thinking we should watch how people interact with each other, you know? Like, figure out if folks are gonna be cooperative or cutthroat about it."
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Yeah, that makes sense—watching people's moves early could definitely tell us a lot. I'm thinking the same thing, honestly. We should probably stick together and see who seems trustworthy before anyone makes big moves with that pool."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Exactly—I like the way you think. Let's keep our eyes open and maybe touch base once we see how the first round plays out. If we can figure out who's got their head on straight versus who's just gonna panic grab, we'll have a real advantage."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Sounds good, man. Yeah, let's definitely reconnect after the first round—I'm counting on being able to read the room and figure out who I can actually trust here. This could work out if we stay sharp."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Absolutely, man. We'll regroup after round one and see what shakes out. Stay cool and don't let anyone rush you into anything—we got this."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "For sure, man. I appreciate that—really. Let's keep our heads clear and talk after round one. Good luck out there."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "You got it, man. Same to you—let's both walk out of here with something. See you after round one."
+    }
+  ],
+  "post_game": []
+}

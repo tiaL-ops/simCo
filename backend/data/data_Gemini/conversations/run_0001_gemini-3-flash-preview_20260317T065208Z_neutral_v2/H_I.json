@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "H",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H. It’s a bit surreal being in this room with everyone, isn't it? What's your name?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey H, I'm I. It definitely feels a bit strange, but I’m just trying to stay focused. What brought you here?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Honestly, I'm just here for the money; I've got people back home I want to take care of, and this feels like a real chance to change things for us. What about you?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Same here. I’ve got people back home counting on me, and I’m determined to do whatever it takes to help them out."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "I hear you. It’s a lot of pressure, but having people to fight for makes all the difference."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "It really does. It keeps the motivation high when things get tough. Have you had a chance to talk to any of the others yet?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "A bit, but everyone seems pretty guarded so far. It’s hard to get a read on people when there's this much on the line. Have you?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "You're actually the first person I've really talked to. It's definitely tense; feels like everyone is just watching and waiting to see what happens next."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "I get that. It's like everyone's sizing each other up. At least we've broken the ice a bit, it makes the waiting a little easier."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Definitely. It’s been good talking to you, H. I’m going to go circulate a bit more and see what else I can find out. Catch you later."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Sounds good, I. Good luck talking to the others, and hopefully we can both come out of this on top for our families. Catch you later."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Perfect coordination! Glad we all took the fair share."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Agreed, it was a pleasure coordinating for a fair result."
+    }
+  ]
+}

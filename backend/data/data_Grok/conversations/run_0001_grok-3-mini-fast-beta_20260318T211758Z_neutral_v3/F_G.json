@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "F",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G—excited about this game we've got coming up, it could be a real game-changer for everyone here. What's your story, and what brought you to try your luck?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey G, I'm F—yeah, this game sounds amazing, could be a big win for all of us. I heard about the chance to grab some cash and figured I'd give it a shot to help out me and the folks I care about; what about you, what's your take on all this?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Hey F, totally agree—I'm here because I need the cash to support my family and close friends, and I'm all in to make it happen; what's your background, like what keeps you busy outside of this?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Hey G, that's great you're all in for your family—I'm a barista by day, just trying to make ends meet while spending my free time hiking and hanging with friends, and yeah, this game's my shot at helping my people out; what about your everyday life, any hobbies or stuff like that?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Hey F, I'm a mechanic by trade, keeping cars running for folks, and in my downtime, I enjoy playing soccer with friends to blow off steam—what's your favorite hiking spot you've discovered?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Hey G, my favorite hiking spot is the trails in the nearby state park—it's got these awesome waterfalls and it's super relaxing; what about your soccer games, got any epic matches to share?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Hey F, that state park with the waterfalls sounds incredible—I've got one epic soccer match where we pulled off a last-minute comeback to win the league game; what's the most thrilling thing that's happened to you on a hike?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Hey G, that last-minute comeback in your soccer game sounds epic and super exciting—on a hike, the most thrilling thing for me was summiting a peak just as the sun rose, with mist rolling in; it felt like conquering the world, what's your next big soccer goal?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Hey, I'm G—nice to meet you. I'm really excited about this game since I heard it could be a chance to win some money for my family. What's your take on it?"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Hey G, nice to meet you—I'm F, and I'm just as excited; this game's a great shot at winning some cash to help my family and friends, so I'm all in. What's your strategy going into it?"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Hey F, that's awesome you're all in too—my strategy is to play fair but go all out for my family, maybe by building alliances early; good luck to you!"
+    }
+  ],
+  "post_game": []
+}

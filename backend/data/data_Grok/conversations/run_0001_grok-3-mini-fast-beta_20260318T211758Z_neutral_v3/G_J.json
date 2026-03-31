@@ -1,0 +1,85 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "G",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey G, I'm J – I heard about this Simco game and it's got me all pumped up about winning some cash for my folks. What's your story, what brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey J, nice to meet you! I'm G, and I'm here for the Simco game too—I heard about the winnings and I'm super determined to take some cash home for my family and close friends. What's your take on the game?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Hey G, yeah, the game's got me buzzing—I'm all about playing smart and fair to grab that cash for my folks, but I worry it might get competitive. What's your strategy here?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Hey J, totally understand the competitive vibe—I'm planning to play it smart by building some quick alliances and keeping things fair, so we all have a shot at winning. How are you thinking of navigating that?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Hey G, I appreciate that approach—I'm planning to navigate it by focusing on trust and maybe teaming up early for mutual support, while still watching my own back for my family's sake. What alliances do you have in mind?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Hey J, that's a solid plan—I'm thinking of starting alliances with folks who vibe well and share similar goals, like you maybe? Who were you considering teaming up with?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Hey G, I'm definitely open to teaming up with you since we both want to play fair and support our families—maybe we can start with that and see who else vibes with us?"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Hey J, that sounds awesome—I'm in for teaming up with you first, and let's scout for others who are all about fairness and family, maybe start by chatting with a couple of folks together?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Hey G, that sounds perfect—let's team up and approach a couple of folks together, maybe start with whoever seems approachable and family-oriented!"
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Hey J, absolutely, let's go for it—I'll scan the room for anyone who seems chill and family-focused, and we can chat them up together!"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Hey G, awesome plan—let's team up and start scouting for those chill folks right away!"
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Hey J, I'm pumped to team up and scout for those chill folks—let's make this happen!"
+    },
+    {
+      "turn": 13,
+      "from": "J",
+      "message": "Hey, I'm J—nice to meet you! I heard about this Simco game and got super excited about the chance to win some money for my family and friends; what about you, what's your story?"
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "Hey J, we already chatted and teamed up earlier—feels like we're good to go from there!"
+    },
+    {
+      "turn": 15,
+      "from": "J",
+      "message": "Hey G, yeah, we've got this team thing locked in—excited to see how it plays out!"
+    }
+  ],
+  "post_game": []
+}

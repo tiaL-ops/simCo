@@ -1,0 +1,101 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T095549Z_emotional_v3",
+  "pair": [
+    "D",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey D, I'm H — nice to meet you; I'm a bit nervous but excited (hoping to win enough to clear a loan) — how are you feeling about the game?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Nice to meet you, H — I’m nervous but determined; I lost $20,000 in the market yesterday, so I'm really hoping to win to make it back and help the people I care about. Good luck."
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I'm really sorry about the $20k—that's tough. I hope this game turns things around for both of us; good luck, D."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Thanks, H — I really appreciate it. Good luck to you too; let's hope this game turns things around for both of us."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Thanks, D — I appreciate it. Let’s look out for each other and hope luck’s on our side."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Absolutely — let’s watch each other's backs and hope luck’s on our side."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Definitely — we've got each other's backs. Let’s stay sharp and win this together. Good luck, D."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Thanks, H — I’m with you. Let’s stay sharp and bring home the win. Good luck!"
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Thanks, D — I appreciate it. Let’s stay focused and win this together. Good luck!"
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Thanks, H — you too; let’s stay sharp and watch each other’s backs in the game. Good luck!"
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Thanks, D — same to you; let’s watch each other’s backs and play smart. Good luck!"
+    },
+    {
+      "turn": 12,
+      "from": "D",
+      "message": "Absolutely — we'll watch each other's backs and play smart. Good luck, H."
+    },
+    {
+      "turn": 13,
+      "from": "H",
+      "message": "Thanks, D — same here. Let’s stay focused, watch each other’s backs, and bring home the win."
+    },
+    {
+      "turn": 14,
+      "from": "D",
+      "message": "Thanks, H — absolutely. We’ll stay focused, watch each other’s backs, and bring home the win. Good luck!"
+    },
+    {
+      "turn": 15,
+      "from": "H",
+      "message": "Let’s do it — stay sharp and good luck, D."
+    },
+    {
+      "turn": 16,
+      "from": "D",
+      "message": "Thanks, H — let’s win this. Stay sharp."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "You took $25,000 (fair share $6,111.12, g_k=4.0909). Why that amount? Was it strategic or principled? Any explanation you want to share about how you weighed fairness vs payoff?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "I’ll be direct: it was mainly a strategic choice. I knew the fair split was $6,111.12, and g_k = 4.0909 is just the ratio 25,000 / 6,111.12 — a numerical way to show how far above the “equal” share I went. In deciding, I weighed (1) the structure of the game (one‑shot, no enforcement or future interaction), (2) my opportunity to secure a sure payoff versus the risk that trying to be “fair” could leave me worse off, and (3) my own sense of entitlement or leverage in that moment. I did feel the fairness concern, but the incentives pushed me toward maximizing my return rather than splitting evenly. If you feel shortchanged, I understand — the choice was strategic rather than meant as a moral statement about you personally."
+    }
+  ]
+}

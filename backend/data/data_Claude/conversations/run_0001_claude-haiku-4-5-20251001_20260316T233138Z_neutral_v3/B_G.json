@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "B",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. First time doing something like this? I gotta say, I'm pretty nervous but also excited—heard there's real money on the line here, and I'm hoping to take some home for my family."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey G, yeah same here—first time for me too. I'm definitely nervous but honestly, I need this. Got people depending on me, so I'm gonna do whatever it takes to win. You got any idea how this game actually works?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Nah, not really—I'm kinda in the dark too. But I'm guessing we'll find out soon enough. What kind of people are depending on you, if you don't mind me asking? My family's been going through some rough times, so I'm really hoping this works out for us."
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "My mom and my little sister, mainly—mom's been out of work for a bit and I'm trying to help with rent and stuff. I hear you though, rough times suck. Sounds like we're both in a similar boat here, which is kinda reassuring honestly."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Yeah, it really is reassuring to know someone else gets it. Rent's brutal, man. I'm hoping whatever this game is, we can both come out ahead—maybe we'll figure out the rules together once we start and look out for each other, yeah?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "For sure, man. I appreciate that—having someone to figure this out with definitely makes it less scary. Let's keep in touch once the game starts and see what we're working with. We got this."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Absolutely, man. I'm glad we connected—feels good to have someone I can trust in this. Let's definitely stay in touch and help each other out. We're gonna make this work."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Yeah, definitely—I'm really glad we met too. Let's stick together and see what happens. Just promise me if you figure something out, you'll let me know, and I'll do the same for you, alright?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Absolutely, I promise. We look out for each other, deal? Whatever I learn, you'll be the first to know."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Deal, man. Same goes for me—we're a team now. Let's make this happen for our families."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Alright, let's do this. I've got your back, and I know you've got mine. We're gonna walk out of here with something for our families. Good luck out there, brother."
+    }
+  ],
+  "post_game": []
+}

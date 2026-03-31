@@ -1,0 +1,19 @@
+{
+  "agent_id": "D",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to B, H, and I. With B, we had a really honest conversation about balancing aggression with caution, and there was mutual respect for straightforward communication. H and I both emphasized the importance of reading people and figuring out who's genuinely willing to cooperate, and we made a solid plan to compare notes before things started. All three of these conversations felt grounded and real—like we were actually trying to solve the problem together rather than just making small talk.\n\nI felt least connected to A, though it wasn't negative. Our conversation was friendly enough, but it was more surface-level than the others—we didn't dig as deep into strategy or make any real commitments to work together.\n\nI made explicit agreements with H, E, I, and F to compare notes and potentially work together once we understand the rules better. I also promised B that we'd figure out if cooperation makes sense after seeing what we're dealing with. Going into this game, I trust B, H, E, I, J, F, C, G, and A—they all seemed genuine about needing to win and being honest. I don't specifically distrust anyone yet, but I'm aware that once the game starts, people's true priorities might shift, so I'm going in with my eyes open and ready to adjust."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "E": 4,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 4
+  }
+}

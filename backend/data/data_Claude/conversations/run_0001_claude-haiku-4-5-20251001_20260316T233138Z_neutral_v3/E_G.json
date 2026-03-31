@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "E",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. First time doing something like this? I'm pretty nervous but also excited — figured I'd come chat with people before we get started, see what everyone's about."
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey G, nice to meet you! Yeah, first time for me too actually. I'm pretty pumped about it though — I came here because I really need to win some money, you know? What about you, what brings you here?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Same here, man — I really need to bring something home for my family. We're counting on this, so I'm gonna give it my best shot. What's your situation, if you don't mind me asking?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Yeah, I feel that. I've got people depending on me too — my mom's been struggling with bills, and I just want to be able to help out for once, you know? That's why I'm really focused on doing well here. Do you have a strategy in mind for how you're gonna approach this game?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Honestly, I'm still figuring it out — I guess I'm gonna watch how people act, try to get a feel for who I can trust, and then make my moves accordingly. What about you, do you have a plan going in?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Yeah, I'm kind of in the same boat — I haven't seen the rules yet so I'm not totally sure what we're working with. But honestly, I'm thinking the same thing about reading people. Maybe we can keep an eye out for each other once we know what the game actually is? Seems like we've got similar motivations here."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Yeah, I like that idea — having someone to watch out for would definitely help. We're both in this for the right reasons, so I think we can be real with each other. Let's see what the rules are and figure it out from there."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Definitely, man. I appreciate that — it's good to know I've got someone I can actually trust in this. Let's stick together and see how it plays out once we know what we're dealing with."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "For sure, I got your back. We'll figure this out together when we see the rules — just keep it real with me and we'll both walk outta here with something for our families."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Absolutely, man. I'm gonna hold you to that. Let's both go home with something to show for it."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "You got it, brother. We're gonna do this right — for our families. Let's make it happen."
+    }
+  ],
+  "post_game": []
+}

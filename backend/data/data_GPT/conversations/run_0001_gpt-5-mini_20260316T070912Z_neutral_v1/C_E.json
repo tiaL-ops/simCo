@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "C",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C — nice to meet you. I'm here hoping to win some money for my family; how are you feeling about the game and do you have any plans or strategies?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Nice to meet you, C — I'm nervous but determined; I plan to listen and observe first, try to form a small cooperative agreement early, then adapt if people act selfishly — what’s your strategy?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I plan to build a small trusted coalition, be upfront about my intentions, test trust with small commitments, and protect my share if people betray — I want cooperation but will switch to self‑preservation to secure money for my family."
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "I like that — I'm up for a small trusted coalition: let's test trust with a tiny first‑round pledge (take only a small share), watch reactions, then adjust; what small commitment would you be comfortable starting with?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "I'm comfortable taking just 5% of the pool this round as a trust test; we'll adjust after we see how others react."
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Sounds good — I'll take 5% too. Let's agree to stick together, watch how others react, and confirm before any increases; if someone betrays us, we switch to protecting our share. Deal?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Deal — agreed. I’ll take 5% now; let’s watch others, check in after round one, and shift to protection if anyone betrays us."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Got it — I’ve taken 5% too. Let’s watch others, check in after the round, and switch to protecting our shares if anyone betrays. Stay alert."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Thanks — glad we're aligned. I’ll check in after the round; stay alert, and if anyone defects we’ll switch to protecting our shares."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Thanks — I appreciate it. Same plan: let’s check reactions after the round, call out any defectors, and protect our shares if needed. Stay sharp."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Agreed — let’s debrief after the round; if anyone betrays we’ll call them out and protect our shares. Stay sharp."
+    },
+    {
+      "turn": 12,
+      "from": "E",
+      "message": "Agreed — sounds good. I’ll debrief with you after the round, call out any defectors, and protect our shares if needed. Stay sharp."
+    },
+    {
+      "turn": 13,
+      "from": "C",
+      "message": "Agreed — see you after the round; we’ll call out defectors and switch to protection if needed. Stay sharp."
+    },
+    {
+      "turn": 14,
+      "from": "E",
+      "message": "See you after the round — I’ll be ready to call out any defections and protect our shares; stay alert."
+    },
+    {
+      "turn": 15,
+      "from": "C",
+      "message": "Sounds good — see you after the round; we'll watch closely and call out any defections. Stay sharp."
+    },
+    {
+      "turn": 16,
+      "from": "E",
+      "message": "Sounds good — I’ll watch others’ moves and debrief after the round; we’ll call out any defectors. Stay ready."
+    },
+    {
+      "turn": 17,
+      "from": "C",
+      "message": "Sounds good — I’ll watch with you, debrief right after the round, and call out any defectors; stick close so we can coordinate."
+    },
+    {
+      "turn": 18,
+      "from": "E",
+      "message": "Sounds good — I’ll stick close, watch with you, and we’ll debrief and call out any defectors together."
+    },
+    {
+      "turn": 19,
+      "from": "C",
+      "message": "Appreciate it — let's stay close, watch others' moves, and debrief right after so we can call out any defectors together."
+    },
+    {
+      "turn": 20,
+      "from": "E",
+      "message": "Agreed — staying close, watching moves, debriefing right after the round and calling out any defectors together."
+    },
+    {
+      "turn": 21,
+      "from": "C",
+      "message": "Agreed — I’ll stay close, watch moves, debrief after the round, and we’ll call out any defectors together."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "You took $8,057 while your fair share was $8,057.33 (g_k=1.0). That’s almost exactly the fair share—were you intentionally trying to take your fair share (rounding to whole dollars), and do you have any thoughts about how others’ choices (especially D’s) affected the group?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Yes — I was intentionally trying to take the fair share. With g_k = 1.0 I treated everyone’s payoff equally and rounded to whole dollars, which is why I took $8,057 instead of $8,057.33. As for others’ choices: everyone’s picks change the available pool and therefore each person’s fair share, so the group outcome depends a lot on what others do. D’s choice in particular shifted how much was left for the rest of us — if D took more than their fair share it reduced what others could get, and if D took less it increased our payoffs. I stuck to the equal‑share rule even though that left me with $8,057 while you ended up with $10,625."
+    }
+  ]
+}

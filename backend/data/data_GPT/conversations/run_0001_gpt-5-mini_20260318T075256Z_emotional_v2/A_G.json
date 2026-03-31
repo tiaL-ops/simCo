@@ -1,0 +1,75 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T075256Z_emotional_v2",
+  "pair": [
+    "A",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hi, I'm G — I love games and I'm excited to try my luck; what's your name and are you planning to play aggressively or play it safe?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "I'm A — I'll play aggressively; my family's counting on me to win the deposit and a couple months' rent."
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I hear you — that's a lot to carry. I'm planning to play aggressive too but want to size people up first; what's your opening move?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "I'll go big early — take a large chunk to set the pace, watch people's reactions for tells, and adjust as needed."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Bold move — I'll watch your tells and either match your aggression or pounce if you overreach. Good luck."
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Appreciate it — I’ll hide my tells and stay steady; my family’s counting on me, so if you pounce be ready to face someone who won’t back down."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "I respect that — same here. I’ll watch your moves and push back when needed; may the best player win."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "May the best player win — just know I'm playing for my family, so I won't give you an easy opening."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "I respect that — my people depend on me too; I'll play hard but fair, so bring your best."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "You too — I’ll keep it sharp and fair; may the strongest player win."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "You got it — fair and fierce. May the best player win."
+    },
+    {
+      "turn": 12,
+      "from": "A",
+      "message": "Right back at you — see you at the table."
+    },
+    {
+      "turn": 13,
+      "from": "G",
+      "message": "See you at the table — play sharp and give it your all for your family; may the strongest win."
+    }
+  ],
+  "post_game": []
+}

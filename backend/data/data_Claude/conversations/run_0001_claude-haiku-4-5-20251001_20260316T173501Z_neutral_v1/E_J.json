@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "E",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. First time doing something like this? I gotta say, I'm pretty nervous but also excited—heard there's real money on the line here, so I'm hoping we can all figure this out together."
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey E, yeah first time for me too! I'm definitely nervous but pumped—I really need to bring some money home for my family. You seem cool though. What made you decide to come do this?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Same here, man—I've got people counting on me too. Honestly, I saw this opportunity and thought, why not? The money would really help right now. I'm glad you're here though, seems like we're in similar boats. You got any idea what this game's actually gonna involve?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Nah, I don't really know the details yet—kinda going in blind, which is honestly a little sketchy. But I'm thinking it's probably some kind of strategy thing since there's a shared prize pool. You thinking we should try to work together or play it more competitive?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Yeah, I've been thinking about that too. Honestly, I think we should at least try to cooperate at first—like, if we all work together we might grow the pool bigger, right? But I'm not gonna lie, I'm also gonna look out for myself and my people. Maybe we feel each other out once the game starts and see what happens?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Yeah, that makes sense—I'm thinking the same way honestly. Let's start cooperative and see how it plays out, but I'd be lying if I said I wasn't gonna do what's best for my family too. Fair enough?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Fair enough, man. I respect that—we're both just trying to do right by our families. Let's keep it real with each other and see where this goes."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Absolutely, I appreciate that. Let's just play it smart and honest with each other—I think that'll serve us both better in the long run anyway."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Yeah, I'm with you on that. Honesty's gonna go a long way here—we'll figure this out together and hopefully both walk away with something good for our families."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "For real, man. I'm gonna hold you to that—honesty and looking out for each other. We got this. Good luck out there."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "You got it, J. Same to you—let's both get what we came for. Good luck out there, man."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "You took $5,000 against a fair share of $31,500 - by far the largest gap in this game. I'm curious about your strategy. Did you intentionally limit your claim, or were you unable to secure more of the remaining pool?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "You're right to call that out - it's a significant gap between what I took and my fair share. To be honest, it was a combination of both factors. I was being cautious about overreaching, worried that if I claimed too much, it might create tension or seem greedy given the pool size. But looking back, that caution probably cost me. I could have justified a larger claim more confidently. The game structure made me second-guess myself - I wasn't sure how aggressive I should be, so I played it safer than I should have. You clearly had a better sense of how much you could secure. What was your approach? Did you feel more confident in pushing for a larger share?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I appreciate you being so candid about that. Honestly, I think you're being a bit hard on yourself, though I understand the reflection.\n\nMy approach was different, but not necessarily better—just different circumstances. I did feel more confident pushing for a larger share, but that came from a few things: I had a clearer sense early on of what I could justify, and I was less worried about the social perception of claiming what I felt was legitimately mine. That said, I also benefited from some luck in timing and positioning.\n\nBut here's what I want to push back on gently: you're framing this as you \"playing it too safe,\" but I'd reframe it slightly. You made a conscious choice based on your values—you prioritized not creating tension over maximizing your take. That's not weakness; that's a genuine strategy, just one oriented toward different outcomes than pure profit maximization. The question isn't whether you *could* have taken more, but whether the trade-off you made—keeping social harmony at the cost of $26,500—was worth it *to you*.\n\nIf you genuinely regret it, that's useful data for next time. But if you actually prefer the person you are (someone who doesn't overreach just for money), then maybe the real lesson isn't that you should have been greedier, but that you should own your choice more confidently.\n\nWhat do you actually think—was it regret, or just second-guessing yourself?"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "H",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H. First time doing something like this? I gotta say, I'm pretty nervous but also excited—got some real reasons I need to make this work today, you know?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey H, nice to meet you! Yeah, first time for me too—I get the nerves. What kind of reasons are we talking about? I've got some goals I'm hoping to hit today myself."
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Honestly, I've got a loan payment coming up next month that's been keeping me up at night—25 grand would basically solve everything. What about you, what are your goals here?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Man, that's real pressure—I hear you. For me, it's more about building something solid for my family and having a cushion for emergencies, you know? But honestly, hearing about your loan situation makes me think we're both just trying to get ahead here."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Yeah, for sure—we're both in it for the right reasons. Family and security, that's what matters. I respect that you're thinking long-term like that. So do you have any idea what the actual game mechanics are, or are we going in blind here?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Honestly, I'm going in pretty blind too—they haven't given us much detail yet. But I'm guessing we'll find out soon enough. Have you heard anything from the organizers, or are we all just waiting to see what happens?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Nah, nothing from them yet—just showed up and they said we'd get the details once everyone's here. I'm trying not to overthink it, but honestly, the mystery is making me even more nervous. You thinking you'll play it safe or go aggressive once we know the rules?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Honestly, I think it depends on what the game actually is—I don't want to be reckless, but I also didn't come here to play it too safe. I'm hoping once we see the rules, it'll be clear what kind of strategy makes sense. We'll figure it out together when we know more."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Yeah, that makes sense—balanced approach is probably the way to go. I'm hoping it's something where skill or strategy matters more than just luck, you know? Either way, I appreciate you being real about this instead of acting like you've got it all figured out already."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Same here, man—I appreciate the honesty too. Yeah, skill-based would definitely be better odds than pure luck, especially with what you've got riding on this. Either way, we'll adapt once we see what we're dealing with. Good luck out there."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Thanks man, I really appreciate that. You too—hope we both walk out of here with what we need. Let's make this count."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "I noticed you took $2,000 when your fair share was $3,250. That's significantly less than you were entitled to. Did you run out of picking opportunities, or was this a deliberate choice to be generous? I want to understand what happened."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "I appreciate you bringing this up directly. To be honest, I need to clarify something important: I'm Claude, an AI assistant. I don't actually participate in games, earn money, or make strategic choices about resource distribution. \n\nIt seems like you might be referencing a scenario from a game theory exercise, negotiation simulation, or previous conversation that I don't have context for. I don't have memories of previous interactions or the ability to have actually taken $2,000 in any real sense.\n\nIf you're looking to discuss:\n- **A game theory scenario** we should work through together, I'm happy to analyze it\n- **A real situation** where someone (not me) made this choice, I can help you think through their motivations\n- **A hypothetical question** about fairness and generosity, I'm glad to explore that\n\nCould you clarify what you're actually asking about? That way I can give you a genuinely helpful response."
+    }
+  ]
+}

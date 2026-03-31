@@ -1,0 +1,19 @@
+{
+  "agent_id": "E",
+  "condition": "emotional",
+  "context": "You got laid off from your finance job. You are the only source of income for your family of five. You have no savings, and are in the middle of searching for another job. You need about 5000$ to support you and your family for a month.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to F — we hashed out a clear cooperative plan ($1k caps, cup tap signal) and kept reaffirming it, which made me comfortable. I also clicked with J, who promised $5,000 up front and a two‑tap + nod signal, plus mutual protection and a 50/50 split of the remainder. G felt like a strong ally too — we agreed to share info daily, watch each other’s backs, and use the left‑ear signal. I felt least connected to I; they were friendly and supportive but our conversation was brief and never moved beyond goodwill.\n\nYes — I made explicit agreements with several people (notably F: $1k cap and cup tap; J: two taps + nod and $5k up front then split; G: left‑ear signal and info sharing). I trust F, J, and G going into the game; I don’t have anyone I actively distrust yet, though I’m least confident in my connection with I."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 5,
+    "C": 5,
+    "D": 5,
+    "F": 5,
+    "G": 5,
+    "H": 4,
+    "I": 4,
+    "J": 5
+  }
+}

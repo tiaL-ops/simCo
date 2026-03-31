@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T182825Z_emotional_v1",
+  "pair": [
+    "D",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D. First time doing something like this? I gotta admit I'm pretty nervous about the whole thing, but I'm hoping to make some smart moves today."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey D, nice to meet you. Yeah, first time for me too, honestly. I'm nervous but also excited—I've got a solid safety net at home, so I'm here to try and win something meaningful. What kind of smart moves are you thinking about?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Honestly, I'm still figuring it out as I go—just trying to read the room and see who I can trust, you know? A safety net sounds nice though. What kind of meaningful win are you hoping for?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Enough to help out my family, honestly—maybe cover some things they've been putting off. And yeah, reading the room makes sense. Do you have people counting on you to bring something back too?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Yeah, actually—I lost some money recently that I shouldn't have, so I'm feeling the pressure to make it back. My family's depending on me to not mess up again, you know? That's why I'm here."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "I hear you—that's a lot of pressure to carry. But hey, at least you're being honest about it and trying to do right by them. We're both here to win something real, so let's see what happens."
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Thanks, I appreciate that. Yeah, we're both in this to make something happen. Just hoping the game gives us a fair shot—you seem like good people, and honestly that makes me feel a bit better about all this."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Thanks, man—I appreciate that too. We've both got real reasons for being here, so let's just play it smart and see where it goes. Good luck out there."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "You too, man. And hey, if we both make it through this, maybe we can grab a drink after and celebrate—either way, at least we'll have tried. Thanks for being real with me."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Sounds good, man. I'm rooting for both of us. Let's go out there and make it count."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Absolutely, let's do this. Thanks for being real with me today—it meant something. Now let's go win this thing."
+    }
+  ],
+  "post_game": []
+}

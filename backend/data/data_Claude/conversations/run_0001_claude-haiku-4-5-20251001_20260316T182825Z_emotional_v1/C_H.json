@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T182825Z_emotional_v1",
+  "pair": [
+    "C",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey! I'm C. I noticed you sitting here and thought I'd come say hi before things get started. Have you done anything like this before, or is this your first time?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey C, nice to meet you! First time actually—I'm pretty nervous but also excited, you know? I really need to make this work. Have you done one of these before?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "First time for me too, honestly! But I'm feeling pretty determined about it. What do you mean you really need to make this work? Is there something specific you're hoping to win for?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Yeah, I've got a loan coming due next month and I'm still short on the payment. Honestly, if I could walk out of here with even a portion of that prize pool, it would take a huge weight off my shoulders. What about you—what's driving your determination?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Oh man, that's a lot of pressure—I really hope things work out for you. For me, it's a bit different; I've been saving for this dream trip to Japan and I'm so close, but I also want to be able to help out some people I care about who could use it. So yeah, I'm definitely motivated to do well here too."
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "That's awesome that you're thinking about helping others too—Japan sounds amazing, by the way. It sounds like we're both in situations where this could really change things for us. Do you have any sense of what the game is actually going to involve, or are we going in blind?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Honestly, I'm going in pretty blind too—they haven't given us much detail yet. But I'm trying not to overthink it; I figure we'll find out soon enough. Have you picked up on anything from the other people here, or is everyone as in the dark as we are?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Yeah, seems like everyone's pretty much in the same boat—nobody really knows what we're walking into. But honestly, that's kind of making me even more nervous, you know? I keep wondering if there's some strategy I should be thinking about or if it's just luck. Have you thought about what you'd do differently depending on what the game turns out to be?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Yeah, I get that nervousness—I've been thinking about it too, honestly. I think no matter what the game is, it probably comes down to staying calm and reading the room, you know? Like, if it's about strategy, I'd want to think a few moves ahead, but if it's luck-based, I guess it's just about making smart choices with whatever hand we're dealt. Either way, I'm trying to go in with an open mind rather than overthinking it."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "That's solid advice, honestly. Yeah, staying calm and reading the room—I like that. I think you're right that overthinking it won't help. I'm gonna try to do the same. Good luck in there, C. I have a feeling we're both gonna need to keep our heads on straight."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Thanks, H—I really mean it. And hey, I genuinely hope that loan situation works out for you. We've got this. Let's both walk out of here with our heads held high."
+    }
+  ],
+  "post_game": []
+}

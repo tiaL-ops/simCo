@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "B",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C. It's a bit tense in here, isn't it? What are you planning to do if you walk away with the prize?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey C, I'm B. It really is. Honestly, the money would go straight to my family to help them out. How about you?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Pretty much the same—I’ve got people back home I really need to look out for, so that's my main motivation."
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "I hear that. It definitely makes you more determined. Have you talked to any of the others yet about how they're feeling?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Not really, just a few quick hellos. Everyone seems pretty guarded, which I guess is expected. Have you managed to get a read on anyone yet?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Same here, everyone's keeping their cards close. It's hard to tell who's actually friendly and who's just playing a part."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Tell me about it. It’s hard to know who to trust when there’s so much at stake, but I’m hoping we can at least be straight with each other."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "I’m with you on that. It would definitely make things a lot easier if we could actually rely on someone in here."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Exactly. Let’s try to look out for each other then—it’s better than going in totally alone."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "I appreciate that, C. It feels good to have an ally in here. I'm going to go mingle a bit more, but let's stick to that plan. Good luck!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Sounds good, B. Let's do this. Good luck out there, see you soon!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Great job! I'm glad we all stuck to the fair share."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Thanks for being fair. It's great to see such perfect coordination in splitting the prize equally."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I agree, it worked out perfectly. It was a pleasure collaborating with you."
+    }
+  ]
+}

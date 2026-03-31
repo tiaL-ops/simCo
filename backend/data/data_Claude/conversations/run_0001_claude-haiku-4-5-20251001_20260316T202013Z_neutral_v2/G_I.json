@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "G",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. I figured before this game kicks off, might be good to get to know some people in the room. How are you feeling about all this? First time doing something like this?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Yeah, first time for me too, honestly. I'm pretty pumped about it though — I could really use a win today. How about you, you done this before?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Nah, first time for me too! But I'm in the same boat — I really need this win. Got people counting on me back home. What's your situation, if you don't mind me asking?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Yeah, I feel that. Same here — got family I want to help out. Honestly, that's what's driving me to really focus and do well in this game. You thinking you'll play it safe or go for broke?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "I'm leaning toward playing it smart rather than reckless — I want to actually walk out with something, you know? But I'm definitely not here to play small either. What about you, you got a strategy in mind yet?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Yeah, I respect that. I'm thinking the same way — calculated moves, not just throwing it all in blindly. I want to maximize my chances without being stupid about it. Guess we'll see how it plays out once the game actually starts, right?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Exactly, man. Sounds like we're on the same wavelength. Good luck out there — hope we both walk away with something to show for it."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Thanks, man. Same to you — let's both get what we came for. See you out there."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Absolutely, let's do this. Take care out there."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "You too, man. We got this."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Yeah, we do. Catch you after the game — let's both bring home that win."
+    }
+  ],
+  "post_game": []
+}

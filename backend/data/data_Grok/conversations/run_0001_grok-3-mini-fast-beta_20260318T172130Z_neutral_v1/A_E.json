@@ -1,0 +1,60 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "A",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey E, I'm A and I'm really pumped about this game—it's a chance to win some money and help out the folks I care about. What's your story, why are you here?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey A, nice to meet you—I'm E, and I'm here because I heard about this game and want to win some cash to help out my family and friends; what got you interested in it?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Oh, hey E, I heard about this game from a buddy who knows I'm always hustling for extra cash, and since I want to support my family and friends, I figured this was my shot to win big—what about you, any tips for the game?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Hey A, that's awesome you're hustling for your people—I'm not sure on specific tips yet since it's new to me, but maybe we should focus on building trust with everyone here; what's your take on how the game might play out?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Totally, E, building trust could be key in a game like this—I figure it'll come down to weighing cooperation against everyone's self-interest, might lead to some alliances or betrayals; what's your strategy for navigating that?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Yeah, A, I agree—my strategy is to start with cooperation and build solid alliances, but stay cautious about self-interest; how do you plan to handle potential betrayals?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Yeah, E, that's a solid approach—I plan to handle betrayals by staying calm and confronting it directly to clear the air, but if it happens again, I'll have to protect my own interests; what about you, how far would you go to maintain an alliance?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Yeah, A, I'd go pretty far to keep an alliance strong, like working through issues and giving people the benefit of the doubt once, but I wouldn't risk my own chances if it keeps going south—what's your biggest worry in forming alliances here?"
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Yeah, E, my biggest worry is that in a game like this, some folks might fake alliances just to get ahead, which could leave me high and dry—what about you, any specific fears on that front?"
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Yeah, A, my biggest fear is ending up trusting the wrong person who turns out to be all talk and no loyalty, potentially costing me the win—it's why I'm being extra careful with alliances."
+    }
+  ],
+  "post_game": []
+}

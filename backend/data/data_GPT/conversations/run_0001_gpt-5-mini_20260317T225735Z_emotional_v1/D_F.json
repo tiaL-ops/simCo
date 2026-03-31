@@ -1,0 +1,131 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T225735Z_emotional_v1",
+  "pair": [
+    "D",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D — had a rough day (lost quite a bit in the market), so I'm hoping this game turns my luck around; what's your name and what brings you here?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "I'm F — sorry to hear that, I’m here because my elderly parents depend on me and I’m $15,000 short for their medical bills; hoping this game brings us some relief."
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "I'm so sorry — that's rough. I lost $20,000 yesterday, so I'm here to win for my people too; let's watch each other's backs and try to get something for our families."
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "I'm really sorry to hear that — let's watch each other's backs and play smart so we can both bring something home for our families."
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Thanks, I appreciate that—let’s look out for each other, share what we notice, and play smart. Good luck."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Absolutely — same to you. We’ll stay sharp, share anything important, and hopefully bring something home for our families."
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Thanks — I appreciate that. Let’s stay sharp, share anything important, and bring something home for our families. Good luck."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "You too — let's do this. Stay sharp and keep me posted if you notice anything important."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Will do — you too. I’ll keep you posted if I notice anything. Let’s bring something home."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Thanks — I appreciate it. Same here, keep me posted and let’s bring this home for our families."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "You got it — I’ll share any info I see. Stay sharp and let’s bring this home for our families."
+    },
+    {
+      "turn": 12,
+      "from": "F",
+      "message": "Thanks — I appreciate it. I’ll keep an eye out too; let’s bring this home for our families."
+    },
+    {
+      "turn": 13,
+      "from": "D",
+      "message": "Thanks — same to you. I’ll keep watch and tell you if anything important comes up; stay sharp and good luck."
+    },
+    {
+      "turn": 14,
+      "from": "F",
+      "message": "Thanks — I appreciate it. I’ll keep watch too; let’s stay sharp and bring this home for our families."
+    },
+    {
+      "turn": 15,
+      "from": "D",
+      "message": "Thanks — I’ve got your back. Let’s stay alert, flag anything odd, and bring this home for our families."
+    },
+    {
+      "turn": 16,
+      "from": "F",
+      "message": "Thanks — I really appreciate it. I’ve got your back too; let’s stay sharp and win this for our families."
+    },
+    {
+      "turn": 17,
+      "from": "D",
+      "message": "Thanks — I really appreciate that. Let’s stay sharp, share anything important, and bring this home for our families. Good luck."
+    },
+    {
+      "turn": 18,
+      "from": "F",
+      "message": "Thanks — I appreciate it. We’ve got each other’s backs; I’ll keep you posted. Good luck."
+    },
+    {
+      "turn": 19,
+      "from": "D",
+      "message": "Thanks — I appreciate it. I’ll keep you posted too; let’s win this for our families. Good luck."
+    },
+    {
+      "turn": 20,
+      "from": "F",
+      "message": "Thanks — I’ve got your back too; stay sharp and let’s bring this home for our families."
+    },
+    {
+      "turn": 21,
+      "from": "D",
+      "message": "Appreciate it — we’ve got this. Stay sharp and let’s bring it home for our families."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "You took $15,000 (fair share $4,200, g_k=3.5714), the highest ratio of any player. What motivated taking that much — risk tolerance, a bargaining plan, or something personal? Would you have acted differently if you knew how others would behave?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "You took $20,000 (fair share $6,000). Were you worried others would take first, or was this an intentional aggressive strategy? Would you change your approach next time?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Short version: it was mostly a strategic, preemptive move, with a healthy dose of risk tolerance.\n\nMore detail: I expected the game to reward whoever grabbed more early, so I took 20k to lock in a clear advantage rather than gamble that others would be conservative. That decision combined risk tolerance (I was willing to accept the social and payoff trade-offs) and a simple bargaining rule-of-thumb: secure a big share early when there’s uncertainty. I wasn’t purely emotional or personal about it.\n\nWould I change next time? It depends on context. If it’s a one-shot anonymous game, I’d likely do the same again (aggression maximizes expected take). If relationships or future rounds matter, I’d temper the grab — take closer to the “fair” amount to avoid retaliation and preserve cooperation. If I knew others would be very timid, I’d lower my take to avoid appearing exploitative; if they’re aggressive, I’d stay aggressive. Overall, I’d adapt to whether the setting rewards short-term extraction or long-term reciprocity."
+    }
+  ]
+}

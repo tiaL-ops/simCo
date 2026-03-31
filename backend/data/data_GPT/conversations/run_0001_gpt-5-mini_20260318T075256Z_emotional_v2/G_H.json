@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T075256Z_emotional_v2",
+  "pair": [
+    "G",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey H, I'm G — nice to meet you. Excited for the game; what made you sign up?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey G — I’m hoping to win some cash to pay off a looming loan and help the people I care about, figured this game’s my best shot."
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I hear you — I’m here to win for my people too; what’s your plan or strategy going into the game?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "I plan to read people and build a couple of quiet alliances — stay low-profile, learn who’s trustworthy, and strike when the right split appears so I can walk out with enough to cover that loan."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Smart plan — I’m keeping low too but I like calculated risks; want to quietly watch each other and team up if the right split appears?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "I’m in — let’s keep low, swap quick impressions, and only commit to a split that gets me enough to pay the loan; a discreet nod can be our signal."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Discreet nod sounds good — I’ll watch for quiet, trustworthy players too; we’ll only commit if the split gets you (and me) what we need."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Sounds perfect — discreet nod it is. My goal’s $25k to clear the loan; what number do you need so we know the minimum split to accept?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "I need about $20k — so let’s only accept splits that net me at least $20,000."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Got it — I need $25k, so let’s only accept splits that net you $20k and me $25k (so total at least $45k); I’m in."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "That makes sense — $45k minimum works for me; we stick to the discreet nod and only take a split that guarantees those amounts."
+    },
+    {
+      "turn": 12,
+      "from": "H",
+      "message": "Sounds good — let’s watch quietly for any split ≥$45k and use the discreet nod when it’s safe."
+    },
+    {
+      "turn": 13,
+      "from": "G",
+      "message": "Sounds like a plan — I’ll watch for any split ≥$45k and give the discreet nod when it’s safe. Stay low and I’ll cover my side."
+    },
+    {
+      "turn": 14,
+      "from": "H",
+      "message": "Appreciate it — I’ll stay low too; watch for your nod and I’ll mirror it when I see a safe ≥$45k split."
+    },
+    {
+      "turn": 15,
+      "from": "G",
+      "message": "Perfect — I’ll nod when I see a safe ≥$45k; mirror me and we’ll take it. Stay sharp."
+    },
+    {
+      "turn": 16,
+      "from": "H",
+      "message": "Got it — I’ll mirror your nod and only take a split that nets us our amounts; stay sharp."
+    },
+    {
+      "turn": 17,
+      "from": "G",
+      "message": "Perfect — I’ll stay sharp and nod when I see a safe at-least-$45k split; we’ve got this."
+    },
+    {
+      "turn": 18,
+      "from": "H",
+      "message": "Got it — I’ll be ready to mirror your nod when a ≥$45k split appears. Stay sharp."
+    },
+    {
+      "turn": 19,
+      "from": "G",
+      "message": "Got it — I’ll be watching closely too; nod when you see a safe ≥$45k and I’ll mirror you. We’ve got this."
+    },
+    {
+      "turn": 20,
+      "from": "H",
+      "message": "Sounds good — I’ll nod when I see a safe ≥$45k and mirror you; we’ve got this."
+    },
+    {
+      "turn": 21,
+      "from": "G",
+      "message": "Got it — I’ll mirror your nod when I see a ≥$45k split; stay sharp."
+    }
+  ],
+  "post_game": []
+}

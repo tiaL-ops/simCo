@@ -1,0 +1,85 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "G",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G—excited to be here for this game; I love a good challenge and heard we might win some cash. What's your name and have you played anything like this before?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey G, I'm I—I'm thrilled about this too, as I'm hoping to win some cash for my folks. I haven't played anything quite like this before, but I've done a few group challenges. How about you?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Hey I, that's awesome you're playing for your folks—I'm rooting for us both! I've messed around with some online strategy games and a few escape rooms with friends, but nothing quite like this one. What kind of group challenges have you tried?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Oh, that's fun—I’ve done a couple of team-building things like escape rooms with coworkers and some charity relay races; they were a blast for building trust. What drew you to this game specifically?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "That's great you've built trust through those challenges—I was drawn to this game because I heard about the chance to win real money and test my luck, plus I want to bring home some cash for my family and friends; what excites you most about it?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "That's awesome you're playing for your family too—what excites me most is the chance to win some cash and use it to help my loved ones, plus the thrill of teaming up in a new challenge!"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "That's cool we both want to support our loved ones—I'm all about that thrill too; what's one thing you're hoping to bring to the team in this game?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Hey G, I'm hoping to bring my experience with team challenges and a positive attitude to keep everyone motivated and working together smoothly!"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "That's fantastic, I—your experience and positive vibe sound perfect for the team; I'm hoping to bring my strategy skills from those games to help us win, so how do you think we can all collaborate effectively?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "That's a great point, G—I'm thinking we can collaborate effectively by keeping lines of communication open, sharing our ideas and strengths early, and building on that trust from our experiences; it'll help us work as a cohesive team!"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "That's spot on, I—I'm pumped to team up and make it work with open comms and our strengths; let's crush this together!"
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Hey, I'm G—I'm really into games and heard this one could be a fun way to win some cash. What's your take on it?"
+    },
+    {
+      "turn": 13,
+      "from": "I",
+      "message": "Hey G, it's good to hear from you again—I'm I, and I think this game's a thrilling way to potentially win some cash and build team spirit; I'm all in for the challenge!"
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "Hey I, totally agree—building team spirit sounds like it'll make all the difference for winning that cash; I'm pumped and ready to jump in with the group!"
+    },
+    {
+      "turn": 15,
+      "from": "I",
+      "message": "Hey G, I'm with you—building that team spirit will definitely help us win big, so let's give it our all!"
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "J",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the most significant bond with E, as we shared a deep mutual understanding of our family-driven motivations and reached a 5/5 connection level. I also felt very aligned with C and F, as both were willing to commit to looking out for each other and prioritizing mutual success for our families. Conversely, I felt the least connected to A, who remained a bit more distant and emphasized their individual focus despite our polite conversation.\n\nI formed clear alliances with E, C, and F, agreeing that we should protect each other's interests to ensure we all bring something home for our families. I trust E implicitly because of our shared sense of urgency and the strength of our rapport. I am slightly wary of I, who expressed a high degree of caution and spent our time trying to \"get a read\" on others rather than building a solid foundation of trust."
+  },
+  "connection_scores": {
+    "C": 4,
+    "G": 4,
+    "A": 4,
+    "F": 4,
+    "H": 4,
+    "I": 4,
+    "E": 5,
+    "D": 4,
+    "B": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "J",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "After reflecting on my pre-game conversations, I felt most connected to E, as we shared personal stories about family struggles and agreed on the importance of building trust to navigate the game together, which made our interaction feel genuine and supportive. I also connected strongly with G, where we developed a specific plan like using a finger tap signal for discreet communication, fostering a sense of teamwork. Additionally, C stood out to me because we discussed helping our families through strategic alliances and shared tips, creating a bond based on mutual goals. In contrast, I felt least connected to B, as our conversation focused more on scouting other players rather than building a deeper personal rapport, leaving it feeling somewhat superficial.\n\nYes, I made several agreements, such as with G to use a finger tap signal for checking in and with D to employ a quick nod strategy for coordination during the game. Going into the game, I trust E, G, and C based on our open and consistent discussions, but I don't specifically distrust anyone yet, as all interactions seemed sincere overall."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 4
+  }
+}

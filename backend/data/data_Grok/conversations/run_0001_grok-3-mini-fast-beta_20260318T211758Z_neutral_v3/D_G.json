@@ -1,0 +1,116 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "D",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey D, I'm G and I'm pretty pumped about this Simco game—it's a chance to win some cash and maybe treat the folks back home. What's got you interested in it?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey G, nice to meet you—I'm super excited about this Simco game too, mainly 'cause I want to win some cash and help out my family back home. What about you, any tips for the game?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Hey D, that's awesome about your family—I'm in the same boat; no solid tips yet, but maybe we should team up and share strategies as we go. What's your take on the game so far?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Hey G, that's cool we're on the same page—teaming up sounds smart, and my take is it's all about strategy and not holding back; what strategies are you thinking of sharing?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Hey D, totally agree on the strategy part—I'm still brainstorming, but maybe starting with sharing info on what others are saying; what's your top idea for teaming up?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Hey G, my top idea for teaming up is to keep sharing what we learn from others and maybe coordinate on key moves to avoid messing each other up—what's your next thought on that?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Hey D, that sounds like a solid plan—sharing what we learn and coordinating moves is key to not tripping each other up. My next thought is maybe we agree on some simple signals for big decisions; what's your idea for making that work?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Hey G, yeah, simple signals sound smart—maybe like nodding for agreement or saying 'solid' for go-ahead; how about we test a couple during practice?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Hey D, sounds good—nodding and 'solid' are simple enough; let's test them out during practice and see how they feel in action!"
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Hey G, that's perfect—let's give those signals a try in practice and make sure we're set!"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Hey D, awesome plan—let's crush it in practice with those signals!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey D, I see you took $16,200, which is more than your fair share of $10,125. Can you explain why you chose that amount?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey G, I appreciate you bringing this up. I chose to take $16,200 because it was based on the game's outcomes and my performance—I put in more effort and strategies that led to that earning. The fair share might seem like $10,125 to you, but from my perspective, it reflects what I actually generated. Let's discuss this further if you'd like."
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Hey D, thanks for explaining your perspective—I get that you feel your effort and strategies justified the $16,200 you took. However, based on what I see from the game, my earnings were $9,000, and the fair share calculation puts you at $10,125, which makes it seem uneven. Could you share more details about the specific strategies you used so we can discuss this fairly? Let's keep talking."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Hey G, I appreciate you being open to discussing this further—it's helpful to dive deeper into the details. To clarify, the strategies I used involved a combination of higher-risk investments and proactive resource management during the game. For instance, I allocated more of my in-game resources early on to high-yield opportunities, like diversifying into multiple sectors that paid off significantly, which ultimately boosted my earnings to $16,200. In contrast, I noticed you focused on steadier, lower-risk plays, which is totally valid and led to your $9,000. That said, I'm happy to hear your thoughts on how we might adjust things to make it feel more balanced overall. What do you think? Let's keep the conversation going."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Hey D, thanks for sharing those details about your strategies—it gives me a better understanding of how you ended up with $16,200. I can see how your high-risk investments and early resource allocation paid off, especially with that diversification into multiple sectors. On my end, I chose the steadier, lower-risk approach to minimize potential losses, which is why I ended up at $9,000, but I totally respect your method since it worked for you.\n\nThat being said, while I appreciate your perspective, the overall fairness still feels off to me based on the game's structure and the fair share calculation of $10,125 for you. Maybe we could look at splitting the difference or finding a middle ground, like adjusting your take to something closer to that fair share to make it more equitable for both of us. What are your thoughts on that? Let's keep discussing."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Hey G, thanks for your thoughtful response and for suggesting ways to find a middle ground—I really appreciate you keeping the conversation constructive. I understand where you're coming from about the fair share of $10,125 feeling more balanced based on the game's structure, and I respect that your steady approach helped you secure your $9,000 without the risks I took. That said, since my strategies involved higher risks and led to the $16,200 outcome, I still believe it reflects the value I generated in the game.\n\nTo address your idea of splitting the difference, I'm open to exploring that as a compromise. Maybe we could aim for something around the midpoint, like adjusting my take to, say, $13,000 or so, which would acknowledge both our perspectives and make things feel fairer overall. What do you think about that? Let's continue the discussion and see if we can reach an agreement."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Hey D, thanks for your willingness to compromise and for suggesting $13,000 as a potential middle ground—it's great that we're both focused on finding a fair solution. I appreciate you acknowledging the risks you took and how that contributed to your earnings, and I can see why you'd want to hold onto some of that value.\n\nThat said, while $13,000 is a step in the right direction from your original $16,200, it still feels a bit higher than the fair share of $10,125 based on the game's structure. Maybe we could refine this further and aim for something closer to the midpoint between your proposal and the fair share, like $11,500? That way, it recognizes your efforts while making things more equitable overall. What do you think? Let's keep talking and try to nail this down."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Hey G, thanks for your continued openness in this discussion and for proposing $11,500 as a refined middle ground—it's clear we're both committed to finding a solution that feels fair. I appreciate you recognizing my efforts and risks, and I can see how aiming for something closer to the fair share makes sense from your perspective.\n\nThat said, while $11,500 is a reasonable step toward compromise, it still feels a bit low to me since it doesn't fully account for the higher returns I generated through my strategies. Maybe we could meet somewhere in between, like $12,000, which would better balance your suggestion with my previous proposal of $13,000. What do you think? Let's keep working on this and see if we can finalize an agreement."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Hey D, thanks for your thoughtful counterproposal and for suggesting $12,000 as a way to meet in the middle—it's great that we're both still engaged in finding a fair resolution. I appreciate you explaining how your strategies contributed to the higher returns, and I can see why you'd want to adjust upward from my previous suggestion.\n\nThat said, while $12,000 is a reasonable step closer to your perspective, it still feels a tad higher than what aligns with the fair share of $10,125 based on the game's structure. Maybe we could split the difference between your $12,000 and my $11,500 proposal, landing at something like $11,750? That might help us reach a balanced agreement that acknowledges both our views. What do you think? Let's keep discussing and try to wrap this up."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Hey G, thanks for your thoughtful counterproposal and for suggesting $11,750 as a way to split the difference—it's great that we're making progress and getting closer to a fair resolution that acknowledges both our perspectives. I appreciate your willingness to keep the discussion constructive and find a balanced middle ground.\n\nThat said, after thinking about it, $11,750 seems like a reasonable compromise that respects the fair share calculation while still recognizing the risks and efforts I put in. I'm happy to go with that to wrap things up. What do you think? Let's confirm and move forward."
+    }
+  ]
+}

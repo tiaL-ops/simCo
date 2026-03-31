@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "D",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I’m D. It’s a bit tense in here with everyone waiting for the game to start, isn't it? What's your name?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey D, I'm H. It really is. Hard not to be a little on edge when there's money on the line."
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "I hear you. I'm trying to stay focused since I've got people counting on me back home. What's your motivation for being here?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Same boat. I’ve got people I care about who could really use the help, so I’m determined to bring home as much as I can for them."
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "I respect that. It definitely adds a lot of pressure when it’s for family, but it keeps the drive strong. Have you thought about how you're going to approach the game?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "I'm still playing it by ear, but I'm hoping we can all be reasonable so everyone gets a piece. What's your plan?"
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "I’m thinking along the same lines—I’d much rather we all walk away with something than risk leaving empty-handed by being too greedy."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "I agree. Hopefully the others feel the same way once things actually get moving."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Fingers crossed. If we can get a few more people on the same page, we'll all have a much better shot at actually bringing something home."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Definitely. I’m going to see if I can get a feel for what the others are thinking. Catch you later."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Good call, H. Let's hope the others are thinking along the same lines. Good luck."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "I'm really glad we all stuck to the fair share of $10,000. It's great to see such perfect cooperation!"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "I agree, it was a pleasure to see such a fair and successful outcome for both of us."
+    }
+  ]
+}

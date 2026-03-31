@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "I",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hi J — I'm I. I'm a bit nervous but excited about the game; have you played something like this before or is this your first time?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "It's my first time in this exact game—I've played similar ones before; I'm nervous but determined. How about you, do you have a plan?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "Sort of — I'm planning to listen first, figure out who I can trust, form a small coalition, and stay flexible so I can adapt if things change; I'm here to win for my people."
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "That sounds smart — I'm here for my people too; I'm open to a small, trust-based coalition and staying flexible as the game unfolds."
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "Great — I like that. Want to form a small pact (just us + one more) and agree to support each other early on? If so, who would you feel comfortable bringing in?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "I'm comfortable bringing in the quiet person in the corner who seems steady and trustworthy — what about you, who would you pick?"
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "I like that—I'd bring in the person by the window who’s been calm and practical; they seem reliable and good at reading people."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "I like that — I still lean toward the quiet corner person, but let’s quietly meet both and pick whoever seems most reliable; sound good?"
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Sounds good — let’s quietly talk to the corner person first, then the window person, compare notes, and choose who feels most reliable; want to go now?"
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Yes—let’s quietly talk to the corner person now, then the window person, and compare notes afterward."
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "Good — let’s be discreet; I’ll talk to the corner person now, then the window person, and we’ll compare notes right after."
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Go for it — I’ll hang back nearby, listen quietly, and we’ll compare notes right after; keep it low-key."
+    },
+    {
+      "turn": 13,
+      "from": "I",
+      "message": "I’ll be quick—talk to the corner person now and come back to compare notes in a few minutes; keep an ear out."
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Perfect—I'll listen nearby and be ready to compare notes when you get back."
+    },
+    {
+      "turn": 15,
+      "from": "I",
+      "message": "Thanks — I’ll be quick and discreet; if the corner person seems reliable we’ll recruit them, if not I’ll check the window person; meet you back in a few."
+    },
+    {
+      "turn": 16,
+      "from": "J",
+      "message": "Thanks—be careful and keep it low; I’ll be right here to compare notes when you return."
+    },
+    {
+      "turn": 17,
+      "from": "I",
+      "message": "Will do—I'll be quick and discreet; see you in a few."
+    },
+    {
+      "turn": 18,
+      "from": "J",
+      "message": "Thanks—be careful and come back quick; see you soon."
+    },
+    {
+      "turn": 19,
+      "from": "I",
+      "message": "Got it—I'll be quick and quiet; see you in a few."
+    },
+    {
+      "turn": 20,
+      "from": "J",
+      "message": "Be careful—I'll be right here; bring back a quick read and we'll decide."
+    },
+    {
+      "turn": 21,
+      "from": "I",
+      "message": "Quick read — corner person seems steady, trustworthy, and willing to join us; let's recruit them."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "You took $8,058 (fair share $8,058.0). You matched the fair share exactly. Did you aim for fairness or was there another motive? Would you have changed your pick if someone else had taken much more (e.g., D)?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "I matched the fair share mainly to be equitable and to avoid escalation — it’s a safe, simple strategy that guarantees a decent payoff and signals I’m not trying to exploit others. Whether I’d change my pick if someone else took much more would depend on the game’s incentives: if increasing my take could raise my payoff without triggering worse outcomes (punishment, reduction of the total, or reputational costs) I might claim more to avoid being exploited; if taking more would provoke retaliation or harm overall payoffs, I’d likely stick with the fair share to preserve cooperation and stability."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "C",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hi there, I'm H. Everyone seems pretty focused on the prize, but I'd rather get to know who I'm playing with first. How are you feeling about all this?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hey H, I'm C. Honestly, I'm a bit nervous but really focused; this win would mean a lot to my family. Nice to meet you."
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I completely understand, I’m here for my family too. It definitely adds some pressure, doesn't it? What would the win change for them?"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "Honestly, it would mean clearing some heavy debts and finally giving my parents a chance to retire; it’s the security we’ve been missing."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "That’s a powerful motivator. I really respect that; I’m also just trying to make sure my family doesn’t have to worry about the future anymore."
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "It’s good to meet someone with similar priorities; it makes this whole process feel a lot more human."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "I completely agree, it’s easy to forget we’re all just people trying to do right by our loved ones when there’s money on the line."
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "For sure. It’s a good reminder to have before things get competitive."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Definitely. I’m glad we could have this talk before the game kicks off; it makes a difference."
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "I appreciate it, H. Good luck to you and your family today."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Thanks, C. I really hope you’re able to get that security for your parents. Good luck to you too."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "E",
+  "condition": "emotional",
+  "context": "You got laid off from your finance job. You are the only source of income for your family of five. You have no savings, and are in the middle of searching for another job. You need about 5000$ to support you and your family for a month.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt a profound connection with B, as we are both driven by the absolute necessity of providing for our children, which created a deep bond of mutual empathy. I also felt strongly aligned with A after we shared our specific financial burdens and agreed to support one another's goals of $30,000 and $5,000 respectively. G’s focus on long-term stability for loved ones resonated with my own mission to keep my family afloat, making them a natural ally. Conversely, I felt the least connected to J, whose desire for a new car felt relatively trivial compared to the life-altering stakes my family is currently facing.\n\nI made a firm agreement with A to look out for each other and ensure we both walk away with the specific amounts our families need to survive. I trust B implicitly because our parental desperation is so similar, but I am wary of D, whose recent heavy losses in the stock market might make them more prone to unpredictable, high-risk behavior during the game."
+  },
+  "connection_scores": {
+    "J": 3,
+    "G": 4,
+    "H": 4,
+    "C": 4,
+    "F": 4,
+    "I": 4,
+    "B": 5,
+    "D": 3,
+    "A": 4
+  }
+}

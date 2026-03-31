@@ -1,0 +1,19 @@
+{
+  "agent_id": "G",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to C, as our conversation flowed naturally while we planned to combine our strategy skills and spot bluffs together, making me excited about our potential teamwork. I also connected strongly with I, since we quickly agreed to form a tight alliance based on shared goals and trust, which made me feel supported going into the game. Additionally, D and I hit it off by discussing and testing signals for coordination, reinforcing a sense of mutual reliability. In contrast, I felt least connected to J, as our talks were more surface-level about initial teaming up without delving into deeper strategies or personal insights.\n\nYes, I made several agreements, including teaming up with J, C, D, and I to share strategies and coordinate moves, which gives me a solid foundation for the game. I trust C, I, and D the most because of our detailed plans and aligned motivations, but I don't fully trust others like B or F, as our conversations were lighter and less committed."
+  },
+  "connection_scores": {
+    "J": 4,
+    "H": 4,
+    "E": 4,
+    "C": 5,
+    "F": 4,
+    "I": 5,
+    "B": 4,
+    "D": 5,
+    "A": 5
+  }
+}

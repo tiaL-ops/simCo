@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "D",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D—nice to meet you. I just got into this game because I'm trying to bounce back from a rough patch with investments, and it sounds like a fun way to turn things around. What about you, what's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey D, nice to meet you—I'm I, and I'm here to win some money for my family and to build a safety net, since I heard this game could be a great opportunity; what's your investment background like?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Hey I, thanks for asking—I've been messing around with stocks for a couple of years, but I took a big loss of about 20k just yesterday, which was a real gut punch; I'm hoping this game helps me recover. How about you, do you have any investing experience yourself?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Oh, that sounds really rough, D—sorry about the 20k loss, I hope this game helps you bounce back. I've never dived into investing much myself; I just focus on saving for rainy days and taking opportunities like this one. How do you think we should approach the game together?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Thanks, I appreciate that—it's been tough, but yeah, I'm optimistic about this game. For approaching it together, maybe we could team up and share info on strategies, since it's a shared pool; what kind of opportunities have you taken on before that worked out?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Sounds good, D—teaming up to share strategies could be smart for the shared pool; I've had a win with flipping a used car for a profit a few years back, which boosted my savings, but this game's my biggest gamble yet—what's your main strategy idea?"
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "That's a solid win with the car flip, I—my main strategy is to focus on building trust in our team, sharing info freely, and maybe coordinating moves to protect the shared pool; how do you see us putting that into practice?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Hey D, I think we could start by gathering the group for a quick chat to share what we each know about the game, then set some simple signals for coordinating during play to keep the pool safe—what's your take on that?"
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Yeah, I love that idea, I—gathering the group for a quick huddle sounds perfect to get everyone on the same page and set up those signals; let's see if we can round people up now, what do you think?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Yeah, let's round everyone up for that huddle right away—sounds like a great next step!"
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Sounds great, I—let's get everyone together and make this huddle count; I'm excited to see how we can all work as a team."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "B",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G—nice to meet you. I'm really pumped about this Simco game and the chance to win some cash; how about you, are you excited too?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey G, I'm B—nice to meet you too! Yeah, I'm totally excited about this Simco game and winning some cash; it's a big opportunity for me. How about you, what's got you so pumped?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Oh, hey B, I'm pumped because this game could mean some real money for my family and friends—it's a game-changer for us! What's your story, any plans if we win big?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Oh, totally understand, G—that's awesome you're doing it for your family and friends! For me, it's about bringing home some cash to help the people I care about and maybe finally take that trip I've been dreaming of; what kind of game-changer are you thinking for your folks?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Oh, man, for my folks, it's all about clearing some bills and helping my little sister with her school fees—could really set us up for a better future, you know? What about that trip you're eyeing?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Oh, that's awesome, G—helping with bills and your sister's school is so meaningful, it'll definitely make a difference. The trip I'm eyeing is to Italy; I've always dreamed of seeing Rome and eating all the pasta, what about you, any travel spots on your list?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Oh, that's cool, B—Italy sounds like a dream with all that pasta and history! I've always wanted to visit Japan to see the cherry blossoms and share it with my family someday; what specifically in Rome are you most excited about?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Oh, totally, G—Japan with the cherry blossoms and family vibes sounds magical! In Rome, I'm most excited about wandering the Colosseum and diving into all that ancient history, plus the pasta of course; what's one spot in Japan you're really looking forward to?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Oh, that's awesome about the Colosseum—sounds epic! In Japan, I'm dying to see Kyoto with its temples and cherry blossoms; it feels so peaceful, what else is on your Italy itinerary besides Rome?"
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Oh, that's awesome about Kyoto—sounds so serene! For Italy, I'm definitely planning to hit Venice for the canals and maybe Florence for all the amazing art; it's going to be unforgettable."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Oh, Venice and Florence sound absolutely epic, B—those canals and art would be a dream! Can't wait to hear how your trip goes; good luck in the game, and take care."
+    }
+  ],
+  "post_game": []
+}

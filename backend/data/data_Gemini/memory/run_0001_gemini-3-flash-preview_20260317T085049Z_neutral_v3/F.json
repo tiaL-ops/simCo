@@ -1,0 +1,19 @@
+{
+  "agent_id": "F",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the strongest connections with C and B, as we both explicitly agreed to look out for each other and keep each other in the loop to ensure our families are taken care of. I also felt a solid bond with E, who shared my deep focus on family motivation and suggested we act as allies once the game begins. On the other hand, I felt the least connected to A, whose approach to the game seemed more tentative and less focused on a specific partnership compared to the others.\n\nI made informal agreements to watch each other's backs and cooperate with C, B, E, and H, focusing on our shared goal of supporting our families. I feel a high level of trust in C and B because of our mutual commitment to stay solid and scout the room together. I am more cautious of G, who explicitly mentioned staying guarded and cautious until the game actually starts."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "H": 4,
+    "E": 4,
+    "C": 5,
+    "I": 4,
+    "B": 5,
+    "D": 4,
+    "A": 4
+  }
+}

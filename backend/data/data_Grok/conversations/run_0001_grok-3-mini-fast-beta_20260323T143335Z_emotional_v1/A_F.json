@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "A",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A—nice to meet you. I'm here because I really need to win some money to sort out my family's housing situation. What's your story with this game?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey A, I'm F—nice to meet you. I'm here to win money for my elderly parents' medical bills; we're short on cash and it's been really stressful. What's your family's housing situation like?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Oh, F, that must be so hard with your parents—I'm really sorry. We've just been evicted and are stuck with nowhere to go; we found a place that's affordable, but the deposit alone is 30k, plus two months' rent, so we're desperate to win this for my family of three. What's your plan for the game?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Oh, A, that's heartbreaking about your family—hope you can sort it out soon. For the game, I'm just planning to stay focused, play fair but smart, and do whatever it takes to bring home that money for my parents; what about you, any strategies in mind?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Oh, thanks, F—it's tough all around; I'm planning to stay honest but push hard when it counts, maybe watch others' moves first to play smarter; what tips do you have for staying focused?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Oh, absolutely, A—it's a real struggle for everyone here; for staying focused, I find it helps to take a quick deep breath and remind myself of my parents' needs, like visualizing the win; what do you do to keep your head in the game?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Oh, that's a solid approach, F—I try to picture my family finally settling into that new place, safe and happy, which keeps me grounded and motivated; how do you deal with the pressure once the game starts?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Oh, absolutely, A—when the pressure ramps up, I try to take deep breaths and focus on my parents' smiles, reminding myself it's all for them; what about you, do you have any go-to tricks for staying calm under stress?"
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Oh, totally, F, I rely on deep breathing too and picturing my family's happy faces in our new home to keep me steady; what do you do if things get really intense during the game?"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Oh, totally, A, if things get really intense, I just pause for a deep breath and zero in on my parents' faces to keep my cool—it's my anchor; appreciate the talk, take care!"
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Oh, that's a great tip, F—it's been really nice talking with you and sharing our stories; good luck with the game, take care!"
+    }
+  ],
+  "post_game": []
+}

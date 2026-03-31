@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "H",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey J, I'm H and I'm pretty excited about this Simco game—it could be a real game-changer for me. What drew you to join in?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey H, nice to meet you—I'm pumped about this Simco game too, mainly 'cause I wanna win enough to buy my dream car, which costs a pretty penny. What makes it a game-changer for you?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Hey J, that's awesome about your dream car—sounds exciting! For me, it's a game-changer because I need to pay off a loan soon, and winning could take a huge weight off my shoulders. What's your dream car model?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Oh, yeah, my dream car's a Tesla Model 3—it's sleek and eco-friendly, and that price tag's no joke! How much longer do you have to pay off that loan?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Hey J, I need to pay off that loan next month, so this game couldn't come at a better time—fingers crossed we both win big! What's your plan if you snag that Tesla?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Hey H, that's tough with the loan deadline—fingers crossed for you too! If I snag that Tesla, I'd take it on a road trip and maybe treat my family to something nice; what are your plans after clearing that debt?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Hey J, that's a cool plan with the road trip—sounds like fun for your family! After clearing my debt, I'd want to treat my loved ones to a getaway and finally start saving for a home; what's your favorite spot for that trip?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Hey H, thanks—that road trip idea has me buzzing! My favorite spot would be the Pacific Coast Highway for those epic views; sounds like your getaway will be well-deserved—where are you thinking of going?"
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Hey J, that Pacific Coast Highway sounds incredible—I've always dreamed of going to Hawaii for a relaxing beach getaway with my family; have you planned out your road trip route yet?"
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Hey H, I haven't planned the route in detail yet, but I'd probably start in San Francisco and head south to LA, hitting Big Sur for those killer views—sounds like your Hawaii trip would be epic too!"
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Hey J, that Big Sur route sounds absolutely killer—I'm jealous! Wishing you the best of luck in the game; I've got to chat with the others now."
+    }
+  ],
+  "post_game": []
+}

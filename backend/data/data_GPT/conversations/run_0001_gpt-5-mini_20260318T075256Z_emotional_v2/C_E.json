@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T075256Z_emotional_v2",
+  "pair": [
+    "C",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C — nice to meet you. I'm hoping to win enough here to finally take a dream week in Japan; what brings you to the game?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "I'm E — I was just laid off and I'm the sole provider for my family of five. I need about $5,000 to cover a month of bills while I look for work, so I'm here to win for them."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I'm really sorry to hear that, E — that sounds incredibly stressful. I hope you win what you need; good luck, and let's both give it our best."
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Thanks, C — I really appreciate that. Good luck to you too; I hope you get your dream week in Japan."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Thanks, E — that means a lot. I really hope you win what your family needs; let's both give it our best."
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Thanks, C — that means a lot. I really appreciate the support; let's both do our best. Want to stick together during the game?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Yes — let's stick together and look out for each other; we'll share info and back one another during the game."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Absolutely — thank you. Let's share info, watch each other's backs, and call out threats; I really appreciate you."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Likewise — I appreciate you. We'll watch each other's backs, share info, and play smart. Let's win this."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Thanks, C — I appreciate it; let's stay close, share everything we learn, and trust each other to get through this."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Sounds good — I'm with you. We'll stay close, share everything, and have each other's backs. Let's win this."
+    },
+    {
+      "turn": 12,
+      "from": "E",
+      "message": "Thanks, C — I trust you. Let's stay sharp, share info, and watch each other's backs."
+    },
+    {
+      "turn": 13,
+      "from": "C",
+      "message": "I trust you too — we'll stay sharp, share anything new right away, and watch each other's backs."
+    },
+    {
+      "turn": 14,
+      "from": "E",
+      "message": "I trust you too — let's keep our eyes open, swap any info immediately, and stay tight; we can do this."
+    },
+    {
+      "turn": 15,
+      "from": "C",
+      "message": "Absolutely — I'm with you; we'll swap any info immediately, stay sharp, and cover each other's backs."
+    },
+    {
+      "turn": 16,
+      "from": "E",
+      "message": "Thanks, C — I appreciate it; let's stay close, share everything, and watch each other's backs."
+    },
+    {
+      "turn": 17,
+      "from": "C",
+      "message": "I appreciate you too — let's stay tight and keep each other informed every step of the way."
+    },
+    {
+      "turn": 18,
+      "from": "E",
+      "message": "I appreciate you — let’s stick to our plan; meet by the door a minute before the game and share any updates fast."
+    },
+    {
+      "turn": 19,
+      "from": "C",
+      "message": "Sounds good — I'll meet you by the door a minute before the game. See you there; let's stay sharp."
+    },
+    {
+      "turn": 20,
+      "from": "E",
+      "message": "See you there — I'll be by the door a minute early. Stay sharp, C."
+    },
+    {
+      "turn": 21,
+      "from": "C",
+      "message": "I'll be there a minute early too — see you by the door. Let's stay sharp and watch each other's backs."
+    }
+  ],
+  "post_game": []
+}

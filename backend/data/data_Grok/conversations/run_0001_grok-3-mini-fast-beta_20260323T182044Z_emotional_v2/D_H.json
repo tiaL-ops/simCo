@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "D",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey D, I'm H – nice to meet you. I'm here because I'm hoping to win some money to sort out a few personal things, like paying off a loan; what about you, what's your reason for joining?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey H, nice to meet you too—I'm D, and I'm here 'cause I lost a chunk in the stock market lately and need to win some back for my family; that sounds tough with your loan, what got you into that situation?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Oh, yeah, it's been a bit of a mess— I took out a loan a few years back to cover some unexpected family medical bills, and now it's all due soon. Sounds like we're both in tight spots; how are you feeling about this game, any strategies in mind?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Yeah, medical bills can really hit hard—sorry you're dealing with that. I'm feeling pretty pumped but nervous, like I need to stay sharp and not rush things; no set strategy yet, just winging it for now. What about you, got any thoughts on playing?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Yeah, totally understand the nerves—I'm trying to stay calm and play smart, maybe watch how others move first before making big decisions; excited to see how it all unfolds, what do you think might trip people up in this game?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Oh, for sure, watching others is smart—I think what might trip people up is letting emotions take over, like panicking over small losses or getting too greedy early on; what about you, any specific worries?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Yeah, my main worry is probably overthinking every move and hesitating when I should act, especially with so much on the line—how do you plan to keep your cool during the game?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Yeah, overthinking can really mess things up—I'm just going to focus on deep breaths and keeping my eyes on the prize, like remembering why I'm here for my family; what tips do you have for pushing past that hesitation?"
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Oh, totally, for me, reminding myself of the reason I'm here—like paying off that loan—helps me just dive in, even if it's small steps; maybe try visualizing a win to build that momentum."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Yeah, visualizing a win is a solid tip—I'll give that a shot to stay motivated and push through; thanks for sharing, H, let's both nail this game and get what we need!"
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Yeah, absolutely—let's keep that motivation high and crush it together! Good luck, D."
+    }
+  ],
+  "post_game": []
+}

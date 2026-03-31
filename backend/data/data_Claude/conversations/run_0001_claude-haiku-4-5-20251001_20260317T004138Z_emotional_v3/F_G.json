@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "F",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey! I'm G. First time doing something like this, and I gotta say I'm pretty excited—and maybe a little nervous, haha. Have you played games like this before, or are we both kind of figuring this out together?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey G, nice to meet you! Yeah, first time for me too, honestly. I'm pretty nervous myself—I really need to win this one, so I'm trying to stay focused. What brings you here? What are you hoping to get out of it?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I hear you on needing this—I'm in the same boat honestly. I want to bring some money home for my family, and I figure if I can stay sharp and maybe work together with people rather than just going solo, we might all do better. What's driving you? What do you need the win for?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "My parents are getting older and their medical bills are piling up—I'm short about 15 grand just for the next round of treatments. So yeah, I really need this. I like what you're saying about working together though—that actually makes sense to me. You think there's a way we could help each other out in this game?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "That's a lot of pressure, man—I really respect you being straight about it. Honestly, I'm still figuring out how this game works, but yeah, I think there's definitely potential if we can coordinate. Maybe we compare notes after we understand the rules better? I'm not trying to be naive, but I feel like if we're both thinking about what helps us both win rather than just taking shots at each other, that's gotta be smarter than going in blind."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Yeah, I'm with you on that—cooperation makes way more sense than everyone scrambling solo. Let's definitely compare notes once we see what we're actually working with. I appreciate you being real about this too, man. When do you think we'll get the full breakdown of the rules?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Honestly, no idea—I'm guessing they'll lay it all out right before we start, but I'm hoping sooner rather than later so we can actually strategize. Either way, I'm glad we're on the same page about this. Let's stay sharp and keep each other in the loop once things kick off."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Absolutely, man. I'm counting on us being straight with each other when it matters. Soon as we know what we're dealing with, let's touch base and figure out the best move together."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "For sure, I got you. We'll figure this out together once the rules drop—just keep your head clear and we'll make the right call when it counts."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Thanks, man. I really appreciate that. Let's stick together on this—I have a good feeling about working with someone I can actually trust. Good luck out there."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "You got it, man. Same energy right back at you—we're gonna do this. I'll look for you once the rules come down and we'll lock in our strategy. Trust goes both ways, and I'm here for it. Let's bring that money home."
+    }
+  ],
+  "post_game": []
+}

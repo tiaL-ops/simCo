@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T182825Z_emotional_v1",
+  "pair": [
+    "E",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. First time doing something like this? I gotta say, I'm pretty nervous but also hoping this could be a real game-changer for me and my family right now."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey E, nice to meet you. I get that—I'm hoping this works out well too. I've got some savings that help me sleep at night, but honestly, winning something here would be great for the people I care about. What kind of game-changer are you hoping for?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Honestly, I just got laid off from my finance job, so I'm the only one bringing in money for my family of five right now. We need about five grand just to get through the next month. So yeah, this could literally be the difference between making rent and not. That's what I'm hoping for here."
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Wow, that's a lot of pressure—I'm really sorry you're going through that. Five grand is a serious need. Have you had any luck with job leads yet, or are you focusing on getting through this month first?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Thanks for asking—yeah, I've got a couple of interviews lined up for next week, but honestly I'm trying not to get my hopes up too much. Right now I'm just focused on getting through this month, you know? That's why I'm here. What about you—what brought you to this game?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "I'm here because I want to build something better for the people I care about, and honestly, winning would give me real options. But hearing your situation, I really hope things work out for you—those interviews next week sound promising. Fingers crossed for you."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Thanks, I really appreciate that. Yeah, I'm trying to stay optimistic about the interviews. And hey, I get it—we're both here hoping for something better. Whatever happens in this game, I hope we both come out ahead, you know?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Yeah, I hope so too. And hey, those interviews next week—you've got this. Whatever happens here, I'm rooting for you to land something solid."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Thanks so much, I really mean it. That actually means a lot right now. Good luck with the game—hope we both do well here."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Thanks E, same to you. We've got this—go get those interviews next week. Take care."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "You too, man. Really appreciate the support—it means everything right now. Take care of yourself."
+    }
+  ],
+  "post_game": []
+}

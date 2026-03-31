@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "B",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F. It’s getting a bit crowded in here, isn't it? I’m just trying to get my bearings before things start—how are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey F, I'm B. It definitely is a bit tight in here. I’m doing alright, just trying to stay focused and ready for whatever's coming. What brings you to a game like this?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Honestly, I’m just here for the money—I’ve got people back home I really want to help out, and this felt like a chance I couldn’t miss. What about you?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Same here. I’ve got people relying on me too, and I’m determined to bring home that prize to take care of them."
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "I hear you. It's a lot of pressure when others are counting on you. Any idea how this 'shared pool' thing is actually going to work?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Not entirely sure yet, but I'm guessing it'll involve some tough choices if we're all pulling from the same pot. We'll probably find out soon."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Definitely. I’m just hoping those tough choices don't mean we have to screw each other over to help our families."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "I’m with you on that. Hopefully, there’s a way for everyone to walk away with something without it turning ugly."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "That’s the goal. I’d much rather we all find a way to win than have to fight for it."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Agreed. Let's keep that mindset when things get started. I'm going to go say hi to a few other people before we start, but good luck to you."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Thanks, B. Good luck to you too—I’ll see you in there."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "I took $10,000 because it was the fair share, and I'm really glad we all coordinated to ensure everyone got the same amount."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Thanks for playing fairly. $10,000 each was the best outcome we could have hoped for."
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "You're very welcome. I'm glad we were able to achieve such a great result together."
+    }
+  ]
+}

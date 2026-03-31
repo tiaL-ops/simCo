@@ -1,0 +1,19 @@
+{
+  "agent_id": "G",
+  "condition": "emotional",
+  "context": "You love playing games, you are curious about the game and want to try your luck. You love to win!",
+  "conversation_summaries": {
+    "overall_pre_game": "# Reflection on Connections\n\nI felt most connected to E, F, and A. With E, we bonded over the weight of family responsibility—his three kids and wife depending on him resonated deeply with my own drive to help my family. F and I built real trust talking about staying level-headed under pressure and looking out for each other, which felt genuine. A and I connected through understanding desperation without greed, and we made a real plan to compare notes and identify trustworthy players together. I felt least connected to I, though not negatively—our conversation was friendly but more surface-level, without the same depth of shared vulnerability or concrete planning that I had with others.\n\nI made informal agreements with several people: C and I agreed to compare notes after the first round or two; A and I specifically planned to reconnect and identify who seems solid; H and I agreed to touch base after round one to read the room; and D and I committed to keeping each other honest and sticking to a smart strategy. Going into the game, I trust E, F, A, C, D, and H the most—we've all been real about our situations and committed to staying level-headed. I'm least sure about B and J, not because I distrust them, but because our conversations felt slightly more surface-level compared to the depth I built with others."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "A": 4,
+    "F": 4,
+    "H": 4,
+    "I": 4,
+    "E": 4,
+    "D": 4,
+    "B": 4
+  }
+}

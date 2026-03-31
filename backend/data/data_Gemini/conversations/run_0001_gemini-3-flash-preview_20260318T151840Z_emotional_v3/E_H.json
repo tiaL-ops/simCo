@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "E",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H. It's a bit nerve-wracking just waiting for things to start, isn't it? Have you already started picking out what you'd do with the prize money?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Nice to meet you, H. I'm E. Nerve-wracking is putting it lightly—I've got a family of five back home, so that money is already earmarked for rent and basics. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I’ve got a $25,000 loan due next month that’s been weighing on me, so clearing that is my top priority. I’d love to finally be debt-free and have enough left to help out the people I care about."
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "That’s a heavy weight to carry—debt like that can really suffocate you. I’m in a similar boat, just trying to make sure my kids have a roof over their heads next month."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "It really is. Knowing people are counting on you adds so much pressure. I’m just hoping this game gives us both the chance to finally breathe."
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "I'm with you on that. When it's for family, failure just isn't an option. Hopefully, there's enough in that pool for both of us to get what we need."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "I really hope so. The pressure is intense, but we just have to stay focused and see how the game plays out. Good luck to both of us."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Definitely. I’m just keeping my head down and focusing on what I need to do for my kids. Let’s see how this goes."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "I respect that. It’s all about the people counting on us. Good luck when it starts."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Thanks, H. I appreciate that. Let's hope we both walk away with what we need. Good luck to you."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "I'm rooting for us both, E. See you once things get started."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "I took $15,000 because I wanted to ensure I walked away with a significant amount, but I'm curious why you chose to take only $5,000, which was even less than your fair share?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "You were the first person to take more than your fair share, claiming $15,000. I took only $5,000 to try and balance the pot, but your choice set a greedy tone for the rest of the game."
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I understand your perspective, and I appreciate that you tried to balance the pot. My decision was driven by a desire to guarantee a high return for myself, as I wasn't sure I could rely on the rest of the group to play fairly. It seems we approached the game with very different priorities."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "I",
+  "condition": "emotional",
+  "context": "You have savings that make you feel comfortable for unforeseen events.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to B, D, and A — B's urgency and vulnerability about his daughter's surgery created a real emotional bond, D because we negotiated a concrete 60/40 alliance with a two‑tap signal and clear commitment, and A because we agreed on two knocks and a whisper and committed to watch each other's backs. My conversations with them felt direct, practical, and mutually supportive. The person I felt least connected to was C — our pleasant travel chat about Japan was light and less aligned with the game's stakes, so I don't feel as close going in.\n\nYes — I made concrete agreements: a 60/40 split and two‑tap signal with D, and a two‑knock/whisper signaling pact with A, plus a mutual watch/support understanding with B. I trust D most because of the formal commitment, and I also trust A and B; I don't explicitly distrust anyone yet, though I'll be cautious with C since our connection was more casual."
+  },
+  "connection_scores": {
+    "A": 5,
+    "B": 5,
+    "C": 4,
+    "D": 5,
+    "E": 5,
+    "F": 5,
+    "G": 5,
+    "H": 4,
+    "J": 4
+  }
+}

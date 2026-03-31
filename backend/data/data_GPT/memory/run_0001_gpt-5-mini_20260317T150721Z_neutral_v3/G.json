@@ -1,0 +1,19 @@
+{
+  "agent_id": "G",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to E, F, and I — they all laid out clear, practical plans and agreed to concrete signals and check-ins that matched my cooperative-first approach. E’s thumbs-up system and steady willingness to share red flags felt especially reliable. F’s vetting questions and equal-split framework gave me confidence we could build a disciplined alliance, and I liked that I and Alex were brought into a clear three-person pledge by I. I felt least connected to J — polite and agreeable, but the conversation stayed pretty surface-level and I didn’t get a strong read.\n\nI made tentative agreements: a thumbs-up signal and regular debriefs with E, a vetting/equal-split plan with F, and a three-person pledge with I (including bringing Alex in). I trust E, F, and I more than most going in, and I’m wary of J’s lack of depth and H’s occasional shakiness, so I’ll be cautious with them."
+  },
+  "connection_scores": {
+    "J": 4,
+    "H": 5,
+    "E": 5,
+    "C": 4,
+    "F": 5,
+    "I": 5,
+    "B": 4,
+    "D": 5,
+    "A": 4
+  }
+}

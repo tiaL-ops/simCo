@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "D",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. It’s a bit nerve-wracking waiting for things to kick off, isn't it? What's your name, and have you thought about what you'd do if you won?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "I'm D. Nerve-wracking is an understatement. Honestly, I’d use the money to fix a massive financial hole I dug yesterday; I need to get back on my feet for my family's sake."
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "I’m sorry to hear that, D. Family is a huge motivator for me too, though I’m also hoping to finally get my dream car. Fingers crossed we both walk away with what we need."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Thanks, J. A dream car sounds like a much better prize than just breaking even. What kind of car are you looking to get?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "It’s a $45,000 model I’ve been eyeing for a long time; getting behind the wheel of that would be a dream come true."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "That’s a serious goal. I’m just trying to claw back that $20k, so I guess we both have a lot on the line today."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Absolutely. $20k is a huge amount to make up, so I really hope this game works out for both of us."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "I hope so too. It’s a lot of pressure, but I’m ready to do whatever it takes to make things right for my family."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "I respect that drive, D. When you're doing it for family, the stakes are on a different level. Let's see how this goes—I'm ready to give it my all too."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "I appreciate that, J. Let's hope there's enough for both of us to get what we need. Good luck out there."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Thanks, D. Good luck to you too, I really hope we both get what we're after. Let's do this."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "I'm sorry you ended up with so little. I took $10,000 to be fair, but B's $25,000 claim really depleted the remaining pool."
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "It is definitely frustrating to end up with so little. While $10,000 is certainly more reasonable than B's $25,000 claim, the disparity is still hard to ignore since I only walked away with $625. It seems B's actions didn't leave much room for anyone else to have a fair outcome."
+    }
+  ]
+}

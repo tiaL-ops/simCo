@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "E",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. First time doing something like this? I gotta say, I'm pretty nervous but also hoping this could be a real game-changer for my family right now."
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Yeah, me too actually—first time. I'm F, by the way. I really need this to work out for my parents' medical bills, so I get what you mean about it being a game-changer. What's your situation, if you don't mind me asking?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Man, I hear you. I just got laid off from my finance job, so I'm the only one bringing in money for my wife and three kids right now. No savings left, so we're really counting on something like this to get us through the next month while I'm job hunting. Your parents are lucky to have you looking out for them like that."
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "That's really tough, man—supporting a family of five with no cushion is a lot of pressure. I hope the job search picks up soon. We're both in a tight spot, but at least we're here trying, right? Fingers crossed this works out for both of us."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Yeah, absolutely. We're both fighting for something that matters, so that counts for a lot. I'm rooting for you too—hope your parents get the help they need. Let's both make this work."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Thanks, man. That means a lot. Same to you—hope things turn around quick with the job search. We got this."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Yeah, we do. Good luck in there, man. Hope we both walk out with what we need."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "You too, man. Take care of yourself and your family—we've got this."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Thanks, F. Really appreciate it. Let's both get out there and take care of our people."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Absolutely, man. We're gonna do this. Take care out there."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "You too, brother. We both got people counting on us. Let's make it happen."
+    }
+  ],
+  "post_game": []
+}

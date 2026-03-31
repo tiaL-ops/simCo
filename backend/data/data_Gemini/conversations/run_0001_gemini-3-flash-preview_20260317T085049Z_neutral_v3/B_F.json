@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "B",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F. It’s a bit surreal being in this room with everyone, isn't it? What's your story—what brings you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Nice to meet you, F. I'm B. It really is surreal. Honestly, I’m just here to win some money for my family—they’re counting on me. What about you, what’s your motivation?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "I'm in the same boat; I've got people back home I really want to look out for, and this prize would make a world of difference for us."
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "I totally get that, it’s a lot of pressure when others are counting on you. Have you thought about how you're going to handle the game once it starts?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Honestly, I’m still weighing my options. I’d love to find a way for us to cooperate so everyone walks away with something, but I know it might get complicated once the money is on the table. What about you?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "I’m with you—cooperation sounds like the best path, but it’s hard to know if everyone will stay true to their word when the pressure's on. I'm just hoping to find a few people I can really trust to look out for each other."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Exactly. It’s much easier to trust one or two people than a whole room of strangers. I’m definitely open to looking out for each other if you are."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "I'm definitely in. It feels a lot better knowing there's someone else looking out for more than just themselves."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Same here. It’s a huge relief to have an ally in this room; let’s stick together and make sure we both walk away with what we need."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Absolutely, I’m glad we’re on the same page. Let’s keep our eyes open and check in once the game starts. Talk soon."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Definitely. I’m glad we had this talk. Let's stay sharp and help each other out when it counts. See you soon."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Thanks for the cooperation! It's nice when everyone gets an equal amount."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "You're welcome! I agree, it's great when things work out fairly for everyone."
+    }
+  ]
+}

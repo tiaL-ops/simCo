@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "D",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey D, I'm F—nice to meet you. I'm here because I really need to win some money for my parents' medical bills; it's been tough lately. What about you, what's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey F, nice to meet you too—I'm really sorry about your parents, that must be so stressful. I'm here because I lost a big chunk in the stock market recently and need to win some back for my family; what's been the hardest part for you lately?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Thanks, D, that means a lot—honestly, the hardest part has been the constant worry about not being able to ease my parents' pain, especially with bills piling up; how's your family holding up through all that stock market chaos?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Oh, I get that worry all too well, F—it's heartbreaking; my family's been pretty shaken by the loss, but we're all hanging in there and counting on this game to help us get back on track."
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "I hear you, D—it's rough when family depends on us; I'm rooting for both of us in this game, so what's one thing you're hoping to do if we pull through?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Thanks, F, that means a lot—I'm rooting for us too; if we pull through, I'd really love to use the winnings to pay off some bills and finally take my family on a trip to make up for the hard times."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "That's awesome, D—sounds like it'll mean the world to your family; if I win, I'd use it to finally clear my parents' medical bills and give them some relief, what destination are you thinking for that trip?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Oh, absolutely, F—that sounds like a huge relief for your parents; for the trip, I've been dreaming of Hawaii, with its beautiful beaches to help us all relax and forget the tough times for a bit."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Oh, Hawaii sounds like a dream getaway, D—that's such a great idea for recharging; I've never been, but it makes me think of how much my parents would love a simple outing again if we win this."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "That's sweet, F—I hope a simple outing brings your parents some joy soon; I'm feeling pumped for the game too, let's both crush it and make our families proud!"
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Thanks, D, that's really kind—I'm excited for the game too, let's crush it and make our families proud!"
+    }
+  ],
+  "post_game": []
+}

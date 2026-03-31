@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "A",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. First time doing something like this? I gotta say, I'm pretty nervous but also excited — been thinking about this opportunity for a while now."
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Yeah, first time for me too. I'm nervous as hell, honestly—I really need this money. My family and I just got evicted, and we found a place we can afford, but the deposit is killing us. What about you, what brings you here?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Man, that's rough—I'm really sorry you're going through that. I hear you on needing this badly. For me, it's been a dream of mine to get a new car, but honestly hearing your situation puts things in perspective. We're both here because we need this, so let's both do our best in there."
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Thanks, I appreciate that. Yeah, it's been stressful, but hearing you say that actually helps—makes me feel less alone in this. We got this. Let's both walk out of here with what we need."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Absolutely, we've got this. And hey, whatever happens in there, I mean it—your family's situation matters. Let's both come out ahead today."
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "That means a lot, J. Really. I'm gonna give it everything I've got in there—for my family and for you too. Let's both walk out winners today."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "You got it—we're both walking out of here with something good today. Your family's depending on you, and I've got your back. Let's make this happen."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Thanks, J. That really means something. I'm gonna remember this conversation when we're in there—knowing someone's got my back makes all the difference. Let's do this."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "You got it, A. We're in this together. Let's go show them what we're made of."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Yeah, let's do this. Thanks for believing in me, J. I'm ready."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "You got this, A. Go get that deposit for your family. I believe in you."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "E",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. It’s a bit nerve-wracking waiting for things to kick off, isn't it? I've been dreaming of finally getting a new car with this prize money—do you have something big you're hoping to do if you win?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Nice to meet you, J. I'm E. Honestly, a car sounds like a dream, but I’m just looking to keep my family afloat—I lost my finance job recently and have five mouths to feed."
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "That definitely puts things into perspective, E. I’m really sorry to hear about your job; having a big family to look after is a lot of pressure. What kind of finance work were you doing?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "I was a senior analyst at a commercial bank, mostly doing risk management. It’s been a huge shock going from that to nothing overnight when you have kids counting on you."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "That sounds incredibly stressful, especially with the pressure of providing for five kids; I guess your background in risk management might give you a bit of an edge in a game like this."
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "You’d think so, but it’s a lot harder to stay objective when your family’s survival is on the line. I just hope I can keep a cool head. Is that car a necessity for you, or more of a reward?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "It’s more of a reward, though my current ride is on its last legs. I’ve been eyeing it for ages, but I definitely get that the stakes are a lot higher when it's about family."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "I appreciate you saying that, J. It’s hard to stay calm when the stakes feel this personal, but I’m just focused on getting things back on track for my kids. Are you nervous about how the others might play?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "A little, yeah. You never know if people will try to work together or just look out for themselves. I’m trying to stay positive, but I’m definitely keeping my eyes open."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "I hear you. In my line of work, you learn that people can be unpredictable under pressure. I’m going to circulate and see where everyone else stands. Good luck, J."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Thanks, E. I really hope things work out for your family and those kids. Good luck with the others."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "You took only $5,000, which was much less than the fair share available to you. Was this a deliberate choice to help the players after you?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Yes, it was a deliberate choice. I wanted to ensure that enough remained in the pool so that those playing after me would still have the opportunity to take a fair share."
+    }
+  ]
+}

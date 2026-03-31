@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "B",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey! I'm G. So, have you played one of these games before, or is this your first time? I'm pretty excited but honestly a bit nervous about how it all works."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey G, first time for me too. I'm pretty nervous myself, to be honest—I really need to win this one. My daughter needs surgery and we're short on money. What about you, what brings you here?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Man, that's a lot of pressure—I really hope things work out for your daughter. I'm here because I want to help my family too, and honestly, I love the thrill of games. But hearing your situation, I get it—this isn't just fun for you, it's serious. We're both counting on doing well here."
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Thanks, G, I really appreciate that. Yeah, it's intense, but I'm trying to stay focused. So you've got family depending on you too—what's your situation, if you don't mind me asking? And do you have any sense of what this game is actually going to involve?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Yeah, my parents have been struggling lately and I want to help them out, you know? As for the game itself, I'm not totally sure what it'll involve yet—I'm hoping we get some explanation once everyone's here. Have you heard anything from the organizers, or are we all just figuring this out together?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "No, I haven't heard anything from them yet either—we're all in the dark, I guess. But I'm glad you're here for your parents too. Sounds like we're both in this because the people we love need us. Maybe once we understand the rules, we can figure out the best way to approach it."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Yeah, exactly—we're both here for the people we care about. I'm hoping the rules are straightforward, but honestly, I'm ready to adapt to whatever they throw at us. We've got this, man. Let's just stay sharp and see what happens."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Absolutely, man. I appreciate the confidence. Yeah, let's stay sharp and keep our eyes open when they explain the rules. We both know what's on the line here, so we'll figure it out together."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "For sure, man. I got your back on this. Let's both do what we need to do to win—your daughter's counting on you, my parents are counting on me. We'll handle whatever comes next."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "That means a lot, G. I'm glad we're on the same page about this. Let's both get what we came here for—your parents, my daughter. We've got this."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Absolutely, man. We both know what we're fighting for. Let's make this count for the people we love. Good luck out there—I mean it."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "J",
+  "condition": "emotional",
+  "context": "You have been thinking about buying a new car, your favorite one costs 45 000$ and you are telling yourself if you win the lottery, that is the first thing you want to do.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to A, who I teamed up with to quietly vet people and lock a 3–4 person core using the subtle thumbs‑up/\"we're in\" signal; their urgency about housing made our alliance feel urgent and real. I also bonded with E — we agreed to trade honest info, watch each other’s backs, and use clear public signals (I’d stand and say “I’ve got you,” they’d tap twice) so I felt we could rely on one another. B affected me deeply on a personal level; agreeing to sit together before the first round and supporting Emma made that connection feel steady and important. Least connected was C — friendly and polite about cars and a Japan trip, but the conversation stayed surface‑level so I don’t feel a strong bond yet.\n\nYes — I made concrete agreements: a thumbs‑up lock with A for a vetted core, a tap/stand mutual backing signal with E, and a three‑person plan with H/K using two quick taps to act. Going into the game I trust A and E most because of those specific plans and signals; I don’t have anyone I outright distrust yet, but I’ll be cautious with people we’re still vetting (like Sam and Mia) and anyone who gives inconsistent answers."
+  },
+  "connection_scores": {
+    "C": 4,
+    "G": 4,
+    "A": 5,
+    "F": 4,
+    "H": 5,
+    "I": 4,
+    "E": 5,
+    "D": 5,
+    "B": 5
+  }
+}

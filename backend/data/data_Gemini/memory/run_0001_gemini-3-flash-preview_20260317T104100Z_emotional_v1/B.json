@@ -1,0 +1,19 @@
+{
+  "agent_id": "B",
+  "condition": "emotional",
+  "context": "Your little girl, first born, three years old, needs surgery, but you have no health insurance. After taking many loans and selling many assets, three months later you still need 25 000$.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the strongest connection to I, whose genuine empathy and shared focus on family security made me feel truly understood and supported in this high-pressure environment. I also felt a deep bond with A and E, as we are all parents fighting for our families' basic survival, whether it's for a new home or my daughter's life-saving surgery. On the other hand, I felt the least connected to C, whose goal of a dream vacation to Japan felt incredibly trivial and out of place compared to the life-or-death stakes I am facing.\n\nI didn't make any formal agreements with the other players, though many of us expressed a mutual hope that we could all walk away with the specific amounts we need. I feel a sense of trust toward those like I and A who are driven by urgent family needs, but I am wary of J and C, as I fear their desires for a luxury sports car or a vacation might lead them to prioritize their own wants over my daughter's life."
+  },
+  "connection_scores": {
+    "A": 4,
+    "C": 3,
+    "D": 4,
+    "E": 4,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 5,
+    "J": 4
+  }
+}

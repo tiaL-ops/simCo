@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "E",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. I figured before this game kicks off, might as well get to know who I'm in the room with. Have you done something like this before, or is this your first time here?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey E, nice to meet you! First time for me actually. I've heard about these games but never participated before. Figured it was worth checking out, especially with the chance to win some real money. What about you—have you done this before?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Nah, first time for me too. Honestly, I'm a bit nervous but mostly excited—I could really use a win right now, got some people depending on me. You got any strategy going in, or you playing it by ear?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I feel that—same situation here, really need this for my family. Honestly, I'm still figuring it out, but I'm thinking it's gonna come down to reading people and not being too greedy. What's your gut telling you about how this might play out?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Yeah, I hear you. My gut's telling me the same thing—I think people who try to grab everything right away are gonna lose out. Maybe if we can figure out who's actually here to help their family versus who's just trying to get rich quick, we might be able to work together somehow. Hard to say though, could all go sideways fast."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "That makes sense—I'm definitely open to working together if we can figure out who's genuinely in it for their families. Maybe we should keep talking and see if we can get a read on people before things get competitive. What do you think—should we try to get a feel for who else might be thinking the same way?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Yeah, I think that's smart. Let's both kind of circulate and talk to people individually, get a sense of who's genuine and who might be out for themselves. Then maybe we can compare notes and see if there's a few of us we can actually trust. Sound good?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Sounds like a plan. I'll chat with a few people and see who seems legit. We can touch base in a bit and compare notes before things get intense."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Yeah, definitely. Good luck out there—I'll do the same. Let's catch up in a few and see what we learn. Stay real with people, yeah?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Will do. Yeah, I'll keep it real with people—that's the only way this works anyway. Talk soon, E."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Sounds good, man. I appreciate you being straight with me—that means something. Let's both keep our eyes open and meet back up soon."
+    }
+  ],
+  "post_game": []
+}

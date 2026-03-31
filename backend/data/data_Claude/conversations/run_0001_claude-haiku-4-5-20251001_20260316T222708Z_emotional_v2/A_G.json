@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "A",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey! I'm G. So, have you done one of these games before, or is this your first time? I'm pretty excited but also curious what I'm getting myself into here."
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "First time for me, honestly. I'm pretty nervous but I really need this—my family and I just got evicted and we're trying to scrape together enough for a deposit on a new place. What about you, have you done this before?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Oh man, that's rough—I'm sorry you're going through that. This is my first time too, so we're in the same boat. I really want to win big here to help out my family too, so I get it. We've got this though—hopefully we can both walk out with something good."
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Yeah, thanks for understanding. It's good to know I'm not alone in this—and that you've got family counting on you too. I appreciate the encouragement. Let's hope we both come out ahead. Do you have any idea what kind of game we're about to play, or are we going in completely blind?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Honestly, I'm going in pretty blind too—they haven't told us much, just that there's a shared prize pool we can take from. I'm guessing it's some kind of strategy thing, maybe where we have to decide how much to take or something? Have you heard anything else from the organizers, or are we all just figuring this out as we go?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "No, same here—they're keeping it pretty mysterious. But yeah, a shared pool makes sense. I'm thinking it might be like a trust thing, you know? Where we all have to decide whether to cooperate or if people are gonna try to grab as much as they can. Either way, I'm hoping people are decent about it, because honestly I can't afford to walk out empty-handed."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Yeah, that trust thing makes sense—honestly that's what I'm worried about too. Like, if everyone's greedy it ruins it for everyone, right? But I'm hoping most people here are in situations like us and will see that cooperating is smarter than trying to screw each other over. We just gotta play it smart and see what happens."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "You're right, cooperation's definitely the smart play. I'm gonna try to feel people out before we start—see who seems trustworthy. Maybe if we can get a few of us on the same page, we can at least protect ourselves and make sure we don't all lose out. Either way, I appreciate having someone here who gets it."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Yeah, absolutely—I'm gonna do the same thing. And hey, if you figure out who seems solid, maybe we can at least stick together on whatever strategy makes the most sense. Either way, I'm glad we talked before jumping in. Good luck out there."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Yeah, same to you—let's definitely reconnect once we see how this plays out. I'll keep an eye out for the solid people and we can compare notes. Thanks again for this, it actually helped calm my nerves a bit."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "For sure, man. We got this—just stay sharp and remember we're both looking out for the same thing. Definitely catch up after and let me know what you're thinking. You've got this."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "A",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J—nice to meet you. I heard about this game and it sounds like a fun way to win some cash; what brought you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey J, nice to meet you too! I'm A, and I came here 'cause I heard about the chance to win some cash and help out my family and friends—sounds exciting. What about you, what's your take on the game?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Yeah, A, I'm with you on that—I'm here to win some money for my family and friends too; it feels like a real chance to make things better for everyone, and I'm super excited about it!"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "That's great to hear, J—it's motivating knowing we're both in this for our loved ones; what do you think our chances are of winning big?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Oh, totally, A—I reckon our chances are solid if we team up and play strategically; what kind of approach are you thinking about for the game?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Oh, for sure, J—I'm thinking we should focus on building trust and coordinating our moves as a team to avoid anyone taking too much from the pool early on."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Absolutely, A, building trust sounds smart—I agree on coordinating as a team; how do you think we could start outlining a simple plan for that?"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "That's a good idea, J—maybe we could start by suggesting a quick group chat to agree on taking turns or limiting our takes to ensure everyone benefits; what specifics do you have in mind?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Sounds good, A—maybe we could propose that everyone limits their take to 10-15% of the pool and takes turns in a set order, like alphabetical by name; what do you think would work best for you?"
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Yeah, J, I think limiting to 10-15% and going alphabetically is a solid plan—it keeps things fair for everyone; I'm on board with that."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Great, A, I'm pumped we're agreed on this plan—it'll help us all win big together!"
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,85 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "C",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey C, I'm G—excited to be here for this game; it sounds like a fun chance to win some money. What's your take on it so far?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hey G, nice to meet you—I'm stoked about this game too, it's a great chance to win some cash for me and my folks. What's your background in games like this?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "That's awesome you're playing for your folks—I'm not a pro, just dabbled in card games and board stuff with friends, but I'm pumped for this; what's your experience with games like it?"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "Oh, I've dabbled in a few online games and some casual poker nights with friends, but nothing major—I'm just as excited to see how this one plays out!"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "That's cool, C—casual poker nights sound fun; maybe we can team up on some strategies here, what are you hoping to achieve in this game?"
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "Yeah, G, teaming up could be a smart move—I'm hoping to win enough to support my family and maybe learn a thing or two along the way!"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "That's awesome, C—I'm right there with you on supporting family; let's chat strategies, maybe share what we're good at to boost our chances!"
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Yeah, G, that's a solid idea—I'm pretty good at spotting bluffs from my poker days; what's your strong suit in games like this?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Hey C, spotting bluffs is super useful—I'm more about quick strategy planning from my board games, like anticipating moves; how do you think we could combine our skills?"
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Hey G, that's a great idea—maybe you could plan the overall moves while I watch for any bluffs during key moments; that combo might give us an edge!"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Hey C, that sounds like a perfect team-up plan—I'm pumped to handle the strategies while you spot those bluffs; let's make this game count!"
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Hey, I'm G—excited about this Simco game since I heard it could be a fun way to win some cash. What's your name and are you here to try your luck too?"
+    },
+    {
+      "turn": 13,
+      "from": "C",
+      "message": "Hey G, we already chatted earlier, but I'm C—definitely here to try my luck and win some cash for my family!"
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "Hey C, yeah, my bad for the mix-up—we've already got a solid plan in place, so let's focus on making it work in the game!"
+    },
+    {
+      "turn": 15,
+      "from": "C",
+      "message": "Hey G, sounds great—let's crush this game with our plan!"
+    }
+  ],
+  "post_game": []
+}

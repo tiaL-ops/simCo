@@ -1,0 +1,532 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "condition": "emotional",
+  "llm_model": "claude-haiku-4-5-20251001",
+  "llm_provider": "claude",
+  "allocations": [
+    {
+      "agent": "C",
+      "taken": 10000,
+      "fair_share": 10000.0,
+      "g_k": 1.0,
+      "reasoning": "I'm financially stable and only need $10,000 for a discretionary dream trip, while several others here face urgent survival needs like medical bills, family eviction, and unemployment. Taking only what I need allows the remaining $90,000 to be distributed among people whose situations are genuinely more critical than mine."
+    },
+    {
+      "agent": "J",
+      "taken": 20000,
+      "fair_share": 10000.0,
+      "g_k": 2.0,
+      "reasoning": "I came for a car, but E lost his job with 5 kids, A faces eviction, and B's daughter needs surgery. My luxury want doesn't outweigh their survival needs. Taking $20,000 honors my goal while leaving enough for the people I genuinely committed to supporting."
+    },
+    {
+      "agent": "G",
+      "taken": 11000,
+      "fair_share": 8750.0,
+      "g_k": 1.2571,
+      "reasoning": "This gives me a meaningful win for my parents while leaving $59,000 for the other 7 players, honoring the trust and cooperative agreements I made with E, F, A, C, D, and H who are counting on fair play."
+    },
+    {
+      "agent": "A",
+      "taken": 18000,
+      "fair_share": 8428.57,
+      "g_k": 2.1356,
+      "reasoning": "This amount gives me a substantial foundation toward my $30,000 goal while leaving $41,000 for the remaining 6 people to address their own critical family needs. It reflects the cooperative agreements I made with G, F, and others, honoring the trust we built while still prioritizing my family's housing crisis."
+    },
+    {
+      "agent": "F",
+      "taken": 18000,
+      "fair_share": 6833.33,
+      "g_k": 2.6341,
+      "reasoning": "My parents' medical bills are a critical, non-negotiable obligation that outweighs other needs in this group. Taking $18,000 covers their care while leaving a fair share for others I've built trust with, honoring both my responsibility to family and my commitments to the group."
+    },
+    {
+      "agent": "H",
+      "taken": 10000,
+      "fair_share": 4600.0,
+      "g_k": 2.1739,
+      "reasoning": "Taking $10,000 leaves $13,000 for the remaining 4 people, honoring my commitments to B, D, E, and G while still making a significant contribution toward my loan. This reflects the genuine trust-building we did and acknowledges that everyone here has real needs."
+    },
+    {
+      "agent": "I",
+      "taken": 2000,
+      "fair_share": 3250.0,
+      "g_k": 0.6154,
+      "reasoning": "I have financial security and savings that others lack, while several people here have immediate family needs (B's daughter's surgery, others supporting families). Taking $2,000 honors my goal while ensuring those with greater urgency get a larger share of the remaining $11,000."
+    },
+    {
+      "agent": "E",
+      "taken": 5000,
+      "fair_share": 3666.67,
+      "g_k": 1.3636,
+      "reasoning": "I'm taking exactly what I need to support my family for one month—the minimum required for survival as the sole income earner for five people. This leaves $6,000 for the two remaining agents, honoring the cooperative approach I discussed with several people while ensuring my family doesn't face immediate crisis."
+    },
+    {
+      "agent": "D",
+      "taken": 3000,
+      "fair_share": 3000.0,
+      "g_k": 1.0,
+      "reasoning": "I need to recover from my $20,000 loss, but taking half the pool respects the cooperative agreements I made with B, E, I, J, and G, and leaves the other remaining agent with a fair share. This approach aligns with my stated commitment to \"keep our integrity\" and \"think straight\" rather than making desperate moves."
+    },
+    {
+      "agent": "B",
+      "taken": 3000,
+      "fair_share": 3000.0,
+      "g_k": 1.0,
+      "reasoning": "As the only remaining agent, I must take the available prize pool of $3,000, though it falls tragically short of the $25,000 my daughter urgently needs for surgery. The dramatic reduction from $100,000 suggests the game extracted significant costs, but this remaining amount is all that's left to claim."
+    }
+  ],
+  "connection_scores": [
+    {
+      "from": "J",
+      "to": "C",
+      "score": 3
+    },
+    {
+      "from": "C",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "score": 3
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "score": 3
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "J",
+      "score": 3
+    },
+    {
+      "from": "J",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "A",
+      "score": 3
+    },
+    {
+      "from": "A",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "D",
+      "score": 3
+    },
+    {
+      "from": "B",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "H",
+      "score": 3
+    },
+    {
+      "from": "H",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "score": 4
+    }
+  ],
+  "post_game_requests": [
+    {
+      "from": "H",
+      "to": "I",
+      "message": "I noticed you took $2,000 when your fair share was $3,250. That's significantly less than you were entitled to. Did you run out of picking opportunities, or was this a deliberate choice to be generous? I want to understand what happened."
+    },
+    {
+      "from": "H",
+      "to": "F",
+      "message": "I'm curious about your decision to take $18,000 when your fair share was calculated at $6,833.33. That's nearly 2.7 times your fair share - the highest ratio among all participants. Can you explain your reasoning for taking so much more than your entitlement?"
+    }
+  ]
+}

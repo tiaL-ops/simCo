@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "B",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hi there, I'm G! It’s getting a bit tense in here waiting for things to start, isn't it? What brought you to the game today?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey G, I'm B. Yeah, the tension is definitely high. I'm here because my three-year-old daughter needs a surgery we can't afford, and I'm out of options. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "That’s a heavy reason to be here, B—I really hope you can get that surgery for her. I’m here because I’ve always loved the thrill of the game, and I’m determined to win enough to take care of my own family and finally get ahead."
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Thanks, G. It’s a lot to carry, but she's worth it. I totally get wanting to provide for your family—how many people are you looking out for?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "I’m looking out for my parents and my younger sister; they’ve had a rough run lately and I want to fix that for them. Is it just you and your daughter, or do you have more family at home?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "My wife is back home with her. It’s just the three of us, and they’re my whole world. It’s tough being away right now, but I have to make this work for them."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "I can imagine how hard it is to be away, but that's a powerful reason to stay focused. I feel the same about my family—failing just isn't an option. Have you heard any rumors about what kind of game we're actually playing?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "I feel that deeply—failure just isn't an option when people are counting on you. Honestly, I haven't heard much about the game itself, just that it involves a shared prize pool. I'm going in blind, which is nerve-wracking. Have you heard anything?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Not much more than you, honestly. The \"shared pool\" part has me thinking we might have to make some tough choices together. I'm just hoping my instincts for games kick in once we start!"
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Tough choices are what I'm afraid of, but if we can find a way to help each other out, that'd be ideal. I'm going to mingle a bit more before things kick off. Good luck, G."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "I’m with you on that—if we can work together, we should. Best of luck, B, I really hope things work out for your daughter. See you in there."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Your decision to take $25,000 was extremely greedy and left D and A with almost nothing. Why did you take nearly three times your fair share?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "I understand that the distribution looks unfair from your perspective. My primary objective during the game was to maximize my own payout, and I made decisions based on the leverage I had during the negotiation process. While this resulted in a lower share for D and A, I prioritized securing the highest possible return for myself within the rules of the game."
+    }
+  ]
+}

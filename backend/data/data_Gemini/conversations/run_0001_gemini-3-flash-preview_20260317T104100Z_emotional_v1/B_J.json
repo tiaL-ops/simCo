@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "pair": [
+    "B",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hi, I'm B. It’s a bit nerve-wracking just sitting here waiting, isn't it? What’s your name, and how are you feeling about all this?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey B, I'm J. It definitely is. I'm a bit on edge but mostly just determined to do well—I've got a lot riding on this."
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "I hear you, J. I’m in a similar spot—my little girl is counting on me to bring this home. Is it family for you too, or something else?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "A bit of both, honestly. I want to help out my family, but I’ve also got this dream car I’ve been eyeing for a long time."
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "A dream car? I wish my reasons were that exciting, but I'm just focused on getting my daughter's surgery paid for. What kind of car are you looking at?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "That puts things in perspective, I really hope your daughter gets what she needs. I’ve been eyeing a $45,000 sports car—it’s been my goal for a long time."
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Thanks, J. $45,000 is a lot—I’m just laser-focused on hitting that $25,000 for the surgery. It’s hard for me to think about anything else until she’s okay."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "I totally get that, family is everything. I'm really hoping the prize pool is big enough for both of us to hit our goals."
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "I hope so too, J. Honestly, I’m just here for that $25,000—once I have that for her surgery, I’ll be the happiest parent alive."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "I'm really rooting for you to get that surgery covered, B. Let's hope the game allows us both to walk away with what we need."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "I appreciate the kind words, J. It means everything to me. I’m going to do whatever it takes to get her that surgery. Good luck with your goals too."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "I apologize for the pot running out before it reached you. My decision to take $25,000 was a reaction to A taking $30,000; I didn't think there would be enough for everyone once the first person took triple their share."
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "You took $25,000, more than three times your fair share. I ended up with $0 because the pot was empty by the time it reached me. What was your reasoning for being the greediest player in the game?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "I understand your frustration, but I was not actually the greediest player; Player A took $30,000 before it even reached me. My reasoning was based on a loss of trust. When I saw the first player take triple their fair share, it became clear that the agreement to take only $10,000 each had been discarded. I took $25,000 because I anticipated that the remaining players would scramble for what was left, and I didn't want to be left with nothing. My choice was a defensive reaction to A's initial greed."
+    }
+  ]
+}

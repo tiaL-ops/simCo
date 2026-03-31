@@ -1,0 +1,90 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "D",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey D, I'm E — nice to meet you. What made you decide to play today? I'm hoping to win for the people I care about."
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Nice to meet you too, E — I'm D. I'm playing to bring home money for my family and a few close friends; who are you hoping to help?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I'm hoping to help my mom and little sister — they could really use the financial support — and a couple close friends who are struggling."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "That's really admirable — I hope you win for them. What would be the first thing you'd do with the money?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "I'd first pay my mom's overdue bills and secure rent, then set up an emergency fund and buy my little sister what she needs for school."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "That's a solid, responsible plan — securing rent and easing your mom's stress would mean a lot. I really hope you win for them."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Thanks, D — that means a lot. I hope you win too; what would you do first with the money?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "I'd first cover my family's overdue bills and rent to make sure they're secure, then set up an emergency fund and help a few close friends."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "That's a thoughtful plan — stability matters; I hope we both win so we can help our families."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Thanks, E — same here. Let’s stay focused and hope we both win for our families."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Absolutely — let's stay focused and play smart. Good luck, D."
+    },
+    {
+      "turn": 12,
+      "from": "D",
+      "message": "Thanks, E — you too. Let’s stay sharp and support each other through the game."
+    },
+    {
+      "turn": 13,
+      "from": "E",
+      "message": "Absolutely — I’m glad we’ve got each other’s backs. Let’s stay focused and good luck, D."
+    },
+    {
+      "turn": 14,
+      "from": "D",
+      "message": "Thanks, E — I appreciate it. Let’s stay sharp and give it our best. Good luck."
+    },
+    {
+      "turn": 15,
+      "from": "E",
+      "message": "Thanks, D — you too. Let’s do our best and bring it home for our families."
+    },
+    {
+      "turn": 16,
+      "from": "D",
+      "message": "Same to you, E — let's stay focused and give it our all; good luck."
+    }
+  ],
+  "post_game": []
+}

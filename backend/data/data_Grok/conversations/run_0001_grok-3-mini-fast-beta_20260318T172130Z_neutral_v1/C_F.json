@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "C",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C—nice to meet you! I heard about this Simco game and it sounds like a fun challenge; are you looking forward to it too?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey C, nice to meet you too—I'm F. Yeah, I'm really pumped for this Simco game; it's a chance to win some cash for my folks. What about you, why do you think it'll be a fun challenge?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Oh, totally, F—I'm in it for the excitement and strategy, plus winning some cash to help my family out, just like you're doing for yours; makes it all the more motivating!"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Yeah, C, it's awesome we're both playing for our families—it really amps up the motivation; what's your strategy for tackling this game?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Oh, definitely, F—I'm planning to play it smart by building some trust with others first and making calculated decisions to help us all win big for our families!"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Yeah, that sounds smart, C—building trust could make a big difference; I'm all about that too, so maybe we can watch each other's backs and aim for a win together!"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Yeah, absolutely, F—I'm down for watching each other's backs; let's team up and figure out how we can coordinate our moves to maximize our winnings for everyone!"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Sounds great, C—teaming up is a solid plan; let's chat about some simple ways to coordinate, like signaling our intentions during the game without making it obvious!"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Yeah, F, that makes sense—maybe we could use subtle things like a quick nod or a specific phrase in conversation to signal without tipping off others?"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Yeah, C, that's a smart idea—maybe something like a quick nod or saying 'sounds good' as our signal; let's keep an eye out for each other in the game!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Yeah, F, that's perfect—let's go with that signal and watch each other's backs in the game!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey C, the game ended with most players taking their fair share, which is great. I stuck with $10,000 as my choice since it aligned with what I thought was fair—curious what you think about how it all turned out?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hey F, I think the game turned out really well too—it's awesome that most players stuck to their fair share. I also went with $10,000, as it felt right to me, and I'm happy with how everything balanced out in the end."
+    }
+  ]
+}

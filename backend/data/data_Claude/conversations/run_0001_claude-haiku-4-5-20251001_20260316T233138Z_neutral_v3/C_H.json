@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "C",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H. First time doing something like this? I gotta say I'm pretty nervous but also excited—heard there's real money on the line here, which is wild. What brings you to the game today?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hey H, nice to meet you! Yeah, first time for me too. Honestly, I really need to win something here—got people depending on me back home. The money would make a real difference. You nervous about the game itself, or just the whole situation?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Man, I feel that—I've got people counting on me too, which honestly makes this feel pretty high-stakes. I think I'm nervous about both, but mostly about whether I'll make the right moves when it actually matters. Do you have any sense yet of what the game's actually going to be like?"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "Nah, not really—they kept it pretty vague in the info they sent. But honestly, I'm thinking it's probably something where we're all competing for a shared pool, so it might come down to strategy and maybe how we work with or against each other. Have you heard anything from the organizers, or are we all in the dark here?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Nah, same boat—they were pretty mysterious about it all. But yeah, that makes sense. I'm guessing it's gonna be about figuring out who to trust, you know? Like, do we help each other out or try to get ahead individually? That's what's got me thinking. You leaning toward any particular strategy yet, or you gonna play it by ear?"
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "Honestly, I'm thinking I gotta feel it out once we start, but I'm not gonna lie—I need to win, so I'm hoping there's a way to do both, like help people out but still come out ahead. What about you, you thinking you'll try to team up with folks or go solo?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Yeah, I get that—same here, I need to come out ahead too. I think teaming up makes sense, at least initially, because if we're all scrambling individually, nobody wins. But I'm also not gonna be naive about it, you know? I'm gonna feel people out and see who seems genuine about actually cooperating versus who's just saying what they think I wanna hear."
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "That's smart—yeah, I'm with you on that. I think we should keep talking and see if we can figure out who's actually real about this versus who's just playing angles. Maybe we can check in with each other once the game starts, see how it's actually playing out?"
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Yeah, absolutely—I'm down for that. Let's definitely touch base once things get going. And hey, if you figure out who's being straight with you, let me know. We can probably do better if we're not flying blind out there."
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "For sure, man. I'll keep my eyes open and we'll compare notes once we get rolling. Good luck out there—I have a feeling we're gonna need to stick together on this one."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Yeah, I appreciate that man. We got this—just gotta keep our heads clear and remember we're both trying to help the people we care about. Let's make it happen."
+    }
+  ],
+  "post_game": []
+}

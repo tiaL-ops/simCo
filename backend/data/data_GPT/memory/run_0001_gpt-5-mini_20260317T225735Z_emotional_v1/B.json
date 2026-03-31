@@ -1,0 +1,19 @@
+{
+  "agent_id": "B",
+  "condition": "emotional",
+  "context": "Your little girl, first born, three years old, needs surgery, but you have no health insurance. After taking many loans and selling many assets, three months later you still need 25 000$.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to D, E, and F. D kept returning to the same steady promise that we’d watch each other’s backs and his determination made our bond feel real and mutual. E felt like a practical, reliable ally — we divided targets so we wouldn’t compete and set a quiet ear‑touch signal, which made our cooperation concrete. F also earned my trust by agreeing to a two‑tap signal and promising to share information, so I felt like we were a small team looking out for each other; the person I felt least connected to was C — polite and supportive, but more distant and without any concrete plans between us.\n\nI did make explicit agreements: with E to avoid the same rounds and use the ear touch, and with F to use two quick taps and share what we learn (and D and I committed repeatedly to watch each other’s backs). I trust D, E, and F going into the game; I don’t feel the same level of trust with C, who stayed friendly but fairly detached."
+  },
+  "connection_scores": {
+    "A": 5,
+    "C": 4,
+    "D": 5,
+    "E": 5,
+    "F": 5,
+    "G": 5,
+    "H": 5,
+    "I": 5,
+    "J": 4
+  }
+}

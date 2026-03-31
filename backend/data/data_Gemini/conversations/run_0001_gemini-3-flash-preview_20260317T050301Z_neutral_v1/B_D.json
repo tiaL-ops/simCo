@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "B",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey, I’m B. It’s a bit intense in here with everyone waiting for the game to start, isn't it? What brings you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey B, I'm D. It definitely feels a bit high-stakes in here. I'm just here to win some money for my family, to be honest. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Same here, honestly. I’m determined to win this for my loved ones and to get myself on better footing. It’s good to meet someone with their priorities straight."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "I feel that. It definitely keeps you focused when you're doing it for more than just yourself. Any idea what we should expect once things actually kick off?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "I’m not entirely sure, but I’m expecting some kind of test of trust or a tough decision on how to split the pot. I guess we’ll find out soon enough."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "That makes sense. If it does come down to trust, I hope we can find some common ground—it'd be better for everyone to walk away with something."
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "I’m with you on that. Cooperation is usually the smartest play if we want to make sure we actually bring something home. I'm definitely open to it."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Exactly. It’s better to have a guaranteed slice than nothing at all. Glad we're on the same page."
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Agreed. Let's stick to that plan and make sure we both walk away with something."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Sounds like a plan. I'm going to go see what some of the others are thinking. Catch you later."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "For sure, good luck with the others and I'll see you when the game starts."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "I'm really glad we all stuck to the fair share of $10,000. It's great to see such perfect cooperation!"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "I completely agree. It's great when everyone is on the same page and we can achieve a fair result like this. Cooperation was definitely the key."
+    }
+  ]
+}

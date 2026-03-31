@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "B",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey, I'm B. It’s a bit intense in here with everyone waiting for the game to start, isn't it? How are you feeling about everything so far?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hey B, I'm C. It really is intense, but I’m mostly just focused on doing well since I’ve got a lot riding on this. How are you holding up?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "I’m hanging in there, just trying to stay focused. I’ve got people back home counting on me too, so I definitely get having a lot riding on this. Do you have a specific plan for how you're going to play it?"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "Not a solid one yet, I'm mostly just trying to feel out the room and see if people are willing to cooperate. What about you, do you have a strategy?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "I’m leaning toward cooperation too; it seems like the best way to make sure we actually walk away with something instead of just fighting over it."
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "I agree. It’s definitely better to walk away with a guaranteed share than to risk leaving with nothing."
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Exactly. I'd much rather we both walk out of here with something for our families than walk away empty-handed."
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Definitely. Let's try to look out for each other then, so we can both bring something home."
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Deal. I'm glad we've got each other's backs—let's make this happen."
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Sounds like a plan. I'll see you out there when the game kicks off."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "You got it. Good luck out there, let's make it count."
+    }
+  ],
+  "post_game": []
+}

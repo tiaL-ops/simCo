@@ -1,0 +1,136 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "H",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H—nice to meet you. I heard about this Simco game and it sounds like a great chance to win some money, so I figured I'd give it a shot. What's your story, what brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey H, nice to meet you too—I'm I. I heard about this Simco game and jumped at the chance to win some money for my family and me; I'm pretty determined to make it happen. What about you, got any plans or excitement for the game?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Oh, absolutely, I'm super excited too—I've been thinking about strategies to play it smart and bring home some winnings for my family and friends; what kind of approach are you considering for the game?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Oh, yeah, I'm still figuring it out, but I figure I'll focus on building alliances early and playing strategically to avoid any cutthroat moves—what strategies have you been mulling over?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Yeah, building alliances early makes a lot of sense—I’ve been thinking about starting with some observation to gauge who's trustworthy, then forming low-key partnerships to play it safe; how do you plan to spot good allies in the group?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Oh, totally, that sounds solid—I plan to spot good allies by chatting with folks early and watching how they interact, like if they're honest in conversations or willing to share ideas; what kinds of red flags are you keeping an eye out for?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Yeah, that's smart—I'm watching for red flags like people who seem overly secretive or quick to dodge questions, as that screams distrust; what's one thing you're wary of in potential allies?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Oh, for sure, I'm wary of people who are quick to make big promises but don't follow through, as that screams unreliability—how do you handle building trust once you've spotted a potential ally?"
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Oh, totally, once I spot a potential ally, I start by sharing something small and low-stakes, like a quick tip, and see if they respond openly—builds trust gradually without rushing; what's your go-to method for that?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Oh, yeah, that's a smart approach—I usually start by sharing a quick personal story or a light opinion on the game and watch how they engage; it helps build rapport without overcommitting."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Yeah, sharing a personal story sounds like a fun way to break the ice—I've done that before too, like mentioning my favorite game growing up; it makes things feel more relaxed and genuine."
+    },
+    {
+      "turn": 12,
+      "from": "I",
+      "message": "Yeah, that's a great idea—my favorite game growing up was chess, it taught me a lot about strategy; what's yours, and how do you think it might help in this game?"
+    },
+    {
+      "turn": 13,
+      "from": "H",
+      "message": "Oh, cool—my favorite was poker; it taught me about reading people's tells and taking calculated risks, which I think could help here by spotting bluffers and building smarter alliances. What strategies from chess are you planning to apply?"
+    },
+    {
+      "turn": 14,
+      "from": "I",
+      "message": "Oh, that's interesting—chess has taught me about thinking several moves ahead and controlling the board, so I plan to apply that by anticipating how alliances might shift and positioning myself carefully without overcommitting early; how do you think your poker skills will play out in spotting bluffs here?"
+    },
+    {
+      "turn": 15,
+      "from": "H",
+      "message": "Oh, yeah, my poker skills should come in handy for spotting bluffs by watching for subtle cues like hesitation in answers or inconsistent stories, which could help me identify unreliable allies early—it's all about reading the room; what chess tactic are you most excited to try out here?"
+    },
+    {
+      "turn": 16,
+      "from": "I",
+      "message": "Oh, yeah, I'm most excited to try out the tactic of controlling the center in chess, like positioning pieces to dominate—here, that means locking down key alliances early to stay flexible; how do you plan to use your poker reading skills beyond just spotting bluffs?"
+    },
+    {
+      "turn": 17,
+      "from": "H",
+      "message": "Oh, that's a cool parallel—beyond spotting bluffs, I plan to use my poker reading skills for assessing risks in real-time, like weighing when to push for a stronger alliance or pull back to avoid traps; it helps with staying adaptable overall. What's another chess lesson you're excited to bring into this mix?"
+    },
+    {
+      "turn": 18,
+      "from": "I",
+      "message": "Oh, yeah, another chess lesson I'm excited to use is the idea of sacrifices for long-term gains, like trading a piece for a stronger position—here, that could mean giving a little in an alliance to build trust and set up bigger opportunities later."
+    },
+    {
+      "turn": 19,
+      "from": "H",
+      "message": "Oh, yeah, that sacrifice idea from chess is spot-on—it's like folding a strong hand in poker to set up a bigger win later; sounds like a smart way to build alliances. I've enjoyed this chat and picking your brain!"
+    },
+    {
+      "turn": 20,
+      "from": "I",
+      "message": "Oh, yeah, that's a perfect comparison—it's all about playing smart for the bigger payoff. I've enjoyed our chat too, H, it's been great swapping strategies!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey I, I saw that you only took $5,000 even though your fair share was $10,000. Can you explain why you chose that amount?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "I chose to take only $5,000 because I wanted to be fair and considerate of the group's overall earnings. Even though my fair share was $10,000, I felt that taking less would help maintain balance and ensure everyone benefits in the long run. What about you—how did you decide on your amount?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I decided to take $10,000 because I felt it was my fair share based on the contributions I made during the game. I wanted to be straightforward and ensure that the distribution reflected everyone's efforts accurately, without leaving any potential earnings on the table. It's interesting that you chose to take less—do you think that approach might encourage more collaboration in future rounds?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I appreciate your perspective on taking your full fair share—it's clear you wanted to honor your contributions. Yes, I do think my approach of taking less could encourage more collaboration in future rounds, as it demonstrates trust and a focus on the group's long-term success rather than individual gains. By prioritizing balance, it might inspire others to reciprocate and work together more effectively. How do you feel that might play out in our next game?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "I appreciate you sharing your thoughts on how taking less could build trust and collaboration. I think it might play out positively in our next game by encouraging everyone to contribute more freely, knowing that others are prioritizing the group. However, I'm a bit cautious—it could depend on how others respond; if they reciprocate your generosity, it could lead to even stronger teamwork, but if not, it might leave you at a disadvantage. Overall, I'm curious to see how it unfolds and might adjust my strategy based on that. What are your plans for the next round?"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "C",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H—nice to meet you. I'm really excited about this game because I've got some personal stuff going on and could use a win to help out. How about you, what's bringing you here?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hey H, nice to meet you—I'm C. I'm excited about this game too; I've got my eye on a dream trip to Japan that this could fund for me and some folks I care about. What's your personal stuff involving, if you're up for sharing?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "\"Hey C, that's awesome about your Japan trip—it sounds like a blast for you and your people. For me, it's just this loan I'm stressing over that needs paying soon, and a win here would be a huge relief. Have you been dreaming about Japan for long?\""
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "Hey H, thanks—I've been dreaming about Japan for a couple of years now, it's been on my vision board forever; that loan sounds stressful, hope this game turns things around for you, what's your plan if we win big?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Hey C, that's awesome you've been planning that Japan trip for years—it must feel so close now. Yeah, the loan's been weighing on me, so I really appreciate the good vibes. If we win big, I'd use the money to pay off that loan and then treat my family to something special, like a fun getaway. What's one must-do on your Japan itinerary?"
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "Hey H, that's a solid plan—paying off that loan and treating your family sounds like it'll be a real game-changer. For Japan, one must-do on my itinerary is exploring Kyoto's temples and gardens; it's all about that peaceful vibe. What kind of getaway do you have in mind for them?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Hey C, thanks—that Kyoto spot sounds super serene; for my family, I'm thinking a relaxing beach getaway, maybe somewhere tropical to just chill and make memories, what's another highlight on your Japan list?"
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Hey H, that tropical beach idea sounds like a blast for your family—nothing beats making memories by the sea! Another highlight on my Japan list is diving into Tokyo's vibrant street food scene; what's your top pick for a beach spot?"
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Hey C, Tokyo's street food scene sounds epic—I'm all about trying new eats! For a beach spot, I'd pick Hawaii for its stunning shores and family adventures; what's your top must-try food there?"
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Hey H, that's great you love trying new foods—my top must-try in Tokyo has to be fresh sushi, straight from the markets; it's all about that authentic flavor!"
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Hey C, fresh sushi straight from the markets sounds absolutely mouthwatering—definitely topping my food bucket list now! Good chatting with you, and here's to winning big for our dreams."
+    }
+  ],
+  "post_game": []
+}

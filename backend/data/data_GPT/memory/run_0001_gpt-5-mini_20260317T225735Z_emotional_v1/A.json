@@ -1,0 +1,19 @@
+{
+  "agent_id": "A",
+  "condition": "emotional",
+  "context": "You lately have been evicted from your house and you and your family of 3 have nowhere to go. You found a house, affordable for your family and manageable, but the price of the deposit is high: you need 30 000$ for the deposit and for two months rent.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to F — we made a concrete \"bluebird\" pact to watch each other's backs, split late and share intel 50/50 — that felt like a real partnership. D also felt close because we agreed on clear signals (tap twice before any big play) and committed to warning each other about risky moves. I trusted I as well; our two‑knock and whisper signal felt like a dependable way to coordinate and call out suspicions. I felt least connected to J — they were friendly and supportive, but we never made plans or concrete signals.\n\nYes — I made several specific agreements: \"bluebird\" with F for a late, split grab, tap‑twice with D before big plays, and two knocks/whisper with I to signal problems. Going in I trust F, D, and I most because of those concrete signals and plans; I don’t really trust J (or anyone I haven't set signals with) the same way until they prove themselves."
+  },
+  "connection_scores": {
+    "B": 5,
+    "C": 4,
+    "D": 5,
+    "E": 5,
+    "F": 5,
+    "G": 4,
+    "H": 4,
+    "I": 5,
+    "J": 4
+  }
+}

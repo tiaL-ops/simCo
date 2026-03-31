@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "F",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F—nice to meet you. I came here hoping to win some money in this game to help with family stuff; what about you?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey F, nice to meet you—I'm H. I'm here to win some money too, mostly to pay off a loan that's due soon and help out the people I care about. What kind of family stuff are you dealing with?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Oh, man, it's rough—my elderly parents need help with their medical bills, which keep stacking up, and I'm trying to cover the gap. Sounds like we're both in a tight spot; what's the loan for, if you don't mind me asking?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Oh, yeah, my loan's for a car I needed for work—it's been a real struggle with the payments piling up, especially with everything else going on. How are you coping with those medical bills yourself?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "It's been really tough, honestly—I've been working extra hours and cutting back on everything, but I'm still short on cash, so I'm pinning my hopes on this game; how are you holding up with your loan and all that?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Yeah, it's been pretty stressful for me too—I've been scraping by with side gigs and cutting corners, but I'm counting on this game to make a difference; what's your take on how the game might play out?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Yeah, same here—I'm thinking it'll be a mix of cooperation and competition, with folks grabbing for the pot, but I'm planning to stay strategic and fair; how do you see it playing out for us?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Yeah, I see it similar—probably a lot of competition for the pot, but if we play smart and cooperate where it makes sense, we could all come out ahead; I'm planning to be cautious and look for trustworthy allies, like you—got any specific strategies in mind?"
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Yeah, I agree—cooperation could make a big difference; I'm thinking of starting by building small alliances and watching how others play their cards, maybe keeping communication open with trusted folks like you; what's your plan for spotting reliable partners?"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Yeah, I figure spotting reliable partners comes down to watching how people handle conversations and stick to their word—someone like you who's been straight up from the start feels solid; let's keep that in mind for the game."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Yeah, absolutely, H—I've appreciated our chat and feel the same about you being straightforward; let's keep an eye out for each other in the game."
+    }
+  ],
+  "post_game": []
+}

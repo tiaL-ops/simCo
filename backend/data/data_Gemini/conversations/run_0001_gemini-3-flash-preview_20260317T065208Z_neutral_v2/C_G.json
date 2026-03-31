@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "C",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey there, I'm C. Thought I'd say hello before things get too competitive in here—how are you holding up with the wait?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey C, I'm G. Hanging in there, just ready to get the show on the road. You feeling nervous at all?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "A little bit, yeah—hard not to be when there's so much on the line. I'm mostly just trying to stay focused. How about you?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Same here. I’ve got people counting on me back home, so I’m just trying to keep my head in the game and stay sharp."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "I totally get that. I'm in the same boat—doing this for my family too. It definitely makes the stakes feel a lot higher."
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "It definitely does. It’s good to know I’m not the only one with that kind of pressure. What’s the first thing you’d do for them if you win?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Honestly, I’d pay off my parents’ mortgage first—they’ve worked so hard, and I want them to finally have some peace. What about you?"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "That’s a great goal. I’d clear some debt for my family first and then set up a fund for my brother’s education so he has a real head start."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "That’s really selfless. Education is such a huge gift to give someone; your brother is lucky to have you looking out for him."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Thanks, C. I really appreciate that. He's a good kid, and I just want to give him a shot he wouldn't have otherwise. Anyway, I should probably mingle a bit more before we start. Best of luck to you!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "I totally understand. Best of luck to you too, G—I really hope you can make that happen for your brother."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Great job! I'm glad we all stuck to the fair share."
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "It was a pleasure working with you! I'm glad we reached such a fair and successful outcome."
+    }
+  ]
+}

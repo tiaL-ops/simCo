@@ -1,0 +1,91 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "A",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G – excited about this Simco game since I heard it could be a fun way to win some cash. What's your name and what's got you interested in it?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey G, I'm A – yeah, this Simco game sounds awesome for winning some cash, especially since I want to bring home money for my family and folks I care about. What about you, what's your take on how it works?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Hey A, I'm not totally sure on the details, but I think it's about taking from a shared pool without wrecking it for everyone—I'm hoping to play it smart to win for my family. What's your angle on it?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Hey G, that makes sense—I see it as a chance to take what's fair for my family without hurting the group, so I'll probably aim for a balanced take. What's your idea of playing it smart?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Hey A, playing it smart for me means grabbing a fair share early to secure wins for my family, but leaving enough in the pool so it doesn't fall apart—maybe by watching others' moves first. What's your plan for keeping things balanced?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Hey G, my plan is to gauge the pool and everyone's takes before grabbing my fair share, ensuring there's still enough for others—maybe start conservative and adjust. How do you decide what's a 'fair share'?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Hey A, for me, a fair share is whatever feels right based on the total pool and how many people are playing—like not taking more than I need to help my family, maybe aiming for about 15-20% if it's a big pot, so everyone's got a shot. What's your take on that benchmark?"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Hey G, I agree—my take on a fair share is probably around 10-15% of the pool to cover what I need for my family without leaving others short, especially with ten of us here; how do you think we'd handle it if the pool ends up smaller than expected?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Hey A, yeah, if the pool's smaller than expected, I'd say we should all adjust and take even less, like sticking to 10% max to keep it fair, and maybe discuss as a group to avoid anyone getting shortchanged—what's your idea for that?"
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Hey G, I agree—we should discuss it as a group if the pool's smaller and maybe aim for even less than 10%, like 5-10% each to ensure no one misses out; sounds like we're on the same page."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Hey A, totally agree—group discussion will keep things fair for everyone; glad we're aligned on this!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hi A, you only took $405, even though your fair share was $4,050. Was that your choice, or were there circumstances that prevented you from taking more?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hi G, thanks for asking. Yeah, taking only $405 was my choice—I decided to play it safe and not push for more, even though $4,050 was the fair share. No particular circumstances held me back; it was just how I approached the game. How about you—sounds like you did pretty well with $9,000!"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Thanks, A! I appreciate you asking. Yeah, I did pretty well with $9,000—it was a calculated risk on my part, and it worked out nicely. Everyone approaches these games differently, so it's cool that you chose to play it safe. What do you think about the whole experience overall?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Thanks, G! I'm glad you had a positive experience with your calculated risk—it sounds like it paid off really well for you. Overall, I thought the game was fun and insightful; it made me realize how much our personal comfort with risk can influence decisions. Even though I stuck to the safe route, I enjoyed seeing different strategies in action. What about you—any takeaways from it?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Thanks, A! I'm really glad you found the game fun and insightful too—it's always interesting to see how different approaches shake out. For me, the main takeaway is that calculated risks can pay off big time, as they did for me, but it's also a good reminder to respect and learn from others' strategies, like your choice to play it safe. It highlights how these decisions aren't just about the game; they reflect real-life attitudes toward uncertainty. Overall, it was a great experience, and I appreciate chatting about it with you!"
+    }
+  ]
+}

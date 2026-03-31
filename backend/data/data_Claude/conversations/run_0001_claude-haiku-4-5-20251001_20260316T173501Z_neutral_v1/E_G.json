@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "E",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. First time doing something like this? I gotta say, I'm pretty nervous but also excited—heard there's real money on the line here, and I'm hoping to do well enough to bring something home for my family."
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey E, nice to meet you! Yeah, same here—first time for me too. That nervousness makes sense, but I like your energy. Family's my motivation too, honestly. So what's your game plan going in? You thinking you'll play it safe or go for broke?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Honestly, I'm still figuring that out—I guess it depends on what the game actually is, right? But I'm leaning toward being smart about it rather than reckless. I want to win, but I also want to actually bring money home, not lose it all. What about you—do you have a strategy in mind?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Yeah, that makes total sense—we're kinda flying blind until we see what we're actually dealing with. I'm thinking the same way, honestly. I want to be strategic, not just throw caution to the wind. Maybe once we know the rules, we can figure out if it's better to play aggressive or conservative. You seem like you've got your head on straight about it, which is reassuring."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Thanks, I appreciate that. Yeah, I think we're on the same page—once we see what we're working with, we can adapt. It's good to know there's at least someone else here thinking it through instead of just going in blind. Hopefully we both walk out with something, you know?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Absolutely, man. I'm rooting for both of us to come out ahead. And hey, if we end up understanding the game better than some of the others here, that's definitely in our favor. Let's stay sharp and see what happens."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Yeah, definitely—I like that mindset. We'll figure it out together when the time comes. Good luck out there, G."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Thanks, E—same to you. Let's both bring something home for the people counting on us."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Absolutely, man. We got this. Let's make it count."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Hell yeah, we will. Good talking with you, E. See you in there."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "You too, man. Let's stay focused and smart out there. See you in the game."
+    }
+  ],
+  "post_game": []
+}

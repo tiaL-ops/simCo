@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "F",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey I, I'm F—nice to meet you. I'm here because I really need to win some money for my parents' medical bills, and this game seems like a solid chance. What's your reason for joining?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey F, nice to meet you too—sorry to hear about your parents, that sounds really tough. I'm here because I want to win some extra cash for my family and to build more security for the future."
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Thanks, I—that means a lot; it's tough but I'm hopeful. Sounds like we're both fighting for family security—what kind of plans do you have for the money if you win?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Oh, thanks for asking, F—I'd probably use it to help out my family with some home improvements and stash away the rest for a rainy day fund, you know, to feel even more secure. What about you?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "That's a solid plan, I—it makes sense to secure your future; for me, I'd use it to cover the rest of my parents' medical bills and finally breathe a bit easier knowing we're not in the red."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "That's really admirable, F—hoping you get that relief soon; family stuff like that hits hard, and I'm rooting for both of us in this game."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Thanks, I, that means a lot—I'm rooting for you too, and here's hoping we both walk away with what we need from this game."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Thanks, F, that's really uplifting—let's both go all in and make this game count for our families!"
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Absolutely, I—let's team up and crush this for our families, I'm feeling pumped!"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Yeah, F, that's the spirit—let's team up and give it everything for our families, I'm pumped too!"
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Awesome, I—let's make this count and support each other all the way!"
+    }
+  ],
+  "post_game": []
+}

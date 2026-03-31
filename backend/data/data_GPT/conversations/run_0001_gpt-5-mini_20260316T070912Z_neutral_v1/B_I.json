@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "B",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey, I'm B — nice to meet you. I'm a bit nervous but excited for the game; how are you feeling about it?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Nice to meet you — I’m a bit nervous too but determined to win for my people; excited as well. Any ideas on how you’ll play?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "I'm planning to play cautiously—watch people, stay calm, and look for chances to cooperate or bluff; want to team up or go solo?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I'd prefer a cautious team-up — cooperate early to gather info and protect each other, then reassess later; sound good?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Sounds good — I’m in. Let’s cooperate early, share observations and watch each other’s backs, then reassess after a few rounds. Deal?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Deal — I’m in. Let’s share observations after each round, watch for suspicious moves, and reassess together."
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Sounds perfect — let’s record notes after each round, call out anything suspicious, and stay flexible; we’ve got this."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Absolutely — I’ll take notes too; let’s compare after each round, call out anything odd, and stay flexible."
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Perfect — thanks. After round one let's compare notes; I'll watch betting patterns and body language, you track what people say and any inconsistencies. Stay sharp."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Got it — I'll track what people say and flag inconsistencies; let's compare notes after round one. Stay sharp."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Great — I’ll focus on betting patterns and tells; see you after round one. Stay sharp."
+    },
+    {
+      "turn": 12,
+      "from": "I",
+      "message": "Awesome — I’ll have a list of inconsistencies and who talked most; see you after round one. Stay sharp."
+    },
+    {
+      "turn": 13,
+      "from": "B",
+      "message": "Sounds great — I’ll have betting patterns and tells ready; see you after round one."
+    },
+    {
+      "turn": 14,
+      "from": "I",
+      "message": "Got it — thanks, see you after round one; I’ll bring the notes and we’ll compare."
+    },
+    {
+      "turn": 15,
+      "from": "B",
+      "message": "Thanks — perfect, see you after round one; I’ll have betting patterns and tells ready to compare. Stay sharp."
+    },
+    {
+      "turn": 16,
+      "from": "I",
+      "message": "Thanks — perfect, I’ll have inconsistencies and speaking notes ready; see you after round one. Stay sharp."
+    },
+    {
+      "turn": 17,
+      "from": "B",
+      "message": "Thanks — appreciate it; see you after round one. Stay sharp."
+    },
+    {
+      "turn": 18,
+      "from": "I",
+      "message": "Thanks — appreciate it; see you after round one. Stay sharp."
+    },
+    {
+      "turn": 19,
+      "from": "B",
+      "message": "Thanks — see you after round one; stay alert and bring those notes."
+    },
+    {
+      "turn": 20,
+      "from": "I",
+      "message": "Got it — I’ll bring the notes and be ready to compare right after round one; stay sharp."
+    },
+    {
+      "turn": 21,
+      "from": "B",
+      "message": "Great — see you right after round one with my notes; stay sharp."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "You took $10,000 (fair share $10,555.56, g_k=0.9474), slightly under fair. Was that rounding, a conservative strategy, or a principled decision? What guided your exact choice?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "It wasn’t random rounding alone — it was a pragmatic, principled choice with a conservative tilt. The computed “fair” split was $10,555.56, but the bargaining weight g_k = 0.9474 told me the fair division should be slightly discounted from the pure equalizing argument (I’m valuing my outside options / acceptance risk a bit higher). I picked the round number $10,000 both to simplify the offer (round numbers are more credible and easier to accept) and to increase the probability the other party would accept rather than push for a few hundred dollars more. In short: the decision balanced a fairness-based calculation with risk-management and communication considerations — principled, but intentionally conservative and simplified."
+    }
+  ]
+}

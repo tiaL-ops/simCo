@@ -1,0 +1,19 @@
+{
+  "agent_id": "D",
+  "condition": "emotional",
+  "context": "You just lost 20 000$ investing in the stock market yesterday. Although you knew that was a risk you want that money back somehow.",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to B, H, and A. With B, we bonded immediately over shared desperation—his daughter needing surgery and my stock market loss created an instant understanding, and we made a real commitment to look out for each other in there. H and I had that same desperate energy, both trying to recover from serious financial hits, and there was something grounding about him being honest that he wasn't a gambler either but felt forced into this situation. A resonated with me too because he was thinking about cooperation and wanted to approach this thoughtfully rather than just going for the throat—his family situation was dire, and I respected how he wanted to find a way for everyone to win rather than destroy each other.\n\nC felt like the least connected—not in a bad way, but there was a distance there. He's doing okay financially and wants a trip to Japan, which is great, but it's just not the same as the bone-deep desperation I'm carrying. He seemed nice enough, but we didn't have that mutual understanding of what's really at stake.\n\nI made a specific agreement with B to stick together and watch out for each other during the game—that felt like the most concrete commitment. I also agreed with G to corner the organizers about the actual rules before we start, which seemed smart.\n\nGoing in, I trust B the most—there's something real there, and I believe he has my back. I'm also cautious though, because everyone here is desperate, and desperation makes people do things they normally wouldn't. I don't specifically distrust anyone, but I'm definitely going to be watching how people act once the game actually starts."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 3,
+    "E": 4,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 3
+  }
+}

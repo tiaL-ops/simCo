@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "C",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C. First time doing something like this? I'm pretty nervous but also excited—heard there's real money on the line, which would be huge for me and my family."
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey C, nice to meet you! Yeah, same here—first time for me too. The money part is definitely what got my attention, honestly. I've got people counting on me, so I'm hoping we can both do well here. What's your family situation like, if you don't mind me asking?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I've got my mom and younger sister back home—money's been tight, so yeah, I really need this win. What about you, who are you hoping to help out?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "My parents, mostly—they've been stressed about bills lately. I get it about the tight money situation. Sounds like we're both in this for the right reasons. How much are you hoping to walk away with if things go well?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Honestly, even a couple hundred would make a real difference right now—help with rent and groceries for a month or two. But I'm trying to stay realistic. What about you, what would feel like a real win?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Same honestly—a couple hundred would be huge for me too. I'd be happy with anything that helps take some pressure off my parents for a bit. We're just trying to be smart about this, you know?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Yeah, I feel you—being smart is key. I guess we'll find out soon what this game actually involves. You thinking you'll play it safe or take some risks if you get the chance?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Honestly, I'm not sure yet—depends on what the game actually is, right? But I think I'll probably lean toward being careful rather than reckless. Can't help my parents if I lose everything, you know? What about you—you thinking of playing it safe?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Yeah, that makes total sense—I'm thinking the same way honestly. Like, I need the money but not if it means risking it all and coming home empty-handed, you know? I'd rather walk away with something solid than gamble it away trying to get rich quick."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Exactly—that's smart thinking. We both know the difference between winning and just not losing, and honestly that second one matters more right now. Good luck out there, C. Hope we both walk away with something."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Thanks E, same to you—really appreciate the real talk. We got this. Good luck out there."
+    }
+  ],
+  "post_game": []
+}

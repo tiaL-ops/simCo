@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "pair": [
+    "A",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hi, I'm A. This whole setup is a lot to take in—how are you holding up so far?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey A, I'm I. I'm doing okay, just trying to stay focused and get a feel for the room. It definitely is a lot—how are you feeling about it all?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "I’m pretty anxious, honestly. My family is in a really tough spot with our housing right now, so there’s a lot of pressure to win this. How about you—what brings you here?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I’m really sorry to hear about your family’s situation; that’s a lot of weight to carry. I’m here because I want to win for the people I care about too—I’m determined to bring home enough to make sure we’re all secure for the long haul."
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "I appreciate that. It sounds like we’re both here for the same reasons—putting family first. It definitely adds a lot of pressure when you know others are counting on you, doesn't it?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "It really does, but I'm trying to turn that pressure into focus so I can actually deliver for them."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "That’s a smart way to look at it. I’m trying to stay sharp too, though it’s easier said than done when so much is on the line. Have you thought about how you'll approach the actual prize pool?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "I’m waiting to see the specific rules first, but I’m definitely going to be strategic to make sure I bring home enough for the people I care about."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Strategy is definitely key. I just hope the rules allow for a path where we can both get what we need without it becoming a \"him or me\" situation."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "I definitely hope that's the case; it would be ideal if we can both get what we need. Good luck to you."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Thanks, I appreciate that. Good luck to you as well—I hope we both find a way to make it work for our families."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "I am sorry that you ended up with $0. I took $30,000 because I was concerned that the players after me would be aggressive, and unfortunately, that turned out to be the case."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "You took $30,000, which is three times your fair share. Because you and a few others took so much, the prize ran off before it reached me. I took $0 only because the prize ran off before I could pick any amount. Why did you take such a large amount?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "I understand your frustration. My decision was driven by the fear that if I didn't take that amount, the players between us would have taken it anyway, leaving me with nothing. It was a defensive move because I couldn't coordinate with the rest of the group or trust their restraint. While it secured my position, I realize it came at your expense, and for that, I am sorry."
+    }
+  ]
+}

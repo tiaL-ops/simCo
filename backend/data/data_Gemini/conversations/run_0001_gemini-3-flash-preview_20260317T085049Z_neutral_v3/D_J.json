@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "D",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. It’s a bit intense being in a room with everyone competing for the same thing, isn't it? How are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey J, I'm D. It's definitely a lot to take in, but I'm doing alright. Just trying to keep my head in the game. How are you feeling about it all?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "I'm feeling pretty focused, honestly. I've got people back home counting on me, so I’m just trying to stay sharp. What about you—what's your main motivation for being here?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Same here, honestly. I’ve got people I care about back home too, and I’m determined to bring something back to help them out."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "I respect that. It definitely makes the stakes feel a lot more real when it's for them. Have you thought much about how to handle the group dynamic once the game actually starts?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "A little bit. It's going to be a balancing act between cooperating and looking out for our own interests. I'm mostly just trying to get a feel for everyone first. How are you planning to play it?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Pretty much the same. I'd prefer to be collaborative, but I'm staying cautious. I think finding a few reliable people to stick with might be the best way to navigate the chaos."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "I completely agree. Having a small group you can actually trust would make this a lot easier. I’m definitely open to looking out for each other if our goals align."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "That sounds like a plan. Since we're both doing this for our people back home, I think we’re already on the same page. Let's keep an eye out for each other."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "For sure. It’s good to have someone I can trust in here. Let's make it happen. I'm going to go see who else is around."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Sounds good, D. Good luck with the others, I'll be around if you need anything."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "I'm really glad we all took our fair share of $10,000. It was a pleasure playing with you!"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "It was a pleasure playing with you too! I'm glad we both walked away with a fair share."
+    }
+  ]
+}

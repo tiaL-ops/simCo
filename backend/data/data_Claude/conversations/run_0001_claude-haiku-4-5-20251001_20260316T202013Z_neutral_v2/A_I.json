@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "A",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A. First time doing something like this? I'm honestly pretty nervous but excited—figured I'd get to know some people before we jump in. What brings you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey A, yeah first time for me too! Honestly, I heard about the money opportunity and I really need to win something—got people depending on me. You seem cool though, nervous energy is real. What's your situation, why'd you sign up?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Same here, man—I've got people counting on me too. That's what got me through the door honestly. I'm trying not to overthink it, but yeah, the stakes feel real. You mentioned needing to win something—what's the plan, you thinking you'll go for it aggressive or play it smart?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Honestly, I'm still figuring that out—part of me wants to go all in, but I know that's probably how people lose. Maybe we play it smart first, see how things develop, and adapt from there? What about you, you got a strategy in mind or are you winging it too?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Yeah, I feel that—going all in sounds tempting but risky. I'm thinking similar to you, maybe start cautious, read the room and see who's trustworthy, then figure out if we can work together or need to protect ourselves. Either way, we've got this."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "For sure, I appreciate that—having someone on the same page makes this feel less crazy. Let's definitely keep our eyes open and see who we can trust. Maybe we check in after the first round and compare notes?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Absolutely, yeah—let's definitely touch base after the first round. I feel better knowing there's at least one person I can be real with in this. Good luck out there."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "You too, man. Glad we connected—let's look out for each other and play it smart. See you after round one."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Definitely, I got your back. Let's stay sharp and meet up right after—we can figure out what we're seeing and adjust together. Here's to playing it smart."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Hell yeah, I'm counting on it. Let's meet up right after and compare notes—we'll figure this out together."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Absolutely, brother. We've got this—I'll find you right after and we'll figure out the next move together. Stay sharp out there."
+    }
+  ],
+  "post_game": []
+}

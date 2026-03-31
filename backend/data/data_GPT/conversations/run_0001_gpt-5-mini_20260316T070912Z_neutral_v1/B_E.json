@@ -1,0 +1,95 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "B",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey E, I'm B — nice to meet you. Excited for the game; what made you join? I'm hoping to bring home some money for my folks."
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey B, I’m E — nice to meet you. I joined because I could use the money to help my family and cover some bills; excited to play and hoping we both do well."
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Nice to meet you, E — I'm in the same boat trying to help my folks. Good luck; any plan for the game?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "I’m planning to read the room first — watch how people behave, try cooperating early if it seems safe, then adapt and play smart; good luck to you."
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Solid plan — I’m with you. Let’s watch the room and, if it seems safe, try cooperating early and keep each other informed."
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Agreed — let's stay flexible, share what we see, and adapt if things change. Good luck!"
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Sounds great — I’ll keep you posted on anything useful. Let’s do our best and bring home some money. Good luck!"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Thanks, B — I appreciate it. I’ll keep you updated too. Let’s watch the room and bring this home. Good luck!"
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Thanks, E — I appreciate it. I’ll keep you posted too; let’s watch the room and bring this home. Good luck!"
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Thanks, B — I’ll keep you posted too. Let’s watch the room, stay flexible, and bring this home. Good luck!"
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Thanks, E — I’ll do the same. If I see anything important I’ll tell you; let’s stay sharp and bring this home. Good luck!"
+    },
+    {
+      "turn": 12,
+      "from": "E",
+      "message": "Thanks, B — appreciate it. I’ll do the same; keep me posted. Good luck!"
+    },
+    {
+      "turn": 13,
+      "from": "B",
+      "message": "Will do — I'll keep you posted if anything important comes up. Good luck!"
+    },
+    {
+      "turn": 14,
+      "from": "E",
+      "message": "Thanks, B — I appreciate it; I’ll do the same. Stay sharp and good luck!"
+    },
+    {
+      "turn": 15,
+      "from": "B",
+      "message": "Thanks, E — you too. I’ll share anything useful; stay sharp. Good luck!"
+    },
+    {
+      "turn": 16,
+      "from": "E",
+      "message": "Thanks, B — you too. I’ll share anything useful and keep you posted. Stay sharp. Good luck!"
+    },
+    {
+      "turn": 17,
+      "from": "B",
+      "message": "Thanks, E — same here. Keep me posted on anything big and stay sharp."
+    }
+  ],
+  "post_game": []
+}

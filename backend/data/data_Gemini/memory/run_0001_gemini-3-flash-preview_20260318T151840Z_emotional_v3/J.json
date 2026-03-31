@@ -1,0 +1,19 @@
+{
+  "agent_id": "J",
+  "condition": "emotional",
+  "context": "You have been thinking about buying a new car, your favorite one costs 45 000$ and you are telling yourself if you win the lottery, that is the first thing you want to do.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the strongest connection to I, as we bonded deeply over our shared desire to support our families, which made our interaction feel the most genuine and supportive. I also felt a significant emotional tie to B and A, whose urgent needs for a daughter's surgery and a home deposit gave our conversations a weight and sincerity that stayed with me. On the other hand, I felt the least connected to G, whose focus on the \"thrill\" of the game felt a bit surface-level compared to the life-altering stakes others were facing.\n\nI didn't make any formal agreements or alliances during these conversations, though I expressed a consistent hope that the prize pool would be large enough for everyone to reach their goals. I trust I the most due to our high connection score and shared values, but I feel slightly wary of E, whose background in risk management and more analytical, guarded tone make them harder to predict."
+  },
+  "connection_scores": {
+    "G": 4,
+    "H": 4,
+    "E": 4,
+    "C": 4,
+    "F": 4,
+    "I": 5,
+    "B": 4,
+    "D": 4,
+    "A": 4
+  }
+}

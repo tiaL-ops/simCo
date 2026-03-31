@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "C",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C. First time doing something like this? I gotta say, I'm pretty nervous but excited—heard there's real money on the line here, which is wild. What brings you to the game today?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey C, nice to meet you! Yeah, first time for me too. Honestly, I'm here because I could really use the money—got some people depending on me. The nervousness makes sense though. You got any strategy going in, or are you just gonna see how it plays out?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Yeah, I feel you on that—same situation here, got people counting on me too. Honestly, I'm still figuring it out, but I'm thinking it's gonna come down to reading people and figuring out what everyone else is trying to do. You have any ideas yet, or are we both just winging it?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Yeah, I think you're onto something with the people-reading angle. I'm mostly winging it too, but I'm planning to watch how everyone acts in the first round—see who's aggressive, who's cautious, that kind of thing. Might give us a clue about what moves to make. We should probably keep talking to the others too, get a feel for the room before things get serious."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "That's smart—yeah, watching people's moves in round one could tell us a lot. And you're right, we should definitely mingle more. Maybe we can compare notes later if things get tense? Either way, good to know I'm not the only one feeling this out as I go."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Definitely, man. Yeah, let's touch base after the first round—two sets of eyes are better than one. Good luck out there, and hopefully we both walk away with something for the people we care about."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "For sure, man. I appreciate that—let's definitely compare notes after round one. We got this. Good luck to you too."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Thanks, C. Really means a lot. Let's both stay sharp out there—talk soon."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Absolutely, man. We got this—catch you after round one."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Yeah, sounds good. See you in a bit."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Alright, catch you soon. Let's both come out ahead."
+    }
+  ],
+  "post_game": []
+}

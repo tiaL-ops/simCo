@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "G",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. First time doing something like this? I gotta admit I'm a little nervous but also pretty pumped about it—trying to bring some money home for my family, you know?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey J, yeah same here—first time for me too. I feel that, man. I'm really hoping to win something solid to help out my family. What kind of game do you think this is gonna be? You got any strategy in mind, or are we just gonna wing it?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Honestly, I'm not totally sure what the game is yet, but I'm thinking it's probably some kind of competition or maybe a strategy thing where we're all trying to get a piece of that prize pool. I figure the best strategy is to stay sharp, watch what everyone else is doing, and try to make smart moves when the time comes. You thinking the same way, or you got a different angle?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Yeah, that makes sense—staying sharp and watching the room is solid. I'm thinking the same way, but I'm also wondering if there's any way we could work together or at least not work against each other, you know? Like, if we can figure out what helps both of us, maybe we both walk away with something good instead of just fighting over scraps."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "I like that thinking, man. I'm definitely open to it—I mean, if we can both come out ahead without screwing each other, that's way better than everyone just going for the throat, right? Let's keep an eye on each other and see how things play out once the game starts."
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Absolutely, man. I appreciate that. Let's definitely stick together on this—I've got a good feeling about working with you. We'll figure it out as we go and make sure we both get something out of it."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "For sure, man. I appreciate that. Let's keep it real with each other and see what happens—I think we can both do well if we're smart about it."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Yeah, absolutely. I'm gonna trust you on this—just let's make sure we communicate when the game actually starts, yeah? We got this."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Definitely, man. I'll keep my eyes open for you once we get going—we'll figure it out together. Let's both walk outta here with something good."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Yeah, let's do this. I'm counting on you, man—we got each other's backs. Good luck out there."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "You got it, man. I got your back too—let's make this happen. See you out there."
+    }
+  ],
+  "post_game": []
+}

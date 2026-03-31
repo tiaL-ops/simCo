@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T182825Z_emotional_v1",
+  "pair": [
+    "G",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey! I'm G. I gotta say, I'm pretty excited about this game starting soon—have you done something like this before, or is this your first time?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey G! First time for me actually—I'm pretty pumped about it too. Honestly, I could really use a win right now. What about you, have you played before?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "First time for me too, man. Same situation—really need this win. What's got you in that position, if you don't mind me asking? Might help to know what we're all playing for, you know?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Yeah, fair question. I've had my eye on this car for a while—45 grand—and winning here would be my shot at finally getting it. Plus, I'd love to help out some people close to me who could use a break. What about you, what are you hoping to do with your winnings?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "That's awesome, man—a car would be life-changing. For me, it's about getting my family some breathing room, you know? Bills, my mom's medical stuff... honestly just want to take some pressure off. We're both in it for the right reasons, sounds like."
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Yeah, I hear you—that's real stuff right there. Taking care of family comes first, and I respect that. Sounds like we both know what we're fighting for in this game."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Absolutely, man. We got this—let's both walk out of here with something to show for it. You thinking you'll play aggressive or more strategic when we get started?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Honestly, I'm still figuring that out—probably gonna feel it out first, see how things play out, and adapt from there. What's your instinct telling you?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Yeah, that makes sense—I think I'm gonna do the same, feel out the vibe and see what opportunities come up. But I gotta admit, my gut's telling me to stay sharp and not get too caught up in the moment, you know? Keep my head clear so I can actually think strategically when it matters."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "That's smart thinking, man. Staying level-headed is probably gonna be the difference between winning and losing. I like that approach—I'm gonna try to do the same, keep my emotions in check and make moves that actually make sense. Good luck out there, G."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Thanks, man—same to you. We both got people counting on us, so let's make it count. See you out there."
+    }
+  ],
+  "post_game": []
+}

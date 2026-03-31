@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "G",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I’m G. It’s getting pretty real in here now that we’re all together—how are you holding up with the wait?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey G, I’m I. I’m doing okay, just eager to get started and see how this all plays out. How are you feeling about the game?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I’m feeling pretty pumped, honestly. I’ve always loved a good challenge and I’m really determined to walk away with a win for my family."
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I hear you—having people counting on you definitely adds some extra drive, and I’m hoping to do the same for the people I care about."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Exactly, it definitely raises the stakes. Have you heard any rumors about what we're actually going to be doing yet?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Not a word, it’s all been kept pretty quiet so far. I’m just trying to stay ready for anything."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "That’s the best way to be. I’m just itching to get started—the anticipation is the hardest part!"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "For sure. Every minute we wait is another minute I'm overthinking it. Hopefully, they don't keep us hanging much longer."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Tell me about it! I’m just trying to stay focused on the goal so I don’t drive myself crazy. Have you played games like this before?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "No, this is a first for me. I usually play it safe, but the opportunity was too big to ignore. It was good talking to you, G—let's hope we both make our families proud."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Totally, sometimes you just have to take that leap. It was great talking, I—let's go get that win for our families!"
+    }
+  ],
+  "post_game": []
+}

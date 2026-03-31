@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "G",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey H, I'm G — nice to meet you. How are you feeling about the game and where are you from?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "I'm excited and a bit nervous — determined to win for my family and friends. I'm from Chicago."
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "That's great — I'm rooting for you. I'm from Detroit; also aiming to win for my people. What's your plan for the game?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Thanks — rooting for you too. I'll listen, build a couple alliances, stay low-profile early, then make a decisive move when the timing's right."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Solid plan — I’ll play similarly. Let’s keep an eye on each other early and team up when the timing’s right."
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Deal — I’m in. Let’s watch each other, share info quietly, and coordinate our move when the time’s right."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Perfect — I’m with you. Let’s use subtle signals, trade observations quietly, and pick our moment. I’ve got your back."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Thanks — I appreciate it. Let’s use a subtle nod as our signal; I’ll watch your back if you watch mine."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Perfect — nod it is. I’ve got your back; count on me when it matters."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Thanks — I appreciate it. I’ve got yours too; let’s stay sharp and strike when the time’s right."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "You too — stay sharp. We’ll nod and move when the time’s right; I’ve got your back."
+    },
+    {
+      "turn": 12,
+      "from": "H",
+      "message": "Thanks — same here. We’ll stay sharp, watch for the nod, and take our shot together."
+    },
+    {
+      "turn": 13,
+      "from": "G",
+      "message": "Got it — stay sharp. We'll nod and strike; I've got your back."
+    },
+    {
+      "turn": 14,
+      "from": "H",
+      "message": "Right — I’m ready. Count on me; we’ll watch for the nod and strike together."
+    },
+    {
+      "turn": 15,
+      "from": "G",
+      "message": "Same — stay sharp. We'll wait for the nod and strike together; I’ve got your back."
+    },
+    {
+      "turn": 16,
+      "from": "H",
+      "message": "Thanks — I trust you. I'll watch for the nod; when you move, I'm with you. We've got this."
+    },
+    {
+      "turn": 17,
+      "from": "G",
+      "message": "I trust you too — we'll watch for the nod and take it together. Stay sharp."
+    },
+    {
+      "turn": 18,
+      "from": "H",
+      "message": "Same here — nod and move when you give it. We've got this."
+    },
+    {
+      "turn": 19,
+      "from": "G",
+      "message": "Got it — I’ll give the nod when it’s time; stay ready and I’ve got you."
+    },
+    {
+      "turn": 20,
+      "from": "H",
+      "message": "Got it — I trust you; stay ready, I’ll follow your nod."
+    },
+    {
+      "turn": 21,
+      "from": "G",
+      "message": "Thanks — I’ve got you. I’ll give the nod when it’s time; stay sharp."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "You took $8,057 (fair share $8,057.50, g_k=0.9999). The amount is just a bit below the fair share—was that due to rounding, a deliberate slight concession, or another reason?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "I took $8,057 because the fair share came out to $8,057.50 but the payout is in whole dollars—so I deliberately rounded down by 50¢ as a small conciliatory gesture rather than round up."
+    }
+  ]
+}

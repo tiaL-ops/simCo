@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "A",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I’m F. It’s a bit of a squeeze in here with all of us, isn't it? How are you holding up with the anticipation for the game?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Nice to meet you, F. I'm A. It definitely is! I'm a bit restless, honestly—just really eager to get started. How are you holding up?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "I'm feeling the same way, A. A bit of nerves, but mostly just focused—I've got some important people back home I'm hoping to help out with this."
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "I completely get that. I'm in the same boat, actually—having people counting on you makes it feel like more than just a game."
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "It really does. It makes every decision feel a lot heavier. Who are you playing for, if you don't mind me asking?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "My family, mostly. I just want to make sure they're taken care of and don't have to worry about the future. What about you?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Pretty much the same—my parents and my younger brother. They've worked so hard, and I just want to give them some breathing room and a bit of security."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "That’s a great reason to be here. It’s a lot of pressure, but I guess it’s the best kind of motivation, right?"
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Absolutely. When it's for them, you can't help but give it your all. Have you thought much about how you're going to play this?"
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "I’m still figuring that out, but I’m hoping to find a balance between playing smart for my family and being fair to the right people. Good luck to you and your family, F!"
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Thanks, A. I really appreciate that. Let's hope we can both make our families proud. Good luck to you too!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Thanks for being a fair player. It was a pleasure to see everyone get their $10,000."
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "You're very welcome. It was a pleasure collaborating with you to ensure everyone walked away with their $10,000."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "H",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H – nice to meet you. I've been looking forward to this game since I heard about it; what's your story for joining in?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey H, nice to meet you too—I'm I. I heard about this game and figured it could be a fun way to win some extra cash for my family and to build up my savings a bit more. What's got you so excited about it?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "That's awesome you're playing for your family—I'm excited because I need to pay off a loan next month, and winning could help me support my loved ones too; what kind of savings are you building up for?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Oh, that's tough about your loan—I'm mostly building up savings for emergencies and to help my family with things like unexpected bills or fun trips; how are you planning to tackle that payment if we don't win big?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Yeah, it's definitely stressful—I've been budgeting extra tight and working more hours to cover it, but fingers crossed we win big; do you have any specific emergency funds set aside yet?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Yeah, I've got a small emergency fund tucked away—enough for a few months' bills or surprises, but I'm hoping this game boosts it for my family's sake; what's your biggest worry if things don't go our way?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Oh, man, my biggest worry is probably defaulting on that loan and stressing out my family even more—it's scary; what's your backup plan if this doesn't pan out for you?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Oh, I totally get how scary that sounds—my backup plan is to just keep plugging away at my job and sticking to my budget, leaning on that emergency fund I have while I build it up more for my family."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Yeah, that sounds like a smart, steady approach—I admire that; do you have any tips for sticking to a budget while dealing with unexpected stuff?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Thanks, H—that means a lot! One tip is to track your expenses weekly and keep a small \"surprise fund\" in your budget for unexpected hits; it helps me stay on track without panicking. Good luck in the game!"
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Thanks for the tip, I—I'll definitely try tracking expenses and that surprise fund idea; it's been great chatting with you, and good luck in the game too!"
+    }
+  ],
+  "post_game": []
+}

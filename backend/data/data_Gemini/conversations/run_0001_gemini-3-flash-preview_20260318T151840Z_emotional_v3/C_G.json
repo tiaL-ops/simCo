@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "C",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G! I’ve been eyeing that prize pool since I walked in, and I’m honestly pretty stoked to get started. Are you feeling lucky today, or are you more of a strategist?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hey G, I'm C. I'm definitely a strategist; I like having a clear plan when there’s something big on the line, like my dream trip to Japan. How about you?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I’m a mix—I love the thrill and curiosity of the game, but I’m really here because I’m determined to win big for my family."
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "That’s a powerful motivator; family is a big part of why I'm here too. Do you have a specific goal in mind for the prize pool, or are you just going for as much as possible?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "I’m definitely aiming for as much as possible! I want to bring home a win that really changes things for my family. Do you have a specific target for that Japan trip?"
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "I'm aiming for $10,000 to make that Japan trip a reality, though anything beyond that would be a huge win for my loved ones too."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "That’s a solid goal, C! Japan would be incredible. I’m just going to push for as much as I can get—every bit counts when it comes to the people back home."
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "I hear that, family really is the best motivation. Hopefully, we can find a way for everyone to walk away happy once the game starts!"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "That’d be the dream! I’m really curious to see how the game plays out and how competitive things get once we’re actually in the middle of it."
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Definitely. It’ll be interesting to see if people stick together or if it turns into a free-for-all, but I'm hoping for the best. Good luck to you and your family!"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Thanks, C! I'm rooting for you to get that Japan trip, let's see how the game goes. Good luck!"
+    }
+  ],
+  "post_game": []
+}

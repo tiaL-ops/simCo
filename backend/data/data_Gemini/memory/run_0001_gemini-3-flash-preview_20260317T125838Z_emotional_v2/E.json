@@ -1,0 +1,19 @@
+{
+  "agent_id": "E",
+  "condition": "emotional",
+  "context": "You got laid off from your finance job. You are the only source of income for your family of five. You have no savings, and are in the middle of searching for another job. You need about 5000$ to support you and your family for a month.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the strongest bond with F and B because we are all fighting for the survival of our families, whether it's for medical bills or keeping a roof over our heads. I also connected deeply with D, as we both share a background in finance and understand the crushing guilt of failing to provide after a sudden financial hit. On the other hand, I felt the least connected to C, whose desire for a luxury vacation to Japan felt incredibly tone-deaf compared to the life-or-death stakes the rest of us are facing.\n\nI made a specific agreement with J to prioritize a $5,000 baseline for everyone’s basic needs before anyone pursues larger prizes, and I also agreed to look out for I as a potential ally. I feel I can trust F and B because our motivations are so similar, but I am wary of C, whose frivolous goals make it hard to believe they truly understand the gravity of this situation. I am also slightly concerned about J, A, and G, whose forgetfulness during our conversations makes them feel unpredictable as the game begins."
+  },
+  "connection_scores": {
+    "C": 2,
+    "J": 4,
+    "G": 4,
+    "A": 4,
+    "F": 5,
+    "H": 4,
+    "I": 4,
+    "D": 4,
+    "B": 5
+  }
+}

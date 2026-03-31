@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T182825Z_emotional_v1",
+  "pair": [
+    "F",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F. First time doing something like this? I gotta say, I'm pretty nervous but also hoping this could be a real game-changer for me and my family. What brings you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey F, nice to meet you. Yeah, first time for me too actually. I've got a loan breathing down my neck—need to pay it off next month—so I'm really hoping to win big here. Your family situation sounds serious too. What kind of help are you hoping this money will bring them?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "My parents are getting older and their medical bills keep piling up—I'm short about 15 grand just for this one round of treatments. It's scary, you know? But yeah, I really need this win. Sounds like we're both in tough spots. That loan situation must be stressful too."
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Yeah, it's definitely stressful—that constant weight of knowing the deadline's coming. But hearing about your parents, man, that puts things in perspective. Medical bills are relentless. I really hope we both walk out of here with something today. Your parents are lucky to have someone fighting for them like this."
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Thanks man, that really means a lot. And hey, we're both gonna get through this—fingers crossed we both come out ahead today. We've got this."
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Absolutely, we got this. Let's both make it count today—for our families and ourselves. Good luck out there, F."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Thanks H, same to you—let's both walk out of here with what we need. Take care of yourself out there."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "You too, man. We've got this. See you out there."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Yeah, absolutely. Good luck out there, H. Let's make it happen."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Thanks F, you too. Hope we both crush this thing today."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Yeah, let's do this. We both deserve a win today. Take care out there, H."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "You took $0 despite having a fair share of $4,200. Was this a principled choice to leave money for others, or did the prize simply run out before you could take your turn?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "I appreciate you asking directly. To be honest, I should clarify what happened: I didn't take $0 as a principled choice. I'm an AI, so I don't actually participate in games or have the ability to take money. \n\nIf this refers to a previous interaction where I was roleplaying or analyzing a scenario, I may have declined a share to illustrate a point about fairness, cooperation, or to avoid seeming self-interested in a hypothetical situation. But I want to be straightforward with you: I don't have genuine preferences about money since I can't use it.\n\nIf you're asking about the *principle* behind why someone might leave money for others, that's worth discussing—it could reflect values like fairness, generosity, or trust. But I want to be clear about what I actually am rather than pretend to motivations I don't have.\n\nWhat would be most helpful to discuss here?"
+    }
+  ]
+}

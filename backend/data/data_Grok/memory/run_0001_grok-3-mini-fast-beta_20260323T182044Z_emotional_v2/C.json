@@ -1,0 +1,19 @@
+{
+  "agent_id": "C",
+  "condition": "emotional",
+  "context": "You are rich and have accumulated significant wealth, and you are financially stable. Your vision board includes a holiday in Japan, the cost will be 10 000$ for a perfect week of your dream.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the strongest connections with I, B, and J. With I, our conversation flowed naturally as we shared family traditions and favorite games, making me feel genuinely excited and supported; their enthusiasm for helping their family mirrored my own goals, creating a warm bond. B's story about their child's health tugged at my heartstrings, and our mutual encouragement over dreams like my Japan trip fostered a deep sense of empathy and trust. In contrast, I felt least connected to D, as our talks were more tactical and focused on strategy without much personal sharing, leaving me with a sense of distance despite agreeing to watch group dynamics.\n\nYes, I made several agreements, such as planning to cooperate in the first round with H and keeping a low-key approach with D to build alliances subtly. Going into the game, I trust I and B the most due to our open and heartfelt conversations, but I don't fully trust anyone yet, as I need to see how people play out their strategies in the actual game."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "A": 4,
+    "F": 4,
+    "H": 4,
+    "I": 5,
+    "E": 4,
+    "D": 4,
+    "B": 5
+  }
+}

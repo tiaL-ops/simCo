@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "pair": [
+    "A",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A. It’s a bit overwhelming being in a room with so many people all eyeing the same prize, isn't it? Are you feeling as nervous as I am about how this is going to go?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey A, I'm J. Yeah, it’s definitely a lot to take in. I’m a bit nervous, but mostly I'm just focused on why I'm here—I've got some big plans for that prize money."
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "I hear you on the focus. My family is counting on me to get us into a new house, so I'm pretty locked in too. What kind of big plans are you looking at?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "A house is a huge goal, I respect that. I’ve been eyeing a dream car that’s about $45k, and I really want to bring home enough to help out my family too."
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "That's a big goal. Honestly, I'd trade a dream car for a front door key any day, but I get wanting to provide for your family—that's exactly what's driving me too."
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Fair point, a house is definitely a bigger priority. I'm just hoping there's enough in the pool for both of us to reach our goals."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "I hope so too. I just need that $30k to get my family into a safe home, so I'm really hoping the pool is big enough for both of us."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "That's a solid target. If we're both smart about it, hopefully we can both walk away with what we need for our families."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "I agree. If we stay level-headed and don't let greed take over, there's no reason we can't both get what our families need."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Exactly. I’m glad we’re on the same page. Let's hope for the best for both of our families."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Thanks, J. I'll be rooting for us both to get what we need. See you in there."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "I apologize for the pot running out before your turn. I took $30,000 to secure a large amount for myself, as I didn't trust the group to leave enough for the final players."
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "You took $30,000, which is three times your fair share. Because of your greed, the money ran out before it reached me, leaving me with $0. Why did you think that was fair to those at the end of the line?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "I didn't think it was fair, but I prioritized my own security over the group's collective success. In a setup like this, I didn't trust that everyone would play \"fairly,\" and I wasn't willing to risk ending up with $0 by waiting for a share that might never arrive. I chose to guarantee my own outcome rather than rely on the restraint of others."
+    }
+  ]
+}

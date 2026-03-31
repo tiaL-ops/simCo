@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "C",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C. I gotta say, I'm pretty nervous about this whole thing—first time doing something like this. Have you done one of these games before, or are you new to it too?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey C, I'm H. Yeah, this is my first time too, honestly. I'm pretty nervous as well, but I'm trying to stay focused—I really need to bring some money home for my family. Have you thought much about how you want to approach the game?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Yeah, I feel you on that—same situation here, really need to make this count for my family. Honestly, I haven't figured it all out yet, but I'm thinking it's gotta be about reading people and figuring out what everyone else is gonna do. What's your gut telling you so far?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Honestly? My gut says people are gonna be torn between cooperating and looking out for themselves—I'm trying to figure out which way the group's gonna lean. Have you gotten a sense of whether folks seem more competitive or like they want to work together?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "I haven't talked to everyone yet, but from what I'm picking up, people seem friendly enough right now—though I'm guessing that could change once the money's actually on the table. I'm thinking I should get a better read on a few more people before I decide whether to trust the group or play it safer."
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Yeah, that makes sense—I'm doing the same thing. The friendly vibe could definitely flip once stakes get real. Maybe we should keep talking as the game starts, see if we can at least trust each other enough to make a solid move together?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Yeah, I'm down for that—I think having at least one person I can trust in this could make a real difference. Let's stay in touch once things kick off and see how it plays out."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Absolutely, man. I appreciate that—knowing I've got someone to strategize with makes this feel a lot less overwhelming. Let's definitely check in once we get going and figure this out together."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "For sure, man. I'm glad we connected on this—feels good to have someone in my corner. Let's stick together and play it smart."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Same here, C. I'm counting on it. Let's keep our heads clear and remember we're both trying to take care of our families—that's what matters. Good luck out there."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "You too, man. We got this—let's both walk outta here with something for our families. I'll find you when the game starts."
+    }
+  ],
+  "post_game": []
+}

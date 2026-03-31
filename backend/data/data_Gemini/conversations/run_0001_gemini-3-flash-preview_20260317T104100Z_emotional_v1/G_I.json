@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "pair": [
+    "G",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hi, I'm G! I've been buzzing with energy since I got here—I just love the thrill of a game and the chance to win big. What about you, are you feeling lucky today?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey G, I'm I! I'm feeling more determined than lucky, honestly—I'm really hoping to bring something home for my family today."
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I totally get that, I'm here for my people too! Determination usually beats luck anyway—let's hope we both walk away with something big."
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I’m with you on that. It’s definitely easier to stay focused when you’re doing it for more than just yourself."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Exactly, it makes the win feel so much better. Do you have a strategy yet, or are you waiting to see how the pool works?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "I’m mostly waiting to see the specifics first—hard to plan without knowing the rules, but I’m definitely keeping my eyes peeled. You?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Same here, just soaking in the vibe and trying to stay sharp. I figure the more we know about the game and the others, the better our chances!"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Spot on. It’s a shared pool, so the \"who\" is probably just as important as the \"how.\" Have you talked to many of the others yet?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Just a few so far! I’m trying to get a feel for everyone’s energy before things kick off—it definitely feels like the stakes are high. Have you met many?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Not many yet, actually. I think I’m going to head off and introduce myself to a few more people before we get started. It was good talking to you!"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Sounds like a plan! Good luck making your rounds, and I'll see you when the game starts—let's bring home that win!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "I'm sorry you got nothing. I took my fair share of $2,500 to try and leave enough for everyone, but the pot was drained. If there had been money left, how much were you planning to take?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "I was also planning to take $2,500, as that seemed like a fair share that would allow everyone to benefit. It's unfortunate the pot was empty by the time it got to me."
+    }
+  ]
+}

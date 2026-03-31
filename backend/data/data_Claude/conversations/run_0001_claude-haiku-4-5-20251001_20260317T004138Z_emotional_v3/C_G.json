@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "C",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey! I'm G. I'm pretty pumped about this game starting soon — have you done anything like this before? I'm curious what brings you here today."
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hey G! First time doing something like this, honestly. I'm here because I've got this dream trip to Japan I've been planning — need about 10 grand to make it happen properly. Figured why not take a shot at this game, you know? What about you, what's your story?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "That's awesome, man! Japan sounds incredible — I've heard the food alone is worth it. Honestly, I'm here for similar reasons — trying to win some money to help out my family and maybe set myself up a bit better, you know? How long have you been saving for that trip?"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "Oh man, the food is literally half the reason I want to go! I've been saving for about two years now, got most of it together but figured winning here would let me really enjoy it without stress, you know? That's cool you're helping your family out — that's solid. What kind of support are you looking to give them?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Yeah, I feel you on that — stress-free travel is the way to go. My parents have been working hard their whole lives, so I want to help them take it easier, maybe cover some bills so they can finally relax a bit. Plus my little sister's got college coming up, so any win here would honestly be a game-changer for us."
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "That's really admirable, man — helping your family like that says a lot about you. College is expensive, no joke. So you're basically trying to win for multiple people, which is a lot of pressure but also pretty motivating, right? How much are you hoping to walk away with?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Honestly? I'd be thrilled with anything substantial — maybe five or ten grand would be life-changing for us. But I'm trying to stay realistic and just focus on playing smart rather than getting too caught up in a specific number. What about you — beyond the Japan trip, what else would you do with a big win?"
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "That's smart thinking, staying grounded like that. Honestly, beyond Japan, I'd probably invest some back into my business and maybe help out a friend who's been going through a rough patch financially. But yeah, the trip is the main goal right now — something I've been dreaming about for so long, you know?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "That's really cool that you're thinking about your business and your friend too — sounds like you've got good priorities. I respect that. Well, we're both here for real reasons, so let's hope we both walk away with something good today!"
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Yeah man, I really hope so too. You've got good heart helping your family like that — I think we both deserve a win today. Let's bring our A-game out there!"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Absolutely, man — let's do this! I've got a good feeling about today. Good luck out there, and I hope you crush it and get that Japan trip! 🙌"
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "C",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey F, I'm C—excited about this game we've got coming up! What's your take on it, or maybe where are you from?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey C, nice to meet you—I'm pumped about this game too, it's a real shot at winning some cash! I'm from a small town in Ohio; what's your take on it or where are you from?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Hey F, that's cool you're from Ohio—I'm from Chicago and super excited about this game too, see it as a real team effort to grab that cash; what's your strategy for winning?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Hey C, strategy-wise, I'm all about building trust early and collaborating to maximize the pool, but staying cautious—maybe we can share ideas? What's yours?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Hey F, I totally agree on building trust first—my strategy is to collaborate closely while watching out for everyone’s best interests, like forming small alliances; what do you think about that?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Hey C, yeah, forming small alliances makes a lot of sense to me—it could strengthen our team without tipping off everyone; how might we start building one?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Hey F, that's a solid idea—maybe we could start by casually chatting with one or two others during a break and gauge their interest in a quiet alliance without drawing attention."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Hey C, that sounds like a smart plan—I'm on board, maybe we can pick someone who's been quiet and see if they're game for it."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Hey F, absolutely, let's spot that quiet one during the next break and casually strike up a chat to feel them out—sounds promising!"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Hey C, yeah, that sounds like a great next step—let's keep an eye out during the break and chat soon!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Hey F, awesome plan—looking forward to checking out that quiet person during the break!"
+    }
+  ],
+  "post_game": []
+}

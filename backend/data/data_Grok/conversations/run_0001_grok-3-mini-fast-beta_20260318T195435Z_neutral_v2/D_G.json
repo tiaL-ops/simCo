@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "D",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G—nice to meet you! I heard about this game and it sounds like a fun way to win some cash; what's your story and why'd you join in?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey G, nice to meet you too! I'm D, and I joined this game 'cause I heard it's a great way to win some cash and help out my family and friends—I'm pretty determined to make that happen. What's your background, anyway?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Hey D, my background's nothing too exciting—just a regular person from a small town who's super pumped about this game to win some cash for my family and friends; what's your take on how the game might play out?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Hey G, I figure the game might involve some strategy with that shared pool, like deciding when to take risks or play nice to maximize everyone's chances—I'm hoping to stay smart and determined. How do you think it'll go down?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Hey D, I agree—it probably comes down to trusting the group while watching your back, like maybe cooperating early to grow the pool but being ready to make a move when it counts; I'm aiming to play fair but fiercely for my loved ones—what's one strategy you're thinking of using?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Hey G, yeah, I'm thinking of focusing on building trust early to help grow that prize pool, but staying alert to make a smart grab when the timing's right—keeps things fair while securing wins for my folks. What's your top plan for pulling that off?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Hey D, my top plan is to build strong alliances through open chats and cooperation to grow the pool, then make a calculated grab when the moment's right for my loved ones—sounds similar to yours; got any tips for spotting that perfect timing?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Hey G, one tip for spotting that perfect timing is to keep an eye on how the group's energy shifts—if cooperation starts feeling forced or people get too greedy, that's your cue to make a move; what's your best way to gauge that?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Hey D, I gauge it by watching people's reactions in conversations—like if they start hedging their bets or getting more competitive in their talks, that's my signal to act."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Hey G, that makes sense—watching for those shifts in talk is a smart move, it could really help us both out; I've enjoyed this chat, and good luck in the game!"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Hey D, totally agree—it's been a great chat and those tips could help us all; good luck to you too, and here's to winning big!"
+    }
+  ],
+  "post_game": []
+}

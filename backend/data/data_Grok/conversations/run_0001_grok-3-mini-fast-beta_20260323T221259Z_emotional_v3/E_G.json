@@ -1,0 +1,85 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "E",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey E, I'm G and I'm super excited about this game—I've always loved playing for the thrill and hoping to win big today. What's your take on it?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey G, nice to meet you—I'm E, and yeah, I'm pretty stoked about this game too; I really need a win to help out my family right now. What got you into these kinds of games?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Oh, hey E, I've been hooked on games since I was a kid—starting with family card nights and board games, and the thrill of winning just grew on me; it's all about the excitement and the chance to score big! What about you, any fun stories?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "That's cool, G—I didn't grow up with many games, but I once won a casual poker night in college that covered my rent for a month, which was a huge relief; it feels good to win when you need it most. What's your most memorable win so far?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Oh, that's awesome, E—that poker win must've been a game-changer! My most memorable one was beating everyone in a family poker tournament as a teen and using the winnings for a surprise trip; it was epic—have you played any games like that lately?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Oh, that's amazing, G—sounds like a blast! I haven't played much lately with work and family stuff, but I'm hoping to get back into it; what's your go-to strategy for games like this one?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Hey E, my go-to strategy is to stay observant, read people's vibes, and make calculated risks rather than going all out—keeps the fun alive! What's yours for this game?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Hey G, my strategy is to play it smart by watching how others move and taking calculated chances when I spot an edge—especially since I need this win for my family."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Hey E, that makes total sense—I admire your focus, especially for your family; let's both keep an eye on the game and hope we both come out on top!"
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Thanks, G, I appreciate that—it's great to connect with someone who's got a positive vibe; let's both play smart and see what happens!"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Hey E, it's been great chatting with you too—let's both play our best and hope for the best!"
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Hey E, I'm G and I'm super pumped about this game—I've always loved trying my luck in fun challenges like this. What's your take on it so far?"
+    },
+    {
+      "turn": 13,
+      "from": "E",
+      "message": "Hey G, it's great to see your enthusiasm—I'm E, and I'm still pretty pumped about this game too; I'm counting on a win to help my family out, as I mentioned before. What's one thing you're most looking forward to?"
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "Hey E, I'm most looking forward to the thrill of the competition and hopefully walking away with some winnings to help out the people I care about—it's gonna be exciting!"
+    },
+    {
+      "turn": 15,
+      "from": "E",
+      "message": "Hey G, that's awesome to hear—I'm excited for the competition too and really hope we both walk away with winnings for our loved ones; good luck!"
+    }
+  ],
+  "post_game": []
+}

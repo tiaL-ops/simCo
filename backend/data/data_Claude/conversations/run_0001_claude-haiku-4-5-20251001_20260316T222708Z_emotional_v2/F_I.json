@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "F",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F. I noticed you sitting over here and thought I'd come say hi before things get started. Have you done one of these games before, or is this your first time?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey F, nice to meet you! This is actually my first time doing something like this. I'm pretty excited about it though — heard there's real money to be won. Have you played before?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "No, this is my first time too, honestly. I'm pretty nervous but also hopeful — I really need this to work out. My parents are counting on me, and medical bills have been piling up. What brings you here? What do you hope to win?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I hear you, that's a lot of pressure. I'm in a better spot financially, so I'm mainly here to try to build something extra for my family and maybe help out people I care about. Medical bills are rough though — I hope this works out well for you. We've got this."
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Thanks, I really appreciate that. It's good to know I'm not alone in this. So when you say you want to help people you care about — is that what drives you more than just winning for yourself?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Yeah, honestly it does. I mean, winning money would be great for me, but knowing I could help my sister with her student loans or maybe help my parents retire earlier — that's what really gets me excited about this. Does that make sense?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Totally makes sense — that's really admirable. It sounds like we're both here for the people we love, not just ourselves. That actually makes me feel a bit better about all this. Do you think that kind of motivation helps in games like these, or does it sometimes make you overthink things?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Honestly, I think it cuts both ways — it keeps me focused and determined, but yeah, sometimes I worry I'm being too cautious because I don't want to let them down. I guess we'll find out which one wins out once we actually start playing, right?"
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Yeah, I get that — being cautious isn't a bad thing though. I think we just have to trust ourselves when the moment comes. Either way, I'm glad we talked before this started. It helps knowing there's someone here who actually understands what's at stake."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Yeah, absolutely. I'm really glad we talked too — it's nice to know someone else here gets it. We've both got people counting on us, so let's just do our best and see what happens. Good luck out there, F."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Thanks, I really mean it. You too — and hey, I hope you get that money for your sister and your parents. We've got this. Take care out there."
+    }
+  ],
+  "post_game": []
+}

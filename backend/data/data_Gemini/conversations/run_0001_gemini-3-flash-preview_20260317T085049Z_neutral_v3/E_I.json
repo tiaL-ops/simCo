@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "E",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hi, I'm E. It's a bit surreal being here with everyone, isn't it? What's your name, and how are you feeling about the game?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey E, I'm I. It definitely feels a bit surreal. I’m feeling pretty focused, honestly—I’ve got people back home I really want to help out with this prize. How are you feeling about it all?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I'm feeling the same way—very determined. I've got people I care about counting on me too, so I'm here to do whatever it takes to bring that money home."
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I totally get that; it definitely ups the stakes when you're playing for more than just yourself. Who are you playing for back home?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "My family—mostly my parents and younger siblings; they've had a tough run lately, and I really want to take some of that pressure off them."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "That’s really noble of you. I’m in a similar boat, just trying to make things a little easier for the people I love."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "It’s good to know I’m not alone in that. Since we both have so much on the line, how are you planning to handle the competition once the game actually starts?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "I’m going to stay focused and play smart, but I’d honestly prefer to find common ground with people like you rather than just seeing everyone as an obstacle."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "I'm glad you said that. It’s definitely smarter to have someone to trust in here, so let's try to look out for each other when the game starts."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "I’m glad we’re on the same page, E. Let’s definitely stick together and see how this plays out. Good luck to both of us."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Absolutely, let's look out for each other and make our families proud; I'll see you out there."
+    }
+  ],
+  "post_game": []
+}

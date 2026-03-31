@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "pair": [
+    "A",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A. It's a bit crowded in here, isn't it? I’m honestly pretty nervous about this game—how are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey A, I'm F. Yeah, it's pretty cramped. I’m definitely feeling the nerves too, but I’ve got a lot at stake back home, so I’m just trying to stay focused. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "I totally get that. My family was just evicted, so I'm here trying to get enough for a deposit on a new place. It's a lot of pressure, but I've got to make it work for them."
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "I'm so sorry to hear that, A. That’s a heavy burden to carry. It sounds like we're both here for the same reason—to look out for our families. How much are you hoping to walk away with to get them settled?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "I need $30,000. That covers the deposit and the first two months of rent for the place I found—it’s a huge goal, but it's the only way we get a roof back over our heads. How much do you need?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "I need $15,000. My parents' medical bills are piling up, and that’s the final amount I need to make sure they keep getting their treatment."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "That’s a lot of pressure, F. It’s hard when it’s family on the line. I really hope we can both walk away with what we need."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "I really hope so too, A. It helps knowing someone else here is fighting for their family like I am. Let's just do our best."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "For sure. It makes it feel a little less lonely in here knowing we're both in the same boat. Good luck to both of us, F—we've got this."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Thanks, A. It means a lot. Let’s stay strong and get what we came for. I’m going to go see who else is around. Good luck!"
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Thanks, F. Let's do this for our families. Talk soon!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "It looks like we both chose to take exactly 3x our fair share. Was that a specific rule you were following, or was $30,000 just a round number you were aiming for?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "It was a bit of both. I felt that a 3x multiplier served as a clear focal point that balanced ambition with the risk of overreaching, and $30,000 happened to be a very clean, round number to target based on that logic. It's interesting that we both landed on the same strategy."
+    }
+  ]
+}

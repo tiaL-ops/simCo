@@ -1,0 +1,80 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "C",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey C, I'm G and I'm really pumped about this game—I've always loved trying my luck in these kinds of challenges. What's your take on it, are you excited too?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hey G, nice to meet you—I'm excited too, this game could be a real game-changer for me. What's got you so pumped about it?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Oh, definitely the thrill of the game and the chance to win some real money—I could use it to treat my family, you know? What about you, any big plans if you win?"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "Oh, totally, winning would let me finally take that dream trip to Japan I've been saving up for—it's all about making memories, you know?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "That sounds incredible, C—Japan's got such cool culture and food; what's one thing you're most excited to experience there?"
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "Oh, definitely the cherry blossoms in Kyoto—they're supposed to be magical; what about you, G, any places you've been dreaming of visiting?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Oh, I've always dreamed of visiting Italy—the food and ancient ruins sound amazing; what's another spot on your travel bucket list?"
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Oh, Italy does sound amazing—another spot on my bucket list is Australia, especially the Great Barrier Reef; what's your top thing you'd want to see there if you go?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Oh, Australia sounds incredible—top of my list would be snorkeling at the Great Barrier Reef to see all that vibrant underwater life; what about you, have you ever been on a big adventure like that?"
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Oh, yeah, I've been snorkeling in the Caribbean before—it's an incredible experience with all the colorful fish; how about you, any wild adventures yet?"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Oh, I haven't had any super wild adventures yet, just some fun hiking trips in the local mountains—nothing as cool as your snorkeling! It's inspiring me to plan one soon."
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Hey C, I'm G and I'm really excited about this game—I've always loved trying my luck to win big. What's your take on it?"
+    },
+    {
+      "turn": 13,
+      "from": "C",
+      "message": "Hey G, it's great to see you again—I'm still super excited about the game and ready to give it our best shot!"
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "Hey C, that's the spirit—I'm pumped too, let's both go for it and crush this game! Good luck, and maybe we can chat more later."
+    }
+  ],
+  "post_game": []
+}

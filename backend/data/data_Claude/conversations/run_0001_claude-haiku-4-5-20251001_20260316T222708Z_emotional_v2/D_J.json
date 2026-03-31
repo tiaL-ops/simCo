@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "D",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J! First time doing something like this? I gotta say, I'm pretty nervous but also excited—been dreaming about winning enough to finally get that car I've had my eye on. What brings you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey J, nice to meet you! Yeah, first time for me too. Honestly, I'm here because I took a pretty bad hit in the stock market yesterday—lost twenty grand—and I really need to turn things around. A car sounds nice though, that's a solid goal. You seem pretty calm about it all, which is good. How confident are you feeling about your chances here?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Ouch, twenty grand is rough—I'm sorry to hear that. Honestly, I'm trying to stay optimistic, but I'd be lying if I said I wasn't nervous. I don't really know what to expect here yet, so I'm just hoping the odds work in my favor. Have you done anything like this before to recover from losses, or is this kind of a first for you too?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Nah, this is definitely a first for me—I'm not usually the gambling type, honestly. But yeah, I'm trying to stay level-headed about it. We both just gotta play smart and see what happens, right? Do you know anything about how this game actually works, or are we both going in blind here?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Yeah, we're pretty much going in blind here too, which is honestly kind of nerve-wracking. But I figure if we stay smart and don't panic, we'll have a better shot than just winging it. Maybe we can figure it out together once things get started—two heads are better than one, right?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Absolutely, I like that approach. Yeah, let's keep our heads on straight and maybe compare notes once we see what we're actually working with. Could definitely help to have someone else thinking through it with me."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "For sure, man. I'm glad we're on the same page about this. Once the game starts, let's definitely stick together and talk through our moves—having someone I can trust to think things through with will probably help us both make better decisions instead of just reacting on impulse."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Yeah, I'm with you on that. Having someone to bounce ideas off of will definitely keep me from making desperate moves. Let's make sure we actually talk things through before we act—that's probably our best shot at this."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Exactly—no rushing into anything. We'll take it slow, think it through, and look out for each other. I've got a good feeling about this, especially knowing I've got someone level-headed to work with. Let's do this."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Hell yeah, let's do this. I'm feeling better about this already knowing I've got someone I can actually trust in here. We've got this, J."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Alright man, I'm pumped. Let's stay calm, stick together, and bring some money home. We've got this—I'll see you out there."
+    }
+  ],
+  "post_game": []
+}

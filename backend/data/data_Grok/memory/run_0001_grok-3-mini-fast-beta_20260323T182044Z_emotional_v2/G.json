@@ -1,0 +1,19 @@
+{
+  "agent_id": "G",
+  "condition": "emotional",
+  "context": "You love playing games, you are curious about the game and want to try your luck. You love to win!",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to C, E, and H during our pre-game chats. With C, we bonded over shared excitement for building alliances and strategies, which made our conversation feel genuine and aligned with my own goals. E and I connected deeply through discussing family motivations and ways to stay calm under pressure, while H and I quickly agreed on the importance of open communication and teamwork, making me feel like we were on the same team from the start. On the other hand, I felt least connected to B, as our discussions were more surface-level, focusing on general advice without much depth or mutual sharing of personal strategies.\n\nI did make agreements with a few people, like teaming up with C and D to work together in the game, and expressing a desire to collaborate with H for better outcomes. Going into the game, I trust C, E, and H based on our open and honest conversations, but I don't specifically distrust anyone yet since most interactions were positive overall."
+  },
+  "connection_scores": {
+    "C": 5,
+    "J": 4,
+    "A": 4,
+    "F": 5,
+    "H": 5,
+    "I": 4,
+    "E": 5,
+    "D": 5,
+    "B": 4
+  }
+}

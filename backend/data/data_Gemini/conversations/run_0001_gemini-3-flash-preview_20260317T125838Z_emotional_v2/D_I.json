@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T125838Z_emotional_v2",
+  "pair": [
+    "D",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hi, I’m I. It’s a bit of a high-pressure room, isn’t it? What brings you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey I, I'm D. It definitely is. Honestly, I took a huge hit in the stock market yesterday and I'm here to win back what I lost for my family. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "That sounds incredibly stressful, D. I'm actually in a pretty good spot, but I'm here because I want to win enough to really take care of my family and the people I love."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "I appreciate that. It's good you're coming from a stable place, but for me, this is about fixing a massive mistake for my family's sake."
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "I completely understand that pressure. Even though our situations are different, we’re both here for the same reason—to do right by our families."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Exactly. I just hope there’s a way for us both to win without things getting too cutthroat."
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "I’m with you on that. If we can find a way to cooperate instead of working against each other, it’ll make this whole thing a lot easier for everyone."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "I'm all for it. I'm not here to make enemies, just to fix my situation. Let's see how the game plays out and try to stay on the same page."
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Sounds like a plan, D. Let’s look out for each other and keep talking as the game gets moving."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Sounds good, I. I'm going to see what everyone else is thinking. Let's touch base once the game starts."
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "Sounds like a plan. Good luck talking to the others, D, and I'll see you when the game starts."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "I'm sorry you ended up with $0. I took only my fair share of $1,562, but the greed of J, A, and E drained the pot before it reached you."
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "I appreciate you sticking to your fair share. It is unfortunate that J, A, and E did not follow your example, as their actions left me with nothing. Thank you for the apology."
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "You're very welcome. It really is a shame that we couldn't all cooperate to ensure everyone walked away with something. I wish things had turned out differently for you."
+    }
+  ]
+}

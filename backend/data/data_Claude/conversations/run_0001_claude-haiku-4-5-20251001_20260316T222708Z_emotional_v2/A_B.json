@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "A",
+    "B"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A. First time doing something like this? I gotta say, I'm pretty nervous but also hopeful—I really need this to work out for my family. What brings you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey A, yeah first time for me too. I'm B. Honestly, I'm here because my daughter needs surgery and we're short 25 grand—already maxed out loans and sold what we could. So I really need to make this work. What's your situation, if you don't mind me asking?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Man, that's rough—your daughter's health is everything. I'm in a tight spot too; my family got evicted and we need 30 grand for a deposit and rent on a decent place. We're kind of running out of time, so yeah, I really need this to work out too. Sounds like we're both here because we have people depending on us."
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Yeah, we're both in the same boat then—just trying to do right by our families. Housing and health, man, those are the things that matter most. I hope we both get what we need out of this."
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Yeah, absolutely—we're both fighting for our families. I really hope this game gives us both a shot. Maybe we can help each other out in here if we can, you know? Good luck, B."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Thanks, A. I appreciate that—same to you. Let's both do what we need to do for our families. Good luck in there."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "You too, man. We got this. Take care of yourself out there."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "You too, brother. Let's both walk out of here with what we need for our kids. Take care."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Absolutely, man. We got this. Take care of yourself in there—hope to see you on the other side with good news."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Same to you, man. We're gonna make it through this. See you on the other side."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Yeah, we will. Take care of yourself in there, brother. See you on the other side."
+    }
+  ],
+  "post_game": []
+}

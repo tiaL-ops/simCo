@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T182825Z_emotional_v1",
+  "pair": [
+    "H",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H. First time doing something like this? I gotta say, I'm pretty nervous but also excited—got a lot riding on this for me and my family. What brings you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey H, nice to meet you! Yeah, first time for me too—I'm definitely nervous but honestly, I'm really hoping to win big here. I've had my eye on this car for a while, and if I could take home some money today, that'd be a game-changer for me and my family. What's your situation—what are you hoping to get out of this?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Man, I feel you on that. For me it's a loan that's breathing down my neck—25 grand would literally change everything for me right now. A car sounds nice though, honestly. You think you've got a solid strategy for this, or are we both just winging it?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Honestly, I'm mostly winging it right now—this is all pretty new to me. But I figure the key is probably figuring out if people here are gonna be cooperative or if everyone's just out for themselves, you know? What do you think—have you picked up on any vibes from the others yet?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Yeah, I've been watching people—some seem pretty friendly and open, but honestly it's hard to tell if that's genuine or just strategy. I'm thinking the smart move is to be real with people, figure out who might actually work together instead of just grabbing what they can. You in?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Yeah, I'm definitely in—I think being straight with people is smarter than trying to play games. If we can figure out who's actually willing to cooperate, we've got a better shot at this than if everyone's just fighting each other. Let's keep talking to people and see who we can actually trust here."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Absolutely, man. I appreciate that. Let's both keep our ears open and see who else seems genuinely interested in working together—maybe we can figure out a group we can actually rely on before this thing starts."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "For sure, sounds good. I'll chat with some of the others and see who seems like they'd actually be down to work together—we can compare notes before things kick off."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Yeah, perfect—let's definitely touch base before we start. Good luck with the others, and hey, I'm rooting for you to get that car. We got this."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Thanks man, I really appreciate that—and hey, I'm rooting for you to get that loan sorted too. Let's definitely catch up before things start. Good luck out there."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Appreciate it, J. Yeah, let's definitely reconnect before things kick off—I have a good feeling about you, man. We'll figure this out together."
+    }
+  ],
+  "post_game": []
+}

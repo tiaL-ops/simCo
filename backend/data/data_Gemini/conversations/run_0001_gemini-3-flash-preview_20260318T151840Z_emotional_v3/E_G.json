@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "E",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. This whole setup is a bit nerve-wracking, isn't it? Are you feeling ready for whatever this game throws at us?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey G, I'm E. Nerve-wracking is an understatement. I've got a family of five counting on me, so I’m just trying to stay focused and ready for anything. How are you holding up?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I’m hanging in there, E. I’ve got people I care about waiting for me too, so I’m really determined to make this happen. Five people is a lot of pressure—what’s the first thing you’d do with the prize money?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Honestly, it’s going straight to rent and groceries to keep us afloat; things are that tight right now. What about you, what’s your priority?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "I hear that. For me, it's about getting some long-term stability for my loved ones so we can finally breathe a little easier without the constant financial stress."
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "I definitely get that; that weight on your shoulders never really goes away, does it? Here's hoping we can both walk away with what we need."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "It really doesn't. I'm keeping my fingers crossed for both of us. Do you have any idea what kind of game we're about to walk into?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "No idea, I'm just hoping it’s something where we can all walk away with what we need without it getting too ugly."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "I’m with you on that. I’d much rather win through skill or luck than by having to step on anyone else's toes to get there."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "I completely agree. It’s hard enough as it is without making enemies. Best of luck to you and your family, G. Let's see how this goes."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Thanks, E. I'm rooting for you and your family as well. Let's hope we can both get what we're here for. See you in there!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "I noticed you took only $5,000, which was much less than your fair share of $9,285. Was that a conscious choice to be generous to the players following you?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Yes, it was a conscious choice. I wanted to ensure that there was a sufficient amount remaining for the players who followed me, even if it meant taking less than the calculated fair share."
+    }
+  ]
+}

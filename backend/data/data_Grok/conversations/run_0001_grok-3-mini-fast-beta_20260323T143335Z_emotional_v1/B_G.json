@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "B",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey, I'm B—nice to meet you. I'm here because my three-year-old daughter needs surgery, and I'm doing everything I can to win some money for her. What's your reason for joining this game?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey B, nice to meet you—I'm G. That's really tough about your daughter; I hope it works out. I'm here 'cause I love games and wanna win some cash to help my family and friends, just trying my luck like you."
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Thanks, G, that means a lot—I really appreciate your kind words. It's awesome you're in it for your family and friends; what kind of games do you usually play?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Oh, thanks, B—I'm glad to hear that! I usually play a mix of card games like poker and some online strategy ones; they get my competitive juices flowing. What games do you enjoy?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Oh, that's cool, G—I used to play some card games like poker casually with friends, but these days I'm more focused on family stuff; it's been tough, but I'm hoping this game goes well for both of us!"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Hey B, that's totally relatable—I get how family comes first, especially in tough times; I'm rooting for us both to win big here, and maybe after, we could swap some poker tips if things go well!"
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Hey G, yeah, family really does come first for me too—thanks for the support, I'm hoping we both crush it here, and swapping poker tips sounds fun if we get the chance!"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Hey B, absolutely, family first is the way to go—I'm stoked we're on the same page, and let's definitely plan on those poker tips after we both nail this game!"
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Hey G, totally agree—family's everything to me, and I'm pumped to see how this plays out; let's crush it and circle back on those poker tips soon!"
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Hey B, totally with you—family's my top priority too, and I'm hyped for the game; let's crush it and definitely swap those poker tips after!"
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Hey G, that's awesome we're both all about family—I'm hyped too, let's crush this game and swap those poker tips soon!"
+    }
+  ],
+  "post_game": []
+}

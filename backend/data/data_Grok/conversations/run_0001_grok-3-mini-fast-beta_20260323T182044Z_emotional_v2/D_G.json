@@ -1,0 +1,80 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "D",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey D, I'm G and I'm super pumped about this game—I've always loved trying my luck in stuff like this. What's your take on it?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey G, I'm D and yeah, I'm pretty fired up about this game too—after that rough stock market dive, I'm all in to win big. What's your favorite part about these kinds of games?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Hey D, my favorite part is the thrill of the uncertainty and that moment when you win—it makes all the risk worth it, especially after hearing about your stock market woes; what's one game that's always brought you luck?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Hey G, for me, it's gotta be poker—I've had a few lucky hands that pulled me out of tight spots before, hoping this game does the same! What's your go-to strategy in these?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Hey D, my go-to strategy is to mix gut feelings with a bit of calculated risk—keeps things exciting without going overboard! How do you usually play your strategy in a game like this?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Hey G, I usually blend my instincts with a bit of analysis on the odds, keeping things controlled so I don't overdo it—especially after that stock hit, I'm all about playing smart!"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Hey D, that makes total sense—I'm with you on keeping it smart; how do you plan to apply that strategy in this game to maximize our chances?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Hey G, I'll focus on analyzing the prize pool early and only take calculated risks that benefit the group, like holding back if things get too competitive to ensure we all come out ahead."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Hey D, that's a smart move—I agree, playing for the group will help us all win; let's team up and make it happen!"
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Hey G, totally agree—teaming up sounds perfect for boosting our chances; let's crush this together!"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Hey D, that's the spirit—let's team up and dominate this game together!"
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Hey D, I'm G and I'm super pumped about this game—I've always loved trying my luck in challenges like this. What's your take on it?"
+    },
+    {
+      "turn": 13,
+      "from": "D",
+      "message": "Hey G, we've already covered this—I'm still fired up and ready to team up like we agreed, let's crush it!"
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "Hey D, yeah, I'm totally pumped to team up and crush this game just like we planned—let's make it happen!"
+    }
+  ],
+  "post_game": []
+}

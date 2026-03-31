@@ -1,0 +1,80 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "C",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey C, I'm J—nice to meet you. I heard about this game and it sounds like a fun chance to win some cash; what brought you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hey J, nice to meet you too! I heard about this game as a chance to win some money and I'm super determined to bring home a win for me and my loved ones—what about you?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Oh, totally the same for me, C—I'm here to win big and support my family and friends, it's gonna be awesome if we pull it off!"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "Yeah, J, it's motivating to hear that—we're both in it for the right reasons! What's your take on how we might work together in the game?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Oh, for sure, C—I'm all about teamwork in this game; maybe we could share some strategies early on and watch each other's backs to maximize our chances without tipping off everyone else. What are your thoughts?"
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "Sounds great, J—I'm on board with sharing strategies discreetly; let's start with something simple like coordinating our moves early—got any specific ideas in mind?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Yeah, C, one simple idea could be agreeing on a signal, like nodding if we think it's time to hold back early—does that sound workable to you?"
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Yeah, J, that sounds workable—I like the nodding idea as a subtle signal to hold back early; it could help us stay coordinated without anyone noticing."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Sweet, C, I'm glad you're into the nodding signal too—let's keep an eye out for the right moments and maybe chat more about backup plans once the game starts."
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Yeah, J, that sounds solid—let's stay sharp and talk more when the game kicks off."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Yeah, C, let's crush it—looking forward to teaming up in the game!"
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Hey, I'm J—nice to meet you! I heard about this Simco game and I'm pretty pumped about the chance to win some money; it could make a real difference for me and my folks. What brought you here?"
+    },
+    {
+      "turn": 13,
+      "from": "C",
+      "message": "Hey J, it's great to meet you again—I'm C, and I'm here for the same reason, to win some money for my family and friends; let's make it happen in the game!"
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Hey C, that's the spirit—let's team up and win big for our families!"
+    }
+  ],
+  "post_game": []
+}

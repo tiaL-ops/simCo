@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "C",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C. It's a bit of a strange setup being in here with everyone, isn't it? How are you feeling about the game starting soon?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Nice to meet you, C. I'm E. It's definitely a weird vibe in here, but I'm feeling pretty focused—I'm really hoping to take some money home. How are you holding up?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I’m doing alright, just trying to stay sharp. I’ve got people back home I really want to take care of, so I’m pretty driven to win this. Do you have a specific goal for the money if you win?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Same here, honestly. I just want to take care of my family and hopefully clear some bills to take the pressure off. It would mean a lot."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "I completely understand that. It’s a lot of pressure, but it’s the best reason to be here. Do you have a plan for how you're going to play it once we start?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "I don't have a rigid plan yet, I think I'll just stay observant and see how the first round plays out. How about you?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Pretty much the same. I'm going to watch the room and see who I can trust, since there's too much at stake to be reckless right out of the gate."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "That makes sense; it's definitely better to be cautious until we see how everyone else handles the pressure."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Exactly. Hopefully, most people are as reasonable as you seem to be, but we'll see soon enough."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Fingers crossed. It's been good talking to you, C—let's see what happens. Good luck."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Thanks, E. Good luck to you too. Let's hope we both get what we need."
+    }
+  ],
+  "post_game": []
+}

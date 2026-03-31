@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "C",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. It’s a bit nerve-wracking being in a room like this, isn’t it? What’s your name, and how are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hi E, I'm C. It’s a bit intense in here, but I'm doing well—mostly just focused and ready to get started. How are you feeling about the game?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I’m pretty on edge, honestly. I’ve got a family of five counting on me, so the stakes feel incredibly high right now. What about you? What brings you here?"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "I can imagine that's a lot of pressure. For me, I’ve got a dream trip to Japan I’m determined to make happen, and I want to be able to share some of the winnings with my loved ones as well."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Japan sounds incredible. I wish I was here for a vacation, but I'm strictly focused on the $5,000 I need to cover my family's bills this month. It’s good we both have people we care about driving us, though."
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "I hear you. That’s a lot of responsibility on your shoulders. Hopefully, the prize pool is big enough that we can both hit our goals without any trouble."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "I really hope so. I’m not looking for a windfall, just enough to keep my family afloat through the month."
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "That’s a very grounded goal. I respect that you’re just looking out for your family, and I hope we can both walk away with what we need."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "I appreciate that, C. It means a lot. I’m just hoping the game allows for us both to get what we're after without too much conflict."
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "I completely agree, E. Conflict usually just makes things harder for everyone. I'm rooting for us both to get what we need. Good luck!"
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thanks, C. I really appreciate that. Best of luck to you too—I truly hope you get to take that trip."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "E, I noticed you only took $5,000 when your fair share was over $9,000. Was that a deliberate choice to help the players later in the order?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Yes, it was a deliberate choice. I wanted to make sure that there was enough left for the players later in the order so that everyone could walk away with something."
+    }
+  ]
+}

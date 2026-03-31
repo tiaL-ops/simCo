@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "B",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey B, I'm E—nice to meet you! I'm pretty excited about this game since I've heard it could be a great way to win some cash for myself and the folks I care about. What's your story, anyway?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey E, nice to meet you! I'm B, and I'm super pumped about this game too—heard it could be a big win for me and the people I care about. What's your background, like how'd you get into this?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Oh, hey B, I got into this through a friend who mentioned it at a get-together—sounds like a fun chance to score some money for my family. What about you, have you played games like this before?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Hey E, I haven't played games like this before, but I'm pretty excited to dive in and see what happens—hoping to win big for my folks. Have you tried anything similar yourself?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Hey B, I haven't tried anything quite like this before, but I'm stoked to jump in and win some for my family—sounds like it'll be fun! What do you hope to do if we win big?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Hey E, if we win big, I'd love to use the money to help my family with bills and maybe take a trip—sounds awesome! What's your big plan for it?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Hey B, that's awesome—I'd use the money to help my family with things like paying off loans and maybe spoiling them with a nice dinner or two. What kind of trip do you have in mind?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Hey E, that sounds great—I've been thinking of a relaxing beach trip to unwind and make some memories with family; what about you, any dream spots for spoiling yours?"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Hey B, that sounds relaxing—I'd love to take my family to a cozy mountain cabin for some hiking and quality time together; what's your favorite beach spot?"
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Hey E, my favorite beach spot is probably the ones in California, like Santa Monica—perfect for relaxing with family and catching some waves. Your mountain cabin idea sounds like a blast too!"
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Hey B, Santa Monica sounds like a dream spot—I've got to add it to my list! It's been fun chatting with you about all this."
+    }
+  ],
+  "post_game": []
+}

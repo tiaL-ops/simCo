@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "G",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hi H, I'm G and I'm really pumped about this game—I've always loved a good challenge where you can win some cash. What's your take on it?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey G, nice to meet you—I'm H, and I'm super excited about this too, it's a big chance to win some cash and sort out my life. What's got you so pumped?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Oh, totally—I've been hooked on games my whole life, and this one feels like a real shot at winning big to support my family, you know? What about you, H, got any strategies in mind?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Oh, yeah, I'm trying to think of ways to play it safe and build alliances early, but I'm still brainstorming—do you have any tips from your game experiences?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Yeah, building alliances sounds smart—I've learned from past games to watch how others move first and take calculated risks, like starting small to build trust; what's your plan for making those alliances work?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Oh, for sure, I figure starting with honest chats like this and finding common ground, like our family goals, will help solidify alliances—maybe we can watch each other's backs in the game; how do you usually spot trustworthy players?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Oh, totally, I usually spot trustworthy players by watching if they follow through on what they say early on and stay consistent—it's all about those little actions that build trust; what kind of experiences have you had spotting good allies?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Oh, for sure, I've played in a few casual tournaments where the folks who actually followed through on their promises, like sharing strategies upfront, ended up being solid allies—I remember one where that trust helped us win as a team; it's why I'm hoping we can vibe like that here."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "That's great to hear, H—sounds like we've both seen how trust pays off; I once won a game by sticking with reliable allies, so let's aim for that vibe here—what strategy are you thinking of sharing first?"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Oh, yeah, I'm thinking of starting with observing how other players interact early on, so we can spot reliable ones together—maybe share notes on that? Sounds good for building our alliance."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Oh, yeah, that's a smart idea, H—let's definitely share notes on who's reliable to strengthen our alliance; I'm in!"
+    }
+  ],
+  "post_game": []
+}

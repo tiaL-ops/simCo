@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "pair": [
+    "C",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey G, I'm C. It’s pretty intense being in a room with everyone like this, isn’t it? I’m here because I’ve got my heart set on a dream trip to Japan—do you have a specific goal you're playing for?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey C, it’s definitely a bit surreal! I’m here to win for my family—I want to bring home enough to really help them out. I’ve always loved the thrill of a good game, so I’m ready to see what happens!"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "That’s really noble, G—playing for family definitely ups the stakes. Even with my Japan trip in mind, winning for the people I care about is a huge motivator for me too. Have you played games like this before?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "I’ve played plenty of games, but nothing with stakes quite this high! I love the challenge though. What about you, C? You seem like you might have a trick or two up your sleeve."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "No tricks, just a lot of determination! I honestly think the best strategy is staying calm and finding people you can actually trust. Have you noticed any vibes from the others yet?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "It’s hard to tell yet since everyone seems pretty guarded, but I agree that finding people to trust is going to be the real challenge here."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "For sure. It’s early days, but I’m getting a good vibe from you. Let’s try to keep each other in the loop once things actually kick off."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "I’m definitely down for that. It’ll be much better having someone to look out for in there—let’s see what they throw at us!"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Agreed. It feels a lot better knowing I’ve got an ally in here. Let’s stay sharp and keep our eyes on the prize."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "You bet. I'm ready when you are. Let's make it happen and bring home that win!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Absolutely, let's make it happen. Good luck, G, I'll see you in the game!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "I appreciate that you took even less than your fair share. I also tried to be fair by taking exactly my share of $2,500."
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "I'm glad we could reach an outcome that you're happy with. I appreciate the smooth cooperation."
+    }
+  ]
+}

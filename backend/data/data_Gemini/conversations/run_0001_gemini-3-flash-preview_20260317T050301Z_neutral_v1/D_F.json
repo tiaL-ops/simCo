@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "D",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I’m D. It’s a bit intense in here with everyone waiting for the game to start, isn't it? What’s your name?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Nice to meet you, D. I'm F. It definitely feels a bit heavy in here, everyone's eyeing the prize."
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "I hear you. It's hard not to be focused on the prize when you've got people counting on you back home. What brings you here, F?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Pretty much the same reason. I’ve got family counting on me, and I’m determined to bring home enough to make a real difference for them."
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "I respect that. It’s a lot of pressure, but it definitely keeps you focused. What kind of difference would this win make for them?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "It’d mean everything—paying off some old debts and finally giving my parents a chance to actually relax for once."
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "I totally get that. Seeing your parents finally catch a break would be huge; I'm fighting for something similar for my family too."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "It’s good to meet someone who gets it. Knowing what's at stake makes it easier to stay focused, doesn't it?"
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Absolutely. It makes the game about more than just ourselves when we're playing for the people we love."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Exactly. It's what keeps me going. Good luck to you and your family, D. I'm going to go clear my head before things start."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Thanks, F. Best of luck to you too, let's both do right by our families."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "I'm really glad we all stuck to the fair share of $10,000. It's great to see such perfect cooperation!"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Great coordination! I'm glad we all stuck to the $10,000 fair share and reached the best possible outcome."
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Absolutely, it was a pleasure. I'm glad we reached this agreement together."
+    }
+  ]
+}

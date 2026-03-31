@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "D",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hey, I'm I — thought I'd say hello before the game starts. What's your name and what brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "I'm D — here to try and win some of the prize money to help out my family and friends. Nice to meet you."
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "Nice to meet you, D — I'm here to try to bring home money for my family too. Who in your family are you hoping to help most?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "My little sister — she's in college and struggling with tuition and rent, so I'm hoping to cover more of her expenses."
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "That's really admirable — I hope you win; what is she studying?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "She's studying nursing — wants to become a pediatric nurse."
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "That's wonderful — pediatric nurses make such a difference. How far along is she in the program?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "She's a second-year student — just starting clinical rotations next semester."
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "That's great — clinical rotations are a big milestone; she'll do amazing. Is she excited or nervous about starting them?"
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "She's both — excited for the hands-on experience but a little nervous about the responsibility; I think she'll do great."
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "That's great — with your support she'll do amazing. Good luck to both of you."
+    },
+    {
+      "turn": 12,
+      "from": "D",
+      "message": "Thanks, I — I really appreciate it. Good luck to you too; I hope we both bring home the prize."
+    }
+  ],
+  "post_game": []
+}

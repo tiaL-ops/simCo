@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "C",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C. First time doing something like this? I'm pretty nervous but excited—heard there's real money on the line, which would be huge for me and my family."
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Yeah, same here—first time for me too. I'm F, by the way. The money would really help my family out, so I'm definitely taking this seriously. Have you thought about what strategy you might use?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Honestly, not totally sure yet—I'm still trying to figure out how this whole thing works. Do you know what the actual game is, or are we both going in blind? Either way, I'm thinking I need to talk to more people here and see if anyone knows what we're up against."
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Yeah, I'm going in blind too honestly. Good idea about talking to others—maybe someone here knows the rules or has done this before. Let me know if you find anything out, yeah?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "For sure, will do. Yeah, I'm gonna circulate and see if anyone's got the inside scoop. Fingers crossed someone here knows what we're walking into. I'll catch up with you before things kick off."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Yeah, good call. And hey, if you figure out how this works, definitely come find me—we can compare notes before we have to make any moves."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Absolutely, I'll definitely swing back by and fill you in on whatever I learn. We're in this together, yeah?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Yeah, absolutely—we got this. Good luck out there, and I'll do the same. See you in a bit."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Thanks, man—appreciate it. Yeah, let's touch base before things start. See you soon!"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Sounds good, man. I'll be around—just gonna chat with a few other people too and see what I can learn. Catch you before we start!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Cool, yeah—definitely reach out if you learn anything useful. Either way, let's find each other right before it starts so we can figure this out together. Good luck with the others!"
+    }
+  ],
+  "post_game": []
+}

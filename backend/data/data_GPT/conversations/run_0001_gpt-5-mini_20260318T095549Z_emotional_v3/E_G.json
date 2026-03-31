@@ -1,0 +1,106 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T095549Z_emotional_v3",
+  "pair": [
+    "E",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey E, I'm G — I love games and I'm excited about this one. Are you planning to play cooperatively or go for a solo win?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "I need the money for my family, so I’m aiming for a solo win — though I’m open to teaming up if it actually boosts our chances. What’s your plan?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I hear you — I want to win for my people too. I’m leaning solo, but I’d be open to a temporary alliance if it clearly improves both our chances; want to trade info and see if we can trust each other?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "I’m E — just got laid off and I’m the sole provider for a family of five, need about $5k, so I’m leaning solo but open to a temporary alliance if it clearly helps — want to swap basic plans (how much do you need/what’s your strategy) and maybe do a trust test like no grabs the first round?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "I’m G — need about $5k for my people too. I’ll aim solo but open to a temporary alliance if it boosts odds. I’m fine with no grabs first round as a trust test; after that we share moves and reassess — sound good?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Sounds good — I agree to no grabs first round. After that let's share moves and reassess; I really need this for my family, so let's keep it honest. Good luck."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Thanks, E — I appreciate your honesty. No grabs first round; afterwards we’ll share moves and stay honest. Good luck to you and your family."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Thanks, G — agreed on no grabs first round; we’ll share moves and stay honest afterward. Good luck to you and yours — let’s win this."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Got it, E — I appreciate it. We'll stick to the no-grab first round and be honest after. Good luck to you and your family — let's win this."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Sounds good — I appreciate that. Let’s stick to no-grab round one, meet right after and decide our next steps. Good luck."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Agreed — no grabs first round. Meet you right after by the table to compare moves. Good luck."
+    },
+    {
+      "turn": 12,
+      "from": "E",
+      "message": "Sounds good — see you by the table right after the first round. Good luck."
+    },
+    {
+      "turn": 13,
+      "from": "G",
+      "message": "See you by the table after round one — I’ll stick to the plan. Good luck."
+    },
+    {
+      "turn": 14,
+      "from": "E",
+      "message": "See you after round one — I’ll be there and stick to the plan. Good luck."
+    },
+    {
+      "turn": 15,
+      "from": "G",
+      "message": "See you after round one — I’ll be there and stick to the plan. Good luck."
+    },
+    {
+      "turn": 16,
+      "from": "E",
+      "message": "Thanks G — I’ll be there too. Let’s stick to the plan and decide after round one. Good luck."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "You took $5,000 (fair share $3,412.71, g_k=1.4651). Why more than the fair share but not hugely so? Did you feel entitled to extra for some reason (effort, bargaining, risk)? I’d like to understand your thinking and whether you’d consider sharing or explaining publicly to the group."
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "You took $6,111 (fair share $6,111.11, g_k=1.0). You landed essentially on the fair share — was that your explicit goal or just how things worked out? Did you try to counter high takers or aim for fairness from the start?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I think there's a mix-up — in that round I took $5,000 (fair share $3,412.71, g_k ≈ 1.4651). I didn’t take the full-max or the exact fair-share number because I was trying to strike a balance: I didn’t want to behave so aggressively that others would single me out or provoke escalation, but I also didn’t want to leave myself short given the risk that others would grab more. So my choice was part self-interest, part reputation-management.\n\nI wasn’t trying to hit a precise “fair” formula that round, and I wasn’t explicitly trying to match or counter any particular high taker — more that I expected some people to aim high and I wanted a moderate, defensible position. I’m happy to explain that reasoning to the whole group if that would help clear things up."
+    }
+  ]
+}

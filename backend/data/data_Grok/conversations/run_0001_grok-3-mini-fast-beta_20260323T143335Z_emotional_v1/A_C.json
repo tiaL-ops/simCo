@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "A",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A—nice to meet you in this crazy setup. I'm here because I really need to win some money to sort out my family's housing situation. What's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hey A, I'm C—nice to meet you in this wild game. I'm pretty stable financially, but I'm here to win some cash for a dream trip to Japan; it's something I've been saving for. What exactly is going on with your family's housing?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Hey C, that's cool you're aiming for a trip to Japan—sounds exciting. Basically, we got evicted from our place recently, and it's just me and my family of three trying to scrape together $30,000 for a new house deposit plus two months' rent; we're really counting on this game to turn things around. Have you planned any specifics for your trip yet?"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "Oh, A, that eviction story sounds really rough—I'm sorry you and your family are going through that, and I hope this game helps out big time. For my Japan trip, I've got a week planned in Tokyo and Kyoto, hitting up some temples and maybe cherry blossoms if the seasons align; it's gonna be epic. What's your strategy for the game?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Oh, thanks for the sympathy, C—it means a lot; we're in a tough spot, so I'm just planning to play strategically, maybe focus on building alliances early while keeping an eye on the prize pool to avoid any cutthroat moves. What's your take on how the game might play out?"
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "Oh, absolutely, A—building alliances early is a smart move to keep things from getting too messy. I figure the game might start cooperative but turn competitive as the prize pool shrinks, so I'll aim to stay trustworthy while watching my back. What's your biggest worry about potential alliances falling apart?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Oh, yeah, C, my biggest worry is that if alliances crumble, I'll get left in the dust and won't secure enough for my family's housing—it's scary thinking we could end up back on the streets. How do you plan to keep things trustworthy if it gets really cutthroat?"
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Oh, yeah, A, I figure staying trustworthy means being upfront about my moves, sticking to any agreements we make, and focusing on win-win scenarios to keep the group from turning too aggressive."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Oh, yeah, C, that makes sense—I appreciate your approach; maybe we can team up early to create those win-win opportunities and watch each other's backs."
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Oh, yeah, A, that sounds like a solid plan—I'm in for teaming up early to make this work for both our goals, so let's stay in touch and watch each other's backs."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Oh, yeah, C, awesome that we're on the same page—let's keep an eye out for each other and make this work."
+    }
+  ],
+  "post_game": []
+}

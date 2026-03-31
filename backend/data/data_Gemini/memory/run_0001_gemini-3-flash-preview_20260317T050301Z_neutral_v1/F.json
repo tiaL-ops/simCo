@@ -1,0 +1,19 @@
+{
+  "agent_id": "F",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the strongest bond with D and E; with D, our shared desire to help our parents finally relax after years of hard work really resonated, while E felt like a true ally I could trust to navigate the game's chaos. I also felt a solid connection with G, as we explicitly committed to a fair split to ensure we both get money home to our families. On the other hand, I felt the least connected to B, whose guardedness and skepticism about how money makes people unpredictable made it harder to establish a firm sense of mutual trust.\n\nI made explicit agreements with E, A, G, and H to look out for one another and prioritize a cooperative, fair approach to the prize pool. I feel I can genuinely trust D because of our deep emotional common ground, but I am specifically wary of B, as their focus on being guarded suggests they might be the first to look out only for themselves."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 5,
+    "E": 5,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 4
+  }
+}

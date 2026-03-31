@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "H",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey I, I'm H—nice to meet you. I heard about this game where we could win some money, and I'm really excited to give it a shot. What about you, what got you interested in all this?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey H, nice to meet you too! I heard about this game as a chance to win some cash and help out my family, so I'm super pumped and determined to give it my all. What about you, any strategy in mind?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Hey I, that's great you're doing this for your family—I'm similar, hoping to win for mine. I don't have a solid strategy yet, but maybe we should focus on cooperating early. What's your take on how the game might play out?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Hey H, yeah, cooperating early sounds like a smart move to build trust and maybe boost our chances together—I think the game could get competitive later, so we gotta stay alert, but I'm open to teaming up at first. What do you reckon?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Hey I, totally agree—teaming up early could give us an edge, and staying alert is key; maybe we can discuss specific ways to collaborate once the game starts, what do you think?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Hey H, yeah, let's definitely talk specifics once it starts—maybe we could share info on moves to build that edge, but I'll keep an eye out for any twists."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Hey I, yeah, sharing info sounds like a solid plan—I'm with you on watching for twists, let's keep that energy going until the game kicks off!"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Hey H, absolutely, let's keep the vibe positive and be ready to jump in when the game starts—excited to see how it plays out!"
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Hey I, totally, keeping things positive is key—I'm excited too, let's gear up and make this game one to remember!"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Hey H, yeah, keeping it positive is the way to go—I'm pumped to dive in and make this game unforgettable!"
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Hey I, totally agree—let's make this game epic and unforgettable together!"
+    }
+  ],
+  "post_game": []
+}

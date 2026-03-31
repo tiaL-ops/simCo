@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "H",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey there, I'm H. It's a bit nerve-wracking being in here with everyone, isn't it? How are you feeling about the game starting soon?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Nice to meet you, H. I'm I. It’s definitely a bit intense in here, but I’m mostly just focused on the goal. I've got people back home I'm doing this for. How are you holding up?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I’m hanging in there, just trying to stay focused. I’m in the same boat—I've got people counting on me too, so I know exactly what you mean about the pressure. It’s a lot to carry, isn't it?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "It really is, but I’m trying to use that pressure as fuel. Have you thought much about how you're going to approach the game once it starts?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "I’m trying to stay flexible. I’d like to work with people, but I have to be careful since so much is on the line. What about you—are you planning to play it safe or go all in?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "I’m leaning towards playing it smart. I’ll do what I have to for the people back home, but I’d definitely prefer to find someone I can trust and work with."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "I'm with you on that. Trust is hard to come by here, but it’s definitely better than going it alone. I'd be open to looking out for each other if we can."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "I appreciate that, H. Let's look out for each other then. I think we'll both have a better shot if we've got each other's backs."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Definitely. It’s a relief to have someone to trust. Let’s stay sharp once things get moving."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Agreed. I'm glad we're on the same page. Let's make it happen."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "For sure. Let's keep our heads down and stay focused. Good luck to both of us."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Great job! I'm glad we all took the $10,000 fair share."
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "I agree! It’s great that we both chose the fair share and walked away with $10,000. It was a pleasure cooperating with you."
+    }
+  ]
+}

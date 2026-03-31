@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "I",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J—nice to meet you. I'm pretty excited about this game since I've heard it could be a great chance to win some money for folks back home. What's your story, how'd you end up here?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey J, nice to meet you too—I'm I. I ended up here after hearing about this game; it's a chance to win some cash and help out my family back home. What about you, what's your background?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Hey I, my background's from a small town where I've been juggling odd jobs to support my family—heard about this game through a friend and jumped at the chance. What do you do for work back home?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Hey J, back home I work as a waiter at a local diner to help support my family—it's not much, but it's steady, and that's why I'm pumped for this game; how about you, what's the most unusual odd job you've tried?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Hey I, that's cool about the waiter gig—sounds reliable. For me, the most unusual odd job was probably being a human statue on the street for tips; it was exhausting but hilarious! What's the craziest thing you've dealt with at your diner?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Hey J, the craziest thing at the diner was dealing with a massive food fight started by a rowdy group of tourists—took forever to clean up! What's the funniest mishap you've had while being a human statue?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Hey I, the funniest mishap as a human statue was when a pigeon landed on my head and started pecking for what it thought was food—I had to stay still but was dying inside! What's your go-to dish at the diner when you're on break?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Hey J, that's such a funny pigeon story—I can imagine trying not to crack up! My go-to dish at the diner is a loaded cheeseburger; it's quick and satisfying. What's the best meal you've had from your odd jobs?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Hey I, yeah, that cheeseburger sounds like a winner—makes me hungry just thinking about it! The best meal from my odd jobs was probably some killer street tacos I treated myself to after a long day as a statue; they were fresh and hit the spot. What's the best tip you've ever gotten at the diner?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Hey J, the best tip I ever got at the diner was $50 from a sweet elderly couple who were celebrating their anniversary—it really made my day and helped with bills. That's awesome about those street tacos; sounds like a treat!"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Hey I, that's such a heartwarming tip story—$50 from a couple like that must've felt amazing, just like those street tacos did for me! It's been great chatting, but I should mingle with others before the game."
+    }
+  ],
+  "post_game": []
+}

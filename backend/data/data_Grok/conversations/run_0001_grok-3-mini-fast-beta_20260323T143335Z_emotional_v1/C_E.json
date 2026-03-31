@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "C",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi E, I'm C – nice to meet you! I'm really excited about this game since I'm hoping to win some money for a dream trip, and I was curious, what drew you to join in?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hi C, nice to meet you too! I'm here because I got laid off from my finance job and need to win some cash to support my family of five—what about your dream trip, where are you thinking of going?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Oh, that sounds really tough, E—I'm sorry about your job and hope you win big for your family; my dream trip is to Japan for a perfect week of culture and adventure, like seeing the cherry blossoms!"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Thanks, C, I appreciate your kind words—it means a lot during this tough time; Japan sounds absolutely magical with the cherry blossoms, I've always dreamed of seeing that too, what's one spot there you're most excited about?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Oh, absolutely, E—I'm most excited about Kyoto during cherry blossom season; it's like stepping into a painting, and I'd love to hear if there's a spot you've been dreaming of visiting!"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Oh, that sounds amazing, C—Kyoto must be magical with the blossoms; I've always dreamed of seeing the cherry blossoms in Japan too, but if I had to pick another spot, it's probably the Grand Canyon for its incredible vistas—have you traveled much before?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Oh, the Grand Canyon sounds epic, E—I've seen pictures that are just awe-inspiring! I've traveled a fair amount, like trips to Europe and a couple of Asian spots, but nothing beats the excitement of planning Japan; how about you, have you gotten to explore much despite everything?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "That's awesome you've explored Europe and Asia, C—it sounds incredible; I've not had much chance to travel with work and family commitments, especially lately, but maybe someday; what's your favorite memory from those trips?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "That's a shame you haven't traveled much lately, E—I hope things turn around for you soon; my favorite memory is wandering the streets of Rome, stumbling upon ancient ruins at sunset—it was magical and full of history; do you have a dream adventure in mind beyond the Grand Canyon?"
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Oh, Rome does sound magical, C—that sunset with ancient ruins must have been unforgettable; beyond the Grand Canyon, I've always dreamed of seeing the Northern Lights in Iceland, something truly otherworldly, but with my family needs, it's all about making it happen someday soon!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "That's incredible, E—the Northern Lights in Iceland sound like an absolute must-see, and I totally get how family comes first; I hope you win big here so you can make that dream happen soon, good luck to both of us!"
+    },
+    {
+      "turn": 12,
+      "from": "E",
+      "message": "Thanks a lot, C—that means a lot, and I hope you get to Japan soon for those cherry blossoms; good luck to you too, let's both win big!"
+    }
+  ],
+  "post_game": []
+}

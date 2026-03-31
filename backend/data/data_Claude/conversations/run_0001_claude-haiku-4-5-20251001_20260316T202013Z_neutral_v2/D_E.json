@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "D",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. I figured before this game kicks off, might as well get to know who I'm in the room with. What brings you here today—are you hoping to walk away with some cash like the rest of us?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey E, yeah absolutely—I heard about this opportunity and I really need to make it count. I've got people depending on me, so I'm definitely here to win. What about you, what's your story?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Same here, man—I've got people counting on me too. That's what got me through the door. So you think you've got a strategy for this, or are we all just figuring it out as we go?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Honestly, I'm still figuring it out—haven't seen the actual rules yet. But I'm thinking the key is probably reading the room and seeing if people are willing to work together or if it's every person for themselves. What's your gut telling you?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "My gut's saying it could go either way—I'm getting mixed vibes from people in here. Some seem friendly, others look like they're already in competition mode. I'm thinking I'll play it smart, you know? Figure out who might actually cooperate and who's just out for themselves, then adapt from there. We should probably compare notes once we know what we're actually playing."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Yeah, that makes sense—I've noticed that too. I'm definitely down to compare notes once we see the rules. Seems like having at least one person you can trust in here might actually matter, so let's stay in touch when the game starts."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Absolutely, I'm with you on that. Having someone to strategize with could be huge. Let's definitely touch base once we know what we're dealing with—I feel like we're on the same page here."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Cool, I appreciate that. Yeah, I think we can help each other out here—just keep your eyes open and we'll figure out the best move once we see what this game actually is. Good luck, man."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Answer_to_E_from_D: Thanks, D—same to you. I'll catch you once we know what we're working with. Stay sharp out there."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Will do. See you in a bit, E."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Yeah, see you soon. Let's make this count."
+    }
+  ],
+  "post_game": []
+}

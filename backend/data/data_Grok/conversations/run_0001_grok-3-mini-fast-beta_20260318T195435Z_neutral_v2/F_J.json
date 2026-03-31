@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "F",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J—excited about this game we've got coming up, it could be a fun way to win some cash. What's your name and what brought you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey J, I'm F—sounds like a cool opportunity to win some cash too! I heard about the game and figured it was worth checking out to potentially bring home some winnings for myself and folks I care about. What's your take on it?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Yeah, F, I'm totally on board—it's a golden opportunity to win some cash and support my folks, so I'm all in and ready to play smart. What's your strategy for the game?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Oh, hey J, I'm stoked about this too—my strategy is to play it smart and cooperative at first, maybe team up with folks who seem reliable to maximize our chances, but I'll adapt as things go. What's your plan?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Hey F, my plan is to keep things cooperative early on, build trust with a few solid folks like you, and stay flexible—sounds like we're on the same page. What makes someone reliable in your eyes?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Hey J, for me, reliability boils down to being honest, keeping your word, and communicating straight up—makes it easier to trust and work together. What about you, what stands out for building trust?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Hey F, for me, building trust is all about honesty and following through on promises, plus sharing a common goal like winning together—feels solid when everyone's on the same team."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Hey J, totally agree—honesty and a shared goal really do make a strong team; it's great we're aligned on that. What's your experience with games like this so far?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Hey F, I've only dabbled in a couple of online games like this before, mostly for fun, and learned that staying observant pays off—nothing major, though. How about you?"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Hey J, I've dipped into a few online games myself, nothing serious—just for the thrill, and yeah, staying observant has helped me out a bit, though I haven't won much yet. Excited to see how this one goes!"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Hey F, that's awesome—we're both in the same boat with these games, and I'm pumped to give this one a real shot together!"
+    }
+  ],
+  "post_game": []
+}

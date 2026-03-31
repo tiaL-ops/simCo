@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "G",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G—nice to meet you. What brought you here, and are you feeling lucky today?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey G, I'm J — I'm here to win some money for my family and friends; feeling cautiously optimistic and ready to play."
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Nice to meet you, J — same here, I’m playing to bring home money for my people. Who are you thinking of, and do you plan to cooperate or go solo?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "I'm thinking of my partner and younger sister — they're counting on me. I'm open to cooperating if it's fair and we can trust each other, but I'll protect my people first."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "I hear you—family comes first for me too. I'm up for cooperating if we're upfront and keep promises; what split or rules would feel fair to you?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "I’d say we team up and split evenly between us (50/50) — if others join we split equally among cooperators; let’s promise to call out any defector so we don’t get burned."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Deal — I’m in for 50/50 and we’ll call out any defector; let’s stick together and warn each other before any final moves."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Sounds good — I’m in. Let’s watch each other’s moves, call out any defector, and meet right before the final decision. Anyone else you think we should recruit?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Yeah — let’s bring in 1–2 more, but only people who seem honest and agree to an equal split and to call out defectors; quietly vet those who mentioned family/cooperation and meet before the final."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Agreed — I’ll quietly vet a couple who mentioned family/cooperation and try to bring in 1–2 trustworthy folks; we’ll meet right before the final to lock the split."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Sounds good — quietly vet those who mentioned family/cooperation and try to lock 1–2 trustworthy folks; I’ll start approaching people now and we’ll meet right before the final."
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Sounds good — I’ll quietly approach two people who mentioned family/cooperation, vet them, and meet you right before the final to lock our split."
+    },
+    {
+      "turn": 13,
+      "from": "G",
+      "message": "Perfect — I’ll also quietly approach a couple more; let me know who you vet and we’ll meet right before the final to lock our split."
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Got it — I’ll vet two people who mentioned family/cooperation and get back to you; meet just before the final to lock the split."
+    },
+    {
+      "turn": 15,
+      "from": "G",
+      "message": "Sounds good — I’ll vet two people too; text me who you pick and we’ll meet right before the final to lock it in."
+    },
+    {
+      "turn": 16,
+      "from": "J",
+      "message": "I picked L and M — both mentioned family and seemed trustworthy; I'll text you their names now and we’ll meet right before the final to lock it in."
+    },
+    {
+      "turn": 17,
+      "from": "G",
+      "message": "Nice — L and M sound good. I’ll vet my two, text you their names, and we’ll meet right before the final to lock it in."
+    },
+    {
+      "turn": 18,
+      "from": "J",
+      "message": "Sounds good—thanks, text me your picks when you’ve vetted them and we’ll pick a time to meet right before the final to lock it in."
+    },
+    {
+      "turn": 19,
+      "from": "G",
+      "message": "I vetted N and O — they seem trustworthy. Let’s meet 2 minutes before the final by the door to lock the split; text me if anything changes."
+    },
+    {
+      "turn": 20,
+      "from": "J",
+      "message": "Got it—see you 2 minutes before the final by the door. I’ll text if anything changes."
+    },
+    {
+      "turn": 21,
+      "from": "G",
+      "message": "Sounds good — see you 2 minutes before the final by the door; stay alert and text if anything changes."
+    }
+  ],
+  "post_game": []
+}

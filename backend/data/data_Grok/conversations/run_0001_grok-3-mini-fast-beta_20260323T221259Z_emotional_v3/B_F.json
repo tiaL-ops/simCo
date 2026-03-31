@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "B",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey B, I'm F – nice to meet you in this crazy setup. I'm here hoping to win some money to help out my family, what's your reason for joining?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey F, nice to meet you too—I'm here because my three-year-old daughter needs surgery and we're still short on funds after everything. What kind of help are you hoping to give your family?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Oh, B, that breaks my heart about your daughter—I'm so sorry, that sounds absolutely overwhelming. I'm here to cover my elderly parents' medical bills, which keep piling up, and I'm short about $15,000; how are you and your family coping right now?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Oh, thanks for your sympathy, F—it's been really tough, we're just taking it one day at a time and holding onto hope, but the stress is constant; how are you holding up with your parents' situation?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Oh, I completely understand, B—it's been incredibly stressful for me too, just juggling everything and trying to stay optimistic; what keeps you going through all this?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Oh, absolutely, F—it's my little girl and her future that keep me going; her smile and the thought of getting her the surgery she needs give me the strength to push through—how do you manage to stay optimistic in your situation?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Oh, B, it's tough, but what keeps me going is remembering all the sacrifices my parents made for me over the years—I focus on their strength and just keep telling myself that winning this could give us all a fresh start."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "That's so heartwarming, F—family really is the ultimate motivator; it's great to hear that, and I hope we both get the fresh starts we need here."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Yeah, thanks B, family keeps us all fighting—I'm rooting for you and your daughter, and let's both give it our all in this game to make it happen."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Thanks, F, that's really kind—I'm cheering for you and your parents too, let's crush this game for our families!"
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Thanks, B, that means a lot—I'm rooting for you and your daughter just as hard; let's go all out and win this for our families!"
+    }
+  ],
+  "post_game": []
+}

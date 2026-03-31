@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "pair": [
+    "D",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D. I’ve had a bit of a rough week and could really use a win here, so I'm trying to stay focused. How are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Nice to meet you, D. I’m E. I definitely understand the pressure—I’m in a pretty tight spot with my family right now, so I’m just trying to stay as focused as possible."
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "I'm sorry to hear that, family definitely makes the stakes feel a lot higher. Since we're both in similar boats, do you have any idea what kind of game we're looking at?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "I honestly don't have many details yet, but I've heard it involves a shared prize pool, which usually means some kind of cooperation or competition. I'm just trying to keep my head clear until it starts. Any theories on your end?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "I’m thinking it’ll be a choice between working together or looking out for ourselves. Honestly, if there’s a way for us both to walk away with a good chunk, I’m leaning towards cooperation—it’s less risky that way."
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "I'm on the same page. With my family counting on me, I'd much rather have a solid path to a payout than risk going home empty-handed. If we can help each other out, I’m definitely in."
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Exactly. I can't afford to walk away with nothing after the week I've had, so let's stick to that and look out for each other once it starts."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "It’s a deal. I’m glad we’re on the same page—I really need to bring something home for my family, so let's definitely look out for each other."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "I'm glad to hear that. Having an ally makes this a lot less stressful, so let's make sure we both walk away with what we need."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Absolutely. Let’s keep a lookout for each other once things get moving. I’m going to circulate a bit more before we start, but I’m glad we’ve got this pact."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "For sure, E. I'm counting on this working out for both of us, so let's stick to the plan and get that win. Good luck out there."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Thanks for being fair and taking exactly your share. It's a shame some of the others weren't as considerate."
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "You're welcome. I think it's important to stick to what's fair so the game works for everyone. I'm glad we could cooperate."
+    }
+  ]
+}

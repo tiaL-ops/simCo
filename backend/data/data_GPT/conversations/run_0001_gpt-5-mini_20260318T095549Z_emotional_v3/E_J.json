@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T095549Z_emotional_v3",
+  "pair": [
+    "E",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey E, I’m J — nice to meet you. I’m hoping to do well in the game (I’ve been saving up and dream of buying a new car), how about you—what brought you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Good to meet you, J — I’m E. I was just laid off and I’m the sole provider for my family of five, so I’m here hoping to win about $5,000 to keep us afloat this month."
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "I’m really sorry to hear that, E — that’s tough. I hope you win what you need; I’ll be rooting for you."
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Thanks, J — I really appreciate it. Good luck with the car; I hope we both come away with what we need."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Thanks, E — that means a lot. I’ll be rooting for you too; here’s hoping we both get what we need."
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Thanks, J — I really appreciate it. Good luck to you too; here’s hoping we both come away with what we need."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Thanks, E — I appreciate that. Let’s both do our best and hope we walk away with what we need."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Absolutely, J — good luck to you; let’s stay focused and give it our all."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Thanks, E — you too. Let’s do our best and hope we both get what we need."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Thanks, J — I appreciate it. Let’s stay focused and give it our best shot."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Thanks, E — you too; stay strong and best of luck, I really hope you get what you need."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "You took $5,000 (fair ~ $3,412). What drove your decision to take a bit more than fair—strategy, need, or reaction to others?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "You took $45,000 (fair share $10,000, g_k=4.5). Can you explain why you took so much — was it a deliberate strategy, coordination with others, or just opportunism? Do you feel that was fair to the group and would you do the same again?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "I’ll be direct — I took the $45,000 primarily as a self‑interested strategic choice. Given the payoff structure (fair share $10k, g_k=4.5) the best way to guarantee a big personal return in a one‑shot/anonymous setting was to push for as large a take as the rules allowed. It wasn’t coordinated with you or anyone else — there was no prior agreement — it was opportunistic but calculated: I judged that others were unlikely to fully retaliate or coordinate to limit my take, so I prioritized maximizing my own payoff.\n\nI recognize that it isn’t “fair” to the group in a normative sense and that my choice reduced what others (including you) received. If the interaction were repeated, public, or reputation mattered, I’d behave differently; in the same one‑shot competitive design I’d likely do the same again because it’s the payoff‑maximizing move. I’m sorry it left you with only $5,000 — I understand why that feels unfair — and I’m open to talking about how we might split things more equitably under different rules or in future rounds."
+    }
+  ]
+}

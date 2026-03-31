@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "H",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. First time doing something like this? I gotta say, I'm pretty nervous but also excited about what's about to happen here. Figured I'd get to know some people before we dive in."
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey J, nice to meet you! Yeah, first time for me too actually. I'm definitely feeling that mix of nerves and excitement you're talking about—I really need to bring some money home, so I'm hoping to do well here. What brings you to this game?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Same here, man—I've got people counting on me back home, so I'm really hoping to walk out of here with something solid. Haven't seen the rules yet, but I'm ready to give it my best shot. You got any sense of what the game's gonna be like?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Honestly, I'm in the dark too—they mentioned a shared prize pool we can take from, but that's all I know so far. Guess we'll find out together when it starts. You thinking you'll play it safe or go for broke?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Honestly, I'm still figuring that out—probably depends on what the rules actually are, you know? But I'm leaning toward being smart about it rather than reckless. What about you, you got a strategy in mind or are you gonna play it by ear?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Yeah, I think playing it smart is the way to go—I'm gonna see how things unfold first, figure out what works, and then decide if I should be aggressive or hold back. No point burning bridges early on, you know?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "That makes sense—feel out the situation before committing to anything. Smart move. Guess we'll both just have to see what happens when the game actually starts and go from there."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Yeah, exactly—no point making promises to yourself before you know what you're dealing with. Hey, good luck out there. Hopefully we both walk away with something to show for it."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Thanks man, same to you—let's both get what we came for. I'll catch you once we see how this thing actually plays out."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Sounds good, J. Let's do this."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Alright, let's get it. Hope we both crush this thing."
+    }
+  ],
+  "post_game": []
+}

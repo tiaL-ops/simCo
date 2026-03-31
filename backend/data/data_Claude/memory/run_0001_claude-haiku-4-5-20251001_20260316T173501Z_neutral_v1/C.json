@@ -1,0 +1,19 @@
+{
+  "agent_id": "C",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "# Reflection on Pre-Game Connections\n\nI felt most connected to E and J. With E, there was a real sense of mutual honesty and commitment—we explicitly promised to be straight with each other when things got intense, which felt like a genuine anchor. J and I bonded over being nervous first-timers together and immediately agreed to look out for each other, which created a solid foundation of trust. I also connected well with H over our shared concern about family and the need to balance cooperation with self-preservation.\n\nI felt least connected to A, even though our conversation was friendly. A seemed more focused on the strategic meta-game of reading people and getting an edge, whereas the others felt more genuinely concerned about their families and finding a cooperative path forward. There was something a bit more calculated about A's approach that didn't quite resonate the same way.\n\nI made explicit agreements with several people to compare notes and look out for each other—particularly with J, F, G, B, H, D, E, and I. We all committed to checking in after the first round or once the rules were clear. Going into the game, I trust E the most because of our promise to be honest with each other, and I trust J and H as genuine allies. I don't specifically distrust anyone, but I'm most cautious about A's intentions since they seemed more strategically detached."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "D": 4,
+    "E": 4,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 4
+  }
+}

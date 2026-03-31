@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "F",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H. First time doing something like this? I gotta say, I'm pretty nervous but also kind of excited—got a lot riding on this for me and my family. What brings you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Answer_to_F_from_H: Yeah, first time for me too. My parents need medical help and I'm short about 15 grand—this seemed like a real shot at making a difference for them. I can relate to having a lot riding on it. What's your situation, if you don't mind me asking?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Man, that's heavy—I really hope this works out for your parents. Yeah, I've got a loan coming due next month for about 25 grand, and honestly, I'm stressed out of my mind about it. This game feels like maybe the only real shot I've got to make it work without drowning everything else."
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "I hear you—that's a lot of pressure with a deadline like that. At least we're both here trying, right? Do you know anything about how this game works, or are we both going in kind of blind?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Honestly, pretty much blind—I looked up a bit online but nothing concrete. All I know is there's a shared prize pool and we get a shot at taking money from it. You heard anything more specific than that?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Nah, I'm in the same boat—just know there's money to win and we've got a chance at it. I'm guessing we'll figure out the rules once we get started. Honestly, I'm just hoping it's not some crazy complicated thing that works against people like us."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Yeah, I feel that—we're both just hoping for a fair shot, you know? Whatever the rules are, I'm just gonna try to play it smart and see what happens. We'll figure it out together when we get in there."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Yeah, that's the spirit—playing it smart is probably our best bet. And hey, at least we're not going in completely alone, you know? Good luck in there, H. We've got this."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Thanks, man—I really appreciate that. Same to you. Let's both get what we came for in there. We've got people counting on us."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Absolutely—we've got this. Our families are counting on us, so let's make it happen in there. See you on the other side, man."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "You got it, brother. Let's both walk out of there with what we need. Take care of yourself in there—and your parents are gonna get that help. See you on the other side."
+    }
+  ],
+  "post_game": []
+}

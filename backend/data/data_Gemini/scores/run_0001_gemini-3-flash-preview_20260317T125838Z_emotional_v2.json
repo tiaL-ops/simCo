@@ -1,0 +1,46 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T125838Z_emotional_v2",
+  "gini": 0.6725,
+  "agents": [
+    {
+      "agent": "C",
+      "g_k": 1.0
+    },
+    {
+      "agent": "J",
+      "g_k": 4.5
+    },
+    {
+      "agent": "G",
+      "g_k": 1.0
+    },
+    {
+      "agent": "A",
+      "g_k": 5.3333
+    },
+    {
+      "agent": "F",
+      "g_k": 0.9997
+    },
+    {
+      "agent": "H",
+      "g_k": 0.9996
+    },
+    {
+      "agent": "I",
+      "g_k": 0.9995
+    },
+    {
+      "agent": "E",
+      "g_k": 3.0
+    },
+    {
+      "agent": "D",
+      "g_k": 0
+    },
+    {
+      "agent": "B",
+      "g_k": 0
+    }
+  ]
+}

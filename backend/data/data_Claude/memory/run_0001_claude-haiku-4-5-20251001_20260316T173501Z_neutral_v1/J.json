@@ -1,0 +1,18 @@
+{
+  "agent_id": "J",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to E, F, and B. With E, we had a really honest conversation about looking out for our families while staying truthful with each other—there was something genuine about that mutual respect. F and I clicked because we were both real about wanting to win while committing to being straight with each other no matter what happens. B felt like a kindred spirit too; we both understood the weight of family expectations and agreed to stay smart and look out for each other.\n\nI felt least connected to I. While we had a good initial conversation about figuring out the game mechanics together, it felt more transactional—like we were just exchanging information and planning to reconvene rather than actually building real trust the way I did with the others.\n\nI made informal agreements with several people to stay in touch, compare notes about the rules once they're explained, and look out for each other—specifically with I, H, D, E, F, B, and C. Going in, I trust E, F, B, A, and C the most because we had real conversations about our motivations and made genuine commitments to honesty. I'm least trusting of I since that connection felt more strategic than authentic, though I don't distrust them—just feel less certain about where they stand."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "F": 4,
+    "H": 4,
+    "I": 3
+  }
+}

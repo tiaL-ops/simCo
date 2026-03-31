@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "B",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey, I'm B. It’s a bit intense being in a room with everyone like this, isn’t it? What’s your name?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey B, I'm E. Yeah, it's definitely a lot to take in right now. Everyone seems pretty focused."
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Nice to meet you, E. I'm definitely locked in—got family back home I really want to help out. What's your motivation for being here?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "I’m in a similar boat—I’ve got people I care about that I want to look after, so I’m determined to bring home as much as possible for them."
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "I respect that. It definitely raises the stakes when it's for family. Maybe we can look out for each other so we both walk away with something?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "I’m definitely down for that; having an ally could make all the difference in a game like this."
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Agreed. It’s good to know I’ve got someone I can count on in here."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Same here. Let's keep each other in the loop as things start moving."
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Sounds like a plan. I'll keep my eyes open and let you know the second I hear anything."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Perfect, I'll do the same. Let's stay sharp and make sure we both come out on top. Catch you in a bit."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Sounds like a plan, I'm holding you to that—let's go get it for our families. See you out there."
+    }
+  ],
+  "post_game": []
+}

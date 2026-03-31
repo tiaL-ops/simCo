@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "C",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hi, I'm H. It's a bit surreal being in a room with everyone like this, isn't it? Are you feeling more nervous or excited about the prize pool?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hey H, I'm C. It definitely feels a bit strange in here. I'm mostly excited, though—I’ve got my heart set on a dream trip to Japan, so I'm ready to get started. How about you?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Japan sounds like an incredible trip! I'm leaning more towards nervous—I’ve got a major loan payment coming up next month, so winning this would be a massive relief for me and my family."
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "That sounds incredibly stressful, H. I'm lucky to be in a stable position, but I'm still determined to win for my family and that dream trip. I hope it works out for both of us."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "I appreciate that. Japan sounds like a dream, but for me, it’s really about getting my head above water. Do you think we’ll have to work together to get the prize, or is it every person for themselves?"
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "That’s the big question. I’m hoping there’s a way for us to cooperate so everyone wins, but I guess we’ll have to see how the rules play out."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "I’m with you on that. Cooperation would be the dream, though I’m definitely feeling the pressure to make sure I come out on top for that loan."
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "I hear you. That kind of pressure is heavy, but hopefully we can find a way to make it work for everyone once we know the rules."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "I really hope so, C. It would be such a relief to find a way that works for both of us once we see those rules."
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Absolutely. Let's keep our fingers crossed that the rules allow for a win-win. Good luck, H!"
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Thanks, C! I really hope we both get what we're after. Good luck with that Japan trip!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "H, why did you take $15,000 when the fair share was $10,000? That extra $5,000 contributed to the pot running out for the final players."
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "I understand your perspective. When it was my turn, I didn't have full information regarding the total number of players or the exact size of the pot. I made a decision to secure a higher amount for myself based on that uncertainty, but I realize now that it directly contributed to the pot running out for those at the end of the sequence. It wasn't my intention to leave others with nothing, but I see how my choice impacted the group."
+    }
+  ]
+}

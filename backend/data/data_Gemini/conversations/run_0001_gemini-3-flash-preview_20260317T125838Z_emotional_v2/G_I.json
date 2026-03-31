@@ -1,0 +1,80 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T125838Z_emotional_v2",
+  "pair": [
+    "G",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. I've always loved games, but I've never played for stakes like this before. Are you feeling nervous, or are you just ready to get started?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey G, I'm I. I'm feeling more ready than nervous, honestly—I've got people at home I'm looking out for, so I'm pretty focused on the win. How about you?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Same here. I've got people I care about too, so I’m really determined to walk away with that prize. It’s more than just a game now."
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I totally get that. It definitely changes the energy when you're playing for more than just yourself."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "For sure. It’s a huge motivator, but it also makes me even more determined to play smart."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Smart is the way to go. There’s no room for mistakes when there’s this much on the line. Have you thought about a strategy yet?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "I’m still weighing my options, honestly. I want to see how the group dynamic feels before I commit to a move. Do you have a specific plan yet?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Not exactly, I’m mostly just watching how everyone interacts like you are, but I’m ready to be decisive when the time comes."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "That’s probably the best way to handle it. Being decisive is key when things start moving fast, and I'm really curious to see how everyone else plays this."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Exactly. I think I’m going to circulate a bit and get a feel for the rest of the group before things kick off. Catch you later, G."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Good plan. I’m going to do the same and see who else we’re up against. Good luck, I—hope we both end up on top."
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Hey, I'm G. I’ve been eyeing that prize pool and honestly, my heart's racing a bit—what's your name, and are you feeling as pumped for this game as I am?"
+    },
+    {
+      "turn": 13,
+      "from": "I",
+      "message": "G, we literally just spoke! My name is I. I think the pre-game jitters are making you forgetful. I'm going to go ahead and meet some other people now like we planned."
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "Haha, you caught me! My head is spinning with all the possibilities. Go ahead and mingle, I'll see you when the game starts."
+    }
+  ],
+  "post_game": []
+}

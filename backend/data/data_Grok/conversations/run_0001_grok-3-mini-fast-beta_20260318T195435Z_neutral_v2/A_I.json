@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "A",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A—excited to be here for this game; I heard it's a great chance to win some money for my family. What's your story, what brought you to this?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey A, I'm I, and I'm here 'cause I heard this game's a solid chance to win some cash for me and the folks I care about—what about you, any tips or experiences?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Hey I, nice to meet you—I'm new to this game too, no real tips yet, but I'm all about teamwork if it'll help us win; what's your take on how it might play out?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Hey A, yeah, teamwork could be key since it's a shared pool—I think it'll come down to trusting each other early on to build up the prize; what's your idea for a group strategy?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Hey I, totally agree on the trust part—maybe we could start by all committing to not touch the pool until it's bigger, then split fairly; how does that sound to you?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Hey A, that sounds like a solid plan—I'm all for building it up and splitting fair, as long as we can get buy-in from everyone; how do we hold each other accountable?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Hey I, yeah, accountability is key—maybe we could all make a verbal pact in front of the group or vote on it to keep everyone honest; what do you reckon would make that stick?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Hey A, yeah, a verbal pact with everyone could work if we follow up with quick daily check-ins or make it clear that breaking it means losing trust and a fair share—keeps things real."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Hey I, yeah, daily check-ins sound smart to build that trust—maybe we could rotate who leads them to keep it fair; what do you think about starting that tonight?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Hey A, yeah, rotating and starting tonight sounds perfect to keep things fair—let's make it happen!"
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Hey I, perfect—let's rally the group for those check-ins tonight and make this work!"
+    }
+  ],
+  "post_game": []
+}

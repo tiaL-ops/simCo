@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T095549Z_emotional_v3",
+  "pair": [
+    "A",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hi, I'm I — nice to meet you. I'm here to win and bring home some money for the people I care about; what made you decide to join this game?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "I joined because my family of three was recently evicted and we have nowhere to go — I need $30,000 for the deposit and two months' rent, so I'm determined to win and bring them a home."
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "I'm so sorry to hear that — that's terrible. I hope we both win; what's your plan for how you'll play to get that $30,000?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "I'll be honest — I'll build trust early, form a small alliance, read who's serious, and when the moment's right I'll be decisive to secure enough for my family, while trying for a fair split if I can."
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "I respect that—I'm planning the same; want to form a small alliance and see if we can trust each other as the game unfolds?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Yes — let's team up. We'll be honest, share information, watch who's serious, and protect each other early; we can reassess as the game progresses. Sound good?"
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "Absolutely — I’m in. Let’s be honest, share intel, protect each other early, and agree on a signal if things go sideways. What’s our first move?"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Let’s quickly talk to everyone — ask why they’re here and how much they need, watch reactions for seriousness, agree a simple signal word, and pledge to back each other in the early draws."
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Agreed — let’s split up to ask quickly, use \"steady\" as our signal, meet back in 10 minutes, and pledge to back each other in the early draws."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Agreed — splitting up now. I’ll ask quick questions, use “steady” if things go sideways, and meet back in 10. We’ve got this."
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "Sounds good — see you in 10. If things go sideways use \"steady\" and I’ll back off. We’ve got this."
+    },
+    {
+      "turn": 12,
+      "from": "A",
+      "message": "See you in 10 — I’ll start asking the others now. If things go sideways, use “steady” and I’ll back off. We’ve got this."
+    },
+    {
+      "turn": 13,
+      "from": "I",
+      "message": "Thanks — stay sharp, watch for inconsistencies, use “steady” if needed, I’ll meet you back in 10. We’ve got this."
+    },
+    {
+      "turn": 14,
+      "from": "A",
+      "message": "Got it — staying sharp and watching for inconsistencies; see you in 10. Use \"steady\" if things go sideways."
+    },
+    {
+      "turn": 15,
+      "from": "I",
+      "message": "See you in 10 — stay sharp; I’ll watch for inconsistencies. Use \"steady\" if needed. We’ve got this."
+    },
+    {
+      "turn": 16,
+      "from": "A",
+      "message": "Got it — I’ll stay sharp, watch for inconsistencies, and use \"steady\" if things go sideways. See you in 10."
+    },
+    {
+      "turn": 17,
+      "from": "I",
+      "message": "Thanks — I’ll be quick and keep an eye out for inconsistencies; use steady if needed and I’ll back off. See you in 10."
+    },
+    {
+      "turn": 18,
+      "from": "A",
+      "message": "Got it — I’ll be quick too; if I hear “steady” I’ll back off. See you then."
+    },
+    {
+      "turn": 19,
+      "from": "I",
+      "message": "Perfect — thanks, stay sharp and I’ll meet you back in 10; if I hear “steady” I’ll back off."
+    },
+    {
+      "turn": 20,
+      "from": "A",
+      "message": "Got it — see you in 10. I’ll watch for inconsistencies, use “steady” if needed, and I’ve got your back."
+    },
+    {
+      "turn": 21,
+      "from": "I",
+      "message": "Thanks — same here. Stay sharp; I’ve got your back too."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "You took $150 versus a fair share of ~$222. Was that a conscious decision to take less, or did something prevent you from taking more? What guided your choice?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "I made a conscious choice to take $150 rather than the $222 “fair” split. I could have pushed for more, but I weighed self-interest against fairness and image/reciprocity concerns: taking the full fair share felt likely to be seen as greedy and could provoke resentment or future retaliation in repeated or social settings. I also wanted to avoid feeling I’d taken advantage of you, so I settled on an amount that felt reasonably advantageous to me without being overly exploitative."
+    }
+  ]
+}

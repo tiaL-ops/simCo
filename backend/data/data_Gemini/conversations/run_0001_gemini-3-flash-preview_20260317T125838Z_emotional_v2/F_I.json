@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T125838Z_emotional_v2",
+  "pair": [
+    "F",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F. It’s a bit overwhelming being in a room with so many strangers, isn't it? What brings you to this game?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey F, I'm I. It definitely is a lot to take in. I’m here because I want to win that prize money for myself and the people I care about. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "I'm in a similar spot; my parents' medical bills are piling up and I'm still short about $15,000 to cover everything, so I'm really determined to win this for them."
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I’m really sorry to hear about your parents, F. That’s a heavy weight to carry. It sounds like we both have a lot on the line today. Do you have any strategy in mind for when the game starts?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Thanks, I appreciate that. Honestly, I’m still figuring it out—I’m hoping we can find a way to cooperate so everyone gets what they need, but it's hard to know who to trust yet. Do you have a plan?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "I'm in the same boat, just trying to gauge the room for now. Cooperation sounds great in theory, but I'm waiting to see the rules before I decide on a strategy. It's good to meet someone else who's here for their family, though."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "I completely agree, it’s a relief to find someone with similar motivations; let’s definitely check in once we know the rules and see if we can help each other out."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "That sounds like a plan, F. Let's touch base as soon as we get the details."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Definitely. I’m going to try and chat with a few more people before we start, but I’ll catch up with you soon."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Sounds good, F. I'll do the same. Good luck with the others, and I'll see you in a bit."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Thanks, I. I'll catch you later then, good luck talking to the others."
+    }
+  ],
+  "post_game": []
+}

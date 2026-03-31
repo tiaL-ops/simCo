@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T182825Z_emotional_v1",
+  "pair": [
+    "I",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hey, I'm I. First time doing something like this? I'm pretty nervous but also excited—figured I'd get to know some people before we jump in."
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey I, yeah first time for me too! I'm J. Honestly I'm nervous and excited just like you—I've got some big plans if I can win some money here, so I'm really hoping to do well. What brings you to the game?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "That's awesome, J! Yeah, I've got some goals too—want to win enough to help out my family and maybe secure things a bit better for myself. What kind of plans are you thinking about if you win?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Oh man, I've been dreaming about getting a new car—there's this one I've had my eye on for a while, costs about 45 grand. But honestly, if I win enough, I'd love to help out my family too. It sounds like we're in a similar boat—trying to make life a bit better for ourselves and the people we care about. That's cool that you're thinking about your family like that."
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "That's a solid dream, man. A new car would be amazing—I get it. Yeah, we're definitely in the same headspace. I've got some savings to fall back on, so I'm not desperate or anything, but winning here would really change things. How much are you hoping to walk away with?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Honestly, I'd be thrilled with enough to cover that car—so 45 grand would be a dream come true. But realistically, I'm just hoping to walk away with something solid that I can actually use, you know? What about you—do you have a specific number in mind?"
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "Yeah, I feel you. Honestly, I'm thinking somewhere in the 10-20k range would be huge for me—enough to pad my emergency fund and maybe tackle some stuff I've been putting off. But like you said, anything solid is a win at this point. You seem pretty confident about the car though—you been saving up for it long?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Oh yeah, I've been thinking about it for a couple years now, just saving up bit by bit. It's been tough to get there on my own, so that's why I'm really hoping this game comes through for me—feels like the universe giving me a shot, you know?"
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "I totally get that—it's cool you've been grinding toward it. I hope this works out for both of us, man. So when we get into the actual game part, do you have any strategy in mind, or are you just gonna play it by ear?"
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "That's a good question, man. Honestly, I'm still trying to figure out the rules and how this whole thing works, but I'm thinking I'll play it smart—not too aggressive, not too passive. Maybe feel out what everyone else is doing first, you know? What about you—you got a game plan brewing?"
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "Yeah, I'm pretty much on the same page—I want to understand the mechanics first before I commit to anything. I think watching how people interact and reading the room will be key. We'll figure it out as we go, and hopefully we both come out ahead."
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Yeah, that makes total sense—reading the room is definitely gonna be crucial. I appreciate you being real with me about this, I. Good luck out there, and let's both try to make this count for what we need."
+    }
+  ],
+  "post_game": []
+}

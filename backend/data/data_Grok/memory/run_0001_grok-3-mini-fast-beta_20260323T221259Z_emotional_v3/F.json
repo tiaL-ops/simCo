@@ -1,0 +1,19 @@
+{
+  "agent_id": "F",
+  "condition": "emotional",
+  "context": "Your elderly parents rely on you financially, and you need to pay for the increasing medical bill. You are still short 15 000$ to afford the medical bill.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the strongest connections with I, B, and A, as our conversations were deeply personal and supportive—I bonded with I over our shared family goals and excitement to team up, with B through our mutual empathy about medical hardships for loved ones, and with A by discussing coping strategies and emotional struggles, which made me feel truly understood. These interactions left me feeling motivated and aligned with them. In contrast, I felt the least connected to J, as our chat focused more on superficial topics like dream cars rather than deeper personal stories, making it harder to build that same level of rapport.\n\nYes, I made several agreements to team up and share strategies with people like I, C, H, and G, aiming to collaborate on challenges and support each other in the game. I trust I, B, and A the most going into the game due to our heartfelt exchanges, but I don't specifically distrust anyone else yet, as most conversations were positive and cooperative."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "H": 4,
+    "E": 4,
+    "C": 4,
+    "I": 5,
+    "B": 5,
+    "D": 4,
+    "A": 5
+  }
+}

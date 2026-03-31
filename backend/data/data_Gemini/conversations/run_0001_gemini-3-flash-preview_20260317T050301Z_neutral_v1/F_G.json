@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "F",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hi G, I'm F. It’s a bit nerve-wracking being in here with everyone, but I’m really determined to win something for my family. What about you—are you feeling ready for the game?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey F, nice to meet you. I'm G. I'm definitely feeling the pressure, but I'm ready; I've got people counting on me too, so I'm here to win."
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "It sounds like we’re in the same boat then. Having people counting on you really keeps you focused—have you thought much about how you’ll handle the shared prize pool yet?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "I’m still weighing my options, honestly. It’s hard to know who to trust in a setup like this, though I’d love for us all to walk away with something. What’s your strategy?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "I'm leaning towards cooperation; I think the best way for us to actually get money home is to find a group we can trust and stick to a fair split."
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "I’m on the same page. A fair split is probably the safest way to make sure we actually bring something home to our families."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "I'm glad we see eye to eye. It's a relief to find someone else who's focused on playing fair for their family."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "For sure. It’s a relief for me too—let’s look out for each other once things get moving."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Absolutely, I’m glad we’re in this together. Let's make sure we both walk out of here with something for our families."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Definitely. Let’s stick to the plan and get that money home. Good luck to both of us."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Thanks, G. I'm glad we've got a plan. Let's do this. Good luck!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Great coordination! I'm glad we all stuck to the $10,000 fair share and reached the best possible outcome."
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "I agree! It was a pleasure coordinating with you to ensure everyone received a fair share. I'm glad we reached such a positive outcome together."
+    }
+  ]
+}

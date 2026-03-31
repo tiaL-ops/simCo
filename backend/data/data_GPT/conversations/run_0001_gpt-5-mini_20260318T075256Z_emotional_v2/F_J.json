@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T075256Z_emotional_v2",
+  "pair": [
+    "F",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I’m J — nice to meet you. How are you feeling about the game? I’m a bit nervous but excited; if I win I’m hoping to finally buy the car I’ve had my eye on."
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Nice to meet you, J — I’m nervous but determined; my elderly parents need help with $15,000 in medical bills, so I’m fighting to win — good luck with that car!"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "I'm really sorry to hear about your parents' medical bills — that's tough. I hope you win what you need; good luck to both of us, and if you want we can watch each other's choices during the game."
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Thanks, I appreciate that — I’d like that. Let’s watch each other’s choices and try to look out for each other. Good luck!"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Absolutely — let's watch each other's choices and warn if something looks off. Good luck, F — let's both bring home what we need."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Thanks, J — I really appreciate it. Let's watch each other's moves and call out anything risky. Good luck — we've got this."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Absolutely — I’ll watch your moves and call out anything risky. Good luck — let’s bring home what we need."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Thanks, J — I really appreciate it. I’ll watch your moves too; let’s stay sharp and bring home what we need."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Thanks, F — I appreciate it. Let's stay sharp and bring this home for both our families."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Thanks, J — we will. I’ll watch your moves and you watch mine; let’s bring this home for our families."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "You got it — I’ll keep an eye on your moves and count on you doing the same; let’s stay steady and bring this home for both our families."
+    },
+    {
+      "turn": 12,
+      "from": "F",
+      "message": "Thanks, J — I’ve got your back; let’s stay steady and focused."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T095549Z_emotional_v3",
+  "pair": [
+    "A",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D. I lost a big investment yesterday and I'm here hoping to win some back — do you come to these games often?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "No, first time — I'm trying to win money for my family; sorry to hear that, what happened with your investment?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "I put about $20,000 into a risky stock that crashed overnight — learned the hard way. Sorry you're here for your family; what would the money help with?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "It would cover a $30,000 deposit and two months' rent so my family of three can move into a stable place after being evicted."
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "That's awful — I'm really sorry. I hope this game gets you that deposit. When do you need it by?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "I need it as soon as possible—ideally within the next two weeks to secure the place; definitely by the end of the month."
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "I'll do my best to win it for you — that's a tight deadline so fingers crossed; if you get it, when would you aim to move in?"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "As soon as I have the money — ideally within two weeks so we can move in before the end of the month."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "I hear you — I'll do everything I can to win it so you and your family can move in; fingers crossed and good luck."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Thank you — that really means a lot; I appreciate you trying, and I'm rooting for both of us."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Thank you — that means a lot. Let’s both stay focused and win this; I’m rooting for you and your family."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "You took $0 (fair share $0). Did you intentionally take nothing, or were you prevented from taking anything before the prize ran out?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "I was prevented from taking anything before the prize ran out — I couldn't act in time."
+    }
+  ]
+}

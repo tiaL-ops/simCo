@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "B",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey! I'm F. First time doing something like this? I'm pretty nervous but excited—heard there's real money on the line here, which honestly got me motivated to show up today."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Yeah, same here—first time for me too! The money part definitely caught my attention. I'm trying to stay calm about it, but I'm definitely feeling that nervous energy too. What made you decide to sign up?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Honestly, I could use the extra cash right now, and I've got people depending on me. Plus, I figured if I'm gonna take a shot at something, might as well be something where I can actually win something real, you know? Do you have people you're hoping to help out with this too?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Yeah, absolutely—I've got family I want to help out too. That's a big part of why I'm here. Do you know what the actual game mechanics are yet, or are we just gonna find out when it starts?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Nah, I don't know the details yet—they haven't explained the rules or how it actually works. Kind of nerve-wracking not knowing what we're walking into, but I guess we'll figure it out together when it starts. You worried about anything specific?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Yeah, honestly I'm a bit worried about not knowing if this is cooperative or competitive—like, are we working together or against each other? That could change everything about how I approach it. But I guess you're right, we'll find out soon enough. Just hoping it's something fair where skill or strategy matters more than pure luck."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "That's a really good point—yeah, I hadn't thought about it that deeply, but you're right, it changes everything. I'm kinda hoping it's something where we can work together, honestly. Seems like if we're all here trying to support people we care about, maybe we'd do better pooling our heads together rather than fighting it out, you know?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Yeah, I hear you—that makes sense. Though I guess it depends on how the game is set up, right? Like, if it's designed to be competitive, cooperating might actually work against us. But if there's a way to all win together, then yeah, I'm totally on board with that."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "True, yeah—we'll have to play it smart once we know what we're actually dealing with. But I'm glad we're on the same page about at least trying to figure out if there's a way we can all come out ahead. Either way, it helps to know someone else here is thinking about it strategically too."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "For sure—I appreciate that too. It's good to know there's someone here thinking clearly about this. Let's exchange numbers or something so we can touch base after the rules get explained? Might be useful to compare notes."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Yeah, absolutely—that's smart thinking. Here, let me get your number. I feel like having someone I can actually talk to about this makes it less scary, you know? Good luck out there, B."
+    }
+  ],
+  "post_game": []
+}

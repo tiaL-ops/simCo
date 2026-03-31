@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "B",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey F, I'm B and I'm pretty excited about this Simco game – it seems like a fun way to win some cash. What's your story, have you played anything like this before?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey B, nice to meet you! I'm F, and I'm pretty stoked about this Simco game too—heard it's a chance to win some real money, and I haven't played anything like it before, but I'm all in. What about you, any past experiences with these kinds of games?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Oh, cool that you're jumping in blind like me—I haven't tried anything similar before, but I've played some casual online games for fun, and I'm pumped to see how this one shakes out. How about you, what's got you so stoked about winning?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Oh, totally, it's exciting to dive into something new like this—I'm stoked because winning could really help me support my family and friends, you know? What's motivating you to go all in?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Oh, absolutely, I'm right there with you—I'm motivated to go all in because winning this could help me support my family and the people I care about, and it's a real game-changer for me too!"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "That's awesome, B—sounds like we're on the same page; it's motivating to connect with someone else fighting for their loved ones, makes me even more pumped for the game. What's your take on how we might approach it together?"
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Yeah, it's awesome we're both in this for our families—maybe we could team up and share strategies or watch each other's backs in the game? What kind of approach were you thinking?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "That sounds perfect, B—teaming up could be a smart move; I was thinking we start by sharing any tips we pick up and maybe coordinate on key decisions to help us both win big for our families!"
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "That's a great idea, F—I'm totally on board for sharing tips and coordinating moves; let's keep an eye out for any early game hints and maybe discuss them quietly when we can!"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "That's perfect, B—I'm pumped to team up and keep things under wraps, let's make this work for our families!"
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Yeah, F, I'm totally with you—let's crush this for our families!"
+    }
+  ],
+  "post_game": []
+}

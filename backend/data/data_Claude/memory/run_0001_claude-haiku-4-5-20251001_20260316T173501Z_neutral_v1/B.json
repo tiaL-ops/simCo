@@ -1,0 +1,19 @@
+{
+  "agent_id": "B",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "# Reflection on Pre-Game Connections\n\nI felt most connected to D, H, and A. With D, we had an honest conversation about finding the right balance between aggression and caution, and we both appreciated straight talk without getting blindsided. H and I built real trust by acknowledging we both needed to win but were open to cooperation if it made sense, which felt genuine. A stood out because we actually started strategizing together about building a coalition based on cooperation rather than pure self-interest, which felt like we were on the same wavelength about how to approach this.\n\nI didn't feel significantly disconnected from anyone—all ten conversations had similar vibes and energy. If I had to pick one, maybe E felt slightly more transactional since we split up early to gather information rather than building deeper rapport, but that was practical rather than problematic.\n\nI made informal agreements with several people: with D, H, C, F, J, G, and A, I committed to staying in touch once we saw the rules and potentially looking out for each other. With A specifically, I went further and we talked about actually trying to build a cooperation strategy before the game started.\n\nGoing in, I trust D, H, C, F, J, G, and A—they all seemed genuine about wanting to help their families and open to working together. I don't specifically distrust anyone, but I'm aware that I don't really know how people will act once money is actually on the line, so I'm going in cautious despite these good conversations."
+  },
+  "connection_scores": {
+    "A": 4,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 4
+  }
+}

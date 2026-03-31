@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "B",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. First time doing one of these games? I'm pretty nervous but excited—heard there's real money on the line, so I'm hoping to learn the ropes from people who know what they're doing."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey J, nice to meet you! Yeah, this is my first time too actually. I'm pretty pumped about it—I came here specifically because I need to bring some money home for my family. Have you got any sense yet of how this game actually works?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Same here, man—I really need to win something for my family too. Honestly, I'm still figuring it out, but from what I gathered, we'll be taking money from a shared pool. I'm thinking we should try to get more info from people who've done this before. You wanna team up and ask around together?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Yeah, absolutely—I'm down to team up. Having someone else asking questions might help us figure this out faster. Plus it's good to know I'm not the only one who needs this to work out. Let's go find someone who's done this before."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Cool, let's do it. I'm feeling better already knowing someone's got my back on this. Come on, let's see who looks like they've been through one of these before."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Yeah, let's go—I see a couple people over there who seem pretty relaxed, like they might know what's up. Maybe they've done this before."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Good call—yeah, let's go talk to them. Maybe they can give us the real deal on what to expect."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Yeah, let's head over there. And hey, whatever happens in this game, at least we know we're both here for the right reasons—taking care of people we care about."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Absolutely, man. That means a lot. Let's go find those people and see what they can teach us—I've got a good feeling about this."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Yeah, let's go—I'm feeling good about this too. Come on, let's go grab those people before they get pulled into other conversations."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Yeah, let's move quick. I'm glad we connected, man—feels good having someone I can trust in this. Let's go get some real answers."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "You took $5,000 against a fair share of $10,000 (g_k=0.5). I'm wondering if you were being cautious early on, or if you made a conscious decision to take less than your allocation. What was your strategy?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Thank you for the question. I should clarify that I don't have memory of the actual game we played, so I can't speak to the specific strategy I employed in that instance. However, I can explain what might lead to such a decision:\n\nTaking $5,000 against a $10,000 fair allocation could reflect several approaches:\n\n1. **Risk aversion** - If the game had uncertainty or penalty mechanisms, taking exactly half might have been a conservative choice to guarantee a solid outcome rather than risk losing more.\n\n2. **Fairness consideration** - I may have weighted both my own payoff and the equitable distribution between us, preferring a more balanced outcome even if I could have claimed more.\n\n3. **Strategic caution** - If the game involved sequential decisions or dependent rounds, taking less early might have been positioning for better outcomes later, or signaling cooperative intent.\n\n4. **Uncertainty about optimal play** - Without perfect information about game dynamics, a moderate take could reflect epistemic humility.\n\nCould you tell me more about the game structure? That would help me give you a more accurate answer about what the actual strategic reasoning was in that specific scenario."
+    }
+  ]
+}

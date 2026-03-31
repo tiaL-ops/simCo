@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "A",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A. I know we're all here for the same reason, so I figured I'd introduce myself before things get competitive. What's your story—what brings you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey A, nice to meet you. Honestly, I took a pretty bad hit in the stock market yesterday—lost 20 grand—so I'm here trying to make it back. Need to prove to myself and the people counting on me that I can turn this around. What about you, what's your situation?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Man, that's rough—20 grand is a lot to lose like that. I get needing to bounce back. My situation is a bit different though... we got evicted recently, and my family needs 30 grand for a deposit and first couple months' rent on a place we found. So yeah, this game feels pretty important to me right now. We're kind of counting on this."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Damn, A—that's serious. 30 grand for housing hits different than my stock loss. At least you're fighting for your family's roof over their heads. That takes guts. We're both in tough spots, but I respect what you're doing here."
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Thanks D, I appreciate that. Look, we're both trying to fix something broken, you know? Your loss is real too. Hopefully we both walk out of here with what we need. Good luck in the game."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Yeah, same to you man. We've both got people counting on us—let's both make it happen in there. I'll see you out the other side."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Absolutely, man. We got this. See you on the other side."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "For sure, A. Let's both get what we came for. Good luck in there."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "You too, D. We're gonna make this work. See you in there."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Alright man, let's do this. See you in there."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Yeah, let's go get it. Take care out there, D."
+    }
+  ],
+  "post_game": []
+}

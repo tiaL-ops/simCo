@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "A",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey H, I'm A and I'm really pumped about this Simco game—I've heard it could be a fun way to win some cash. What's your take on it so far?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey A, nice to meet you! I'm super excited about this Simco game too—sounds like a solid way to win some cash, and I'm all in to bring home enough for me and my loved ones. What's got you so pumped?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Oh, H, I'm just excited because I've been saving up for my family's needs, and this game feels like a real chance to make that happen while having some fun—how about you, any strategies in mind?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Oh, totally understand, A—family's everything to me too, which is why I'm hoping to win big here. As for strategies, I'm just planning to stay observant and maybe team up with folks who seem trustworthy; what about you, got any plans brewing?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Yeah, H, I'm leaning towards playing it smart by building some alliances early and watching how others move—sounds like we might vibe on that, any thoughts on who you've got your eye on?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Yeah, A, I totally agree on building alliances—I'm keeping an eye on a couple of people who seem genuine, like you so far; what makes you think we'll click with others here?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Oh, H, I think we'll click with people who share our drive to win for family and play fair—common goals like that build trust, right? Who's caught your eye so far?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Yeah, A, you're spot on—common goals definitely build trust, and besides you, I've got my eye on C since they seem really family-focused; how about you, anyone else standing out to you?"
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Yeah, H, totally agree—I’ve been keeping an eye on D since they mentioned their family priorities earlier; they seem trustworthy, what do you think about reaching out together?"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Yeah, A, that sounds like a solid idea—reaching out to D together could help build a strong alliance; let's do it if the moment's right. I've enjoyed our chat, but I should mingle more now."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Yeah, H, that's a smart plan—I've enjoyed talking too, let's keep an eye out for that alliance."
+    }
+  ],
+  "post_game": []
+}

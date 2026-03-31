@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "F",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F. First time doing something like this? I'm pretty nervous but also excited—heard there's real money on the line here, which is wild. What brings you to the game today?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey F, yeah same here—first time! I'm honestly here because I need to win something for once, you know? Could really use the money for myself and my family. You nervous about the actual game part, or more about the competition with everyone else?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Honestly, both? Like, I don't even know what the actual game is yet, so that's got me on edge. But yeah, knowing there's nine other people who want this just as bad as I do... that's the real pressure. What kind of stuff do you usually do—are you a competitive person?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Yeah, I'd say I'm competitive when it matters, but honestly I'm more focused on just doing well here than beating everyone else, if that makes sense? Like, I need this win more than I need to prove something. You thinking you'll try to team up with people or go solo?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "That makes total sense—I respect that. Honestly, I'm still figuring that out. Part of me thinks teaming up could help, but I'm also worried about trusting the wrong person, you know? Do you think you'd be open to working together if the game allows it?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Yeah, I'd definitely be open to it—I mean, we seem to vibe pretty well already, and honestly having someone I can actually talk to about strategy might help both of us. But let's see what the game actually is first, yeah? Then we can figure out if teaming up even makes sense."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Yeah, that sounds good to me—smart to wait and see what we're actually dealing with first. But I'm glad we're on the same page about it being possible. Either way, I feel better knowing there's at least one person in here I can actually trust to be straight with me."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Same here, honestly—it's nice to have someone I can be real with in a room full of strangers. Whatever happens, I think we've got a solid foundation to work with. Let's just play it smart when the time comes."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Absolutely—I'm really glad we connected too. Yeah, let's keep our heads clear and just see how it plays out. Good luck in there, I has a feeling we're gonna do alright."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Thanks, man—I've got a good feeling about this too. Let's stay sharp and look out for each other. See you in there."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "You got it—let's do this. I'll catch you in there, and we'll figure it out together."
+    }
+  ],
+  "post_game": []
+}

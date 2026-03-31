@@ -1,0 +1,80 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "B",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J—nice to meet you! I'm really pumped about this game because I've got my eye on a new car that costs a whopping 45 grand, and winning here could make that dream come true. What's your reason for joining in?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey J, nice to meet you—I'm B. I'm in this game because my three-year-old daughter needs surgery, and I'm trying to cover the costs after exhausting all other options; it's make-or-break for us. What's the car you're after, something fast and flashy?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Oh wow, B, that sounds incredibly tough—I'm so sorry about your daughter and really hope this works out for you; as for the car, it's a sweet Ford Mustang, yeah, something fast and flashy I've always wanted!"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Thanks, J, that means a lot—I'm keeping my hopes up for my little one. A Ford Mustang's a classic dream car; what's your favorite thing about it that makes you want it so bad?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Aw, you're welcome, B—I'm pulling for you and your daughter. For the Mustang, I absolutely love the speed and that growl of the engine; it makes me feel alive every time I think about hitting the open road!"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Sounds awesome, J—that engine growl must be a thrill; I'm glad you're chasing your dream, and I appreciate the support for my daughter, let's both make this game count!"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Absolutely, B—let's team up and crush this game so you can help your daughter and I can finally get that Mustang roaring!"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "That's the spirit, J—I'm all in for teaming up; let's share some strategies and make this happen for both our dreams, what's your best idea for approaching the game?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Hey B, that's a great plan—my best idea is to maybe hold back early and communicate signals during the game, so we can team up to grab a bigger share without tipping off the others!"
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "That's a smart strategy, J—holding back and signaling could give us an edge, let's keep it quiet and make this happen for both our goals!"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Awesome, B—let's keep that strategy on the down low and crush it for your daughter and my Mustang! Good luck, buddy."
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Hey, I'm J—nice to meet you! I've been really pumped about this game because I'm saving up for a sweet car that costs $45,000, and winning here could make that dream happen. What's your story, what brought you into all this?"
+    },
+    {
+      "turn": 13,
+      "from": "B",
+      "message": "Hey J, it seems like we're circling back—I'm B, and we already shared our stories; I'm still fighting for my daughter's surgery, and I'm counting on our strategy to work, so let's keep it under wraps and focus on the game ahead!"
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Hey B, you're spot on—we've shared a lot already, and I'm still cheering for you and your daughter; let's stick to our plan and crush this game quietly."
+    }
+  ],
+  "post_game": []
+}

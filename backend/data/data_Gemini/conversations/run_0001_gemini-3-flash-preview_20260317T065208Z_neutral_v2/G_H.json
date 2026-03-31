@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "G",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I’m G. This whole setup is a little nerve-wracking, isn’t it? I’m just trying to get to know a few people before things get started—how are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey G, I'm H. It’s definitely a bit intense, but I’m holding up okay. Just trying to stay focused on the goal. How are you feeling about the game?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I’m feeling pretty determined. I’ve got people back home counting on me, so I’m trying to stay sharp. What’s your motivation for being here?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Same here. I’ve got family counting on me too, and I’m determined to bring home enough to really help them out. It’s what’s keeping me focused."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "I respect that. It definitely makes the stakes feel higher when it’s not just for ourselves. Do you have a strategy in mind for when the game actually starts?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Honestly, I’m still playing it by ear. I think a lot depends on how everyone else acts once the money is actually on the table. What about you—do you have a specific plan?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "I’m hoping for some level of cooperation since we both have people counting on us, but I’m definitely keeping my guard up until I see how everyone else plays it."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "I get that completely. It’s a tough balance between wanting to work together and needing to look out for your own people, so I’m right there with you on being careful."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Exactly. It's good to find some common ground. Have you picked up on any vibes from the rest of the group yet?"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Everyone seems pretty guarded so far. It’s hard to tell who’s actually going to be a team player and who’s just waiting to make a move once the money's on the line."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "For sure. I guess everyone's true colors will show once the clock starts. I'm glad we're on the same page about family, at least. Good luck to you."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Perfect coordination! Glad we all took the fair share."
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "It was a pleasure. I'm glad we could reach a fair outcome together."
+    }
+  ]
+}

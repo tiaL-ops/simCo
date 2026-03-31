@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "D",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I’m J. It’s a bit of a strange setup in here, isn't it? I’m just trying to get to know a few people before things get real—what’s your name?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey J, I'm D. It's definitely a weird vibe, but I'm just trying to stay focused on the goal. Nice to meet you."
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Nice to meet you too. I’m in the same boat—really need this win for my family. what would taking the prize home mean for you?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "It would mean everything. I’ve got people back home I need to look after, and this prize would finally give us some real security."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "I hear you loud and clear. It’s the same for me—just want to make sure the people I love are finally okay."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Glad we're on the same page; it's a lot of pressure, but it's worth it to see them finally taken care of."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Absolutely. That motivation is what keeps me focused. How many people are you looking out for back home?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "It’s three people—my parents and my younger brother. They’re the reason I’m here. What about your family?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "For me, it’s my mom and my younger sister. We’ve been scraping by for a while, so this would be a total game-changer for us."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "I completely understand. It’s a lot of weight to carry, but it definitely keeps the goal clear. Best of luck to you, J."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Thanks, D. I really appreciate that. Good luck to you and your family as well—let’s hope for the best."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "I'm glad we all chose the fair share of $10,000. It's the best outcome we could have hoped for."
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "I'm glad we all took our fair share of $10,000. It's great that everyone walked away with the same amount!"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Absolutely, it was the right decision."
+    }
+  ]
+}

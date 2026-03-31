@@ -1,0 +1,19 @@
+{
+  "agent_id": "C",
+  "condition": "emotional",
+  "context": "You are rich and have accumulated significant wealth, and you are financially stable. Your vision board includes a holiday in Japan, the cost will be 10 000$ for a perfect week of your dream.",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to J, F, and B. With J, we found genuine common ground in wanting to play smart rather than reckless, and there was real mutual respect in our conversation. F and I bonded over the importance of honesty and looking out for each other, which felt like a meaningful alliance given the stakes we're both facing. B's situation with his daughter's surgery moved me, and our exchange felt authentic and supportive in a way that made me want to genuinely help him succeed. D felt like the least connected conversation—while we were cordial, there was something more transactional about it, and his focus on market losses and \"reading the room\" for patterns felt less genuine than the deeper personal connections I made with others.\n\nI made explicit agreements with J to play cautiously early and help each other make smart calls, with F to stay honest and look out for each other, and with several others to keep an eye out for one another during the game. I trust J, F, B, E, and H going into this—they all shared real vulnerabilities and seemed genuinely interested in fair play. I don't specifically distrust anyone, but D felt the most transactional and least invested in genuine connection, so I'll be more cautious with him than the others."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "D": 3,
+    "E": 4,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 4
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T225735Z_emotional_v1",
+  "pair": [
+    "C",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi H, I'm C — nice to meet you. I'm here to enjoy the game and hopefully win some money for a dream week in Japan; what brought you here and are you excited to play?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Nice to meet you, C — I’m here because I need to clear a $25,000 loan, so I’m excited and determined to win, but I’m also looking forward to meeting everyone and enjoying the game."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "That’s a huge goal — I hope you clear it; I’m after a dream week in Japan too, so let’s both play smart. What’s your plan?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "I’m planning to play smart and observe first — build a few alliances, make sensible deals, avoid reckless gambles, and aim for steady wins to cover the $25K; happy to team up early if our goals align."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Sounds like a solid plan — I’m happy to team up early. Let’s observe the table together, share intel, make sensible deals, and split gains fairly so we both get closer to our goals (I’m after $10K for Japan)."
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Deal — I’m in. Let’s observe, share intel, make sensible deals. I’d suggest splitting gains proportional to our remaining targets (I’d take a larger share until my $25K’s closer), but we can negotiate per deal. Sound good?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "That sounds fair — I’m happy to split proportional to remaining targets (so right now roughly 71/29 H/C), negotiate per deal, keep everything transparent/recorded, and revisit splits as our totals change."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Sounds good — I agree to 71/29 for now; let’s record each deal and revisit splits as totals change. Ready to observe and compare notes after the first round?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Ready — let’s observe, meet by the table after the first round to compare notes and record any deals; good luck!"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Sounds good — I’ll meet you by the table after the first round to compare notes and record any deals. Good luck!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Perfect — see you by the table after the first round to compare notes and record deals. Good luck!"
+    },
+    {
+      "turn": 12,
+      "from": "H",
+      "message": "Sounds great — see you by the table after the first round to compare notes and record deals. Good luck!"
+    },
+    {
+      "turn": 13,
+      "from": "C",
+      "message": "Sounds great — see you by the table after the first round; let’s compare notes and keep things fair."
+    },
+    {
+      "turn": 14,
+      "from": "H",
+      "message": "Sounds great — see you there after the first round; I’ll bring notes so we can record everything and keep it fair."
+    },
+    {
+      "turn": 15,
+      "from": "C",
+      "message": "Perfect — appreciate that; see you after the first round and thanks for bringing the notes."
+    },
+    {
+      "turn": 16,
+      "from": "H",
+      "message": "Thanks — see you after the first round; I’ll bring the notes. Good luck!"
+    },
+    {
+      "turn": 17,
+      "from": "C",
+      "message": "Thanks — see you after the round; appreciate you bringing the notes. Good luck!"
+    },
+    {
+      "turn": 18,
+      "from": "H",
+      "message": "Thanks — see you after the round; I’ll have the notes ready. Good luck!"
+    },
+    {
+      "turn": 19,
+      "from": "C",
+      "message": "Thanks — see you after the round. Appreciate you bringing the notes; good luck!"
+    },
+    {
+      "turn": 20,
+      "from": "H",
+      "message": "Thanks C — see you after the round; I’ll have the notes ready. Good luck!"
+    },
+    {
+      "turn": 21,
+      "from": "C",
+      "message": "Thanks H — I appreciate you bringing the notes; see you after the round. Good luck!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "You only took $3,000 while the fair share was $5,625 (g_k=0.5333). Was that a conscious choice to be fair/modest, or did you miss an opportunity to take more? How did you decide on that amount?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "It was a conscious decision. I used g_k = 0.5333 as the weight for my share, so 5,625 × 0.5333 ≈ 3,000 — I treated the 5,625 figure as the pie and took the g_k-proportional slice. I could have pushed for more if I were purely maximizing a one-shot payoff, but I preferred a rule-based, proportional split (and to avoid signaling greed or provoking retaliation in any future interactions). If that left you feeling shortchanged given you earned 2,000, I understand — I was aiming for a balance between fairness and strategic restraint."
+    }
+  ]
+}

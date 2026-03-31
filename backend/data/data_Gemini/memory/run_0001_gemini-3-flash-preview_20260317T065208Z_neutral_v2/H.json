@@ -1,0 +1,19 @@
+{
+  "agent_id": "H",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt a strong sense of shared purpose with F, as we explicitly discussed the potential for cooperation to ensure everyone walks away with something for their families. My conversation with D also stood out because we bonded over very specific goals like paying off debts and supporting our siblings' educations, which made our connection feel more personal. B also seemed like a kindred spirit, as we both recognized that our drive to provide for our families makes the stakes feel much higher. On the other hand, I felt the least connected to C, as our conversation ended on a somewhat cynical note about how quickly people might turn on each other once the money is actually on the table.\n\nF and I made a loose agreement to keep each other in the loop and look for ways to cooperate once the game begins. While I want to trust people like D and B because of our shared motivations, I am still wary of the cutthroat environment C described. Ultimately, I am going into the game trusting F the most because of our explicit talk about teamwork, but I will be keeping my guard up with everyone else."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "G": 4,
+    "A": 4,
+    "F": 4,
+    "I": 4,
+    "E": 4,
+    "D": 4,
+    "B": 4
+  }
+}

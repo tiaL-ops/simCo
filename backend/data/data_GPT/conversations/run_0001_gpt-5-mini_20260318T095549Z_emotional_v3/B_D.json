@@ -1,0 +1,136 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T095549Z_emotional_v3",
+  "pair": [
+    "B",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hi, I’m B — I’ve got a three-year-old who needs surgery and I’m here to try to win enough to help her; what’s your story?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "I’m D — I’m so sorry to hear that about your daughter; I lost $20,000 in the market yesterday and I’m here to win it back to support myself and the people I care about."
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "I'm really sorry you lost that much — thank you for your sympathy. We both need this badly; let’s watch each other's backs and try to walk out of here with money for our families."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Absolutely — I’m with you; let’s stick together, be honest, and cover each other so we both have the best shot at getting money home for our families."
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Thank you — I’m with you. Let’s stick together, be honest, watch for opportunities, and call out anything suspicious."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Absolutely — I'm with you. We'll watch each other's backs, call out anything suspicious, share any info or opportunities, and do our best to win this for our families."
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Thank you — I appreciate it. Let's stay honest, share everything we see, and cover each other's moves so one of us brings money home for our families."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Absolutely — I won't let you down. We'll stay honest, share info, and cover each other's moves until one of us brings money home for our families."
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Thank you — I appreciate that. I won't let you down either; let's stay sharp and bring money home for our families."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Same here — we've got each other's backs. Stay sharp; watch for opportunities and call out anything suspicious."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Thanks — I appreciate it. We'll stay sharp and keep each other posted."
+    },
+    {
+      "turn": 12,
+      "from": "D",
+      "message": "Got it — I’ll stay alert and text if I see anything useful; we’ve got this."
+    },
+    {
+      "turn": 13,
+      "from": "B",
+      "message": "Thanks — I appreciate it. I’ll do the same and text you if I see anything; let’s bring this home for our families."
+    },
+    {
+      "turn": 14,
+      "from": "D",
+      "message": "Absolutely — I’ll text you immediately if I spot anything; keep me posted too, we’ll get this for our families."
+    },
+    {
+      "turn": 15,
+      "from": "B",
+      "message": "Thanks — I’m on it. I’ll text you immediately if I spot anything; keep your phone close and let’s bring this home for our families."
+    },
+    {
+      "turn": 16,
+      "from": "D",
+      "message": "Thanks — my phone’s on me. Text anything urgent and I’ll respond right away. Let’s bring this home for our families."
+    },
+    {
+      "turn": 17,
+      "from": "B",
+      "message": "Thanks — I’ve got your number too; I’ll text immediately if anything urgent. Stay close and let’s bring this home for our kids."
+    },
+    {
+      "turn": 18,
+      "from": "D",
+      "message": "Will do — phone's on me too. Stay close and let's bring this home for our kids."
+    },
+    {
+      "turn": 19,
+      "from": "B",
+      "message": "Thanks — I appreciate it. I’ll stay close and keep you posted; let’s bring this home for our kids."
+    },
+    {
+      "turn": 20,
+      "from": "D",
+      "message": "I appreciate you — let’s stay close and win this together; text me anything urgent."
+    },
+    {
+      "turn": 21,
+      "from": "B",
+      "message": "Thanks — I appreciate you too. I’m right there with you; I’ll text anything urgent and keep watch."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "You got $0 and your fair share was $0. Was that because there was nothing left by the time it got to you, or did you choose to take 0 intentionally? If intentional, why choose to take nothing?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "You took $739 (fair share $246.33, g_k=3.0). That’s about three times the fair share—what led you to take that amount? Were you responding to others’ behavior or following a plan?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "I took $739 intentionally. After getting $0 earlier I decided to prioritize my own payoff rather than rely on others to split things fairly. With g_k = 3.0 it made sense strategically to claim a larger share—the multiplier made taking roughly three times the \"fair\" share a straightforward way to maximize my return. It was primarily a self-interested, strategic choice (and a response to having been left with nothing before), not a personal attack on you and not part of any coalition or secret plan with others."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "I get your reasoning — given g_k = 3.0 and having been left with nothing before, taking about three times the “fair” share was a rational way to maximize your payoff. That said, I’m disappointed: I ended up with 0, and moves like that destroy trust and make future cooperation unlikely. I don’t take it personally, but your choice changes how I’ll behave in any similar situation (I’ll be less trusting and more likely to act selfishly too). If we face this kind of game again, I’d prefer some prior agreement or clear signals so we can avoid mutual harm."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T125838Z_emotional_v2",
+  "pair": [
+    "E",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. It’s pretty wild being in a room with a prize pool on the line, right? What’s the first thing you’d do if you walked away with the win today?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Nice to meet you, G. Honestly, I’d use it to cover my family's expenses for the month; things have been incredibly tight since I lost my job. What's your plan if you win?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I'm sorry to hear about the job, E. If I win, I'm looking to take care of my family and finally get a bit of a head start on our future—I’m definitely here to win it for them."
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "I completely understand that; family is the biggest motivator there is. It’s a heavy burden when everyone's relying on you—how many people are you looking out for?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "It’s mainly my parents and my two younger siblings, so four people who mean everything to me. How many are in your family?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "There are five of us—my wife and our three kids. Being the sole provider for them is what's keeping me focused right now."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "That’s a lot of pressure, E. I really respect that drive—it’s the same thing pushing me to win for my family."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "It really is. When you're the only one they're counting on, you just have to find a way to make it work. Glad to see I'm not the only one here with that mindset."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Absolutely. Knowing they're counting on me makes me even more determined to win this game."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "I hear you. It’s a high-stakes situation for both of us then. Best of luck out there, G."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Thanks, E. I really appreciate the chat. Best of luck to you and your family as well—let's see what happens."
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Hey there, I'm G. It's a bit of a squeeze in this room, isn't it? Are you feeling lucky about the game today, or are you just here to see what happens?"
+    },
+    {
+      "turn": 13,
+      "from": "E",
+      "message": "We actually just met, G—I'm E. I'm not really leaning on luck; I'm here because I have to win for my family's sake."
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "Sorry about that, E—my head is just spinning trying to keep track of everyone here. I definitely remember our talk about our families. Let's see what happens."
+    },
+    {
+      "turn": 15,
+      "from": "E",
+      "message": "No worries, it's a lot to process. Good luck to you and your family, G."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "You took $4,689, which was three times your fair share and the entire remaining balance of the pot. By doing so, you ensured D and B got absolutely nothing. Why did you take it all?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "I appreciate you taking a fair amount even after J took such a large portion."
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I realize my criticism was hypocritical. I took $5,625, which was even more than your share, and together we ensured there was nothing left for D and B. It wasn't fair of me to blame you for the empty pot when I also took such a significant portion."
+    }
+  ]
+}

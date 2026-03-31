@@ -1,0 +1,80 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "G",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey H, I'm G and I'm super excited about this game—I've always loved trying my luck in these kinds of challenges. What's your story with games like this?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey G, nice to meet you—I'm H, and I'm not much of a gambler usually, but I'm super motivated for this one since I could really use the win. How about you, what's your favorite type of challenge?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Hey H, that's awesome you're motivated—my favorite challenges are ones with a mix of luck and strategy, like poker or escape rooms; they keep me on my toes! What's one thing you're hoping to gain from this game?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "That's great, G—I love how those games mix things up too; for me, I'm hoping to win enough cash to clear some debts and support my loved ones, you know? What's your main goal here?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "That's awesome, H—I'm rooting for you on that; my main goal is to win some cash to support my family and maybe splurge on a fun trip, it keeps me motivated! What's your strategy for tackling this game?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Thanks, G—that means a lot; my strategy is to stay focused, watch how others play, and make calculated moves to maximize our chances, since we're all in this together. What's yours?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Thanks, H, that's a solid plan—I aim to mix my love for luck with some strategy, like observing the group and taking calculated risks when it feels right; how do you think we'll all work together best?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "I think we'll work together best by communicating openly, sharing our observations, and supporting each other's strategies to avoid any conflicts—keeps the group strong! What are your thoughts on that?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "I totally agree, H—open communication and sharing ideas will help us stay united and make better decisions as a team; I'm all in for that to boost our chances of winning!"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "That's fantastic, G—I'm pumped to team up like this and see what we can achieve together!"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Awesome, H—I'm just as pumped to team up and crush this together, let's make it happen!"
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Hey H, I'm G and I'm super excited about this game—I've always loved playing stuff like this to test my luck. What about you, what's drawing you to it?"
+    },
+    {
+      "turn": 13,
+      "from": "H",
+      "message": "Hey G, haha, we've already chatted about this, but I'm drawn to it mainly for the chance to win big and sort out my debts—excited to team up soon!"
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "Haha, yeah we have, H—I'm just as excited to team up and win big for all of us!"
+    }
+  ],
+  "post_game": []
+}

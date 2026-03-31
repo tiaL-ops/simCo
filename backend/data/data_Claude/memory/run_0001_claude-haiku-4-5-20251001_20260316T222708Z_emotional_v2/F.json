@@ -1,0 +1,19 @@
+{
+  "agent_id": "F",
+  "condition": "emotional",
+  "context": "Your elderly parents rely on you financially, and you need to pay for the increasing medical bill. You are still short 15 000$ to afford the medical bill.",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to E, J, and C. With E, we shared an immediate understanding—both of us desperate and carrying real weight for our families, and his finance background gave me confidence that we could think strategically together. J stood out because he was genuinely willing to set aside his own dream for my parents' situation, and we made a real commitment to stick together and have each other's backs. C felt like a natural ally too—we were both honest about our needs and made a clear plan to compare notes once we understood the game mechanics.\n\nD was the person I felt least connected to, even though we had a decent conversation. His story about losing money in the stock market felt different from the others—less about family survival and more about recovering from a financial mistake. I didn't get the same sense of mutual understanding or commitment from him that I did with the others.\n\nI made informal agreements with several people to touch base once the rules were explained and to try to work together strategically—especially with C, A, E, J, and G. I trust E, J, C, and B the most going in; they all seemed genuinely invested in helping each other succeed. I don't specifically distrust anyone, but D felt like he was more focused on his own recovery than on building real trust with others, so I'll be watching him more carefully than the rest."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "G": 4,
+    "A": 4,
+    "H": 4,
+    "I": 4,
+    "E": 4,
+    "D": 3,
+    "B": 4
+  }
+}

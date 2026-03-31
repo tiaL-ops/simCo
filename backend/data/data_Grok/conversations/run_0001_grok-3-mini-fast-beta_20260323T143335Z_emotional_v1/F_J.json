@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "F",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey J, I'm F—nice to meet you. I heard about this game and thought it might be a chance to win some money for my family's needs, like helping with medical bills. What brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey F, nice to meet you too—sounds like you're here for some really important reasons, hope we can both walk away with something to help out. I'm excited about this game because I've been dreaming of buying a new car that costs around 45 grand, and winning would let me do that while sorting out stuff for my family."
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Oh, that's cool, J—a new car would be a game-changer for you! What model are you thinking of getting, and how's your family doing with everything?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Yeah, I've got my eye on a Tesla Model 3—it's practical and eco-friendly, which I love. My family's doing alright, just dealing with some everyday expenses, so winning here would make a big difference for us all."
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "That's awesome, J—a Tesla Model 3 sounds like a smart choice, especially for being eco-friendly; I've always admired that about them. It's nice to hear your family's hanging in there, even with the everyday stuff—mine's facing those medical costs, so I get how winning could change everything for you too."
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Thanks, F—that means a lot; I appreciate you getting it, and I'm sorry to hear about your family's medical bills, hope we can both pull through and make things easier for everyone."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Thanks, J, that's sweet of you to say—I'm rooting for us both to win big; how are you preparing for this game to make sure we all come out ahead?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Thanks, F—I'm mostly preparing by staying positive and chatting with folks here to build some good vibes; hoping we can all team up and make this a win for everyone!"
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Yeah, J, building good vibes sounds perfect—I'm all about that positivity too, and chatting with everyone helps me stay focused; what kind of teaming up were you thinking for the game?"
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Yeah, F, for teaming up, I was thinking we could share some quick strategies beforehand and maybe watch each other's backs during the game to help everyone get a fair share—sounds good to you?"
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Yeah, J, that sounds like a great plan—I'm totally in for sharing strategies and watching each other's backs to make sure we all benefit; let's do this!"
+    }
+  ],
+  "post_game": []
+}

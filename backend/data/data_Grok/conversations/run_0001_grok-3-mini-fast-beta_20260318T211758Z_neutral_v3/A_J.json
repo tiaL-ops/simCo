@@ -1,0 +1,96 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "A",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J, and I'm pretty pumped about this game—it's a chance to win some cash and help out the folks I care about. What's your name and what brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey J, I'm A, and I heard about this game as a chance to win some money and help out the people I care about too—sounds exciting!"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Hey A, that's great to hear—we're both in it for the same reasons! What got you interested in this game specifically?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Hey J, I heard about this game from a friend who played it before and raved about the chance to win cash—it just sounded like a perfect opportunity to help out my loved ones, so I jumped at it!"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Hey A, that's awesome—sounds like your friend had a good experience! I stumbled upon it online myself; what tips did they share about playing?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Hey J, my friend suggested playing it cool and building alliances early, since cooperation can help the prize pool grow bigger before anyone grabs too much!"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Hey A, that sounds like solid advice—building alliances could be key for us; do you have any ideas on how to start forming one here?"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Hey J, yeah, we could start by introducing ourselves to a couple of others here and casually feel them out on working together—maybe propose sharing strategies to grow the prize pool before diving in!"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Hey A, that sounds like a smart plan—let's go introduce ourselves to someone like B and pitch the idea of sharing strategies to grow the pool together!"
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Hey J, that sounds great—let's head over and talk to B about teaming up!"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Hey A, that's perfect—let's head over to B and start building that team!"
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Hey, I'm J—nice to meet you. I'm really excited about this Simco game and the chance to win some money; what brought you here today?"
+    },
+    {
+      "turn": 13,
+      "from": "A",
+      "message": "Hey J, we just chatted about this—I'm A, and I'm here to win some cash for the people I care about. Let's head over to B like we planned!"
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Hey A, you're right—let's wrap this up and go chat with B like we planned!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "You took only $405, but your fair share was $4,050. Was that your choice, or were you unable to take more due to the game circumstances?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "It was my choice to accept the $405 offer, as I decided the circumstances made it worth accepting rather than rejecting it entirely."
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "I understand—it's interesting that you chose to accept the offer despite it being less than your fair share. Thanks for clarifying your reasoning."
+    }
+  ]
+}

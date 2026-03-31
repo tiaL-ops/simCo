@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "B",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. First time doing one of these games, and I gotta say I'm pretty nervous but excited. You played before, or is this your first time too?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey E, nice to meet you! This is actually my first time too, so we're in the same boat. I'm definitely nervous but trying to stay focused — I really need to bring some money home for my family, so I'm hoping to play smart. What made you decide to give this a shot?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Same reason honestly — I've got people depending on me and I could really use the extra cash. Playing smart sounds like the right approach. Do you have any sense yet of what the actual game mechanics are gonna be, or are we both going in blind here?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Yeah, we're pretty much going in blind right now. I've been trying to figure out the rules from what little info they gave us, but honestly I'm just gonna have to see how it plays out when we start. Have you heard anything from the other people here, or is everyone just as clueless as we are?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Nah, haven't really talked to anyone else yet — you're actually the first person I've properly chatted with. Been kind of sizing everyone up, you know? Maybe we should try to get a feel for what others know before things kick off. Strength in numbers and all that."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Yeah, that makes sense. I like that idea — talking to more people could definitely help us understand what we're up against. Though I gotta be honest, I'm also wondering if everyone's gonna be looking out for themselves or if there's a way we could actually work together on this. Either way, might be worth comparing notes before we start."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Yeah, I hear you — that's the million dollar question, right? I guess we'll find out real quick if people are willing to cooperate or if it's every person for themselves. Either way, I'm down to compare notes with you and whoever else is willing to talk. At least we'll know what we're dealing with."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Cool, I appreciate that. Let's definitely touch base again once we've talked to a few more people — maybe we can figure out who seems trustworthy and what the actual play is before things get rolling."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Absolutely, sounds good. I'll circle back with you once I've talked to a few others and we can compare notes. Good luck out there, man."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Yeah, good luck to you too. Catch you in a bit — let's regroup before things start."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "For sure, man. I'll find you before we start and we can figure this out together. See you in a few."
+    }
+  ],
+  "post_game": []
+}

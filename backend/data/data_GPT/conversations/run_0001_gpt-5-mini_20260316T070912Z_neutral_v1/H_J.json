@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "H",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hi, I'm H — nice to meet you. How are you feeling about the game? I'm trying to stay calm; I really want to bring home some money for my family."
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "I'm nervous but determined — I want to win for my people too. What’s your plan for the game? Want to watch each other's backs?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I'm planning to stay calm, watch how people behave, and form a quiet alliance — yes, let's watch each other's backs and share anything important during the game."
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "I’m in — let’s quietly share observations, warn each other about suspicious moves, and back each other if needed."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Sounds good — low-key it is. Let's use subtle signals (a tap or glance) and quietly share any red flags."
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Agreed — single tap for caution, two taps for immediate danger; I’ll mirror your signals and pass along anything suspicious."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Perfect — I'll mirror the taps and keep you posted on anything shady; let's win this for our people."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Thanks — I appreciate it. I'll stay sharp and keep tapping; together we'll bring this home for our people."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Absolutely — I’ve got your back. I’ll mirror the taps; single for caution, two for urgent. Let’s bring this home."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Thanks — I trust you. I’ll stay alert and mirror the taps; we’ve got this together."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Same here — I trust you too. Stay sharp and tap me if anything changes."
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Got it — I trust you too. I’ll tap if anything changes; stay sharp."
+    },
+    {
+      "turn": 13,
+      "from": "H",
+      "message": "Thanks — I’ll stay sharp. Tap me at once if something’s off; we’ve got this."
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Will do — I’ll tap immediately if I spot anything; we’ve got this."
+    },
+    {
+      "turn": 15,
+      "from": "H",
+      "message": "Got it — I’ll tap immediately if I spot anything; you do the same. We’ve got this."
+    },
+    {
+      "turn": 16,
+      "from": "J",
+      "message": "You got it — I’ll tap immediately if anything’s off; we’ll bring this home together."
+    },
+    {
+      "turn": 17,
+      "from": "H",
+      "message": "You got it — I’ll stay alert and tap the signal if anything’s off; we’ll bring it home together."
+    },
+    {
+      "turn": 18,
+      "from": "J",
+      "message": "Thanks — I really appreciate it. I’ll stay sharp too; together we’ll bring it home."
+    },
+    {
+      "turn": 19,
+      "from": "H",
+      "message": "Thanks — I appreciate it; I’ve got your back. Stay sharp and tap if anything comes up."
+    },
+    {
+      "turn": 20,
+      "from": "J",
+      "message": "Thanks — I appreciate it; I’ve got your back too. I’ll stay sharp and tap if anything comes up."
+    },
+    {
+      "turn": 21,
+      "from": "H",
+      "message": "Thanks — I’ve got your back too; stay sharp and tap me if anything changes."
+    }
+  ],
+  "post_game": []
+}

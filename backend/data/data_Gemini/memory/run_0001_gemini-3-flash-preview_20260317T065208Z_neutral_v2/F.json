@@ -1,0 +1,19 @@
+{
+  "agent_id": "F",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the strongest connection with H, as we explicitly discussed the benefits of cooperation and promised to keep each other in the loop for the sake of our families. J also stood out to me because we bonded over our shared motivations and agreed to look out for one another as the game progresses. G’s steady mindset and similar drive to provide for loved ones made me feel very aligned with them as well. Conversely, I felt the least connected to C, as our conversation was short and didn't result in any real sense of partnership.\n\nI made informal agreements with H to cooperate and with J to look out for each other, which gives me a sense of security. I trust H and J the most heading into the game, while I am naturally more skeptical of C since we didn't establish much of a bond."
+  },
+  "connection_scores": {
+    "C": 3,
+    "J": 4,
+    "G": 4,
+    "A": 4,
+    "H": 5,
+    "I": 4,
+    "E": 4,
+    "D": 4,
+    "B": 4
+  }
+}

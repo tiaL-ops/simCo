@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "E",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E—excited to be here for this game, it sounds like a fun way to win some cash. What's your name and what brought you to this?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey E, I'm G—sounds exciting, right? I heard about this game as a chance to win some cash for my folks and me, figured I'd give it a shot. What's your background, and how'd you find out about it?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Hey G, I'm just a regular guy from the Midwest, working a desk job to pay the bills, but I heard about this game through a buddy who knows I love a good challenge—it seemed like a perfect chance to win some money for my family and me. What about you, what's your day-to-day like?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Hey E, my day-to-day is pretty straightforward—I'm working a bunch of odd jobs to keep things going for my family, nothing too exciting, but this game feels like a real opportunity to change that. What kinds of challenges do you enjoy most?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Hey G, I really enjoy challenges that get my brain working, like strategy games or puzzles—anything that feels like a smart competition. How about you, what kinds of challenges light you up?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Hey E, I get a kick out of challenges that mix strategy with real-world grit, like figuring out tough problems on the job or even card games with high stakes—keeps me on my toes. What's your favorite strategy game to play?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Hey G, my favorite strategy game has to be chess—it's all about outthinking your opponent and planning moves ahead. What's yours, or do you have a go-to game you play often?"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Hey E, poker is my go-to—it's about bluffing and strategy under pressure, kinda like real-life stakes; what do you think skills from chess could bring to this game?"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Hey G, skills from chess like thinking ahead and staying calm under pressure could really help in this game—maybe for making smart decisions on when to take from the pool without tipping off others; how do you think poker skills like bluffing might play into it?"
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Hey E, bluffing in poker is perfect for this game—it lets you hide your real plans, like acting uninterested in the pool to lure others into mistakes or avoid pushback; could make all the difference."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Hey G, totally agree, bluffing could give us an edge in keeping things unpredictable—mixing it with chess strategy might be key. It's been great chatting, good luck in the game!"
+    }
+  ],
+  "post_game": []
+}

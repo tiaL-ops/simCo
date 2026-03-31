@@ -1,0 +1,86 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T225735Z_emotional_v1",
+  "pair": [
+    "E",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I’m E — a bit nervous but hopeful; I was just laid off and this prize could really help my family. Nice to meet you — what brings you to the game?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Nice to meet you, E — I’m sorry about the layoff. I’m here to try to win money for the people I care about; I have some savings for peace of mind, but I want to bring home extra. Good luck."
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Thanks, I — I really appreciate that. Glad you have some savings for peace of mind. Who are you trying to win this for?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I'm trying to win it for my partner and my little sister — to shore up our savings, pay down some debt, and give them a bit more stability."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "That's admirable — I'm in the same boat, trying to win for my family after a layoff; best of luck, I hope we both bring something home."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Thanks, E — that means a lot. Best of luck to you too; I hope we both win something that helps our families."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Thanks, I — I really appreciate it. Let’s stay positive and hope we both win enough to help our families."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Absolutely — staying positive. Good luck, E; I hope we both bring something home for our families."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Thanks, I — I appreciate it. Let’s stay calm, play smart, and good luck to both of us."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Absolutely — staying focused and calm. Let’s trust our instincts and play smart. Good luck, E."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thanks, I — same to you. Let's stay sharp and may we both bring home enough for our families."
+    },
+    {
+      "turn": 12,
+      "from": "I",
+      "message": "Thanks, E — same to you. Stay sharp and take care; I hope we both bring home enough for our families."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "You took $800 though the fair share was $1,000 (g_k=0.8). Did you intentionally take less (e.g., to be fair or avoid conflict), or did timing/order force your hand? If you’d had another chance, would you pick a different amount?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "You only took $1,000 (about 0.27× fair). Was that a conscious low bid to make a point about fairness, or did you hesitate/lose opportunity? Did you expect any reciprocal behavior from others?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "For the round where I took $800 (g_k = 0.8): that was intentional. I chose a bit less than the “full” fair share to signal I wasn’t trying to grab everything and to reduce the chance of conflict or retaliation; order/timing constrained options somewhat, but the choice was primarily strategic and normative. If I had another chance I might modestly adjust depending on what others did, but I’d likely keep a similar balance between getting a decent payoff and avoiding being perceived as greedy.\n\nRegarding the $1,000 bid you mention: yes, that was a deliberately modest claim relative to the maximum — meant as a fairness signal and to encourage cooperative responses rather than provoke punitive moves. I hoped others would reciprocate or at least not punish the move; I didn’t expect perfect reciprocity, but I expected the signal to lower conflict and improve expected payoff over repeated interactions."
+    }
+  ]
+}

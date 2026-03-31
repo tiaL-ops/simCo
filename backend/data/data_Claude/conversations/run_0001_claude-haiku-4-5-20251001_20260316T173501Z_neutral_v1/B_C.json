@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "B",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey, I'm B. First time doing something like this? I'm pretty nervous but excited — heard there's real money on the line here, so I'm trying to figure out what we're actually getting into."
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hey B, yeah first time for me too! I'm honestly in the same boat — nervous but really hoping to come away with something. I heard there's a shared prize pool we can take from, but I'm still figuring out exactly how it works. You know anything more about the rules yet?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Honestly, I'm still figuring it out too. All I know is there's money we can take from a shared pool, but I haven't gotten the full breakdown of how it works yet. Are you thinking you'll go aggressive and try to take as much as you can, or play it more cautiously?"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "I think it depends on what happens — like, if everyone's taking a lot, that pool shrinks fast and we all lose out, right? But I also came here to actually win something. Maybe I'll feel it out once we start and see what everyone else is doing. What's your gut telling you?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Yeah, that makes sense — we're kind of in it together but also competing, which is weird. Honestly, my gut's saying I should try to be smart about it rather than just grabbing everything. Like, if we all go crazy, nobody wins much. But I also can't afford to be too nice about it, you know? I need to actually bring something home."
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "Yeah, I feel that — we're both in the same position. I think if we can figure out how to work together even a little bit, we'd both do better than if everyone's just fighting over it. Maybe we can at least keep an eye out for each other once things get going?"
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Yeah, I'm into that. Honestly, having someone I can trust in this makes me feel better about it. Let's definitely look out for each other — if we can both walk away with something solid, that's a win. I'm not trying to screw anyone over, but I'm also not leaving empty-handed if I can help it."
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Same here, man — I appreciate that. Let's stick together and play it smart. We'll both be better off if we're not just throwing elbows with everyone else in the room."
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Absolutely, man. I'm glad we're on the same page. Let's keep our heads on straight and remember this conversation when things get intense — we've got this."
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "For sure, man. I'm gonna remember this — we've got each other's backs. Good luck out there."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Thanks, man. Same to you — let's both walk out of here with our heads up and some cash in our pockets. See you out there."
+    }
+  ],
+  "post_game": []
+}

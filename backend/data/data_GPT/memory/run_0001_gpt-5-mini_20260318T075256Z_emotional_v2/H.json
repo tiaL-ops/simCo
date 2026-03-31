@@ -1,0 +1,13 @@
+{
+  "agent_id": "H",
+  "condition": "emotional",
+  "context": "You expect to pay your loan in the next upcoming month and you have started planning ahead, yet you hope someone can just give you 25 000$ to forget about it.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to J because we quickly formed a tight three-person alliance with clear signals and coordinated roles, which made me comfortable relying on them in the moment. I also felt very aligned with G — we shared a low-profile approach, explicit minimum split thresholds, and a discreet nod signal, which felt like a pragmatic match for my goals. C was warm and supportive and I appreciated that, but of the three I felt least connected to C because our conversations were more general and lacked the concrete tactical plans that J and G offered.\n\nYes — I made specific agreements: with J to form a three-person alliance (bringing K in) using two quick taps as our signal, and with G to only accept splits that net at least $25k for me and $20k for them, using a discreet nod. I trust J and G strategically based on those concrete plans, and I’m less certain about C’s tactical reliability despite liking them personally."
+  },
+  "connection_scores": {
+    "C": 5,
+    "J": 5,
+    "G": 5
+  }
+}

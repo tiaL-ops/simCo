@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "D",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D—nice to meet you! I heard about this game and it seems like a fun way to win some cash; what made you decide to join in?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey D, nice to meet you too—I'm J. I joined 'cause I heard it's a solid chance to win some cash and help out my family; sounds exciting! What about you, what's your take on the game?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Oh, totally get that, J—I'm in for the same reason, hoping to win big and help out my family too; it feels like a real adventure, what do you think our chances are?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Yeah, D, I think our chances are solid if we play smart and cooperate—I'm feeling pumped about it; do you have any ideas on how we could team up?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Oh, totally, J—I'm excited too! Maybe we could keep an eye out for each other and share any strategies we come up with during the game; what kind of teamwork are you thinking?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Yeah, D, I love that idea—maybe we could communicate quickly during the game and watch each other's backs to avoid anyone getting greedy; I'm thinking simple stuff like signaling if we spot a good opportunity. What's your experience with games like this?"
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Yeah, J, that sounds smart—I've dabbled in some online strategy games like poker or team-based ones, but nothing major, just enough to know communication's key; how about you, got any game experience to share?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Hey D, that's cool you've got some strategy under your belt—I've messed around with poker and a few online team games too, nothing pro, but yeah, communication's always been a game-changer for me; any specific tips you think could help us here?"
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Yeah, J, one tip I've picked up is to always check in quickly before grabbing from the pool, like a quick nod if it's safe—so we don't undercut each other; what do you think?"
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Yeah, D, that's a solid tip—I love the quick nod idea, it could really prevent any mix-ups and help us stay coordinated; let's go with that!"
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Awesome, J, I'm glad we're on the same page—let's nail this with the nod strategy and bring home that cash!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hi J, your fair share was $15,000, which is higher than the others. Could you share how that was determined or any factors that led to it?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hi D, my fair share of $15,000 was determined based on my individual earnings and contributions in the game. Since I earned $15,000, which was higher than others, the system allocated it accordingly to reflect performance. If you have more details or questions, let me know!"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Thanks for the explanation, J. That makes sense—it's based on individual earnings, like how you got $15,000 and I earned $10,000. I appreciate the clarity, and I don't have any more questions right now."
+    }
+  ]
+}

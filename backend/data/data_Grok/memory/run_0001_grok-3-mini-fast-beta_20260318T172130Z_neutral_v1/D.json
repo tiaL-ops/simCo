@@ -1,0 +1,19 @@
+{
+  "agent_id": "D",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to C, as our conversation flowed easily around shared goals like winning for our families and building trust through early communication, which made me feel like we were truly on the same team. E also stood out, since we bonded over the idea of fostering group trust by sharing personal stories, and I appreciated how supportive they were in suggesting I go first in a group circle. J was another strong connection, given our mutual excitement about coordinating strategies, like using a quick nod to avoid mistakes, which made me optimistic about working together. In contrast, I felt least connected to A, as our talk stayed surface-level, focusing mostly on general game experiences and risks without delving into deeper plans or personal commitments.\n\nYes, I made a few agreements, such as one with J to use a quick nod for signaling during the game, and another with I to use the phrase 'all in' as a pact for commitment. Going into the game, I trust C, E, and J the most based on our aligned strategies and open conversations, but I don't fully trust anyone else yet, as I plan to remain cautious and observe their actions."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 5,
+    "E": 5,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 5
+  }
+}

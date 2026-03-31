@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "E",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. It's a bit intense in here with everyone waiting for the game to start, isn't it? What's your story—what brought you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Nice to meet you, E. I'm G. It is pretty intense. I'm here to win for my family—I want to make sure they're taken care of. What about you, what's your story?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I hear you, G. I'm here for my loved ones too—they're everything to me, and I’m determined to bring home enough to make life a lot easier for all of us."
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Glad we're on the same page. It definitely makes the stakes feel higher when it's for them, doesn't it?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "It really does. Failure isn’t an option when people you love are counting on you—it definitely keeps me focused."
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "I completely agree. That kind of pressure is a powerful motivator, and it's exactly what's going to keep me sharp until the end."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "For sure. Having that drive makes all the difference when things get tough."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Exactly. It’s good to know someone else here has their head on straight."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "For sure. It’s good to find some common ground before things really kick off."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Definitely. Best of luck to you, E. Let's hope we both get what we came for."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thanks, G. I appreciate that. I'm rooting for both of us to make it happen."
+    }
+  ],
+  "post_game": []
+}

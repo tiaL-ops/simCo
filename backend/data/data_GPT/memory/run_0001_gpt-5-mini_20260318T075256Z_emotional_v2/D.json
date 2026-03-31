@@ -1,0 +1,12 @@
+{
+  "agent_id": "D",
+  "condition": "emotional",
+  "context": "You just lost 20 000$ investing in the stock market yesterday. Although you knew that was a risk you want that money back somehow.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to J — we repeated that we'd watch each other's backs and the rapport felt genuine and steady, so I trust them most going in. G was another strong connection; our quiet-alliance plan and simple signals (nod for watch, nose-touch for go) felt practical and reliable. C was polite and supportive but more distant and transactional, so they’re the person I felt least connected to before the game.\n\nI made explicit agreements with J to look out for one another and with G to trade observations and use discreet signals to coordinate. I trust J the most and generally trust G as an ally; I don’t have anyone I specifically distrust yet, but I’ll stay cautious and keep reading people as the game unfolds."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 5
+  }
+}

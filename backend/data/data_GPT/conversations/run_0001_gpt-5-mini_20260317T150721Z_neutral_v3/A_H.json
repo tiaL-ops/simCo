@@ -1,0 +1,131 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "A",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey A, I'm H — nice to meet you. I'm here hoping to win something for my family; how are you feeling about the game?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Nice to meet you, H — I’m nervous but determined; really want to bring money home for my people. What’s your strategy going in?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I’ll play friendly at first to gather info and form a small alliance, then act decisively once I see who’s bluffing — what’s your plan?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "I’ll do something similar — stay friendly to read people, form a small reliable alliance, and be ready to act decisively if someone betrays or a clear chance to secure money for my family appears."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Sounds good — let’s watch each other’s backs early, share impressions, and coordinate decisive moves if trust holds."
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Agreed — I’ve got your back. Let’s compare notes after round one and be ready to act if trust breaks or a clear chance to secure the pot appears."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Sounds good — same plan. Let’s compare notes after round one; if either of us spots betrayal or a clear opening, we act together. Good luck."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Sounds perfect — I’ll watch for betrayals and meet you after round one. Good luck."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Perfect — I’ll meet you by the bunks after round one. Stay sharp and good luck."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "I’ll be there — stay sharp; we’ll compare notes after round one. Good luck."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Thanks — I’ll be there by the bunks after round one. Stay sharp; let’s compare notes and watch each other’s backs. Good luck."
+    },
+    {
+      "turn": 12,
+      "from": "A",
+      "message": "I’ll be there — keep your eyes open; we’ll compare notes and watch each other’s backs. Good luck."
+    },
+    {
+      "turn": 13,
+      "from": "H",
+      "message": "Got it — I’ll meet you by the bunks after round one. Stay sharp; good luck."
+    },
+    {
+      "turn": 14,
+      "from": "A",
+      "message": "See you by the bunks — stay sharp; we’ll compare notes and watch each other’s backs. Good luck."
+    },
+    {
+      "turn": 15,
+      "from": "H",
+      "message": "Thanks — I’ll be there by the bunks; stay sharp and see you after round one. Good luck."
+    },
+    {
+      "turn": 16,
+      "from": "A",
+      "message": "See you by the bunks after round one — stay sharp. Good luck."
+    },
+    {
+      "turn": 17,
+      "from": "H",
+      "message": "See you by the bunks — I’ll be there. Stay sharp; good luck."
+    },
+    {
+      "turn": 18,
+      "from": "A",
+      "message": "I'll be there — stay sharp; see you by the bunks after round one. Good luck."
+    },
+    {
+      "turn": 19,
+      "from": "H",
+      "message": "Got it — I’ll meet you by the bunks after round one. Stay sharp; good luck."
+    },
+    {
+      "turn": 20,
+      "from": "A",
+      "message": "See you there — stay sharp; we’ll compare notes and watch for any signs of betrayal."
+    },
+    {
+      "turn": 21,
+      "from": "H",
+      "message": "See you there — I’ll be ready; stick to our plan and we’ll watch for betrayals."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "You ended up with $10,858 (one dollar more than several others at $10,857). Was that tiny difference intentional (strategy or statement), or just rounding/order effects? Also, how did H taking only $4,000 affect your decision, if at all?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hi H — I noticed you took $4,000 while your fair share was $10,000. Can you explain why you chose that amount? Was it a deliberate strategy (e.g., to be cooperative, to send a signal, or to punish/limit others), a misclick or time/run‑out issue, or based on a different reading of the rules? Would you have chosen differently knowing the others’ picks?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I chose $4,000 intentionally — it wasn’t a misclick or a time‑out. My goal was to signal cooperativeness and avoid maximizing at others’ expense; I thought taking well under the “fair share” might encourage reciprocity or at least keep me from looking aggressively greedy. I wasn’t working from a different reading of the rules.\n\nThat said, if I had known beforehand that others would pick roughly $10,857–$10,858, I would have chosen differently — I would have taken more (closer to my fair share, or slightly above it) to avoid leaving myself far behind. In short: the low pick was a deliberate cooperative signal, but it wasn’t profit‑maximizing given the actual choices of the others."
+    }
+  ]
+}

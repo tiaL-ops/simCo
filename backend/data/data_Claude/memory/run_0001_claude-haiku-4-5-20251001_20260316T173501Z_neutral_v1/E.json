@@ -1,0 +1,19 @@
+{
+  "agent_id": "E",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "# Reflection on Connections\n\nI felt most connected to A, J, and C. With A, there was an immediate sense of partnership—we made a genuine handshake deal to look out for each other and stick together, which felt like the most solid alliance I formed. J and C both matched my energy around honesty and cooperation; we had real conversations about balancing family needs with ethical play, and there was mutual respect in acknowledging we'd each do what's best for ourselves while staying straight with each other. H was the person I felt least connected to—our conversation was friendly but more surface-level, lacking the depth and mutual commitment I developed with the others.\n\nI made explicit agreements with A (to stick together and look out for each other), J (to cooperate and be honest with each other), C (to keep it real and stay anchored in honesty when things get intense), and D (to compare notes and potentially help each other out). I trust A, J, C, and D going into this game because they all demonstrated genuine concern for doing right by their families while being willing to work together. I don't specifically distrust anyone, but I'm most cautious about the people I had shallower conversations with—like H—since I have less sense of their actual intentions."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 4,
+    "F": 4,
+    "G": 4,
+    "H": 3,
+    "I": 4,
+    "J": 4
+  }
+}

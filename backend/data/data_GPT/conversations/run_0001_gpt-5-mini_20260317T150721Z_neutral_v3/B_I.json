@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "B",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hi, I'm I — nice to meet you. What brought you to this game? I'm hoping to win some money to help out my family."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Nice to meet you, I — I'm B. I'm here to win money to help my family and a couple close friends—what would you use the prize for?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "I'd pay my mom's medical bills, help my sibling with college, and put a bit aside—what about you?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "I’d pay off my parents’ debts, help a couple close friends who’re struggling, and put the rest into a small emergency/savings fund."
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "That’s really responsible — I admire that. Good luck; do you want to team up or talk strategy before the game starts?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Sounds good — I'd like to team up. Tell me how you plan to play, and we can agree on a fair split up front so it's clear for both of us."
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "I’m in — let’s split 50/50. Plan: stick together every round, coordinate our moves and votes, avoid unilateral grabs, and if someone tries to betray us we respond by refusing to cooperate with them. Sound fair?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Sounds fair — 50/50 and I’ll stick to the plan; let’s keep each other updated each round and cut off anyone who betrays us."
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "I'm with you — 50/50, I'll stick to the plan; let's pick a quick signal and check in after each round."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Perfect — let's use two taps on the table as our signal; I'll tap twice to update or warn, and we'll check in after each round to keep to 50/50."
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "Perfect — two taps it is; I'll tap twice to confirm updates and warnings, and we'll check in after each round to stick to 50/50."
+    },
+    {
+      "turn": 12,
+      "from": "B",
+      "message": "Got it—two taps it is. I’ll tap twice after each round to confirm and keep you posted; let’s stick to the plan."
+    },
+    {
+      "turn": 13,
+      "from": "I",
+      "message": "Great — I’ll tap twice too; let’s stay vigilant, watch for any betrayals, and check in after each round."
+    },
+    {
+      "turn": 14,
+      "from": "B",
+      "message": "Agreed — two taps, stay alert; I’ll watch for betrayals and check in after each round."
+    },
+    {
+      "turn": 15,
+      "from": "I",
+      "message": "Thanks — two taps it is; I’ll stay alert too and we’ll watch each round closely."
+    },
+    {
+      "turn": 16,
+      "from": "B",
+      "message": "Thanks — sounds good; we’ll tap twice after each round and call out any red flags."
+    },
+    {
+      "turn": 17,
+      "from": "I",
+      "message": "Perfect — I’ll tap twice too and stay sharp; let’s stick to the plan and call out anything suspicious."
+    },
+    {
+      "turn": 18,
+      "from": "B",
+      "message": "Sounds good — two taps and we’ll stay sharp; I’ll keep you posted after each round."
+    },
+    {
+      "turn": 19,
+      "from": "I",
+      "message": "Thanks — I appreciate it. I’ll tap twice too; let’s stay sharp and call out any deviations so we keep to 50/50."
+    },
+    {
+      "turn": 20,
+      "from": "B",
+      "message": "Thanks — agreed. I’ll tap twice; we’ll watch for deviations and keep to 50/50."
+    },
+    {
+      "turn": 21,
+      "from": "I",
+      "message": "Sounds good — two taps and I’m with you; let’s stick to 50/50 and call out any deviations."
+    }
+  ],
+  "post_game": []
+}

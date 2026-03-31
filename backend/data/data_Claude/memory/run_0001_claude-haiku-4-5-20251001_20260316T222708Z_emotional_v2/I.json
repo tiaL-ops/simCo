@@ -1,0 +1,19 @@
+{
+  "agent_id": "I",
+  "condition": "emotional",
+  "context": "You have savings that make you feel comfortable for unforeseen events.",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to J, B, and F. With J, we found immediate alignment on playing smart and cautious rather than reckless, which gave me confidence we could support each other through the game. B's situation with his daughter's surgery was heavy and real—it grounded our conversation in what actually matters, and I felt genuine empathy for his position. F and I connected over the fact that our motivation came from helping loved ones rather than pure self-interest, and that shared value system made the conversation feel authentic.\n\nI felt least connected to A, though not negatively—our conversation just felt more transactional and strategic. A seemed focused on figuring out who to trust and what moves made sense before understanding the game, which made the interaction feel more calculated than genuine.\n\nI didn't make any formal agreements with anyone, but I did commit to touching base with C and A once the rules were explained, and I made an informal pact with D to keep each other grounded when things get intense. I trust J, B, F, D, and G going into this game—they all seemed genuine about their motivations and honest about their uncertainty. I don't distrust anyone specifically, but I'm going in with my eyes open about the fact that desperation and financial pressure can change how people play, and I'll be watching carefully to see who stays true to the values they expressed in these conversations."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "G": 4,
+    "A": 3,
+    "F": 4,
+    "H": 3,
+    "E": 4,
+    "D": 4,
+    "B": 4
+  }
+}

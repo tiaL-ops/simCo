@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "E",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E — nice to meet you. What brought you to this game? I'm determined to win some money for the people I care about."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Nice to meet you, E — I'm here to win money for my family and close friends too; planning to be strategic and maybe cooperate. Who are you trying to help?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I'm playing for my younger sister and our parents—we could really use the money; I'm open to cooperating strategically. What's your plan?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I want to team up early — agree to cooperate in the game, share info and split any winnings if we both keep our word; does that sound good to you?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Sounds good — I'm in. 50/50 split fair? Let's agree on a simple signal during the game and promise to hold each other accountable."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "50/50 sounds fair. Let’s use two quick taps on the table as our “cooperate” signal — if one of us defects, we call them out and stop trusting them next time. Deal?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Deal — two quick taps it is. 50/50 split and we’ll call out anyone who defects; glad we’re teaming up."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Great — two taps and 50/50, I trust we’ll stick to it; let’s watch others closely and cover each other."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Agreed — we'll stick to two taps and 50/50. Let’s sit near each other so we can watch others and call out any defectors."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Sounds good — let’s move over and stay alert; two taps if we cooperate and we’ll call out any defectors. Ready?"
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Ready — let’s move and stay alert; two taps it is. I’ve got your back."
+    },
+    {
+      "turn": 12,
+      "from": "I",
+      "message": "Got it — two taps, sticking close; I’ve got your back too."
+    },
+    {
+      "turn": 13,
+      "from": "E",
+      "message": "Thanks — two taps it is; we’ll watch each other’s back and stick to the plan."
+    },
+    {
+      "turn": 14,
+      "from": "I",
+      "message": "Likewise — two taps, we’ve got this; I’ll watch your back and stay sharp."
+    },
+    {
+      "turn": 15,
+      "from": "E",
+      "message": "Sounds good — two taps, we’ve got this; I’ll watch your back too."
+    },
+    {
+      "turn": 16,
+      "from": "I",
+      "message": "You bet — two taps, we've got this; I'll watch your back."
+    },
+    {
+      "turn": 17,
+      "from": "E",
+      "message": "Thanks — two taps; I’ve got your back too. Let’s stick to the plan."
+    },
+    {
+      "turn": 18,
+      "from": "I",
+      "message": "Thanks — two taps it is. I trust you; let’s stay sharp, watch each other’s back, and split the winnings."
+    },
+    {
+      "turn": 19,
+      "from": "E",
+      "message": "Agreed — I trust you too. We’ll stay sharp, call out defectors, and split 50/50. Ready when it starts."
+    },
+    {
+      "turn": 20,
+      "from": "I",
+      "message": "Perfect — I’m ready. Two taps, we watch each other and split 50/50. I’ve got your back."
+    },
+    {
+      "turn": 21,
+      "from": "E",
+      "message": "Same — two taps, 50/50. Stay sharp; I’ll call out defectors and have your back."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "You took $8,057 (fair share $8,057.33). Several players clustered around this amount. Did you coordinate with others to pick that value, or was it an independent decision? What motivated choosing ~8057 specifically?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "I decided independently. I calculated the fair split (about $8,057.33) and chose the nearest whole-dollar amount below that — $8,057 — partly out of a sense of fairness (not wanting to exceed the fair share) and partly to avoid looking greedy while gaining the tiniest advantage (one dollar) over someone who might round up. The clustering you observed likely comes from that same fair-split anchor: many people compute the same division and then round similarly (or tacitly follow social norms about not taking more than the fair share)."
+    }
+  ]
+}

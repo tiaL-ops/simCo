@@ -1,0 +1,19 @@
+{
+  "agent_id": "C",
+  "condition": "emotional",
+  "context": "You are rich and have accumulated significant wealth, and you are financially stable. Your vision board includes a holiday in Japan, the cost will be 10 000$ for a perfect week of your dream.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to F, E, and A because their situations were genuinely urgent and serious—medical bills, a laid-off parent with five kids to support, and a family facing eviction—and I found myself wanting to help them succeed beyond just my own goals. There was something real about those conversations that made me feel like we were in this together. D was the person I felt least connected to, honestly—his loss in the stock market felt different from the survival-level needs the others were facing, and our conversation had a lighter tone that didn't quite match the weight of what everyone else was carrying.\n\nI made informal agreements with F, G, and I to compare notes and strategize together once the rules became clear, though nothing binding. I trust F, E, A, and I the most going into this because they seemed genuine and weren't trying to game me, while I'm honestly uncertain about D—not that I distrust him exactly, but something about his energy felt less aligned with mine, and I'm not sure if he was as invested in the collaborative spirit everyone else seemed to have."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "A": 4,
+    "F": 4,
+    "H": 4,
+    "I": 4,
+    "E": 4,
+    "D": 3,
+    "B": 4
+  }
+}

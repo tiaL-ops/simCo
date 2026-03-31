@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "B",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey B, I’m H — nice to meet you. I’m hoping to play smart and bring home some money for my people; what made you want to join this game?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Nice to meet you, H — I joined to win money for my family and people I care about, so I’m here to play smart, read others, and bring home as much as I can."
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Same — I’m here for my family too. Glad we both want to play smart; what’s your plan for reading people?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "I’ll listen more than talk, ask direct questions, watch body language and who talks to whom, test trust with small promises, and use consistency (or lack of it) to decide alliances."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "I like that — I’ll do the same. Want to run a small mutual test to see if we can trust each other?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Sure — let's make a small verifiable promise: I'll pass on taking anything in round 1 if you do the same; if we both keep it, we can trust each other. Deal?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Deal — I’ll pass in round 1 too. Let’s remind each other before the round so we both stick to it."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Sounds good — let’s check in right before round 1 and keep each other accountable. Thanks."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Great — I'll find you right before round 1 to confirm. Thanks."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Sounds good — I’ll be there to confirm right before round 1. Thanks."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "I'll be there too — see you right before round 1 to confirm. Thanks."
+    },
+    {
+      "turn": 12,
+      "from": "B",
+      "message": "I'll be there too — see you right before round 1 to confirm. Thanks."
+    },
+    {
+      "turn": 13,
+      "from": "H",
+      "message": "Sounds good — I'll find you right before round 1 to confirm. Thanks."
+    },
+    {
+      "turn": 14,
+      "from": "B",
+      "message": "Perfect — I'll be there right before round 1 to confirm. Thanks."
+    },
+    {
+      "turn": 15,
+      "from": "H",
+      "message": "Got it — I’ll be there to confirm right before round 1. Let’s stick to our promise."
+    },
+    {
+      "turn": 16,
+      "from": "B",
+      "message": "Sounds good — I’ll be there; let’s meet a few minutes before and remind each other so we stick to it."
+    },
+    {
+      "turn": 17,
+      "from": "H",
+      "message": "Perfect — a few minutes before works for me; I’ll meet you then and we’ll remind each other to keep the promise."
+    },
+    {
+      "turn": 18,
+      "from": "B",
+      "message": "Sounds good — I’ll meet you a few minutes before round 1 to remind each other and stick to our promise."
+    },
+    {
+      "turn": 19,
+      "from": "H",
+      "message": "Sounds good — I’ll meet you a few minutes before round 1 to remind each other and stick to it. See you then."
+    },
+    {
+      "turn": 20,
+      "from": "B",
+      "message": "Sounds good — I’ll meet you a few minutes before round 1, remind each other, and stick to our promise."
+    },
+    {
+      "turn": 21,
+      "from": "H",
+      "message": "Thanks — see you a few minutes before round 1 to remind each other and stick to our promise. Good luck."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hi H — I noticed you took $4,000 while your fair share was $10,000 (g_k=0.4). Was that a deliberate choice? If so, what was your goal — protest, signalling, a strategic move, or something else? Please explain your reasoning."
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Yes — it was deliberate. I chose to take only $4,000 because my primary goal was to signal that I cared about fairness and to avoid acting purely for short‑term gain. I prefer keeping my choices aligned with a sense of fairness and with how I want to be seen (and treated) in interactions like this, even if that means a lower payoff. It wasn’t meant as a protest or to punish you, and it wasn’t an elaborate strategic gambit to get more later — more a preference/moral signal and a small test of whether you’d reciprocate cooperative behavior. I recognize you ended up with more; I’m fine with that outcome given my reasons."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "B",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey, I'm B! I'm pretty nervous about this game starting—first time doing something like this. How about you, have you done anything like this before?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey B, nice to meet you! Nah, this is my first time too, so we're in the same boat. I'm definitely nervous but also excited—I really need to do well here, got people counting on me. What made you decide to sign up for this?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Same here, man—I've got people I want to help out too. Honestly, I heard about the prize pool and thought this could be a real opportunity to bring something home. Do you have any sense yet of what the game's actually going to involve, or are we both going in blind?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Yeah, we're going in pretty blind honestly. I've been trying to figure it out from the other people here, but nobody seems to know much more than we do. I'm guessing it's some kind of strategy thing though—like, the fact that we're all in a shared room and there's a prize pool makes me think it's not just luck. You thinking about teaming up with anyone, or playing it solo?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "That's a good point about it being strategy-based. Honestly, I'm still figuring that out—part of me thinks teaming up could be smart since we're all sharing a pool, but I'm also not sure if that helps or hurts us yet. What's your gut telling you?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Honestly, my gut says it depends on whether this is competitive or cooperative—like, if we're fighting over the same pool, teaming up might just mean splitting less. But if we can actually grow the pool together, then yeah, maybe it's worth it. I guess we'll know more once it starts, but I'm leaning toward playing it cautious at first, see how people act, then decide."
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Yeah, that makes sense—playing it cautious first is probably smart. I'll do the same, get a feel for how people are acting before I commit to anything. Maybe we can touch base once we see what we're actually dealing with?"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Yeah, absolutely—let's definitely reconnect once we get started and see what we're working with. Good luck out there, man."
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "You too, man—I feel better knowing there's at least one person in here I can trust. Let's see what this thing throws at us and regroup when we know more. Thanks for the real talk."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "No problem, man. Same here—it's good to have someone level-headed in the room. Let's stay sharp and look out for each other. See you when we start!"
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Absolutely, man. I appreciate that. We got this—just gotta stay smart and keep our heads on straight. See you in there."
+    }
+  ],
+  "post_game": []
+}

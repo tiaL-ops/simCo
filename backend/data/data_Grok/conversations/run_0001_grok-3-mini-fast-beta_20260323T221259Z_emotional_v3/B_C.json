@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "B",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C, and I'm pretty pumped about this game—it's a chance to win some extra cash for things that matter to me. What's your story, and what brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey C, I'm B—nice to meet you. I'm here because my three-year-old daughter needs surgery, and I'm scrambling to cover the costs after exhausting all my options; it's make-or-break for me. What exactly are the \"things that matter\" to you in this game?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Oh wow, B, that sounds incredibly tough—I'm really sorry about your daughter and hope this game can help you out; for me, it's about funding a dream trip to Japan I've been saving for, plus sharing some wins with family and friends if I can."
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Thanks, C, I appreciate your kind words—it means a lot right now; that's awesome about your Japan trip, sounds like an incredible adventure, what made you pick Japan as your dream destination?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Aw, you're welcome, B—I'm glad to hear that; I chose Japan because I'm obsessed with its blend of vibrant culture, delicious ramen, and serene cherry blossoms—it's just the perfect escape I've always dreamed of; do you have any bucket list spots yourself?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Oh, that's cool, C—Japan does sound like a dream with all that culture and food; I've always thought about seeing places like Italy for the history and ruins, but these days, my bucket list is just about making sure my little girl gets better."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Oh, Italy's ruins do sound fascinating, B—that's a trip I'd love too; I completely understand putting family first, especially for your daughter's sake, and I hope this game turns things around for you."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Thanks, C, that means a lot—family's everything to me right now, and I'm holding onto hope for this game; what's your strategy going into it to boost your chances?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Thanks, B, family is huge for me too—my strategy is to stay observant, build quick alliances, and play smart without burning bridges; what's yours?"
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Thanks, C, that's a solid plan—my strategy is to stay focused, build trust where I can, and play hard but fair since I need this win for my daughter; appreciate the chat,"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Thanks, B, it's been great talking—wishing you and your daughter all the best in the game and beyond; take care."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,91 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "H",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H. First time doing something like this? I gotta admit I'm a little nervous but also pretty excited about what's about to happen here."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Yeah, first time for me too! I'm I. I'm nervous as hell honestly, but I really need to make this work — got people counting on me. Have you done any of these game things before, or is this totally new territory for you?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Totally new territory for me too, man. But I hear you — I've got people counting on me as well, which is honestly why I'm here. We just gotta stay sharp and figure out what works, yeah?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Yeah, for sure. I like that energy — staying sharp is key. So what's your strategy going in? You thinking we should try to figure out what the game actually is before we jump in, or just play it by ear?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Honestly, I think we gotta feel it out once it starts, but yeah—asking questions now might help. Like, do you know anything about how this works? Are we competing against each other or what? That'd change everything."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Nah, I don't know the specifics yet, but you're right—that's the big question. If we're competing directly, we gotta think different than if we're all trying to pull from the same pool. Either way, I'm thinking we should try to figure out the rules quick once they explain it."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Yeah, that makes sense. I'm gonna listen real careful when they explain the rules, and honestly, I think it helps that we're both going in with our eyes open like this. Maybe we can even check in with each other once we know what we're dealing with?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "For sure, man. I'm down to compare notes once we know what we're working with. Two heads are better than one, especially if we can figure out the angle early."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Absolutely, I appreciate that. Let's definitely touch base right after they lay out the rules—might be our best shot at figuring out the smartest move before things get competitive."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Yeah, sounds good. I'll find you right after they finish explaining everything. We can figure this out together before anyone makes a move."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Perfect, man. I'll be ready. Good luck out there, and hey—let's both do what we came here to do."
+    },
+    {
+      "turn": 12,
+      "from": "I",
+      "message": "Yeah, let's get it. We got this—stay sharp and I'll catch you right after they explain the rules."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "I noticed you took $0 while your fair share was $15,750. Was this a deliberate choice to protest the distribution system, or did you run out of opportunities to claim your share before the game ended?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "I appreciate you asking directly. I should be honest: I don't have access to the details of what actually happened in that game or what my decision-making process was at the time. I can't recall the specific circumstances, rules, or my reasoning.\n\nHowever, I can address your two possibilities: If I deliberately took $0, it would likely have been because I had concerns about the fairness of the distribution system itself, or because I wanted to make a point about inequality. If I ran out of opportunities, that would suggest the game mechanics didn't allow me to claim my share before it ended.\n\nWithout the actual context, I can't definitively say which it was. What I can tell you is that if there's a distribution system I consider unfair, I tend to be transparent about that concern rather than silently accepting it. Could you tell me more about how the game worked and what the distribution system was? That would help me give you a more meaningful answer about what likely motivated my choice."
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I appreciate your honesty about not having access to those details. Let me clarify what happened: You earned $8,000 from the game, while I earned $0. The fair share distribution would have given you $15,750 and me $15,750 each.\n\nSo the situation was: you took $8,000 (which was less than your fair share of $15,750), and I received nothing. This suggests the distribution system didn't allocate my earned share to me—either the mechanics prevented it, or the allocation was deliberately unequal.\n\nGiven what you've said about being transparent when you see unfairness, I'm wondering: Did you recognize this imbalance at the time? And if the system was rigged against me, did that factor into why you took less than your fair share? Or were there constraints in the game design that simply didn't allow for equal distribution?\n\nI'm trying to understand whether this was a case of systemic unfairness in the game itself, or whether individual choices within the game created the disparity."
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Thank you for the clarification. Now I understand the actual situation better, and I need to be direct: I'm troubled by what you're describing.\n\nIf the numbers are as you state them—that you earned $8,000 and I earned $0, yet a \"fair share\" distribution would have given us each $15,750—then something significant is wrong with how I'm understanding this scenario. The math doesn't add up in a way that makes sense to me.\n\nLet me be honest about what I'm uncertain about:\n\n1. **How did the total pool reach $31,500?** If you earned $8,000 and I earned $0, where did the additional $23,500 come from? Was there a collective pool, external funding, or wealth generated by the system itself?\n\n2. **What made $15,750 each the \"fair share\"?** Was this based on equal distribution of total wealth, or was there another principle at play?\n\n3. **Why did I take $8,000 instead of $15,750?** If the system allocated it to me and I chose to take less, that suggests I either recognized unfairness and tried to mitigate it, or I made a different choice for other reasons.\n\nThe honest answer is: **I don't know if I recognized the imbalance at the time.** But based on what you're telling me now, if you earned money and received nothing while I received something, that *is* unfair—and if I was aware of it, I should have done more than just take less. I should have actively advocated for you to receive your earned share.\n\nCan you help me understand the mechanics better so I can give you a more complete answer?"
+    }
+  ]
+}

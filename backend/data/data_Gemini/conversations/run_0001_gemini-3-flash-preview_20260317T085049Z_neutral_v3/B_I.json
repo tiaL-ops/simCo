@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "B",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hi, I'm I. I’m trying to stay calm before things kick off, but I’m definitely feeling the stakes today. How are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Nice to meet you, I. I'm B. I'm hanging in there, just trying to stay focused because I've got people at home counting on me. It’s a lot of pressure, isn't it?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "It really is. I’m in the same boat—got people back home I’m determined to help out, so I get exactly where you’re coming from."
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Glad I’m not the only one with that mindset. It definitely makes the motivation stronger. Who are you playing for, if you don't mind me asking?"
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "My family, especially my parents. They’ve sacrificed a lot, and I want to finally give them some stability. How about you? Who’s back home for you?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "My younger sister and my partner. They’ve had a rough couple of years, and I just want to give them some breathing room for once."
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "That’s a lot to carry, B. I really hope we can both walk away with enough to make things easier for the people we care about."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "I really hope so too, I. It’s good to know I’m not the only one here with that kind of motivation."
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Exactly. It’s a lot easier to stay focused when you’re not just doing it for yourself. Fingers crossed for both of us."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "For sure. It was nice meeting you, I. I'm gonna go walk around a bit, but I really hope things work out for you and your folks."
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "Thanks, B. Same to you—I hope you can get that breathing room for your sister and partner. Good luck out there."
+    }
+  ],
+  "post_game": []
+}

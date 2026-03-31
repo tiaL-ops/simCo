@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "A",
+    "B"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hi, I'm A. I'm here because I really need to win some money to help my family get back on our feet after some tough times—what about you?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hi A, I'm B—I'm here 'cause my three-year-old daughter needs surgery and I'm desperate to win for her medical bills; what tough times have you all been through?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Oh, that's heartbreaking about your daughter—I'm so sorry; we've been evicted and my family of three is scrambling for a new place, which is why I need this win badly—how's she doing right now?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Oh, thanks for your sympathy, A—that means a lot; my daughter's tough, but she's hanging in there waiting for the surgery; that's awful about your eviction—how's your family holding up through all this?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Thanks, B—it's rough, but my family's sticking together and staying positive; we're just taking it one day at a time—how are you holding up with all the stress of her surgery?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Thanks, A, that sounds really admirable how you're all sticking together—I'm hanging in there, but it's been overwhelming with the loans and worry; I'm just channeling all that into staying focused here. How are you keeping your spirits up through this search for a new place?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Thanks, B—family support and reminding myself why I'm here, like this chance to win, are helping me stay positive; it's a daily struggle, but we're leaning on each other—how do you manage to channel your stress into focus?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Thanks, A—I've been picturing my daughter's smile and reminding myself that winning this could change everything, which helps me push through the stress; it's tough, but it keeps me motivated—what's been your biggest help in staying positive?"
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Thanks, B—that's really inspiring; for me, it's leaning on my family's love and keeping my eyes on the prize of securing a new home that keeps me going—it's what gets me through each day."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Thanks, A—that's heartening to hear; we're both fighting for what matters most, so let's root for each other in the game."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Thanks, B—it's motivating to connect over this, and I'm with you, let's both crush it for our families!"
+    }
+  ],
+  "post_game": []
+}

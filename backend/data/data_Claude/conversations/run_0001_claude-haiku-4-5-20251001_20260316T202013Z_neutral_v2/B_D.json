@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "B",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D. First time doing something like this? I'm pretty nervous but excited — heard there's real money on the line here, so I'm trying to figure out what we're actually getting into."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Yeah, first time for me too! I'm B, by the way. Same here—nervous but honestly pretty pumped about it. I'm trying to figure out the rules and how this whole thing works. You heard anything specific about what the game actually is, or are we all just kind of in the dark right now?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Honestly, I'm pretty much in the dark too—just heard there's a shared prize pool and we get to take money from it, but no clue about the actual mechanics yet. I'm guessing they'll explain it once everyone's here. You thinking you're gonna go aggressive or play it safe once we know what we're doing?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "I think it depends on what the rules actually are, you know? Like, I want to win and take home money, but I'm not trying to screw people over if that's not necessary. Maybe we can figure out together what makes sense once they explain it—could be smarter to work with people than against them, honestly."
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Yeah, I like that approach—I'm definitely here to win, but you're right that working together might actually be smarter than trying to go solo. Let's see what the rules are and figure it out from there. I'm down to team up if it makes sense."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Cool, I appreciate that. Yeah, let's definitely compare notes once we know what we're dealing with. Either way, it's good to have someone I can actually talk to about this instead of just winging it alone."
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "For sure, man. Same here—feels good to have someone on the same page. Let's touch base right after they explain the rules and figure out our best move together."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Absolutely, sounds good. I'll find you right after they lay out the rules and we can figure out the best strategy together."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Cool, yeah—I'll be looking for you. Let's make sure we're thinking about this the right way once we know what we're actually playing."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Definitely. I'm feeling good about this—let's connect right after they explain everything and we'll figure out the smartest play. Good luck, man."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Thanks man, you too. Yeah, let's definitely link up right after—I've got a good feeling about this. See you in a bit."
+    }
+  ],
+  "post_game": []
+}

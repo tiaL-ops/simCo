@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "A",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A. It’s a bit intense being in a room with everyone competing for the same pot, isn't it? What's your name, and how are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey A, I'm H. It definitely is intense! I'm doing alright, just trying to stay focused. What brings you here?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Honestly, I'm just looking to win for the people I care about back home; a bit of extra cash would change a lot for us. What about you, what's your drive?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "I’m in the same boat, honestly. I've got people back home counting on me too, and I’m determined to win this for them."
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "It definitely puts things into perspective when others are counting on you. Have you had a chance to talk to many of the others yet, or are you keeping to yourself?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "I’ve spoken to a couple of people, but I'm mostly just trying to get a feel for the room. What about you, have you met anyone interesting yet?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "I've chatted with a few. Everyone seems to have that same look in their eye—pretty determined. It’s a bit of a reality check on how much we all want this."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Yeah, it’s a bit daunting seeing that same drive in everyone else. Makes you wonder how things will go once the money is actually on the line."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "That’s the real test, isn't it? I’m hoping we can all stay decent, but I know how much is at stake for everyone here."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Exactly. It's easy to stay decent when there's no money on the table, but we'll see what happens when the game starts. Good luck, A."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "I hear you. Let's hope for the best, but I'm ready for whatever comes next. Good luck to you too, H."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Great job! I'm glad we all stuck to the $10,000 fair share."
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "I agree, it was a successful outcome for both of us. It's good that we were able to maintain the fair split."
+    }
+  ]
+}

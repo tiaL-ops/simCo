@@ -1,0 +1,17 @@
+{
+  "agent_id": "G",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to J, E, and H. With J, we established genuine mutual understanding right away—we both came here for our families and agreed to keep it real with each other and watch each other's backs. E and I bonded over similar motivations and he appreciated that I was willing to be trustworthy, which made me feel like we could genuinely rely on each other going in. H stood out because we had a more strategic conversation about reading people and figuring out who might actually follow through on cooperation versus just saying the right things.\n\nI didn't feel as connected to C compared to the others, though it wasn't negative—our conversation was more transactional and cautious, with him laying out that he'd do what he needed to do but keep things honest. It felt less like we were building a real alliance and more like we were just acknowledging we wouldn't actively screw each other over.\n\nI made informal agreements with pretty much everyone to keep in touch, look out for each other, and share information once the game starts. With J, B, E, and H especially, I made explicit promises to communicate and have each other's backs.\n\nGoing in, I trust J, E, H, B, and F the most—they all seemed genuinely motivated by family needs and open to cooperation. I'm least sure about C because he seemed more guarded and transactional, though I don't actively distrust him. I'm also keeping my eyes open for the quieter people in the room that F mentioned, since I haven't gotten a real read on them yet."
+  },
+  "connection_scores": {
+    "J": 4,
+    "H": 4,
+    "E": 4,
+    "F": 4,
+    "I": 4,
+    "B": 4,
+    "A": 4
+  }
+}

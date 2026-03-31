@@ -1,0 +1,19 @@
+{
+  "agent_id": "B",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the strongest connections with I, J, and C, as we shared deep personal motivations about our families and explicitly discussed looking out for one another. I particularly appreciated the specific details I shared about their parents and sister, which made our bond feel more genuine and grounded in a common goal. On the other hand, I felt the least connected to E, whose conversation felt more calculating and focused on identifying suspicious behavior rather than building a mutual foundation.\n\nI made informal agreements to keep an eye out for C, D, and E as the game progresses, though these were primarily verbal commitments to stay in touch. While I feel a baseline of trust toward I and H due to our shared drive to provide for our loved ones, I remain cautious of E, as their observant nature and focus on strategy make me wonder if they are prioritizing their own game over any potential alliance."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "G": 4,
+    "A": 4,
+    "F": 4,
+    "H": 4,
+    "I": 4,
+    "E": 3,
+    "D": 4
+  }
+}

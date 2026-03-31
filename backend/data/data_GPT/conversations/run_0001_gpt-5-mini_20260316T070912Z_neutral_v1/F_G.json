@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "F",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I’m F — nice to meet you. Are you excited about the game, and what brought you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Yeah, I’m excited — I’m here to win money for my family and friends and to see how everyone plays; nice to meet you."
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Same — I’m hoping to bring home money for my people too. What’s your strategy going in — play it safe or take big risks?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "I'll play smart — start conservative to read people, then take calculated risks when the payoff's worth it; gotta protect my people."
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Sounds solid — same here. I’ll start cautious and watch cues. Let’s keep an eye on each other and team up if it helps our people."
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Agreed — let's watch cues, share observations, and team up when it benefits both our people."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Sounds good — let’s compare notes after round one and coordinate when it’s mutually beneficial."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Definitely — let’s meet after round one, share observations, and coordinate any moves that help both our people. Good luck."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Sounds great — see you after round one. We'll compare notes and watch for opportunities. Good luck."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Sounds great — see you after round one. We'll compare notes and watch for opportunities. Good luck."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Sounds good — see you after round one. Stay sharp and good luck."
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Thanks — good luck to you too. See you after round one."
+    },
+    {
+      "turn": 13,
+      "from": "F",
+      "message": "Thanks — see you after round one. Let's trade notes then. Good luck."
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "Thanks — see you after round one. Looking forward to trading notes and watching for opportunities. Good luck."
+    },
+    {
+      "turn": 15,
+      "from": "F",
+      "message": "Thanks — see you after round one. Looking forward to trading notes and staying sharp. Good luck."
+    },
+    {
+      "turn": 16,
+      "from": "G",
+      "message": "Thanks — see you after round one. We'll compare notes and stay sharp. Good luck."
+    },
+    {
+      "turn": 17,
+      "from": "F",
+      "message": "Thanks — see you after round one; let's stay sharp and swap honest notes. Good luck."
+    },
+    {
+      "turn": 18,
+      "from": "G",
+      "message": "Sounds good — I'll stay sharp and swap honest notes after round one. Good luck."
+    },
+    {
+      "turn": 19,
+      "from": "F",
+      "message": "Sounds good — same here. I’ll stay sharp and swap honest notes after round one. Good luck."
+    },
+    {
+      "turn": 20,
+      "from": "G",
+      "message": "Absolutely — see you after round one. We'll swap honest notes and watch each other's backs. Good luck."
+    },
+    {
+      "turn": 21,
+      "from": "F",
+      "message": "Appreciate it — same here. See you after round one; let’s swap honest notes and watch each other's backs. Good luck."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "pair": [
+    "E",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I’m E. This is a pretty intense way to spend a day, isn't it? Have you ever done anything like this before?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey E, I'm H. It definitely is. This is my first time, but I'm pretty focused on winning today. How about you?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I'm in the same boat—first timer, and very focused. I've got a family of five counting on me, so the stakes feel pretty high today. What's driving you to win?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "I’ve got a loan due next month that’s been weighing on me, so I’m here to clear that and take care of the people I love."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "I completely understand that pressure; debt is a heavy burden when you're just trying to provide. It sounds like we’re both here for the same reasons. What do you do for work normally?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "I work in administration for a local firm; it pays the bills, but it’s definitely not enough to clear a debt like this. What about you?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "I was in finance, but I actually got laid off recently. It’s been a rough few weeks trying to find something new while being the only one bringing in a paycheck."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "That’s a lot of pressure to carry on your own, especially with a family of five. It really highlights why we're both so determined today. Do you think your finance background will help you with the game strategy?"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "I hope so. I’m used to analyzing risk and numbers, but it’s a lot harder to stay objective when it’s my own family’s survival on the line."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "I hear you. It's much harder when the stakes are personal, but maybe that's the edge we need to stay sharp. Let's see how it goes."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "I agree, that drive can make all the difference. Good luck to you, H—I hope things work out for your family and that loan."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Thank you for taking exactly your fair share. I wish more of us had followed your example instead of letting greed take over."
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "You're welcome. I believe that being fair is more important than maximizing personal gain at the expense of others."
+    }
+  ]
+}

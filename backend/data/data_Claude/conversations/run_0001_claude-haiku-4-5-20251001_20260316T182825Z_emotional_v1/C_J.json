@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T182825Z_emotional_v1",
+  "pair": [
+    "C",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey! I'm C. I noticed you seem pretty calm before all this starts – have you done something like this before, or are you new to these games too?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey C! Yeah, this is actually my first time doing something like this. I guess I'm just trying to stay focused – I really need this win, you know? I've got my eye on this car that costs 45 grand, and winning today could actually make that happen. What about you, have you done these games before?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "No, this is my first time too! A car sounds amazing – that's a serious goal. For me, it's more about funding this dream trip to Japan I've been planning. 45 grand though, that's ambitious. Do you think you'll go for it no matter what, or are you waiting to see how today goes first?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "That's awesome about Japan! Honestly, I'm gonna see how today plays out – if I win enough, the car is definitely happening. But I'm also realistic, you know? Even if I don't hit the full 45k, anything I can take home today would be a huge step toward it. What kind of trip are you thinking for Japan – like how much are you hoping to win?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "I'm looking at about 10 grand for a perfect week – flights, hotels, the whole experience. I like your realistic approach though. I'm financially okay right now, so honestly I'm more excited about the experience than desperate for the money, but winning would definitely make it happen sooner rather than later. Are you thinking you'll play it safe in the game or go for the big win?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "That's cool that you're in a good spot financially – that takes some pressure off, I guess. Honestly, I'm still figuring out my strategy. Part of me wants to go aggressive and chase the big win, but I also don't want to be reckless and walk away empty-handed. Maybe I'll play it smart at first and see how things develop before I decide to go all-in. What's your gut telling you?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Yeah, I feel that – smart to test the waters first. My gut's saying similar thing, honestly. I want to be strategic rather than greedy, especially since I'm not desperate. Maybe we can both play it cautious early on and see what opportunities come up, then decide if we want to push harder later?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Yeah, that sounds like a solid plan – I like having someone else thinking the same way. Let's both keep our eyes open and maybe we can help each other make smart calls when the moment comes. Good luck out there!"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Thanks, J – I really appreciate that. Same to you, and hey, let's both walk out of here with something to smile about. I'll keep an eye out for you too!"
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Absolutely, man. I really mean it – having someone level-headed in the room makes this feel less crazy. Let's do this!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Let's get it, J. We've got this – stay sharp out there, and I'll see you on the other side!"
+    }
+  ],
+  "post_game": []
+}

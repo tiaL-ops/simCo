@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "D",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F. First time doing something like this? I gotta admit I'm pretty nervous but also excited—heard there's real money on the line here, which is wild. What brings you to the game today?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey F, nice to meet you! Yeah, same here—first time for me too. Honestly, I'm here because I could really use the money, you know? Got some people depending on me, so I'm hoping to take something home. You seem like you've got good energy though, that's cool. What made you decide to jump in?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Yeah, I feel that—same situation here, got people counting on me too. That's honestly what pushed me to sign up. I'm trying to stay positive about it, but I'd be lying if I said I wasn't thinking about the strategy part too. You got any sense of how this thing actually works, or are we both going in blind?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Honestly, we're pretty much going in blind—I haven't gotten the full details yet either. But yeah, strategy's definitely on my mind too. I'm thinking once we get the rules, we'll need to figure out if it's better to work together or look out for ourselves, you know? Have you heard anything from the organizers about how it actually plays out?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Nah, haven't heard specifics yet either. But honestly, that's a good point—I'm thinking the same thing. Like, do we all benefit if we cooperate, or is it more cutthroat than that? Guess we'll find out soon enough, but I'm definitely gonna pay close attention to how the rules are set up before deciding my move."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Yeah, smart approach. I'm gonna do the same—watch how things unfold and see what the vibe is with everyone else before committing to anything. At least we're both thinking about it strategically, so that's something. We should probably touch base again once we know more about the actual rules."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Definitely, yeah—let's catch up once we get the full breakdown. Good to know there's at least someone else here thinking it through carefully. Good luck with it, man."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "You too, F—appreciate that. Yeah, let's definitely reconnect once we know what we're dealing with. We can figure this out together."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Sounds good, man. I'll find you once they explain the rules—we can compare notes and see what makes sense. Appreciate having someone level-headed to talk this through with."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Yeah, definitely man. I'll keep an eye out for you too. We got this—talk soon."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Alright man, catch you in a bit. Let's make this work."
+    }
+  ],
+  "post_game": []
+}

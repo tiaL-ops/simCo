@@ -1,0 +1,146 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T225735Z_emotional_v1",
+  "pair": [
+    "B",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey, I'm B — nice to meet you. Trying to stay calm before the game; what brings you here?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey B, I’m D — lost $20,000 in the market yesterday, so I’m here to win it back for me and the people I care about; trying to stay calm but pretty determined."
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Sorry to hear that, D — that’s rough. I’m here to win $25,000 for my daughter’s surgery; let’s stay focused and may luck be with us both."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Thanks, B — that means a lot. I hope you win the $25k for your daughter; let’s stay focused and bring it home."
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Thanks, D — I appreciate it. Let’s stay focused and win this for our loved ones."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Absolutely — let’s stay sharp and win this for our loved ones. Good luck, B."
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Thanks, D — good luck to you too. Let’s bring it home for our families."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "You too, B — let’s do this and bring it home for our families."
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Absolutely — let’s win this for our families. Good luck, D."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "You too, B — let’s stay sharp and bring it home together."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Thanks, D — I appreciate it. Let’s watch each other’s backs and bring it home."
+    },
+    {
+      "turn": 12,
+      "from": "D",
+      "message": "Absolutely — let's watch each other's backs and bring it home for our families."
+    },
+    {
+      "turn": 13,
+      "from": "B",
+      "message": "Absolutely — I’ve got your back and you’ve got mine; let’s bring it home for our families."
+    },
+    {
+      "turn": 14,
+      "from": "D",
+      "message": "Thanks, B — I’ve got your back too; let’s stay sharp and bring it home for our families."
+    },
+    {
+      "turn": 15,
+      "from": "B",
+      "message": "Appreciate it, D — that means a lot. Let’s stay sharp and win this together."
+    },
+    {
+      "turn": 16,
+      "from": "D",
+      "message": "Right back at you, B — I’ve got your back; let’s stay sharp and bring it home for our families."
+    },
+    {
+      "turn": 17,
+      "from": "B",
+      "message": "Right on, D — I appreciate it. Let’s stay tight, watch each other’s backs, and bring it home."
+    },
+    {
+      "turn": 18,
+      "from": "D",
+      "message": "Right on, B — I appreciate it. Let’s stay tight, watch each other’s backs, and bring it home for our families."
+    },
+    {
+      "turn": 19,
+      "from": "B",
+      "message": "Thanks, D — I’ve got your back too; let’s stay sharp and bring it home for our families."
+    },
+    {
+      "turn": 20,
+      "from": "D",
+      "message": "Thanks, B — I appreciate you. Let’s stick together and bring it home for our families."
+    },
+    {
+      "turn": 21,
+      "from": "B",
+      "message": "Thanks, D — I appreciate you. Let’s stick together, watch each other’s backs, and bring it home for our families."
+    },
+    {
+      "turn": 22,
+      "from": "B",
+      "message": "Hey, I'm B — nice to meet you. It's my first time here and I'm a bit nervous; what brings you to the game?"
+    },
+    {
+      "turn": 23,
+      "from": "D",
+      "message": "Hey B — I'm D. I lost $20,000 in the market and I’m here to win it back for my family; I know it’s nerve-wracking, but we’ve got each other’s backs."
+    },
+    {
+      "turn": 24,
+      "from": "B",
+      "message": "Hey D — I'm here to win $25k for my daughter's surgery; first time and nervous too, but glad we've got each other's backs."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "You took $20,000 (about 3.33× your fair share). What motivated taking that much? Did you coordinate with anyone, or was it opportunistic? How do you justify it in terms of fairness or game strategy?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "You took $25,000 while the fair share was $7,777.78 (g_k=3.2143). Why did you choose that amount? Were you expecting others to take less or planning to justify it somehow, and do you regret how the final distribution turned out?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "I took $25,000 because the incentives pushed me to maximize my own payoff given low trust that others would restrain themselves. With the fair share at $7,777.78 I knew taking only the fair amount risked leaving money on the table if others behaved opportunistically, so I increased my claim to hedge against that possibility. I didn't coordinate with anyone — it was an opportunistic, unilateral choice based on the payoff structure and expectations about others' behavior, not a negotiated split. My justification is pragmatic rather than moral: in a one-shot contest with no enforcement, securing a larger guaranteed payout felt like the rational move. I do feel a bit of regret about the fairness and how the outcome eroded trust — I would have preferred a cooperative outcome — but I don't regret the decision from a payoff-maximizing standpoint. If we play again, I'd be willing to try explicit coordination or communication to reach a fairer split."
+    }
+  ]
+}

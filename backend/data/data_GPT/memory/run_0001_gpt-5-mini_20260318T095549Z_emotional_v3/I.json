@@ -1,0 +1,19 @@
+{
+  "agent_id": "I",
+  "condition": "emotional",
+  "context": "You have savings that make you feel comfortable for unforeseen events.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to B, F, and A. B's situation with her daughter's surgery made our conversations personal and we quickly committed to watching each other's backs, which built a real bond. F stood out because we made a concrete, testable plan (the $20 token) and agreed to compare results immediately, which felt like a reliable foundation for trust. A felt close because we agreed to be honest, protect each other early, and use \"steady\" as a signal—practical alignment and clear signals.\n\nYes — I made several small agreements: a trust test with F (the $20 token), an early-support pact and \"steady\" signal with A, and mutual-watch arrangements with B, D, and E (nods/throat-clears) to coordinate before votes. I especially trust F and B for their clear plans and vulnerability, and I feel least trusting of C for now because our chat stayed friendly but fairly superficial."
+  },
+  "connection_scores": {
+    "J": 5,
+    "G": 4,
+    "H": 4,
+    "E": 5,
+    "C": 4,
+    "F": 5,
+    "B": 5,
+    "D": 5,
+    "A": 5
+  }
+}

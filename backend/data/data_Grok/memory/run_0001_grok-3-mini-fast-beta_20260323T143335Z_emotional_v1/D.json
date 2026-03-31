@@ -1,0 +1,19 @@
+{
+  "agent_id": "D",
+  "condition": "emotional",
+  "context": "You just lost 20 000$ investing in the stock market yesterday. Although you knew that was a risk you want that money back somehow.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to E, H, and I, as our conversations went deep into personal struggles and shared goals—E and I aligned on strategies and alliances, building trust through mutual support; H and I bonded over family dreams like trips, which made me feel truly understood; and I appreciated I's enthusiasm for teaming up and organizing a group huddle to strengthen our approach. In contrast, I felt least connected to A, where our chat focused more on individual plans like their housing needs and my stock losses without much strategic depth or emotional resonance. \n\nYes, I made several agreements, such as with E to share tips and coordinate moves, with I to team up and hold a group huddle, and with J to use a code word for backing each other up. Going into the game, I trust E and I based on our solid agreements and honest exchanges, but I specifically do not trust B, as our conversation felt more superficial and less committed compared to others."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "E": 5,
+    "F": 4,
+    "G": 5,
+    "H": 5,
+    "I": 5,
+    "J": 5
+  }
+}

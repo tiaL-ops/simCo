@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T125838Z_emotional_v2",
+  "pair": [
+    "B",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D. This whole setup is a bit intense, isn't it? I’m just trying to stay calm before things get started—how are you feeling about the game?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "I'm B. It’s definitely heavy in here. I’m pretty on edge because my daughter’s surgery depends on me winning this, so I’m just trying to stay focused. What brings you to the game?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "I’m sorry to hear that, B. I’m here because I took a massive hit on some investments yesterday—lost twenty grand—and I’m determined to get that back for my family."
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "That’s a massive hit to take in one day, D. I can see why you’re here. It sounds like we both have a lot riding on this for the people we love."
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Definitely. It makes the pressure feel ten times worse, but it also makes me more determined. I'm rooting for your daughter, B."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Thanks, D. That means a lot. I really hope we both walk away with what we need for our families."
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "I hope so too. We just have to keep our heads in the game and do what’s best for them."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Exactly. I'm just keeping her face in my mind to stay sharp; I can't let her down."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "I hear you. Thinking of my family is what's keeping me focused too; we both have too much at stake to mess this up."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "I'm with you on that. Let's just do what we have to do. I’m going to take a moment to myself before they start. Good luck, D."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Thanks, B. Good luck to you too—I'll be rooting for your daughter."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "It looks like we both got $0 because the people before us took far more than their fair shares. I wanted to let you know it wasn't my choice to take $0; there was simply nothing left by my turn. It's a shame the game ended that way."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "It's frustrating that we both ended up with $0. I ended up with $0 not by choice, but just because the prize pool ran out before I could pick any amount, and it seems you were in the same position. J, A, and E took significantly more than their fair shares, leaving nothing for the rest of us."
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "I agree. It is disappointing that their greed cost us both. Since the money is gone, there's not much else to say."
+    }
+  ]
+}

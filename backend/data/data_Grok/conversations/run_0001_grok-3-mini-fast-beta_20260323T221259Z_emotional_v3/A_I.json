@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "A",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hey, I'm I – nice to meet you! I'm really excited about this game since I've been saving up for a while and see it as a fun chance to win something extra for my loved ones. What's your take on it?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey I, nice to meet you too—I'm A, and I'm pretty pumped about this game since my family and I are in a tight spot and need the win badly. What's got you saving up like that?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "Oh, I've been saving up mainly for unexpected stuff like medical bills or job losses, just to feel secure, but this game could be a nice bonus for my family too—what about your situation with your family?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Yeah, that sounds smart—saving for emergencies is always a good plan. For us, we've just been evicted and are scrambling to afford a new place, so winning this game would mean getting the deposit and rent sorted for my family of three."
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "Oh, that's really tough, A—I'm sorry about the eviction; it sounds stressful, and I hope this game helps you get back on your feet, just like I want to for my family."
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Thanks, I, that's really kind of you to say—I'm holding onto hope that this game will turn things around for us; what kind of family do you have that you're saving for?"
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "Thanks, A—I've got a wife and two kids back home, and I'm saving to keep us secure for things like school expenses or unexpected hiccups, so winning here would be a real boost for us too."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "That's awesome you have a wife and two kids to support—I can relate with my own family of three, and I hope we both walk away from this game with what we need."
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Thanks, A—it's great to connect like this, and I really hope we both get the win our families deserve; fingers crossed for you!"
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Thanks, I—it's been nice chatting with you too, and I'm rooting for both of us to win big for our families; fingers crossed!"
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "Thanks, A—it's been great chatting and sharing our stories; I'm rooting for you too, and let's both win big for our families!"
+    }
+  ],
+  "post_game": []
+}
