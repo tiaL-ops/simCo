@@ -1423,6 +1423,6 @@ class AgentScene extends Phaser.Scene {
           align: 'center'
         }
       ).setOrigin(0.5, 0).setDepth(1001);
-    }*/demo
+    }*/
   }
 }

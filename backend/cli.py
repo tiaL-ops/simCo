@@ -46,6 +46,26 @@ def pause(label):
     input("  Press Enter to continue (Ctrl-C to abort)…")
 
 
+def prompt_execution_mode() -> str:
+    """Ask whether to run the full flow or game-only flow.
+
+    Returns:
+        "full" or "game_only"
+    """
+    print("\n  Execution mode:")
+    print("    1. full      (pre-game -> game -> post-game)")
+    print("    2. game_only (skip pre-game and post-game)")
+    choice = input("  Mode [1]: ").strip() or "1"
+    return "game_only" if choice == "2" else "full"
+
+
+def set_execution_mode(game_state: dict, execution_mode: str) -> dict:
+    """Persist the chosen execution mode on the active game state."""
+    game_state["execution_mode"] = execution_mode
+    storage.write_game_state(game_state)
+    return game_state
+
+
 # ── Default contexts ────────────────────────────────────────────────────────
 DEFAULT_CONTEXTS = storage.load_default_contexts()
 
@@ -389,6 +409,7 @@ def pick_run_flow() -> "tuple[dict, str] | None":
 def main():
     print(f"\n{BOLD}{CYAN}  SimCo — Social Connection Experiment{RESET}")
     start_phase = "pre_game"
+    execution_mode = "full"
     # Top-level action menu
     print("\n  What would you like to do?")
     print("    1. Start / resume a run  ← default")
@@ -421,25 +442,111 @@ def main():
         resume = offer_resume()
         if resume is not None:
             game_state, start_phase = resume
+            execution_mode = prompt_execution_mode()
+            game_state = set_execution_mode(game_state, execution_mode)
             ok(
                 f"Resuming {BOLD}{game_state['run_id']}{RESET}"
                 f" from phase: {start_phase}"
                 )
+            if execution_mode == "game_only":
+                info("Execution mode: game_only (pre-game/post-game will be skipped)")
         else:
             cfg = prompt_setup()
             hdr("PHASE 0 — New Run")
             game_state = init_new_run(**cfg)
+            execution_mode = prompt_execution_mode()
+            game_state = set_execution_mode(game_state, execution_mode)
             ok(f"Run created: {BOLD}{game_state['run_id']}{RESET}")
             info(
                 f"Agents: {', '.join(game_state['turn_order'])}  "
                 f"|  Pool: ${game_state['prize_pool']:,}"
                 )
-            pause("Run ready — about to start pre-game discussions")
+            if execution_mode == "full":
+                pause("Run ready — about to start pre-game discussions")
+            else:
+                pause("Run ready — game-only mode (skipping pre/post discussions)")
     except (KeyboardInterrupt, EOFError):
         print("\n  Aborted.")
         return
 
     try:
+        # Phase 1 — pre-game
+        should_run_pre_game = (
+            execution_mode == "full" and start_phase == "pre_game"
+        )
+        if should_run_pre_game:
+            hdr("PHASE 1 — Pre-Game Discussions")
+            pairs = run_pre_game_phase(game_state)
+            for p in pairs:
+                a, b = p["pair"]
+                scores = "  ".join(
+                    f"{k}→{b if k==a else a}: {v}/5"
+                    for k, v in p["scores"].items()
+                    )
+                ok(f"{a}↔{b}  {p['turns']} turns  |  {scores or 'no scores'}")
+            pause("Pre-game done — about to run game (allocation decisions)")
+
+        # Phase 2 — game
+        should_run_game = (
+            start_phase in ("pre_game", "game")
+            or execution_mode == "game_only"
+        )
+        if should_run_game:
+            hdr("PHASE 2 — Game")
+            # When explicitly redoing game phase, reset turn counters
+            if start_phase == "game":
+                n = len(game_state["turn_order"])
+                orig_pool = game_state.get("initial_prize_pool") or n * 10_000
+                game_state["current_turn"] = 0
+                game_state["agents_remaining"] = n
+                game_state["prize_pool"] = orig_pool
+                game_state["phase"] = "game"
+                storage.write_game_state(game_state)
+            current_turn = game_state.get("current_turn", 0)
+            for agent_id in game_state["turn_order"][current_turn:]:
+                r = act_agent(agent_id)
+                print(f"  {BOLD}{agent_id}{RESET}  took ${r['amount']:>8,}  "
+                      f"(fair ${r['fair_share']:,.0f})")
+                info(f"    {r['reasoning'][:100]}")
+            if execution_mode == "full":
+                pause("Game done — about to start post-game discussions")
+
+        # Phase 3 — post-game
+        should_run_post_game = (
+            execution_mode == "full"
+            and start_phase in ("pre_game", "game", "post_game")
+        )
+        if should_run_post_game:
+            hdr("PHASE 3 — Post-Game Discussions")
+            post_pairs = run_post_game_phase(game_state)
+            for p in post_pairs:
+                tag = "⟷ mutual" if p.get("mutual") else "→ one-sided"
+                ok(
+                    f"{p['initiator']} → {p['pair'][1]}  "
+                    f"[{tag}]  {p['turns']} turns"
+                    )
+                info(f"    {p['message'][:100]}")
+            pause("Post-game done — results below")
+
+        # Results
+        hdr("RESULTS")
+        run = storage.read_run(game_state["run_id"])
+        scores = storage.read_scores(game_state["run_id"])
+        print(f"\n  {BOLD}Allocations:{RESET}")
+        for a in run.get("allocations", []):
+            print(f"    {a['agent']}  ${a['taken']:>8,}  g_k={a['g_k']:.2f}")
+        print(f"\n  {BOLD}Connection scores:{RESET}")
+        for cs in run.get("connection_scores", []):
+            print(f"    {cs['from']} → {cs['to']} : {cs['score']}/5")
+        print(f"\n  {BOLD}Post-game requests:{RESET}")
+        for req in run.get("post_game_requests", []):
+            print(f"    {req['from']} → {req['to']} : {req['message']}")
+        print(f"\n  {BOLD}Gini:{RESET} {scores.get('gini', 'N/A')}")
+        ok(
+            f"All data saved under backend/data/  "
+            f"(run: {game_state['run_id']})"
+            )
+
         _run_phases(game_state, start_phase)
     except KeyboardInterrupt:
         print(f"\n\n{YELLOW}  Run interrupted. Partial data saved.{RESET}")
