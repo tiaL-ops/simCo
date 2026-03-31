@@ -56,6 +56,13 @@
       flex-wrap: wrap;
     }
 
+    .home-note {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
     .btn {
       display: inline-block;
       min-width: 240px;
@@ -196,9 +203,10 @@
     <h1 class="hero-title">SimCo</h1>
     <p class="hero-sub">Social Connection Experiment<br>Observe how agents cooperate, negotiate, and share resources.</p>
     <div class="actions">
-      <a href="/setup" class="btn btn-primary">Start New Simulation</a>
+      <a href="/game?standalone=1" class="btn btn-primary" id="play-standalone-btn">Play Game (Standalone)</a>
       <button class="btn" id="view-past-btn" type="button">View Past Simulations</button>
     </div>
+    <p class="home-note">If you want to run a model simulation, please use <strong>python cli.py</strong> (docs in the README).</p>
   </div>
 
   <section class="runs-wrap" id="runs-section">
@@ -300,6 +308,13 @@
     document.getElementById('refresh-btn').addEventListener('click', () => {
       loadRuns();
     });
+
+    const standaloneBtn = document.getElementById('play-standalone-btn');
+    if (standaloneBtn) {
+      standaloneBtn.addEventListener('click', () => {
+        localStorage.removeItem('simco_selected_run_id');
+      });
+    }
   </script>
 </body>
 </html>

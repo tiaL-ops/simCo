@@ -113,8 +113,7 @@ class AgentScene extends Phaser.Scene {
     this.drawRoomBoundaries();
 
     // Enable physics debug display
-    this.debugGraphics = this.add.graphics();
-    this.debugGraphics.setDepth(100);
+   
 
     // Animations will be created per-character when spawned
 
@@ -133,9 +132,12 @@ class AgentScene extends Phaser.Scene {
     // Create the first player
     this.addNewCharacter();
 
-    // Spawn the remaining configured participants from /setup.
-    while (this.players.length < this.maxCharacters) {
-      this.addNewCharacter();
+    // Historical run view should render all run agents immediately.
+    // Standalone mode keeps Add Character meaningful by starting with one.
+    if (this.isHistoricalRun) {
+      while (this.players.length < this.maxCharacters) {
+        this.addNewCharacter();
+      }
     }
 
     this.buildWalkableGridFromMap();
@@ -756,15 +758,7 @@ class AgentScene extends Phaser.Scene {
       // Check room for all players
       this.checkPlayerRoom(playerData);
 
-      // Draw debug collision boxes
-      this.debugGraphics.clear();
-      this.debugGraphics.lineStyle(2, 0xff0000, 1);
-      this.debugGraphics.strokeRect(
-        player.body.x,
-        player.body.y,
-        player.body.width,
-        player.body.height
-      );
+    
 
       player.body.setVelocity(0, 0);
       let isMoving = false;
@@ -1406,7 +1400,7 @@ class AgentScene extends Phaser.Scene {
     const graphics = this.add.graphics();
     graphics.setDepth(1000);
     graphics.setAlpha(0.3);
-
+/*
     // Green color for room boundaries
     graphics.lineStyle(2, 0x00ff00, 1);
     graphics.fillStyle(0x00ff00, 0.15);
@@ -1429,6 +1423,6 @@ class AgentScene extends Phaser.Scene {
           align: 'center'
         }
       ).setOrigin(0.5, 0).setDepth(1001);
-    }
+    }*/demo
   }
 }

@@ -44,13 +44,21 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Open:
+Open to view chat and past simulation
 
-- `http://localhost:5001/hi` (home)
+- `http://localhost:5001/hi` (home: standalone game + past run viewer)
 - `http://localhost:5001/game` (simulation view)
 - `http://localhost:5001/chat` (pair chat viewer)
 
-### 3) Run experiments from CLI (optional)
+Note: web gameplay is independent from model simulation runs. To view olayer information and chat log you would need to run first our cli.
+
+
+```bash
+cd backend
+python cli.py
+```
+
+### 3) Run experiments from CLI !
 
 ```bash
 cd backend
@@ -104,14 +112,9 @@ Default contexts and model mappings are configured in:
 - For exact comparisons, fix provider/model, condition, and turn-order variant.
 
 ## Citation and usage
+Review phase
 
-If you use this repository for research, please cite your project/paper and clearly report:
 
-- model/provider used
-- condition setup
-- scoring/evaluation protocol
 
-## License
-
-Add your license file and update this section before publishing.
-
+## Licence
+Apache-2.0
