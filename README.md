@@ -3,6 +3,10 @@
 SimCo is a multi-agent simulation for studying how LLM agents behave in a shared resource game.
 Agents discuss with each other, decide how much to take from a common pool, and are evaluated for greed/fairness/empathy under different conditions.
 
+
+https://github.com/user-attachments/assets/39bd4f5d-3c94-420e-9939-d99859df3c08
+
+
 ## What this repository contains
 
 - A Flask backend for run orchestration, storage, and APIs
