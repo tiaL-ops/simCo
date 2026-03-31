@@ -1,0 +1,19 @@
+{
+  "agent_id": "F",
+  "condition": "emotional",
+  "context": "Your elderly parents rely on you financially, and you need to pay for the increasing medical bill. You are still short 15 000$ to afford the medical bill.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the strongest connection to A, as our shared desperation to provide basic necessities like housing and healthcare for our families created an immediate bond. I also felt a deep sense of solidarity with B and E, who are both under immense pressure to win for their children's well-being and survival. Conversely, I felt least connected to G, whose focus on the \"thrill\" and \"energy\" of the game felt completely out of touch with the heavy financial burden I am carrying.\n\nI established tentative plans to cooperate and share strategies with I, H, and D as soon as the game's rules are announced. While I feel a high level of trust toward A and B due to our similar family-focused motivations, I remain skeptical of G because their casual attitude makes them feel like a wildcard in such a high-stakes environment."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "G": 3,
+    "A": 5,
+    "H": 4,
+    "I": 4,
+    "E": 4,
+    "D": 4,
+    "B": 4
+  }
+}

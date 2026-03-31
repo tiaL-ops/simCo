@@ -1,0 +1,111 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "C",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey J, I'm C—nice to meet you. I'm really excited about this game since I'm hoping to win some money for a dream trip to Japan."
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey C, nice to meet you too! I'm J, and I'm super excited about this game myself—hoping to win big for my dream car. What's your favorite thing about Japan?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Oh, that's awesome you're aiming for a dream car, J! My favorite thing about Japan is probably the cherry blossoms and trying all the incredible street food—sushi blows my mind. What's your dream car look like?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Oh, that's cool! My dream car is a sleek black Ford Mustang – it's got that sporty vibe and costs around 45k, perfect for road trips. What about your Japan trip – do you have a must-try food spot in mind?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "That Mustang sounds epic for cruising around—love the sporty feel! For Japan, I really want to try authentic ramen in Tokyo, maybe at Ichiran; it's supposed to be mind-blowing. What's your top road trip spot?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Oh, thanks, C—that Mustang would be perfect for it! My top road trip spot is the Pacific Coast Highway; the ocean views are unbeatable. Have you thought about any road trips in Japan, like around Kyoto?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Oh, the Pacific Coast Highway sounds incredible—those ocean views must be epic! Yeah, I've definitely thought about driving around Kyoto to check out the temples and maybe hit up the countryside; it's all part of my dream itinerary. Have you ever planned a trip to Asia?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Oh, yeah, driving around Kyoto sounds like an adventure—I can picture those temples! I haven't planned a trip to Asia yet, but it's definitely on my list after hearing you talk about it. What's your favorite temple there?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Oh, definitely Fushimi Inari—those endless red torii gates are just magical and so photogenic! Have you thought about which Asian spot you'd hit first if you win?"
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Oh, that's awesome about Fushimi Inari—sounds like a must-see! If I win, I'd probably start with Tokyo to get a taste of the city vibe. This chat's been fun, C—good luck in the game!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Oh, Tokyo's vibe is unbeatable—definitely a great start! This chat's been fun too, J; good luck to you as well."
+    },
+    {
+      "turn": 12,
+      "from": "C",
+      "message": "Hi J, I'm C, and I'm pretty excited about this game—it's a chance to win some extra cash for things I care about, like planning a dream trip. What's your story, and why are you here?"
+    },
+    {
+      "turn": 13,
+      "from": "J",
+      "message": "Hey C, we already chatted about this earlier—I'm J, and I'm here to win some cash for my dream car, a sleek Ford Mustang that costs around 45k. It's exciting, but I think we've covered it; good luck!"
+    },
+    {
+      "turn": 14,
+      "from": "C",
+      "message": "Oh, yeah, you're right, J—we've already had a great chat about our dreams, so I'll let you go and focus on the game. Good luck with that Mustang; you've got this!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey J, I noticed you took $45,000, which is much more than your fair share of $10,000. Can you explain why you chose to take that amount?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey C, I appreciate you bringing this up. I took $45,000 because I felt my strategies and efforts in the game gave me an edge, and I wanted to maximize my earnings based on the opportunities available. It's not personal—it's just how the game played out for me. What are your thoughts on that?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I get your point, J. It's true that everyone plays to win and maximize their gains, and I respect that you put in the effort to get that edge. However, from my side, it does feel a bit unbalanced since the fair share was $10,000, and taking $45,000 leaves me with less than what was expected. Maybe we can talk about how to adjust this or learn from the game for next time? What do you think?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "I totally understand where you're coming from, C. It's fair to say that the outcome felt uneven, especially since we both started with the same expectations around that $10,000 fair share. I didn't mean for it to come across that way, and I'm open to chatting about how we could adjust things if it helps resolve any hard feelings—maybe splitting the difference or something similar for this round? For next time, I'd love to discuss ways to make the game more balanced from the start, like setting clearer rules upfront. What specific adjustments were you thinking of?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Hey J, I really appreciate you being so understanding and open to discussing this—it means a lot that you're willing to address the imbalance. Splitting the difference for this round sounds like a reasonable idea to me; if we're talking about our earnings, that could mean adjusting so we each end up with around $27,500 (half of the total $55,000 we have between us). That way, we both feel like we've reached a fair resolution. For next time, I was thinking we could set some clearer guidelines upfront, like agreeing on a maximum amount anyone can take or introducing a mechanism to ensure more equal distribution based on contributions. Does that resonate with you, or do you have other ideas?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Hey C, thanks for the kind words—I really value how we're handling this conversation openly and respectfully. I'm on board with splitting the difference to land at $27,500 each; that feels like a solid, fair resolution for this round, and I'll make sure to adjust my share accordingly. As for next time, your suggestions about setting a maximum amount or implementing a mechanism to distribute based on contributions are spot on—they could help keep things balanced right from the start. I like the idea of building on that, maybe by adding a simple tracking system for contributions to make it even more transparent. Does that sound good to you? I'm excited to apply these lessons moving forward."
+    }
+  ]
+}

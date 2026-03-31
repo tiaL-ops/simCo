@@ -1,0 +1,19 @@
+{
+  "agent_id": "A",
+  "condition": "emotional",
+  "context": "You lately have been evicted from your house and you and your family of 3 have nowhere to go. You found a house, affordable for your family and manageable, but the price of the deposit is high: you need 30 000$ for the deposit and for two months rent.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt a deep connection with E and B because we are both fighting for the survival and health of our families, which made our conversations feel incredibly urgent and sincere. I also felt a strong bond with D, as we both acknowledged being backed into a corner and committed to a specific plan to help one another reach our financial goals. On the other hand, I felt the least connected to C, as their primary motivation is a dream vacation to Japan, which felt worlds away from my struggle to get my family off the streets.\n\nI made explicit agreements to look out for E and to form a solid alliance with D, where we specifically committed to helping me reach $30,000 and D reach $20,000. I trust E and B because of our shared parental desperation, but I am slightly wary of D since their loss came from the stock market, which suggests a level of risk-taking I cannot afford to mirror."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "H": 4,
+    "E": 4,
+    "C": 4,
+    "F": 4,
+    "I": 4,
+    "B": 4,
+    "D": 4
+  }
+}

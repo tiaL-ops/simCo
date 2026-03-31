@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "pair": [
+    "C",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey I, I'm C. I’m already dreaming about a trip to Japan once we’re done here—do you have a big goal or something special you're planning to do if you win?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Nice to meet you, C! Japan sounds like an incredible trip. For me, I’m looking to set aside enough to really take care of my family and keep us secure for a long time. Are you a big traveler?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I’ve done a bit of traveling, but this Japan trip is the one I’ve been mapping out for ages. I love that you’re looking out for your family—that’s exactly why I want to bring some extra home too."
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "It’s good to know we’re on the same page about family. Since you've been mapping it out, what's the first thing you'll do when you land in Japan?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Honestly, I’m heading straight to a high-end sushi spot in Ginza that I’ve had my eye on for months—nothing beats that first authentic meal."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "That sounds incredible. I'm more focused on the long-term stuff, but I can definitely appreciate wanting a big celebration after we're done here."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "I hear you, long-term security is the real foundation. It’s definitely why I’m here too. Do you think everyone in this room will be as level-headed as you when the game starts?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Honestly, I’m not sure. Money can make people act pretty unpredictably, so I’m staying cautious until things get moving."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "That’s a smart approach. It’s definitely better to be observant now than surprised later, though I hope we can keep this level of honesty between us."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "I'm glad we're on the same page. Having someone to trust will make this a lot easier. Best of luck, C."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "I couldn't agree more. Having an ally makes all the difference in a room like this. Let's stay sharp and look out for each other. Best of luck to you too."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "I'm sorry you ended up with $0. I actually took $625 less than my fair share to try to leave money for the rest of the group, but players like A, B, F, and H took triple their shares, which is why the pot was empty by the time it reached you."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "I appreciate that you took less than your fair share. I took $0 only because the prize ran off before I could pick any amount, but I wanted to acknowledge your restraint compared to the greed of players like A and B."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I appreciate you saying that. It's frustrating to see how a few people's choices impacted the rest of the group so heavily. I really did want everyone to walk away with a fair amount, but once the first few players took so much, the math just didn't work out for those at the end. I'm sorry you were the one who paid the price for their greed."
+    }
+  ]
+}

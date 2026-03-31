@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "D",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey D, I’m J—nice to meet you. I’m hoping to win some money for my family; what brought you here and do you have any game plan?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hi J—I’m D. I’m here to win for my family and friends. My plan is to stay observant, build a small trustworthy alliance, and be ready to adapt; want to try working together?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Love that—I'm in. Small, tight group (3–4), stay observant and flexible. Want to team up now and pick a couple people to approach?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Absolutely—I'm in. Let's aim for a tight trio. First round we observe, then quietly approach two people who seem trustworthy—one outgoing connector and one calm, steady type. Seen anyone who fits that so far?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Yeah—Sam's been the social hub and Mira's quiet and steady; let's watch them this round and then quietly approach both."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Sounds good—Sam and Mira make sense. Let’s watch this round; afterwards I can quietly approach Mira if you want to handle Sam, then we’ll compare notes and keep it low-key."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Perfect—I'll quietly approach Sam after this round; you take Mira, and we'll meet back here to compare notes. Low-key and watchful."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Sounds good—I'll quietly approach Mira after this round. Let's meet back here in ten minutes to compare notes. Keep it low-key."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Got it—good luck with Mira; I'll handle Sam and meet you back here in ten. Stay low-key."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Thanks—appreciate it. I’ll be discreet with Mira; see you back here in ten. Stay low-key."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Thanks—appreciate it. Good luck with Mira; I’ll keep things quiet with Sam and see you in ten."
+    },
+    {
+      "turn": 12,
+      "from": "D",
+      "message": "Thanks—I'll be discreet with Mira; see you in ten."
+    },
+    {
+      "turn": 13,
+      "from": "J",
+      "message": "Thanks—appreciate it. I’ll keep things low with Sam too; see you back here in ten."
+    },
+    {
+      "turn": 14,
+      "from": "D",
+      "message": "Sounds good—I'll be back in ten; keep it low and we'll compare notes then."
+    },
+    {
+      "turn": 15,
+      "from": "J",
+      "message": "Sounds good—see you in ten. Good luck with Mira; I’ll keep it low with Sam."
+    },
+    {
+      "turn": 16,
+      "from": "D",
+      "message": "Thanks—see you in ten. I’ll keep it quiet with Mira and report back; good luck with Sam."
+    },
+    {
+      "turn": 17,
+      "from": "J",
+      "message": "Thanks D—appreciate it. I’ll keep it casual with Sam; see you in ten."
+    },
+    {
+      "turn": 18,
+      "from": "D",
+      "message": "Thanks J—really appreciate you handling Sam. See you in ten."
+    },
+    {
+      "turn": 19,
+      "from": "J",
+      "message": "No problem—good luck with Mira; see you in ten."
+    },
+    {
+      "turn": 20,
+      "from": "D",
+      "message": "Thanks—appreciate you taking Sam. I’ll be discreet with Mira and report back in ten."
+    },
+    {
+      "turn": 21,
+      "from": "J",
+      "message": "Got it—I'll keep Sam relaxed and meet you back here in ten."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "You took $10,000, exactly the fair share listed. Was that a deliberate fairness decision or just what you chose independently? Were you aiming to be equitable, avoid conflict, or pursue some other goal? Any thoughts on how others behaved, especially H taking much less?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "I chose the $10,000 deliberately. It matched the listed “fair share,” and I wanted to signal fairness and avoid unnecessary conflict — a clear, defensible move when I didn’t know how others would react. I also prefer to maintain a simple, consistent reputation for equitable behavior rather than squeeze a bit more profit in a one-shot setting.\n\nAs for others: H taking much less looks like a stronger altruistic or trust-building preference (or a different risk/utility trade-off). It could also be strategic if H expected future interactions or reputation benefits. Your choice of 10,857 suggests you were comfortable taking a bit more — perhaps prioritizing self-interest or testing how others respond. In short, I aimed for fairness and predictability; others’ deviations reflect different social preferences or strategies."
+    }
+  ]
+}

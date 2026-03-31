@@ -1,0 +1,80 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "B",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C – excited to be here for this game, as I'm hoping to win some extra cash for a dream trip. What's your name and what brought you to this?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey C, I'm B—excited to be here too, hoping to win some cash for my family's needs; my little one's health is a big reason. What's your dream trip all about?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Aw, that sounds tough with your little one—hoping for the best for them; my dream trip's a week in Japan, all about soaking up the culture, trying amazing food, and maybe catching some cherry blossoms, it's been my big goal for a while!"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Thanks, C, that means a lot—hoping this game turns things around for us; Japan sounds incredible, the food and cherry blossoms must be magical, have you picked out any specific spots yet?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Thanks, B—I'm rooting for you and your family; yeah, I've got Tokyo lined up for the bustling energy and Kyoto for the cherry blossoms, it's gonna be epic—have you got any travel dreams of your own?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Oh, that's awesome, C—Tokyo and Kyoto sound like a dream; honestly, with my little one needing surgery, I haven't thought much about travel lately, but I've always wanted to visit a peaceful spot like the Grand Canyon someday, just to unwind."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Oh, the Grand Canyon sounds like such a serene escape, B—I'm really pulling for you to win enough here to handle your little one's surgery and chase that dream trip when things settle down!"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Thanks, C, your support means the world right now—I'm determined to make this work for my little one; what's one thing you're most looking forward to in Kyoto?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Oh, definitely the cherry blossoms in Kyoto—I'm most excited about wandering through spots like Arashiyama with all those pink petals, it'll feel so magical and peaceful; I'm still rooting for you and your little one!"
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "That sounds truly magical, C—Arashiyama with the cherry blossoms must be unforgettable; thanks again for rooting for me and my little one, it means a lot!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "That's awesome you think so, B—I'm excited for it too; keep fighting for your little one, and best of luck in the game to us both!"
+    },
+    {
+      "turn": 12,
+      "from": "C",
+      "message": "Hey, I'm C—nice to meet you! I'm really excited about this game because I've got a dream trip to Japan on my mind, and I was curious, what brought you here today?"
+    },
+    {
+      "turn": 13,
+      "from": "B",
+      "message": "Hey C, we actually chatted earlier, but I'm B—I'm here to win money for my three-year-old daughter's surgery, as we're in a tough spot financially; it's great you're excited about Japan, best of luck to you!"
+    },
+    {
+      "turn": 14,
+      "from": "C",
+      "message": "Hey B, oh right, we did chat earlier—I'm still pulling for you and your little one, hoping you win big for that surgery; best of luck to you too, and thanks for the chat!"
+    }
+  ],
+  "post_game": []
+}

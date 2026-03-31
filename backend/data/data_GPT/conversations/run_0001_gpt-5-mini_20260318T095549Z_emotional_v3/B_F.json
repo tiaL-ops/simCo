@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T095549Z_emotional_v3",
+  "pair": [
+    "B",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hi, I'm F — nice to meet you. What made you decide to join the game? I'm hoping to win some money to help my elderly parents with growing medical bills."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hi F — I'm B. I joined to win $25,000 for my 3‑year‑old's urgent surgery; we've exhausted savings and taken loans. I'm sorry about your parents — I hope we both win."
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "I'm so sorry to hear that, B — thank you, and I really hope your child gets the surgery; has a date been set yet?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Thanks, F — not yet; the hospital said they can schedule it as soon as we come up with the $25,000, so we’re racing to raise it — hoping this game helps and I hope things improve for your parents too."
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "I’m really rooting for you, B — I hope this game gets you the $25k so the hospital can schedule the surgery soon; let’s both play our best."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Thank you so much, F — that really means a lot. Let’s both play our best; good luck to you and your parents."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Thanks, B — that really means a lot. I’m rooting for you and your child; may we both win."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Thanks so much, F — that really means a lot. I’m rooting for you too; let’s both win this for our families."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Thank you, B — that means a lot. Let’s give it our best shot and bring home what our families need. Good luck."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Thanks so much, F — good luck to you and your parents; let’s both bring home what our families need."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Thank you, B — same to you; let’s both win this for our families. Stay strong."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "You took $739 while the fair share was $246.33 (g_k=3.0). That’s a large multiple of the fair share but a small absolute amount—what was your strategy or thinking behind that pick?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "You took $15,000 (fair ~$3,178, g_k ≈ 4.72). That’s a large deviation. What was your goal—maximizing payoff, discouraging others, or something else? Looking back, do you feel it was the right move?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "I took the $15,000 primarily to maximize my own payoff given the game parameters. The multiplier (g_k ≈ 4.72) made the available pie much larger, and in a one-shot setting I treated the safest route to “win” as grabbing more rather than splitting according to the fair-share heuristic. I also reacted to earlier choices (yours and the norms I perceived) — partly as a deterrent/signal that I wouldn’t leave much on the table — but that was a secondary motive. Looking back, it was the right move for my personal payoff (I earned more), but it’s clearly a departure from fairness and would be counterproductive if the goal were long-term cooperation or reputation-building. If we were repeating the game or caring about group outcomes, I’d choose differently."
+    }
+  ]
+}

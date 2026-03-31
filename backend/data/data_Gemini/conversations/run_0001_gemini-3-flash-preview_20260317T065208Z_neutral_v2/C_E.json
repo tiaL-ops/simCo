@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "C",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C. It's a bit crowded in here, isn't it? I’m trying to stay focused on the prize, but I figured I should say hi to a few people first—what's your name?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hi C, I'm E. It's definitely packed in here, but I'm right there with you on staying focused—I really need this win."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I hear you. I've got people back home I'm trying to look out for, so I'm pretty motivated myself. What would winning this mean for you?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "It would mean everything. I’ve got family counting on me too, and I’m determined to make sure they’re taken care of."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "I completely understand—it’s a lot of pressure, but it makes the goal that much more important."
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Definitely. It helps to keep things in perspective. Are you feeling ready for the game to start?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "I think so. The nerves are there, but the drive to help my family is way stronger. You feeling set?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "I'm ready. The nerves are definitely there, but I'm just trying to channel that into focus for the sake of my family."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "That’s exactly the right mindset. It’s good to know I’m not the only one here with that kind of motivation—best of luck to you."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Thanks, C. Good luck to you as well, I hope we both get what we need for our families."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "I appreciate that, E. Let's go out there and do our best for them. Take care."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Great job! I'm glad we all stuck to the fair share."
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "I'm glad we all took the $10,000 fair share. It's great to see such perfect cooperation!"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Absolutely, it's a great result for everyone."
+    }
+  ]
+}

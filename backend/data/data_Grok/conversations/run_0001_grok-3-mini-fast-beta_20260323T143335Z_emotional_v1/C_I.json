@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "C",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C—nice to meet you! I heard about this game and thought it might be a fun way to win some extra cash for my dream trip to Japan. What's your story, and what brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey C, nice to meet you! I'm I, and I came here hoping to win some extra cash to support my family and friends—sounds like we're both in it for big dreams. What's got you so excited about Japan?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Oh, Japan sounds amazing to me because I've always dreamed of exploring Tokyo's bustling streets, trying authentic sushi, and seeing the cherry blossoms—it's the perfect mix of adventure and relaxation, you know? What about your family and friends—any specific plans for the money if we win?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "That's awesome, C—I'd probably use the winnings to help my parents with home repairs or treat my friends to a fun getaway; it's all about creating good memories. What's one thing you're most excited to do in Tokyo?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Oh, definitely trying authentic sushi at a Tsukiji-style market—it's going to be a foodie's dream! What's one travel spot you've always wanted to visit yourself?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Oh, that sushi sounds incredible—I've always wanted to visit Italy to wander through Rome and indulge in fresh pasta; what else is on your Japan bucket list?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Oh, Italy's pasta adventures sound like a blast—I'd love that too! Besides the sushi, I'm dying to hike Mount Fuji and soak in a traditional onsen; what's your top must-do in Rome?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Oh, for Rome, my top must-do is wandering the Colosseum at sunset—it's got that ancient magic! What about after hiking Mount Fuji, any other spots you're eyeing in Japan?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "\"That Colosseum at sunset does sound epic—after hiking Mount Fuji, I'd love to explore Kyoto's temples and maybe try a traditional tea ceremony; what's another spot in Italy you're dreaming of?\""
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Oh, another spot in Italy I'm dreaming of is the Amalfi Coast—those cliffside views and fresh seafood would be incredible! It's been great chatting about our adventures, C; I think we're going to make this game fun."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Oh, the Amalfi Coast sounds absolutely breathtaking—I'm jealous of those views and seafood vibes! It's been awesome chatting with you about our dreams; let's make this game epic together."
+    }
+  ],
+  "post_game": []
+}

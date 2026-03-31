@@ -1,0 +1,19 @@
+{
+  "agent_id": "E",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to F, G, and C. With F, we immediately aligned on cooperation being smarter than everyone going rogue, and there was a real sense of mutual trust and communication from the start. G and I bonded over our shared motivation to help our families, and he made a point of saying he'd have my back and keep it real with me. C seemed genuinely thoughtful about balancing cooperation with not being naive, which matched my own approach perfectly. J felt like the least connected—while we had a decent conversation about getting the rules first, it felt more transactional and less like we were building actual trust or understanding each other's motivations.\n\nI made loose agreements with several people to stick together and compare notes once we understood the rules—particularly with F, G, D, and C. I trust F, G, C, H, I, B, and D going in because they all seemed genuinely motivated by family needs and open to cooperation, but I'm more cautious about J and A since those connections felt shallower and less grounded in real understanding."
+  },
+  "connection_scores": {
+    "J": 3,
+    "G": 4,
+    "H": 4,
+    "C": 4,
+    "F": 4,
+    "I": 4,
+    "B": 4,
+    "D": 4,
+    "A": 3
+  }
+}

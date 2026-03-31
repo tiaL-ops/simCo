@@ -1,0 +1,95 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "G",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey H, I'm G—nice to meet you. I'm really pumped about this game since I heard it could be a fun way to win some cash, what about you?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey G, nice to meet you too! I'm super excited about this game myself—I've been looking forward to winning some cash for my family. What got you interested in joining?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Oh, I heard about this game from a buddy and thought it sounded like a great chance to win some cash for my family and friends—I'm all in! What about your plans if we win big?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "That's cool you're in it for your family and friends—I'm the same; if we win big, I'd use the money to support my family and maybe treat them to something special, like a family trip. What are your top plans?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "That's awesome about the family trip—sounds like it'd make great memories! For me, I'd use the winnings to help out my family with some bills and maybe splurge on a fun getaway for us all. What's your family's dream destination?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "That's great you're planning a getaway too—my family's dream destination is Hawaii, we've always talked about the beaches and volcanoes. What's yours?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "That's awesome, Hawaii sounds incredible—my family's dream spot is Italy, with all the amazing food and historic sites; we'd love to explore Rome! What's your favorite thing about the beaches there?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Italy sounds like an amazing choice with the food and history—my favorite thing about Hawaiian beaches is the crystal-clear water and incredible sunsets; what's your top must-see in Rome?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Oh, for sure, the Colosseum is my top must-see in Rome—it's got that epic gladiator vibe and amazing history; what's your favorite volcano spot in Hawaii?"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Oh, definitely Kilauea—it's fascinating with its lava flows and the raw power of nature; it always blows me away!"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Wow, Kilauea sounds epic with those lava flows—nature's power is just mind-blowing! It's been great talking with you, H."
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Hey H, I'm G, and I'm pretty pumped about this game—it's a chance to win some cash and maybe help out the folks back home. What's your story, how'd you end up here?"
+    },
+    {
+      "turn": 13,
+      "from": "H",
+      "message": "Hey G, it's good to see you again—I've been here because I heard about this game through some online buzz and figured it was a solid chance to win money for my family. How about you, what's your background?"
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "Hey H, it's nice chatting again—my background's simple; I heard about this game from a buddy and jumped at the chance to win some cash for my family and friends back home. We're a tight group, always supporting each other. What's your family setup like?"
+    },
+    {
+      "turn": 15,
+      "from": "H",
+      "message": "Oh, yeah, my family's close-knit too—it's me, my parents, and two younger siblings; we always stick together through thick and thin. How about yours, any siblings in the mix?"
+    },
+    {
+      "turn": 16,
+      "from": "G",
+      "message": "Yeah, I've got two siblings—an older brother and a younger sister—and we're super close, always looking out for each other like your family. Great chatting, H, but I should mingle with others now."
+    },
+    {
+      "turn": 17,
+      "from": "H",
+      "message": "That's awesome you have such a close family with siblings—it reminds me of mine! It's been great chatting with you, G, and good luck in the game."
+    }
+  ],
+  "post_game": []
+}

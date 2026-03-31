@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T125838Z_emotional_v2",
+  "pair": [
+    "B",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. It’s a bit of a tense atmosphere in here, isn’t it? What brings you to a game like this?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hi E, I'm B. It really is. I'm here because my three-year-old daughter needs a surgery I can't afford, and I'm down to my last options. I have to win this. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I'm so sorry to hear about your daughter, B. I'm in a similar boat—I just got laid off and I'm the only provider for my family of five. We're completely out of savings and I need to make sure I can keep a roof over their heads this month."
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "That's a heavy burden to carry, E; I can't imagine the pressure of five people depending on you right now. How much are you hoping to take home to get your family through this?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "I'm aiming for about $5,000 to cover rent and essentials for the month. It’s a lot, but it’s what we need to stay afloat. How much are you hoping to get for your daughter’s surgery?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "I need $25,000; I’ve already sold everything we own and taken out every loan possible, but that's the final gap I have to close for her surgery."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "That's a staggering amount, B. I really hope the prize pool is large enough for both of us to get exactly what our families need."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "I hope so too, E. It’s a lot of money, but I have to believe there's a way for both of us to take care of our families."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "I really hope so, B. We’re both just trying to protect the people we love. Let’s keep an eye out for each other when the game starts."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Absolutely, E. Let's stay strong and do what we have to for our families. I'll see you in there."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thanks, B. I'm rooting for us both. Let's do what we need to do for our families. See you in there."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "I'm sorry you got $0. I took the last of the pot because I was worried after J and A's turns, but I should have left some for you and D."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "You took $4,689, which was three times your fair share and every cent remaining in the pool. I ended up with $0 not by choice, but just because the prize pool ran out before I could pick any amount. Why did you decide to take the entire remaining balance instead of leaving some for those of us at the end of the line?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I made that decision because I panicked. After seeing J and A take such large amounts, I felt the cooperative spirit of the game had already been destroyed. I was terrified that if I didn't take what was left, I would be the one left with $0. I chose to prioritize my own payout over the group's fairness because I didn't trust that there would be anything left for me otherwise, though I realize now that my actions were selfish and left you in the position I was afraid of."
+    }
+  ]
+}

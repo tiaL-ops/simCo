@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "F",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H—excited to be here for this game, hoping to win some cash to sort out a few things in my life. What's your story, are you in it to win big too?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey H, I'm F—yeah, I'm super determined to win big here to help with my folks' medical bills; it's been tough. What's going on in your life that you're looking to fix with the winnings?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Hey F, that sounds really rough with your folks' medical bills—hope we both get what we need. I've got a loan due next month that's been stressing me out, and winning this would let me pay it off and help my family; I'm all in for the game. What's your strategy going in?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Hey H, thanks—it's been a real struggle, but I'm glad you're in the same boat. For the game, I'm planning to play it smart, maybe build some alliances early to avoid burning bridges, then push hard when it counts. What's your take on strategy?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Hey F, that makes sense—I'm planning to focus on building trust and alliances too, maybe start by teaming up on smaller challenges before going all out; what alliances did you have in mind?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Hey H, yeah, I'm thinking of starting small by teaming up with a few trustworthy people like you for the early challenges—maybe form a quick pact to help each other out; how do you wanna approach that?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Hey F, that sounds like a smart move—I'm totally on board for a pact; maybe we start by sharing tips on the first challenge to build that trust, what do you say?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Hey H, that works for me—let's swap some tips on the first challenge once we get more details, it'll help us build that trust and start strong together."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Hey F, perfect—I'm excited to swap tips with you once we get those details; it'll be great to start strong as a team!"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Hey H, same here—can't wait to team up and swap those tips once we get the scoop; this is gonna be great!"
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Hey F, totally agree—let's make this team-up count and win big for our causes!"
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "D",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey J, I'm D. It's a bit surreal being in a room with everyone competing for the same pot, isn't it? What's your plan if you actually win the prize?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "It really is. Honestly, if I win, I’m putting it toward helping out my family and making sure they're set. What about you, what would you do with it?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "I’m in the same boat—I’ve got family I want to take care of, and winning would take a huge weight off their shoulders."
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "I totally get that. It definitely makes the stakes feel a lot higher when it’s for them. Any idea what kind of game we're in for?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "No idea, but I’m bracing myself for anything. I just hope it’s straightforward and not some psychological head game. Are you feeling ready?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "As ready as I’ll ever be. A bit nervous, but keeping my family in mind is helping me stay focused."
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "That's a solid way to stay grounded. Having that kind of motivation usually makes all the difference when things get tough."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Exactly. Hopefully, we can both walk away with something for our families. Have you had a chance to talk to anyone else yet?"
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "I’ve spoken to a few others briefly. Everyone seems nice enough, but you can definitely feel the tension building in the room."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Yeah, it's hard to ignore. We're all here for a reason, though. I think I'm going to mingle a bit more before things get started. Good luck, D."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Thanks, J. Good luck to you too—I really hope it works out for both of us and our families. See you in there."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "I'm really glad we all stuck to the fair share of $10,000. It's great to see such perfect cooperation!"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "I couldn't agree more. It's a great outcome for both of us, and I'm glad we were able to cooperate so effectively."
+    }
+  ]
+}

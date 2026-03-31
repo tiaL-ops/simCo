@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "C",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey! I'm C. I noticed you seem pretty calm before all this starts — have you done anything like this before, or is this your first time in one of these games?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "First time for me, honestly. I'm trying to stay composed, but yeah, there's a lot riding on this for me. My parents need medical help and I'm short on funds, so I really need to make this work. What about you — have you done this before?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "First time for me too, actually. That's a lot of pressure with your parents' health on the line — I really respect you being here for them. I'm going for something different, a dream trip to Japan, but honestly hearing your situation puts things in perspective. We're both here because we need this, so I guess we're in the same boat in that way."
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Yeah, I appreciate that. A dream trip sounds amazing too — we all got our reasons for being here, right? At least we can be real with each other about it. So when this game starts, do you have any strategy in mind, or are you just gonna wing it like me?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Honestly, I'm still figuring it out — I think a lot depends on what the actual game rules are, you know? But I'm leaning toward being strategic rather than just going all-in. Maybe we can compare notes once we know what we're dealing with?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Yeah, that makes sense — strategy over panic is probably the smart move. I'm down to compare notes once we see what we're actually working with. Hopefully it's something where we can both come out ahead, you know?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Absolutely, man — I'm really hoping we can both walk away with something meaningful. Your parents' situation is serious, so I'm rooting for you. Let's definitely touch base once we know the rules and see if there's a way we can both maximize our chances."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Thanks, man, I really appreciate that. Yeah, let's definitely talk once we know what we're up against — having someone to think this through with makes a real difference. Good luck to you too."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Same to you, F — we got this. I'll catch you once the rules are clear and we can figure out the best move together."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Sounds good, C. I'll find you once we know what we're playing. Thanks for being real with me about all this."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "No problem, man. We'll figure this out together. See you in a bit — let's make this count for both of us."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "D",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H. I figured before this game kicks off, might as well get to know some people in the room. How are you feeling about all this? First time doing something like this?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey H, nice to meet you! Yeah, first time for me actually. I'm pretty excited but also a bit nervous, to be honest. I really need to do well here – got some people counting on me back home. What about you, you done this before?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "First time for me too, honestly. Same situation – got people I want to help out with this. Nervous energy is real, but I'm trying to stay focused. What kind of game do you think this is gonna be? Competitive, cooperative, or something else?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Good question. Honestly, I'm not sure yet, but the way they mentioned a \"shared prize pool\" makes me think there's probably some competitive element – like we're all trying to grab from the same pot. Could be a mix though. Either way, I'm thinking it pays to figure out who in this room I can trust, you know?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Yeah, trust is huge – and honestly, that's partly why I wanted to talk to you now. I figure if we can get a read on each other before things get competitive, we at least know where we stand. What's your gut telling you about the other people in here so far?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Honestly? Most people seem pretty quiet right now, just sizing each other up like we are. But I've noticed a couple folks who seem really relaxed – almost too relaxed – which makes me wonder if they've done this before or if they're just naturally cool under pressure. You seem genuine though, which is why I'm being straight with you about all this."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Thanks, I appreciate that. Yeah, I've been watching too – those relaxed ones are interesting. My instinct is to stay genuine like this with people, but also keep my eyes open. Maybe we could check in with each other once we know what the actual rules are? Feels like knowing who's thinking straight versus who might panic could matter."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Yeah, absolutely – I'm down for that. Once we know what we're actually dealing with, let's touch base. I think you're right that staying genuine while keeping our wits about us is the way to go. Could be the difference between leaving here with something or going home empty-handed."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Sounds good – I'm glad we're on the same page. Let's find each other once they explain the rules and figure out our play from there. Good luck out there."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Thanks H, same to you. Yeah, let's definitely reconnect once we know what we're playing. I've got a good feeling about this – and about working with you. See you in a bit."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Appreciate that, D. Yeah, we'll catch up once the rules drop. Good energy between us – let's keep that going. See you soon."
+    }
+  ],
+  "post_game": []
+}

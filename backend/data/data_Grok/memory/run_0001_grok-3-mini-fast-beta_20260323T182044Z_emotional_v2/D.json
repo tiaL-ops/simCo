@@ -1,0 +1,19 @@
+{
+  "agent_id": "D",
+  "condition": "emotional",
+  "context": "You just lost 20 000$ investing in the stock market yesterday. Although you knew that was a risk you want that money back somehow.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to C, as our conversation flowed naturally about teaming up and supporting each other's goals, which built a strong sense of mutual trust and excitement. G was another strong connection, since we bonded over shared strategies and agreed to work together, making me feel aligned in our approach to the game. Additionally, I connected well with A, given our open discussions about family struggles and a plan to back each other early on, which made me feel like we were on the same team. On the other hand, I felt least connected to B, as our chat was polite but mostly surface-level, focusing on general advice without delving into deeper strategies or commitments.\n\nI did make agreements with a few people, like C, G, and A, where we discussed teaming up subtly and backing each other in the game. Going into the game, I trust C, G, and A based on our conversations and shared plans, but I don't specifically trust others like B or E yet, as our interactions didn't build that same level of reliability."
+  },
+  "connection_scores": {
+    "C": 5,
+    "J": 4,
+    "G": 5,
+    "A": 4,
+    "F": 4,
+    "H": 4,
+    "I": 4,
+    "E": 4,
+    "B": 4
+  }
+}

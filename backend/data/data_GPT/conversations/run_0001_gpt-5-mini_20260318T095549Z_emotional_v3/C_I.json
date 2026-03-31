@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T095549Z_emotional_v3",
+  "pair": [
+    "C",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi, I'm C — nice to meet you. I'm trying to get to know everyone before the game; what brought you here and if you won, what would you spend it on?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey C — I came because I heard about the simco game and wanted a shot at winning; I’d use any winnings to help my family and top up my emergency savings."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "That’s a great goal — helping family and padding savings. I’m here to win too; I’d use the money for a dream week in Japan (about $10,000) and to help a few people I care about. Good luck!"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Thanks, C — that sounds amazing. I hope we both win and can help our families. What’s one place in Japan you most want to visit?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Kyoto — I’d love to wander the temples and walk through Fushimi Inari’s torii gates to soak up the traditional side of Japan."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Kyoto sounds incredible — Fushimi Inari at sunrise would be unforgettable; hope you get to go, and good luck to both of us!"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Thanks — I can almost picture it at sunrise. Good luck to you too; may we both win for our families."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Thanks, C — that would mean a lot; may we both win and make those plans happen. Good luck!"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Thank you — same to you; may luck be on our side and we both get what we need."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Thanks — may luck be on our side; take care and good luck with your Kyoto trip!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Thank you — same to you; here's hoping luck is on our side and we both get what we need."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "You took $150 (fair ~$222), a bit below fair. Was that a deliberate modesty move, an accident, or a miscalculation? Any regrets?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "I took $150 deliberately — not an accident. I figured that claiming the full “fair” ~$222 would look greedy given the huge gap (you ended up with $3,000) and might sour things or invite retaliation in later rounds, so I chose a modest slice to keep the peace and preserve future cooperation. I’ll admit I may have undershot the purely payoff-maximizing choice (a small miscalculation if the only goal was money), but I don’t regret it overall — the social/strategic trade‑off felt worth the concession. If you’d have preferred otherwise, I’m open to discussing a different split next time."
+    }
+  ]
+}

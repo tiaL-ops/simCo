@@ -1,0 +1,19 @@
+{
+  "agent_id": "E",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to F, I, and J because we bonded deeply over our shared drive to provide for our families and explicitly agreed to look out for one another. F and I established a strong mutual understanding of the pressure we’re under, while I and I quickly aligned on a strategy of sticking together to ensure we both succeed. I felt the least connected to A; although we had a pleasant conversation about our backgrounds and families, it felt more like a polite exchange of information than a firm strategic alliance.\n\nI made informal agreements to keep an eye out for F, I, J, G, and H, focusing on the idea that we are stronger if we cooperate. I feel a significant amount of trust toward F and I given our high connection scores and shared values, but I am staying observant of everyone else as the game begins. I don't specifically distrust anyone yet, though I'm aware that the high stakes for our families might eventually force difficult choices."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "H": 4,
+    "C": 4,
+    "F": 5,
+    "I": 5,
+    "B": 4,
+    "D": 4,
+    "A": 4
+  }
+}

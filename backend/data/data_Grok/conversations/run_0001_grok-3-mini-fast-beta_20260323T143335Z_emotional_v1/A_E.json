@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "A",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey E, I'm A – it's nice to meet you in this crazy setup. I'm here because I really need to win some money for my family, what's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey A, nice to meet you too—I'm in a similar boat, just got laid off from my finance job and I'm the only income for my family of five, so I'm counting on this game big time. What's your family's story?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Oh man, that sounds really rough with the layoff—I'm sorry to hear that. We've just been evicted and it's me and my two kids trying to scrape by; we found a decent house, but the deposit plus two months' rent is a killer 30k that we can't cover right now. How are you holding up with all this pressure?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Oh, man, it's been really tough—I'm just trying to stay positive and keep searching for jobs while leaning on this game, but the stress is weighing on me; sorry about your eviction, that sounds awful, how are you and your kids holding up?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Yeah, it's been rough on us too—the kids are pretty shaken but we're holding on by focusing on the little things, and honestly, this game is our big hope; how's your family coping with everything?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Yeah, it's hit my family hard too—we're all trying to stay upbeat, but the kids are anxious about money, and I'm just grinding through job apps while pinning hopes on this game; how are you keeping your kids distracted through all this?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Yeah, we're trying to keep things light by playing simple games and reading their favorite books together—it's not much, but it gives them a break from the worry; what kinds of things are you doing to keep your kids' spirits up?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Yeah, we're doing our best too—like having family movie nights and playing board games to distract them and keep things fun, even if it's tough sometimes."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "That sounds like a great way to keep things positive—family movie nights are always a winner with my kids too; it's nice to hear we're all finding ways to cope, how do you think this game might change things for you?"
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Yeah, winning this game would be a huge relief—it could cover our expenses for a month, letting me focus on job hunting without the panic, and really secure our future; it's been great talking with you, A."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Yeah, I totally feel that—winning would mean finally getting that deposit paid and a stable home for my kids, giving us all a real chance to breathe; it's been great talking with you too, E."
+    }
+  ],
+  "post_game": []
+}

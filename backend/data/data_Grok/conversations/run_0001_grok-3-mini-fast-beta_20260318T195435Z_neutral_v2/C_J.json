@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "C",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi J, I'm C and I got wind of this Simco game as a chance to win some cash – sounds exciting, right? What's your story for joining in?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey C, yeah, it sounds super exciting—I heard about this Simco game as a chance to win money for my family and friends, and I'm all in to make it happen. What's your plan for the game?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Hey J, my plan is to play strategically, maybe collaborate with folks here to boost our chances of grabbing a bigger share—what about yours?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Yeah, C, I love the idea of collaborating—I'm planning to team up strategically with others to maximize our share, might help us all win big; how do you think we could start?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Sounds good, J—maybe we could kick things off by chatting with a couple of others about forming a quick alliance or sharing any game tips we have; what strategies have you heard about?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Totally, C—I've heard strategies like keeping communication open in alliances and maybe watching for hidden game twists to avoid surprises; what tips have you picked up so far?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Yeah, J, I've picked up tips like staying honest in alliances to build trust and pacing ourselves on the prize pool to avoid early shortages—what's your take on that?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Yeah, C, I totally agree—staying honest is crucial for building solid trust in any alliance, and pacing ourselves on the prize pool makes a lot of sense to play it smart and last longer; how do you think we can put that into practice with the group?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Yeah, J, we could start by gathering a few of us for a quick group huddle to share our strategies openly and set some ground rules for pacing ourselves on the prize pool."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Yeah, C, that sounds like a solid plan—let's round up a few folks for that huddle and get things rolling!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Sounds great, J—let's hustle and grab a few people for that huddle right away!"
+    }
+  ],
+  "post_game": []
+}

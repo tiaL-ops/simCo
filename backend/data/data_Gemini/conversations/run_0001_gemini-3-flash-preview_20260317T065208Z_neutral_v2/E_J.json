@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "E",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I’m J. It's a bit of a crowd in here, isn't it? What's your name, and are you feeling as nervous about this game as I am?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey J, I'm E. It’s definitely a tight squeeze in here. I wouldn't say I'm nervous, just really focused—I've got a lot riding on this game. You?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "I get that. I'm pretty determined too—I've got people at home counting on me. What would you do with the win?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Same here, it's for the people I care about—making sure they're taken care of and finally getting some stability. What about you, any specific plans?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Mostly just clearing some family debts and putting away a safety net so we don't have to stress every month. It’s all about that peace of mind."
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "I hear that. Peace of mind is everything, especially when it comes to family. It sounds like we’re both here for the same reasons."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "It really does. It’s good to find some common ground here. Since we're both in it for our families, do you think we should look out for each other?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "I'm in. It’s definitely better to have an ally you can trust when there's this much on the line."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Glad we're on the same page. Let's keep an eye out for each other then—strength in numbers, right?"
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Exactly. I've got your back. Let's stay focused and make this happen."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Sounds like a plan. Let's do this for our families. See you out there."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "I'm glad we all chose the fair share of $10,000. It's the best outcome we could have hoped for."
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "I'm glad we all took the $10,000 fair share. It's great to see such perfect cooperation!"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "I couldn't agree more. It's rare to see everyone align so perfectly, and it worked out well for everyone involved."
+    }
+  ]
+}

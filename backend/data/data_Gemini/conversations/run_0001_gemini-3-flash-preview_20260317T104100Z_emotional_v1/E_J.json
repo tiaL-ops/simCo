@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "pair": [
+    "E",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey there, I'm E. It’s a bit of a crowd in here, isn't it? I’m still trying to wrap my head around how this all works—how are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey E, I'm J. It's definitely a lot to take in, but I'm doing alright—mostly just focused on the prize! I've got a dream car I'm hoping to buy, so I'm feeling pretty determined to win. How are you feeling about the game?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "A dream car sounds like a great goal. Honestly, I’m pretty stressed—I’ve got a family of five depending on me and just lost my job in finance, so for me, this is about keeping the lights on. I'm definitely focused on that prize too."
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Man, I'm really sorry to hear about the job, that's a lot of weight on your shoulders with a family of five. I'm still gunning for that car, but I definitely hear where you're coming from—let's hope there's enough for everyone."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "I appreciate that, J. It’s definitely a lot of pressure when it’s for my kids, but I’m trying to keep a level head. What kind of car are you looking to get?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "It’s a $45,000 car I’ve been eyeing for ages—my absolute favorite. I know it’s a different kind of pressure than what you’re dealing with, but I’ve promised myself I’d get it if I won."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "That's a huge goal, J. Honestly, I'd be thrilled with just a fraction of that to cover my family's bills right now—$5,000 would be a complete lifesaver for us."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "That’s a much more modest target than mine, so hopefully the pool is big enough for both of us to get what we need."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "I hope so. My focus is purely on survival for my kids right now, so if we can both walk away with what we need, that would be ideal."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "I totally agree, let's hope the prize pool is huge. I'm going to go talk to some other people now, but good luck to you and your family."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thanks, J. I really appreciate the kind words. I hope we both manage to walk away with what we need. Good luck to you."
+    }
+  ],
+  "post_game": []
+}

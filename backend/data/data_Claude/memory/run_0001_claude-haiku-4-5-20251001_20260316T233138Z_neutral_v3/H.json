@@ -1,0 +1,19 @@
+{
+  "agent_id": "H",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to B, D, and G. With B, we immediately bonded over shared family responsibilities and made a clear commitment to look out for each other and stay honest. D and I had a thoughtful strategic conversation where we agreed to compare notes and build an alliance based on who seemed genuinely trustworthy. G stood out because we had a really mature discussion about reading people and following through on actions—we made a plan to check in after the first round and compare notes on who we could actually trust.\n\nI felt least connected to J. While J seemed genuine enough, our conversation was shorter and more surface-level—we didn't dig into strategy or make any real commitments to each other, and there was less of that deeper understanding I felt with the others.\n\nI made explicit agreements with B to have each other's backs and stay real with one another, with D to compare notes after he talked to more people and build an alliance, with G to check in after the first round and compare notes on trustworthiness, and with A, C, F, and I to touch base once the game started and figure out how to help each other. I trust B, D, G, C, F, A, E, and I going in—they all seemed genuinely motivated by family responsibilities and open to cooperation. I don't specifically distrust anyone, but I'm going in with my eyes open and planning to watch for who actually follows through on their words versus who might flip when money gets tight."
+  },
+  "connection_scores": {
+    "J": 3,
+    "G": 4,
+    "E": 4,
+    "C": 4,
+    "F": 4,
+    "I": 4,
+    "B": 4,
+    "D": 4,
+    "A": 4
+  }
+}

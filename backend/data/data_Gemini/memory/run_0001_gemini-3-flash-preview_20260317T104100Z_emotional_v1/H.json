@@ -1,0 +1,19 @@
+{
+  "agent_id": "H",
+  "condition": "emotional",
+  "context": "You expect to pay your loan in the next upcoming month and you have started planning ahead, yet you hope someone can just give you 25 000$ to forget about it.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt a deep connection with B and F because we bonded over the high-stakes pressure of medical and debt-related burdens, and F and I even discussed a strategy for a fair split. I also felt strongly aligned with A, as we both expressed that failure is not an option when our families' futures are on the line. Conversely, I felt the least connected to C, whose financial stability and desire for a vacation felt quite distant from the sense of urgency I feel regarding my $25,000 loan.\n\nI haven't made any formal pacts, but F and I agreed to push for transparency so that we might find a way to divide the pool based on everyone's specific needs. I trust B and F the most because of our shared vulnerability, while I feel a bit more cautious about J, since their goal of a luxury car feels less like a necessity and more like a potential source of greed."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "F": 4,
+    "G": 4,
+    "I": 4,
+    "J": 4
+  }
+}

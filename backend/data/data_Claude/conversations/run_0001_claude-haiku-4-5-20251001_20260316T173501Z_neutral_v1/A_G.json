@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "A",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A! I figured before we get into this game, might as well get to know some people. What brings you here today? Are you hoping to win big like the rest of us?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey A, good to meet you! Yeah, I'm definitely here to win - got some people counting on me back home who could use the help. What about you, what's your story?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Same here, man. I've got family I want to help out, and honestly, I could use a fresh start myself. This prize pool is exactly what I need right now. You think you've got a strategy going in, or are you just gonna play it by ear?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Honestly, I'm still figuring it out - depends on what the game actually is, you know? But I'm thinking it helps to stay sharp and not get too emotional about it. You got any ideas on how this thing works, or are we all in the dark until it starts?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Yeah, I'm pretty much in the dark too, but I like what you're saying about staying sharp. I've been wondering if this is like a negotiation thing or more competitive - either way, I'm thinking it'll help to figure out who in this room I can actually trust before we dive in."
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "That's smart thinking - trust is gonna matter either way. I'm planning to watch how people act before committing to anything. You seem pretty straightforward, which is refreshing. We should probably keep talking to the others too, but I'm getting a good vibe from you so far."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Yeah, I appreciate that - and same here, you seem like someone I can be real with. I'll definitely be circulating and talking to others, but I'm glad we connected. Maybe we can touch base again before things kick off and compare notes on what we're picking up from people?"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Definitely, let's do that. I'll keep my eyes open and we can catch up before it starts - two sets of eyes are better than one, right?"
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Absolutely, man. I'll do the same - we can meet up in like ten minutes and touch base before things get rolling. Good looking out."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Sounds good, man. Yeah, let's catch up in ten - I'll scope out the room and see what I can pick up. See you in a bit."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Yeah, perfect. I'll do the same and catch you in ten. Good luck out there, man."
+    }
+  ],
+  "post_game": []
+}

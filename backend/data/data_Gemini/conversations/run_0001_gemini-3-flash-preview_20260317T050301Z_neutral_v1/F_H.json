@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "F",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey there, I'm F. This is all a bit overwhelming, isn't it? I'm just trying to clear my head before things start—how are you feeling about the game?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Nice to meet you, F. I'm H. It's definitely a lot to take in, but I'm feeling pretty focused—I've got a lot riding on this for my family. How are you holding up?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "I hear you, H. I’m in a similar boat—got people back home I really want to help out, so I’m just trying to stay as steady as I can."
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "I appreciate that. Keeping a level head is probably the best strategy we've got right now. Do you have any idea what kind of game we're looking at?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Not really, I just know it involves a shared prize pool, so I'm guessing we'll have to make some tough decisions about how to split it."
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "That makes sense. I just hope the decisions don't turn into a free-for-all; I'd rather we find a way to make it work for everyone."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "I completely agree. It’d be a lot better for all of us if we can stay organized and fair instead of letting things get chaotic."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Definitely. I'm glad we're on the same page—it's good to know there's someone else here looking to keep things civil. Have you talked to many of the others yet?"
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Not really, just some brief introductions. It feels like everyone is still a bit guarded, so I’m glad we could actually talk."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Same here, F. It’s definitely nice to find a friendly face early on. I’m going to go mingle and see where everyone else’s heads are at, but let’s try to keep that cooperative spirit once things start."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Sounds like a plan, H. Let's look out for each other once things get moving. Good luck talking with the others."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Great coordination! I'm glad we all stuck to the $10,000 fair share and reached the best possible outcome."
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "I agree, it was a great outcome. I'm glad we could coordinate so effectively for a fair result."
+    }
+  ]
+}

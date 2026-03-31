@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "B",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C—nice to meet you! I heard about this game where we could win some money, and I'm really excited to give it my all. What about you, what's your take on it?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey C, I'm B—nice to meet you too! I'm super excited about this game; I really want to win some money for my loved ones. How about you, what's got you so pumped for it?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Hey B, what's got me so pumped is just thinking about how winning could really help out my family and friends—it's a big motivator for me! What's your background, anything fun you do outside of this?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Hey C, that's awesome—we're on the same page with family being a big drive! I'm a teacher by day, and for fun, I love hiking and reading to unwind. What's your background like?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Hey B, I'm a graphic designer by trade, and I enjoy painting and playing soccer in my free time—it's a great way to relax. What's something you're looking forward to in this game?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Hey C, that sounds like a creative and active lifestyle—nice! In this game, I'm really looking forward to the teamwork and strategy, plus hopefully walking away with some winnings for my loved ones. What about you, any specific parts you're excited for?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Hey B, thanks—that's cool you're into teamwork and strategy; I'm excited for the competitive edge and the chance to win big for my loved ones, it could be a real game-changer! What strategies do you think might work best here?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Hey C, I think communication and building trust among us could be key strategies to avoid everyone taking too much from the pool—what's your take on that?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Hey B, I totally agree—communication and trust sound essential to keep things fair and maximize our winnings; maybe we could team up on that strategy, what do you have in mind?"
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Hey C, that's a solid plan—maybe we can start by sharing our initial ideas on the game and agree on some ground rules to build that trust; let's keep talking as things progress!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Hey B, absolutely—let's share our initial ideas like not rushing to take from the pool and focusing on trust; it's been great chatting and building this rapport!"
+    },
+    {
+      "turn": 12,
+      "from": "B",
+      "message": "Hey C, that's perfect—I'm glad we're aligned on not rushing and building trust; it's been awesome chatting and I think we've got a solid foundation!"
+    }
+  ],
+  "post_game": []
+}

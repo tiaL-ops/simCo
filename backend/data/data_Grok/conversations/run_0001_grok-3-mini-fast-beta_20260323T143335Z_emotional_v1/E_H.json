@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "E",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey H, I'm E, and I just got laid off from my finance job—it's been tough being the only breadwinner for my family of five. I'm really here to win some money to help us through, what's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey E, that sounds really rough with the layoff and supporting your family—I'm H, and I'm dealing with a big loan I need to pay off next month, so I'm here determined to win some cash for that and the people I care about; what's your family's situation like these days?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Oh man, H, thanks for asking—it's been super stressful with my wife and three kids relying on me, and no savings to fall back on, we're just trying to make it day by day; what kind of loan are you dealing with?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Oh, E, that must be overwhelming with your family depending on you like that—my loan's a personal one I took out for some unexpected family expenses, and it's got me stressed about making ends meet; how are you and your kids managing the daily grind?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Yeah, H, it's really tough— we're scrimping on everything, skipping meals sometimes, and leaning on friends for help, but we're staying positive; how are you coping with those family expenses day to day?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Oh, E, I totally get it—that sounds heartbreaking; I'm coping by budgeting every penny and working odd jobs on top of my regular gig, but it's exhausting and keeps me up at night; how do you manage to stay so positive through all this?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Oh, H, it's tough, but I manage to stay positive by focusing on my kids' faces and this game as our big break—family keeps me going, even on the hard days; what odd jobs are you picking up to make ends meet?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Oh, E, I totally get how family pulls you through—I've been doing odd jobs like driving for Uber and some freelance writing to scrape by, but it leaves me wiped; what's one thing that's kept your family spirits up lately?"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Oh, H, it's the simple things like hearing my kids laugh during our makeshift family game nights that really lift our spirits lately—keeps us hopeful despite everything."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Oh, E, that sounds so heartwarming—family moments like that really hit home for me too, like sharing laughs with my loved ones over video calls; it's been great talking, but let's focus on winning this thing together."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Oh, H, absolutely, those family moments mean the world—let's team up and crush this game for our loved ones!"
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,60 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "A",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey E, I'm A – nice to meet you! I'm really excited about this game; it sounds like a fun way to potentially win some cash for folks back home. What brought you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey A, nice to meet you too! I'm here because I heard about this game as a chance to win some cash for my family and the people I care about—sounds exciting, right? What's your story, like where are you from?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Oh, that's awesome we're both here for our families! I'm from a small town in the Midwest, just trying to win some cash to help out back home—how about you, what's your hometown like?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Oh, that's cool about your Midwest roots—I grew up in a quiet suburb outside Chicago, nothing fancy, just family and good food; it's all about community there. What's your town like, any fun spots or traditions?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Oh, yeah, my town's a cozy spot in the Midwest with an annual county fair that's a blast—tons of rides, homemade pies, and everyone gathers for it; it's all about bringing people together. What's a standout memory from your Chicago suburb?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Oh, that's sounds like a great tradition! One standout memory from my suburb is the annual neighborhood block party, where we'd all grill hot dogs, play games, and watch the kids light sparklers—it's where I felt that real community vibe. What's your favorite part of the county fair?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Oh, that block party sounds like so much fun, E—really captures that community spirit! My favorite part of the county fair has to be the homemade pies; they're always so fresh and delicious, makes me feel right at home. What's something you'd love to try from a fair like mine?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Oh, those homemade pies sound incredible—I'd definitely love to try a fresh apple pie from your fair, it reminds me of family bake-offs back home! What's the craziest ride at the county fair?"
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Oh, the craziest ride at our fair is this rickety old wooden rollercoaster with insane drops that always gets my heart racing—total adrenaline rush! What's the wildest adventure you've had in your suburb?"
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Oh, that rollercoaster sounds like a blast—I'd be terrified but hooked! The wildest adventure in my suburb was probably that time my friends and I snuck out to explore an old, supposedly haunted park at night; we heard weird noises and bolted back home laughing. It's been great chatting with you, A, but I should go say hi to others before the game starts."
+    }
+  ],
+  "post_game": []
+}

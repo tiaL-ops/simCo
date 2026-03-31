@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "A",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hi, I'm D. I'm hoping to win some money to help my family — how are you feeling about the game?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Nice to meet you, D — I'm feeling determined and hopeful; I want to win for my family too. Good luck."
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Nice to meet you too — I hope we both do well. Do you have a plan or strategy for the game?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "I plan to stay flexible—listen and learn during talks, build one or two trustworthy alliances, watch who’s serious, and act when it matters."
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Sounds smart—I'm with you. I prefer a small, trustworthy alliance too; want to team up and watch each other's backs?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Yes—I'd like that. Let's stay loyal, share info, and coordinate early votes; what's your first move?"
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "I'll stay low and gather info—listen, test loyalties, share everything with you, and let's vote together on the first elimination; agree on a simple signal?"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Agreed — tap the table twice as our signal; I'll do the same and stay loyal."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Got it — tap twice. I’ll watch for you, stay loyal, and we’ll coordinate votes; let’s win this."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Great — agreed. I’ll tap twice and stick with you; let’s keep each other informed and stay sharp."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Thanks — I’ll watch for the two taps and keep you informed; let’s do this."
+    },
+    {
+      "turn": 12,
+      "from": "A",
+      "message": "Thanks — I appreciate it. I’ll watch for your two taps and keep you posted; let’s stay sharp and bring this home."
+    },
+    {
+      "turn": 13,
+      "from": "D",
+      "message": "Thanks — same here. I’ll watch for the two taps and keep you updated; let’s stay sharp and win this."
+    },
+    {
+      "turn": 14,
+      "from": "A",
+      "message": "Thanks — I appreciate it. I’ll watch for the two taps, keep you posted, and stay true to the plan; let’s bring this home."
+    },
+    {
+      "turn": 15,
+      "from": "D",
+      "message": "Thanks — I’ll watch for the two taps, stay sharp, and keep you posted; we’ve got this."
+    },
+    {
+      "turn": 16,
+      "from": "A",
+      "message": "Thanks — I’ll watch for the two taps, stick to our plan, and keep you updated."
+    },
+    {
+      "turn": 17,
+      "from": "D",
+      "message": "Appreciate it — I’ve got your back. I’ll tap twice, keep you posted if I see anything, and we’ll stay sharp together."
+    },
+    {
+      "turn": 18,
+      "from": "A",
+      "message": "Thanks, D — I’ve got your back too; I’ll watch for your two taps and keep you updated."
+    },
+    {
+      "turn": 19,
+      "from": "D",
+      "message": "Thanks — I’ve got yours too. I’ll tap twice and keep you posted; let’s stay tight and win this."
+    },
+    {
+      "turn": 20,
+      "from": "A",
+      "message": "I'll tap twice, keep watch, and trust you—let's win this."
+    },
+    {
+      "turn": 21,
+      "from": "D",
+      "message": "Got it — we’ve got this; I’ll watch for your two taps, stick with you, and keep us coordinated."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "You took $10,858 (fair share $10,858.0). I noticed you ended up one dollar above the common amounts others took. Was that intentional (a small extra advantage), just rounding, or coincidence? What was your overall strategy and how do you feel about the final split?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "I didn’t try to gain an edge with that extra dollar. My target was the computed fair share (10,858.0), and I rounded to the nearest whole dollar rather than mirroring what others happened to pick. So it was more a rounding/consistency choice than a deliberate one‑dollar grab. My overall strategy was to aim for fairness and a clean, cooperative outcome so we both end up essentially equal rather than maximizing at the other’s expense. I’m fine with the final split — the $1 difference is negligible and doesn’t change that the outcome felt fair."
+    }
+  ]
+}

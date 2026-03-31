@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "pair": [
+    "I",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hi, I'm I. It’s a bit intense in here with the game coming up, so I figured I’d come over and say hello—what's on your mind right now?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey I, I'm J. It's definitely a bit tense, but I'm just keeping my eyes on the prize—I've got a specific car I've been dreaming of and some family I want to help out. How about you?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "That’s a good goal. For me, it's about building an even bigger safety net for my family; I'm comfortable now, but I want to make sure they're set for anything that comes our way."
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "I completely respect that—family is the ultimate motivator. It sounds like we both have a lot on the line today."
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "For sure. It definitely changes the energy when you're playing for something bigger. Are you feeling confident about the game itself?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "I'm feeling more determined than anything. I don’t know exactly what to expect, but keeping that car in mind helps me stay focused. How about you—feeling ready?"
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "I’m ready. The uncertainty is a bit nerve-wracking, but focusing on that extra security for my family keeps me grounded. Let's hope we both get what we're after."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "I hope so too. It’s good to have that clear motivation when things get stressful. Best of luck to both of us."
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Absolutely. Let's see how it all plays out—good luck to you too."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Thanks, I. Let's hope for the best. See you around."
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "Definitely. Take care and I'll see you out there."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "I took $0 only because the prize ran off before I could pick any amount. It's a shame that the others took so much that there was nothing left for either of us."
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "It looks like we both got $0 because the people before us took far more than their fair shares. It's frustrating that the pot was empty before we even had a chance."
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "I completely agree. It’s a shame their greed left us with nothing. Hopefully, any future games will have better rules to prevent that from happening."
+    }
+  ]
+}

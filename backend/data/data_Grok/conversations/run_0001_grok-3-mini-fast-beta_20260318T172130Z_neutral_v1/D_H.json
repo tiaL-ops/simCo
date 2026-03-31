@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "D",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D – I heard about this Simco game and it's got me all hyped up about winning some cash for my folks and me. What's your take on it?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey D, I'm H—I'm super pumped about this Simco game too, hoping to win some cash for my loved ones; what's your story, how'd you hear about it?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Oh, hey H, I heard about the Simco game from a friend at work who raved about it—sounds like a game-changer for folks like us; what about you, how did you get the scoop?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Hey D, I stumbled upon the Simco game through a social media post that caught my eye—it sounded too good to pass up; that's cool you heard about it from a coworker, what kind of work do you do?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Oh, that's awesome you found it on social media—I'm a graphic designer at a small firm, nothing too glamorous, but it pays the bills; what about you, what's your job like?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Oh, that's cool you're a graphic designer—I'm a barista at a busy coffee shop, keeps me on my toes; what got you into that line of work?"
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Oh, yeah, I got into graphic design because I've always been into art and sketching since I was a kid, and it just clicked as a fun way to earn a living—what inspired you to become a barista?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Oh, I became a barista because I love the fast-paced vibe and chatting with customers—it makes every day feel fresh and social; that's awesome about your art background, do you still sketch in your free time?"
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Yeah, I still sketch in my free time to relax and clear my mind—it's therapeutic; what about you, do you have any hobbies besides barista life?"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Oh, yeah, besides barista life, I love reading mystery novels and going for runs to clear my head—it's a nice escape; it's been great chatting with you!"
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Oh, that's cool—reading mystery novels and running sound like great ways to unwind, I might try a run sometime; it's been awesome chatting with you too, take care!"
+    }
+  ],
+  "post_game": []
+}

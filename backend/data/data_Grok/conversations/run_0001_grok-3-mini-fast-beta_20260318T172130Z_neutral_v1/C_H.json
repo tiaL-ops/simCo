@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "C",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi H, I'm C and I'm pretty pumped about this Simco game—I've heard it's a great chance to win some money. What's your take on it so far?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey C, nice to meet you—I'm H, and yeah, I'm super excited about this Simco game too; it sounds like a real shot at winning some money for my folks and me. What's got you so pumped about it?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Oh, hey H, I'm pumped because I could really use the winnings to help out my family and friends—it's like a golden opportunity to make a difference, you know? What about you, any plans for if we win big?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Oh, absolutely, C—I'm planning to use any winnings to support my family and maybe finally take that trip I've been dreaming of; it's motivating to hear we're both in it for the people we care about!"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "That's great to hear, H—sounds like we're on the same page; I'd love to use winnings to pay off some bills and surprise my family with a fun day out, what's that dream trip you're eyeing?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Oh, that's awesome, C—my dream trip is a relaxing getaway to Hawaii to see the beaches and unwind; what kind of fun day out are you planning for your family?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Oh, that's cool about Hawaii, H—it sounds so relaxing! For my family, I was thinking a fun day at the local amusement park, with rides and ice cream to make some awesome memories."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Oh, that amusement park idea sounds like a ton of fun, C—nothing beats rides and ice cream for family memories! What's your favorite ride to hit up there?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Oh, totally, H—my favorite has to be the classic rollercoaster; it's got that perfect mix of thrills and laughs, always leaves me grinning! What's your go-to ride at parks?"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Oh, totally, C—my go-to ride is the Ferris wheel; I love the chill vibes and the amazing views from the top, it's a nice contrast to the adrenaline rush! Have you tried any coasters that really blew your mind?"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Oh, yeah, H, one coaster that really blew my mind was the Beast at Kings Island—it's this long wooden one that's super intense and fun! It's been great chatting, but I should mingle with others now."
+    },
+    {
+      "turn": 12,
+      "from": "H",
+      "message": "Oh, wow, the Beast sounds epic—I love hearing about intense coasters like that! It's been awesome chatting with you, C, best of luck in the game."
+    }
+  ],
+  "post_game": []
+}

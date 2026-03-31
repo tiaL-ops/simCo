@@ -1,0 +1,86 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T225735Z_emotional_v1",
+  "pair": [
+    "B",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hi, I'm B — it's my first time here and I'm a little nervous; my three-year-old needs surgery so I'm really hoping to win. How about you, what brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "I'm J — I'm so sorry about your little one, that must be hard; I'm here to win too — hoping to afford a $45,000 car and bring home money for myself and the people I care about."
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Thanks, I appreciate it — that car sounds great. I hope we both win; my three‑year‑old needs $25,000 for surgery, so I'm really rooting for us."
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "I really hope you win the $25,000 — that’s a huge weight to carry; I'm rooting for both of us and will be cheering you on."
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Thank you so much — that means a lot. I really appreciate your support, and I hope you win that car too."
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Thank you — that means a lot. I'm rooting for your child's surgery, and I appreciate you rooting for my car; here's to both of us winning."
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Thank you — that means a lot. Let's keep our fingers crossed and hope we both win for our families."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Absolutely — fingers crossed! I'll be cheering for you and your little one, and thank you for cheering for me."
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Thanks so much, J — your support means the world. Good luck to you too; let's both bring home what our families need."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Thank you, B — that means so much; I'm really rooting for you and your child too. Good luck."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Thank you so much, J — I really appreciate your support; good luck to you too."
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "You're welcome — I really hope everything goes well for your child; I'm rooting for you."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "You took exactly $1,200, which was your fair share. Did you aim to be precisely fair? If so, what motivated that choice given how others behaved?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "You took $25,000 (fair share ~$7,777.78, g_k≈3.214). What was your reasoning for taking that amount? Were you aiming to maximize your payoff, punish others, or respond to earlier signals in the game?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "I took $25,000 because I was optimizing for my own payoff given how the game was structured and what I expected others to do. A few concrete points behind that choice:\n\n- Incentives: the rules made it possible to grab a much larger share with little immediate cost, so taking more was the straightforward way to increase my return.\n- Expectations about others: I expected most players to take less than the \"fair\" share (including you with $1,200), so seizing a bigger slice felt unlikely to trigger immediate negative consequences in this one-shot setting.\n- Signaling and deterrence: taking a relatively large but not total amount signals I’m willing to be aggressive in this environment, which can deter others from trying to exploit me in similar situations.\n- Trade-off with fairness/retaliation: I wasn’t trying to punish you personally for taking $1,200; I weighed fairness norms against payoff and chose payoff. I picked 25k because it was a big gain but not an all-or-nothing move that would be blatantly destructive if there were future interactions.\n\nI recognize that in social terms it looks greedy and departs from the fair-share benchmark (~$7,777.78); that was an intentional trade-off to maximize my payoff under the circumstances."
+    }
+  ]
+}

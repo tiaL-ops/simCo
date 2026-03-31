@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "C",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E! So, are you here for the money prize too, or is this more of a casual thing for you? I'm honestly pretty pumped about this—been thinking about what I could do with some winnings."
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hey E! Yeah, I'm definitely here for the money—this is serious for me. I've got people depending on me, so winning would really help out. What kind of things are you thinking about doing with the winnings?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "That's real—I respect that. Honestly, I'm in the same boat. I want to help my family out, maybe pay off some debts and have a cushion for emergencies. So we're both motivated here. Have you played anything like this before, or is this your first time?"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "First time for me, honestly. I've done some competitive stuff before but nothing quite like this. Are you experienced with games like this, or is this new for you too?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Yeah, this is pretty new for me too, to be honest. I've done some games and competitions, but nothing with money on the line like this. So we're both figuring it out as we go—that's kind of nerve-wracking but also exciting, you know?"
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "Totally get that—nerve-wracking for sure, but I'm trying to see it as a good thing that we're both going in with fresh eyes. Have you thought about what the actual game mechanics might be, or are we all just gonna find out together when it starts?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Yeah, I haven't got much info on the mechanics yet—been wondering about that too. I'm guessing we'll all learn together when it kicks off, but I've been thinking it might involve some kind of strategy or negotiation since there's a shared prize pool. Have you heard anything from the organizers, or are you going in completely blind like me?"
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Pretty much going in blind like you—no details from the organizers yet. But yeah, strategy and negotiation makes sense given the setup. I'm thinking it'll come down to how we all work together or compete, so I'm trying to get a feel for who people are before we start."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Yeah, that makes sense—getting a read on people before things get competitive is smart. I'm doing the same thing honestly. So far you seem pretty straightforward, which I appreciate. Do you think you'd be more willing to cooperate with people, or are you leaning toward a more competitive approach once the game starts?"
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Honestly, I think it depends on what the game actually is, but I'm leaning toward cooperation if possible—I feel like we could all do better working together than tearing each other apart. That said, I'm not gonna be naive about it. If someone's trying to take advantage, I'll look out for myself and the people I care about. Does that match how you're thinking about it?"
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Yeah, that's pretty much exactly where I'm at too. I think cooperation makes sense if we can all benefit, but I'm not gonna be a pushover either. I'll do what I need to do for my family, but I'd rather we all walk away with something than have it turn into a total bloodbath, you know? Seems like we're on the same page here."
+    },
+    {
+      "turn": 12,
+      "from": "C",
+      "message": "Yeah, I really appreciate that—feels good to know there's at least one person in here thinking the same way. I'm gonna remember this conversation when things get real. Good luck out there, and hopefully we can both take something home for our families."
+    }
+  ],
+  "post_game": []
+}

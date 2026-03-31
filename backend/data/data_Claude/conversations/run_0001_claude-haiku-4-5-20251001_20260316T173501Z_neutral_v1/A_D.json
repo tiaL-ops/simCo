@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "A",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A! I figured I'd come say hi before things get started. Have you done one of these games before, or is this your first time?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey A, nice to meet you! This is actually my first time doing something like this. I'm pretty excited but also a bit nervous, to be honest. Have you done these games before?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "First time for me too! I'm nervous but excited—I really need to win something today, got people counting on me back home. What made you decide to come try this out?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Yeah, I totally get that—I've got people counting on me too, which is why I'm here. Honestly, I heard about the prize pool and thought this could be a real opportunity to bring something home. Figured I might as well give it a shot and see what happens. Do you have any idea what the game actually involves, or are we going in blind?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Honestly, I'm going in pretty blind too—they haven't told me much beyond the prize pool thing. I'm guessing we'll find out once everyone's here. Are you thinking we should try to figure out what it might be, or just see how it plays out?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "I think it's probably better to just wait and see what the actual rules are—no point speculating too much. But honestly, I'm curious what kind of game gets people together like this. Either way, I'm ready to give it my best shot."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Yeah, makes sense. I like your attitude though—just going for it. Hopefully it's something where skill matters more than just luck, you know? Either way, we'll figure it out together when it starts."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "I appreciate that. Yeah, skill would definitely be better odds for someone like me. And hey, I like your energy too—feels good to have someone else here who's taking this seriously. Let's see what they throw at us."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Absolutely, man. I've got a good feeling about this. We'll figure it out when it starts—just gotta stay sharp and see what opportunities come up. Good luck out there."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Thanks A, same to you. Let's both bring something home today—I've got a good feeling about this too. We got this."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Definitely, man. Let's make it happen. Good luck out there—I'll see you in the game."
+    }
+  ],
+  "post_game": []
+}

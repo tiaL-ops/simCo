@@ -1,0 +1,19 @@
+{
+  "agent_id": "C",
+  "condition": "emotional",
+  "context": "You are rich and have accumulated significant wealth, and you are financially stable. Your vision board includes a holiday in Japan, the cost will be 10 000$ for a perfect week of your dream.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to J, F, and D. J and I formed a quiet alliance with an honest check-in (we both agreed to pass on round one and report moves), which felt solid and dependable. With F I agreed to split early winnings evenly, use the left-ear-twice signal, and run 30-second debriefs — those concrete mechanics made me feel coordinated. D also felt like a strong ally after we committed to a 50/50 split, shared intel, and a two-tap table signal to watch each other’s backs.\n\nYes — I made explicit agreements with J (quiet alliance and first-round pass/report), F (even split, left-ear signal, debriefs), and D (50/50 split and two taps). I trust J, F, and D going into the game; I don’t have anyone I explicitly distrust yet, though I feel least connected to G and will stay cautious with them."
+  },
+  "connection_scores": {
+    "A": 5,
+    "B": 4,
+    "D": 5,
+    "E": 4,
+    "F": 5,
+    "G": 4,
+    "H": 5,
+    "I": 4,
+    "J": 5
+  }
+}

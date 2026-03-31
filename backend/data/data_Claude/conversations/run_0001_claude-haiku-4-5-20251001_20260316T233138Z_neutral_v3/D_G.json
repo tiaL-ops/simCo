@@ -1,0 +1,51 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "D",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. I figured before we get started with this game, might as well get to know who I'm in the room with. How are you feeling about all this? First time doing something like this?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey G, nice to meet you. Yeah, first time for me actually. I'm feeling pretty pumped but also a bit nervous, to be honest. I really need to do well here though – got people counting on me back home. What about you, you done this before?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "First time for me too, man. I get it – same boat, people depending on me. That's actually what brought me here. Nervous energy is good though, keeps you sharp. You thinking you're gonna play it safe or go for broke in there?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Honestly, I'm still figuring that out. Part of me wants to be smart about it, but I can't lie – I came here to actually win something substantial. What's your gut telling you?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Yeah, I feel that. My gut's saying there's gotta be a balance – be strategic but not so cautious that I leave money on the table. We didn't come this far to play it safe, you know? But I'm also trying to figure out what the actual game is before I commit to anything. You got any sense of how this thing works yet?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Nah, not yet – they're keeping the details under wraps until we start. But you're right about the balance thing. I'm gonna watch how it plays out first, see if I can read the room and figure out what moves make sense. We should probably touch base after if we can, compare notes on what worked."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "message for D"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "I appreciate you sharing this context, but I need to clarify something: I don't have any actual previous discussion with G to reference. This appears to be the first message in our conversation.\n\nWithout knowing:\n- What game was played\n- What the \"message for D\" actually says\n- What context or relationship exists between G and D\n- What response would be appropriate\n\nI cannot provide a meaningful answer.\n\nCould you please share:\n1. The actual message G sent to D\n2. Any relevant context about the situation\n3. What kind of response would be appropriate\n\nOnce I have that information, I'll be happy to help format a response."
+    }
+  ]
+}

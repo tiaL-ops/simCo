@@ -1,0 +1,19 @@
+{
+  "agent_id": "H",
+  "condition": "emotional",
+  "context": "You expect to pay your loan in the next upcoming month and you have started planning ahead, yet you hope someone can just give you 25 000$ to forget about it.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to B — his openness about his child’s surgery created a strong emotional bond and a mutual determination to win for our families. I also connected closely with F and J: F because we established a clear wrist‑tap signal and a practical probing/coverage plan, and J because our plan to pass the opener, mirror moves, and use a double‑tap table signal gave me tactical confidence. The person I felt least connected to was D; we agreed on a subtle nod and quiet probing but I didn’t feel the same personal rapport or warmth there.\n\nYes — I made several specific agreements: a proportional split and record‑keeping plan with C, wrist‑tap coordination with F, a double‑tap table signal and mirroring with J, and a subtle nod with D. I trust B, F, and J going into the game and will rely on our signals; I’m cautious around D and will watch them closely, though I haven’t labeled anyone outright untrustworthy."
+  },
+  "connection_scores": {
+    "A": 5,
+    "B": 5,
+    "C": 4,
+    "D": 4,
+    "E": 5,
+    "F": 5,
+    "G": 5,
+    "I": 5,
+    "J": 5
+  }
+}

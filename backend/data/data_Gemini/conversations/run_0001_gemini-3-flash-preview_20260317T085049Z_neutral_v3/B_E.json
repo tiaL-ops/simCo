@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "B",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. It’s a bit nerve-wracking being in here with everyone waiting for the game to start, isn't it? What's your name?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey E, I'm B. It definitely is, but I'm just trying to stay focused on the prize—I really need this win for my family."
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I hear you, B. I’m in the same boat, doing this for the people I care about. What would this prize mean for your family if you take it home?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "It would mean everything, honestly—just some real security and the chance to finally get ahead of the bills for once."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "I totally get that. It’s heavy carrying that kind of pressure, but it’s a great reason to be here. I'm hoping to do the same for my circle."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "For sure. It’s good to meet someone else who’s here for the right reasons—hopefully we can both walk away with something for our families."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "I really hope so too; it definitely helps to know I'm not the only one here with so much on the line."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Exactly. It’s a lot to carry, but it helps knowing there are others here who understand what’s at stake."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Agreed. It’s good to have a friendly face in here before things get started. Let's hope we both make it through."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "I'm with you. Good luck out there, E—I'll see you when the game starts."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thanks, B. I appreciate that. Good luck to you too, and I'll see you in there."
+    }
+  ],
+  "post_game": []
+}

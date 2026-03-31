@@ -1,0 +1,80 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "E",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey E, I'm G and I'm pretty pumped about this Simco game—I heard there's a chance to win some real money, which would be great for me and my folks. What's your take on it?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey G, nice to meet you! I'm stoked about this Simco game too—I'm here to win some cash for my loved ones, it could really make a difference. What's your story, like how'd you hear about it?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Oh, I heard about this Simco game from a friend at work—he played it last year and raved about the winnings, so I thought it'd be perfect to score some cash for my family and me. How about you, any fun stories on how you found out?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Oh, that's awesome— I found out about the Simco game from a buddy at the gym who mentioned winning some cash last year, so I jumped at the chance! What do you do for work, G?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "I work as a barista at a local coffee shop—it's nothing glamorous, but I get to chat with folks and it helps cover the bills. What about you, E, what's your line of work?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Oh, that's a cool gig—sounds like you meet all sorts of people! I'm a delivery driver for a local courier service; it helps me stay on my feet and cover the basics, nothing fancy. What's the best coffee drink you recommend from your shop?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Oh, thanks! I'd have to say our caramel macchiato is the best—it's got this perfect mix of sweet and strong that really wakes you up; what kind of drinks do you usually go for on your delivery routes?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Oh, yeah, I usually go for a simple black coffee on my routes—it keeps me focused without any fuss; what's your go-to spot for a break when you're not at work?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Oh, nice choice with the black coffee—I usually head to the local park for a break when I'm off work; it's peaceful and great for clearing my head. What's your favorite spot to unwind?"
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Oh, that's a great spot—I usually unwind at the beach; nothing beats the sound of waves after a busy day. It's been fun talking, G!"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Oh, the beach sounds so relaxing—I can imagine that, it's been great chatting with you too, E!"
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Hey E, I'm G and I'm pretty excited about this game—heard it's a real chance to win some money and help out the folks I care about. What about you, what's your take on it?"
+    },
+    {
+      "turn": 13,
+      "from": "E",
+      "message": "Hey G, haha, we just chatted about this, but yeah, I'm still super excited about the game—hoping to win some cash for my loved ones! It's been fun, but I should mingle with others."
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "Haha, yeah, we did chat a bunch—it's been great getting to know you, E, and good luck with the game!"
+    }
+  ],
+  "post_game": []
+}

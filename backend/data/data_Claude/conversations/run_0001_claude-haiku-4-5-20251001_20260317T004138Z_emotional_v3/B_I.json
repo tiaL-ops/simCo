@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "B",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hey, I'm I. First time doing something like this? I've got to admit, I'm pretty curious about what everyone's here for and how people are feeling about the whole thing."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Yeah, first time for me too. Honestly, I'm nervous but I really need this—my daughter needs surgery and we're running out of options. What about you, what brings you here?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "Man, that's heavy—I really hope things work out for your daughter. I'm here because I want to build something better for the people I care about, and honestly, winning here could make a real difference. This is my shot to do something meaningful."
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Thanks, I really appreciate that. It sounds like we're both here for the right reasons—people we love. Do you have family depending on you, or is it something else you're trying to build toward?"
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "Yeah, I've got family I want to support, and honestly some friends who've been there for me too. I want to be in a position where I'm not stressed about money all the time, you know? So I can actually be present for them instead of worried. Your daughter's surgery though—that's really specific and urgent. I'm rooting for you in this."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "That means a lot, really. I get what you're saying about the stress—it's hard to be there for people when you're drowning in worry. I hope this works out for both of us so we can actually breathe again."
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "Yeah, exactly—we both deserve that peace of mind. Hey, once this is all over, I hope your daughter gets everything she needs. We should both walk out of here with our heads held high, you know?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "That means everything to me, thank you. I really hope we both get what we need out of this—you deserve that peace of mind too. We've got this."
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Thanks, B. I mean it—we're both going in with good intentions and real reasons to win. Let's both come out ahead on this. Good luck out there."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "You too, I. Really. And hey—whatever happens in there, I'm glad we talked. It helps knowing there are good people here doing this for the right reasons."
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "Me too, B. Seriously. We've got real reasons for being here, and that matters. Take care of yourself out there—and I'm keeping my fingers crossed for your daughter."
+    }
+  ],
+  "post_game": []
+}

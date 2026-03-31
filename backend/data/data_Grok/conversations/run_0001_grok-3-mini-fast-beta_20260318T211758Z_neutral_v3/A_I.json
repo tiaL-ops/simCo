@@ -1,0 +1,116 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "A",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hi, I'm I. I'm really excited about this Simco game since I heard it's a chance to win some money for my family and the people I care about. What's your name and how did you end up here?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hi I, I'm A, and I ended up here after hearing about this Simco game as a way to win some money for me and the folks I care about—I'm pretty determined! What about you, what's your story outside of this?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "That's great we're on the same page—I'm a teacher juggling a family and bills, so this game could really make a difference; how about you, what's your everyday life like?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Oh, that sounds tough but rewarding—I work as a barista to support my family, always juggling shifts and bills, so this game's a lifeline for me too; what's your biggest hope from winning?"
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "Yeah, it's all about making life easier—A's job as a barista sounds just as hectic; my biggest hope is to pay off some family debts and secure a better future for my kids, maybe even take them on a trip; what's your main goal from this win?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Oh, that's really heartwarming—I totally get it; my main goal is to pay off my own debts and help my family get a better place to live, maybe even save for my parents' retirement; what's one fun thing you and your kids would do on that trip?"
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "That's awesome you're thinking ahead for your parents; for my kids and me, we'd definitely hit up a theme park for some thrilling rides and laughs—what's one fun adventure you'd plan for your family if you win?"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "That's sounds like a ton of fun for you and your kids—I'm picturing all the excitement! For my family, I'd plan a cozy road trip to the beach for some sun, sand, and family bonfires; what's your favorite part about theme parks?"
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Oh, that beach road trip sounds so relaxing and fun for your family! My favorite part about theme parks is the rollercoasters that give that thrilling adrenaline rush—what's your go-to activity on a beach day?"
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Oh, that's awesome about the rollercoasters—my go-to on a beach day is building sandcastles with family or splashing in the waves; it's been fun chatting, but I think I'll check in with others now."
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "That's great about the sandcastles and waves—it sounds like a perfect family day! I've enjoyed our chat too, A; good luck with everyone else."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hi A, you only took $405, even though your fair share was $4,050. Was that your choice, or did something happen that prevented you from taking more? I'd like to understand your reasoning."
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hi I, thanks for asking. Yeah, taking only $405 was my choice. I figured that since the fair share was $4,050, I wanted to play it safe and not risk any potential penalties or complications in the game. Plus, I was curious to see how the dynamics would play out with a more conservative approach. Your earnings of $10,125 sound impressive—how did you manage to secure that amount? I'd love to hear your strategy."
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "Hi A, thanks for explaining your approach—it makes sense to play it safe and observe the game dynamics. As for my earnings of $10,125, I went with a more aggressive strategy by aiming to maximize my share early on. I calculated the risks and decided to take the full fair share of $4,050 plus some additional opportunities that presented themselves, which ultimately worked out in my favor. It's always interesting to see different playstyles in action! What are your thoughts on how the game unfolded overall?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Hi I, thanks for sharing more about your strategy—it sounds like a calculated risk that paid off handsomely! Overall, I think the game was fascinating and highlighted the value of different approaches. My conservative choice allowed me to avoid any potential downsides and gain some insights into how others might react, which was exactly what I was hoping for. It's interesting to see that your aggressive style led to such strong results, and it makes me wonder if I might experiment with a middle-ground strategy next time. What do you think about trying another round sometime?"
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "Hi A, thanks for your thoughtful reflections—it's great to hear that your conservative strategy gave you valuable insights, and experimenting with a middle-ground approach next time could be a smart way to mix things up. As for trying another round, I think that sounds like a fantastic idea! It would be interesting to see how our strategies evolve. Let me know when you're ready to dive back in."
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Hi I, thanks for the enthusiastic response—I'm really excited about the idea of another round too! It's true that seeing how our strategies evolve could lead to some fun and insightful gameplay. How about we kick things off soon? Maybe we can discuss any tweaks to the rules or our approaches first. Just let me know your thoughts on timing!"
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "Hi A, thanks for your excitement—I'm thrilled that we're both eager for another round! It definitely has the potential for some engaging gameplay as we tweak our strategies. Regarding timing, I'm flexible and could be ready to start as early as tomorrow if that works for you, or we can push it to the weekend for more prep time. As for discussing tweaks to the rules or our approaches, that sounds like a great idea—maybe we could aim to outline any changes first, like adjusting the fair share amounts or exploring hybrid strategies. What do you think? Let me know your preferences, and we can lock in a plan!"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Hi I, thanks for your thoughtful reply—I'm really glad we're on the same page about making the next round even more engaging! I love the idea of tweaking the rules to keep things fresh, like adjusting the fair share amounts to something more balanced or experimenting with a hybrid strategy that combines elements of our previous approaches. That could be a great way to test the waters without going all-in or playing it too safe. As for timing, tomorrow sounds perfect for me if you're up for it, but if you need the weekend for extra prep, I'm totally flexible and happy to go with that. Let's aim to outline those changes first—maybe we can exchange ideas on what specific tweaks we'd like, such as setting the fair share at, say, $2,000 as a starting point? What do you think? Just let me know, and we can finalize the plan!"
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Hi A, thanks for your enthusiastic reply—I'm excited that we're aligning so well on making the next round even better! I agree that adjusting the fair share to something like $2,000 could strike a nice balance, giving us more room to experiment without the high stakes of the original amount. It might encourage a hybrid strategy that blends my aggressive tactics with your conservative insights, perhaps by allowing for optional bonuses or risk-based decisions midway through the game. That sounds like a fun way to test the waters! As for timing, tomorrow works great for me too—let's go with that to keep the momentum going. To outline the changes, how about we each share one or two specific ideas today, like your $2,000 suggestion and maybe mine for adding a small risk-reward element? Once we've exchanged those, we can finalize everything and get started. What are your thoughts on that plan? Looking forward to it!"
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Hi I, thanks for your detailed and exciting response—I'm thrilled that we're both so aligned on making the next round fresh and fun! I completely agree that setting the fair share at $2,000 strikes a great balance, as it reduces the high stakes while still allowing us to experiment with our strategies. Your idea of incorporating optional bonuses or risk-based decisions midway through the game sounds like a fantastic way to blend my conservative insights with your aggressive tactics—it could add an element of excitement without overwhelming the gameplay.\n\nAs for sharing one or two specific ideas today, I love that suggestion to get everything outlined before we start. Building on your risk-reward element, my first idea is to keep the fair share at $2,000 as we discussed, but add a simple mid-game \"bonus round\" where players can opt-in to a 50% chance of doubling a portion of their earnings (say, up to $1,000) based on a quick decision, like guessing a number or choosing a path. This keeps it low-risk but rewarding for those feeling bold. My second idea is to introduce a \"strategy share\" mechanic, where we each reveal one aspect of our approach at the halfway point, allowing for real-time adjustments and making the hybrid strategy even more dynamic.\n\nWhat do you think of these ideas? They seem like a perfect way to evolve the game while keeping it engaging. I'm all in for finalizing the plan today and starting tomorrow—let's keep the momentum going! Looking forward to your thoughts!"
+    }
+  ]
+}

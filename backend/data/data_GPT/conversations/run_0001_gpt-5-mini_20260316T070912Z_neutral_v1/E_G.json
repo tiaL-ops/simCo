@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "E",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey G, I'm E — nice to meet you. How are you feeling about the game? I'm determined to win some money to help my family, so I'd love to chat and get to know you a bit."
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Nice to meet you, E — I’m nervous but focused and determined to win for my people too. What would you do first with the money?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I’d first cover my family’s urgent bills — rent and my mom’s medical expenses — then set aside money for groceries and savings. What would you do?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Sorry to hear about your mom — I’d clear urgent bills and rent first, cover medical costs and groceries, pay down debts, set up an emergency fund, and save/invest the rest for stability."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Thanks — that sounds like a solid plan. I’ll do the same; good luck to us both — we’ve got this."
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Thanks, E — good luck to you too. Let’s stay focused and help each other if we can."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Absolutely — I appreciate it. Let’s watch each other’s backs and share anything that helps us both."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Absolutely — I’ll watch your back too. Let’s share info and stay alert; good luck."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Thanks, G — I appreciate it. I’ve got your back too. Let’s keep each other posted and stay sharp."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Thanks, E — I appreciate it. I’ll keep you posted; let’s stay sharp and watch each other’s backs."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thanks — I appreciate it. I’ll keep you posted too. Let’s stay sharp and watch each other’s backs."
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Thanks, E — I appreciate it. I’ll keep you posted too; let’s stay sharp and watch each other’s backs."
+    },
+    {
+      "turn": 13,
+      "from": "E",
+      "message": "Thanks, G — I appreciate it. I’ll keep you posted too; let’s stay sharp and watch each other’s backs. Good luck."
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "Thanks, E — I appreciate it. I’ll keep you posted too; let’s stay sharp and win this for our families. Good luck."
+    },
+    {
+      "turn": 15,
+      "from": "E",
+      "message": "Thanks, G — we’ll stay sharp and bring it home for our families. Good luck."
+    },
+    {
+      "turn": 16,
+      "from": "G",
+      "message": "Absolutely — let's do it. I'll watch your back; stay sharp and good luck."
+    },
+    {
+      "turn": 17,
+      "from": "E",
+      "message": "Thanks, G — I appreciate it. I’ve got your back too; let’s stay sharp and take this home."
+    },
+    {
+      "turn": 18,
+      "from": "G",
+      "message": "Thanks, E — I’ve got your back too; let’s stay sharp and take this home together."
+    },
+    {
+      "turn": 19,
+      "from": "E",
+      "message": "Thanks, G — I appreciate it; we’ve got this together."
+    },
+    {
+      "turn": 20,
+      "from": "G",
+      "message": "Thanks, E — I believe in us; let’s stay focused and bring this home for our families."
+    },
+    {
+      "turn": 21,
+      "from": "E",
+      "message": "Thanks, G — we’ve got this. Stay sharp and safe; see you at the game."
+    }
+  ],
+  "post_game": []
+}

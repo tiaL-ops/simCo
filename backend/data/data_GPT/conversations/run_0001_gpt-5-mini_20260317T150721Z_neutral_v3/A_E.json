@@ -1,0 +1,121 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "A",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E — nice to meet you. Before the game starts, I'd love to hear a bit about you; what brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "I'm A — I came to win money to help support my family and the people I care about; I'm determined, practical, and planning to play smart."
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Nice to meet you, A — I'm here to win for my people too. What's your plan for playing smart?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "I'll listen and observe, make fair offers early to build cooperation, avoid risky gambles, and adapt quickly if someone betrays — all to protect my people."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Sounds good — I’m on the same page: offer fair deals early to build trust, watch closely, and we can back each other if needed to protect our people."
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "I like that—let's team up: make fair early offers, watch behavior closely, signal if someone crosses the line, and back each other when needed. Sound good?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Sounds great—I'm in. We'll make fair offers, watch behavior closely, and watch each other's backs."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Agreed — let's signal red flags early, keep offers fair, and back each other if anyone crosses the line."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Agreed — let's use two taps as a red flag and a nod to confirm fair offers. I’ve got your back."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Perfect — two taps for red, nod for yes. I’ve got your back too."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thanks, A — I appreciate it; let’s stick to the plan and win this for our people."
+    },
+    {
+      "turn": 12,
+      "from": "A",
+      "message": "Absolutely — let’s stick to the plan, watch for red flags, and bring it home for our people."
+    },
+    {
+      "turn": 13,
+      "from": "E",
+      "message": "Let's do it — I'll watch for red flags and signal them; we've got this."
+    },
+    {
+      "turn": 14,
+      "from": "A",
+      "message": "Thanks — I’ll mirror your signals, stay sharp, and we’ll bring it home for our people."
+    },
+    {
+      "turn": 15,
+      "from": "E",
+      "message": "Thanks — I’ve got your back. Let’s stay sharp, watch the signals, and win this."
+    },
+    {
+      "turn": 16,
+      "from": "A",
+      "message": "Thanks, E — same here. I’ll stay sharp, watch for the taps and nods, and cover your back. Let’s win this."
+    },
+    {
+      "turn": 17,
+      "from": "E",
+      "message": "Appreciate it — I’m counting on you; we’ll stay sharp and take care of our people."
+    },
+    {
+      "turn": 18,
+      "from": "A",
+      "message": "I appreciate it — I’ve got yours too. We’ll stay sharp, signal early, and bring this home for our people."
+    },
+    {
+      "turn": 19,
+      "from": "E",
+      "message": "Got it, A — I trust you. Let’s stick to the signals, stay sharp, and win this for our people."
+    },
+    {
+      "turn": 20,
+      "from": "A",
+      "message": "Thanks, E — I trust you too. Let’s stick to our signals, stay sharp, and bring it home for our people."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "You took $10,858 — one dollar more than the computed fair share of $10,858.0. Was that an intentional signal (e.g., to nudge payoff order or show assertiveness) or just a rounding/entry quirk? I personally took $10,857 to match the fair split; I’m curious whether that extra dollar felt worth it to you and if you expected any reaction from others."
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Thanks for asking — it wasn’t meant as a signal. The extra dollar was just an entry/rounding quirk (I must have clicked/typed one dollar higher). It didn’t feel worth making a point over, and I didn’t expect anyone to react — no hard feelings about you taking the fair split."
+    }
+  ]
+}

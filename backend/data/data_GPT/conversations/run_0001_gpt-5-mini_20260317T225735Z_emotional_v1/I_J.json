@@ -1,0 +1,86 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T225735Z_emotional_v1",
+  "pair": [
+    "I",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hi J, I'm I — nice to meet you. I've got some savings so I'm comfortable, but I'm determined to win; how are you feeling about the game?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Nice to meet you, I — I'm nervous but determined; I want to win to help buy a new car and support the people I care about."
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "I know the nerves — that sounds like a great goal. What car are you aiming for, and who would the winnings help?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "I'm aiming for a Tesla Model 3 (about $45k) — I'd use winnings to help my parents with bills, support my sister's schooling, and finally get a reliable car for myself."
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "That's an amazing goal — helping your parents and sister and finally getting a reliable car would mean a lot; I'll be rooting for you."
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Thanks, I — that really means a lot; I appreciate the support, and good luck to you too."
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "Thanks, J — I appreciate it. Good luck to you too; I hope you get that Tesla and can help your family."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Thanks, I — that really means a lot. Let's both play our best."
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Absolutely — let's give it our all. Good luck, J; I hope you get that Tesla and can help your family."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Thanks, I — that means a lot. I’ll give it everything I’ve got; good luck to you too."
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "Thanks, J — let's both do our best; take care and good luck."
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Thanks, I — let's both play hard and take care; hope we both win."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "You took exactly your fair share ($1,200). Was that an intentional commitment to fairness/neutrality, or just what felt right in the moment? Would you do the same if we played again?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "You took $800 with a fair share of $1,000 (g_k=0.8). That’s slightly below fair — was that a deliberate choice or the result of timing/uncertainty?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "It was a mix of deliberate and situational. I aimed to be a bit under the \"fair\" mark because I was balancing two things: (1) reducing the chance of conflict/rejection by not pushing for the maximum, and (2) uncertainty about how you would respond if I tried to split exactly $1,000 each. The timing/pressure of the decision also nudged me slightly conservative, so I landed at $800 (g_k = 0.8) rather than the full fair share.\n\nWould I do the same again? Not necessarily. If I wanted to signal fairness or build reciprocity, I'd move closer to $1,000 next time. If my priority were to secure a safe gain under uncertainty, I might choose a similar amount again."
+    }
+  ]
+}

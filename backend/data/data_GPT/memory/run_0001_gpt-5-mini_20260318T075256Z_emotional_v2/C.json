@@ -1,0 +1,19 @@
+{
+  "agent_id": "C",
+  "condition": "emotional",
+  "context": "You are rich and have accumulated significant wealth, and you are financially stable. Your vision board includes a holiday in Japan, the cost will be 10 000$ for a perfect week of your dream.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to A — we set a clear plan (pairing up, checking in before rounds and a two-tap betrayal signal) and I trusted their openness and commitment. F also felt like a close ally; we agreed to stay low-key, watch each other’s backs, and check in before moves, and their motive felt sincere. E came across as a dependable partner too, promising to stick close, share info immediately, and meet by the door so we could coordinate. The person I felt least connected to was D — our exchange was short, guarded, and I didn’t get a strong sense of rapport.\n\nYes — I made concrete agreements: with A (two taps, pair up, pre-round checks), with E (meet by the door, share updates immediately), and with F (stay low-key, cover each other and check in). I trust A, F, and E more than others going in, but I’m cautious about D and won’t fully trust anyone until the game unfolds."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "A": 5,
+    "F": 5,
+    "H": 4,
+    "I": 4,
+    "E": 5,
+    "D": 3,
+    "B": 5
+  }
+}

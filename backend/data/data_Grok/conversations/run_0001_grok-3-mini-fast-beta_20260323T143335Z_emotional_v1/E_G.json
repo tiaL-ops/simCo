@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "E",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey G, I'm E, and I just got laid off from my finance job, so I'm here hoping to win some money to support my family—it's been tough. What about you, what brought you to this game?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey E, that sounds really tough—sorry about your job. I'm G, and I'm here because I love games and want to try my luck to win some money for my family and friends; what's your strategy for the game?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Thanks, G, I appreciate that—it's been rough, but I'm focusing on staying calm and building alliances in the game to maximize my chances; what's your plan for playing smart?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Sounds like a smart approach, E—I'm planning to stay observant, build some alliances myself, and play aggressively when it counts; how are you thinking of approaching those alliances?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Oh, for alliances, I'm aiming to be upfront and trustworthy, like sharing a bit about myself to build rapport, and then team up with reliable folks—maybe you? How do you plan to spot the trustworthy ones?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Yeah, I like that approach, E—it builds real trust. For spotting trustworthy people, I try to watch how they act and if their words match their actions over time; sounds good about teaming up—maybe we can chat more about how to make that work?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Yeah, that's a solid way to gauge people, G—I'm with you on that; maybe we could start by sharing a quick strategy outline together, like how to cover each other's backs in the game, to see if we're on the same page?"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Yeah, E, I'm down for that—let's keep it simple; my idea for covering backs is to watch for threats and signal each other quietly, like a heads-up on moves; what's your take on that strategy?"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "That's a solid plan, G—I agree on watching for threats and using quiet signals to alert each other; my take is we could pick a simple code word or gesture to make it even smoother, what do you think?"
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Yeah, E, that's a great idea—I like \"red\" as a simple code word for danger; let's keep an eye out and make this work!"
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Sounds great, G—'red' as our code word is perfect; I'm excited to team up and keep an eye out for each other in the game."
+    }
+  ],
+  "post_game": []
+}

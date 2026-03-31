@@ -1,0 +1,96 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T095549Z_emotional_v3",
+  "pair": [
+    "E",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hi F, I'm E — nice to meet you. I'm here trying to win some money for my family after a recent layoff; how are you feeling about the game?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hi E, I'm F — nice to meet you too. I'm nervous but determined; my elderly parents need $15,000 for medical bills so I really hope to win. Sorry to hear about your layoff — good luck."
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Thanks, F — that’s really tough, I’m sorry to hear that. I’m rooting for you. Do you have a strategy for the game or any plans to team up?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Thanks, I appreciate that. I’m thinking of staying low-key at first, watching how people behave and possibly forming a short-term alliance with someone trustworthy — no long promises. How about you?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Sounds smart — I’ll probably do the same: stay observant, form a short-term alliance with someone trustworthy, then act when the timing’s right; I really need the money for my family so no long promises."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "I agree — same plan. Let’s watch each other’s moves and, if we seem trustworthy, team up short-term when it matters; good luck."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Agreed — let’s keep an eye on each other and quietly touch base when it seems right; good luck."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Sounds good, E — I’ll stay low-key. We can quietly check in when it matters. Good luck."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Thanks, F — that works. Let’s use a quick nod or a whisper of “ready” when it’s time. Stay safe and good luck."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Thanks — a nod or \"ready\" works. Stay safe; I'll check in when it matters. Good luck."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thanks, F — I’ll watch for your nod and quietly check in when it matters. Stay safe; good luck."
+    },
+    {
+      "turn": 12,
+      "from": "F",
+      "message": "Thanks, E — I’ll watch for your nod. Stay safe and good luck; see you when it counts."
+    },
+    {
+      "turn": 13,
+      "from": "E",
+      "message": "Thanks, F — I appreciate it. I’ll watch for your nod and we’ll check in when it matters."
+    },
+    {
+      "turn": 14,
+      "from": "F",
+      "message": "Thanks, E — I appreciate it. I’ll watch for you too; see you when it counts. Good luck."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "You took $15,000 (fair share $3,177.8, g_k=4.7202). That’s a big overshoot of the fair share. What motivated that choice — strategy, risk-taking, or something else? Would you defend it as fair?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "You took $5,000 (fair share $3,412.71, g_k=1.4651). What guided you to take a bit more than the fair share—risk aversion, strategy, or something else? Would you adjust that choice if we played again?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I took $5,000 partly from a mix of strategy and caution. I saw the fair share (~$3,413) but also weighed uncertainty about what others would do and the chance to secure a clearer payoff rather than risk getting less if others overshot too much. It was a modestly opportunistic move — I wanted something above the baseline but not so large that it would look gratuitously greedy.\n\nWould I adjust next time? Yes — I’d calibrate based on how you and others behaved. If everyone stays near the fair share, I’d pull my ask closer to that (or equal it) to keep things cooperative. If others keep overshooting aggressively, I’d be more likely to take a bit above fair share again to avoid being left short. In short: I’d adapt, moving toward fairness when it’s reciprocated and toward safety when it isn’t."
+    }
+  ]
+}

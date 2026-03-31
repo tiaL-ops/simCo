@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "E",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey J, I'm E—nice to meet you. I just got laid off from my finance job and I'm here hoping to win some money to support my family; what about you, what's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey E, nice to meet you too—sorry about the layoff, that sounds tough. I'm J, and I'm here because I've got my eye on a sweet car that costs 45k; winning this would let me grab it and help out my family. What's your family's situation like?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Thanks, J—it means a lot. I've got a wife and three kids relying on me, and with no savings, we're scraping by with rent and food; I really need this win to cover us for a month. What about your family—do they have any big plans with that car?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Oh, wow, E—that's a lot on your plate; I hope you win big for your family. As for mine, we'd probably use the car for fun road trips and visits to relatives, something we've dreamed about; how are your kids coping through all this?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Thanks, J—that means a lot; the kids are holding up okay, but it's tough on them with the stress at home, my oldest is even picking up odd jobs to help. What about your family—are there kids involved in those road trip dreams?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Oh, man, that's heartbreaking to hear about your oldest stepping up like that—kids shouldn't have to worry about that stuff. Yeah, my family includes my two little ones; they'd be over the moon for those road trips, finally seeing their grandparents more often. How old are your kids, anyway?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Yeah, it's really hard on them, J—my kids are 16, 12, and 8, and they're trying to stay strong, but I hate seeing them grow up too fast; how old are your little ones?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Oh, man, that must be so tough seeing them grow up fast like that—my little ones are 4 and 6, full of energy and always asking for adventures; how's your oldest finding those odd jobs, anyway?"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Yeah, it's tough, but my oldest is hustling with odd jobs like mowing lawns and babysitting in the neighborhood—it's helping us scrape by, though I wish he didn't have to; sounds like your little ones are full of wanderlust, any specific spots they're excited about?"
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Oh, yeah, my little ones are always chattering about hitting the beach or that national park near my parents' place—anything to see their grandparents more; it's sweet how excited they get, E."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "That's awesome, J—sounds like your little ones are going to make some great memories; I hope you all get those trips soon, and good luck in the game, man."
+    }
+  ],
+  "post_game": []
+}

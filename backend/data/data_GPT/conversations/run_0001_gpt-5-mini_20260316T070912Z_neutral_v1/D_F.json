@@ -1,0 +1,131 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "D",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hi, I'm D — nice to meet you. I'm excited (and a bit nervous) about the game; what's your plan for tonight?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Nice to meet you — I’m planning to talk with everyone, gauge who I can trust, and play smart so I can bring home money for my family."
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Same here — I’m here to win for my family too. I’ll be friendly but cautious; want to compare notes as we talk to people?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Yes — good idea. Let's swap quick impressions after each chat, flag people who seem trustworthy or risky, and meet back in about 20 minutes to compare notes."
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Sounds good — I'll talk with people and flag who seems trustworthy or risky. Meet by the table in 20 minutes and we'll compare notes."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Great — see you by the table in 20; I’ll flag anyone shady and we’ll compare notes then."
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Perfect — see you by the table in 20; I’ll flag anyone evasive or overly eager to team up."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Sounds good — I'll watch for evasive or pushy people too and note who's genuinely sincere. See you at the table in 20."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Sounds good — I'll watch for inconsistent stories and people who dodge specifics; see you at the table in 20."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Got it — I'll ask specific follow-ups and call out anyone vague. See you at the table in 20."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Sounds good — I’ll ask the same follow-ups and we’ll compare notes by the table in 20. See you then."
+    },
+    {
+      "turn": 12,
+      "from": "F",
+      "message": "Great — see you at the table in 20; let’s compare notes and flag anyone sketchy."
+    },
+    {
+      "turn": 13,
+      "from": "D",
+      "message": "Sounds good — see you at the table in 20. I’ll bring my notes and flags for anyone sketchy."
+    },
+    {
+      "turn": 14,
+      "from": "F",
+      "message": "Perfect — thanks, bring your notes and we’ll compare flags at the table in 20."
+    },
+    {
+      "turn": 15,
+      "from": "D",
+      "message": "Sounds good—I'll bring my notes and flags; see you at the table in 20."
+    },
+    {
+      "turn": 16,
+      "from": "F",
+      "message": "See you then — bring those notes; let’s be honest and watch for inconsistencies. See you at the table in 20."
+    },
+    {
+      "turn": 17,
+      "from": "D",
+      "message": "Sounds good — I’ll bring my notes and be upfront about anything off. See you at the table in 20."
+    },
+    {
+      "turn": 18,
+      "from": "F",
+      "message": "Thanks — see you at the table; I’ll be frank about anything off and we’ll compare notes."
+    },
+    {
+      "turn": 19,
+      "from": "D",
+      "message": "Thanks — I appreciate that. See you at the table in 20; I’ll bring my notes and be upfront about anything odd."
+    },
+    {
+      "turn": 20,
+      "from": "F",
+      "message": "Thanks — I appreciate it. I’ll bring my notes too; see you at the table in 20."
+    },
+    {
+      "turn": 21,
+      "from": "D",
+      "message": "Thanks — see you at the table in 20; I’ll be honest and keep an eye out for inconsistencies."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "You took $8,057 (fair share $8,057.4, g_k=1.0). Was your choice computed precisely or rounded deliberately? Any pregame discussions that influenced you?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "You took $26,031 (fair share $10,625; g_k=2.45). That’s a lot more than the fair share — what motivated that choice? Were you trying to maximize your payoff, send a message, or respond to something someone said earlier? Did you expect retaliation or coordination from others?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "I chose 26,031 primarily to maximize my own payoff given the structure of the game. The choice was deliberate — I ran through the payoff implications and picked a number that substantially increased my return relative to the “fair” split; I reported whole currency amounts (rounded to the nearest unit) rather than using fractional cents. There were no pregame agreements or discussions that drove that decision, and I wasn’t trying to coordinate with or promise anything to others. I did expect the possibility of retaliation or negative reactions, but judged the higher immediate payoff worth that risk. I wasn’t trying to send a moral message beyond signaling that I would act in my own interest."
+    }
+  ]
+}

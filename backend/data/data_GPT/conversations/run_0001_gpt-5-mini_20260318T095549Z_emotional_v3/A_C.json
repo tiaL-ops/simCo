@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T095549Z_emotional_v3",
+  "pair": [
+    "A",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi A, I'm C — nice to meet you. What are you hoping to get out of this game? I'm aiming to win a dream week in Japan, so I'm excited to meet everyone."
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Nice to meet you, C — I'm A. I’m here to win enough for a $30,000 deposit and two months’ rent so my family can get a home. Good luck — what part of Japan would you visit?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Wow, that’s an incredible goal — I’d split my week between Tokyo (food, neighborhoods) and Kyoto (temples, atmosphere), maybe a day in Hakone for an onsen; best of luck getting that deposit for your family."
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Thanks, C — that itinerary sounds perfect and I appreciate the support. What’s the first thing you’d eat in Tokyo?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "A steaming bowl of tonkotsu ramen from a tiny neighborhood shop — perfect way to kick things off."
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "That sounds incredible — I’d love to try that if I make it to Tokyo; thanks for the encouragement."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "If you make it to Tokyo, you should definitely try that ramen shop — and seriously, good luck with the deposit; I’m rooting for you."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Thanks so much, C — I really appreciate the support. I’ll give it my all here, and if I make it to Tokyo I’ll hunt down that ramen shop!"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "You're welcome — go get it! I’ll be cheering you on, and if you make it to Tokyo, send me the ramen shop name."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Thanks — I’ll send you the ramen shop name if I make it to Tokyo."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "I’ll be looking forward to it — good luck, A, you’ve got this."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "You took $0. Same question: was that a deliberate decision or did you not get a chance to act?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "You took $3,000, a little under your fair share of ~$3,148. Was that intentional (e.g., to be modest) or accidental? Any comments on how you decided your amount?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "It was intentional. I aimed to pick an amount close to the calculated fair share but slightly lower to signal modesty and avoid appearing greedy. I also chose a round number (3,000) for simplicity and as a small buffer given uncertainty about others’ behavior — not a mistake."
+    }
+  ]
+}

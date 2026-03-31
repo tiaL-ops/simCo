@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "I",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J — nice to meet you. I'm here to try to win some money for my family; how about you?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "I'm I — here to win for myself and the people I care about. Nice to meet you; how many people are you hoping to support?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "About five — my partner, three kids, and my mom."
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "That's a lot of people depending on you — what would winning mean for them?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Winning would let me pay off debts, secure stable housing and my kids' education, and give our family some breathing room — it would change everything."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "I hear you — that would change everything. I'm rooting for you; what's the first thing you'd take care of if you won?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "I'd clear our debts and lock in stable housing so my family can finally feel secure."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "That would be life-changing — I'm rooting for you, J; I hope this goes your way."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Thanks, I — I really appreciate that. Means a lot. Good luck to you too."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Thanks, J — that means a lot. I’m rooting for you too; let’s both do our best."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Thanks, I — I really appreciate the support; let’s both give it our best shot."
+    }
+  ],
+  "post_game": []
+}

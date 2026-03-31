@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "I",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. It’s a bit nerve-wracking waiting for this game to start, isn't it? What’s the first thing you’d do if you walk away with some of that prize money?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey J, I'm I. It really is. Honestly, I’d probably use it to take care of my family and make sure the people I love are set for a while—how about you?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "That’s really kind of you. Honestly, I’ve been dreaming about a specific car that costs $45,000, so that’s my first stop, but I'm definitely here to make sure I can help out my family and friends too."
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "That’s a very specific goal! What kind of car is it? It’s definitely good to have a clear target in mind before we start."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "It’s a Jeep Wrangler—I’ve wanted one for years. Having a goal definitely keeps me focused! Do you have any specific plans for how you'll help your family?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "I’d probably start by helping my parents with their mortgage and setting aside some for my sister's tuition—just things to give them a bit more breathing room."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "That’s really selfless of you, I. Education and a home are such life-changing gifts. It definitely makes the stakes of this game feel a lot more meaningful, doesn't it?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "It really does. Knowing it could change their lives makes me even more determined to walk away with a win."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "I feel the same way. Let's hope we both manage to walk away with enough to make those dreams happen."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "I'm with you on that. Good luck to both of us, J—I hope you get that Wrangler!"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Thanks so much, I! I'm really rooting for you to help your family out with that mortgage and tuition. Good luck to us both!"
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "E",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey there, I'm H. It's a bit of a high-pressure room, isn't it? What's your name, and how are you feeling about all this?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Nice to meet you, H, I'm E. It definitely feels tense in here, but I'm just trying to stay focused since I really need to bring something home for my family. How about you?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I hear you, I'm in the same boat—I've got people counting on me back home, so I'm pretty determined to walk away with something."
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "That makes two of us then. It’s a lot of pressure when it’s not just for yourself, right?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "For sure, it makes every decision feel a lot heavier. Have you thought much about how you're going to approach the prize pool once it starts?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "I'm still weighing it up, but I'd prefer to work with people rather than against them if it means we all actually get paid—what’s your take?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "I’m on the same page. Working together seems like the smartest way to make sure we actually bring that money home."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "I agree. If we can get a few more people to see it that way, we'll all be in much better shape."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Exactly. Have you had a chance to talk to anyone else yet and see where their heads are at?"
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Not yet, I'm just about to start making my rounds. I'm glad we're on the same page though, let's keep an eye out for each other."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Sounds like a plan, let's definitely have each other's backs. Good luck with your rounds and I'll see you when it kicks off."
+    }
+  ],
+  "post_game": []
+}

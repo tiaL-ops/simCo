@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "C",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi H, I'm C and I'm pretty excited about this game—it's a chance to win some money and maybe even help out the people I care about. What brings you here?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hi C, nice to meet you—I'm H, and I'm here for the same reason, hoping to win some cash for my family and friends. What about you, any plans for the winnings?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Oh, definitely—I'm planning to help my family out with bills and maybe treat myself to a nice vacation if we win big! What about you, H, got any specific ideas?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Oh, that's awesome—I'd probably use it to cover some medical bills for my parents and save a bit for a house downpayment; sounds like you're into travel, any dream destinations in mind?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "That's really thoughtful of you to help with your parents' bills—I've always dreamed of visiting Japan for its cherry blossoms and sushi, what about you, any places you've been wanting to explore?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Oh, Japan sounds amazing with those cherry blossoms—I'd love to explore Italy for the history and food, maybe Rome or the Amalfi Coast someday!"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Oh, Italy's on my bucket list too—Rome with all those ancient ruins sounds epic, and the Amalfi Coast must be gorgeous; have you traveled much or is this your first big trip?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Oh, yeah, I've done some local trips around my country, but nothing abroad yet—this game might be my first real adventure overseas! How about you, any travel stories to share?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Oh, that's exciting that this could be your first big overseas adventure! I've only done a few road trips in my country, like a fun weekend in the mountains, but nothing abroad yet—maybe we can swap more stories later if we win this thing!"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Yeah, road trips in the mountains sound like a blast—let's definitely swap more stories if we win this! Good luck, C."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Thanks, H—that sounds great, good luck to you too, and let's make it happen!"
+    }
+  ],
+  "post_game": []
+}

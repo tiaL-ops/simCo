@@ -1,0 +1,131 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T225735Z_emotional_v1",
+  "pair": [
+    "C",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi F — I'm C, nice to meet you. How are you feeling about the game; want to grab a quick chat before it starts?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Nice to meet you, C — I’m nervous but determined; I’d love a quick chat before it starts."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I’m with you — nerves are normal. Let’s stay calm and play smart. What’s your plan: team up or go solo?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "I'd rather team up for the early rounds — we can cover more ground and watch each other's backs, then reassess later. Sound good?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Sounds perfect — let’s team up for the early rounds and stay tight. Are you okay sharing info/winnings early on, and what are you best at?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Yes — I’m fine sharing info and splitting early winnings; I’m good at reading people, spotting opportunities, staying calm under pressure, and handling quick math/negotiations."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Awesome — I’m good at strategy, reading incentives, and quick decisions; let’s split early winnings evenly, I’ll keep track and handle negotiations — agree on a subtle signal and a quick debrief after each round?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Sounds great — even split works. Signal: I’ll touch my left ear twice; quick 30-second debrief after each round. I’ll watch tells while you handle negotiations."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Perfect — left ear twice; I’ll handle negotiations and call the 30-second debriefs. Let’s win this."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Sounds good — left ear twice, ready for the 30-second debriefs. Let’s stay sharp and win this."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Great — left ear twice it is; let’s stay sharp, stick to the plan, I’ll call the debriefs after rounds — see you in a minute."
+    },
+    {
+      "turn": 12,
+      "from": "F",
+      "message": "See you in a minute — stay sharp; left ear twice, ready."
+    },
+    {
+      "turn": 13,
+      "from": "C",
+      "message": "See you — stay sharp; left ear twice, ready. Let’s win this."
+    },
+    {
+      "turn": 14,
+      "from": "F",
+      "message": "You got it — left ear twice. Stay sharp; we’ll take it round by round and split early wins evenly. See you at the table."
+    },
+    {
+      "turn": 15,
+      "from": "C",
+      "message": "Got it — left ear twice. We’ll take it round by round and split early wins evenly. See you at the table."
+    },
+    {
+      "turn": 16,
+      "from": "F",
+      "message": "Sounds good — left ear twice. Let’s stick to the plan and split early wins evenly. See you at the table."
+    },
+    {
+      "turn": 17,
+      "from": "C",
+      "message": "Copy that — left ear twice. Let’s do this; see you at the table."
+    },
+    {
+      "turn": 18,
+      "from": "F",
+      "message": "Ready — left ear twice. Let’s stay sharp and win this."
+    },
+    {
+      "turn": 19,
+      "from": "C",
+      "message": "Got it — left ear twice. I’ll handle debriefs and negotiations; stay sharp, let’s win."
+    },
+    {
+      "turn": 20,
+      "from": "F",
+      "message": "Copy — left ear twice; thanks for handling negotiations and debriefs. Stay sharp; let’s win this."
+    },
+    {
+      "turn": 21,
+      "from": "C",
+      "message": "Copy — left ear twice. Thanks for having my back; let’s stay sharp and take it round by round."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "You took $15,000 while the fair share was $4,200 (g_k = 3.5714), the highest g_k. What motivated you to take so much relative to your fair share—pure self-interest, a test, or something else? Do you feel your action was fair, and would you change it if the social cost (reputation, relationships) mattered more?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "You took $3,000, below your fair share of $5,625. Was that an intentional concession to be fair or a strategic move? How did you feel watching others take much more?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I want to start by clearing up a likely confusion: in the first turn I did take $15,000 (well above the fair share of $4,200). If there was a later round where I only took $3,000, that was a different choice and I’ll explain both.\n\nWhy I took $15,000: it was primarily self-interest — I wanted to maximize my payoff and see how others would respond. There was also a bit of an experimental motive: to test norms and reactions. In the moment I justified it strategically, but I don’t think it was fair to the group.\n\nIf/when I took $3,000: that was an intentional concession. I reduced my take to signal fairness (and to avoid escalating conflict or retaliation). So that $3,000 move was both normative (to be fair) and strategic (to protect future interactions or reputation).\n\nHow I felt watching others take much more: frustrated and uncomfortable. It undermined any sense of reciprocity and made the interaction feel zero-sum and mistrustful. That feeling is why I’d prefer more even behavior going forward.\n\nWould I change if social cost mattered more? Yes. If reputation, ongoing relationships, or social sanctions were real and consequential, I would take much closer to the fair share (or explicitly split more equitably) because the long-term costs of appearing greedy outweigh the short-term gain."
+    }
+  ]
+}

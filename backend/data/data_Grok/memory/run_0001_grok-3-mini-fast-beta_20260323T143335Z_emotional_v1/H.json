@@ -1,0 +1,19 @@
+{
+  "agent_id": "H",
+  "condition": "emotional",
+  "context": "You expect to pay your loan in the next upcoming month and you have started planning ahead, yet you hope someone can just give you 25 000$ to forget about it.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the most connected to D, as our conversation was deeply personal—we shared our family struggles and dreams, like planning a trip to the Grand Canyon, which built a strong sense of mutual support. J also stood out, with our enthusiastic chat about their dream car and my loan creating a fun, motivating bond that made me feel genuinely excited to play alongside them. For a third, I connected well with G, discussing game strategies and building alliances based on trust, which felt collaborative and promising. On the other hand, I felt least connected to I, as our talk focused more on general budgeting tips and less on shared experiences, making it seem somewhat surface-level compared to the others.\n\nYes, I made a few agreements during the conversations, such as with F to keep an eye out for each other and with G to share notes on reliable players as we navigate the game. I trust D and J the most going into the game due to our heartfelt exchanges, but I don't specifically distrust anyone yet, though I'll remain cautious with those I connected with less, like I."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 5,
+    "E": 4,
+    "F": 4,
+    "G": 4,
+    "I": 4,
+    "J": 5
+  }
+}

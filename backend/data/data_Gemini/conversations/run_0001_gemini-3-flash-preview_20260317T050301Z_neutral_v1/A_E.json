@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "A",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hi there, I'm A. Just trying to settle my nerves a bit before things get started—how are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey A, I'm E. I'm feeling the pressure too, but I'm just trying to stay focused on why I'm here."
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "I hear that. I'm trying to keep the people back home in mind to stay grounded—what's your main motivation for being here?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "It's the same for me; I've got people at home I really need to take care of, so that's my main drive."
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "That makes two of us. It definitely adds a lot of pressure when you're doing it for more than just yourself, doesn't it?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "It really does, but I'm trying to use that pressure as motivation to stay sharp and make the right moves."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "I like that mindset. Have you thought much about how you’ll handle the decision-making when the money's actually on the table?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "I’m planning to stay as logical as possible and look for a fair path, but I won't lose sight of why I'm here."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "I respect that. It's definitely a tough balance to strike, especially when so much is on the line for the people counting on us."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Exactly. It's good to know someone else here has their priorities straight. Best of luck to you when things get moving."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Thanks, E. I appreciate that. Best of luck to you too—let's hope we can both do right by our families."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Great job! I'm glad we all stuck to the $10,000 fair share."
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "I agree, it worked out perfectly for both of us. I'm glad we could reach a fair agreement."
+    }
+  ]
+}

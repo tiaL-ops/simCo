@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "E",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J—excited to be here for this game; it could be a great chance to win some cash. What's your name and what brought you to this?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey J, I'm E—sounds like we're both pumped for this game; I heard about the chance to win some money and figured it'd be a great way to help out my family and friends, so I'm all in! What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Hey E, that's awesome—I’m here to win some cash for my family and friends too, it’d make a big difference for us; what about your background or hobbies outside this?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Hey J, that's great we're on the same page about helping family—I'm a teacher by day and love hiking on weekends to unwind; how about you, any hobbies or fun stories?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Hey E, that's awesome you're a teacher and hiker—I'm into reading books and playing soccer on the weekends, and I once scored a winning goal in a pickup game that was total chaos; what's your favorite hiking spot?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Hey J, that winning goal story sounds epic—my favorite hiking spot is the Rocky Mountains, the views up there are just breathtaking; what kind of books do you enjoy reading most?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Hey E, thanks, the Rockies do sound amazing—I'm a big fan of mystery and thriller books, like those by Agatha Christie; they keep me hooked! What's a book you've enjoyed lately?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Hey J, mysteries like Agatha's are gripping—I just finished \"The Midnight Library\" by Matt Haig, it's a thoughtful read about life choices; what's your top pick from her books?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Hey E, my top pick from Agatha Christie is \"And Then There Were None\"—it's such a twisty classic! What made \"The Midnight Library\" stand out for you?"
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Hey J, \"The Midnight Library\" stood out for me because it dives into what-ifs and regrets in such a relatable way—it really got me reflecting on my own life choices and appreciating what I have. It's been fun chatting about books; looking forward to the game!"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Hey E, that sounds like a really insightful read—I'm glad we connected over books and shared goals; it's been fun chatting too, looking forward to the game!"
+    }
+  ],
+  "post_game": []
+}

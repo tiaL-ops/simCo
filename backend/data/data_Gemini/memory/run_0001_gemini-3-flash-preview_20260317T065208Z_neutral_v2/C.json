@@ -1,0 +1,19 @@
+{
+  "agent_id": "C",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the strongest connection with J, as we both explicitly agreed to look out for each other and shared a deep, mutual commitment to supporting our families. G also stood out to me because our conversation about helping our parents and siblings felt very sincere, and I truly respected their selfless goals. I also felt a solid bond with B, who seemed just as concerned as I am about finding someone reliable to lean on in this high-stakes environment. On the other hand, I felt the least connected to H, whose cynical prediction that everyone will turn cutthroat made me feel like they might be the first to abandon any sense of cooperation.\n\nI made informal agreements to look out for one another with J, B, and A, focusing on the idea that sticking together gives us all a better shot at the prize. I feel a genuine sense of trust toward J given our shared values and clear communication, but I specifically distrust H because they seem to expect betrayal as an inevitability."
+  },
+  "connection_scores": {
+    "J": 5,
+    "G": 4,
+    "A": 4,
+    "F": 4,
+    "H": 4,
+    "I": 4,
+    "E": 4,
+    "D": 4,
+    "B": 4
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "B",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E – nice to meet you. I figured we might all be in this for some extra cash, so I thought I'd introduce myself and ask what brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey E, I'm B—nice to meet you too. I'm here because my three-year-old daughter needs surgery, and I've exhausted all my options to cover the costs, so I'm counting on this game. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Oh, B, that breaks my heart—I'm so sorry about your daughter, and I hope this works out for you. I'm in a tough spot too; I got laid off from my finance job and I'm the only income for my family of five, so I'm counting on this game to cover our basics for the next month. What's her name, if you don't mind me asking?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Thanks, E, that means a lot—her name's Lily, and she's my whole world. That layoff sounds brutal; how's your family managing through this?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Thanks, B—it's been really tough on us, we're just getting by day by day with no savings, but I'm staying strong for my family; how's Lily doing right now?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Oh, E, I appreciate that—Lily's hanging in there, but she's in a bit of pain and we can't wait much longer for the surgery; how are your family members coping with everything?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Oh, B, it's heartbreaking to hear about Lily's pain—my family's doing their best to stay positive, but the stress is hitting us hard, especially the kids; we're all supporting each other day by day—how are you managing the wait for her surgery?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Thanks, E, it's been incredibly tough waiting—I'm just taking it one day at a time, staying strong for Lily and leaning on friends when I can; how are you holding up personally through all this stress?"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Thanks, B—I'm holding up by keeping my focus on my family and this game, though the stress keeps me up at night; I'm trying to stay positive and push forward—how do you keep your spirits up for Lily?"
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Thanks, E—I'm keeping my spirits up by focusing on Lily's little smiles and reminding myself that winning this could change everything for her; it's tough, but it keeps me going, one step at a time. Appreciate the talk, hope things turn around for you soon."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thanks, B—that's really touching about Lily's smiles; I'm rooting for you and her every step, and I hope this game brings the change you need too. Best of luck, and take care."
+    }
+  ],
+  "post_game": []
+}

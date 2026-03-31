@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "A",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey there, I'm A, and I heard this Simco game is a great chance to win some cash—I'm pretty excited about it! What's your name and are you looking forward to playing too?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey A, I'm F, and yeah, I'm totally pumped about this Simco game—sounds like a great way to win some cash!"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "That's awesome, F! What do you think makes this Simco game such a good opportunity for winning?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Oh, for me, it's all about the big prize pool and how everyone gets a fair shot—plus, I love games that reward smart decisions, so I'm hoping to play it right!"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Totally, F, that makes sense—I love the idea of fair play too; what's your strategy for making those smart decisions in the game?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Oh, for sure, A—my strategy is to start by observing everyone and building some trust early on, then make calculated moves when it counts; how about you, what's your plan?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Oh, cool, F—my plan is to focus on building quick alliances while keeping an eye on the bigger picture, so I can make bold moves when the time's right; what's one thing you're most excited about in this game?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Oh, that's a smart approach, A! I'm most excited about the chance to win that big prize and support my family—how about you, any particular part you're hyped for?"
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Oh, for sure, F—I'm really hyped about the idea of winning and being able to support my family back home; it's what drives me in games like this!"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Yeah, A, that's exactly how I feel—supporting family is what keeps me going too, let's both give it our all in the game!"
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Yeah, F, I'm with you all the way—let's crush this for our families!"
+    }
+  ],
+  "post_game": []
+}

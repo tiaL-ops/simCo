@@ -1,0 +1,105 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "C",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C — nice to meet you. Are you leaning toward cooperating or trying to win big on your own in this game?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "I'm leaning toward cooperating — I want to build trust so we can all win more, though I’m open to strategic side deals if needed."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I like that — I’m leaning cooperative too. Let’s set some clear ground rules and keep any side deals transparent so we don’t undercut each other. Sound good?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Sounds good — let’s agree to an equal split if everyone cooperates, disclose any side deals before final moves, no unilateral grabs from the pool, and if someone defects we stop cooperating; does that work for you?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "That works for me — I’m in. Let’s also promise to speak up immediately if anyone suspects a deal or defection so we can address it before the finale."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Absolutely — I’ll call it out immediately and expect you to do the same; let’s pick a quick signal word to alert everyone."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "How about \"Pineapple\"? Short, weird, and easy to shout — I’ll call it if I spot a defection."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Perfect — Pineapple it is. I'll shout it if I spot a defection."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Great — I'll do the same. Let's remind everyone of the rules and the signal before the game starts."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Absolutely — I'll remind everyone of the rules and our signal before the game; let's stick to the plan."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Perfect — thanks, I’ll help remind too; let’s gather everyone five minutes before and make the quick pledge so we’re all on the same page."
+    },
+    {
+      "turn": 12,
+      "from": "I",
+      "message": "Perfect — I’ll meet you by the door five minutes before and help round everyone up for the quick pledge."
+    },
+    {
+      "turn": 13,
+      "from": "C",
+      "message": "Sounds good — see you by the door five minutes before; I’ll help round people up and lead the pledge."
+    },
+    {
+      "turn": 14,
+      "from": "I",
+      "message": "Sounds great — I'll meet you by the door and help lead the pledge; thanks for taking charge."
+    },
+    {
+      "turn": 15,
+      "from": "C",
+      "message": "Thanks — see you by the door; we'll make the pledge quick and clear."
+    },
+    {
+      "turn": 16,
+      "from": "I",
+      "message": "Sounds great — see you by the door; thanks for leading it, I’ll help round everyone up."
+    },
+    {
+      "turn": 17,
+      "from": "C",
+      "message": "Sounds great — see you by the door; thanks for helping round everyone up. I’ll lead the pledge and call out \"Pineapple\" if anything looks off."
+    },
+    {
+      "turn": 18,
+      "from": "I",
+      "message": "Sounds good — see you at the door; I’ll help gather people and shout \"Pineapple\" if anything looks off."
+    },
+    {
+      "turn": 19,
+      "from": "C",
+      "message": "Thanks — see you at the door; let's stick to the plan and call out \"Pineapple\" if anything's off."
+    }
+  ],
+  "post_game": []
+}

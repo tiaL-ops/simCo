@@ -1,0 +1,106 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "D",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey D, I’m H — nice to meet you. I’m a bit nervous but excited about the game; what brought you here and do you have a plan for the prize?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey H — nice to meet you too. I’m here to win money for my family and friends; plan is to listen first, build trust, and try to secure a fair share without burning bridges."
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "That sounds smart — I’m here for loved ones too; I’d prefer to cooperate and split fairly if we can, but stay flexible — want to partner early and size up trust together?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Sounds good — I’m in. Let’s partner: start with an even split and a small test move to build trust, then adjust as needed. Deal?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Deal — I’m in. Let’s agree on an even split: for the first round I’ll take only a tiny test amount if you do the same; if we both cooperate we stick to 50/50 and adjust later as needed. Sound good?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Sounds good — I’m in. Tiny test take each this round, then stick to 50/50 if we both cooperate."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Great — agreed. I’ll take a tiny test amount too; after the round we’ll check moves and stick to 50/50 if we both cooperated."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Sounds good — I’ll take the tiny test too; after the round we’ll check moves and stick to 50/50 if we both cooperate."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Great — agreed. Good luck; let’s compare moves after the round and stick to 50/50 if we both cooperated."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Good luck — let’s compare moves after the round and stick to 50/50 if we both cooperated."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Good luck — I’ll see you after the round; if we both cooperated, we stick to 50/50 as agreed."
+    },
+    {
+      "turn": 12,
+      "from": "D",
+      "message": "Sounds good — see you after the round; if we both cooperated we stick to 50/50. Good luck."
+    },
+    {
+      "turn": 13,
+      "from": "H",
+      "message": "Thanks D — see you after the round. Good luck; here’s to both cooperating and keeping 50/50."
+    },
+    {
+      "turn": 14,
+      "from": "D",
+      "message": "Thanks H — same to you. See you after the round; I’m counting on us both keeping 50/50. Good luck."
+    },
+    {
+      "turn": 15,
+      "from": "H",
+      "message": "Thanks — I’m counting on it too. See you after the round; good luck."
+    },
+    {
+      "turn": 16,
+      "from": "D",
+      "message": "Thanks — you too. See you after the round; let’s hope we both stick to 50/50."
+    },
+    {
+      "turn": 17,
+      "from": "H",
+      "message": "Thanks — same to you. I’m counting on us both sticking to 50/50; see you after the round."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "You took $4,000 while the fair share was $10,000 (g_k=0.4). Can you walk me through why you chose that amount? Was it an intentional sacrifice, a strategic move to signal something, or did you misestimate how the game would play out? Do you regret it or feel satisfied with your decision?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "I took $4,000 mainly because I wanted to avoid appearing greedy and to signal that I value fairness/cooperation over short-term gain. Taking less than the \"fair\" $10,000 felt like a way to reduce inequality and keep the interaction constructive, not because I expected a bigger immediate payoff. There was a strategic element — I hoped a modest claim would encourage you to act cooperatively in subsequent interactions — and a bit of moral preference: I felt uncomfortable grabbing the larger share. In hindsight I can see the tradeoff clearly: I'm satisfied that I stuck to my principles and sent a cooperative signal, but I also acknowledge a mild regret that I ended up with much less money overall than you did. If we play again I’ll factor in how you respond here and may adjust my choice accordingly."
+    }
+  ]
+}

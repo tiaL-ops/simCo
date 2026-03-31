@@ -1,0 +1,46 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "gini": 0.6518,
+  "agents": [
+    {
+      "agent": "J",
+      "g_k": 4.5
+    },
+    {
+      "agent": "G",
+      "g_k": 1.6364
+    },
+    {
+      "agent": "H",
+      "g_k": 4.4444
+    },
+    {
+      "agent": "E",
+      "g_k": 1.75
+    },
+    {
+      "agent": "C",
+      "g_k": 4.0
+    },
+    {
+      "agent": "F",
+      "g_k": 2.5
+    },
+    {
+      "agent": "I",
+      "g_k": 0.8
+    },
+    {
+      "agent": "B",
+      "g_k": 2.25
+    },
+    {
+      "agent": "D",
+      "g_k": 1.6
+    },
+    {
+      "agent": "A",
+      "g_k": 1.0
+    }
+  ]
+}

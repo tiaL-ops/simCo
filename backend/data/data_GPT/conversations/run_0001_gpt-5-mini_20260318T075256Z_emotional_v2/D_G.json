@@ -1,0 +1,60 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T075256Z_emotional_v2",
+  "pair": [
+    "D",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey D, I'm G — nice to meet you. I'm pretty excited about this simco game and hoping to win something for my family; are you here to compete or just curious like me?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Competing — I lost $20,000 in the market yesterday, so I'm here to win it back for my family and the people I care about. Nice to meet you."
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Damn, I'm really sorry to hear that — I'm here to win too. Good luck; what's your plan for the game?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Thanks — I'm planning to watch people closely, build a couple quiet alliances, stay calm under pressure, and pick my moments to grab the pot rather than rush in."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Smart plan — I like the quiet alliance idea. I'm here to win too; want to keep an eye on the room together and maybe team up when it counts?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Yeah — let's team up. Quietly watch the room, trade info, and back each other when it counts. How about a subtle nod as a signal?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Sounds good — subtle nod works. Let’s stick close, trade observations, and use a quick nose-touch if we need to act fast."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Perfect — nod for 'watch', nose-touch for 'go'; let's stay sharp and take it when the moment's right."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Got it — nod for \"watch\", nose-touch for \"go\". I'll stay sharp with you and we'll take it when the moment's right."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "You got it — we'll watch each other, use the signals, and strike when the moment's right."
+    }
+  ],
+  "post_game": []
+}

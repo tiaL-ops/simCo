@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "A",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. I've always had a bit of a competitive streak when it comes to games, but I’m feeling extra motivated today. How are you holding up with the pre-game jitters?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey G, I’m A. \"Jitters\" is one way to put it, but I’m mostly just focused. There’s a lot at stake for my family right now, so I have to win. What’s driving that extra motivation for you?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I completely get that. For me, it’s a mix of the thrill of the game and needing to bring home a win for the people I care about most; it’s definitely more than just a hobby today."
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "I respect that. Having people counting on you changes everything. Do you have a specific target you're trying to hit today?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Honestly, the more the better, but I'm really just aiming for enough to take the weight off my family's shoulders. Do you have a goal in mind?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "I need $30,000. That’s the exact amount I need to get my family into a new home and back on our feet."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "That’s a significant goal, but a new home is a powerful reason to be here; I really hope we both manage to walk away with what we need."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "I appreciate that, G. I really hope so too—I can't afford to let them down."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "I completely understand that weight. Let's just stay focused and see how things go once the game kicks off."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Definitely. I'm going to take a moment to clear my head before we start. Good luck, G."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Thanks, A. Good luck to you too—I really hope things work out for your family. See you in there."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "I'm sorry you only got $625. I tried to keep things fair by taking exactly $10,000, but B's greed really ruined the distribution for the final players."
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "While I appreciate the sentiment, taking $10,000 for yourself when the pot was already diminished didn't leave much for those of us at the end. It seems like you prioritized your own \"fair share\" over the actual balance of the remaining distribution."
+    }
+  ]
+}

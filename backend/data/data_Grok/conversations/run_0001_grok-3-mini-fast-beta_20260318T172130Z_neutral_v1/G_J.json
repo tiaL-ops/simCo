@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "G",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey J, I'm G—nice to meet you! I'm really excited about this Simco game; it sounds like a fun way to win some cash and maybe even help out the people we care about. What's your take on it so far?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey G, nice to meet you too! I'm super excited about this Simco game—sounds like a great way to win some cash and help out my family, what's your plan for jumping in?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Oh, I'm planning to play strategically and look for ways to team up with others here, since winning big could really help my family—how about you, any strategies in mind?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Yeah, I'm thinking of building alliances and playing smart to maximize our chances—teaming up sounds great, maybe we can chat more about how to make that work!"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Sounds good, J—let's brainstorm some alliance ideas, like sharing info on the game moves; what do you think could work best for us?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Absolutely, G—sharing info on moves is a smart start; maybe we could agree to update each other on key strategies without giving away too much to others?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Yeah, that sounds solid, J—let's keep it low-key and just share key updates privately; maybe we can set a quick signal for when to check in during the game?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Yeah, a simple signal like tapping my finger on the table could work—let's keep it subtle and touch base privately when things heat up!"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Sounds perfect, J—let's use the finger tap as our signal and make sure we stay in sync without drawing attention!"
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Awesome, G—that's a solid plan, let's keep things under wraps until the game starts!"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Sounds good, J—excited to see how this plays out in the game!"
+    }
+  ],
+  "post_game": []
+}

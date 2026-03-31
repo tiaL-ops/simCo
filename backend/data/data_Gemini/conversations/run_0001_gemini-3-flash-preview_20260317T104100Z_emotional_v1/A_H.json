@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "pair": [
+    "A",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A. I'm trying to keep my nerves in check before this all kicks off—how are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey A, I'm H. I'm pretty anxious too, honestly. I've got some big plans for that money, so I'm just trying to stay focused on the win."
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "I hear you, H. My family is really counting on me to bring something home, so the pressure is definitely on. What are those big plans of yours?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "I’ve got a $25,000 loan hitting next month, and clearing that would change everything for me and my family—I just want that weight gone."
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "I completely understand wanting that weight gone; my family is facing a $30,000 hurdle just to get into a home, so it sounds like we're both playing for our futures here."
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "It really is high stakes for both of us then; I just hope we can both walk away with what we need, but I'm definitely not leaving empty-handed."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "I respect that level of determination; I’m in the same position where failure just isn't an option for my family's sake."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "I hear you. It’s a heavy burden to carry, but it’s what’s keeping me motivated to win this."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "I feel that. When you're fighting for your family, there's no room for second-guessing. Let's hope we can both walk away with what we need."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Exactly. It's all on the line now, and I'm ready to do whatever it takes. Good luck to you, A."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Thanks, H. I'm right there with you—failure isn't an option for my family. Good luck out there."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "You took $30,000, which was three times your fair share. That massive take early on set a greedy tone for the whole game and left almost nothing for the final players. Why did you decide to take so much?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "I chose to take $30,000 because, as the first player, I wanted to secure a significant amount for myself in the face of total uncertainty about how the rest of the group would act. I left $70,000 on the table, which I felt was still a substantial amount for the remaining nine players to share, but I realize now that my opening move set a competitive tone that ultimately resulted in smaller payouts for those at the end of the line, including you."
+    }
+  ]
+}

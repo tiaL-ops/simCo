@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "G",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. First time doing something like this? I gotta admit I'm a bit nervous but also pretty excited about what's about to happen here."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey G, nice to meet you! Yeah, first time for me too. I'm definitely nervous but honestly more excited—I really need to win something here, you know? What made you decide to give this a shot?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Honestly? I've got people depending on me, and I figured why not take a shot at something that could actually change things. Plus, I heard the prize pool here is legit. What's your situation—what made you say you really need to win?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Same boat, man—I've got family I want to help out, and honestly, things have been tight. I figured if there's a real shot at some money here, I gotta take it. You think most people here are in it for the same reason, or do you reckon some are just here for fun?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Yeah, I get that. Honestly, I'd guess most people here are in it for real reasons like us—nobody shows up to something like this without needing it on some level. But who knows, maybe a couple are just curious or testing their luck. Either way, I think we gotta stay focused on our own game, you know?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Absolutely, that makes sense. Stay in our own lane and play smart. But hey, I'm curious—do you have a strategy going in, or are you just gonna play it by ear when the game starts?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Honestly, I'm still figuring it out—I don't know exactly what the game mechanics are yet, so it's hard to plan too much. But I'm thinking I'll watch how things play out first, see what other people do, and then decide whether to be aggressive or more cautious. What about you—you got any ideas brewing?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Yeah, I'm in the same boat—gotta see what we're actually working with first. But I'm leaning toward being smart about it rather than just going all-in right away. Figure if I can read the room and see how people react, I'll have a better shot at making the right move when it counts."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "That's smart thinking—I like that approach. Reading the room definitely seems like the move. Hey, if we both make it through with some winnings, maybe we can grab a drink after and compare notes on what worked, yeah?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Yeah, absolutely man—I'd be down for that. It'd be good to debrief with someone who actually gets what we're trying to do here. Good luck in there, G."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Thanks man, you too—let's both bring something home today. Stay sharp in there."
+    }
+  ],
+  "post_game": []
+}

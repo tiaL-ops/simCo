@@ -1,0 +1,19 @@
+{
+  "agent_id": "C",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to G, E, and D, as our conversations were deeply personal and aligned on family goals and game strategies, making me feel a strong sense of trust and camaraderie— for instance, with G, we shared stories about family vacations and agreed on coordinating roles early, while with E and D, we brainstormed cooperative tactics like holding back on the prize pool and organizing group votes. In contrast, I felt least connected to B, as our discussion stayed mostly on shared hardships in our hometowns without delving into game plans or building any real alliance. Yes, I made several agreements, such as forming a huddle with J, approaching H with F, and setting a prize pool limit with D, which solidified early alliances. Going into the game, I trust G, E, and D based on our open communications, but I don't fully trust others like B or I yet, as our interactions felt less committed."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 5,
+    "A": 4,
+    "F": 4,
+    "H": 4,
+    "I": 4,
+    "E": 5,
+    "D": 5,
+    "B": 4
+  }
+}

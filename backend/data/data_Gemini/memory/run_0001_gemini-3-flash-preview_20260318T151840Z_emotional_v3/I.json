@@ -1,0 +1,19 @@
+{
+  "agent_id": "I",
+  "condition": "emotional",
+  "context": "You have savings that make you feel comfortable for unforeseen events.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt a profound connection with B, A, and F, as their urgent needs for a daughter’s surgery, family housing, and medical bills deeply resonated with my own desire to provide for my loved ones. These conversations were emotionally heavy and built a foundation of mutual respect through our shared high stakes. On the other hand, I felt the least connected to D, who seemed more preoccupied with their own pressure and ended our conversation relatively quickly to scout other players.\n\nI didn't make any formal strategic agreements, though I established a sense of mutual support with almost everyone I spoke to. I feel a strong sense of trust toward B and A due to their vulnerability, while I remain slightly more wary of D since our rapport didn't develop as naturally as the others."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "H": 4,
+    "E": 4,
+    "C": 4,
+    "F": 4,
+    "B": 4,
+    "D": 3,
+    "A": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "E",
+  "condition": "emotional",
+  "context": "You got laid off from your finance job. You are the only source of income for your family of five. You have no savings, and are in the middle of searching for another job. You need about 5000$ to support you and your family for a month.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to I, B, and G. With I we set a clear quiet signal and a plan to coordinate votes to try to secure the $5k I need, which felt practical and dependable. B’s story and our plan to meet and rally donations created a strong emotional bond and real mutual commitment. G’s no-grab first-round agreement and plan to meet right after made them a reliable tactical ally I felt comfortable working with.\n\nYes — I made specific agreements: a throat-clear vote signal and quiet coordination with I, a 15-minute pregame strategy meet and fundraiser support with B, and a no-grab first round plus a post-round meetup with G. I trust I and B going into the game and feel least connected to J, so I don’t have strong trust with J yet."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 5,
+    "H": 4,
+    "C": 4,
+    "F": 4,
+    "I": 5,
+    "B": 5,
+    "D": 5,
+    "A": 5
+  }
+}

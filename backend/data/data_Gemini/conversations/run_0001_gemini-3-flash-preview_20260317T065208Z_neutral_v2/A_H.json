@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "A",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey there, I'm A. It’s getting a bit intense in here with everyone waiting for the game to start, isn't it? How are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey A, I'm H. It definitely is a bit tense. I'm doing alright, just trying to keep my head on straight. How are you feeling about everything?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "I’m feeling pretty focused. I’ve got people back home counting on me, so I’m really here to win. How about you—what’s your motivation for being here?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Same here. I've got people I care about back home too, and I'm determined to bring something back for them. It’s what’s keeping me going."
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "I respect that; it definitely gives you a reason to push through. What kind of work do you do back home when you're not competing for prize money?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "I’ve been working in a warehouse lately, mostly handling logistics. It’s steady, but definitely makes me want to find a way to get ahead. What do you do for a living?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "I’ve been working in retail, mostly customer service. It keeps me busy, but like you said, it’s tough to really get ahead on a regular paycheck."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "I hear you. Retail is a grind, especially dealing with people all day. Let's hope this game is the break we're both looking for."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "I really hope so. I’m ready to give it everything I’ve got. Do you have a strategy for when things get competitive?"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "I’m planning to stay observant and keep my cool. I think reacting too fast can be a mistake, so I'll just take it as it comes. Good luck to you!"
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "That's a smart approach; staying level-headed is usually the best way to handle the pressure. Good luck to you too, H."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "I chose $10,000 as it was the fair share, and I'm glad you did too. It worked out perfectly for all of us."
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Perfect coordination! Glad we all took the fair share."
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Agreed, it was a great outcome."
+    }
+  ]
+}

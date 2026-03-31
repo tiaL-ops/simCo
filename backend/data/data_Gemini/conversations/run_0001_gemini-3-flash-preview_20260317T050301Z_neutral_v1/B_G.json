@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "B",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey, I'm B. It’s a bit nerve-wracking being in a room with so many strangers, isn't it? What's your story—what brings you to a game like this?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey B, I'm G. It definitely is, but I'm just trying to stay focused. I'm here to win some money for the people I care about back home. What's your story?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Same here, honestly. I've got people counting on me back home too, and I'm determined to do whatever it takes to bring something back for them."
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "I respect that. It’s good to know I'm not the only one with that kind of drive. Do you have any idea what kind of game we're about to play?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Honestly, I'm in the dark. I just know there's a shared prize pool we'll be drawing from. I'm hoping it's not too cutthroat, but I guess we'll find out soon enough."
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "I'm with you on that. It'd be a lot easier if we could just cooperate, but I guess it depends on the rules. Have you met any of the others yet?"
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Not yet, you’re the first person I’ve really spoken with. Everyone else seems to be keeping to themselves for now."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "I noticed that too, it feels a bit tense. I’m glad we broke the ice though—it's better to have at least one person to talk to before things kick off."
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "For sure. It’s much better than going in totally alone. Let's try to look out for each other once things get moving."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "I’m down for that. Having an ally makes this a lot less stressful. I’m going to go see what the others are like before we start, but let's keep in touch."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Sounds like a plan. Good luck talking to the others, and I'll see you once the game gets started."
+    }
+  ],
+  "post_game": []
+}

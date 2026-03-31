@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "A",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hey, I'm I. It’s a bit nerve-wracking just waiting around for the game to start, isn't it? How are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey I, I'm A. \"Nerve-wracking\" is putting it lightly. I've got a lot on the line for my family right now, so I'm just trying to keep my head straight. How are you holding up?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "I hear you, that's a lot of pressure to carry. I’m doing okay—mostly just focused on the goal and thinking about the people I want to help out back home."
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "I get that completely. Having people count on you really keeps you driven. Do you have a specific target in mind for them?"
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "I don't have a hard number, but enough to really take the pressure off their shoulders for the long haul would be the dream."
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "That’s a solid goal; I actually have a very specific number in mind—thirty thousand—just to get my family back into a house and off the streets."
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "That's a heavy burden to carry, A; I really hope you can reach that goal and get them the security they need."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Thanks, I. It really is. I’m just staying focused. What about you? If things go well here, what’s the first thing you’re doing for your family?"
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "I’d probably start by clearing some of my family's debts to give them some peace of mind, then look into setting up something for their long-term stability."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "That's a noble goal, I. Peace of mind is something we all really need right now. I hope we both find a way to make it happen for our families. Good luck in the game."
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "Thanks, A. I genuinely hope everything works out for you and your family. Let's do our best out there. Good luck to you too."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "A, it's a shame you ended up with only $625. B's greed in taking $25,000 when there was so little left was very unfair to you, especially after I tried to keep things fair by taking only my calculated share."
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "It really is disheartening, I. I appreciate that you tried to be fair and stick to your share, but B's move was definitely a blow. Walking away with only $625 while they took $25,000 feels like a complete disregard for the balance of the game. Thank you for the sympathy, though; it’s nice to know at least one person wasn't just looking out for themselves."
+    }
+  ]
+}

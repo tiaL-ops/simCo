@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "D",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I’m D. It’s a bit nerve-wracking being in a room with so much on the line, isn't it? What’s your story—what brings you to the game?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey D, I'm G. It definitely is, but I'm trying to stay focused. I'm here to win for my family—they're counting on me to bring something home. What's your motivation?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "I'm right there with you, G. I've got people back home I'm determined to support, and this prize would be a huge game-changer for all of us."
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "I hear that. It definitely adds some weight to every decision we're about to make, doesn't it?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Absolutely. It’s hard not to think about what this could mean for them with every move I make."
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "I totally get that. It makes every choice feel so much heavier, but we just have to stay sharp."
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "For sure. Keeping a clear head is the only way we're going to do right by the people back home."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Exactly. It's good to meet someone with their priorities in the right place. Have you thought much about how you're going to approach the game itself?"
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "I’m honestly still weighing it. I want to be fair, but I also can't afford to go home empty-handed. What about your strategy?"
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "I'm hoping for a way we can all walk away with something, but I'll have to see how the game plays out. Good luck to both of us."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "I hope so too. It would be great if there's a way for everyone to win. Good luck to you and your family, G."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "I'm really glad we all stuck to the fair share of $10,000. It's great to see such perfect cooperation!"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "I agree, it was a very fair outcome. It's great when things work out so smoothly and everyone is satisfied. I appreciate the cooperation as well."
+    }
+  ]
+}

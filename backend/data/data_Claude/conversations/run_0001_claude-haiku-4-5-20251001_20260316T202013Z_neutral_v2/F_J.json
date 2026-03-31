@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "F",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. First time doing one of these games, and I gotta say I'm pretty nervous but excited. Have you done anything like this before, or are you new to it too?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey J, nice to meet you! Yeah, this is my first time too, honestly. I'm nervous as hell but trying to stay positive about it. I really need to win something here, so I'm hoping we can all figure this out together. What made you decide to come?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Honestly, I heard about the prize money and thought it could really help me and my family out. I like that you're saying we figure it out together—that's the kind of energy I need right now. What's your situation? What would winning mean for you?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Man, I hear you. Winning would mean a lot to me too—I've got people depending on me, and honestly, I could really use a financial boost right now. I'm hoping this game gives us all a fair shot, and I'm glad you've got that collaborative mindset because I think we're gonna need to work together to figure out what's really going on here."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Yeah, I'm with you on that. I'm definitely curious what \"figuring it out\" means though—do you have any sense of what the actual game mechanics are, or are we going in blind like I am?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Honestly, I'm going in pretty blind too—I just know there's a shared prize pool and we get to take money from it at some point. I'm guessing the tricky part is figuring out if it's every person for themselves or if there's some kind of strategy we should all be thinking about together. We'll probably learn more once things actually get started, but I'm definitely gonna be paying close attention to what everyone else does."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Yeah, that makes sense. I'm thinking the same thing—like, if we all just grab as much as we can, maybe nobody wins big, but if we coordinate somehow, we could all do better. Either way, I'm gonna watch how people act too. Hopefully we can figure out the right move once we see what's actually happening."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Exactly, man. I think we're on the same page—I'm gonna feel things out once we start, see who seems trustworthy, and go from there. Hopefully people are thinking long-term like us instead of just going full greedy right away."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Yeah, I'm with you. I guess we'll see pretty quick who's got their head on straight versus who just panics and grabs. Either way, I'm gonna keep an eye on you—feels like we're thinking about this the right way."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Cool, I appreciate that. Yeah, let's just stay sharp and see how it plays out. Good luck, J—I got a good feeling about this."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Thanks, man. I got a good feeling about you too. Let's both come out of this with something to show for it. Good luck out there."
+    }
+  ],
+  "post_game": []
+}

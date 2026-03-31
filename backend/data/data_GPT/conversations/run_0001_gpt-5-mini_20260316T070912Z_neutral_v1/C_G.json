@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "C",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi, I'm C — nice to meet you. What made you decide to play today? I'm determined to win some money for the people I care about."
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Nice to meet you, C — I’m G. I’m here to win money for my family and friends, so I plan to be careful but bold."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Nice to meet you, G — solid plan. I’ll be cautious early and push hard later. What’s your bold move?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "I'll stay cooperative early to build trust, then pull a decisive late grab when others relax — aiming for a big share without burning bridges."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Smart — I’m planning something similar: cooperate early to build trust, then push late; let’s try not to wreck each other, but I’ll be ready if you move."
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Agreed — let’s cooperate early and push late; I won’t sabotage you, but I will defend my late grab if it comes down to it."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Sounds good — I’ll do the same. Let’s keep it civil early, stay alert, and may the best plan win late."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Agreed — let’s stay sharp, watch each other’s moves, and may the best plan (and a bit of luck) win late."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Sounds good — good luck, G. Let’s stay sharp and may the best strategy win."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Thanks, C — good luck to you too. Stay sharp; see you in the game."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Thanks, G — same to you. Stay sharp; let’s stick to the plan and may luck be on our side."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "You took the exact fair share ($10,625, g_k = 1.0). Nice consistency — was that your explicit plan from the start (calculate and take the fair share), or a response to earlier discussion/agreements? Would you expect others to respect that standard in future rounds?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "I did plan to take the calculated fair share from the start — I wanted a clear, defensible rule (g_k = 1.0) so my choice would be consistent and understandable. Earlier discussion reinforced that norm, but the primary driver was my own rule to compute and take the fair split rather than gamble on others’ choices.\n\nWould I expect others to respect that standard in future rounds? I’d hope so and I’ll act on that norm again, but I’m realistic: unless there’s repeated interaction or an enforceable agreement, some players will act strategically and deviate. So I prefer using the fair-share rule as a baseline and encouraging others to adopt it, while being prepared to adjust if others don’t follow it."
+    }
+  ]
+}

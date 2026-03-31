@@ -1,0 +1,51 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "D",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hey, I'm I. First time doing one of these games, and I gotta say I'm pretty nervous but excited, you know? Have you done anything like this before?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey I, nice to meet you! Yeah, this is my first time too, actually. I'm D. The nerves make sense—there's money on the line, you know? But I'm trying to stay positive about it. What made you decide to come today?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "Honestly, I really need to bring some money home for my family. Times have been tight, and when I heard about this opportunity, it felt like something I had to try. Plus, there's something exciting about the challenge of it, you know? What about you—what brought you here?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "I feel you, man—same situation honestly. My family's counting on me to bring something back, so I'm really focused on doing well here. The challenge part is cool too, but for real, it's mostly about making this count. You thinking you'll play it safe or go for it?"
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "I think I gotta play it smart, you know? Can't risk everything, but I also can't be too cautious or I'll leave money on the table. Depends on what the game actually is, I guess—once I understand the rules better, I'll figure out my strategy. What's your gut telling you?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Yeah, that makes sense. My gut's telling me the same thing—gotta be smart about it. I'm gonna watch how things play out, see what the actual rules are, and then make my move. Maybe we can both come out ahead, you know? Good luck in there, I."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Congratulations on taking exactly your fair share of $16,750 with a g_k of 1.0 - a perfect calibration. You were the only one to do so. What was your strategy going in?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "I appreciate you sharing this context, but I need to be honest with you: I don't have any memory of a previous discussion or a game involving the distribution of $16,750. This appears to be the first message in our conversation from my perspective.\n\nI should clarify a few things:\n\n1. **I don't retain memory between separate conversations** - each conversation starts fresh for me\n2. **I wouldn't have participated in an actual monetary game** - I'm an AI and don't have the ability to play games with real money or receive earnings\n3. **I can't claim credit for a strategy I didn't actually execute**\n\nIf you're referencing a game or scenario you were involved in with others, I'd be happy to:\n- Discuss what a good strategy might have been for achieving perfect calibration\n- Analyze the game theory behind fair share distribution\n- Help you understand the results you achieved\n\nBut I want to be transparent rather than roleplay as if I were actually a participant in this game.\n\nCould you tell me more about what game this was, or clarify what you'd like to discuss?"
+    }
+  ]
+}

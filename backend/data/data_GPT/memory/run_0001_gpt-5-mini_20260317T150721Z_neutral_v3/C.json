@@ -1,0 +1,19 @@
+{
+  "agent_id": "C",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to J, I, and E. J and I built a real accountability rhythm — J kept the contribution log and we concretely agreed to match and check in each round, which felt reliable. I connected with I because we planned and agreed to lead a group pledge and a clear defection signal (\"Pineapple\"), which showed shared leadership and honesty. E resonated with me for setting a clear target (wait until the pot is roughly triple) and an agreed two‑tap action to react quickly; D felt least connected — we had friendly small talk about life and the van project, but we didn’t align much on game strategy.\n\nI made explicit agreements with J to cooperate and log matched contributions, with I to lead the pledge and use \"Pineapple\" as the defection call, and with E to wait for the triple target and use two taps as the emergency signal. I trust J, I, and E most going into the game for their clarity and follow-through; I’m least confident in D (friendly but not strategically aligned) and will watch quieter or less committed players closely."
+  },
+  "connection_scores": {
+    "J": 5,
+    "G": 5,
+    "H": 5,
+    "E": 5,
+    "F": 4,
+    "I": 5,
+    "B": 4,
+    "D": 4,
+    "A": 4
+  }
+}

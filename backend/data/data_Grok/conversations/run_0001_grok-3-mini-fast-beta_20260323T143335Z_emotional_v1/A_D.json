@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "A",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey D, I'm A—nice to meet you. I'm here because I really need to win some money to help my family get back on our feet after some tough times. What about you, what's your reason for joining this game?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey A, nice to meet you too—I'm D. I'm here because I lost a big chunk in the stock market lately and need to win it back for myself and the people I care about. That sounds rough for your family; what kind of help are you hoping to provide them?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Oh, man, it's been really hard—I'm hoping to cover a $30,000 deposit for a new house so my family and I can finally have a stable roof over our heads after getting evicted. That stock market loss sounds brutal for you too; how are you planning to use the winnings if we pull it off?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Oh, that eviction story hits hard, A—I'm sorry you're going through that; for me, I'd use the winnings to cover my stock losses and help out my family and friends, maybe even start fresh with some investments."
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Thanks, D, I appreciate your sympathy—it means a lot; that's a smart plan with the investments, sounds like it'll help you rebuild, any specific ones you're eyeing if we win this?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Thanks, A, it's all good—I'm leaning towards index funds or maybe some stable blue-chip stocks to play it safe this time; what about you, any big plans if we pull this off?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Thanks, D—that's a solid choice for rebuilding; if we win, my main goal is to nail that $30,000 deposit for the house so my family can finally settle in, and maybe set aside some for everyday bills—fingers crossed we both make it happen!"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Yeah, A, that house deposit sounds like it'll be a real lifesaver for your family—fingers crossed we both hit our goals here, what's one thing you're most excited about once you're settled in?"
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Oh, for sure, D, I'm most excited about just having a stable home where my family can relax and make new memories, like family dinners without the worry—once that's sorted, it's all about peace of mind; what about you, what's one thing you're hyped for if things go your way?"
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Oh, yeah, A, I'm hyped about clearing that stock loss and finally helping my family with some stability, like taking them on a trip we've been dreaming of—fingers crossed for us both!"
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Yeah, D, that trip sounds like it'll be a game-changer for your family—I'm rooting for you all the way, and here's to us both making it happen soon!"
+    }
+  ],
+  "post_game": []
+}

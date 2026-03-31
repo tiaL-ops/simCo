@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "D",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D—nice to meet you. I heard about this game and it seems like a fun way to turn things around, especially after a rough week with investments. What's your story, why are you here?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey D, I'm G—nice to meet you too. I'm all about games and taking chances, so I jumped at this opportunity to win some cash for my loved ones; sounds like we're both hoping for a turnaround, huh? What's your take on the game so far?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Yeah, totally, G—I'm feeling optimistic about this game; it's a chance to strategize and win big for my family, especially after that stock hit. How about you, any tips from your game experiences?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Oh, for sure, D—I've learned that in games like this, it's all about reading the room and not rushing; always pays off to stay patient and strategic. What's your go-to strategy here?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Oh, absolutely, G—I'm big on observing everyone first and building some trust before making moves, kinda like hedging bets after my stock fiasco. What's a specific example from your games that really paid off?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Hey D, one time in a poker game, I held off betting early and waited for the perfect bluff opportunity, which let me walk away with double my stake—patience really paid off! What's your plan for spotting trustworthy folks here?"
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "That's a smart move, G—I've got to say, I look for folks who are straight-up in their answers and follow through on what they say, like gauging their consistency early on; how do you go about building alliances in games like this?"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Oh, for sure, D—I build alliances by finding common ground early, like sharing goals and being upfront, then suggesting ways we can team up without burning bridges; how's that approach worked for you in your experiences?"
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Oh, yeah, G, I've used that in my investing groups before—being open and finding common goals helped me avoid some pitfalls, even if it didn't always pan out; I'm definitely trying it here to build a strong team—what's your most memorable alliance success?"
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Oh, yeah, D, my most memorable alliance was in a strategy board game where I bonded with a couple of players over shared goals early on, and we coordinated perfectly to outmaneuver everyone else, walking away with the top prize—it was a game-changer!"
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "That's inspiring, G—sounds like a great blueprint for this game; I'm definitely looking to build something similar here to turn things around for my family."
+    }
+  ],
+  "post_game": []
+}

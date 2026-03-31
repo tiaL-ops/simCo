@@ -1,0 +1,85 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "C",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey G, I'm C, and I'm really excited about this game—it's a chance to win some extra cash for things I care about, like planning a dream trip. What's your story, and what got you interested in all this?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey C, nice to meet you! I'm all about games and the thrill of winning big—heard about this Simco game and figured it's my chance to score some cash for my family and friends. What's your dream trip look like?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Oh, hey G, my dream trip is a perfect week in Japan—think exploring Tokyo, tasting fresh sushi, and seeing cherry blossoms, all for about 10k; winning this would make it happen and help out my loved ones too—what's your big plan for the cash if we win?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Oh, that Japan trip sounds epic, C—fresh sushi and cherry blossoms? Awesome! If we win, I'd use the cash to help my family with bills and maybe throw a big celebration for everyone I care about; what's your strategy for the game?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Hey G, that's awesome you're thinking of your family—my strategy is to play it smart and build some alliances early to maximize our chances; what's yours looking like?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Hey C, yeah, building alliances sounds smart—my strategy is to watch the game closely, make some key friends like you, and go all in when it counts; how do you think we'll spot the best allies here?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Hey G, I think we'll spot the best allies by watching who communicates openly, shares their goals honestly, and shows they're in it for the team—like how we've hit it off; what about you?"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Hey C, I totally agree—I'm looking for folks who are upfront and reliable, like you, and maybe see how they handle the first few rounds to build that trust."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Hey G, totally with you on that—let's keep building trust by watching how folks play early on, and I'm glad we're on the same page; what's one thing you're hoping to see in the first round?"
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Hey C, in the first round, I'm hoping to see some real cooperation and people holding back a bit to build the pot—exciting stuff!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Hey G, totally agree—cooperation in the first round sounds like a smart move to build that pot, and I'm pumped to see how it plays out; it's been great talking with you!"
+    },
+    {
+      "turn": 12,
+      "from": "C",
+      "message": "Hey G, I'm C – excited to be here for this game; it could be a great chance to win some extra cash. What's your take on all this?"
+    },
+    {
+      "turn": 13,
+      "from": "G",
+      "message": "Hey C, nice to meet you again—I'm pumped for this game too, it's all about grabbing that cash for my family; I think building some solid alliances early could make all the difference!"
+    },
+    {
+      "turn": 14,
+      "from": "C",
+      "message": "Hey G, totally agree—building alliances like ours could really turn the tide; I'm excited to dive in and see how it plays out, let's keep that energy going!"
+    },
+    {
+      "turn": 15,
+      "from": "G",
+      "message": "Hey C, absolutely, our alliance feels solid and I'm stoked to see how it all unfolds—let's crush this together!"
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "pair": [
+    "C",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi D, I'm C. It's a bit surreal being in this room with everyone, isn't it? I’m really hoping to make it to Japan this year, but I’d love to hear what brings you to the game."
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey C, nice to meet you. Japan sounds like a dream. I’m here because I took a major hit on some investments yesterday and I need to get that money back for my family. It's definitely a weird atmosphere."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "That’s tough to hear, D—markets can be so unpredictable. I’m really set on that Japan trip, but I’m also here to win for my family, so I definitely understand the pressure you're under."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "I appreciate that, C. It’s a lot of weight on my shoulders right now. It sounds like we’re both playing for the people we love. Do you have any idea how the game is actually going to work?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Honestly, I’m in the dark too, but I’m hoping it’s something where we can all walk away with what we need. I guess we just have to wait for the official rules."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "I really hope so, because I can’t afford to walk away empty-handed after yesterday. Let’s see what they throw at us."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "I'm with you. Let’s keep our heads in the game and see what happens next."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Definitely. I’m staying sharp—I really can’t afford any more mistakes after yesterday."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "I get that. Let’s just stay focused and hope the game gives us both a fair shot at what we need."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Fingers crossed it works out for both of us. I'm going to move around a bit and see who else is here. Good luck, C."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Likewise, D. Go do your thing and hopefully we'll both come out on top. Talk soon."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Thanks for being reasonable and taking less than your fair share. It's a shame some of the others weren't as considerate."
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "I'm glad you're satisfied with the outcome. I felt it was better to walk away with something guaranteed than to risk the whole pot by being greedy. Take care."
+    }
+  ]
+}

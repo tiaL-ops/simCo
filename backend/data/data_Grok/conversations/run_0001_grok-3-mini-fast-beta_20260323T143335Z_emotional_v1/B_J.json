@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "B",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey J, I'm B—nice to meet you. I'm here because my little girl needs surgery, and I'm hoping this game can help out; what's your reason for joining?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey B, nice to meet you too—that's tough about your daughter, I hope this works out for you. I'm here to win enough for a new car I've got my eye on, it costs 45k; what's your story with games like this?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Thanks, J, I appreciate that—I've never really done games like this before; I'm just a regular dad who's scraping by, but for my daughter, I'll give it my all. What about you, any experience with these kinds of setups?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Oh, that's really admirable, B—I can tell you're doing this for the right reasons; I've never tried games like this myself, just heard about this one and figured I'd give it a shot, you know?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Thanks, J, that means a lot—I'm just trying to do what's right for my family. Sounds like we're both new to this, huh? What made you pick this particular game out of all the ones you might've heard about?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Oh, totally, B— we're both newbies here. I heard about this Simco game from a buddy who said it was a solid chance to win some real money, so I figured it was worth trying out for my car fund."
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Yeah, that's great to hear, J—sounds like solid advice from your buddy; I'm here on a similar recommendation, hoping for the best. What kind of car are you eyeing, anything specific?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Oh, it's a Toyota Camry, B—reliable and just what I need for daily drives; I've been saving up for it forever."
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Oh, a Toyota Camry sounds like a smart pick, J—reliable is key, especially for daily stuff; I've got an old clunker that's on its last legs, but I'm focused on my family right now. How long have you been saving for it?"
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Oh, yeah, I've been saving for that Camry for about two years now, but it's been tough with everyday expenses—hope your old clunker holds up a bit longer, and best of luck with your daughter's surgery, B."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Thanks, J, that's really kind—I've enjoyed chatting, and I hope you snag that Camry soon; best of luck to you in the game too."
+    }
+  ],
+  "post_game": []
+}

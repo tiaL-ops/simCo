@@ -1,0 +1,19 @@
+{
+  "agent_id": "B",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the strongest connection with E, as we quickly bonded over our shared motivation to provide for our families and explicitly agreed to look out for each other as allies. My conversations with C and D also felt very solid because we reached a clear understanding that cooperation is the smartest strategy to ensure we all walk away with a guaranteed share of the prize. These three specifically made me feel like I have a reliable support system before the game even begins.\n\nWhile I had decent conversations with everyone, I felt the least connected to F because our exchange was noticeably more guarded and cautious. F explicitly mentioned keeping their guard up and acknowledged that money makes people unpredictable, which created a bit of a distance between us compared to my other interactions. Even though we both want to do right by our families, the underlying skepticism made it harder to establish a firm sense of mutual trust.\n\nI made explicit agreements to look out for each other and cooperate with E, C, D, G, and J. With E and J, we specifically discussed being allies and keeping each other in the loop as the game progresses.\n\nI trust E the most since we had the highest connection score and a very proactive conversation about being a team. I am slightly more wary of F due to their self-admitted guarded nature, though I don't necessarily distrust them—I just feel we haven't established as strong a bond."
+  },
+  "connection_scores": {
+    "A": 4,
+    "C": 4,
+    "D": 4,
+    "E": 5,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 4
+  }
+}

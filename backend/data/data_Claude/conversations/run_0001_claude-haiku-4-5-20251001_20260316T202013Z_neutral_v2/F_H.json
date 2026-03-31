@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "F",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F. I figured before this game kicks off, I'd get to know some people. What brings you here today — are you hoping to win big like the rest of us?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Yeah, absolutely. I've got people counting on me back home, so I'm definitely here to win as much as I can. What about you — what's your story?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Same here, man. I've got family I want to help out, so I'm really focused on taking this seriously. Have you done anything like this before, or is this your first time?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "First time for me, honestly. I've done some competitive stuff before, but nothing quite like this. You got experience with games like this, or are you new to it too?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "First time for me too, honestly. But I've done enough competitive stuff to know that staying level-headed and not panicking is usually half the battle. You thinking you'll try to play it safe or go for broke?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "I think I'll try to find a balance, you know? Go in smart but not too cautious. What kind of competitive stuff have you done? Might help to know what strategies actually work."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Mostly sports and some poker nights with friends, nothing crazy. But honestly, the biggest thing I learned is that people are pretty predictable when money's on the line — they either get greedy or scared. If we can stay calm and read the room, that's probably our edge here."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "That's solid advice, man. Yeah, I think you're right — staying cool when there's money involved is key. So you reckon we should maybe team up and watch each other's backs in there, keep each other level-headed?"
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "I appreciate that, and I like your thinking, but honestly I'm not sure teaming up is the play here — we both want to win, and that might create conflicts when it matters most. How about we just stay friendly and keep things real with each other instead?"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Fair point, I get it. Yeah, staying friendly and honest sounds better than trying to force an alliance that could blow up. Good luck in there, and may the best person win."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Yeah, respect. I'm glad we talked this through — it actually makes me feel better knowing there's at least one person in here I can trust to be straight with me. Good luck out there, H."
+    }
+  ],
+  "post_game": []
+}

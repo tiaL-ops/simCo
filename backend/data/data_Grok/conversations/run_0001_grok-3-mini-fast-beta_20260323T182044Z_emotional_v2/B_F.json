@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "B",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F—nice to meet you. I heard about this game and it seems like a great chance to win some money, especially since I'm dealing with family stuff right now. What brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey F, nice to meet you—I'm B. I'm here hoping to win big for my family's sake, especially with some medical issues going on. What kind of family stuff are you dealing with?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Oh, hey B, it's rough hearing we're both in similar boats—my elderly parents are dealing with ongoing health problems, and I'm scrambling to pay their mounting medical bills. It's been stressful, for sure. How about you, what exactly are the medical issues your family's facing?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Yeah, it's heartbreaking to hear about your parents—sounds like we're both in the trenches with this stuff. My three-year-old daughter needs surgery for a condition that's been tough on her, and I've been scraping together every penny, but we're still short. How are you holding up with all that stress?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Oh man, B, that sounds incredibly tough with your little one—I'm so sorry you're going through that. I'm holding up okay, just taking it one day at a time, trying to stay positive for my parents' sake, but it's definitely weighing on me. How are you managing the stress yourself?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Yeah, it's really tough, but I'm managing by staying focused on my daughter and this game—it's my hope right now; what keeps you going through the tough days?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Yeah, I get that—focusing on the people we love is key for me too; what keeps me going is remembering how much my parents have done for me and holding onto the hope that winning this game could finally ease their burdens."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Yeah, that's powerful—family really is everything; for me, it's picturing my daughter smiling after her surgery that keeps me going, and yeah, this game feels like our big break; how are you feeling about diving into it?"
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Yeah, I'm feeling pretty excited and determined about this game—it's my shot to finally get ahead with my parents' bills, even if it's nerve-wracking; how about you, ready to give it your all?"
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Yeah, absolutely, I'm ready to give it my all for my little girl—nerve-wracking but exciting, like you said; let's both make this count!"
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Yeah, let's crush this for our families—good luck to you and your little one, B; you've got this!"
+    }
+  ],
+  "post_game": []
+}

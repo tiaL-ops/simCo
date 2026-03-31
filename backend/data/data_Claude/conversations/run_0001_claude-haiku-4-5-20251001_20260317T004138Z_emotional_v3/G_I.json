@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "G",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey! I'm G. I haven't seen you around before—is this your first time doing something like this? I'm pretty excited about the game, honestly, been looking forward to it."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Yeah, first time for me too! I'm I. I've heard good things about this game and figured it was worth checking out. What kind of experience do you have with these things?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Oh nice, so we're both fresh faces! Honestly, I've played some games before but nothing quite like this with actual money on the line. That's what's got me pumped though—I really think if you go in with the right mindset and maybe work with people here, you can actually come out ahead. You thinking the same way, or are you more just here to see what happens?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Yeah, I'm definitely here to win—I've got some savings to fall back on, so I can play smart without panicking. I like what you're saying about working with people though. You think cooperation is actually the move here, or is it more of a competitive thing?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "That's smart thinking with the savings cushion. Honestly, I think it depends on what the game actually is—like, if we're all going for the same pot, cooperation could help us maximize it together, but if it's more cutthroat, we might need to be strategic about who we trust. Either way, I'd rather figure out the rules first and see what vibe people have before committing to anything."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Yeah, that makes total sense—we're basically flying blind right now. I'm with you on waiting to see the rules first. But I gotta ask, when you say be strategic about who to trust, do you mean you'd be willing to work together if the situation calls for it, or are you planning to look out for yourself no matter what?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Honestly? I'd be open to working together if it makes sense for both of us, but I'm not gonna lie—I'm here to win and take money home for people I care about. So yeah, I'll cooperate if the math works out, but I'm not gonna sacrifice my shot just to be nice, you know?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "I respect that—I'm in the same boat honestly. I'm not here to be a pushover either, but I figure if we can both win more by working together than going solo, that's just smart play. Let's see what happens when they explain the rules and go from there."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Exactly—I like how you think. Smart money beats ego every time. Let's keep talking after they lay out the rules and see where we both stand. Could be a good partnership if the numbers make sense."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Sounds good to me. I'll definitely find you once we know what we're working with. Good luck out there, and let's see if we can both walk away winners."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Absolutely, man. I'll catch up with you once we know what we're dealing with. Feeling good about this—let's both bring something home."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "A",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. First time doing something like this? I gotta say, I'm pretty nervous but also hoping this could be a real game-changer for me and my family right now."
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Yeah, first time for me too honestly. I'm in a pretty tight spot right now—got evicted and need to scrape together 30 grand for a deposit and rent. So yeah, this could literally change everything for my family. What's your situation, if you don't mind me asking?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Man, that's rough—30 grand is a lot to come up with. I got laid off from my finance job a couple months back, and honestly I'm scrambling just to cover basic expenses for my wife and three kids. We need about 5k a month to get by, and my savings ran out weeks ago. This game feels like it could be a lifeline, you know?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Yeah, I feel you—that's a scary position to be in with a family depending on you. Finance job sounds solid though, maybe something will open up again? Either way, we're both here now and we gotta make this count. You got any sense of what this game's actually gonna be like?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Honestly, no clue—they've been pretty vague about the details, which honestly makes me more nervous. But I'm guessing it's some kind of competition where we're trying to win from a prize pool? I'm just hoping it's something where hard work or strategy actually matters, you know? Have you heard anything from the others?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Nah, haven't really talked to the others much yet, but I'm gonna try to figure it out before we start. Yeah, the vagueness is sketchy, but honestly I'm just hoping it's fair and that we actually have a shot at walking away with something real. We both need this too much to go in blind though—maybe we should ask around together?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Answer_to_E_from_A: Yeah, that's smart—let's definitely compare notes with some of the others before we jump in. Safety in numbers, right? Plus if we understand the rules better, we can actually strategize instead of just hoping for luck."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Exactly—I'm down for that. Let's grab a couple other people and see what they know. Maybe someone's picked up on something we missed, or at least we can figure out if everyone's in the dark like us."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Yeah, good call—let's do it. I'll feel a lot better going in with at least some idea of what we're dealing with. Come on, let's start with whoever looks approachable over there."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Yeah, let's go. I'm thinking we talk to a few people, get their take on what this is actually about, and then figure out if there's any way to work together on this. Strength in numbers, like you said."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Alright, let's do it. I'm with you on this—the more we know going in, the better our shot. Let's see who else is willing to talk."
+    },
+    {
+      "turn": 12,
+      "from": "A",
+      "message": "Cool, let's hit it up. And hey—whatever happens in there, I hope things turn around for you and your family. We got this."
+    }
+  ],
+  "post_game": []
+}

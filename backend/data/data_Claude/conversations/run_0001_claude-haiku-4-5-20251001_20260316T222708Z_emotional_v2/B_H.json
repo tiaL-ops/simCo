@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "B",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H. First time doing something like this? I gotta admit I'm pretty nervous about the whole thing, but also kind of excited to see what happens. You seem pretty calm over here."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey H, yeah first time for me too. I'm trying to stay calm on the outside, but honestly I'm pretty nervous as well. I've got a lot riding on this—my daughter needs surgery and we're running out of options. What brings you here?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Man, that's heavy—I really hope things work out for your daughter. I'm dealing with a loan that's due next month, so yeah, I get it. We're both kind of in the same boat here, needing this more than most people probably do."
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Thanks, man. Yeah, it sounds like we're both under some serious pressure. Do you know anything about how this game works? I'm trying to figure out what we're actually getting into here."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Honestly, I'm pretty much in the dark too—I just know there's a shared prize pool we can take from, but I haven't figured out the exact mechanics yet. Guess we'll find out together when it starts. You thinking we should try to team up or play it solo?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "I'm not sure yet—I guess it depends on what the rules actually are when we start. But I appreciate you asking. Maybe we can at least keep an eye out for each other and share what we learn as we go?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Yeah, that sounds good to me. Let's definitely share what we figure out—two heads are better than one, right? And hey, whatever happens in here, I hope your daughter gets what she needs."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Thanks H, I really appreciate that. And same to you with your loan situation—let's both get through this. I'll definitely keep you in the loop if I figure anything out before we start."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Sounds good, man. Same here—I'll let you know if I pick up on anything. We got this."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Yeah, we got this. Good luck in there, man. Let's both walk out with what we need."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "You too, man. Let's make this count for both of us. I'll see you in there."
+    }
+  ],
+  "post_game": []
+}

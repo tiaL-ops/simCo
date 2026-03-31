@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "G",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. I figured I'd get to know some people before we start — seems like it might matter, you know? What brings you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey G, good thinking. Honestly, I heard there's real money to win here and I need it — got people depending on me. What about you, what's your angle?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Same boat, man. Got family I want to help out, and this seemed like a real shot at making something happen. So you've got people depending on you too — that's solid. What kind of work do you usually do?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "I do construction work mostly — it pays the bills but not much beyond that. My sister's got medical stuff going on and my mom's rent is getting harder to cover. That's really why I'm here. You mentioned family too — what's the situation on your end?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Yeah, I hear you. My parents are getting older and medical bills are piling up too — my dad had some health issues last year. That's really what pushed me to look for something like this. Sounds like you're carrying a lot for your family, man. That takes real strength."
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Thanks man, I appreciate that. Medical stuff is rough — sounds like we're both in similar spots. Do you know anything about how this game works, or are we going in blind like everyone else?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Honestly, I'm going in pretty blind — just heard there's a shared prize pool and we get to take money from it, but I don't know the specifics of how it works or what the rules are. You know anything more than that?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Nah, I'm in the same boat — just know there's money up for grabs and we all get a shot at it. Guess we'll find out the rules when it starts. But hey, at least we'll figure it out together, right?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Yeah, for sure. I like that — having someone in here who gets it makes this feel less crazy. We'll figure it out when it starts, and who knows, maybe we both walk out with something good for our families."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Yeah, absolutely man. I'm glad we connected too. Let's both do what we gotta do to take care of our families. Good luck out there."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "You too, man. Really means a lot that we talked before this kicks off. Take care of your sister and mom — you got this. Good luck."
+    }
+  ],
+  "post_game": []
+}

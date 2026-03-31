@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "C",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C! I noticed you sitting over here and thought I'd come say hi before we get started. Have you done one of these games before, or is this your first time?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey C, nice to meet you! This is actually my first time doing something like this. I'm pretty excited though—I heard there's real money on the line, so I'm definitely ready to give it my all. Have you done this before?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "This is my first time too, actually! I'm pretty pumped about it. I've got my eyes on a trip to Japan that's been on my vision board forever, so I'm really hoping to walk away with some winnings. What about you—what would you do with the money if you won?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Oh man, that's awesome! Japan sounds incredible. Honestly, I'd love to help out my family first—maybe pay off some bills for my parents—and then treat myself to something I've been putting off. But yeah, I'm really hoping to come out ahead here. Do you have any strategy going in, or are you just gonna play it by ear?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "That's really cool that you want to help your parents out—that says a lot about you. Honestly, I'm still figuring out my strategy, but I'm thinking I need to pay attention to what everyone else is doing and try not to get too greedy too fast. What about you—do you have any ideas on how to approach the game itself?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Yeah, I think that's smart—watching what others do could definitely give us clues. Honestly, I'm planning to start cautious too and feel out the vibe, then adjust based on what happens. I figure if I can stay calm and not panic, I'll have a better shot at making good decisions when it matters. We should probably compare notes after a round or two if we get the chance!"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Absolutely, I like that approach—staying calm is probably half the battle. Yeah, let's definitely touch base after the first round or two. It'll be good to have someone I can think things through with. Good luck out there!"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Thanks C, same to you! I'm glad we're on the same page—having someone to strategize with will definitely help. Let's stick together and see how this plays out. Good luck!"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Definitely, I'm really glad we connected too. Let's keep our heads clear and support each other through this. Here's to both of us winning big!"
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Cheers to that! I've got a good feeling about this. Let's go get that money!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Hell yeah, let's do this! I've got a really good feeling about you, G. Let's both crush it out there and make our dreams happen."
+    }
+  ],
+  "post_game": []
+}

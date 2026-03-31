@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "I",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. First time doing something like this? I gotta say, I'm pretty nervous but also excited — I could really use a win today, honestly. What about you, what brings you here?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Yeah, first time for me too! I'm honestly in the same boat — really need a win today. Got some people counting on me back home, you know? But I'm trying to stay positive about it. What kind of win are you hoping for?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Man, I feel that — people counting on you changes everything, right? Honestly, I'm just hoping to walk out with enough to make a real difference, help my family out a bit. Do you know anything about how this game actually works, or are we both going in blind here?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Honestly, we're going in pretty blind on my end too. All I know is there's a shared prize pool and we get a chance to take money from it, but the details are fuzzy. Have you heard anything else? I'm hoping once we get started they'll explain the rules clearly. Either way, sounds like we both need this, so let's figure it out together."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Yeah, I appreciate that — figuring it out together sounds good. I haven't heard much more than you, just that there's money up for grabs and how we play matters. I'm guessing once they lay out the rules it'll make more sense. Either way, I like your attitude about this — we got this."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Thanks, man — I appreciate that. Yeah, we'll figure it out when the time comes. Just gonna stay sharp and see what opportunities come up. Good luck out there, J."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "You too, man — let's both bring something home today. Stay sharp out there."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Absolutely, we got this. See you out there."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "For sure, man. Let's make it count."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Definitely. Good talking with you, J. Let's both walk out winners today."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "You got it, man. Same to you — let's make this happen."
+    }
+  ],
+  "post_game": []
+}

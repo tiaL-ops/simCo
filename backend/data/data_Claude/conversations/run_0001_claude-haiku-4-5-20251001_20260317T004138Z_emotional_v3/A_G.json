@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "A",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey! I'm G. I've got to be honest, I'm pretty excited and a little nervous about this game starting soon. Have you done anything like this before, or are you new to this too?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey G, I'm A. Yeah, this is my first time too, honestly. I'm nervous as hell, but I really need this to work out – my family's counting on me. What brings you here?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I feel that, man. Same here – I want to bring something home for my family too. That's what's driving me. So we're both going in blind then? Have you thought about what strategy you might use, or are you just gonna play it by ear?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Honestly, I'm still figuring it out. I know I need $30,000 for a deposit and rent, so I can't afford to mess this up. Have you heard anything about how this game actually works? Maybe we can figure out a strategy together."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Yeah, I hear you – that's serious money. Honestly, I haven't gotten the details yet either, but I'm thinking we should ask around and see if anyone else knows the rules before we go in. Maybe we can piece together what this is actually about before the game starts, you know?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "That's a smart idea, man. Yeah, let's definitely ask around – maybe someone here has played before or knows more about what we're walking into. We should stick together on this, figure out the rules before we commit to anything."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Absolutely, I'm with you. Let's split up and talk to a few people each, then meet back up and compare notes. We need to know what we're dealing with before things get real."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Yeah, good call. I'll chat with a few people over here and get back to you in a bit. We need to know what we're up against before this starts."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Sounds good, man. I'll do the same – let's catch up in like ten minutes and pool what we learn. And hey, we got this."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Yeah, thanks man. I appreciate that. Ten minutes works – I'll gather what I can and we'll put the pieces together. See you in a bit."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Alright, catch you soon. Stay sharp out there and don't let anyone pressure you into anything before we talk."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "F",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. It's a bit crowded in here, isn't it? I'm hoping to head home with something for my family—what about you, what brings you to the game?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Nice to meet you, G. I'm F. It is tight in here, but I'm just focused on that prize. I'm here to win for my family too—we could really use the boost."
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I hear you, it definitely adds some pressure when you're doing it for more than just yourself. What would that boost mean for your folks?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "It would mean everything; things have been tight lately, and this would finally let them breathe a bit easier without worrying about every bill."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "I really feel that. Relieving that kind of stress is exactly why I'm here too; it's tough when everything feels like a struggle."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Exactly. It’s exhausting being on edge all the time, which is why I’m so set on making this work."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "I totally get it. That kind of pressure is a huge motivator. Do you have a plan for how you’re going to handle the game once it starts?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Not a concrete one yet, just trying to stay observant and see how everyone else plays. Do you have a strategy in mind?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "I’m mostly just trying to figure out who I can trust; I’d love for us both to win, but I’m definitely staying cautious until things get moving."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "That’s smart. It’s hard to know who’s really here for the right reasons. Let’s just see how it plays out once the game starts. Good luck to you."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Thanks, F. Good luck to you too. I really hope we both find a way to make it work for our families. See you out there."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Glad we all stuck to the $10,000 fair share. It's great to see such cooperation."
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "I agree, it's a great result. Cooperation worked out perfectly for both of us."
+    }
+  ]
+}

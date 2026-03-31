@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T125838Z_emotional_v2",
+  "pair": [
+    "F",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F. It's a bit overwhelming in here with everyone, isn't it? What's your name, and how are you feeling about the game?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey F, I'm H. It’s definitely a bit much, but I’m mostly just focused. I’ve got some big expenses coming up soon, so I’m feeling pretty determined to win. How are you holding up?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "I'm hanging in there, H. I'm in a similar boat—got some heavy family medical bills piling up, so I'm pretty motivated myself. It's tough when you've got people counting on you, right?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Exactly, that pressure is a lot to carry when it’s not just about yourself. Do you have a strategy for how you're going to handle the prize pool?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Honestly, I'm hoping for cooperation since I can't afford to walk away with nothing, but I'm staying cautious. I just need to make sure I cover those medical bills. What's your approach—are you looking to team up with people?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "I’m definitely leaning towards teaming up. It seems like the smartest way for us both to get what we need without risking everything, though I'm still trying to get a feel for everyone else's intentions."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "I'm on the same page—if we can get a solid group to agree on a split, we all win. Have you noticed anyone else who seems like they’d be willing to play fair?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Hey, I’m F. It’s a bit overwhelming in here with everyone, isn't it? What brings you to a game like this?"
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Wait, F, we just talked about this! I'm H, and I'm here to pay off a big loan. You mentioned your family's medical bills—are you feeling alright?"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Oh man, I’m so sorry! My head is just spinning with the stress of that $15,000 medical bill I mentioned. I’m okay, just a bit rattled. Let's talk more once the game starts."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "I totally get it, the pressure is huge for both of us. Take a breather, and we’ll definitely talk strategy once the game kicks off."
+    }
+  ],
+  "post_game": []
+}

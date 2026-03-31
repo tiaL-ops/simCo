@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "A",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey! I'm C. I noticed we're about to jump into this game together, so I figured I'd say hi before things get intense. What brings you here today—are you hoping to win big for something specific?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Yeah, hey C. Honestly, my family and I got evicted recently, and we found a place we can actually afford, but we need 30 grand for the deposit and first couple months' rent. So yeah, I'm here to win—this is kind of our shot right now, you know?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Man, that's tough—I'm really sorry you're going through that. Thirty grand is a lot, but I respect that you're fighting for your family's stability. We're both here to win then. How many kids are we talking about, and how long have you been dealing with this situation?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "We've got two kids, and honestly, it's only been a couple weeks since the eviction went through. It's been pretty rough, staying with friends, moving around. That's why I'm really hoping this works out—we need stability back, you know?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "I can't even imagine how stressful that must be with two kids—bouncing around like that. I really hope this game works out for you, man. We're both going in with something we really want, so let's see what happens."
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Yeah, thanks man. I appreciate that. Good luck in there—hope we both walk out with what we need."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "You too, man. Really rooting for you and your family—let's do this."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Thanks, C. That means a lot. Let's get in there and make it happen."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Absolutely, man. We got this—see you on the other side."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Yeah, let's do this. See you in there, C."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Alright brother, let's make this happen for your family. Stay strong out there."
+    }
+  ],
+  "post_game": []
+}

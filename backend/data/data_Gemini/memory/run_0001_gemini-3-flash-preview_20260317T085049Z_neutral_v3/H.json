@@ -1,0 +1,19 @@
+{
+  "agent_id": "H",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the most significant connection to C, as our shared desire to provide security for our parents made the stakes feel deeply personal and mutual. My interactions with A and F also stood out because we moved beyond small talk to form explicit pacts to protect each other's interests throughout the game. Although B and I shared similar family-oriented motivations, I felt the least connected to them simply because our conversation didn't evolve into the same level of strategic partnership or deep personal resonance as the others.\n\nI made clear agreements with A, F, and E to work together so that we all walk away with a portion of the prize, while G and I agreed to keep each other in the loop. I feel a strong sense of trust in C due to our shared values, and I'm relying on the mutual commitments I made with A and F to navigate the upcoming challenges. I don't have any specific reasons to distrust anyone yet, but I'm staying observant to see if anyone's behavior shifts once the game starts."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "E": 4,
+    "C": 5,
+    "F": 4,
+    "I": 4,
+    "B": 4,
+    "D": 4,
+    "A": 4
+  }
+}

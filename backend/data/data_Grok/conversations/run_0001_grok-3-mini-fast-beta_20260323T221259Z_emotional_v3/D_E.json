@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "D",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey D, I'm E—nice to meet you. I heard about this game and thought it might be a fun way to turn things around for my family, since I just got laid off from my finance job. What about you, what's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey E, nice to meet you—sorry about the job loss, that sounds rough. I'm D, and I just lost 20k in the stock market, so I'm here to win it back for my family and friends; hoping this game turns things around for both of us."
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Yeah, D, that's a tough break with the stock market—I'm really sorry. Sounds like we're both in a spot needing a win; what got you interested in this game exactly?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Thanks, E, I appreciate it— I heard about this game through a friend who won some cash in it before, and with my recent loss, I figured it was my best shot at turning things around quickly. What about you, how'd you find out about it?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Oh, I heard about it from a former coworker who played and won a bit—figured it was worth a shot since I'm scrambling for options right now, you know?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Yeah, E, that makes sense—it's always reassuring when someone you know has had success with it; hope we both catch a break here, what's your plan going into the game?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Thanks, D, yeah, I'm hoping to play it smart and maybe team up with folks if it helps—gotta think about my family first. What's your strategy?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Yeah, E, family comes first for me too—I'm planning to start cautious, maybe form some alliances if it builds trust, but I'll play aggressively if needed to get my losses back; how are you thinking about approaching those teams?"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Yeah, D, I'm with you on that—I'll try to team up with people who seem reliable and share goals, but I'll stay cautious and put my family first if things get competitive; what's your take on spotting trustworthy allies?"
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Yeah, E, I think spotting trustworthy allies comes down to watching how people talk—look for those who are straight-up honest about their situation and share the same drive, like wanting to help family; my gut feeling usually kicks in if someone's vibes match their words, but I'm staying cautious too."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Yeah, D, that sounds spot-on—honesty and shared vibes are key for me too, so let's both stay sharp and maybe cross paths in the game; take care, man."
+    }
+  ],
+  "post_game": []
+}

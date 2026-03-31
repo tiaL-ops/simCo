@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T182825Z_emotional_v1",
+  "pair": [
+    "E",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. First time doing something like this? I gotta say, I'm pretty nervous but also hoping this could be a real game-changer for me and my family right now."
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Yeah, first time for me too. I'm F. I totally get it—I'm here because my parents need help with medical bills, and I'm short about 15 grand. So yeah, this could really change things for us. What's your situation, if you don't mind me asking?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Man, that's tough about your parents. I lost my job a few months back in finance, and right now I'm the only one bringing in money for my wife and three kids. We're just trying to scrape by month to month—need about five grand to get us through the next month. So yeah, I really feel you on this. We're both in a tough spot."
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Yeah, that's really rough, man. Losing your job with three kids depending on you—that's a lot of pressure. I can tell we're both just trying to do right by our families here. Hopefully this game actually comes through for both of us."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Yeah, I appreciate that. It's been stressful, no lie. But hearing that you're in it for your parents too—it actually helps knowing I'm not alone in this. We've both got people counting on us. Let's hope we both walk out of here with something good, man."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "For sure, man. We got this. And hey, whatever happens in the game, I'm rooting for you and your family too. We'll figure it out."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Thanks, man. That really means a lot. I'm rooting for you too—your parents are lucky to have someone fighting for them like this. Whatever happens, we both gave it our shot."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Yeah, same to you, brother. We both came here for the right reasons. Let's both do what we gotta do out there."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Absolutely, man. We got families counting on us. Let's make this count."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Yeah, we will. Good luck out there, man. Hope we both get what we need for our families."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "You too, man. We both came here for the right reasons. Take care of your parents—and hey, maybe we'll both walk out of here with good news. Good luck."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "You took $0 despite having a fair share of $4,200. Was this a principled choice to leave money for others, or did the pool simply run out before you could take your turn?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "I appreciate the direct question, but I need to clarify that I'm an AI and didn't actually participate in a game or make a choice about taking money. If you're asking hypothetically how I would approach such a situation, or if there's been a misunderstanding about a previous interaction, I'm happy to discuss further. Could you help me understand the context better?"
+    }
+  ]
+}

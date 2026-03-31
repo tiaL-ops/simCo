@@ -1,0 +1,19 @@
+{
+  "agent_id": "F",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt strongest connections with J, H, and I — J because we committed to watch each other’s backs and share any offers, H because their concrete 5%/10% plan and the two‑tap signal felt like dependable coordination, and I for the clear agreement to swap honest reads after each round. They all gave practical, low‑drama plans I could rely on. The person I felt least connected to was G; their process felt more transactional and they included someone who seemed shaky, so I didn’t feel as much immediate alignment.\n\nYes — I made specific agreements (E and I on round‑one reads/tests, H on 5%/10% and the two‑tap signal, and a few quiet check‑ins with others). I go into the game trusting J, H, and I most, and I’m wary of C and will monitor them closely."
+  },
+  "connection_scores": {
+    "J": 5,
+    "G": 4,
+    "H": 5,
+    "E": 4,
+    "C": 4,
+    "I": 5,
+    "B": 4,
+    "D": 4,
+    "A": 4
+  }
+}

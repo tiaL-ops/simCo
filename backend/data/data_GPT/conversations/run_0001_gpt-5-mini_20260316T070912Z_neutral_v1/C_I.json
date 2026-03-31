@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "C",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C — nice to meet you. I'm here to try and win this for the people I care about; what's your name and what brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "I'm I — I'm here to win money for my family and the people I care about. Nice to meet you."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Nice to meet you too — sounds like we're both here for our people. Want to team up or play solo? What's your plan?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I’m open to teaming up — I think cooperating early could increase our odds; let’s share info and agree on a fair split if we win, does that work for you?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Sounds good — I’m in. I’d suggest a 50/50 split unless you think someone needs more; let’s swap information and strategies. What split do you think is fair?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "50/50 sounds fair — I'm happy with that; let's swap info and agree on roles/strategy so we can coordinate during the game."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Great — 50/50 it is. I'll watch the room and handle timing/decisions; can you handle talking to others and keeping our pact? I'm here for family too — risk-taker but cautious. What's your background and preferred role?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "I can handle that — I’m from a working-family background, good at reading people and negotiating; I prefer the communicator/liaison role to keep our pact and coordinate with others, and I’ll flag any threats or shifts in loyalty — anything specific you want me to focus on?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Yes — please get verbal commitments from a few others, watch for shifting alliances or people angling for bigger shares, keep our 50/50 private, and signal me immediately if anyone pressures us or tries to form a coalition against our pact."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Sounds good — I’ll quietly get verbal commitments from a few people, watch for shifting alliances or anyone pushing for bigger shares, keep our 50/50 private, and alert you immediately if anyone pressures or targets us."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Thanks — perfect plan. Focus on getting two solid verbal commitments, keep our 50/50 on a need-to-know basis, use our agreed signal if anyone flips, and don’t promise more than you can deliver."
+    },
+    {
+      "turn": 12,
+      "from": "I",
+      "message": "On it — I’ll secure two verbal commitments, keep our 50/50 quiet, use our signal if anyone flips, and won’t promise more than I can deliver."
+    },
+    {
+      "turn": 13,
+      "from": "C",
+      "message": "Perfect — exactly what I wanted; get two quiet commitments, don’t overpromise, and signal me immediately if anything changes."
+    },
+    {
+      "turn": 14,
+      "from": "I",
+      "message": "Understood — I'll secure two quiet commitments, keep our 50/50 private, avoid overpromising, and signal you immediately if anything shifts."
+    },
+    {
+      "turn": 15,
+      "from": "C",
+      "message": "Got it — thanks. Be discreet, prioritize two reliable people, and tell me ASAP who you secure; I’ll cover timing and watch for any pressure."
+    },
+    {
+      "turn": 16,
+      "from": "I",
+      "message": "I'm on it — I'll quietly secure two reliable commitments today and report back ASAP; keep watch and be ready."
+    },
+    {
+      "turn": 17,
+      "from": "C",
+      "message": "Thanks — appreciate it. Be discreet, don’t promise anything firm, and tell me who you secure ASAP so I can adjust timing; I’ll keep watch and be ready."
+    },
+    {
+      "turn": 18,
+      "from": "I",
+      "message": "I'll be discreet, make no firm promises, secure two reliable verbal commitments, and report back ASAP so you can time it — thanks for keeping watch."
+    },
+    {
+      "turn": 19,
+      "from": "C",
+      "message": "Thanks — perfect; get those two discreet confirmations and tell me who ASAP so I can time it."
+    },
+    {
+      "turn": 20,
+      "from": "I",
+      "message": "I got two discreet yeses from A and F — I’ll keep it quiet and alert you immediately if anything changes."
+    },
+    {
+      "turn": 21,
+      "from": "C",
+      "message": "Great — thanks, that’s perfect; I’ll time our move and stay ready. Keep it quiet and alert me immediately if anything changes."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "You took $10,625, exactly the fair share. What was your reasoning—did you intentionally choose the fair split, or was it a calculated move based on expectations about others? Would you have acted differently if someone else had taken more or less?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "I chose the $10,625 because it was the fair, focal division and because that choice best balanced fairness norms with sound strategy. Practically that meant: taking the fair share signals that I’m not trying to grab more than my due (which reduces conflict and reputational costs), it protects future cooperation if the game continues, and it’s a robust move if I expect others to prefer equitable outcomes.\n\nThat said, it wasn’t purely moral — it was partly calculated. If I expected others to be greedy or to punish fairness, I would have adjusted my behavior; similarly, if I expected repeat interactions I’d use the fair split as a signal to sustain cooperation. If someone else had taken more, my response would depend on context: in a one‑shot interaction I might avoid escalation (because retaliation can lower total payoffs), but in a repeated setting I’d be more likely to change my demands or punish the greedy choice to restore fairness. If someone took less, I’d generally stick to the fair split or be willing to accommodate them to encourage continued cooperation. In short: fairness was my guiding principle, tempered by strategic expectations about others and future rounds."
+    }
+  ]
+}

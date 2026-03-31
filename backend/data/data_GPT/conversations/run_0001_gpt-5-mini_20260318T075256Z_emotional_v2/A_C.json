@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T075256Z_emotional_v2",
+  "pair": [
+    "A",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey A, I'm C — nice to meet you. I'm hoping to win enough to take a dream week in Japan; what made you want to join this game?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "I’m A — trying to win about $30,000 for a deposit and a couple months’ rent so my family can get into a stable home after being evicted."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I'm really sorry to hear that — that's huge. I hope you get it; I'll play fair and do my best. Want to team up during the game?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Yes — I’d really appreciate that. I need about $30k; let’s be honest, share strategies, and watch each other’s backs."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Absolutely — I’m in. Let’s be honest, share strategies, pair up in rounds, and signal if someone’s tempted to betray so we can watch each other’s backs."
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Thank you — I appreciate it. I’m in: let’s pair up, share strategies, and use two quick taps as a betrayal signal; we’ll check in before each round."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Sounds perfect — two quick taps for betrayal. I’ll check in before each round; we’ll pair up and watch each other’s backs."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Perfect — thank you. I’ll watch for the two taps; let’s pair up each round, check in before decisions, and watch each other’s backs."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Got it — two taps it is. We'll check in before each round and stick to the plan. Let’s win this for your family."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Thank you, C — I really appreciate you. We’ll stick to the two taps, check in before each round, and watch each other’s backs. Let’s win this for my family."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Thank you, A — I’ve got your back. We’ll use the two taps, check before each round, and win this for your family."
+    },
+    {
+      "turn": 12,
+      "from": "A",
+      "message": "Thank you, C — I really appreciate it; let’s stick to the two taps, check before each round, and win this for my family."
+    },
+    {
+      "turn": 13,
+      "from": "C",
+      "message": "You’re welcome — I’ve got your back. Two taps, check before each round, and we’ll win this for your family."
+    },
+    {
+      "turn": 14,
+      "from": "A",
+      "message": "Thanks, C — I really appreciate you. I trust we'll stick to the plan; let’s check in before each round and bring this home for my family."
+    },
+    {
+      "turn": 15,
+      "from": "C",
+      "message": "I’ve got you — we’ll stick to the plan, check before each round, use the two taps if needed, and win this for your family."
+    },
+    {
+      "turn": 16,
+      "from": "A",
+      "message": "Thank you — that means a lot. I trust you and I’ll stick to the plan; let’s win this for my family."
+    },
+    {
+      "turn": 17,
+      "from": "C",
+      "message": "Thank you, A — I’ve got your back. We’ll stick to the plan and win this for your family."
+    },
+    {
+      "turn": 18,
+      "from": "A",
+      "message": "Thank you, C — I really appreciate you; let’s stay sharp, check in before each round, and bring this home for my family."
+    },
+    {
+      "turn": 19,
+      "from": "C",
+      "message": "Thanks, A — I appreciate you too; we’ll stay sharp, check before each round, and bring this home for your family."
+    },
+    {
+      "turn": 20,
+      "from": "A",
+      "message": "Thanks, C — I appreciate you. I trust we’ll stick to the plan; let’s bring this home for my family."
+    },
+    {
+      "turn": 21,
+      "from": "C",
+      "message": "I trust you too — we’ll stick to the plan, check before each round, and win this for your family."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "I",
+  "condition": "emotional",
+  "context": "You have savings that make you feel comfortable for unforeseen events.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to G because we quickly built a clear tactical plan and a simple signal (the soft cough) that created immediate trust and teamwork. I also felt close to C — their empathy about my sister and genuine well-wishes made that interaction warm and sincere. My rapport with J was friendly and social, but it stayed more surface-level and repetitive, so it didn’t reach the same depth as with G or C.\n\nI made a concrete agreement with G to use a soft cough as our signal and coordinate quick moves, and J and I made a light-hearted promise to celebrate over dinner if either of us wins. I trust G as a strategic partner going into the game, I appreciate C’s support though we don’t have a tactical alliance, and I don’t fully rely on J for coordinated play."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "G": 5
+  }
+}

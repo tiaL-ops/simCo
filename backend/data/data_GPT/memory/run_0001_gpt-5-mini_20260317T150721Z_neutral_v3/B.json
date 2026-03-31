@@ -1,0 +1,19 @@
+{
+  "agent_id": "B",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to I, E, and D. With I we locked into a 50/50 partnership, a two-tap signal, and a clear plan to stick together each round, which felt solid and dependable. E and I shared a similar approach — cooperate early, compare notes, and adapt — and E’s plan to meet at the whiteboard after round one showed strategic transparency I liked. D was upfront, favored a small verifiable test (cooperate round 1 and check in), and matched my preference for promises backed by follow-up.\n\nI felt least connected to J — our chat was polite but high-level and left me with little concrete information. Yes: I made explicit agreements (cooperate round 1 with D; cooperate first two rounds and share observations with E; a 50/50 split and two‑tap signal with I). I’m going into the game trusting I, E, and D more than others; I don’t yet trust J (not enough rapport) and will watch anyone who’s loud, inconsistent, or makes big promises."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "H": 4,
+    "E": 5,
+    "C": 5,
+    "F": 4,
+    "I": 5,
+    "D": 5,
+    "A": 4
+  }
+}

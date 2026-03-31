@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "D",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F. It’s a bit intense in here with everyone waiting, isn't it? I'm just trying to stay calm—how are you feeling about everything?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey F, I'm D. Yeah, the energy in here is definitely high. I'm feeling pretty focused, mostly because I really need to bring something home for my family. How are you managing the nerves?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "I'm mostly just focusing on the people I'm doing this for; it helps keep me grounded. It sounds like we're in the same boat with the family motivation. Have you met many of the others yet?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Not really, you’re the first person I’ve actually talked to. It’s a lot to take in with everyone sizing each other up. Have you met anyone else yet?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "You're the first for me too. It’s hard not to feel a bit guarded when everyone's here for the same thing, but I’m glad we’re talking—it makes the wait a lot easier."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Definitely. It’s much better to have a friendly conversation than to just sit here in silence overthinking things. It helps take the edge off."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "I couldn't agree more. It’s nice to find a friendly face in here. What do you do back home when you're not competing for prize money?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "I work a standard retail job—it's honest work, but it's a struggle to get ahead. How about you, what do you do for a living?"
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "I work in office admin—it’s stable, but it feels like I’m just treading water most of the time, so I really need this win."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "I totally get that; it's exhausting to work so hard and still feel like you're stuck. Hopefully, this game is the turning point for both of us. Good luck."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "I appreciate that, D. It’s been really nice to connect with someone who understands the struggle. Let's hope for the best for both of us. Take care."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "I took $10,000 because it was the right thing to do for the group. Thanks for doing the same."
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "I'm really glad we all took our fair share of $10,000. It was a pleasure playing with you!"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "It was a pleasure playing with you as well! I'm glad we were able to cooperate and reach a fair outcome for everyone. Best of luck to you!"
+    }
+  ]
+}

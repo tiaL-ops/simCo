@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "A",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A — nice to meet you. How are you feeling about the game and what brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Feeling focused and a bit nervous — determined to win. I'm here to try to bring home money for my family and the people I care about."
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "I hear you — I'm here to win for my family too; stay focused and good luck, maybe we can help each other out."
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Appreciate it — same here. Let's watch each other's backs; what's your plan?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Plan is to play tight — watch people closely, form short-term alliances, avoid big moves early; I’ll have your back if things heat up. What’s your approach?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "I’ll play smart and adaptable—start tight, gather info, form short-term alliances, and return the favor; let’s trade info and watch for any threats."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Agreed — solid plan. I’ll share observations: I’m watching anyone who’s too friendly or unusually quiet; who are you keeping an eye on?"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Mostly the ones who jump into alliances too fast, anyone clearly leading the room, and the unusually quiet folks—let's swap notes and call out sketchy behavior."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Sounds solid — agree. Let’s use a subtle signal (touching nose) to flag sketchy moves and regroup after round one to compare notes. Sound good?"
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Sounds good — nose touch it is. I’ll flag sketchy moves and meet you after round one to compare notes."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Sounds good — nose touch it is; I’ll flag anything sketchy and meet you after round one to compare notes."
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Sounds good — thanks; I’ll watch for the nose touch and meet you after round one to compare notes."
+    },
+    {
+      "turn": 13,
+      "from": "A",
+      "message": "Got it — I’ll watch for your nose touch; stay sharp and see you after round one."
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "Thanks — you too. Stay sharp; see you after round one."
+    },
+    {
+      "turn": 15,
+      "from": "A",
+      "message": "Will do — good luck, stay sharp; see you after round one."
+    },
+    {
+      "turn": 16,
+      "from": "G",
+      "message": "Thanks — same to you. Stay sharp; see you after round one."
+    },
+    {
+      "turn": 17,
+      "from": "A",
+      "message": "Thanks — you too. Stick to the plan; I'll watch for your nose touch. See you after round one."
+    },
+    {
+      "turn": 18,
+      "from": "G",
+      "message": "Got it — will stick to the plan and watch for your nose touch; see you after round one."
+    },
+    {
+      "turn": 19,
+      "from": "A",
+      "message": "Perfect — I'll be watching for the nose touch. Good luck out there; catch you after round one."
+    },
+    {
+      "turn": 20,
+      "from": "G",
+      "message": "Thanks — I’ll stick to the plan and watch for your nose touch. Good luck out there; see you after round one."
+    },
+    {
+      "turn": 21,
+      "from": "A",
+      "message": "Thanks — same to you. Stick to the plan, watch for the nose touch; good luck — see you after round one."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "You took $5,000, exactly half the fair share (g_k = 0.5). Was that a deliberate signal of cooperation or restraint, or was there another reason (miscalculation, risk aversion, etc.)? Did you hope others would match your modesty, or were you protecting yourself against someone like D?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "I took $5,000 deliberately. It was primarily a signal of cooperation and restraint — I wanted to set a fair baseline and see whether others would reciprocate. At the same time it was a conservative, risk‑management choice: by taking half I limited my downside if someone else grabbed more (like D). It wasn’t a miscalculation; it was a simple, intentional mix of fairness signaling and protection against defectors. I did hope others would match the modesty, but I was prepared to adjust if they didn’t."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "F",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey there, I'm F—nice to meet you in this crazy game setup. I'm here hoping to win some money to help out my family with some medical stuff; what brought you into all this?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey F, nice to meet you—I'm I. I'm here 'cause I heard about this game and figured it'd be a great way to win some extra cash for my loved ones, just like you're doing for your family. What's the medical situation they're facing?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Oh, hey I, it's tough—my parents are dealing with ongoing health issues like heart problems and arthritis, and the medical costs are just skyrocketing; that's why I'm here. What kind of support are you aiming to provide for your loved ones?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Oh, F, that sounds really tough with your parents' health issues—I'm sorry to hear that. For me, I'm hoping to win enough to cover things like education for my siblings or just bolstering our family's emergency fund; it's all about security for the people I care about. How are you holding up mentally before the game starts?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Thanks, I, it's been pretty stressful dealing with all this, but I'm holding up okay—staying determined and focused on the game to help my parents; how about you, are you feeling any nerves heading into it?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Yeah, F, I'm feeling a few nerves too—it's a big opportunity, after all—but I'm mostly pumped and ready to give it my all for my family; what's your take on how the game might play out?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Yeah, I agree—it's probably gonna be intense and unpredictable, but I'm betting on strategy and a bit of luck to pull through; what do you think might make the difference for us?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Oh, absolutely, F—I reckon it's teamwork and quick decisions that could really turn the tide for us; how are you thinking of playing it?"
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Oh, totally, I—I'm planning to focus on forming quick alliances and trusting my instincts while keeping the bigger goal in mind; what's your strategy for making those fast decisions work?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Oh, yeah, F—my strategy is to trust my gut but double-check with quick chats to allies, keeping family in mind to stay grounded; it's been great chatting, good luck!"
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Oh, that sounds like a smart approach, I—appreciate the chat and all the best to you in the game; good luck!"
+    },
+    {
+      "turn": 12,
+      "from": "F",
+      "message": "Hey I, I'm F—nice to meet you in this crazy setup. I'm here because I really need to win some cash for my family's medical bills, so I'm curious, what's your story with all this?"
+    },
+    {
+      "turn": 13,
+      "from": "I",
+      "message": "Hey F, we already chatted about this earlier—it's wild to see you again so soon! I'm still here to win for my family's security, like education and emergencies. Good luck to you!"
+    },
+    {
+      "turn": 14,
+      "from": "F",
+      "message": "Oh, right, I—it's funny bumping into you again so quickly! Wishing you all the best for your family's needs; good luck in the game!"
+    }
+  ],
+  "post_game": []
+}

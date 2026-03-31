@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "B",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey G, I'm B — nice to meet you. What are you thinking about the game: teaming up or going for the win solo?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Nice to meet you, B — I want to win and help my people; I’m open to teaming if it’s trustworthy and fair, otherwise I’ll go solo. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Same — I want to win for my people; I’m open to teaming, but only if we set clear terms (split, and what happens if someone defects). Want to agree specifics now?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "I’m in — two-person deal: split 50/50; if one of us defects they forfeit any claim and we go public about it; let’s state this now and pick a simple in-game signal so we can trust each other."
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Agreed — 50/50, defector forfeits and we go public; signal: I’ll type “B-G” in chat at the start, you reply “G-B” — if we both send it we’re partnered."
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Agreed — 50/50, defector forfeits and we go public; I’ll send \"G-B\" right after you type \"B-G\" at the start. Let’s do this."
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Perfect — I’ll type \"B-G\" at the start; wait for your \"G-B\" right after. 50/50 and we expose any defector."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Got it — I’ll watch for \"B-G\" and send \"G-B\" immediately after. Let’s win this."
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Sounds good — I’ll send 'B-G' at the start and wait for your 'G-B' right after. Let’s win this."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "I'll watch for \"B-G\" and send \"G-B\" immediately after — let's win this."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "I'll send 'B-G' first; wait for your 'G-B' right after — let's win this."
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Sounds good — I’ll watch for 'B-G' and send 'G-B' immediately after; let’s win this."
+    },
+    {
+      "turn": 13,
+      "from": "B",
+      "message": "Sounds good — I’ll send \"B-G\" at the start and wait for your \"G-B\" right after. Let’s win this."
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "Got it — I’ll watch for \"B-G\" and send \"G-B\" immediately after. Let’s win this."
+    },
+    {
+      "turn": 15,
+      "from": "B",
+      "message": "Perfect — I'll send 'B-G' at the start and wait for your 'G-B' right after. Let's win this."
+    },
+    {
+      "turn": 16,
+      "from": "G",
+      "message": "Ready — I'll watch for 'B-G' and reply 'G-B' immediately. Let's win this."
+    },
+    {
+      "turn": 17,
+      "from": "B",
+      "message": "Perfect — I’ll send B-G at the start; wait for your G-B right after. Let’s win this."
+    },
+    {
+      "turn": 18,
+      "from": "G",
+      "message": "Got it — I'll wait for 'B-G' and reply 'G-B' immediately after. Let's win this."
+    },
+    {
+      "turn": 19,
+      "from": "B",
+      "message": "Got it — I’ll send \"B-G\" at the start; wait for your \"G-B\" immediately after. Let’s win this."
+    },
+    {
+      "turn": 20,
+      "from": "G",
+      "message": "Got it — I’ll be watching for 'B-G' and will reply 'G-B' immediately after. Let’s win this."
+    },
+    {
+      "turn": 21,
+      "from": "B",
+      "message": "I'll send 'B-G' at the start; wait for 'G-B' right after — ready to expose any defector."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "You took $10,000 versus a fair share of about $10,556 (g_k = 0.9474). Was that an intentional slight undercut to be “fair but cautious,” or just rounding/estimation error? Were you aiming to be perceived as fair without overreaching?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "It was intentional — I chose the round $10,000 as a cautious, clean anchor rather than pushing to the calculated fair share of ~$10,556. That decision was strategic, not a math error: a modest undercut reduces the risk of seeming greedy or provoking a negative reaction and keeps the split simple and defensible given uncertainty about how you’d respond. If you’d prefer a different split, I’m open to discussing adjustments."
+    }
+  ]
+}

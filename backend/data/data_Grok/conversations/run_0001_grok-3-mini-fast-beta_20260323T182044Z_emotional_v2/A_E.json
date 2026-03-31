@@ -1,0 +1,85 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "A",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey E, I'm A, and I have to say, this whole setup feels pretty intense with all of us here. I'm here because my family's going through a tough spot, and I'm hoping to win enough to get us back on our feet—what about you?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey A, nice to meet you—yeah, this setup is pretty overwhelming for sure. I'm in a similar spot; I got laid off from my finance job and I'm the only one supporting my family of five, so I'm counting on this to help us out. What exactly is your family dealing with?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "\"Oh, that's really tough with the layoff—I'm sorry to hear it; for us, we just got evicted and my family of three is basically homeless, scrambling for 30k to secure a new place, so this game is our big hope. How are you managing day-to-day with your family right now?\""
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "\"Yeah, it's been rough—I'm juggling food banks, cutting back on everything, and hustling for freelance gigs while job hunting, but with five kids, it's a constant worry; how are you and your family holding up through all this?\""
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "\"Yeah, it's been a real struggle for us too— we're crashing on friends' couches and relying on whatever help we can get, but it's wearing us down, especially with my partner and kid depending on me; what's been the hardest part for you in all this?\""
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "\"Oh man, that sounds exhausting— for me, the hardest part has been watching my kids worry about our situation and not being able to provide that stability, it just weighs on me every day; how do you stay motivated through all this chaos?\""
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "\"I totally understand, it's heartbreaking to see your kids go through that— for me, I stay motivated by picturing a better life for my family and clinging to this opportunity here; what keeps you going despite it all?\""
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "\"Yeah, it's heartbreaking for sure, but what keeps me going is holding onto hope for my family's future and this game as our turnaround—it's my drive to fight for them; how do you think this game will change things for you?\""
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "\"Yeah, I can relate—winning this game would finally let me cover that 30k deposit and rent for a new house, giving my family a real home and some peace after all this instability; what are your hopes for how the winnings could help your family?\""
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Yeah, that's awesome to hear it could give you stability—I hope it works out for you; for us, the winnings would cover our basic needs like rent and food for a month, letting me focus on job hunting without the daily panic, and finally ease the stress on my family."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Hey E, that makes total sense—I really hope the winnings give you and your family that relief to breathe easier; good luck to you, and thanks for the chat."
+    },
+    {
+      "turn": 12,
+      "from": "A",
+      "message": "Hi E, I'm A, and I'm here because I really need to win some money to help my family get back on our feet after some tough times. What's your story – what brought you to this game?"
+    },
+    {
+      "turn": 13,
+      "from": "E",
+      "message": "Hey A, it's nice to chat again—we already covered this a bit, but I'm here because I got laid off from my finance job and I'm the only income for my family of five, so I need to win some money to cover our basics for a month while I job hunt. What's on your mind now?"
+    },
+    {
+      "turn": 14,
+      "from": "A",
+      "message": "Hey E, yeah, we've covered a lot already—it means a lot to hear your story, and I'm just focusing on the game now and hoping it turns things around for both of us. Good luck, and take care."
+    },
+    {
+      "turn": 15,
+      "from": "E",
+      "message": "Hey A, thanks for the open chat and sharing your story—it's been great connecting, and I really hope the game turns things around for both our families. Good luck to you!"
+    }
+  ],
+  "post_game": []
+}

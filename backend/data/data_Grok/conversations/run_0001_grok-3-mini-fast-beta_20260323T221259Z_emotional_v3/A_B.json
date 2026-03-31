@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "A",
+    "B"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hi there, I'm B—nice to meet you. I came here hoping to win some money to help with my family's needs, like medical stuff for my little one; what about you, what's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hi B, nice to meet you too—I'm A. That's really tough about your little one's medical needs; I hope we both get what we need here. My family and I just got evicted and we're scrambling for a new place, needing about $30,000 for the deposit and rent to keep us off the streets. What's your little one dealing with exactly?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Oh, thanks for asking, A—it's tough; my little one's got a congenital heart issue that needs surgery soon, and we're still scraping together the cash for it. I'm sorry to hear about your eviction; that must be stressful—how many in your family are affected by this?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Oh, it's tough for sure—it's me and my family of three (so four total), including my partner and two kids, and we're all stressed about finding a stable home; how are you managing the wait for your little one's surgery?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Oh, it's been really tough, A— we're just taking it day by day, trying to keep things normal for her with playtime and family support, but the anxiety is constant; how are you and your family holding up through this housing mess?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Oh, I totally get the constant anxiety—it's weighing on us too; we're just trying to stay positive and keep the kids distracted, but it's scary not knowing where we'll end up next; how are you coping with the emotional side of it all?"
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Oh, it's definitely overwhelming—I'm trying to stay strong by leaning on my partner and close friends for emotional support, and focusing on little wins like playing with my daughter, but honestly, some days the worry just hits hard; how do you manage to keep your family's spirits up through this uncertainty?"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Oh, it's a real struggle, but we try to keep things light by doing simple fun stuff like board games or park outings with the kids, and we talk a lot about our worries to feel less alone—it's not easy, but it helps us stick together; what kinds of little wins have been helping you the most lately?"
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Oh, yeah, the little wins that keep me going are moments like hearing my daughter's giggles during our storytime or getting a reassuring call from the doctor's office—it's those that make the tough days bearable; what simple activities have been your family's go-to for creating those positive vibes?"
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Oh, yeah, for us, it's mostly board games like Monopoly to get everyone laughing, or simple park outings where the kids can run around and play—those moments really help shake off the stress; what fun things do you and your daughter enjoy doing together outside of storytime?"
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Oh, yeah, we love simple things like trips to the playground for swings and slides, or coloring pictures together at home—it always brings out her big smiles; it's been great chatting with you, A, and I hope things turn around for your family soon—"
+    },
+    {
+      "turn": 12,
+      "from": "A",
+      "message": "Oh, that sounds so heartwarming—playground adventures and coloring sessions are perfect for those smiles; it's been really nice chatting with you too, B, and I hope your little one gets the surgery soon and everything works out. Take care!"
+    }
+  ],
+  "post_game": []
+}

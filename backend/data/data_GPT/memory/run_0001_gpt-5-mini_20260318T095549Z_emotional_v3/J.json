@@ -1,0 +1,19 @@
+{
+  "agent_id": "J",
+  "condition": "emotional",
+  "context": "You have been thinking about buying a new car, your favorite one costs 45 000$ and you are telling yourself if you win the lottery, that is the first thing you want to do.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to H and A — both were straightforward about serious needs and eager to watch each other’s backs, which felt like genuine mutual support. D also stood out because our tactical talk and the left‑knee tap signal made me feel strategically synced. The person I felt least connected to was C — a friendly, fun chat about a Japan trip but it stayed pretty light and didn’t build strategy or deeper rapport.\n\nYes — I made a concrete agreement with D to tap my left knee twice as a signal for a late move, and informal pacts with H and A to watch each other’s backs and share info. I go into the game trusting H, A, and D more than others; I don’t have anyone I actively distrust, just the usual caution with everyone else."
+  },
+  "connection_scores": {
+    "G": 4,
+    "H": 5,
+    "E": 4,
+    "C": 4,
+    "F": 4,
+    "I": 4,
+    "B": 4,
+    "D": 4,
+    "A": 5
+  }
+}

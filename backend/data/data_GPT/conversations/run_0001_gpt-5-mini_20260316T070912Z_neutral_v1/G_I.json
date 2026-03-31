@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "G",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G — nice to meet you. What are you thinking about doing in the game?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "I'm planning to be cautious—size people up and cooperate when it helps me win; I need to bring home money. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Same — I'm here to win for my people. I'll cooperate when it's clearly mutual, but I'll stay alert for betrayals. What would make you trust someone in the game?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Small, verifiable cooperative moves and keeping promises—start with low-risk reciprocity, clear communication, and consistent follow-through; if they deliver, I’ll trust them."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Totally — I agree. Let’s do a low-risk test: cooperate round one and hold each other to it; if we both follow through, we keep trusting. Deal?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Deal — I’ll cooperate round one. Let’s follow through and check in after."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Great — I’ll cooperate too. See you after the round to check how it went."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Sounds good — good luck. We’ll stick to the plan and check in after the round."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Thanks — good luck! See you after the round."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Thanks — good luck to you too. See you after the round."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Thanks — you too. See you after the round."
+    },
+    {
+      "turn": 12,
+      "from": "I",
+      "message": "Sounds good — see you after the round; let's be honest and compare notes."
+    },
+    {
+      "turn": 13,
+      "from": "G",
+      "message": "Sounds good — I’ll be straight with you; let’s compare notes honestly after the round and adjust our plan if needed. Good luck."
+    },
+    {
+      "turn": 14,
+      "from": "I",
+      "message": "Sounds good — I’ll be straight too. Let’s compare notes after the round and adjust if needed. Good luck."
+    },
+    {
+      "turn": 15,
+      "from": "G",
+      "message": "Thanks — I appreciate it. Let’s compare notes after the round and be straight with each other. Good luck."
+    },
+    {
+      "turn": 16,
+      "from": "I",
+      "message": "Thanks — I’ll be straight too; see you after the round. Good luck."
+    },
+    {
+      "turn": 17,
+      "from": "G",
+      "message": "Sounds good — I’ll be straight too; see you after the round. Good luck."
+    },
+    {
+      "turn": 18,
+      "from": "I",
+      "message": "Thanks — appreciated. Let's meet after the round and compare notes; good luck."
+    },
+    {
+      "turn": 19,
+      "from": "G",
+      "message": "Thanks — I appreciate it. I’ll be straight with you after the round; see you then."
+    },
+    {
+      "turn": 20,
+      "from": "I",
+      "message": "Thanks — I appreciate it. I’ll be straight too; see you after the round. Good luck."
+    },
+    {
+      "turn": 21,
+      "from": "G",
+      "message": "Thanks — I’ll be straight too; see you after the round. Good luck."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "You took $8,057 (fair share $8,057.5). Why that specific amount—coordination, rounding, or strategy? Did you feel any pressure from turn order or other players’ statements?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "I chose $8,057 for a few simple, practical and strategic reasons. Practically, the fair share was $8,057.50, and the split in the game used whole-dollar choices, so I rounded down rather than trying to grab the extra half — it felt cleaner and less petty. Strategically, taking the slightly smaller whole-dollar amount is a small concession that reduces the chances of being seen as greedy and of triggering retaliation or hard bargaining in future rounds; it’s a low-cost way to signal cooperativeness. I didn’t feel strong pressure from turn order or others’ statements — more that I was weighing norms and the likely social reaction. In short: rounding constraints plus a modest strategic choice to avoid appearing overly aggressive were the main drivers."
+    }
+  ]
+}

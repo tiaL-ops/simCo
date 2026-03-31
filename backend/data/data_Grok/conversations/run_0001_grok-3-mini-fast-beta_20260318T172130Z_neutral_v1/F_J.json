@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "F",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey J, I'm F and I'm pretty excited about this game—I heard it's a chance to win some real money, and I'm here to make the most of it. What's your take on all this?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey F, nice to meet you—I'm totally stoked about this game too, it's my chance to win some cash for my family. What's your strategy going in?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Hey J, my strategy is to stay cooperative at first and look for ways to build alliances—after all, we're all in this together to win big. What's your plan for making that happen?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Hey F, that makes sense—I’m planning to be cooperative like you and maybe form a tight alliance early on to share info and maximize our chances; how do you think we could kick that off?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Hey J, let's kick things off by sharing what we know about the game's rules over a quick chat, and then we can approach one or two others to gauge their interest in joining our alliance—sound good?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Hey F, that sounds like a solid plan—I'm in, let's start by swapping what I know about the rules and then scout for allies together!"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Hey J, awesome—let's dive in; what do you know about the rules so far, and I'll share what I've picked up?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Hey F, from what I've gathered, it's a game where we can take from a shared pool, but if everyone grabs too much early, the pool shrinks and we all end up with less—what have you heard?"
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Hey J, I've heard pretty much the same—that the shared pool could dry up fast if we're all too grabby, so cooperation is key. What do you say we wrap this up and go scout for those allies now?"
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Hey F, yeah, that makes sense—let's wrap this up and head out to find those allies together!"
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Hey J, sounds good—let's team up and start scouting for those allies right away!"
+    }
+  ],
+  "post_game": []
+}

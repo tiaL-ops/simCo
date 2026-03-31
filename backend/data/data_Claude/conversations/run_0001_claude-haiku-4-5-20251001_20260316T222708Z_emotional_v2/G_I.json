@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "G",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey! I'm G. I gotta say, I'm pretty pumped about this game starting soon—have you done anything like this before, or is this your first time?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey G! First time for me, honestly. I've heard about this game and thought why not give it a shot—figured it could be a good opportunity. What about you, have you done this before?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "First time for me too, but I've been looking forward to it! I'm really hoping to win big here—got some people counting on me back home. You thinking you'll go for it aggressive or play it safe?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I feel you on that—I've got people I want to help too. Honestly, I'm still figuring out my strategy, but I'm leaning toward being smart about it rather than reckless. Do you have a game plan going in, or are you gonna see how it plays out?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Yeah, I respect that—smart is definitely the way to go. I'm thinking I'll watch how the first round plays out, get a feel for how people are moving, and then adjust. No point being reckless when there's real money on the line, you know?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Exactly—that's solid thinking. I like that approach, watching first before committing. We can learn a lot from seeing how others play. Hopefully we can both come out ahead and help the people we care about."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "For sure, man. I think we're on the same page—let's both play smart and see what happens. Hey, quick question though—do you have any sense of what the actual rules are gonna be, or are we gonna learn that when it starts?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Honestly, I don't know the specifics yet—I'm guessing they'll explain everything once we get started. But yeah, we'll figure it out together. Just gonna stay alert and adapt as we go."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Yeah, that makes sense—we'll just have to be ready to think on our feet when they lay out the rules. I appreciate you being real with me about this, and I like that you're staying level-headed. Good luck out there, man."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Thanks man, I really appreciate that. Same to you—let's both stay sharp and come out on top. Good luck out there."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Appreciate it, I. Let's get this done and make it count for the people back home. See you in there."
+    }
+  ],
+  "post_game": []
+}

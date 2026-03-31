@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "E",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hey E, I'm I—nice to meet you. I've heard this game could be a fun way to win some extra cash, and I'm pretty excited about it. What brings you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey I, nice to meet you too—I'm excited about the chance to win some cash as well. I'm here because I recently lost my job and need to support my family, so this could be a real lifeline for me. What about you, what's your story?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "Oh, man, that sounds really tough—I'm sorry about your job, E, and I hope this game turns things around for you. As for me, I've got some savings that help with life's surprises, but I'm here because I want to win extra for my family and the people I care about; it's exciting to think about the possibilities."
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Thanks, I appreciate that—it's good to know we're both here for our families. What kind of plans do you have if we win some of that prize money?"
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "Oh, that's a great question—if we win, I'd love to use it for a family trip or help out with some bills for the folks I care about; it would mean sharing the joy and making memories together. What about your plans, E?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "That sounds wonderful, I—making memories is the best. For me, I'd use the winnings to cover our rent, food, and bills for the month so my family stays stable while I hunt for a new job."
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "That's really important, E—I'm rooting for you to get back on your feet; let's both give it our all in this game and make sure we both walk away with something for our families."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Thanks, I—your encouragement means a lot; I'm in this fully and hope we can both come out on top for our families."
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Absolutely, E—I'm glad we're on the same page; let's head into this game with full energy and make sure our families benefit from it."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Absolutely, I—I'm glad we're aligned too; let's head in with all our energy and make this a win for both our families!"
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "Yeah, E, it's great being on the same team—let's go crush this for our families!"
+    }
+  ],
+  "post_game": []
+}

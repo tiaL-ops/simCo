@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "A",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D, and I couldn't help but get excited about this game we're about to play—seems like a fun way to win some cash. What's your name and what brought you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey D, I'm A, and I'm here because I heard about this game as a great way to win some cash for me and my loved ones—I'm pretty pumped about it!"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Hey A, that's awesome—we're on the same page! What do you think our chances are of walking away with some cash?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Oh, totally, D! I think our chances are solid if we team up and play smart—what's your take on how to approach this game?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Oh, for sure, A—teaming up could give us an edge; I figure we should start by sharing info on everyone's goals and play conservatively at first to build trust. What's your strategy idea?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Yeah, D, I like that approach—my strategy is to share our goals first and then maybe form a quick alliance to take smaller amounts initially, building up trust before going big to maximize what we all get."
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Sounds great, A—I’m all in for forming that alliance and starting small to build trust; what are your specific goals in the game so we can align properly?"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Hey D, my main goal is to win enough cash to support my family and close friends—let's align on that and keep building that trust for the best outcome!"
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Hey A, that sounds just like my goal—I'm here to win cash for my family and the people I care about, so let's keep building that trust and stick to our alliance plan!"
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Hey D, that's perfect—I'm glad we're aligned, let's stick to our alliance and make this happen!"
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Hey A, totally stoked we're on the same team—let's crush this for our families!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hi A, I noticed you took only $405, which is much less than your fair share of $4,050. Can you explain why you chose that amount?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hi D, I noticed you took $16,200, which is more than your fair share of $10,125. Can you explain why you decided to take that amount? For my part, I only ended up with $405 out of my fair share of $4,050—it wasn't really by choice, as the prizes seemed to run out quickly before I could take more."
+    }
+  ]
+}

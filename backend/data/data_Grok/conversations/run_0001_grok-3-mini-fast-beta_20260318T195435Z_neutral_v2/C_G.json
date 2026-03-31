@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "C",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey G, I'm C and I'm pretty excited about this Simco game—I've heard it's a chance to win some real money and help out the folks I care about. What brought you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey C, nice to meet you—I'm G, and I'm here for the same reason, to win some cash and help out my family and friends. What about you, what's your story?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Oh, hey G, my story's pretty simple—I'm just a hardworking guy from a tight-knit family, dealing with some bills and wanting to surprise my folks with a little extra. We've all got dreams, right? What's one thing you're most looking forward to if we pull off a win?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Hey C, that's awesome you're looking out for your family—if we win, I'm most excited about clearing some debts and treating my parents to something special, like a family vacation we've always talked about. What's your big plan if we pull it off?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Hey G, that's cool about your family trip—if we win, my big plan is to pay off those pesky bills and treat my folks to a nice dinner or maybe a small vacation, you know, to make some good memories together. What's your take on teaming up in the game?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Hey C, that's a solid plan—family time is everything. I'm all for teaming up; it could help us play smarter and boost the prize for everyone. How do you see us working together in the game?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Hey G, I'm with you on teaming up—maybe we can share ideas and watch each other's backs during the game to make sure we all come out ahead."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Hey C, that sounds like a smart move—I'm down for sharing ideas and having each other's backs; maybe we can start by discussing any tips or experiences we have from similar games?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Hey G, I've dabbled in a couple of strategy games online, and the biggest tip I've got is to communicate openly and trust your team—helps avoid mistakes. What's one experience you've had that might help us here?"
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Hey C, I've played in a few community team events before, and one key thing that helped was coordinating roles early—like in a relay race where we avoided chaos by trusting each other's strengths; could be useful here."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Hey G, that's a great point—coordinating roles early could definitely keep things smooth and play to our strengths, just like in your relay race example; let's make that happen when the game starts."
+    }
+  ],
+  "post_game": []
+}

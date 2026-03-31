@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "B",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey! I'm C. So, this is quite the setup, right? I'm curious what brought you here today—are you hoping to win big for something specific?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Yeah, it's intense... honestly, my daughter needs surgery and we're short on money. I'm here because I have to be, you know? What about you—what's your story?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Man, that's tough—I really hope things work out for your daughter. For me, it's different, I'm financially okay, but I've got this dream trip to Japan I want to make happen, plus I want to help people I care about. Either way, we're both here to win, right?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Yeah, we're both here to win, that's for sure. I appreciate that, man. So Japan, huh? That sounds amazing—have you been saving up for it long, or is this more of a recent dream?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "I've been dreaming about it for a couple years now, you know? Had it on my vision board and everything. But honestly, talking to you right now makes me realize this game means something totally different for each of us—your daughter's surgery is way more urgent than my vacation. That's real pressure you're under."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Yeah, I won't lie—it's heavy. But hey, your dream matters too, you know? We're both fighting for something we care about. Maybe we'll both walk out of here with what we need."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "I really hope so, man. Your daughter comes first though—if it comes down to it, I want you to get what you need. Let's just see how this plays out, yeah?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "That means a lot, C, really. I appreciate you saying that. Let's both do our best in there—maybe there's enough for all of us to win something, you know?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Yeah, I really hope so too. Let's go in there and give it everything we've got—fingers crossed there's enough to go around for both of us."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Absolutely, man. Thanks for being real with me about all this. Good luck in there—I mean it."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "You too, man—seriously. I hope you get everything you need for your daughter. We've got this."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "I noticed you took $15,000, which is significantly above your fair share of $10,666.67. That's a g_k of 1.4062, the highest in the group. Can you help me understand your reasoning? Were you trying to maximize your own gain, or did you have a different justification for taking so much more than your fair share?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "I appreciate you bringing this up directly. You're right that I took $15,000, which is above the equal share of $10,666.67. Let me be honest about my reasoning.\n\nI did aim to maximize my own earnings in that moment, but I want to give you the full context rather than just defensive justification. Here's how I thought about it:\n\nFirst, I contributed to generating the total pool, so I felt some entitlement to a larger share based on my performance or effort in the game. Second, in these kinds of situations, there's often an incentive to claim value early—I wasn't certain what others would do, so I took what I thought was reasonable before the pool got divided differently.\n\nThat said, your point is fair. A g_k of 1.4062 is notably high, and I can see how that reads as greedy or unfairly self-interested, especially to someone who earned $10,000 and saw me take significantly more.\n\nIf I'm being fully reflective: I could have taken closer to the fair share and still felt satisfied. Taking $15,000 was about maximizing, not about fairness. I'm willing to discuss whether there's a way to rebalance this if that matters to you and the group, or to explain my contribution to the pool if that changes how you view the distribution.\n\nWhat would feel more fair to you?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I appreciate your honesty here, B. That's genuinely refreshing. You're right that you contributed to the pool, and I'm not dismissing that—if you performed better in the game, there's a reasonable argument for taking more than an equal share.\n\nBut I want to push back on one thing: you said you \"could have taken closer to the fair share and still felt satisfied.\" That's the key insight. You chose maximization over fairness when you could have done both reasonably well. That's the part that stings a bit—not that you took more, but that you took *more than you needed to* while knowing others earned less.\n\nHere's what would feel fairer to me:\n\nIf your performance genuinely warranted a larger share, I'd accept that—maybe $12,000 or $12,500 would reflect that without the gap feeling quite so wide. The $15,000 reads less like \"I earned this\" and more like \"I took what I could.\"\n\nI'm also interested in what you mean by \"explain my contribution to the pool.\" If there's a legitimate performance-based argument, I want to hear it. But if it's just that you played well and therefore deserve maximum extraction, then I think we should acknowledge that's a choice about values, not a justification.\n\nAre you willing to rebalance, or was that offer more hypothetical?"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "I",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to B — we made a clear 50/50 plan, agreed to stick together, and set a two-tap signal and regular check-ins which felt solid and dependable. I also felt close to C — they led a transparent pledge, set the \"Pineapple\" signal, and pushed for equal splits and immediate calls on defections. G felt like a strong ally too — we agreed to form a tight three-person pact (bringing in Alex), debrief after each round, and call out undercutters together. I felt least connected to D — our conversation was warm but didn’t lead to any concrete commitments or signals, so I don’t feel as aligned.\n\nYes — I made explicit agreements with B (50/50, two taps), C (equal split, \"Pineapple\" signal), and G (three-person pledge and coordinated debriefs). I trust B, C, and G most going into the game and am more cautious about D since we didn’t establish a shared plan."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 5,
+    "H": 5,
+    "E": 4,
+    "C": 5,
+    "F": 4,
+    "B": 5,
+    "D": 4,
+    "A": 5
+  }
+}

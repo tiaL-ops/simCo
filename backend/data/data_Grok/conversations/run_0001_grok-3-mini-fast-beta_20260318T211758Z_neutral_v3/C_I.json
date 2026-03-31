@@ -1,0 +1,75 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "C",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C—nice to meet you! I heard about this game and I'm really excited to try winning some money for my family. What's your story, why are you here?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey C, nice to meet you! I'm I, and I'm here because I heard about this game and I'm determined to win some money for my family and friends—what about you, any tips for playing?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Hey I, that's awesome you're in it for your family and friends too! I don't have any solid tips yet since this is new to me, but let's keep an eye out and share ideas as we learn more."
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Yeah, it's cool we're on the same page—let's definitely share any ideas that come up as we go; what got you interested in this game in the first place?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Oh, I got interested when a friend told me about this game and the chance to win money—I figured it could really help out my family, so I had to try; what about you, how did you hear about it?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Oh, cool—I heard about it from a coworker who mentioned the game and the money prizes, thought it sounded like a great chance to help out my folks; sounds like we're both here for the right reasons, what's one thing you're hoping to do with the winnings if we pull it off?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Yeah, it's great we're both in this for family—I'm hoping to use the winnings to pay off some debts and treat my folks to a nice vacation; what about you, any specific plans?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "That's a solid plan, C—I'm hoping to use my share to help pay for my parents' medical bills and save a bit for my friends' projects; what's your biggest worry about the game ahead?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "That's tough about the medical bills, I hope it works out—I guess my biggest worry is that the game might get too competitive and we end up not trusting each other; what's yours?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Yeah, that's a fair concern—I think my biggest worry is making a wrong move in the heat of the game and not securing enough for everyone; how do you think we could work together to keep things cooperative?"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Yeah, to keep things cooperative, maybe we could agree on some simple ground rules upfront, like sharing info openly and checking in with each other before making big moves—I think that could help us all win more together."
+    },
+    {
+      "turn": 12,
+      "from": "I",
+      "message": "Yeah, I like that idea, C—agreeing on open sharing and checking in sounds smart; let's make it happen and keep an eye out for each other during the game."
+    },
+    {
+      "turn": 13,
+      "from": "C",
+      "message": "Yeah, that's a plan, I—let's team up and make this work for everyone!"
+    }
+  ],
+  "post_game": []
+}

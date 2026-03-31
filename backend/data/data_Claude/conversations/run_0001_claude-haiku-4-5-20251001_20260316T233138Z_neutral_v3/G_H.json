@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "G",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. First time doing one of these games, and I gotta say I'm a little nervous but excited, you know? Have you done anything like this before?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey G, nice to meet you! Yeah, this is actually my first time too. I'm definitely feeling that mix of nerves and excitement—there's real money on the line, so it matters, you know? What made you decide to come today?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Honestly, I really need to win something for my family right now. Money's been tight, and I figured if I'm smart about this game, maybe I can make a real difference. Plus, I like a challenge. What about you—what brought you here?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "I hear you, man—same situation here. I've got people depending on me, and I'm hoping to bring something real back home. I like that you're thinking strategically about it though. Do you have a plan going in, or are you gonna play it by ear?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Yeah, I've been thinking about it a lot actually. I figure the key is gonna be reading people—figuring out who's trying to cooperate and who's just out for themselves. But honestly, I'm still figuring it out as I go. What's your instinct telling you so far about the group?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Honestly? Everyone seems pretty genuine so far, but I'm getting the sense that most people here are in the same boat as us—desperate enough to win that they might flip on cooperation if it means more money for them. I'm trying to stay open-minded, but yeah, I'm definitely watching how people interact with each other."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Yeah, that makes sense—desperation's a powerful thing. I guess we gotta figure out who might actually stick to their word if we team up, and who's just saying what sounds good right now. Maybe we keep an eye on who follows through on small stuff early on, you know? That might tell us something real about who we can actually trust."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "That's smart thinking—actions speak louder than words, especially when money's involved. I'm down to keep that in mind and see who actually backs up what they say. Maybe we can check in with each other after the first round and compare notes on who seems solid?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Yeah, absolutely—I like that plan. Let's definitely touch base after the first round and see what we've learned about people. Having someone I can actually talk strategy with makes me feel a lot better about this whole thing."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Same here, man. I feel better having someone I can trust to be real with too. Let's stick to that plan—we'll compare notes after round one and figure out who we can actually work with. Good luck out there."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "You too, man. Really glad we connected—feels good to have someone in my corner. Let's make this work and get some money home."
+    }
+  ],
+  "post_game": []
+}

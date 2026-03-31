@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "A",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A – I heard about this Simco game and I'm pretty pumped about the chance to win some money for my folks and me. What's your story, are you looking forward to it too?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hey A, I'm C – yeah, I'm totally stoked about this Simco game too, hoping to win some cash for my family and friends; what's your take on how it might play out?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Yeah, C, I figure it'll come down to strategy and maybe some trust-building among us—I'm hoping we can team up smartly to maximize the pot, what about you?"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "Yeah, A, I totally agree—strategy and trust sound key to making the most of this, and I'm up for teaming up if it means boosting the pot for everyone; what's your idea for a solid game plan?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "That's a great question, C—maybe we start by agreeing to build the pot as much as possible early on and only take our share at the end, so everyone benefits; how does that sound to you?"
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "Yeah, A, that sounds like a smart plan—I'm on board with building the pot up first to maximize everyone's cut; maybe we could chat about how to get the group on the same page?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Yeah, C, absolutely—let's start by suggesting a quick group chat to pitch this plan and see who else is in, could really help get everyone aligned."
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Yeah, A, I'm all for it—let's rally the group for that chat right away and see if we can get everyone excited about the plan!"
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Awesome, C—let's round everyone up right now and pitch the idea to get the whole group hyped!"
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Yeah, A, let's do this—I'll help gather everyone and pitch the plan to get us all pumped!"
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Sounds great, C—let's team up and get the group fired up for this plan!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hi C, you took your fair share of $10,000. I was wondering why you chose that amount?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "I chose $10,000 because it felt like a fair and equitable amount based on our earnings from the game, ensuring neither of us had an advantage."
+    }
+  ]
+}

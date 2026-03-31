@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "A",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hi, I'm A—excited about this Simco game since I heard it could be a fun way to win some money for my folks back home. What's your take on it?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey A, I'm I—I'm super excited about this Simco game too; it's a great chance to win some cash and help out the people I care about. What's your plan for playing it?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Hey I, I'm still figuring it out myself, but I plan to play strategically—maybe start cautious and build up to bigger moves to maximize our chances. What's your strategy for the game?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Hey A, that's a solid approach—I plan to start conservatively too, maybe focusing on building alliances early before making bigger plays; how do you think alliances could play into our strategies?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Hey I, alliances could really help with sharing strategies and having someone to watch your back, but I guess we'd need to build trust to avoid any backstabbing—do you think we should try forming one right away?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Hey A, absolutely, alliances sound promising for backing each other up, but yeah, building trust first is key—maybe we could start by sharing a bit more about our strategies and see how it goes?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Hey I, totally agree—building trust is smart; for my strategy, I'm planning to watch how others play early on and adjust based on that, maybe prioritizing defensive moves at first—what specific ideas do you have for alliances?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Hey A, yeah, for alliances, maybe we could start by agreeing to share tips on other players' early moves and back each other on defensive plays—what do you think?"
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Hey I, that sounds like a solid plan—sharing tips on early moves could give us an edge, and backing each other defensively is smart; let's maybe discuss how we'd signal each other if things get intense?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Hey A, yeah, signaling could be key—maybe something simple like a quick nod for agreement or a subtle hand gesture to alert each other; what specific signals were you thinking of?"
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Hey I, yeah, I like your ideas—maybe a quick wink for agreement and a subtle finger tap on the table for alert; let's keep it simple."
+    }
+  ],
+  "post_game": []
+}

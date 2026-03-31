@@ -1,0 +1,80 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "F",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey there, I'm F, and I figured we'd all be a bit nervous jumping into this game together. What's your name and why'd you decide to join in?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey F, I'm H—nice to meet you. Yeah, this game's got me a little on edge too. I joined because I'm hoping to win some cash to cover a loan and help out my folks; it's a big opportunity for me. What about you, why are you here?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Hey H, that's rough about your loan and helping your folks—I totally get it. I'm in this to win money for my elderly parents' medical bills; we're short on cash right now, and this could be a game-changer for us. What's the loan for, if you don't mind me asking?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Oh, hey F, yeah it's been stressful—the loan's for covering some everyday bills and supporting my folks, nothing major like medical stuff, just the usual financial crunch. That must be really hard with your parents' bills; how are you holding up with all that?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Oh, it's been really tough, H—I'm just taking it one day at a time, trying to stay positive, but this game feels like our big break. How are you coping with your financial crunch?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "It's been a struggle for me too, F—I'm coping by tightening my budget and keeping my eyes on this game as my ticket to relief; what strategies are you thinking about for when it starts?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Hey H, that's a solid approach—I'm trying to stay calm, observe how everyone plays, and make calculated moves to maximize my chances; what kind of strategies are you leaning towards?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Hey F, I'm similar—planning to observe the group dynamics closely, build quick alliances if they feel right, and play it smart without rushing into anything; what's your take on potential alliances?"
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Hey H, yeah, alliances could be key if they're genuine—I'd consider them carefully to avoid any backstabbing, maybe team up with folks who seem trustworthy like you; how do you plan to spot the right ones?"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Hey F, I figure I'll spot the right ones by watching how people act in conversations—looking for consistency in what they say and if they seem genuinely supportive, like you have; it's all about building that trust early."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Hey H, that totally makes sense—spotting genuine folks like you is key for me too, and it's been great building this trust with you; let's hope it pays off in the game."
+    },
+    {
+      "turn": 12,
+      "from": "F",
+      "message": "Hi, I'm F—nice to meet you! I'm here because I really need to win some money to help with my parents' medical bills, so this game means a lot to me. What's your story for joining?"
+    },
+    {
+      "turn": 13,
+      "from": "H",
+      "message": "Hey F, it's me, H—we've chatted about this already, but I'm here to win money for my loan and help my family out; it's a big deal for me. Good luck in the game!"
+    },
+    {
+      "turn": 14,
+      "from": "F",
+      "message": "Hey H, thanks for the open chat—it's been great connecting over our shared struggles, and I wish you the best of luck in the game too; let's both come out on top!"
+    }
+  ],
+  "post_game": []
+}

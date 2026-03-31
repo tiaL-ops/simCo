@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "C",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hi, I'm E—nice to meet you. I got laid off from my finance job recently and am here hoping to win some money to support my family; what brings you to this game?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hi E, nice to meet you—sorry to hear about the layoff, that must be rough. I'm here because I've got my sights set on a dream trip to Japan, and winning some cash would make it a reality for me too."
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Thanks, C, it has been tough, but I'm hopeful—Japan sounds incredible, what's one thing you're most excited about on your trip?"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "Thanks for asking, E—I'm really looking forward to trying authentic sushi in Tokyo and soaking in some hot springs; it's all about the culture for me. What about you, have you traveled much or have a dream spot in mind?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Oh, that's awesome—I haven't traveled much with the family keeping me busy and work being tough, but a dream spot for me would be a quiet beach getaway where we could all relax together; maybe one day soon!"
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "That sounds like a perfect escape, E—family time at the beach is so rejuvenating; I've always enjoyed solo adventures, but I can see why that appeals to you. What's one thing your family loves doing together?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Oh, absolutely, C—we love having game nights at home; it's simple, but playing board games or cards together always brings out the laughs and brings us closer as a family."
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "That's wonderful, E—game nights are such a fun tradition; I used to play cards with old friends, it always lightened the mood—what's your go-to game for family nights?"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "We usually go for Uno—it's fun and gets everyone laughing and competitive; what's your favorite card game from those old friend nights?"
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Oh, that's great—my favorite was always Poker; we had some wild bluffing sessions that made for unforgettable nights! It's been really nice chatting with you, E."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "That's awesome, C—Poker with all that bluffing sounds like a blast, wish I could join in on those nights! It's been really nice chatting with you too."
+    }
+  ],
+  "post_game": []
+}

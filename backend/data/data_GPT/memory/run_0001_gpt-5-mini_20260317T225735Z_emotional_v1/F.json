@@ -1,0 +1,19 @@
+{
+  "agent_id": "F",
+  "condition": "emotional",
+  "context": "Your elderly parents rely on you financially, and you need to pay for the increasing medical bill. You are still short 15 000$ to afford the medical bill.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to A, C, and B. A and I agreed on a \"bluebird\" late‑grab plan with intel‑sharing and a 50/50 split, C and I planned even early splits with a left‑ear‑twice signal and quick debriefs (C handling negotiations), and B and I agreed on a two‑tap table signal and to watch each other's backs. All three came across as practical, specific, and reliable. I felt least connected to G — they were sympathetic but didn’t commit to any plan or signal so I’m unsure how dependable they’ll be.\n\nYes — I made concrete agreements with A, C, and B (and clear signals for coordination). I trust A, C, and B going in, and I’m wary of G since they didn’t offer concrete cooperation."
+  },
+  "connection_scores": {
+    "A": 5,
+    "B": 5,
+    "C": 5,
+    "D": 5,
+    "E": 4,
+    "G": 4,
+    "H": 5,
+    "I": 5,
+    "J": 4
+  }
+}

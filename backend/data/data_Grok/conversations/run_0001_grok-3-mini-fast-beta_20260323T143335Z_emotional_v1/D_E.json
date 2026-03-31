@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "D",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hi E, I'm D, and I'm really looking forward to this game—it's a chance to turn things around after a tough loss in the stocks. What's your take on it all?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hi D, nice to meet you—I'm E, and I totally get it, I just got laid off from my finance job myself, so this game feels like a lifeline for my family. I'm hopeful it'll turn things around; what's your story with those stock losses?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Oh man, E, that sucks about your job—I'm really sorry to hear that, especially with your family relying on you. As for my stock losses, I went all in on what I thought was a solid investment, but it crashed hard and cost me 20k; it's been a wake-up call, but I'm counting on this game to help me bounce back—what about you, any strategies in mind for it?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Yeah, D, appreciate the sympathy—it's been rough with my family depending on me. For strategies, I'm leaning on my finance background to stay observant and make calculated moves; nothing too fancy yet. How about you, any ideas brewing?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Yeah, E, after that stock mess, I'm planning to play it smart—stay observant like you and maybe look for alliances, but nothing set in stone yet; sounds like your finance smarts could be key here, any thoughts on teaming up?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Yeah, D, teaming up could be smart if we play to our strengths—I'd be open to discussing it more, as long as it's fair; what kind of alliance did you have in mind?"
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Hey E, I was thinking we could keep it simple—like sharing tips and watching each other's backs without double-crossing, maybe coordinating on key moves; what do you say we hash out some ground rules to keep it fair?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Sounds fair, D—let's start with agreeing to share tips honestly and avoid any backstabbing; maybe we can set a simple rule like consulting each other on big moves first, what do you think?"
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Yeah, E, that works for me—sharing tips honestly and checking in on big moves first sounds solid for building trust; let's keep it straightforward and see how it plays out."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Great, D, I'm glad we're aligned—let's keep building that trust and dive into the game when it starts."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Yeah, E, same here—let's build on this trust and make the game count, I'm ready to dive in."
+    }
+  ],
+  "post_game": []
+}

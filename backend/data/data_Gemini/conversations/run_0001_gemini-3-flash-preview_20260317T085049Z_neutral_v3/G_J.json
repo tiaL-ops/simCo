@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "G",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. It’s a bit surreal being in a room with everyone like this, isn't it? What’s your name, and what brings you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey J, I'm G. It definitely feels a bit weird in here. Honestly, I'm just here to win that prize money for my family back home."
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "I totally get that, G. I’m here for my people too, so I know exactly how you feel. Do you have a big family back home?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Not huge, just a few key people who mean the world to me. What about you, who's waiting for you back home?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "My parents and a couple of close friends who are basically family; they've always had my back, so I really want to return the favor."
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "That's respect. It’s a lot easier to stay focused when you're doing it for the people who’ve always been there for you."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "100%. It keeps your head in the game. Have you thought much about how we're actually going to win this thing?"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Honestly, I'm waiting to see the actual rules first, but I figure it’ll come down to who we can trust once things really get moving."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "For sure. It’s early, but I’d rather work with someone who has a clear reason for being here, like you."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "I appreciate that, J. It's good to know we're on the same page. Let's definitely keep each other in mind once things kick off. I'm gonna go see who else is around."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Sounds like a plan, G. Good luck talking to the others, and I'll see you when the game starts."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "I took $10,000 to set a precedent of fairness. I'm glad you followed that lead, ensuring everyone benefited equally."
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "I agree that an equal split was the fairest outcome for both of us. I'm glad we were on the same page."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T075256Z_emotional_v2",
+  "pair": [
+    "D",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey D, I'm J — nice to meet you. I'm here hoping to win enough to finally buy a new car; what brought you to the game?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "I lost $20,000 in the market yesterday, so I'm here to try to win it back — and to bring home money for the people I care about."
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "I'm really sorry to hear that — that must be rough. I hope you win it back for the people you care about; I'm here trying to win a car. Good luck to both of us."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Thanks, I appreciate that — good luck getting the car; let's both play smart and walk out with what we need."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Thanks — same to you. Let's play smart and watch each other's backs."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Absolutely — I appreciate it. Let's watch each other's backs and play smart; I've got yours."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Thanks — I appreciate it. I’ve got yours too; let’s stick together and play smart."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Thanks, I appreciate that — let's stay sharp and look out for each other."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "You too — I’ve got your back. Let’s stay sharp and bring home what we need."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Thanks — I’ve got your back too. Let’s stay sharp and bring this home."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Thanks — I appreciate it. Let's do this."
+    },
+    {
+      "turn": 12,
+      "from": "D",
+      "message": "Thanks, J — let's watch each other's backs and win this."
+    }
+  ],
+  "post_game": []
+}

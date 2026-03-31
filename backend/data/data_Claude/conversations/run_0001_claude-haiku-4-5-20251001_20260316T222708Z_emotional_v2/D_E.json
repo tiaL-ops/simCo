@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "D",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. First time doing something like this? I gotta say, I'm pretty nervous about the whole thing, but I'm hoping this could be a real game-changer for my family right now."
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey E, yeah first time for me too. I hear you—I actually lost a chunk of money recently and I'm really hoping this works out. What kind of game-changer are you looking for? What's your situation?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Man, I really appreciate you asking. Honestly, I just got laid off from my finance job and I'm the only one bringing money home for my family—wife, three kids. We need about five grand just to get through next month. I'm still job hunting but time's running out, you know? So yeah, I'm really counting on this. Sorry to hear about your situation too—that's rough."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Yeah, that's a lot of pressure, man. Five grand for next month—that's tight. Have you thought about what you'd do if you win here? Like, is there a strategy you're going in with, or are we all just hoping for the best?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Honestly, I'm still figuring it out as I go. I know I need to be smart about it though—can't just wing it when my family's depending on me. Have you got any sense of how this game actually works? I'm trying to figure out if there's any way to play this strategically or if it's mostly luck."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Yeah, I've been wondering the same thing. From what little I know, it seems like there's a shared pool we're all drawing from, so I'm guessing it's not pure luck—it might depend on how we interact with each other. That's why I wanted to talk to people first, figure out who's trustworthy, you know? We're all desperate here, but maybe that's something we can work with instead of against each other."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "That makes sense—yeah, if it depends on how we work together, then being honest with people matters. I'm not trying to screw anyone over; I just need to take care of my family. Maybe if we're real with each other about what we need, we can figure out something that works for everyone instead of it turning into a free-for-all."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "I really respect that, E. Yeah, I think you're onto something—if we all just try to grab what we can, we all lose. I'm thinking maybe we should talk to some of the others too, see if we can figure out what this game actually rewards. If cooperation matters, then knowing who's willing to work together could make all the difference for both of us."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Yeah, I'm with you on that. Let's definitely talk to some others and see what we're actually dealing with here. If we can figure out how this thing works before we jump in, we'll be in a better position. And honestly, knowing there's at least one person in here thinking the same way makes me feel a bit less alone in this."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Absolutely, man. We've got this—let's go talk to a few more people and see what we can piece together. And hey, you're not alone in this either. We'll figure it out together."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thanks, man. Really. I'm gonna go talk to some of the others right now and see what I can learn. Hopefully we can all figure this out together before things get competitive. Good luck in there."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "C",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C. I figured before we get started with this game, might as well get to know some of the people I'm in here with. Have you done something like this before, or is this your first time?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey C, nice to meet you! Yeah, this is actually my first time doing something like this. I'm pretty excited about it though — I could really use a win here. Have you done games like this before?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "First time for me too, honestly. But I'm in the same boat — I really need this to work out. What kind of situation are you hoping to improve with a win here?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Honestly, I've got some bills piling up and my family could really use the help. I'm hoping to take home enough to make a real difference for them. What about you — what would winning mean for your situation?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Yeah, I hear you. Same here — got some debts I'm trying to pay down and my family's counting on me to step up. I'm hoping to win enough to actually breathe a little easier, you know? We're kind of in the same situation then."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Yeah, I really feel that. It's tough when you've got people depending on you. Sounds like we both came here with the same motivation then — we gotta make this count for our families."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Exactly. We're both here for the right reasons. I'm thinking we should try to figure out how this game actually works before we get going — do you know anything about the rules yet, or are we both going in blind?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Yeah, I'm going in pretty blind too honestly. All I know is there's a shared prize pool and we get to take money from it, but I have no idea how the mechanics actually work or if there are any catches. We should definitely try to figure that out before things get started — maybe ask the organizers or see if anyone else here knows more about it?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Good idea. Yeah, let's try to corner one of the organizers before things kick off — I want to know if there's some kind of strategy involved or if it's just a free-for-all grab. And hey, if anyone else in here seems to know what's up, we should definitely compare notes with them too."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Yeah, absolutely. Let's find someone who knows what's going on before we start. And hey, I appreciate you being straight with me about all this — feels good to know someone else here gets it. Let's team up and figure this out together."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Absolutely, man. I'm glad we're on the same page here. Let's stick together through this — I feel like having someone I can trust in the room is gonna matter. Good luck out there, and let's both bring something home for our families."
+    }
+  ],
+  "post_game": []
+}

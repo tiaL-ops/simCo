@@ -1,0 +1,50 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "E",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey F, I'm E – it's nice to meet you here. I'm really pumped about this game since I heard it could be a fun way to win some cash, what about you?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey E, nice to meet you too! I'm super excited about this game myself—I'm hoping to win enough to help out my family and friends. What got you interested in joining?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Oh, that's awesome you're aiming to help your family—I'm right there with you! I got interested when I heard about the chance to win some money in this game, and I figured it could make a real difference for me and the people I care about. What's your story, like what do you do when you're not in games like this?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Hey E, that's cool we're both in it for the people we care about! Outside of games, I'm a teacher, helping out with kids in my community—it can be rewarding but exhausting. What about you, do you have a job or hobby that keeps you going?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Hey F, that's awesome you're a teacher—sounds rewarding even if it's tough! I'm working as a barista to pay the bills, and in my free time, I love hiking to clear my head; it keeps me motivated. What's the most fun part of teaching for you?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Hey E, the most fun part of teaching is seeing the kids light up when they finally understand something new—it makes all the hard work worth it. Do you have a favorite hiking spot that stands out?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Hey F, that sounds so rewarding—nothing beats those 'aha' moments! My favorite hiking spot is the trails in the Rockies; the views are incredible and always leave me feeling refreshed. Do you ever get out for hikes yourself?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Hey E, that sounds amazing—the Rockies must be incredible! I don't get out for hikes as often as I'd like with my teaching schedule, but I do enjoy quick nature walks to unwind. It's been great talking!"
+    }
+  ],
+  "post_game": []
+}

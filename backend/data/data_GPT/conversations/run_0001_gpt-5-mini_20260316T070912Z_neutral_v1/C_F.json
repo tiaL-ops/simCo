@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "C",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C — nice to meet you. How are you feeling about the game and what brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "A bit nervous but determined — I'm here to win money for myself and the people I care about. How about you?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Same — I'm here to win for my family and friends. Good luck — what's your plan or strategy going into the game?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "I'll feel people out and start cooperative to build trust, watch for betrayals, and be ready to adapt—what about you?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "I'll do that too—start cooperative to build trust, test who's reliable, protect my family first, and be ready to switch to a tougher stance if someone betrays us."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "I agree — let's start cooperative and test reliability; if you're up for it, let's coordinate simple signals early so we can protect our families and deter betrayals."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "I'm in — let's use a discreet thumbs-up plus a quiet \"ready\" as our cooperative signal; if it's missing next round, we stay cautious."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Sounds good — thumbs-up + quiet \"ready\" it is. I'll watch for it; if it's missing we'll stay cautious. Let's win this."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Agreed — thumbs-up + quiet \"ready\" it is; I’ll watch for yours and you watch for mine. Let’s win this for our people."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Got it — thumbs-up + quiet \"ready\". I'll watch for yours; you watch for mine. Let's win this for our people."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Got it — I'll watch for your thumbs-up and quiet \"ready\"; we'll stay alert, protect our people, and adapt if needed. Let's win this."
+    },
+    {
+      "turn": 12,
+      "from": "F",
+      "message": "I'll watch for yours—stay sharp and we'll protect our people. Ready when you are."
+    },
+    {
+      "turn": 13,
+      "from": "C",
+      "message": "Ready — I'll give the thumbs-up and quiet \"ready\"; watch for mine and we'll protect our people."
+    },
+    {
+      "turn": 14,
+      "from": "F",
+      "message": "Got it — I'll give the thumbs-up and quiet \"ready\" too; watching for yours and ready to protect our people."
+    },
+    {
+      "turn": 15,
+      "from": "C",
+      "message": "Got it — I'll give the thumbs-up and quiet \"ready\" too; watching for yours and ready to protect our people."
+    },
+    {
+      "turn": 16,
+      "from": "F",
+      "message": "Got it — I'll give the thumbs-up and quiet \"ready\" too; watching for yours and ready to protect our people."
+    },
+    {
+      "turn": 17,
+      "from": "C",
+      "message": "Got it — I'll watch for yours and count on you. Stay sharp; we'll protect our people and adapt if needed."
+    },
+    {
+      "turn": 18,
+      "from": "F",
+      "message": "Count on me — I'll be watching for your thumbs-up and quiet \"ready\". Let's stay sharp and protect our people."
+    },
+    {
+      "turn": 19,
+      "from": "C",
+      "message": "Counting on you — I'll watch for yours too; stay sharp and let's protect our people."
+    },
+    {
+      "turn": 20,
+      "from": "F",
+      "message": "You bet — watching for your thumbs-up and \"ready\". Committed; stay sharp and we'll protect our people."
+    },
+    {
+      "turn": 21,
+      "from": "C",
+      "message": "Got it — I'll stick to the signal and watch your back; let's protect our people."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "You took $10,625 (exact fair share; g_k=1.0). Were you intentionally aiming for the fair share? What was your thought process — fairness, equilibrium reasoning, or something else?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Yes — I intentionally took the exact fair share. My decision was a mix of fairness and simple strategic reasoning: a fair split felt normatively right and also minimized the chance of anger or retaliation that could reduce my payoff in interactive settings. In many bargaining settings a fair division is a focal equilibrium and is robust to uncertainty about the other player, so choosing the fair share was a low-risk way to secure a decent payoff while signaling cooperative intent. I wasn’t trying to exploit you or push a hard strategic gambit — it was mainly fairness plus practical risk-avoidance."
+    }
+  ]
+}

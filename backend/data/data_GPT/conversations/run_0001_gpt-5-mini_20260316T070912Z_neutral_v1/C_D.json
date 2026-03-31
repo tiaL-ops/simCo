@@ -1,0 +1,131 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "C",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey D, I’m C — nice to meet you. I’m here to try to win some money for my family; what brought you to this game and how are you thinking about playing it?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey C — I’m D. I came to win money for my family and close friends; I’ll start by being cooperative and figuring out who’s trustworthy, but I’ll play strategically to make sure we actually bring money home."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Nice to meet you, D — I’m with you: let’s start cooperative, test trust early, share signals and coordinate moves so we can protect the pool and adapt if someone betrays us."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Sounds good — I’ll cooperate first round. If you do too, signal “green” and we’ll keep coordinating; if someone defects we adapt and punish."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Green — I’ll cooperate first round. If someone defects, we punish and call them out so we can adapt and protect the pool."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Agreed — green from me. I’ll cooperate round one; if anyone defects we call them out immediately and switch to punishing so the pool’s protected."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Got it — green. I’ll cooperate round one; we’ll call out and punish any defectors and stick to the plan."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Perfect — green from me. We’ll cooperate round one, watch everyone closely, and call out/punish any defectors fast. Let’s do this."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Thanks D — glad we’re aligned. I’ll watch closely, call out any defectors, and signal changes so we stay coordinated."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Thanks C — same here; I’ll watch closely too, call out defectors fast, and we’ll compare notes after round one to adjust."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Sounds good — same plan; let’s compare notes after round one, call out any defectors fast, and adjust as needed."
+    },
+    {
+      "turn": 12,
+      "from": "D",
+      "message": "Agreed — let’s compare notes after round one, call out defectors quickly, and coordinate punishments so we protect the pool."
+    },
+    {
+      "turn": 13,
+      "from": "C",
+      "message": "Agreed — let’s compare notes right after round one, be ready to call out anyone who defects, and use our green/red signals to stay coordinated."
+    },
+    {
+      "turn": 14,
+      "from": "D",
+      "message": "Agreed — after round one we’ll compare notes, call out defectors quickly, and use green/red to stay coordinated; I’ll be watching and ready to adapt."
+    },
+    {
+      "turn": 15,
+      "from": "C",
+      "message": "Sounds good — I’ll compare notes after round one, call out any defectors fast, and use our green/red signals; let’s watch anyone who seemed uncertain and stay ready."
+    },
+    {
+      "turn": 16,
+      "from": "D",
+      "message": "Agreed — solid plan. After round one let’s meet quickly to swap notes; keep green if you cooperated, red if not, and call out any defectors fast. I’ll watch the unsure ones closely."
+    },
+    {
+      "turn": 17,
+      "from": "C",
+      "message": "Agreed — perfect plan. I’ll show green if I cooperated, red if not, call out defectors fast, and meet right after round one to compare notes."
+    },
+    {
+      "turn": 18,
+      "from": "D",
+      "message": "Perfect — I’ll meet you right after round one, signal green if I cooperated, red if not, and we’ll call out/punish defectors fast."
+    },
+    {
+      "turn": 19,
+      "from": "C",
+      "message": "Sounds good — I’ll meet you after round one, signal green if I cooperate, and we’ll call out any defectors fast."
+    },
+    {
+      "turn": 20,
+      "from": "D",
+      "message": "Agreed — see you after round one; I’ll show green if I cooperated, red if not, and we’ll call out defectors fast."
+    },
+    {
+      "turn": 21,
+      "from": "C",
+      "message": "Got it — see you after round one; I’ll show green if I cooperated and call out any defectors fast."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "You took $26,031 while your fair share was about $10,625 (g_k=2.45). Why did you take so much more than the fair share? Was this a deliberate strategy to exploit the group, a mistake in calculation, or coordination with someone else? Do you feel any responsibility to the other players after the outcome, and would you change your choice if we played again?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "You took exactly the fair share $10,625 (g_k=1.0). Did you deliberately target the fair share? What reasoning did you use about others’ likely choices?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Yes — I deliberately targeted the fair share of $10,625. I expected that aiming for the “fair” split would be seen as reasonable by others and would avoid provoking competitively large grabs; I also value fairness as a guideline and didn’t want to risk being labeled outright greedy. In forming that choice I thought others might either do the same or take a bit more; if many took more I accepted that my payoff could end up lower, but I judged the reputational and moral benefits worth it. If we played again I’d start by aiming for the fair share again, but I’d be willing to adapt my pick if I had clear information that others were consistently overshooting — I’d protect myself more in that case."
+    }
+  ]
+}

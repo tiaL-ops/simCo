@@ -1,0 +1,19 @@
+{
+  "agent_id": "B",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "# Reflection on Pre-Game Connections\n\nI felt most connected to D, H, and F. With D, there was an immediate mutual understanding about the importance of family and cooperation—we both seemed to genuinely want to look out for each other rather than compete. H had that same authentic energy, and our conversation felt natural and honest about wanting to figure things out together. F resonated with me because we shared similar family struggles, and there was a real sense that we were in the same boat trying to do right by the people depending on us. I felt least connected to J, even though we talked about teaming up—the conversation felt a bit more transactional, like we were strategizing together rather than actually connecting on a personal level.\n\nI made agreements with several people to keep each other in the loop once the game starts and to look out for each other. Specifically, D and I made a clear commitment to stick together and have each other's backs. I trust D, H, F, and G going into this—they all seemed genuinely motivated by family responsibility rather than pure greed. I don't specifically distrust anyone, but I'm most cautious about J since that connection felt less authentic, and I'm aware that some people might shift their strategy once real money is on the line."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "H": 4,
+    "E": 4,
+    "C": 4,
+    "F": 4,
+    "I": 4,
+    "D": 4,
+    "A": 4
+  }
+}

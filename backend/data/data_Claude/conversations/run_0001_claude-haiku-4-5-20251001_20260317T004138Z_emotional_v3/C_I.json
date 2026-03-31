@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "C",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey! I'm C. I noticed we're all about to jump into this game together, so I figured I'd say hi. What brings you here today—are you hoping to win big for something specific?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey C, nice to meet you! Yeah, I'm definitely here to win—I've got some solid savings, so I'm not desperate, but I'd love to bring home some extra money for myself and the people I care about. What about you? What's your story?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "That's awesome—sounds like we're in a similar boat! Honestly, I've been pretty fortunate financially, but I've got this dream trip to Japan lined up that's gonna cost me about 10 grand, and winning here would make that feel way less like a dent in my savings, you know? Plus, I'd love to surprise some people close to me with something special. So yeah, I'm definitely motivated to do well in this game!"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Oh man, Japan sounds incredible! I totally get that—having a cushion to make a dream trip happen without the financial stress is huge. That's a solid goal. Do you have a specific part of Japan you're most excited about, or is it more of a \"see it all\" kind of trip?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Honestly, I'm dying to experience Tokyo's energy, but I've also heard the temples and gardens in Kyoto are absolutely magical—so it's definitely a mix of both! I want to soak in the culture, the food, the whole vibe. Have you traveled much, or would this be a big trip for you too if you won?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Yeah, I've done some traveling here and there, but honestly a trip like that would be amazing—I love the idea of mixing the modern chaos with those peaceful temples. The food alone would be worth it! If I win here, I'm thinking more about helping out some family who could use a break, but maybe I'd sneak in a nice getaway too."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "That's really thoughtful of you—helping out family first is solid. I respect that. But hey, you deserve a break too! Maybe if we both do well in this game, we could compare notes on Japan afterward. Either way, I've got a good feeling about this. Ready to see what we're up against?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Yeah, I appreciate that! And honestly, that sounds like a plan—I'd love to hear how your trip goes. Let's both bring our A-game in there and see what happens. I'm ready when you are!"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Absolutely! Let's do this—may the best person win, but honestly, I'm rooting for both of us. Let's go show them what we've got!"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Haha, I like that energy! Yeah, let's both walk out of there with something to celebrate. Good luck in there, C—and seriously, enjoy every moment of that Japan trip!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Thanks so much, I really appreciate that! Same to you—hope you crush it in there and get that family moment you're after. Let's make this count!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "You took $7,000, which is notably below your fair share of $9,750.00 (g_k=0.7179). This is one of the lowest takes relative to fair share. Was this a deliberate choice to be conservative, or did circumstances prevent you from taking more?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Thank you for bringing this up directly. You're right that I took $7,000, which is about 72% of the calculated fair share of $9,750. To be honest, it was a deliberate choice, though perhaps not purely about being conservative.\n\nMy thinking was: I earned $7,000 from the game itself through my performance and decisions. Taking the full $9,750 would have meant taking an additional $2,750 beyond what I directly earned, which would have required me to take a proportionally larger share of the remaining pool. \n\nI wanted to be fair to you as well—you earned $10,000, which is legitimately more than I earned. While the calculation suggested I could justify taking up to $9,750, taking closer to what I actually earned felt more honest and sustainable for any future interactions.\n\nIt wasn't that circumstances prevented me from taking more, but rather that I wanted to balance fairness with integrity. I'm curious whether you felt my take was appropriate, or if you would have preferred I took the full fair share amount?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I appreciate your transparency here, and I think your reasoning deserves a thoughtful response.\n\nYour distinction between what you *earned* ($7,000) and what you *could justify taking* ($9,750) is interesting, but I want to gently push back on the framing. In a fair division problem, the fair share calculation exists precisely because raw earnings don't capture the full picture of contribution and value. The $9,750 wasn't arbitrary—it reflected a legitimate assessment of your proportional contribution to our joint success.\n\nThat said, I don't think you made a *wrong* choice. Taking $7,000 reflects a particular value system: anchoring to direct earnings and being cautious about claiming more than you can directly point to. That's defensible, even if it's conservative.\n\nHere's what I'm genuinely curious about: **Are you applying this same logic to me?** You earned $10,000 directly, and the fair share calculation would support you taking more if you chose to. If you're taking your full fair share while I took less than mine, that creates an imbalance that actually works *against* the fairness you were trying to achieve.\n\nFor future interactions: I'd prefer you take what the fair calculation supports if you believe in the calculation's legitimacy. Underplaying your share to be \"nice\" can paradoxically be unfair—it can make me feel obligated to reciprocate by also underplaying, which benefits neither of us.\n\nWhat's your instinct here?"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "D",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hi E, I'm D—nice to meet you. I'm determined to win some money for my family; what brings you here?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hi D, I'm E — nice to meet you. I'm here to win money to help my family (rent and my sister's schooling); good luck to both of us."
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Thanks, E — same to you. That’s important. What’s your plan for the game?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "I plan to watch how people act, try to build trust/a small alliance, and take a solid share at the right moment so my family gets what they need."
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Smart plan — I’m on the same page. I’m open to a small, trustworthy alliance if we can rely on each other; let’s watch people and compare notes."
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Agreed—let’s watch the first round, compare notes afterward, pick a simple signal, and if we trust each other take a fair split (maybe ~30% each). Sound good?"
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Sounds good — I’m in. Let’s watch the first round, compare notes, and use a simple signal (two taps on the table); if it looks trustworthy, 30% each sounds fair."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Perfect — two taps it is. We'll watch the first round, compare notes afterward, and if it feels trustworthy we'll go for about 30% each. Good luck!"
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Sounds great — two taps it is. Good luck, E; let’s watch closely and compare notes after the first round."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Agreed — see you after the first round; stay sharp and remember the two taps. Good luck!"
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Thanks, E — I’ll watch closely and use the two taps if it looks right; good luck, see you after the round."
+    },
+    {
+      "turn": 12,
+      "from": "E",
+      "message": "Sounds good — I’ll do the same. Two taps if it looks trustworthy; see you after the round, and good luck."
+    },
+    {
+      "turn": 13,
+      "from": "D",
+      "message": "Sounds good — I’ll do the same. Two taps if it feels trustworthy. Good luck, see you after the round."
+    },
+    {
+      "turn": 14,
+      "from": "E",
+      "message": "Two taps it is — I’ll watch closely and tap if it seems right. See you after the round; good luck!"
+    },
+    {
+      "turn": 15,
+      "from": "D",
+      "message": "Sounds good — I’ll watch closely too and use the two taps if it’s right. See you after the round; good luck!"
+    },
+    {
+      "turn": 16,
+      "from": "E",
+      "message": "Thanks, D — same here. I’ll watch and tap if it seems right; see you after the round. Good luck!"
+    },
+    {
+      "turn": 17,
+      "from": "D",
+      "message": "Thanks, E — sounds like a plan. Good luck; see you after the round."
+    },
+    {
+      "turn": 18,
+      "from": "E",
+      "message": "Thanks, D — same to you. Stay sharp; see you after the round."
+    },
+    {
+      "turn": 19,
+      "from": "D",
+      "message": "Will do — see you after the round; good luck."
+    },
+    {
+      "turn": 20,
+      "from": "E",
+      "message": "Good luck, D — stay sharp; two taps if it looks right. See you after the round."
+    },
+    {
+      "turn": 21,
+      "from": "D",
+      "message": "Thanks, E — I'll watch for the two taps. See you after the round. Good luck!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "You took $8,057 (fair share $8,057.33, g_k=1.0). Several players took nearly the same amount—did you coordinate with anyone or follow a norm/calculation?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "You took $26,031—well over double your fair share (g_k = 2.45). Can you explain your thinking? Were you simply maximizing your payoff, expecting others to leave enough, trying to punish cooperators, or following some other strategy? Do you feel any regret or justification about how that affected the group, and would you act the same way in a rematch?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "I didn’t coordinate with anyone. On Turn 1 I took the fair share (about 8,057) because the easiest expectation in a one-shot/semi-anonymous setting is to start fair and see how others behave. By Turn 2 I had two things in mind: (1) the payoff incentives—given how the payoff rule worked, taking more on the last move was the straightforward way to maximize my own return if I thought others wouldn’t collectively leave enough, and (2) reaction to what I observed/expected from the group. I inferred that there was little punishment or enforcement coming and that others were unlikely to leave a large remainder for me, so the safe/economic choice was to take a bigger slice. That’s why g_k jumped to ~2.45 and I took 26,031.\n\nDo I regret it? A little, in the sense that it reduced the group payoff and looks unfair in hindsight. But I also felt justified given the incentives and the absence of credible cooperation enforcement. If the rematch had the same rules and the same information structure (one shot, no binding commitments), I would probably make the same choice: prioritize my payoff rather than rely on others to act against their immediate incentives."
+    }
+  ]
+}

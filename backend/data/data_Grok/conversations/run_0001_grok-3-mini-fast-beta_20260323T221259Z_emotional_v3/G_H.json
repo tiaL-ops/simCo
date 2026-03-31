@@ -1,0 +1,85 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "G",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey H, I'm G and I'm super excited about this game—I've always loved trying my luck in these kinds of challenges. What about you, are you into games too?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey G, nice to meet you—I'm H, and yeah, I'm into games for sure, especially ones with real stakes like this; it's a great chance to win some cash. What about you, what's your favorite type of game?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Hey H, that's awesome! I love games with a mix of strategy and luck, like poker or board games—always keeps me on my toes. What's your go-to favorite?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Oh, totally, I love poker as well—it's that perfect blend of strategy and a dash of luck that gets my heart racing; how about you, have you ever won big in a game like that?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Oh yeah, I've had some fun wins in poker—once I took home about $200 from a casual game with buddies, it was a blast! How about you, what's your biggest win been like?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Oh, that's great—my biggest win was around $300 from a local poker night last year, it was such a thrill and helped out with some bills! What's your strategy for games like this one?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Oh, that's awesome you won that much—my strategy is to stay observant, play conservatively at first, and then go for calculated risks when I sense an opening. What's your go-to approach for this game?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "That's a solid plan, G—I usually start by sizing up the competition and then mix in some calculated aggression to push ahead; what do you think our chances are in this game?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "I think our chances are pretty solid, H—especially with strategies like yours and mine in play, we could definitely walk away with some winnings! What are you most looking forward to in this game?"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Oh, definitely the excitement of walking away with a big win and using it to help with some real-life stuff, like sorting out bills—how about you, G?"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Oh, totally, H—I'm excited about winning big and using it to help my family with some expenses, like everyday bills!"
+    },
+    {
+      "turn": 12,
+      "from": "H",
+      "message": "Oh, that's awesome, G—we're on the same page with using any winnings for real-life needs like bills; it's been great talking, and good luck in the game!"
+    },
+    {
+      "turn": 13,
+      "from": "G",
+      "message": "Hey H, I'm G and I'm super excited about this game – I love trying my luck in these kinds of challenges. What's your take on it so far?"
+    },
+    {
+      "turn": 14,
+      "from": "H",
+      "message": "Hey G, it's great to hear your enthusiasm again—I'm still really excited about this game and see it as a solid chance to win some cash for things like bills. Good luck to you!"
+    },
+    {
+      "turn": 15,
+      "from": "G",
+      "message": "Hey H, thanks for the great chat—I'm pumped for the game too and hope we both win big to cover those bills! Good luck to you as well."
+    }
+  ],
+  "post_game": []
+}

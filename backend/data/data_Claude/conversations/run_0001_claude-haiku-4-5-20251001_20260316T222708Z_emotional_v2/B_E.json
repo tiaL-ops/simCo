@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "B",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. First time doing something like this? I gotta say, I'm pretty nervous but also hopeful—really need this to work out for my family right now."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Yeah, first time for me too. I hear you—I'm in a tough spot myself. My daughter needs surgery and we're short on funds. What's your situation, if you don't mind me asking?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Man, I'm sorry to hear about your daughter—that's really tough. I just got laid off from my finance job, so I'm the only one bringing money in for my wife and three kids. We're basically living paycheck to paycheck and I need to figure something out fast. This game felt like a real opportunity, you know?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "I really do understand—three kids and no income, that's incredibly stressful. Have you had any luck with job leads since the layoff, or are you focusing all your energy on this game right now?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "I've been sending out resumes like crazy, honestly—probably twenty applications this week alone—but you know how it is, the callbacks are slow. So yeah, I'm hoping this game could bridge the gap while I keep grinding on the job search. It's kind of my safety net right now, I won't lie."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Twenty applications a week is impressive—you're really putting in the work. I hope something comes through soon, but I get why you need this game to be that safety net. We're both counting on this, aren't we?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Yeah, we really are. It's a weird feeling knowing we're both desperate for this, but honestly it helps to talk to someone who gets it. I'm rooting for you and your daughter—I hope you get what you need out of this."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Thanks, E—that means a lot. I'm rooting for you too and your family. We've both got everything on the line here, so let's both do what we can to make this work."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Absolutely, man. We've got this. Whatever happens in there, I hope we both walk out with what we need for our families. Good luck."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Thanks, E. You too—really hope those job leads come through for you. Take care of yourself and your family out there."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thanks, B. Really appreciate that—and I mean it about your daughter. We're gonna get through this. Take care of yourself in there."
+    }
+  ],
+  "post_game": []
+}

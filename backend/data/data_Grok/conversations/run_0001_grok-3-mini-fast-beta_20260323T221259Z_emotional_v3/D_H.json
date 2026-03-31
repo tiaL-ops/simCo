@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "D",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey D, I'm H and I'm pretty excited about this game—I've got some bills I need to sort out, so winning would be a game-changer for me. What's your story, why are you here?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey H, nice to meet you—I'm D, and I'm here because I took a rough loss in the stock market recently and need to win this back for myself and my folks. Sounds like we're both motivated; what kind of bills are you dealing with?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Oh, yeah, it's a loan I've got due next month—nothing fun, just trying to get ahead without more stress; hope we both pull through here. What about you, got any strategies for the game?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Yeah, here's hoping we both get through this—I'm still figuring out my strategy, maybe start by observing and not going all in right away, but what about you, any plans you're thinking of?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Yeah, I'm leaning towards a cautious approach too—maybe watch the first round and only jump in when I spot a good opportunity, but I'd love to hear if you've got any more thoughts on that."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Yeah, totally agree—I'm planning to set some personal limits on my bids at the start, like not risking more than 10% of my share early on, to play it safe; what kind of opportunities are you hoping to spot?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Yeah, that's a solid plan—I'm hoping to spot when the bidding gets competitive but starts to slow down, so I can jump in with a calculated bid; any tips on how to read those moments better?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Yeah, that's a smart way to play—I've found that watching for hesitation in bids or when people start glancing around nervously can signal it's slowing down; how do you plan to stay calm in those high-stakes moments?"
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Yeah, that's helpful—I've found deep breaths and picturing my family's faces helps me stay grounded, so I don't freak out; what's your go-to for keeping cool under pressure?"
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Oh, yeah, for me, it's all about reminding myself why I'm here—picturing my family's faces and what winning could mean for us helps me stay focused and push through the nerves."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Yeah, that's spot on—it's amazing how that shared motivation keeps us grounded, D; let's both crush this game and make it count for our families."
+    }
+  ],
+  "post_game": []
+}

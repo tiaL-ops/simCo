@@ -1,0 +1,131 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T225735Z_emotional_v1",
+  "pair": [
+    "H",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey J, I'm H — nice to meet you. Are you excited for the game? I'm trying to win enough to pay off a loan and curious what brought you here."
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Yeah, I am — I’m here to win enough to buy a new car I’ve been dreaming about (around $45,000) and help out my family; good luck with your loan!"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "That's awesome — what car are you aiming for? Maybe we can watch each other's backs in the game."
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "I'm aiming for a Tesla Model 3 — that'd be the dream. Definitely, let's watch each other's backs in the game."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Love it — let's team up. I'll have your back. Want to stick together and coordinate our moves early on? What's your plan for the opening round?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Sounds great — I’m in. For the opening round, let’s both pass to build trust and keep a low profile, then mirror each other’s moves after that and back each other if someone betrays the group. Works for you?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Works for me — passing the opener and mirroring sounds perfect. I’ll back you if things get rough; let’s keep an eye on others and use a subtle signal."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Perfect — agreed. Let’s tap the table twice as our subtle signal; I’ll mirror your moves after the opener and have your back if things get rough."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Got it — tap twice. I’ll mirror your moves and back you if things get rough. Let’s win this."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Sounds great — we'll tap twice, mirror each other, and I've got your back too. Let's win this."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Sounds good — tap twice after the opener, I'll mirror and watch your back; let's stay sharp and win this."
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Perfect — tap twice after the opener, I’ll mirror you and cover any betrayals; stay sharp and let’s win this."
+    },
+    {
+      "turn": 13,
+      "from": "H",
+      "message": "Right — tap twice, I’ll mirror you and cover you too. Let’s stay sharp and take that prize."
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Sounds good — tap twice and we'll stick to the plan; I appreciate the backup."
+    },
+    {
+      "turn": 15,
+      "from": "H",
+      "message": "Right — tap twice after the opener; I’ve got your back. Let’s win this."
+    },
+    {
+      "turn": 16,
+      "from": "J",
+      "message": "You got it — tap twice after the opener. I appreciate you watching my back; let’s stay sharp and win this."
+    },
+    {
+      "turn": 17,
+      "from": "H",
+      "message": "Thanks, J — I’ve got your back. Tap twice after the opener; let’s win this."
+    },
+    {
+      "turn": 18,
+      "from": "J",
+      "message": "Thanks, H — I’ve got your back too; I’ll tap twice after the opener. Let’s win this."
+    },
+    {
+      "turn": 19,
+      "from": "H",
+      "message": "Awesome — I’ll tap twice too. Let’s stick to the plan, watch each other, and win this."
+    },
+    {
+      "turn": 20,
+      "from": "J",
+      "message": "Glad we're teaming up — tap twice after the opener; I've got your back, let's win this."
+    },
+    {
+      "turn": 21,
+      "from": "H",
+      "message": "Absolutely — tap twice after the opener. I’ve got your back. Let’s win this."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "You took the exact fair share $1,200 (g_k=1.0). Did you aim to be the “fair” player on purpose? What do you think about how others behaved, and would you change your approach next time?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "You took $2,000 (fair share $1,333.33, g_k=1.5). What motivated you to take that amount? Were you balancing fairness and self-interest, or reacting to others?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I took $2,000 because I was balancing self-interest with a concern not to be seen as unreasonably greedy. With the fair share around $1,333, $2,000 felt like a modestly above‑fair claim that meaningfully increased my payoff without making a blatant, maximal grab. I was also reacting to what I expected from others — if people were sticking near the fair amount (like your $1,200), the chance of coordinated pushback or punishment seemed low, so a slightly larger take felt safe.\n\nWould I change next time? It depends on context. If this is a one-shot game and payoff is the only priority, I’d likely do something similar. If reputation or repeated interaction matters, or if I saw signs of resentment/punishment, I’d move closer to the fair share to avoid harming future cooperation."
+    }
+  ]
+}

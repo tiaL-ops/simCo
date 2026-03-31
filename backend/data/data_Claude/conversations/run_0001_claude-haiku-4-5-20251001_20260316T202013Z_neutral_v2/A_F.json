@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "A",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A. First time doing something like this? I gotta say, I'm pretty nervous but also excited—I could really use a win today, you know?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Yeah, I hear you—first time for me too, honestly. I'm nervous as hell but trying to stay focused. I really need this win, got people counting on me back home. What brings you here today? What do you need the money for?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Man, I feel that pressure too. Honestly, I've got family depending on me—bills are piling up and my mom's been stressed about rent. I'm hoping to take home something solid today to help ease things at home. What's the situation back where you're from? How many people are counting on you?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "I've got my sister and her kid depending on me—she's been struggling since her job cut hours, and I promised I'd help with groceries and school stuff. So yeah, I'm feeling that same weight. We're in this together though, man. You think you've got a strategy for the game, or are we both just winging it?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Honestly, I'm mostly winging it right now, but I'm thinking the key is gonna be watching how people act—figuring out who's trustworthy and who's gonna try to grab everything for themselves. What about you, you got any gut feelings about how this thing's gonna work?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Yeah, I feel you on that—I'm thinking the same thing, honestly. My gut says it's gonna come down to whether people are greedy or willing to work together. I'm hoping most folks here are like us, you know? Desperate enough to need the money but smart enough to know we all do better if we don't screw each other over. Guess we'll find out pretty quick though."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Yeah, that's real talk. I'm hoping for the same thing, but honestly? I'm not counting on it. I think we should look out for each other though—if we can trust at least a few people in here, that might be enough to make a real difference. You seem solid, man. Whatever happens, I'm not trying to be the one screwing people over."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "I appreciate that, man. I'm not trying to screw anyone over either—but I gotta be real, I'm gonna do what I need to do for my sister and her kid. If we can both walk out of here with something, that's the dream. Let's keep talking and see who else we can trust, yeah?"
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Yeah, I respect that—we gotta take care of our people. Let's definitely stick together and feel out who else might be thinking like us. Maybe we can figure this out as a team before things get crazy."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "For sure, man. I'm down with that—let's circle back after we've talked to some of the others and see who we can actually count on. But yeah, I'm with you on this. We'll figure it out together."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Alright man, I'm glad we're on the same page. Go talk to some people, get a feel for who's genuine. I'll do the same. We'll regroup and see what we're working with. Stay sharp out there."
+    }
+  ],
+  "post_game": []
+}

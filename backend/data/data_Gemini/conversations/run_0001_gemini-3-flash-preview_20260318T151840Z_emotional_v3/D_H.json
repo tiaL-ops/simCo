@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "D",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H. It's a bit intense in here with everyone waiting for the game to start, isn't it? How are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Nice to meet you, H. I'm D. Honestly, I'm a bit on edge—I really need this win after a bad break yesterday. How about you, you feeling ready?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I'm as ready as I'll ever be. I've got a big loan payment coming up next month that's been weighing on me, so I'm pretty determined to walk away with that prize. Sorry to hear about your bad break, though."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "I hear you, those loan payments are no joke. It sounds like we're both in a position where we really can't afford to walk away empty-handed. Have you heard anything about how the game actually works yet?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Not much, just that we're drawing from a shared prize pool. I'm hoping it's more about strategy than just luck, but honestly, I'm going in pretty blind."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "I’m with you on that. I’d much rather use my head than just hope for the best. A shared pool could get ugly fast if people get greedy, though."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Exactly. It’s hard to trust strangers when there’s life-changing money on the line, but if we all get greedy, nobody wins. I'm just hoping we can find a way to be smart about it."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "I'm with you. Maybe we should look out for each other? Having an ally in a room full of strangers might be the smartest move we can make."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "I think that's a solid plan, D. Let's watch each other's backs and try to navigate this together."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Glad we’re on the same page. Let’s keep our eyes open and see how the others play it. I’m going to see if I can get a read on anyone else before we start."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Sounds like a plan. I'll do some scouting of my own. Let's make sure we both walk out of here with what we need. See you in there."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "I'm sorry you only got $625. I took $15,000 earlier to secure my share, but it was B's decision to take $25,000 right before you that really left the pot empty."
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "You took $15,000, which was $5,000 over the fair share. That extra money you took came directly out of the shares of those of us at the end of the line who only got $625."
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I understand your frustration, but I took that extra $5,000 because I was worried the people behind me wouldn't leave anything at all. B taking $25,000 confirmed my fears. If I had taken only $10,000, that money likely would have just gone to B's total rather than reaching you. It was a defensive move in a game where the pot was clearly being drained."
+    }
+  ]
+}

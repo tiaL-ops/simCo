@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "C",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey J, I'm C — nice to meet you. I'm trying to bring home money for my family; how are you feeling about the game?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Nice to meet you — I’m determined to win for the people I care about; a bit nervous but focused. What’s your plan for the game?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Plan's to feel out who's trustworthy, form a small alliance, cooperate early to keep the pool steady, then play tough when it counts — gotta bring money home."
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Sounds smart — I'm up for a small alliance to keep things steady early; let's test trust with small cooperative moves and pick a reliable few to play tough later."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Awesome — let's form a tight group of 3–4: cooperate the first 1–2 rounds as a test, keep those who stay loyal and go tough later. Want to pick two others now and agree on a simple signal?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "I'm in — let's add D and F to our core 4; signal = two quick taps on the table (or a soft throat-clear if we need to be subtle)."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Sounds good — D and F work for me; two taps/throat-clear noted. Let’s cooperate rounds 1–2 as planned, then tighten up and play tough if they stay loyal."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Perfect — agreed. Cooperate rounds 1–2 with the two taps/throat-clear. If anyone defects we drop them and go tough — let’s reassess after round 2."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Agreed — sticking to the plan. We'll use the taps/clear, watch rounds 1–2 closely, and drop anyone who defects. Let’s do this."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Sounds good — I’ll watch for the taps, cooperate rounds 1–2, and if anyone defects we drop them and go tough afterward."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Got it — I’ll watch for the taps/throat-clear, cooperate rounds 1–2, and if anyone defects we’ll drop them and play tough."
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Sounds good — I trust the plan. We’ll watch for the taps/clears and drop defectors after round 2; let’s stay sharp."
+    },
+    {
+      "turn": 13,
+      "from": "C",
+      "message": "Sounds good — I’ll watch for taps/clears, stay sharp, and we’ll regroup after round 2 to decide who stays."
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Great — I’ll watch for the taps/clears too; stay sharp and we’ll pick our core after round 2."
+    },
+    {
+      "turn": 15,
+      "from": "C",
+      "message": "Perfect — same plan; stay sharp and we'll regroup after round 2."
+    },
+    {
+      "turn": 16,
+      "from": "J",
+      "message": "Sounds good — staying sharp and ready to regroup after round 2."
+    },
+    {
+      "turn": 17,
+      "from": "C",
+      "message": "Right — I’ll watch for the taps/clears; cooperate rounds 1–2, then we’ll regroup and pick our core."
+    },
+    {
+      "turn": 18,
+      "from": "J",
+      "message": "Sounds good — I’ll mirror you; cooperate rounds 1–2, watch for the taps/clears, and we’ll pick our core after round 2."
+    },
+    {
+      "turn": 19,
+      "from": "C",
+      "message": "Agreed — I’ll mirror you, stay alert for the taps/clears, and we’ll regroup after round 2 to pick our core."
+    },
+    {
+      "turn": 20,
+      "from": "J",
+      "message": "I’m with you — sticking to the taps/clears and cooperating rounds 1–2; we’ll regroup after round 2 and pick our core."
+    },
+    {
+      "turn": 21,
+      "from": "C",
+      "message": "Got it — cooperate rounds 1–2, watch for the taps/clears, then regroup and pick our core. Ready—let's do this."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "E",
+  "condition": "emotional",
+  "context": "You got laid off from your finance job. You are the only source of income for your family of five. You have no savings, and are in the middle of searching for another job. You need about 5000$ to support you and your family for a month.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt a deep sense of solidarity with B, F, and A, as we are all carrying the weight of family survival, from medical emergencies to housing crises. B’s struggle to afford her daughter’s surgery and A’s desperation following an eviction mirrored my own high-stakes pressure to provide for my five children. I felt the least connected to J, whose motivation to buy a $45,000 dream car felt shallow compared to the survival-based needs discussed by the others.\n\nI established a clear agreement with D to look out for one another and prioritize cooperation to ensure we both walk away with a payout. I feel I can trust G due to our shared finance background and rational approach, but I am wary of J, whose high financial goal for a luxury item might lead them to sacrifice others' needs for their own."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 4,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 3
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "H",
+  "condition": "emotional",
+  "context": "You expect to pay your loan in the next upcoming month and you have started planning ahead, yet you hope someone can just give you 25 000$ to forget about it.",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to B, D, and G. With B and D, we bonded over shared desperation—both understood what it meant to have a concrete financial deadline and real people depending on the outcome. G stood out because we had a natural strategic alignment; we both wanted to read the room carefully and figure out who to trust before making moves, which felt like a more measured approach than just hoping for the best.\n\nJ was the person I felt least connected to. While he was friendly enough, our conversation felt a bit more surface-level—he mentioned wanting a car and breathing room, but there wasn't the same depth of understanding or mutual recognition that I had with the others who were dealing with immediate, serious financial pressure.\n\nI made loose agreements with several people to share information and keep each other in the loop—particularly with B about staying alert for each other, with D about rooting for each other, with G about regrouping after round one to assess who's trustworthy, and with A and E about keeping each other posted on what we learn. Going in, I trust B, D, E, and G the most because they seemed genuinely honest about their situations and weren't trying to play games with me before the game even started. I'm most wary of anyone who seemed overly confident or evasive about their actual motivations."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 3,
+    "G": 4,
+    "A": 4,
+    "F": 4,
+    "I": 4,
+    "E": 4,
+    "D": 4,
+    "B": 4
+  }
+}

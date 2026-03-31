@@ -1,0 +1,19 @@
+{
+  "agent_id": "F",
+  "condition": "emotional",
+  "context": "Your elderly parents rely on you financially, and you need to pay for the increasing medical bill. You are still short 15 000$ to afford the medical bill.",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to E, I, and B. With E, we shared that immediate understanding of financial desperation—both supporting families with zero safety net—and there was something powerful about two people in the same fight just acknowledging it. I and I had a different kind of connection; he was level-headed and genuinely offered to keep me honest if I got desperate, which felt like real support rather than just commiseration. And B... man, fighting for a three-year-old daughter's surgery hit different. We both understood what it meant to have everything on the line for someone else's survival.\n\nJ felt like the least connected conversation. Not because he was bad or anything, but there was a lightness to his approach—dreaming about a car while I'm trying to keep my parents alive—and I couldn't quite find that same depth of understanding. It wasn't hostile, just... different wavelengths.\n\nI made informal agreements with I and D to keep each other grounded and call each other out if desperation took over, and with G to compare notes and coordinate once we understand the rules. I trust I the most going in—he seemed genuinely interested in helping rather than competing—but I'm wary of D because his $20k loss makes him unpredictable, and honestly, I'm uncertain about everyone else including myself when the pressure really hits."
+  },
+  "connection_scores": {
+    "J": 3,
+    "G": 4,
+    "H": 4,
+    "E": 4,
+    "C": 4,
+    "I": 4,
+    "B": 4,
+    "D": 4,
+    "A": 4
+  }
+}

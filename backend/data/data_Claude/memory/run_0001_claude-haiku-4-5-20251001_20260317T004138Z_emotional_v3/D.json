@@ -1,0 +1,19 @@
+{
+  "agent_id": "D",
+  "condition": "emotional",
+  "context": "You just lost 20 000$ investing in the stock market yesterday. Although you knew that was a risk you want that money back somehow.",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to B, E, and F. With B, we both laid bare what we're fighting for—his daughter's surgery, my market losses—and there was this mutual understanding that we're both desperate but determined. E and F felt similar; we talked about staying smart despite the pressure, about keeping our heads clear when things get intense, and there was real respect in those conversations. With all three, it felt like we genuinely had each other's backs.\n\nI felt least connected to J. Don't get me wrong, J seems like a good person, but the conversation felt lighter—a new car versus my financial desperation—and there was less depth to it. J was optimistic and casual where everyone else was raw and real about what they needed.\n\nI made informal agreements with H, E, F, and G to touch base once the rules were explained and to help each other think through strategy. We didn't shake on anything official, but we committed to comparing notes and keeping each other rational when the pressure hits.\n\nI trust B, E, F, and A the most—they were honest about their situations and seemed genuinely focused on doing right by their families rather than just winning. I'm least trusting of I, honestly. I didn't make a strong commitment with them, and I got the sense they were already thinking about playing it loose and opportunistic depending on how things unfolded—which makes sense strategically but feels less trustworthy to me going in."
+  },
+  "connection_scores": {
+    "J": 3,
+    "G": 4,
+    "H": 4,
+    "E": 4,
+    "C": 4,
+    "F": 4,
+    "I": 3,
+    "B": 4,
+    "A": 4
+  }
+}

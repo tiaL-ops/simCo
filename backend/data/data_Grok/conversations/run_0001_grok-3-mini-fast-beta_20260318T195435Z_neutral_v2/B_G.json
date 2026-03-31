@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "B",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey B, I'm G and I'm pretty pumped about this Simco game—heard we could win some cash! What's your take on it so far?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey G, nice to meet you—I'm totally stoked about this Simco game too, it could be a game-changer for me and my folks! What's got you so pumped?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Hey B, that's great to hear—I'm really pumped because I've got family and friends counting on me, and this could be a real lifeline for us financially! What about you, any plans if we win big?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Hey G, family means everything to me too— if we win big, I'd use the money to pay off debts and help my folks with their needs, maybe even buy a small house; how about you, any big dreams lined up?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Hey B, that's awesome you're planning for a house—family's everything to me too; I'd use the winnings to clear debts, help my family with education and bills, and maybe treat us to a fun trip; what's your ideal house like?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Hey G, that's cool about your trip plans—my ideal house would be a simple two-bedroom with a backyard for family BBQs and some space for a garden; what kind of trip are you picturing for your crew?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Hey B, that house sounds perfect for family time—I'm picturing a beach vacation for my crew, maybe Hawaii, with sun, sand, and lots of laughs; what's your favorite family activity for those BBQs?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Hey G, for those BBQs, we love playing card games and grilling up some favorites while catching up on stories; what's your top activity on a beach vacation like that?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Hey B, on a beach vacation, my top activity is building sandcastles with the family and splashing around in the waves—nothing beats those carefree laughs and memories!"
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Hey G, building sandcastles and splashing around sounds like pure joy—my family loves those kinds of simple fun moments too; it's all about making memories, right?"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Hey B, absolutely, making memories is what life's all about—it's been great chatting, let's catch up after the game!"
+    },
+    {
+      "turn": 12,
+      "from": "B",
+      "message": "Hey G, totally agree—making memories is everything, and it's been great chatting with you too; let's catch up after the game!"
+    }
+  ],
+  "post_game": []
+}

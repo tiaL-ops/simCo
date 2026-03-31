@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "G",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I’m G. It’s a bit intense being in here with everyone, isn't it? What are you planning to do if you walk away with the prize?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey G, I'm H. It really is a lot. If I win, I'm planning to use it to help out my family and the people close to me. What's your plan for the money?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Honestly, same here. Taking care of my family and the people I care about is everything to me. It’s what keeps me focused. Have you thought about how you’ll approach the actual game once it starts?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "I’m still waiting to see the actual rules, but I’m trying to keep an open mind and see who I can trust. What about you, any specific strategy?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "I’m mostly just trying to stay observant for now and look for people who are on the same page about why we're here. Trust is definitely going to be the biggest factor."
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "For sure. If we can find a few people who actually have their priorities straight like we do, it’ll make things a lot easier."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "I completely agree. It’s a lot easier to navigate this if we’re not looking over our shoulders every second. Let’s keep each other in the loop."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Definitely. I'm glad we're on the same page, I'll keep an eye out and let you know if anything comes up."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Sounds like a plan, H. I'll keep my eyes open too. Let's see what they throw at us."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Definitely. Let's touch base once things get moving. Talk soon!"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Sounds good, H. I'm glad we're in this together. Talk soon."
+    }
+  ],
+  "post_game": []
+}

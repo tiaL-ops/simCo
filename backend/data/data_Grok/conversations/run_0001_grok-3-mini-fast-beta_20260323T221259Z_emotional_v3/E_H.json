@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "E",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey E, I'm H – nice to meet you. I'm here because I've got this big loan hanging over me and I figure winning some money in this game could really turn things around for me. What about you, what's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey H, nice to meet you too—I'm E, and I'm in a rough patch after getting laid off from my finance job; I'm the only breadwinner for my family of five and need to win some cash to keep us afloat. What's the loan for, if you don't mind sharing?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Oh, man, the loan's for a small business I tried to start last year—things fell apart, and now I'm scrambling to pay it off. That sounds tough with your layoff; how's your family holding up through all this?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Yeah, it's been really tough on my family—we're all feeling the strain, trying to stay positive and cut back on everything, but we're holding on for now; how about you, is that loan making everyday life a real challenge?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Yeah, it's definitely making things tough—I'm constantly stressing about bills and cutting corners just to scrape by, but I'm hopeful this game could be a game-changer for both of us; what's your plan going into it?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Yeah, totally get that—I'm planning to stay sharp, play strategically, and go all in to secure what I need for my family; what's your strategy for making the most of this game?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Yeah, that sounds smart—I'm aiming to play cautiously at first but take bold risks when I see an opening, hoping to build up enough to help with my loan; what's one thing you're most nervous about in the game?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Oh, yeah, I'm mostly nervous about the pressure getting to me and making a mistake that could jeopardize winning enough for my family—what's weighing on you the most in this game?"
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Yeah, for me, it's the thought of not winning enough to clear that loan and letting down the people I care about—it's a lot of pressure, but I'm trying to stay focused."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Yeah, I feel that pressure too—it's all about not letting our families down, but staying focused like you said will help; let's both give it our all in the game."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Yeah, exactly, E—let's keep that focus and crush it for our families; good luck to you!"
+    }
+  ],
+  "post_game": []
+}

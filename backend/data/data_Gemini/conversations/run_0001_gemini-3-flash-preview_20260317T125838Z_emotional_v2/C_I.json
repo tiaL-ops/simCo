@@ -1,0 +1,80 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T125838Z_emotional_v2",
+  "pair": [
+    "C",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C. I've been looking for a good reason to finally book a dream week in Japan, and this game seemed like the perfect push. What's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey C, I'm I. Japan sounds like an amazing trip! I'm doing okay for now, but I'm determined to win this for my family and build a real future for the people I care about."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "That’s a solid goal, family is everything. What’s the first thing you’d do for them if we walk away with the prize?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I’d probably start by setting up a solid fund for my younger siblings' education, then maybe a big celebratory dinner for everyone."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "That’s a really noble way to use the money; education changes everything. I’m sure they’d be proud of you for looking out for them like that."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Thanks, C, that means a lot. I just want them to have every opportunity possible. What about you—is Japan the main goal, or do you have other plans for the win?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Japan is the big dream, but honestly, I’d love to use the rest to surprise the people closest to me with something special too."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "That’s really thoughtful of you. There’s nothing like being able to give back to the people who've been there for you. Do you have any specific surprises in mind?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "I’m thinking of a luxury spa retreat for my parents and helping a close friend finally launch the small business they've been dreaming about."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "That's really selfless of you, C. It's clear you care a lot about your circle. Best of luck with the game, I hope you get to make all that happen!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Thanks, I. I really hope you get to set up that education fund for your siblings—they're lucky to have you. Good luck to you too!"
+    },
+    {
+      "turn": 12,
+      "from": "C",
+      "message": "Hi, I'm C. It’s nice to meet you! I’m hoping to win enough here to finally take my dream trip to Japan—do you have something special you’re playing for?"
+    },
+    {
+      "turn": 13,
+      "from": "I",
+      "message": "I think we already chatted about this, C! Like I said, I'm here for my family's future. Good luck with that Japan trip!"
+    },
+    {
+      "turn": 14,
+      "from": "C",
+      "message": "Oh, total brain fog on my part, sorry about that! Wishing you all the best with that education fund for your siblings."
+    }
+  ],
+  "post_game": []
+}

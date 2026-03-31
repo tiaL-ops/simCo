@@ -1,0 +1,96 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "D",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J—excited to be here for this game since I'm hoping to win enough for a new car I've had my eye on. What's your name and why'd you join in?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey J, I'm D—I joined this game because I took a big hit in the stock market recently and I'm determined to win some cash back to get back on track. What's your story with that new car?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Oh, man, that stock market hit sounds rough—hope you bounce back soon. My dream car's a beauty that costs about 45k; I've been eyeing it for ages, thinking it'd be my first big splurge if I win big here. What's your game plan for the money if things go your way?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Thanks, J, appreciate that—it's been a rough patch. If I win, I'm planning to pay off debts and help my family get back on solid ground; what makes that car so special to you?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Oh, absolutely, D—that's really admirable, focusing on your family first. For me, that car's special because it's this sleek ride I've dreamed about forever; it just screams freedom and a fresh chapter in my life, you know? Tell me more about how the stock market hit affected your family."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Oh, thanks, J—it's been tough; that 20k loss meant we had to postpone family vacations and cut back on bills, really stressing everyone out, but we're pushing through. What's your current ride like, and how close are you to affording that dream car?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Oh, man, that does sound stressful—I'm sorry to hear about the cutbacks, but it's great you're all hanging in there. My current ride is just this beat-up old sedan that's reliable but nothing fancy, and honestly, I'm not close at all to that 45k dream car, which is why I'm counting on winning here. How's your family holding up through all this?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Thanks, J, it's been challenging, but my family's staying strong and supporting each other—we're focusing on the positives to get through it; what got you interested in this game in the first place?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Oh, for sure, D—I heard about this game as a chance to win some cash, and since I've been saving up for that dream car, I jumped at the opportunity to make it happen; how did you find out about it yourself?"
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Oh, yeah, I heard about this game through a friend who mentioned it as a way to potentially win back some losses, and it sounded like a shot worth taking—glad I did!"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "That's awesome that a friend tipped you off—sounds like we're both here for the right reasons, D; best of luck to you and your family, hope we both walk away winners!"
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Hey D, I'm J – nice to meet you. I'm here because I've got my sights set on winning some money in this game to finally buy that dream car I've been eyeing, and maybe help out my family too. What's your story for joining?"
+    },
+    {
+      "turn": 13,
+      "from": "D",
+      "message": "Hey J, we already chatted about this, but I'm D, and I'm here to win back some money after a rough stock market loss to help my family—best of luck to you with that dream car!"
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Hey D, totally—it's been great chatting, and I appreciate the well-wishes for my dream car; best of luck to you and your family, hope we both come out on top!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hi J, I see that you took $45,000, which is significantly more than your fair share of $10,000. Could you explain why you chose to take that amount?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "I understand your concern, D. In the game, I saw an opportunity to maximize my earnings based on the options available, and I decided to take $45,000 because it seemed like the best strategy for me at the time. Everyone was playing for themselves, right? Maybe we can discuss this further if you're open to it."
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "I appreciate your explanation, J. It makes sense that you were focused on maximizing your own earnings in the game, especially since it seems everyone was out for themselves. I guess that's just how these things go sometimes. If there's nothing else to add, I'm good with leaving it at that."
+    }
+  ]
+}

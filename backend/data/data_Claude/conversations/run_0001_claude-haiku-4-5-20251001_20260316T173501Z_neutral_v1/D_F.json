@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "D",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D. First time doing something like this? I gotta say, I'm pretty nervous but also excited—I'm really hoping to take something home from this."
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Yeah, first time for me too! I'm definitely nervous, but honestly, I'm more excited than anything. I really need to win something here—got people counting on me. What about you, what's your situation?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Same here, man. I've got people depending on me too—family back home. That's what's driving me. So we're both in it to win it then. You got any sense of what the game's actually gonna be like, or are we going in blind?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Honestly, I'm going in pretty blind—they haven't told us much. But I figure if we're both here for family, maybe we should try to figure this out together? Do you know anything about how the prize pool works or what kind of choices we'll have to make?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Nah, I'm pretty much in the dark too, but I like the way you're thinking. If we're both trying to do right by our families, staying on the same page could help. Let's keep our eyes open once things get going and see what options we actually have."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Yeah, I appreciate that. Sounds good—let's stick together and see how it plays out. Hopefully we can both walk away with something for our families."
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Absolutely, man. I'm glad we're on the same wavelength. Let's look out for each other in there and make smart moves together."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "For sure, man. We got this—let's both bring something home to our families."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Hell yeah, we will. Let's stay sharp out there and remember what we talked about—we look out for each other."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Absolutely, man. We've got each other's backs. Let's go in there and make it count."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "You got it, brother. Let's do this—for our families. I'll see you in there."
+    }
+  ],
+  "post_game": []
+}

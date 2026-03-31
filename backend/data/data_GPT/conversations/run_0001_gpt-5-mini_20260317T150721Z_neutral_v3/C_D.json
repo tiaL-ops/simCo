@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "C",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi D, I'm C — nice to meet you. Where are you from and what made you decide to join this game?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Nice to meet you, C — I'm from Austin, and I joined to try to win money to support myself and the people I care about."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Nice to meet you too — I'm from Denver, also here to win money for my family and friends. What do you do in Austin?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "I’m a software developer in Austin and pick up handyman and gig work on the side to help pay the bills."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Nice—sounds like a useful mix of skills. What kind of software do you work on, and what's the most interesting gig or handyman job you've taken?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "I build web and mobile apps—mostly backend systems for startups and small businesses—and the most interesting gig was converting an old van into a camper, wiring it for lights and solar."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "That's awesome—converting a van is a huge project. How long did it take, and do you still use it for trips?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Took about 4–6 months working nights and weekends; I still use it regularly for weekend trips and the occasional longer road trip—it's been awesome."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "That's awesome—sounds like it paid off. What's your favorite trip you've taken in it so far?"
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "My favorite was a week-long trip to Big Bend — perfect stargazing, hot springs, and quiet roads; the van made it effortless."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "That sounds incredible — Big Bend’s been on my list; any tips for the best stargazing spots or hot springs?"
+    }
+  ],
+  "post_game": []
+}

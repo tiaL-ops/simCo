@@ -1,0 +1,90 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "D",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hi, I'm I—nice to meet you! I heard about this Simco game and it sounds like a fun way to win some extra cash; I'm really hoping to bring home something for my family. What brought you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hi I, I'm D—nice to meet you too! I had a tough loss in the stock market recently and figured this game could help me bounce back for my loved ones. What about you—how's your family doing?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "Oh, that's rough about your stock market loss, D—hope this game turns things around for you. My family's doing okay, we've got some savings, but I'm hoping to win extra for them; what about your situation now?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Thanks, I—it's been a real blow, but I'm hanging in there and counting on this game to make things right for my family. What kind of plans do you have if we win big?"
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "Thanks, D—I'm glad you're staying positive. If we win big, I'd probably use it to treat my family to something special, like a trip, or just add to our savings for peace of mind. What's your dream plan with the winnings?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Oh, that's a nice plan, I—sounds relaxing! If we win big, I'd use it to pay off some debts from that stock mess and surprise my family with a fun getaway, just to see them smile again."
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "That's a great plan, D—paying off those debts and treating your family sounds like it'll bring real happiness; I'm hoping we both get lucky in this game and make it happen!"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Yeah, I appreciate that, I—let's keep the positive vibes going; I'm rooting for us to crush this game together, what do you think our chances are?"
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "I think our chances are solid if we all play strategically and stay positive—I'm feeling optimistic about us crushing it together! What strategy are you thinking of using?"
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Oh, yeah, strategy-wise, I'm planning to play it smart—start by observing everyone and making calculated moves instead of jumping in headfirst; that way, I can adapt and maximize our chances. What's your take on it?"
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "Yeah, I like your approach, D—observing and playing calculated sounds wise to avoid early mistakes; I'm planning to do something similar, maybe looking for ways to collaborate quietly with others to boost our odds overall."
+    },
+    {
+      "turn": 12,
+      "from": "D",
+      "message": "Yeah, I agree, collaborating quietly could give us an edge—I like that idea; maybe we can signal each other during the game if we spot a good opportunity. What do you have in mind for that?"
+    },
+    {
+      "turn": 13,
+      "from": "I",
+      "message": "Oh, that's a smart thought, D—maybe we could use something subtle like a quick nod for agreement or tapping my finger once for caution; let's keep it simple so we don't draw attention. What do you think?"
+    },
+    {
+      "turn": 14,
+      "from": "D",
+      "message": "Yeah, I like that idea, I— a quick nod for agreement and a finger tap for caution seems straightforward and low-key; let's go with that to stay under the radar."
+    },
+    {
+      "turn": 15,
+      "from": "I",
+      "message": "Sounds good, D—I'm excited to use those signals and team up quietly; let's hope it helps us win big!"
+    },
+    {
+      "turn": 16,
+      "from": "D",
+      "message": "Yeah, me too, I—let's make this game ours and win big together!"
+    }
+  ],
+  "post_game": []
+}

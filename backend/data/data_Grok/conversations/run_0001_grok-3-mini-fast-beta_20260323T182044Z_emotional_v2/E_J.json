@@ -1,0 +1,96 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "E",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J—nice to meet you! I'm really excited about this game since I'm hoping to win enough to finally buy my dream car, a sleek one that's been on my mind for ages. What's your story, and what brings you here?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey J, I'm E—nice to meet you! I'm excited about this game too; I got laid off from my finance job and I'm the sole breadwinner for my family of five, so I'm hoping to win enough to cover our expenses for the month. What's your dream car look like?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Hey E, that's tough about your job—I'm really sorry, and I hope we both catch a break here. My dream car is a sleek Tesla Model 3, costs around 45k, with that modern look and electric speed I've been eyeing for ages. How's your family holding up through all this?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Thanks, J—that means a lot; my family's hanging in there, just taking it one day at a time with the kids and all, but this game could be a real game-changer for us. What's your story behind wanting that Tesla so badly?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Oh, totally get it—it's been a rough spot for you all, but I'm rooting for us in this game. As for the Tesla, I've always dreamed of something sustainable and high-tech; I'm big on reducing my carbon footprint, and after years of saving and dreaming, it just feels like the ultimate reward for myself if we pull this off. What's one thing you'd splurge on if we win big?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "That's great to hear about your eco-passion, J—it sounds like a worthy goal after all that saving. If we win big, I'd splurge on covering our family's essentials like rent and groceries to ease the stress, maybe even a fun day out for the kids; what else are you looking forward to if this works out?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Hey E, that sounds like a solid plan—taking care of your family and a fun day for the kids is awesome; besides the Tesla, I'm looking forward to treating my parents to a nice vacation they've always wanted, and maybe even starting a small side project for the environment. How are you feeling about the game kicking off soon?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Hey J, that's awesome you're planning to treat your parents and do something for the environment—it really shows your heart. I'm feeling a bit excited but mostly nervous about the game starting, since so much is riding on it for my family; how about you, ready to dive in?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Hey E, I totally get the nerves—I'm feeling a mix of pumped and a little jittery myself, especially with my dreams on the line, but yeah, I'm ready to jump in and make this happen for both of us!"
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Yeah, J, I'm with you—let's channel that energy and crush this for our families; feeling more ready now that we've chatted!"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Yeah, E, let's go crush it—I'm pumped to have you in my corner, and thanks for the chat, it's made me even more ready!"
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Hey E, I'm J—nice to meet you. I'm pretty excited about this game since I've got my eyes on a new car if I win big; what brought you here today?"
+    },
+    {
+      "turn": 13,
+      "from": "E",
+      "message": "Hey J, we just chatted about this—I'm still here hoping to win for my family, as I shared before; let's both crush it!"
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Hey E, totally right—glad we connected and pumped to team up for this; good luck to you and your family, let's make it happen!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "J, you took $45,000, which is way more than your fair share of $10,000. That seems unfair to the rest of us—can you explain why you chose that amount? As for me, I took $1,000, slightly above my fair share of $750, just to make sure I got a decent share before it was gone."
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey E, I get why it might seem unfair from your perspective. I took $45,000 because I saw an opportunity to maximize my earnings in the game—it's a competitive setup, after all, and I wanted to make sure I came out ahead. Everyone plays differently, and I respect that you stuck closer to your fair share. Let's not dwell on it; maybe we can chat about strategies for next time if there's another round."
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Hey J, I appreciate you explaining your side—it's true that everyone has their own approach in a competitive game. I guess I'll think about being a bit more strategic next time. If there's another round, I'm open to chatting about strategies. Otherwise, let's call it good here."
+    }
+  ]
+}

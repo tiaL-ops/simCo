@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "E",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I’m G. Just trying to settle the nerves a bit before things kick off—how are you feeling about all this?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey G, I'm E. I'm definitely feeling the pressure, but I'm mostly just ready to get started. It’s a big opportunity for all of us."
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I hear that. It’s a huge deal for all of us. I’m mostly thinking about my family back home—do you have people you’re playing for too?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Absolutely. I've got family and some people close to me that I really want to take care of; it’s what’s keeping me focused."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "That’s exactly how I feel. It’s a lot easier to stay driven when you’ve got people counting on you."
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Exactly. It’s the best kind of motivation. Have you thought much about how you're going to approach the game itself?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "I’m trying to keep an open mind until we see the rules, but I’d definitely prefer to play it straight and build some trust with everyone."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "I agree, building trust early could be key to making sure we all come out ahead."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "For sure. If we can rely on each other, it takes a lot of the pressure off."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "I'm glad we're on the same page. It's definitely better to have allies than enemies in a game like this. I'll see you in there."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Couldn't agree more, E. Let's look out for each other out there and make our families proud. See you soon."
+    }
+  ],
+  "post_game": []
+}

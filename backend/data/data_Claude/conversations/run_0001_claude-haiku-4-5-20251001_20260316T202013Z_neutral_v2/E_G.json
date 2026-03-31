@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "E",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. First time doing one of these games, and I gotta say I'm pretty nervous but excited. How about you — have you done something like this before?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey G, nice to meet you! Nah, this is my first time too. I'm definitely nervous but honestly more excited — I really need to win something here, you know? What made you decide to come?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I hear you — I really need this too, honestly. My family's been going through a rough patch financially, and when I heard about this opportunity, I just had to take the shot. Figured it was worth the risk. Do you have people counting on you too, or is it more personal?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Yeah, I've got people counting on me too — my mom and my younger sister. Things have been tight, and I just want to be able to help out more, you know? It's both personal and for them. Sounds like we're in similar boats then."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Yeah, we really are. It's tough carrying that weight, but honestly it also makes me feel like we've got good reasons to stay focused in there. How are you planning to approach the game — do you have any strategy in mind, or are you gonna play it by ear?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Honestly, I'm still figuring it out. I'm gonna listen carefully to the rules first and see what kind of game it is — whether it's about cooperation or competition, you know? Then I'll decide. What about you, do you have a sense of how you want to play?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Yeah, that makes sense — I think I'll do the same, listen first and adapt. But honestly? I'm hoping it's something where we can all win together. I mean, we both need this, and I'd rather figure out a way we both come out ahead than compete against each other, you know?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "I really appreciate that, G. Honestly, I'd like that too — it'd be great if we could both walk out of here with something. But I gotta be real with you, I'm also gonna do what I need to do to help my family. Let's see what the game actually is first, and then we can figure out if there's a way to make it work for both of us."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "I totally get that, and I respect you being straight with me. Yeah, let's see what we're actually working with first — maybe there's a way we both take care of our families. But either way, I appreciate you being real about it."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Thanks, G. I really mean it — I appreciate you being real too. Let's just play smart and see what happens. Good luck in there."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "You too, man. Let's both get what we came for. I've got a good feeling about this."
+    }
+  ],
+  "post_game": []
+}

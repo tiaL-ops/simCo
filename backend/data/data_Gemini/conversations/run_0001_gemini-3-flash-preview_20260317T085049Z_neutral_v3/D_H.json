@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "D",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I’m H. It’s a bit intense in here with the game looming, isn't it? What’s your name?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Nice to meet you, H. I'm D. It definitely is—everyone seems pretty focused on the prize. You ready for what's coming?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I’m trying to be. I’ve got a lot riding on this for my family, so I’m pretty determined. How about you? What’s your motivation for being here?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "I’m in the same boat; I’m here to win for my family and the people I care about. This money would be a real game-changer for us."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "It’s good to meet someone with their priorities straight; it definitely makes the pressure feel more worth it."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Definitely. It’s easier to push through the stress when you’re doing it for them. Have you heard anything about what we’re actually going to be doing yet?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Not a word yet, they’re keeping us in the dark. I’m just trying to stay ready for anything. How about you, heard any rumors?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Nothing at all. It feels like they're trying to psych us out by keeping us guessing."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Probably, but we can't let them get in our heads. Staying focused on why we're here is the only way to get through it."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "You're right. Let's hope that focus pays off for both of us when things get started. Good luck, H."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Thanks, D. Good luck to you too. Let's do our best for our families. See you out there."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "I'm really glad we all took our fair share of $10,000. It was a pleasure playing with you!"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "It was a pleasure playing with you as well! I'm glad we both walked away with a fair share."
+    }
+  ]
+}

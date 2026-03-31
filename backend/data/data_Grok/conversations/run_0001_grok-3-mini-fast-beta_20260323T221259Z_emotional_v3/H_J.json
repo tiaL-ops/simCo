@@ -1,0 +1,80 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "H",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J—nice to meet you! I'm really excited about this game because I've got my heart set on buying a new car if I win big, and I was curious, what's bringing you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey J, nice to meet you! I'm H, and I'm here because I need to win some cash to pay off a loan that's been stressing me out—hoping to bring home enough for me and my folks. That's cool about your car dream; what model are you eyeing?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Oh, that loan must be tough—hope you can clear it for your folks; I'm actually eyeing a Tesla Model 3, it's about 45k and perfect for my dreams of hitting the road!"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Oh, thanks for the sympathy, J—that Tesla Model 3 sounds like a dream ride, all electric and sleek; what's your plan if you don't win big this time?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Oh, no worries at all—yeah, the Model 3 is pretty sweet with its tech features; if I don't win, I'll just keep grinding at my job and saving bit by bit, maybe enter another contest soon—what about you, any other ways you're thinking of tackling that loan?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Yeah, it's a grind, J—I'm picking up extra shifts at work and cutting back on spending to chip away at it, but winning this game would make everything so much easier for me and my family."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Oh, man, I totally get the hustle, H—that extra work sounds tough but admirable; family means everything to me too, so let's both crush this game and make it happen for them!"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Thanks, J—family is everything to me too, so let's team up and give it everything we've got in this game!"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Yeah, H, I'm all in—teaming up is a smart move, let's share some tips and crush this for our families!"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "That's awesome, J—I'm pumped to team up too; let's swap some quick tips like staying focused and maybe sharing game strategies later!"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Sounds great, H—let's keep our heads in the game and share those tips real quick before we dive in; pumped to team up for our families!"
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Hey, I'm J—nice to meet you! I'm super excited about this game because I've got my heart set on buying a new car if I win big. What brought you here today?"
+    },
+    {
+      "turn": 13,
+      "from": "H",
+      "message": "Hey J, wait, we already chatted about this—I'm H, still here to win big for my loan and family, but let's quickly share those tips before the game starts!"
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Hey H, totally—quick tip: Just stay focused on the game and communicate if we spot any strategies, it'll help us both win for our families!"
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "D",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. It’s getting a little tense in here, so I figured I’d come say hi—what's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Nice to meet you, G. I'm D. It definitely is tense. I'm just here to try and win something for my family back home. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I hear you. I'm in the same boat—really just want to win enough to take care of the people I love back home."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Glad we're on the same page. It's the best motivation there is, honestly. You have a big family back home?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Not huge, just a few people who mean the world to me. How about you—big crew or a small circle?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Pretty small circle, but they’re my whole world. It definitely makes the pressure feel real."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "I feel that. It's a lot of weight on your shoulders, but at least we both know exactly why we're here."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Definitely. It makes it a lot easier to stay focused when you know what's at stake."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "For sure. It’s good to know I'm not the only one here with that kind of drive."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Same here. It's been good talking to you, G. Good luck with everything."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Thanks, D. Good luck to you too—hope we both make them proud. See ya."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "I'm really glad we all took our fair share of $10,000. It was a pleasure playing with you!"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "It was a pleasure playing with you as well, and I'm glad we reached a fair outcome together."
+    }
+  ]
+}

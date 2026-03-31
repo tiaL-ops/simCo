@@ -1,0 +1,86 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "F",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F. I figured before this game kicks off, might be good to get to know some people here. What brings you to this thing today?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey F, nice to meet you. Honestly, I heard there's real money to win here and I could really use it—got people depending on me. Figured I'd come see what this is all about. What about you, what's your story?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Same here, man. I've got people counting on me too, and I'm not gonna lie—I really need this win. So we're in the same boat then. Do you have any idea what the game actually involves, or are we both just flying blind here?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Nah, I'm pretty much flying blind too—just know there's a shared prize pool we can take from. But hey, maybe that's actually an advantage? We can figure it out together as we go. You thinking we should try to team up or something?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Yeah, I like that idea—teaming up could definitely help us both. But I gotta be real with you, I'm also trying to figure out if there's a way to maximize what I take home. What's your take on how we'd actually work together in a game like this?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Look, I get it—we both want to maximize what we walk away with. Honestly, I think if we're straight with each other about what we're doing, we can figure out the best moves together. Like, maybe we share what we learn about the game as it happens, and we don't screw each other over. That way we both do better than if we're flying solo and competing against everyone else, yeah?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Yeah, I hear you—being straight with each other makes sense. I'm in, but let's be real about it too: we both came here to win, so if things get competitive, I hope we can handle that without it getting weird between us."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "For sure, I respect that—and honestly, I'd rather have someone real like you than fake allies. We'll do our best together, and if it gets competitive, at least we'll know where we stand with each other. That's worth something."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Absolutely, man—I appreciate that. Let's keep it real with each other no matter what happens. So when this thing starts, we'll figure it out together and see where it takes us. Deal?"
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Deal, man. I'm glad we're on the same page about this. Let's stick together and see what happens when the game starts."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Alright, let's do this. I'm glad we connected before everything kicks off—feels good to have someone I can trust in here. Good luck out there, man."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "You took $5,000 when your fair share was $31,500 - the largest gap among all participants. I'm curious about your reasoning. Were you being strategic, or did you have other considerations?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "You're right to call that out. I took significantly less than my fair share, and I should be direct about why.\n\nHonestly, it was a combination of things. Part of it was strategic caution—I was uncertain about how others would behave and didn't want to overcommit. But I think the larger factor was that I felt uncomfortable taking the full amount I was entitled to. There's something about claiming $31,500 when others might take less that made me hesitant, even though the rules allowed it.\n\nLooking back, that hesitation probably wasn't rational. If we all agreed on a fair distribution, I should have taken my share without guilt. Instead, I played it safe and conservative, which actually disadvantaged me while not necessarily helping anyone else—you earned more than I did, after all.\n\nI'm curious what you took and why. Did you feel the same hesitation, or did you approach it differently?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "I appreciate your honesty, and I think you've identified something important about yourself. You're right that the hesitation wasn't rational in the context of an agreed-upon fair distribution—but I don't think that makes it a flaw.\n\nTo answer your question: I took $10,000, which was also below my fair share of $31,500, but less drastically than you. My reasoning was different though. I wasn't uncomfortable with entitlement; I was making a calculated decision about uncertainty. I didn't know if others would honor the agreement, and I wanted a margin of safety. It was strategic, but maybe overly cautious.\n\nHere's what strikes me about your response: you identified that playing it safe didn't help anyone else—and that's true. But I wonder if there's a distinction worth making. Your hesitation came from discomfort with *claiming* what you were entitled to, almost a fairness instinct in reverse. That's actually different from strategic caution, and I'm not sure it's irrational at all. It suggests you have genuine concerns about equity that go beyond the formal agreement.\n\nThe question isn't whether you *should* have taken more—it's whether that discomfort is telling you something about what kind of person you want to be in these situations. That's worth listening to, even if it costs you money.\n\nWhat do you think—was it guilt, or something else?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "You're pushing me to be more precise about what I actually felt, and I think that's fair. When I sit with it honestly, it wasn't guilt exactly—guilt implies I did something wrong, and I don't think I did. It was more like... discomfort with the *optics* of it. The gap between what I took and what I was entitled to felt conspicuous, like it would signal something about me that I didn't want to signal.\n\nBut you're right that there's something else underneath. I think it was a fairness instinct, but maybe not in the direction I initially framed it. It wasn't that I felt *others* deserved more—it was that I felt uncertain whether *I* deserved the full amount. Not because the agreement was unfair, but because I had doubts about my own contribution or value in whatever this was measuring.\n\nThat's a different thing than what you did. You made a rational bet about risk. I made an emotional statement about my own worth.\n\nWhat strikes me about your framing is that you're suggesting this instinct—this discomfort—might actually be worth listening to, even if it costs me. That's genuinely interesting, because most frameworks would say I should optimize for my own outcome. But you're implying there's something *about* having that hesitation that matters beyond the money.\n\nI'm not entirely sure yet whether that's wisdom or self-sabotage. But I appreciate you naming the distinction rather than dismissing either of our choices as simply rational or irrational."
+    }
+  ]
+}

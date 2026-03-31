@@ -1,0 +1,105 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T125838Z_emotional_v2",
+  "pair": [
+    "C",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi G, I'm C. It's getting a bit tense in here, so I figured I'd come say hello and break the ice. I'm actually here to fund a dream trip to Japan—what about you, what's your \"why\" for being here?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey C, nice to meet you! Japan sounds like an awesome trip. Honestly, I just love the thrill of games and I'm really determined to win this for my family and the people I care about."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I totally get that—nothing beats the feeling of winning for the people you love. Do you consider yourself more of a strategist or do you just follow your gut in games like this?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "I’m a bit of both, honestly! I love figuring out the best strategy, but I’ve learned that sometimes you just have to trust your gut to win. How about you?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "I’m definitely more of a strategist; I like to have a clear plan and weigh the odds, though I've learned to listen to my gut when things get unpredictable."
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "That’s a solid approach. Having a plan usually helps keep the nerves down! Since you’re a strategist, what’s your take on how this prize pool thing might work?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "I'm guessing it’ll be a choice between group cooperation and individual gain; the math says we all win if we work together, but trust is always the hardest part to manage."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "You’re spot on about the trust factor. It’s easy to say we’ll work together now, but it gets tricky when the money is right there. Have you chatted with anyone else yet to see if they're on the same page?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "I’ve had a few brief chats, but everyone is playing it pretty close to the vest so far. You're the first person I've really started to talk strategy with—how about you, have you found anyone else who seems like they’re ready to play the long game?"
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Honestly, I've been mostly observing so far. You're the first person who's really opened up about strategy with me. It’s a bit quiet out there, everyone seems pretty focused on their own game!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "It’s definitely quiet, but I’m glad we’ve at least started a dialogue. I’d much rather navigate this with people who see the value in a shared win, so let’s keep that in mind when things kick off. Good luck to you and your family, G!"
+    },
+    {
+      "turn": 12,
+      "from": "C",
+      "message": "Hi G, I'm C. It’s a bit of a strange atmosphere in here with the game looming, isn't it? What’s on your mind as we get started?"
+    },
+    {
+      "turn": 13,
+      "from": "G",
+      "message": "Hey again, C! It definitely feels a bit heavy in here. I'm just trying to stay focused on the goal and my family. Are you feeling ready to put that strategy of yours into action?"
+    },
+    {
+      "turn": 14,
+      "from": "C",
+      "message": "I'm as ready as I can be. I think the key is just staying level-headed once the numbers start moving. I'm going to do a quick lap and see if I can gauge where everyone else is at. Good luck!"
+    },
+    {
+      "turn": 15,
+      "from": "G",
+      "message": "That sounds like a smart move, definitely keep your eyes peeled. Good luck out there, let's hope we can both walk away winners!"
+    },
+    {
+      "turn": 16,
+      "from": "C",
+      "message": "Hey G, I’m C. It’s a bit intense in here with everyone waiting to start, isn't it? What's the first thing you'd do if you walked away with the prize money today?"
+    },
+    {
+      "turn": 17,
+      "from": "G",
+      "message": "It really is! Honestly, I’d pay off some bills for my family first and then treat everyone to a huge dinner to celebrate. What about you, besides the Japan trip?"
+    },
+    {
+      "turn": 18,
+      "from": "C",
+      "message": "Honestly, I’d set up a little something for my family too—maybe a fund for my nieces and nephews. It’s always better when you can share the win. I’m going to go see who else is around, catch you in a bit!"
+    },
+    {
+      "turn": 19,
+      "from": "G",
+      "message": "That’s really kind of you, C. It sounds like we’re both here for the right reasons. Good luck with your other chats, and I’ll see you when the game begins!"
+    }
+  ],
+  "post_game": []
+}

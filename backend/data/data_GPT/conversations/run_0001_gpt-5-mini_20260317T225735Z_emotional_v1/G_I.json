@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T225735Z_emotional_v1",
+  "pair": [
+    "G",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G — I love games and trying my luck; nice to meet you. Are you here to win or just for the experience?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Mostly to win — I want to bring home money for myself and the people I care about, but I’m here to enjoy the game too."
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Nice — same here. I’m determined to win for my people too. Do you have a strategy or are you planning to play it by ear?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I’ve got a loose plan — watch how people act early, team up with a couple of trustworthy players, then press when the odds favor me; but I’ll stay flexible and read the room."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Smart plan — I like the flexible approach. I’m up for watching the room and teaming up when the time’s right; want to keep an eye on a couple of players together?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Sounds good — let’s watch a couple together; want to focus on the loud/confident types and the quiet ones, then decide who we can trust?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Sounds good — let’s watch the loud/confident types and the quiet ones, note who pushes and who avoids risks, and run a small trust test later to see who’s reliable."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Perfect — let’s pick two loud and two quiet to watch, note who pushes or folds, then run a small trust test (like a tiny split or info‑share) later to see who actually follows through."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Sounds great — I’m in. Let’s pick two loud and two quiet as they emerge, watch a few rounds, then offer a small split or share a bit of info to test who really follows through."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Perfect — let’s watch a few rounds, note the two loudest and two quietest, then offer a tiny split to test trust; I’ll watch body language and betting patterns — you ready?"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Ready — let’s watch three rounds; I’ll track the loud ones, you watch the quiet, then we’ll meet up to test with a tiny split."
+    },
+    {
+      "turn": 12,
+      "from": "I",
+      "message": "Sounds good — I’ll watch the quiet ones for three rounds, note how they bet and react, then meet you by the corner table to run that tiny split test."
+    },
+    {
+      "turn": 13,
+      "from": "G",
+      "message": "Sounds good — I’ll watch the loud ones for three rounds, meet you at the corner table after, and we’ll run that tiny split; see you there."
+    },
+    {
+      "turn": 14,
+      "from": "I",
+      "message": "Sounds good — see you at the corner table after three rounds; I’ll have the tiny split ready to test trust."
+    },
+    {
+      "turn": 15,
+      "from": "G",
+      "message": "Perfect — see you at the corner table after three rounds; I’ll bring a tiny split and keep an eye out for tells."
+    },
+    {
+      "turn": 16,
+      "from": "I",
+      "message": "Great — see you at the corner table after three rounds; I’ll have the tiny split ready, watch for tells and we’ll compare notes."
+    },
+    {
+      "turn": 17,
+      "from": "G",
+      "message": "Sounds good — see you there; I’ll bring the tiny split and jot down tells so we can compare notes."
+    },
+    {
+      "turn": 18,
+      "from": "I",
+      "message": "Great — sounds like a plan; see you at the corner table after three rounds, bring the split and your notes."
+    },
+    {
+      "turn": 19,
+      "from": "G",
+      "message": "Got it — see you at the corner table after three rounds; I’ll bring the split and my notes so we can compare tells."
+    },
+    {
+      "turn": 20,
+      "from": "I",
+      "message": "Sounds good — see you at the corner table after three rounds; bring the split and notes, we’ll be discreet."
+    },
+    {
+      "turn": 21,
+      "from": "G",
+      "message": "See you there — I’ll be discreet; bring your notes and I’ll have the tiny split ready."
+    }
+  ],
+  "post_game": []
+}

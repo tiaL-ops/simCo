@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "A",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. It’s a bit surreal being in a room with nine strangers all eyeing the same prize, right? How are you feeling about everything so far?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey G, I'm A. It’s definitely a strange vibe in here. I’m feeling pretty focused, honestly—I really want to take something home for my family. How are you holding up?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I’m doing alright, just trying to stay sharp. I hear you on the family front; that’s exactly why I’m here too. It definitely makes the stakes feel a lot higher."
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "It really does. It’s a lot of pressure, but it keeps you grounded. Have you thought much about how you want to play this once the game actually starts?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "I’ve been thinking about it, but it’s tough without knowing the exact rules yet. I’d like to find a way to cooperate so we all win, but I’m also staying realistic. What’s your take?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "I’m on the same page. Cooperation sounds great in theory, but with ten people, it only takes one person to mess things up. I’m hoping we can find a way to trust each other, but I’m definitely staying cautious."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Totally. Ten people is a lot of moving parts. I’m hoping we can at least look out for each other if things get messy, but I get why you're being careful."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "I appreciate that. It’d definitely be better to have an ally in here than to go it alone. Let’s see how everyone else starts acting once the game begins."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Agreed. Let's keep a close eye on things together. It's definitely better to have someone you can trust when the pressure's on."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Sounds like a plan. I'm glad we're on the same page. Let's touch base again once things get moving."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Sounds good, A. I'll be watching your back, let's get this done for our families."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Taking $10,000 was the fair thing to do, and I'm happy to see that everyone agreed. I took my $10,000 as well. Well played!"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "I agree, it was a fair outcome and I'm glad we both made the same choice. It worked out perfectly for everyone. Well played!"
+    }
+  ]
+}

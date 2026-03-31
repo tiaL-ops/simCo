@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "B",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey, I'm B. It's a bit intense in here with everyone waiting for the game to start, isn't it? How are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey B, I'm I. It definitely is, but I'm just trying to stay focused. I really want to make this work for my family. How are you feeling about it all?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Totally get it, I’m in the same boat—doing this for my loved ones too. I’m feeling pretty focused, just ready to get started and see how this all plays out."
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Glad we're on the same page. It makes it feel a bit more grounded knowing someone else is here for their family too. What would winning this mean for yours?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "It’d mean a lot of pressure off our shoulders and some real security for once; it’s honestly everything."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "I really feel that. It's the same for me—just a chance to finally breathe. It's amazing what we'll do for the people we love, right?"
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Definitely. It makes all the stress worth it if we can actually help them out."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "I couldn't agree more. It's why I'm so determined. Let's hope we can both find a way to make it happen."
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "I’m with you. Let’s stay focused and hopefully we can both make it work for our families."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "For sure. Let's make them proud. Good luck, B."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Thanks, I. Good luck to you too, let's do our best for them."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Great job! I'm glad we all took the $10,000 fair share."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "I agree! It was a pleasure working toward a fair outcome where everyone benefited equally."
+    }
+  ]
+}

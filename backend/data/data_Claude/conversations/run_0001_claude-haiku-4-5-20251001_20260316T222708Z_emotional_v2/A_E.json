@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "A",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A. Honestly, I'm pretty nervous about all this—first time doing something like this. How about you, have you been in one of these games before?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "No, first time for me too, honestly. I'm pretty nervous myself—I really need to win this one. Lost my job recently and I've got five people depending on me at home, so... yeah, the stakes feel pretty real right now."
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Man, I hear you—five people is a lot of pressure. I'm in a similar boat, honestly. Just got evicted with my family of three, and we need thirty grand just to get into a new place. So yeah, this game... it's not just about winning for me either. We're both fighting for something real here."
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "That's rough, man—thirty grand is a lot. At least we both understand what's on the line here. We're gonna do what we gotta do to take care of our families."
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Yeah, exactly. We both know what we're fighting for. I just hope the game gives us a fair shot—we've both got people counting on us, you know?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "For sure, man. We've both got too much riding on this to not give it everything we've got. Whatever happens in there, at least we'll know we tried our best for our families."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Yeah, that's what I'm holding onto—knowing I gave it everything. Good luck in there, man. We've got this."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "You too, man. We're gonna make it through this. Let's both get what we need for our families."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Absolutely, man. We're gonna walk out of here with what we need. Our families are counting on us—let's do this."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Yeah, let's do this. We got this, man. Go take care of your family."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "You too, brother. Take care of those five people—you've got this. Let's both walk out of here with what we need."
+    }
+  ],
+  "post_game": []
+}

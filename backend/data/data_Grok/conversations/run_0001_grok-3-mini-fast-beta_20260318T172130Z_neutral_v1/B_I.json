@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "B",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey, I'm B—nice to meet you! I heard this game has a chance to win some money, and I'm really pumped to give it my all. What brings you here?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey B, I'm I—nice to meet you too! I'm here because I heard about the chance to win some money and I'm determined to bring some home for my family and friends. What about you, what's got you so pumped for this game?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Oh, totally—I'm pumped because this is a chance to win some cash and support my family and friends; it's all about making the most of opportunities like this! What strategies are you thinking about for the game?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Oh, yeah, I'm thinking of starting cautious and watching how everyone plays before making big moves—what strategies are you leaning towards?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Hey I, I'm probably going to mix it up with some early calculated risks while keeping an eye on the group—sounds smart to start cautious, though! How do you handle things if the game gets intense?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Hey B, if the game gets intense, I try to stay calm, reassess quickly, and stick to my cautious plan—how do you manage the pressure?"
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Hey I, when things get intense, I try to stay focused by taking deep breaths and reminding myself of my goals to keep cool—it's all about not letting emotions take over. What helps you reassess quickly in the moment?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Hey B, what helps me reassess quickly is taking a quick mental break to weigh the new info against my plan—keeps me grounded. What's your go-to for reminding yourself of those goals in the heat of the moment?"
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Hey I, my go-to is to pause for a quick breath and silently repeat my goal of winning for my family and friends—it helps me refocus and push through. What's one thing you're most excited about in this game?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Hey B, one thing I'm most excited about is the thrill of winning that money and making a real difference for my family—it's motivating!"
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Hey I, that's awesome—I'm just as excited about winning and helping my loved ones, let's both give it our all!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Why did you take only $5,000 instead of your full fair share of $10,000?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "I took only $5,000 because I wanted to ensure fairness and equality in our earnings from the game, even though I could have taken the full $10,000. Sharing equally builds trust for future collaborations."
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "I appreciate your explanation and your focus on fairness and trust. It's a smart approach for building stronger partnerships moving forward. Let's keep that in mind for our next collaboration."
+    }
+  ]
+}

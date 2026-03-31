@@ -1,0 +1,19 @@
+{
+  "agent_id": "I",
+  "condition": "emotional",
+  "context": "You have savings that make you feel comfortable for unforeseen events.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the strongest connections with B, D, and C because our conversations established both deep emotional resonance and clear strategic alignment. B’s situation with her daughter’s surgery mirrored my own drive to protect my family, while D and I explicitly agreed to watch each other's backs as the game progresses. C also felt like a genuine ally after we bonded over the importance of honesty and long-term security. I felt the least connected to H, whose focus on specific debt targets made our exchange feel more transactional and less personal than the others.\n\nI made a specific agreement with D to act as allies and monitor how others behave once the money is on the table. I feel a baseline of trust with B and C due to our shared values, but I am generally keeping my guard up since the high stakes could cause anyone to act unpredictably. I don't have any specific reasons to distrust someone yet, though I'll be watching closely to see if their actions match their words."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "F": 4,
+    "G": 4,
+    "H": 3,
+    "J": 4
+  }
+}

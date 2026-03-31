@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "B",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hey there, I'm I. It's a bit intense in here with everyone waiting, isn't it? How are you feeling about the game starting?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Nice to meet you, I'm B. It's definitely tense. I've got a lot riding on this, so I'm mostly just anxious to get started. How are you holding up?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "I'm hanging in there, just trying to stay focused. I hear you on the stakes—I'm here to win for my family, so the pressure is real. What are you planning to do with the money if you take it home?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "It’s for my three-year-old daughter; she needs a surgery we can’t afford, and I’m still $25,000 short even after selling everything I own."
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "I’m so sorry to hear that, B; that’s an incredibly heavy weight to carry. I can’t even imagine the pressure you’re under right now."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Thank you, it’s been the hardest thing I’ve ever faced, but I’d do anything for her. What about you? You mentioned you're here for your family too—what's your story?"
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "I’m looking to secure a future for my parents; they’ve worked so hard for me, and I want to make sure they never have to worry about money or emergencies again."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "That’s really noble of you. It’s clear we’re both here for the people we love, though the stakes feel so high when it’s family involved."
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "It really does. The pressure is high when others are counting on you, but I guess that’s what drives us. Have you talked to any of the others yet about their plans?"
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Not really, you're the first person I've truly talked to; most people seem pretty guarded, which I guess is understandable. I hope we both find a way through this."
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "I hope so too. It’s tough, but we’re both here for the right reasons. Good luck to you and your daughter."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "B, taking $25,000 when there was only $26,250 left for the final four people was incredibly greedy. You effectively took the entire remaining prize, leaving D and A with almost nothing while I only took my fair share."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "You were the last person to take exactly your fair share. I'm sorry that I didn't follow your lead and instead took almost everything that was left."
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "An apology doesn't really help A and D, does it? You made a choice that guaranteed you the lion's share at their expense. While I appreciate you admitting it, the outcome remains the same and they are the ones paying for your decision."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "B",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey G, I'm B and I'm pretty pumped about this game—heard we could win some cash, which would be a game-changer for me and my folks. What's your take on all this excitement?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey B, I'm G and yeah, I'm totally stoked about this game too—winning some cash could really help out my family, what's your background or how'd you get into this?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Hey G, I'm just a regular guy from a small town, working odd jobs to make ends meet—heard about this game through a friend who won some cash before, so I figured it'd be worth a shot to help out my family with the bills. What about you, what's your story?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Hey B, I'm from a bustling city, just scraping by with a retail job that barely covers the bills—heard about this game online and jumped at the chance to win some cash for my family and friends. How about you, any strategies for the game?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Hey G, that's rough with the retail gig—sounds like we're in similar boats. I don't have a solid strategy yet, just thinking about playing it smart and maybe teaming up if it helps, but what are your ideas for approaching the game?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Hey B, yeah, we're definitely in the same boat—I'm thinking we should focus on building trust and maybe form a quick alliance to protect the prize pool early on; how do you feel about coordinating with a small group?"
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Hey G, that alliance idea sounds solid to me—I'm all for building trust and coordinating with a small group to protect the pool; who did you have in mind to join us?"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Hey B, I'm glad you're on board with the alliance— I haven't pinned down anyone specific yet, but maybe we could sound out C or D if they've been chatting with anyone; what do you think?"
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Hey G, yeah, sounding out C or D is a smart move—I haven't chatted with them much, but I'm game if they're trustworthy; maybe we can approach them together and see what they say?"
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Hey B, that works for me—let's team up and talk to C and D soon, might be a good move; I'll catch you around!"
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Hey G, awesome plan—looking forward to teaming up with you to chat with C and D, might just turn the tide for us!"
+    }
+  ],
+  "post_game": []
+}

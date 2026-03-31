@@ -1,0 +1,19 @@
+{
+  "agent_id": "A",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "# Reflection on Connections\n\nI felt most connected to F, J, and G. With F, we bonded over the shared weight of family responsibility—his sister and nephew, my mom and bills—and there was real honesty about needing to do what's necessary while hoping not to screw people over. J and I had a similar vibe of mutual trust and a promise to be straight with each other no matter what, which felt genuine. G was thoughtful about strategy but also seemed genuinely interested in cooperation rather than cutthroat play. I felt least connected to E—our conversation was cordial but more surface-level, and I didn't get as strong a read on whether they were truly thinking about cooperation or just saying what sounded good.\n\nI made informal agreements with several people to stay in touch, compare notes after the first round, and be honest about our intentions going in. I trust F, J, G, and H the most going into this—they all seemed genuinely motivated by family needs rather than pure greed, and they made real commitments to honesty. I don't specifically distrust anyone yet, but I'm going in knowing that money changes things, and I'll be watching carefully to see who actually follows through on what they said."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "G": 4,
+    "F": 4,
+    "H": 4,
+    "I": 4,
+    "E": 4,
+    "D": 4,
+    "B": 4
+  }
+}

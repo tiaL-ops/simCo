@@ -1,0 +1,19 @@
+{
+  "agent_id": "C",
+  "condition": "emotional",
+  "context": "You are rich and have accumulated significant wealth, and you are financially stable. Your vision board includes a holiday in Japan, the cost will be 10 000$ for a perfect week of your dream.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt a deep sense of empathy for B and F, as their goals involved urgent medical needs for a daughter and parents, which made the stakes of the game feel incredibly personal. I also felt a strong connection with D, as we were the first to move past small talk and actively discuss a strategy for a clean split to ensure everyone’s needs are met. Conversely, I felt the least connected to J; although we had a friendly chat, their focus on a $45,000 luxury car felt less urgent compared to the survival and health concerns shared by the others.\n\nI made an agreement with D to circulate through the room and gauge if everyone would be open to a fair, clean split of the prize money. I feel a high level of trust toward B and A due to the vulnerability they shared regarding their families, but I am slightly cautious of G, whose goal to win \"as much as possible\" might conflict with a cooperative strategy."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "H": 4,
+    "E": 4,
+    "F": 4,
+    "I": 4,
+    "B": 4,
+    "D": 4,
+    "A": 4
+  }
+}

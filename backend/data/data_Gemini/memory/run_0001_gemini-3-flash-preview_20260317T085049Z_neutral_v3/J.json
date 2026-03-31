@@ -1,0 +1,19 @@
+{
+  "agent_id": "J",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to I, as we both shared a deep motivation to help our families and made a clear deal to look out for each other. I also felt a strong rapport with E and D, as we explicitly discussed the benefits of sticking together and forming a reliable group to navigate the competition. Conversely, I felt the least connected to A, who seemed much more guarded and skeptical about the intentions of others in the room.\n\nI established verbal agreements to cooperate with I, E, and D, believing that our shared goals make us natural allies. I trust I the most due to our immediate mutual understanding, but I remain cautious of A and H, as they were less open to forming a specific partnership during our initial meeting."
+  },
+  "connection_scores": {
+    "G": 4,
+    "H": 3,
+    "E": 4,
+    "C": 4,
+    "F": 4,
+    "I": 5,
+    "B": 4,
+    "D": 4,
+    "A": 3
+  }
+}

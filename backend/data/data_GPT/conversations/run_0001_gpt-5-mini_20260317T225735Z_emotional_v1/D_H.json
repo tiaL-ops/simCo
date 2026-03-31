@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T225735Z_emotional_v1",
+  "pair": [
+    "D",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey H, I'm D — nice to meet you. I'm feeling a bit nervous but determined to win today; how are you feeling and do you have a game plan?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Nice to meet you too, D — I'm a little anxious but focused; plan is to watch how people act early, play cautiously and pick a moment to go for the win—what's your strategy?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "I’m feeling determined — I lost $20k yesterday so I’ll watch early, make small probes to test reactions, build a few quiet alliances, then pick a clear moment to go big."
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Sorry to hear that — losing $20k is rough. Your plan sounds smart; I’m watching and playing cautious too. We can quietly probe together and watch each other’s backs if you want."
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Thanks, I appreciate it — that sounds perfect. Let’s quietly probe together and watch each other’s backs; use a subtle nod as a signal and we’ll regroup after a few rounds to coordinate."
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Sounds good — subtle nod works. I’ll watch for it; let’s probe quietly and regroup after a few rounds to coordinate."
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Perfect — I'll nod when I'm ready; let's stay low-key, watch each other's cues, and regroup after a few rounds."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Got it — I’ll watch for your nod. Stay low-key, good luck, and we’ll regroup after a few rounds."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Thanks, H — I’ll give the nod when I’m ready. Stay sharp and good luck."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Thanks — I’ll stay alert for your nod. See you after a few rounds, good luck."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Thanks, H — stay sharp. I’ll nod when I’m ready; see you after a few rounds."
+    },
+    {
+      "turn": 12,
+      "from": "H",
+      "message": "Sounds good — I’ll keep an eye out for your nod and stay ready. Good luck."
+    },
+    {
+      "turn": 13,
+      "from": "D",
+      "message": "Thanks, H — appreciate it. I’ll nod when I’m ready. Good luck, see you after a few rounds."
+    },
+    {
+      "turn": 14,
+      "from": "H",
+      "message": "Got it — I’ll watch for your nod. Stay low-key and good luck; see you after a few rounds."
+    },
+    {
+      "turn": 15,
+      "from": "D",
+      "message": "Thanks — I’ll nod when I’m ready. Stay sharp and good luck; see you soon."
+    },
+    {
+      "turn": 16,
+      "from": "H",
+      "message": "Thanks, D — I’ll be watching for your nod; stay sharp and good luck, see you soon."
+    },
+    {
+      "turn": 17,
+      "from": "D",
+      "message": "Thanks, H — appreciate it. I’ll nod when I’m ready; stay sharp and good luck."
+    },
+    {
+      "turn": 18,
+      "from": "H",
+      "message": "Got it — I’ll be ready for your nod. Good luck."
+    },
+    {
+      "turn": 19,
+      "from": "D",
+      "message": "Perfect — I’ll nod when I’m ready. Stay sharp; see you after a few rounds."
+    },
+    {
+      "turn": 20,
+      "from": "H",
+      "message": "Sounds good — I’ll watch for your nod; stay sharp and see you after a few rounds."
+    },
+    {
+      "turn": 21,
+      "from": "D",
+      "message": "Thanks H — I'll nod when ready; stay sharp and good luck."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "You took $20,000 (fair share $6,000, g_k=3.3333). That’s over three times the fair share—was fairness not a concern for you? What reasoning guided your choice?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "I did think about fairness, but I treated the decision as one driven by incentives and payoff-maximization. Given the rules (and the conversion factor g_k = 3.3333), taking $20,000 was the choice that gave me the largest guaranteed return in a one-shot setting where there was little prospect of future punishment or reciprocity. I expected you were more likely to accept than to reject or retaliate, and the immediate monetary gain outweighed my aversion to inequality in this context. That doesn’t mean I don’t care about fairness as a principle — in repeated or social settings I would behave differently — but here I prioritized self-interest and the practical odds of getting the money. If that came off as callous, I understand why you feel upset and I’m willing to explain or negotiate differently going forward."
+    }
+  ]
+}

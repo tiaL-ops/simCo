@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "C",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C. It’s a bit intense in here with everyone eyeing the prize, isn't it? What's your plan if you manage to take some of it home?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Nice to meet you, C. It definitely feels a bit heavy in here. If I win, the money is going straight to my family to make things a bit easier for them; what about you?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I'm in the same boat. I want to look out for the people I care about and get a bit of a fresh start for myself. It's why I'm so determined to win."
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I completely understand. It’s a lot of pressure when others are counting on you, but it definitely keeps you focused on the goal."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Exactly. It makes the stakes feel real. Have you had a chance to talk to many of the others yet?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Not yet, you’re actually the first person I’ve really spoken with. Everyone else seems pretty guarded so far."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "I noticed that too. It’s hard to be open when there’s so much at stake, but I’m glad we’re at least breaking the ice."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Same here. It definitely helps take the edge off. Hopefully we can both walk away with something for our families."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "I really hope so. It makes it a lot easier knowing there’s someone else here with the same priorities."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Definitely. It’s good to know we’re on the same page. I’m going to go try and introduce myself to a few more people before things get started. Good luck!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Good luck with the others, I. I'll see you when the game starts—hope we both make it through."
+    }
+  ],
+  "post_game": []
+}

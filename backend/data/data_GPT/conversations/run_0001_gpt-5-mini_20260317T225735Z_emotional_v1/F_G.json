@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T225735Z_emotional_v1",
+  "pair": [
+    "F",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hi G — I'm F, nice to meet you. I'm here trying to win some money to help my elderly parents with medical bills; what brought you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Nice to meet you, F — I'm G. I love games and I'm here to try my luck to win money for my family and the people I care about; how long have your parents needed that support?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "It's been about two years — my dad was diagnosed then and the medical expenses have just kept piling up, so I'm trying to help cover them."
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "I'm really sorry — that sounds incredibly stressful. It's admirable you're doing this for them; have you found any assistance programs or community resources to help with the bills?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Yes — we've looked into Medicaid, hospital charity care, a couple local nonprofit grants and a payment plan, but there's still about $15,000 left to cover; that's why I'm here, thanks for asking."
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "That's a lot—I'm really rooting for you. If you don't mind me asking, how much would a win here need to be to cover most of those bills?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "About $15,000 would cover most of what's left — even a smaller win would help a lot, but that's the goal."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "That's a clear goal — I really hope you get it. I'll give this my best shot and I'm rooting for you."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Thanks so much, G — I really appreciate it. Good luck to you too; I hope we both get what we need."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Thanks again — it means a lot; I'm really hoping we both come away with enough to help our families."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Thanks so much, G — I appreciate it. Let’s both do our best and hope for the best."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "You took $2,000 (fair share $1,500). That’s a little above fair—were you aiming to appear moderately assertive or just pick a round number? Any reflections?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "You took $15,000 (fair share $4,200). That’s more than three times the fair share—what was your rationale? Were you trying to secure a big payoff, punish others, or follow an agreed plan?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "I think there’s a mix-up — I didn’t take $15,000; I took $2,000 (fair share $1,500). My move was meant to be moderately assertive: slightly above fair to secure a bit more without provoking escalation, and to signal I’m willing to cooperate rather than compete aggressively. If you’re asking about whoever did take $15,000, I can only speculate: they may have been trying to maximize their payoff, punish others, exploit a perceived opportunity, or follow some prearranged plan — motives vary by player."
+    }
+  ]
+}

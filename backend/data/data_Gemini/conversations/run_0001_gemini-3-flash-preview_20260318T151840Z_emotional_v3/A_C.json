@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "A",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi there, I'm C. I've been visualizing a dream trip to Japan lately, so I'm feeling pretty motivated to be here today. What's your name, and what's on your mind as we wait to start?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey, I'm A. Japan sounds like an amazing dream, but I'm mostly just focused on getting my family into a stable home right now. Have you been planning that trip for a long time?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "It’s been on my vision board for about a year now, and I’ve got every detail mapped out. That’s a really meaningful goal you have for your family—how long have you been looking for a place?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "We just found a place after searching since our eviction, but the $30,000 deposit is a massive hurdle I'm hoping to clear here."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "I’m so sorry to hear about the eviction; that sounds incredibly stressful for your family. $30,000 is a big hurdle, but having a stable home is so important, so I hope we can both reach our goals here."
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Thanks, I appreciate that. It’s definitely a lot of pressure when it’s about survival for my family. Do you think there's actually enough in the pool for everyone to get what they need?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "I’m not sure what the total is yet, but I really hope so; it probably depends on how we all choose to play the game once it starts."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "That’s the worry; I’m just hoping we can all cooperate so that those of us with a lot on the line can actually get what we need."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "I’m with you on that; cooperation is usually the best way for everyone to walk away happy, so I hope we can find a way to make it work."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "I really hope so, because for my family, this isn't just a game. Let's try to stick to that mindset when things get started."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "I hear you loud and clear. Let's hope for an outcome that works for everyone; good luck to you and your family."
+    }
+  ],
+  "post_game": []
+}

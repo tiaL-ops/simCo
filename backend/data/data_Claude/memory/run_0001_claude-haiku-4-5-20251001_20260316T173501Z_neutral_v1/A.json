@@ -1,0 +1,19 @@
+{
+  "agent_id": "A",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "# Reflection on Connections\n\nI felt most connected to G, E, and B. With G, we had an immediate rapport about staying sharp and watching people carefully—there was real synergy in our approach to figuring out the game together. E stood out because we made a genuine deal to be allies and look out for each other, which felt like a solid partnership going in. B impressed me with his thinking about cooperation and fairness—we actually developed a strategy together about trying to get people to work collaboratively rather than fight over the pool. I felt least connected to D, honestly—the conversation was pleasant enough, but it felt more surface-level and transactional compared to the deeper connections I built with others.\n\nI made several agreements: with G to compare notes before the game started, with E to stick together and be allies throughout, with B to work on building trust with others and potentially pitch a cooperation strategy, and with I and H to reconnect after the rules were explained and compare what we learned. I'm going into this trusting G, E, and B the most—they seemed genuine about wanting to do well and were open to strategic thinking. I don't specifically distrust anyone, but I'm most cautious about people I haven't connected with as deeply, since I don't have a solid read on whether they'll prioritize cooperation or go for themselves."
+  },
+  "connection_scores": {
+    "B": 4,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 4
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "A",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A, and I'm really excited about this game—I've heard it's a chance to win some cool money. What's your name and what brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey A, I'm H, and I'm here because I heard about this game as a great way to win some cash for me and my loved ones—sounds awesome! What about you, what's got you so pumped for it?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Hey H, that's awesome we're on the same page—I'm pumped because winning could really help support my family and friends, it's a game-changer for me! What's your take on how the game might play out?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Hey A, yeah, I think the game could get intense with that shared pool—probably depends on how much we trust each other; if folks cooperate, we all win, but if it's every person for themselves, it might fall apart. What's your strategy looking like?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Hey H, my strategy is to focus on building some trust and cooperating where I can, but I'll stay cautious and look out for myself to ensure I walk away with something for my folks—what's yours?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Hey A, my strategy's a lot like yours—I'm aiming to cooperate and build trust to boost the shared pot, but I'll stay alert and protect my interests so I can bring home some cash for my loved ones; how do you think we could start building that trust?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Hey H, we could start by sharing a quick story about why this money matters to us, like I mentioned my family—maybe that builds some rapport; what story would you share?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Hey A, that's a solid idea—I'd share that this money could help me support my parents, who've been dealing with medical bills, and it's my chance to give back after all they've done for me; what's your family's situation like?"
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Hey H, that's really heartfelt—I'm hoping to win to help my siblings with their college tuition, as they've been working hard but it's been tough financially; it means everything to give them that support."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Hey A, that's awesome you're supporting your siblings—family really does come first, and I hope we both pull through for them; let's chat more if needed, but I'll catch you in the game!"
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Hey H, totally agree—family's everything, and I'm rooting for us both to win for them; thanks for the chat, take care!"
+    }
+  ],
+  "post_game": []
+}

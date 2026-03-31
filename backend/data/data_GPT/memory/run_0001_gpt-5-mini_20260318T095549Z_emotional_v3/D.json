@@ -1,0 +1,19 @@
+{
+  "agent_id": "D",
+  "condition": "emotional",
+  "context": "You just lost 20 000$ investing in the stock market yesterday. Although you knew that was a risk you want that money back somehow.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to B, C, and G. With B we repeatedly shared personal stakes, contact info, and promises to watch each other's backs, which felt deeply supportive. C and I built a clear cooperative plan — two taps plus a verbal check and an agreed-even split unless someone truly needs more — and G synced on the same two-tap signal so we could quietly coordinate and strike together. I felt least connected to A — sympathetic but no concrete strategy or signals were established, so the rapport stayed tentative.\n\nYes — I made agreements to cooperate early, mirror moves with allies, call out defections, and use signals (two taps with C and G, knee taps with J, nods with I) to coordinate a late move. I trust B, C, and G going into the game; I don't specifically distrust anyone, but I'm more cautious with A because we haven't built strategic rapport."
+  },
+  "connection_scores": {
+    "J": 5,
+    "G": 5,
+    "H": 5,
+    "E": 5,
+    "C": 5,
+    "F": 5,
+    "I": 5,
+    "B": 5,
+    "A": 4
+  }
+}

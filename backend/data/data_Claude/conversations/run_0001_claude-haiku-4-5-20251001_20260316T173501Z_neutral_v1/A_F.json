@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "A",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A. I figured before this game kicks off, might as well get to know some people in the room. Have you done something like this before, or is this your first time?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey A, nice to meet you! First time for me, actually. I'm pretty excited about it though — heard there's real money on the line. Have you done one of these before?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Nah, first time for me too! But yeah, that's exactly why I'm here — I really need to bring some money home. You got people counting on you or just looking to make some extra cash?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Yeah, I've got people counting on me too. My family's been going through some tough times, so I'm really hoping to do well here. What about you — who are you trying to help out?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "My parents, mainly. They've been struggling with bills, and I promised them I'd help out. Rough times hit a lot of us, huh? Hopefully we both do well in this thing."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Yeah, I hear you. It's tough when people you care about are counting on you. I'm hoping we both walk out of here with something good — seems like we've both got real reasons to win this thing."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Absolutely, man. We're in the same boat then. I'm gonna give this everything I've got — hopefully the game's set up so we can both come out ahead. Good luck in there."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Thanks, man. Same to you — let's both make it count. We got this."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "For sure, brother. Let's go out there and do this. Hope we both walk away with something we can be proud of."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Absolutely, man. Let's do this. Hope to see you come out on top too."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Thanks man, I appreciate that. Same to you — let's both get what we came for. Good luck out there."
+    }
+  ],
+  "post_game": []
+}

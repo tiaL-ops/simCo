@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "D",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hi D, I'm E – nice to meet you. I've been dealing with some tough times after getting laid off from my finance job, so I'm here hoping to win enough to support my family. What's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hi E, nice to meet you too—sounds like you've been through a lot with that job loss, I'm sorry to hear it. I've had my own rough patch; I just lost $20,000 in the stock market, so I'm here hoping to win it back and help out the people I care about. What kind of finance work were you in?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Oh, I was in investment banking, mostly analyzing stocks and managing portfolios—it's been brutal being out of work. That $20,000 loss sounds rough; what kind of stocks were you betting on?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Oh man, yeah it was brutal—I was mostly betting on tech stocks, like some volatile AI startups that crashed hard, which really stung. Since you were in investment banking, do you have any advice on spotting red flags in stocks?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Oh, totally get that—tech stocks can be a wild ride. One key red flag I've learned to watch for is when a company's revenue growth doesn't back up their big promises, or if executives are selling off shares; it often signals trouble ahead. Have you thought about diversifying into safer sectors to avoid those crashes?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Yeah, that's great advice—I've thought about diversifying into safer areas like utilities or healthcare, but I got too wrapped up in the tech excitement and paid for it. Do you have any tips on applying that mindset to a game like this?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Yeah, absolutely—in a game like this, diversifying could mean not putting all your chips on one play, like building some alliances while keeping an eye on risks; maybe start cautious and adapt as things unfold—what's your take on that?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Yeah, I totally agree—after getting burned in the stocks, starting cautious and building alliances seems like a smart way to play this, maybe by testing the waters with a few people first; how do you think we could start forming those without tipping our hand too early?"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Yeah, that's a smart approach—maybe we could start by having light conversations with a few folks, like asking about their backgrounds to feel them out, without diving into game plans right away; that way, we build trust gradually without showing our cards too soon."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Yeah, that's a solid plan—I'll start with some light chats myself; thanks for the advice, E, it's been great talking."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "No problem at all, D—it's been great chatting with you too, and I wish you the best of luck in here."
+    }
+  ],
+  "post_game": []
+}

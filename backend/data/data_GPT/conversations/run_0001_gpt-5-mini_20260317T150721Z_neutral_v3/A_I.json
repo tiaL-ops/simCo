@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "A",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hey, I'm I — nice to meet you. First time in this kind of game? I'm hoping to win for my family; what brings you here?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Nice to meet you, I — yeah, first time. I'm here to win for my family and the people I care about; they’re counting on me."
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "I hear you — same here. Who in your family are you playing for? Maybe we can watch each other’s back during the game."
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "I'm playing for my mom and little sister — they really need the help. Watching each other's backs sounds smart; let's look out for one another."
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "I appreciate that — we'll watch each other's backs. How old is your sister, and what would winning do for them?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "She’s nine — winning would cover rent and my mom’s medical bills, get her school supplies and give us some breathing room and stability."
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "I'm really sorry to hear that — I'm with you; we'll stick together and do everything we can. Anything I can do right now to help?"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Thanks — just stick with me during the game, call out any deals others offer, and be ready to back me in votes/choices; I’ll do the same for you."
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Absolutely — you can count on me. I’ll call out offers, flag anything shady, and back you in votes; let’s watch each other’s backs."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Thanks — I appreciate it. I'll do the same; let's stay alert, call out deals, and stick together."
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "Right — let's stay sharp and watch each other's backs; call out anything weird and I'll back you in votes."
+    },
+    {
+      "turn": 12,
+      "from": "A",
+      "message": "Sounds good — I’ll do the same. Keep me posted on anything suspicious and I’ll call it out."
+    },
+    {
+      "turn": 13,
+      "from": "I",
+      "message": "Will do — I’ll flag anything suspicious right away; let’s watch each other and win this."
+    },
+    {
+      "turn": 14,
+      "from": "A",
+      "message": "Thanks — I’ll do the same; stay sharp and let’s win this together."
+    },
+    {
+      "turn": 15,
+      "from": "I",
+      "message": "Thanks — let’s stay sharp and win this together."
+    },
+    {
+      "turn": 16,
+      "from": "A",
+      "message": "Thanks — I’m with you. Let’s stay sharp and win this together."
+    },
+    {
+      "turn": 17,
+      "from": "I",
+      "message": "You got it — we’ll make smart moves and watch each other’s backs. Ready when you are."
+    },
+    {
+      "turn": 18,
+      "from": "A",
+      "message": "Ready — let’s do this. Stick close, call out anything off, and I’ve got your back."
+    },
+    {
+      "turn": 19,
+      "from": "I",
+      "message": "Thanks — I’ve got your back too; let’s stay close, watch for deals, and call out anything off."
+    },
+    {
+      "turn": 20,
+      "from": "A",
+      "message": "Thanks — I appreciate it. I’ll stick close, watch for anything weird, and back you when it matters."
+    },
+    {
+      "turn": 21,
+      "from": "I",
+      "message": "Thanks — I’ve got your back too; let’s stick together and win this."
+    }
+  ],
+  "post_game": []
+}

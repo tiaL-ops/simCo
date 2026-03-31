@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "C",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I’m C. It’s a bit intense in here with everyone waiting, isn’t it? I’m just trying to stay relaxed before things kick off—how are you feeling about the game?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey C, I'm G. It’s definitely a bit tense, but I’m feeling pretty focused—I’ve got people back home I’m doing this for, so I’m ready to get started. How are you holding up?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I’m doing okay, just trying to stay steady. I totally get that—I’ve got people I’m looking out for too, which definitely ups the stakes."
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Glad to hear I'm not the only one with that drive. It definitely makes it more than just a game—do you have a strategy yet for how to handle the prize pool?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "I’m still weighing my options, honestly. I’d love for us to find a way to cooperate so we all actually walk away with something—what about you, any specific plan?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "I’m thinking along the same lines—if we can get everyone on board with a fair split, it’d be ideal. I just hope everyone else feels the same way."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "That’s the real challenge, isn't it? Getting ten strangers to trust each other is tough, but I’m definitely down if we can actually pull it off."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Exactly. It’s risky, but if we can get even a few more people on the same page, it might actually work. I'm glad we're seeing eye to eye on this."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Same here. Have you managed to talk to anyone else yet who seems like they’d be open to a split?"
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "You're actually the first person I've chatted with so far. I’m going to go circulate a bit and see if I can get a read on the others. Catch you in a bit!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Sounds like a plan, G. Let me know what you find out—I'll try to do the same. Good luck out there!"
+    }
+  ],
+  "post_game": []
+}

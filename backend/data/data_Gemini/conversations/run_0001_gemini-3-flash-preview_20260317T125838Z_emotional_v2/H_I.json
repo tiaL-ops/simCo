@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T125838Z_emotional_v2",
+  "pair": [
+    "H",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H. It’s a bit of a surreal setting in here, isn't it? I’m trying to keep my nerves in check before we start—how are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Nice to meet you, H. I'm I. It’s definitely a strange vibe, but I’m doing okay—mostly just staying focused on the goal. How are you feeling about the game itself?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Honestly, I’m feeling pretty driven. I’ve got a massive loan payment due next month that I’m desperate to clear, so the pressure is on. What’s the goal you’re focusing on?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "That sounds like a lot of pressure; for me, I'm just here to win enough to look after my family and make sure the people I care about are set."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "I respect that. Family is a huge motivator, and honestly, clearing my debt is as much for my peace of mind as it is for the people I care about too."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "I hear you. It’s all about that security. Hopefully, we can both walk away with what we need today."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "I really hope so. It would be a huge weight off my shoulders to finally have that security. Let’s see how it goes."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "I’m with you on that. Let's just try to keep a level head once things start moving. Good luck."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Thanks, I. Good luck to you too—let's hope we both get what we're here for."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Definitely. I think I'll go chat with some of the others before we start. See you around!"
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Sounds good, I. Catch you later and good luck with the others."
+    }
+  ],
+  "post_game": []
+}

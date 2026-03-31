@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "G",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. First time doing one of these games, and I gotta say I'm pretty nervous but excited. You been here before, or are you new to this too?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey G, nice to meet you! This is actually my first time too, so we're in the same boat. I'm definitely nervous but I'm really hoping to win some money here—got people counting on me back home. What made you decide to give this a shot?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Same here, man—I've got people depending on me too. Honestly, I heard about this opportunity and thought, why not? The money could really help out, and I figured if I'm gonna do it, I might as well give it everything I've got. You think you've got a strategy going in, or are we both just winging it?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Honestly, I'm still figuring it out as I go, but I'm thinking the key is gonna be understanding what everyone else is doing—like, are people gonna be cooperative or try to take as much as they can? I guess we'll see how it plays out, but I'm definitely not going in blind. You got any thoughts on how you wanna approach it?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Yeah, I've been thinking about that too—I figure I'll watch how people act in the first round, see if folks seem willing to work together or if it's every person for themselves. Might be smarter to feel people out before making any big moves, you know?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "That's smart thinking—I like that approach. Yeah, I'm gonna do the same thing, watch the first round and see who's willing to cooperate versus who's just out for themselves. Maybe we can keep an eye out for each other too, you know? Strength in numbers and all that."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "I like that—yeah, let's definitely stick together. If we can trust each other, that's already one solid alliance going in. Just promise me if things get weird, we'll be straight with each other about it, cool?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Absolutely, man—I'm all in. We'll be straight with each other no matter what. Let's look out for each other and see how this plays out together."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "That's what I'm talking about. Alright, we got this—let's both walk out of here with something for the people we care about."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Yeah, let's do this. I'm glad I got you in my corner, G. We're gonna make this work."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Absolutely, brother. We got this. Let's go make it happen and bring that money home."
+    }
+  ],
+  "post_game": []
+}

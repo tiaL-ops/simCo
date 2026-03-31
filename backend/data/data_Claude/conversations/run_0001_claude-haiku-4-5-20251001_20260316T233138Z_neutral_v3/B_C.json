@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "B",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C. First time doing something like this? I gotta admit I'm pretty nervous but also excited—heard there's real money on the line here, which is wild. What brings you to the game today?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey C, nice to meet you! Yeah, first time for me too. Honestly, I'm here because I could really use the money—got some people depending on me. The nerves are real, but I'm trying to stay focused. You got any strategy in mind, or are you just gonna wing it?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I feel that—same situation here, got people counting on me too. Honestly, I'm still figuring it out, but I'm thinking the key is gonna be reading people and not getting too greedy, you know? Like, if there's a way to work together or at least not screw each other over, that might be smarter than just going all-in. What's your take—you thinking competitive or more collaborative?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Yeah, I hear you—I've been thinking about that too. I mean, we're all here for the same reason, right? But I guess it depends on how the game actually works. Do you know what the rules are yet? Like, can we actually help each other, or is it designed so only one person can win big? I'm trying not to go in blind."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Nah, they haven't explained the actual rules yet—that's what's got me anxious, honestly. But you're right, we should figure out if this is a zero-sum thing or if there's room for everyone to walk away with something. I'm gonna ask around and see if anyone else knows more. Either way, I'm thinking it's smart we at least know what we're dealing with before things get competitive."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Yeah, that makes sense—definitely ask around if you get the chance. And hey, if you find anything out, let me know? I'm gonna do the same. We're probably better off going in with our eyes open, whatever this turns out to be."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "For sure, I'll definitely loop you in if I learn anything. Same here—hit me up if you find out more. We got this."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Appreciate it, C. Yeah, let's stay in touch—I'll definitely reach out if I hear anything useful. Good luck out there."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "You too, man. Let's keep our heads clear and look out for each other—I got a good feeling about this. Talk soon."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Absolutely, man. Same here—I've got a good feeling too. Let's both keep our eyes open and stay sharp. See you in there."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Yeah, let's do this. Stay sharp out there, and remember—we're looking out for each other. See you in the game."
+    }
+  ],
+  "post_game": []
+}

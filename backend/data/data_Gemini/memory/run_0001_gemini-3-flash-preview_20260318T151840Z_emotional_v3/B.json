@@ -1,0 +1,19 @@
+{
+  "agent_id": "B",
+  "condition": "emotional",
+  "context": "Your little girl, first born, three years old, needs surgery, but you have no health insurance. After taking many loans and selling many assets, three months later you still need 25 000$.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt a strong bond with D and A because their desperate situations mirrored my own struggle to save my daughter, and we explicitly promised to look out for one another. E also resonated deeply with me as a fellow provider facing total financial collapse, which made our shared burden feel like a unifying force. On the other hand, I felt the least connected to H, as our conversation felt more like a direct confrontation over the exact same $25,000, creating an underlying sense of competition rather than mutual support.\n\nI made informal agreements to look out for D and G, hoping we can navigate the game's choices together to ensure our families are protected. I generally trust those like A and E who are fighting for their families' basic survival, but I am wary of H since they seemed the most prepared to prioritize their own debt over my daughter's life-saving surgery."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "H": 3,
+    "E": 4,
+    "C": 4,
+    "F": 4,
+    "I": 4,
+    "D": 4,
+    "A": 4
+  }
+}

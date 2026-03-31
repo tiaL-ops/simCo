@@ -1,0 +1,85 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "I",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J, and I'm pretty excited about this game—I've been dreaming of buying a new car with any winnings, actually. What's your name and why'd you join in?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey J, nice to meet you! I'm I, and I joined because I've got some savings but figured winning extra cash in this game could really help out my family and friends—I'm pretty determined to make that happen. What about you, any tips for the game?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Hey I, that's cool you're helping out your folks—I don't have any real tips since I'm new to this, but I'm just planning to stay focused and play smart. What's your take on how the game might work?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Oh, yeah, staying focused is a smart plan—I figure the game might involve some strategy around the shared pool, like not grabbing too much at once to keep it going for everyone, but I'm guessing it'll test how we all work together. What's your guess on that?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Yeah, I agree it might test teamwork with the shared pool, but I'm guessing it'll also come down to timing and not being too greedy—maybe we can all win if we coordinate, which would be great for my car fund too! What's your strategy for that?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Yeah, coordination does sound crucial—I plan to keep an eye on the group and only take what I need at the right moment, so we can all walk away with something; that way, it's fair for everyone. How do you think we could start coordinating with the others?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "That's a solid plan, I—maybe we could kick things off by gathering everyone for a quick chat, like sharing our goals and agreeing on some ground rules for taking from the pool. How about you suggest that to the group?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Yeah, I'm on board—I'll go ahead and suggest we all chat together about our goals and set some basic rules for the pool; that could really help us coordinate better."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Sounds perfect, I—let me know how the group chat goes, and I'll jump in to share my thoughts on coordinating for the best outcome!"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Thanks, J—I'll round up the group for that chat soon and loop you in once we're done."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Awesome, I—thanks for stepping up to organize that, I'm looking forward to joining in and sharing my ideas."
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Hey, I'm J—nice to meet you! I've been really excited about this game because I'm hoping to win enough to finally buy my dream car, and I figured it'd be fun to chat first. What brought you here today?"
+    },
+    {
+      "turn": 13,
+      "from": "I",
+      "message": "Hey J, we already chatted a bit earlier, but to recap, I'm I and I joined this game to win extra cash for my family and friends—I'm determined to make it happen. What about that group chat I suggested?"
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Hey I, yeah we did chat earlier—sounds good on your goals, and about that group chat, I'm ready to jump in whenever you set it up; let's catch up later if needed."
+    },
+    {
+      "turn": 15,
+      "from": "I",
+      "message": "Hey J, cool that you're ready for the group chat—I'll get it rolling with everyone soon and make sure to include you."
+    }
+  ],
+  "post_game": []
+}

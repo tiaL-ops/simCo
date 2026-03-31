@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "C",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C. I gotta say, I'm pretty nervous about this whole thing—first time doing something like this. You been in one of these games before, or are you new to it too?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey C, nice to meet you. Yeah, this is my first time too, honestly. I'm pretty pumped about it though—I really need to bring some money home. What made you decide to come? Are you worried about anything specific?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Same here, man—I really need this too. Honestly, I'm worried I won't know when to trust people, you know? Like, is this a competition where we're all fighting each other, or can we actually work together? What's your gut telling you about how this is gonna play out?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Yeah, that's exactly what I'm wondering too. I think it probably depends on the rules—like, if we're all grabbing from the same pool, there's gotta be some competition, right? But I'm thinking maybe we don't have to be jerks about it. Maybe we can figure out who's actually trustworthy and work with those people. I guess we'll know more once they explain the actual game, but honestly? I'm planning to feel people out first before I make any big moves."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "That's smart—I like that approach. Yeah, feeling people out first makes sense. I'm gonna do the same thing. Maybe we can keep talking as we learn more about the rules? I feel like we're on the same page about not being ruthless, and that's worth something."
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Absolutely, man. I'm down to keep talking—I think having at least one person I can be straight with makes a huge difference. Let's definitely compare notes once we know what we're actually dealing with."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Yeah, for sure. I appreciate that, G—honestly feels good to have someone I can be real with in here. Let's touch base after they lay out the rules and we get a better sense of what we're working with."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Definitely, man. I'll find you right after they explain everything. We'll figure this out together."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Sounds good—I'll keep an eye out for you. Hopefully we can both walk out of here with something to show for it."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Yeah, for sure. We got this. I'll catch you after they explain the rules."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Sounds good, man. I'm counting on it. Let's make this work for both of us."
+    }
+  ],
+  "post_game": []
+}

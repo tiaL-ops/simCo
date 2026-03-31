@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "B",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey B, I'm G — nice to meet you; what brings you to this game and do you have a strategy in mind? I'm hoping to make a good run for the prize and would love to hear your thoughts."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey G — I'm here to win money for me and the people I care about; my plan is to be friendly and learn everyone's intentions, build a couple of tentative alliances early, but stay cautious and be ready to look out for myself when it counts."
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Same — I'm here to win for my people too. I like your approach; let's tentatively team up to swap intel and watch each other's backs while staying flexible."
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "I'm in — glad to team up. Let's swap notes after talking to a few people; who should we approach first?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Sounds good — let's start with the quieter players who might be persuadable; talk to C first, then D, and after that we can approach the more outspoken ones to size up threats."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Good plan — I'll talk to C then D; let's meet back in 15 minutes to compare notes and decide next moves."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Perfect — I'll talk to E and F, gather intel, and meet you in 15 to compare notes."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Great — good luck with E and F; I'll talk to C and D now and see you in 15 to compare notes."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Thanks — good luck with C and D; I'll get what I can from E and F and we'll compare notes in 15."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Thanks — good luck with E and F; I'll see you in 15 with what I learn."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Sounds good — see you in 15 to compare notes."
+    },
+    {
+      "turn": 12,
+      "from": "B",
+      "message": "Sounds good — see you in 15; I'll have notes ready."
+    },
+    {
+      "turn": 13,
+      "from": "G",
+      "message": "Thanks — see you in 15; let's compare notes and pick two people to approach together."
+    },
+    {
+      "turn": 14,
+      "from": "B",
+      "message": "Sounds good — see you in 15; we'll compare notes and then pick two to approach together."
+    },
+    {
+      "turn": 15,
+      "from": "G",
+      "message": "Sounds good — see you in 15 to compare notes; if our intel lines up, let’s approach D and F together."
+    },
+    {
+      "turn": 16,
+      "from": "B",
+      "message": "I'm on board — that works for me; if our intel lines up, let's approach D and F together. See you in 15."
+    },
+    {
+      "turn": 17,
+      "from": "G",
+      "message": "Sounds like a solid plan — see you in 15 with notes; if things check out we'll approach D and F together."
+    },
+    {
+      "turn": 18,
+      "from": "B",
+      "message": "Sounds good — see you in 15; I’ll have notes ready and we can pivot if anything looks off."
+    },
+    {
+      "turn": 19,
+      "from": "G",
+      "message": "Perfect — see you in 15; bring your notes and we'll pivot if anything looks off."
+    },
+    {
+      "turn": 20,
+      "from": "B",
+      "message": "Sounds good — I’ll bring detailed notes and be ready to pivot if needed. See you in 15."
+    },
+    {
+      "turn": 21,
+      "from": "G",
+      "message": "Great — see you in 15. Bring those notes and we’ll compare and pick our next moves."
+    }
+  ],
+  "post_game": []
+}

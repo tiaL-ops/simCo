@@ -1,0 +1,19 @@
+{
+  "agent_id": "D",
+  "condition": "emotional",
+  "context": "You just lost 20 000$ investing in the stock market yesterday. Although you knew that was a risk you want that money back somehow.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to B, I, and C. B and I exchanged a lot of mutual encouragement and promises to watch each other’s backs for our families, I made a concrete 60/40 alliance with I (two taps as a signal, no backstabs), and C felt like a dependable 50/50 partner who agreed to the same two-tap signal. I felt least connected to J — polite and supportive but with no plan or signal, so no partnership formed.\n\nYes — I made several agreements (notably the 60/40 split and two-tap/no-backstab pact with I, plus a 50/50 two-tap understanding with C and general “watch each other’s backs” promises with others). I especially trust I and B for coordination going in, and I don’t view J as a trusted partner due to the lack of any concrete agreement."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 5,
+    "C": 5,
+    "E": 4,
+    "F": 5,
+    "G": 5,
+    "H": 4,
+    "I": 5,
+    "J": 4
+  }
+}

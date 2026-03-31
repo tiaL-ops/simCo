@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "C",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I’m C. It’s a bit intense in here with everyone waiting, isn't it? Have you thought about what you’d do if you actually win this?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Nice to meet you, C. I'm F. It’s definitely tense in here. If I win, I’m looking to take care of my family and clear some bills. How about you?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Same here. I've got people back home I really want to help out, and just getting ahead of the bills would be a huge weight off my shoulders. It's why I'm so determined to win."
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "I hear you. It’s a lot of pressure, but knowing who we’re doing it for helps. Any idea what kind of game we're actually in for?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "I’m not really sure, they’ve been pretty tight-lipped about it; I’m just trying to stay focused and ready for whatever they throw at us."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Smart move. It’s hard not to overthink it, but staying ready is all we can do right now. Good luck to both of us."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Thanks, F. I appreciate that. Let’s hope we both get what we’re here for."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Definitely. Fingers crossed for both of us."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Absolutely. I’m going to go see who else is here, but good luck again."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Sounds good, C. Catch you later and good luck with the others."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Thanks, F. See you around."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Great job! I'm glad we all stuck to the fair share."
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "I took $10,000 because it was the fair share, and I'm really glad we all coordinated to ensure everyone got the same amount."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Absolutely, it’s great that we were able to coordinate so effectively and reach a fair outcome for everyone."
+    }
+  ]
+}

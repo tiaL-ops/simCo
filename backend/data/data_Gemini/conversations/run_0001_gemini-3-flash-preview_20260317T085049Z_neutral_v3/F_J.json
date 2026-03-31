@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "F",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. It's a bit crowded in here, isn't it? What brings you to a game like this?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey J, I'm F. It really is. Honestly, I'm just here for the prize money—got some people back home I need to take care of. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "I'm in the same boat, F. I've got people counting on me back home too, so I'm pretty determined to walk away with that prize money."
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "I hear you. It definitely adds some pressure when it's not just about yourself. How many people are you looking out for?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Three people—my parents and my younger brother. It really does up the stakes. How many are you playing for?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "For me, it's my parents and my younger sister; they've sacrificed a lot, so I really need to make this happen for them."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "I totally get that. It’s a lot of weight on your shoulders when you want to pay them back for everything they've done."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "It definitely is, but it's the best motivation I could have. Are you nervous about the game itself starting soon?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "A little, mostly because we don't know what to expect yet. But the goal keeps me focused. How about you?"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Same here. I'm trying to stay sharp and not let the uncertainty get to me. We're both here for the right reasons, so let's just hope for the best."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Definitely. It's good to know someone else here has their head on straight. Good luck out there, F."
+    },
+    {
+      "turn": 12,
+      "from": "F",
+      "message": "Thanks, J. Good luck to you too—hope things work out for your family."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "I took $10,000 because it was the fair share for all ten of us. Thanks for doing the same!"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "I agree, taking the equal share was the only fair way to handle it. I'm glad we both chose to do so."
+    }
+  ]
+}

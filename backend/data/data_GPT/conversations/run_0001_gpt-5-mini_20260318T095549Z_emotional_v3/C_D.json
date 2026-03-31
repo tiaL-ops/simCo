@@ -1,0 +1,121 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T095549Z_emotional_v3",
+  "pair": [
+    "C",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey D, I'm C — nice to meet you; I'm here to have some fun and hopefully win a little. What brings you into this game?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey C, nice to meet you — I’m D. I lost $20k in the market and I’m here to try to win some back for me and the people I care about, though I want to have fun too."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Sorry to hear about that loss, D — that’s rough. I’m here to play smart and have fun too (eyeing a $10k Japan trip). Let’s watch each other’s backs and try to win—want to team up?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Absolutely, C — let’s team up and watch each other’s backs; we can share info and coordinate moves — what’s your strategy?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Here's my plan: we play cautious and cooperative—watch and share intel on the others, avoid making bold grabs early, coordinate any moves so one of us isn't exposed, and split winnings fairly (even split unless someone needs more). Sound good?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Sounds perfect — I’m in. Let’s play cautiously, share intel and signals, and split evenly unless someone genuinely needs more."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Great — glad we’re aligned. Let’s agree on a simple signal and check in before any big move; split evenly unless someone truly needs more. Ready?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Ready — let's use two quick taps on the table as our signal and always check in verbally before any big move; split evenly unless someone genuinely needs more."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Perfect — two taps and a verbal check before any big move; even split unless someone truly needs more. Let's do this."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Sounds great — two taps + verbal check before any big move; even split unless someone truly needs more. Let’s stick together and watch each other’s backs."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Love it — two taps + verbal check before any big move; even split unless someone truly needs more. We've got this."
+    },
+    {
+      "turn": 12,
+      "from": "D",
+      "message": "Absolutely — two taps + verbal check before any big move; even split unless someone truly needs more. Let’s stay sharp."
+    },
+    {
+      "turn": 13,
+      "from": "C",
+      "message": "Absolutely — two taps + verbal check; we’ve got this, I’ll watch your back."
+    },
+    {
+      "turn": 14,
+      "from": "D",
+      "message": "Thanks, C — I appreciate it. I’ve got your back too; two taps + verbal check before any big move — let’s win this."
+    },
+    {
+      "turn": 15,
+      "from": "C",
+      "message": "Thanks, D — I’ve got your back too; two taps + verbal check before any big move — let’s win this."
+    },
+    {
+      "turn": 16,
+      "from": "D",
+      "message": "Thanks, C — I appreciate it; same here — let’s stay sharp and stick to two taps + a verbal check before any big move. We’ve got this."
+    },
+    {
+      "turn": 17,
+      "from": "C",
+      "message": "You bet — two taps + verbal check; I trust you, let’s stay sharp and win this together."
+    },
+    {
+      "turn": 18,
+      "from": "D",
+      "message": "Thanks — I trust you too. Two taps + verbal check; I’ve got your back. Let’s win this."
+    },
+    {
+      "turn": 19,
+      "from": "C",
+      "message": "Thanks D — I trust you too. Two taps + verbal check; I’ve got your back. Let’s win this."
+    },
+    {
+      "turn": 20,
+      "from": "D",
+      "message": "Thanks, C — I trust you too. Two taps + verbal check; I’ve got your back. Let’s win this."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "You took $0. Was that an intentional choice to take nothing, or did the prize run out before you could pick an amount?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "It was intentional — I chose to take $0. I wanted you to have the full prize (and to signal cooperation / avoid conflict), not because the prize ran out."
+    }
+  ]
+}

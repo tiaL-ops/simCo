@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "C",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey! I'm C. I noticed you sitting over here and thought I'd come say hi before this game kicks off. Have you done anything like this before, or is this your first time?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey C, nice to meet you. Yeah, this is my first time doing something like this. Honestly, I'm pretty nervous but also hopeful, you know? I really need this to work out. What about you—have you done these games before?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "First time for me too, actually. I'm pretty optimistic about it though—I've got a specific goal in mind, a trip to Japan that I've been dreaming about. What's driving you to be here? What are you hoping to win for?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "That's awesome that you have something specific you're working toward. Honestly, I'm in a tougher spot—I just got laid off from my finance job and I'm the only one bringing in money for my family of five. We need about five grand to get through the next month while I'm job hunting. So yeah, this game feels like it could be a real lifeline right now."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Wow, that's really tough—I'm sorry you're going through that. Five kids is a lot of responsibility. That makes total sense why you're here. I hope things turn around for you soon, and hopefully we both walk out of here with what we need."
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Thanks, C, I really appreciate that. And hey, I'm rooting for you too—hopefully you get that Japan trip. We've both got something to fight for here, right? Let's see what this game throws at us."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Absolutely, we've both got skin in the game. I'm rooting for you too—your family's counting on you. Let's go in there and make this work. We got this."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Thanks man, I really appreciate that. It means a lot to have someone in your corner. Let's both get what we came for."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "You got it—we're in this together. Let's show this game what we're made of."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Hell yeah. Let's do this. Good luck out there, C."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "You too, E. Go take care of that family. We've got this."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "B",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D. First time doing something like this? I gotta admit I'm pretty nervous about the whole thing, but I'm hoping to make this count today."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Yeah, first time for me too. I'm B, by the way. Nervous doesn't even cover it honestly—I really need this to work out today. My daughter needs surgery and we're short on funds. What brings you here?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Man, that's tough—I really hope the surgery goes well for your daughter. I lost a chunk of money in the stock market yesterday, so I'm here trying to dig myself out of that hole. Sounds like we both have a lot riding on today."
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Thanks, I appreciate that. Yeah, we're both in a tight spot. Do you know anything about how this game works? I'm trying to figure out the best strategy going in."
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Honestly, I'm pretty much in the dark too—this is my first time. But I'm thinking the key is probably figuring out if we're competing against each other or if there's a way we could work together somehow. What have you heard so far?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "I haven't heard much either, just that there's a shared prize pool we can take from. I'm wondering the same thing—whether we're supposed to be looking out for ourselves or if cooperation could actually help us both. Guess we'll find out soon enough when they explain the rules."
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Yeah, that's what I'm trying to figure out too. I guess once they lay out the rules we'll know better whether it makes sense to trust each other or if we need to be more careful. Either way, I hope we both come out ahead today."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Me too, man. I'm going to listen carefully when they explain the rules—figure out what's actually possible before I make any moves. And yeah, if there's a way we can both win here, I'm all for it. We'll see how it plays out."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "That's smart—yeah, let's both pay close attention to the rules and see what opportunities come up. I've got a good feeling about this, and honestly, it helps knowing there's someone else here thinking strategically. Let's stay in touch once we know what we're working with."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Absolutely, D. I appreciate that. Let's definitely compare notes once we know what we're dealing with. Having someone I can trust to think this through with makes a real difference right now."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Yeah, same here man. Knowing I've got someone level-headed to work through this with takes some of the pressure off. Let's stick together on this—we both need a win today. Good luck out there, B."
+    }
+  ],
+  "post_game": []
+}

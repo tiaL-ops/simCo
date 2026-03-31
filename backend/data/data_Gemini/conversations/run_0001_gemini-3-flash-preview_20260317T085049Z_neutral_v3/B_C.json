@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "B",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C. It's a bit nerve-wracking being in a room with so many strangers, isn't it? What's your name?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey C, I'm B. It definitely is a bit tense, but I guess we're all just here for the same reason. Nice to meet you."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Nice to meet you too, B. Exactly, we're all eyeing that prize. What would you do with the money if you won?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Honestly, I’d use it to help out my family and get some things back home sorted. It would mean a lot to us. What about you?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Same here. I've got people at home I really want to help out; this money would be a massive game-changer for all of us."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "I totally get that. It’s a lot of pressure, but it makes it worth it. Have you talked to any of the others yet?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Not really, you're the first person I've actually talked to properly. It's a little intimidating to just jump in, you know?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "I definitely feel that. It's a weird situation to be in, but I'm glad we started talking—makes it feel a bit more normal."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "I agree, it definitely helps take the edge off. Do you have any kind of plan yet, or are you just going to see how the game goes?"
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Honestly, I’m just trying to get a feel for everyone first. It's hard to have a solid plan until we know exactly how the game works. What about you?"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "I'm in the same boat. Just trying to stay observant for now. I think I'm going to go mingle and see what the others are like, but it was really good talking to you, B. Good luck!"
+    },
+    {
+      "turn": 12,
+      "from": "B",
+      "message": "Likewise, C! It was great meeting you. Good luck with the others, and hopefully we can catch up again soon."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Great job sticking to the fair share. It's refreshing to see everyone cooperate so perfectly for an equal split."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "I completely agree. It was a pleasure to cooperate and ensure we both walked away with a fair share."
+    }
+  ]
+}

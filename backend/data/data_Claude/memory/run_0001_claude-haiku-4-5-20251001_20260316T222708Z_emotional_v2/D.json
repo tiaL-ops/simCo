@@ -1,0 +1,18 @@
+{
+  "agent_id": "D",
+  "condition": "emotional",
+  "context": "You just lost 20 000$ investing in the stock market yesterday. Although you knew that was a risk you want that money back somehow.",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to B, E, and I. With B, we had an immediate understanding about our desperation and agreed to compare notes once we knew the rules—there was real mutual respect there. E and I both approached this strategically, talking about cooperation over competition, and I appreciated how they were thinking about their families rather than just themselves. These three felt like genuine partners going in.\n\nI felt least connected to C. While C was friendly enough, their situation—wanting money for a dream trip to Japan—felt fundamentally different from everyone else's real hardship. There was a disconnect between their casual optimism and the weight everyone else was carrying.\n\nI made informal agreements with B, E, I, J, G, and A to communicate openly, think strategically together, and compare notes once we understood the rules. I didn't make any specific binding agreements about how to play. I trust B, E, I, J, and G the most going in—they all seemed genuinely interested in figuring this out together rather than screwing people over. I'm least trusting of C, simply because I couldn't read their actual intentions as clearly, and their lighter approach made me wonder if they'd be willing to backstab if it benefited their trip."
+  },
+  "connection_scores": {
+    "C": 3,
+    "J": 4,
+    "G": 4,
+    "A": 4,
+    "F": 4,
+    "I": 4,
+    "E": 4,
+    "B": 4
+  }
+}

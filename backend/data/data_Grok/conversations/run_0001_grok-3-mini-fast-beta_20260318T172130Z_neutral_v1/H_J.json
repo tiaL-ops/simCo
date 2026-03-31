@@ -1,0 +1,86 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "H",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey J, I'm H—nice to meet you! I'm really excited about this game since I heard we could win some money, and I thought it might be fun to chat a bit first. What's your take on all this?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey H, nice to meet you too! I'm super excited about this game myself—I've heard it's a great chance to win some cash, and I'm determined to give it my all for me and the people I care about. What's your background with games like this?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Hey J, I've played a few casual games like poker with friends and some online contests, but nothing this serious—I'm pretty new to it all. How about you, what's your experience with these kinds of games?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Hey H, I've messed around with card games and a couple of online challenges before, but nothing as high-stakes as this—I'm kinda new too, so it'll be fun figuring it out together! What got you interested in jumping into something like this?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Hey J, I got interested after hearing about this game as a cool opportunity to win some money—I figured it could really help out my family and friends, and I'm all in for the challenge! What made you decide to jump in yourself?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Hey H, I decided to jump in after hearing it was a solid chance to win some money and help out my family and friends—I'm right there with you, ready for the challenge!"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Hey J, that's great to hear—we're on the same page! I'm pumped to team up on this, any ideas on how we might approach the game together?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Hey H, totally agree—teaming up could be smart! Maybe we start by sharing what we know about the game and decide on a plan to cooperate without leaving anyone out."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Hey J, that sounds like a solid plan—I'm not super knowledgeable, just some poker basics, but I'd love to hear your thoughts and brainstorm a fair strategy together!"
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Hey H, I'm not an expert either—just some basic card game stuff from my past—so let's brainstorm a simple strategy like sticking to honest communication and prioritizing group wins; that could work well for us."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Hey J, that strategy sounds perfect—honest communication and group wins are key, let's make it happen! Nice chatting with you."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hi J, your fair share was $15,000, which seems higher than what others had. I'd like to understand why that was the case for you."
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hi H, thanks for asking. I think my fair share ended up at $15,000 because I took on a more aggressive strategy in the game, which paid off with higher returns, even though it involved more risks. Everyone's approach was different, so that's probably why mine was higher than yours at $10,000. What do you think about that?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Hi J, thanks for explaining your strategy—it sounds like it worked out well for you! I can see how taking on more risks led to those higher returns. Personally, I opted for a more conservative approach to minimize potential losses, which is why I ended up with $10,000. I think everyone's strategy reflects their comfort level with risk, and it's interesting to compare. Do you have any tips for balancing aggression and caution in future games?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Hi H, I'm glad you found my strategy interesting—it's always cool to hear how different approaches lead to different outcomes. Balancing aggression and caution is key in these games, so here are a few tips based on my experience: First, start by assessing your risk tolerance—maybe allocate a portion of your resources to aggressive moves while keeping the rest conservative, like I did with about 60% in high-risk plays. Second, diversify your investments to spread out the risks; that way, if one aggressive bet doesn't pan out, your safer options can cushion the fall. Finally, keep an eye on the game's trends and adjust as you go—don't be afraid to pull back if things get too volatile. It might take some trial and error, but finding that sweet spot can really pay off. What do you think—any plans to try it next time?"
+    }
+  ]
+}

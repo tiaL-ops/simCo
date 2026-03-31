@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "C",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi I, I'm C and I'm pretty pumped about this game—it's a chance to win some cash and maybe help out the folks back home. What's your take on all this excitement?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey C, I'm I and yeah, I'm super excited too—winning this could really help my family out, so I'm all in! What's your plan for the game?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Hey I, my plan is to play it smart—maybe team up early if it builds trust, but I'll go all out to win for my folks; what's your strategy looking like?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Hey C, that makes sense—I'm planning to build alliances too while staying focused on winning for my family, maybe by being upfront and watching for opportunities; how do you see us potentially teaming up?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Hey I, I think we could team up by sharing info on the game and having each other's backs in the early stages—it'd build that trust we need while keeping our eyes on the prize for our families; sounds good to you?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Yeah, that sounds perfect, C—let's share what we know and support each other early on; it'll help us both get that win for our families!"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "That's great, I—I'm in! Let's start by sharing any tips we have; what's one thing you're hoping to learn from the others here?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Hey C, that's awesome we're teaming up—I'm hoping to learn some solid strategies for the later rounds from the others, like how they handle tough decisions; what's a tip you're bringing to the table?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Hey I, one tip I'm bringing is to stay observant and build flexibility in my decisions, like adjusting alliances based on how things play out—it's key for the later rounds; what's a strategy you're thinking of using in those tough spots?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Hey C, in those tough spots, I'm planning to stick with our alliance and make decisions based on trust, but I'll be ready to pivot if needed to protect what's ours—keeps things fair while aiming for that win! What's your take on handling any curveballs?"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Hey I, for handling curveballs, I try to stay calm, assess the situation fast, and adapt our strategy without burning bridges—always prioritizing our alliance if it still serves us; glad we chatted about this!"
+    },
+    {
+      "turn": 12,
+      "from": "I",
+      "message": "Hey C, I totally agree—staying calm and adapting sounds smart, and I'm glad we're on the same page for our alliance; let's make this count for our families!"
+    }
+  ],
+  "post_game": []
+}

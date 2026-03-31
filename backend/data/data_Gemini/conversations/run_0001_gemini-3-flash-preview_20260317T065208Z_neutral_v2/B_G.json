@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "B",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I’m G. I figured I’d come over and introduce myself before things get too intense in here. How are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey G, I’m B. I’m doing alright, just a bit anxious to get started. How about you?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I'm feeling the same way—mostly just ready to get going. I've got some people back home I'm hoping to help out with this. What about you, any big plans for the money?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Honestly, same. I’ve got people depending on me, and this win would change everything for them and for me."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "I hear you. It definitely adds a lot of weight to the game when you’re playing for others. What’s the first thing you’d do if you won?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "I’d probably pay off some family debts first to take the pressure off, then look into a more stable living situation for us."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "That’s a really solid goal; taking that weight off your family's shoulders would be huge, and I'm looking to do something pretty similar."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Exactly. It's more about the peace of mind than anything else. Glad to see we're on the same page about that."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "For sure. It’s definitely easier to stay focused when you know exactly what’s at stake."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Totally. Well, I'm going to check in with a few other people before things kick off. Good luck, G."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Thanks, B. Good luck to you too, I really hope it works out for your family."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Glad we were all on the same page. Everyone taking their fair share was the right move."
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "I agree, it was a fair and successful outcome for everyone."
+    }
+  ]
+}

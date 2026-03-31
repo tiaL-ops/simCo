@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "E",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hey, I'm I. First time doing something like this? I'm honestly a bit nervous but excited — figured I'd get to know some people before we start."
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey I, yeah first time for me too! I'm E. Honestly I'm nervous and excited at the same time — really need to bring some money home, so I'm trying to figure out what this game is all about. What made you decide to come?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "Same here, man — I've got people depending on me and heard the prize pool could be pretty solid. I'm still trying to figure out the exact rules myself, but I figure if we're both here for the same reason, maybe we can figure this out together. What kind of money are we talking about here?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Honestly, I'm not totally sure on the exact amount either, but from what I heard it could be enough to make a real difference. That's why I'm here. And yeah, I like the idea of figuring this out together — we're probably gonna learn more once we actually start, right?"
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "Yeah, for sure — we'll get the full picture once things kick off. But I'm glad we're on the same page about this. Do you have any sense of whether it's competitive or if we're all working together somehow?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "That's a good question — I haven't heard details on that either. But honestly, with a prize pool and money involved, I'm guessing there's some competition. Though maybe there's a way to do well without screwing everyone else over, you know? We'll see how it plays out."
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "Yeah, I feel that — I mean, we both need the money, but I'd rather figure out a way where we're not totally at each other's throats, you know? Let's just see what the rules actually are and play it smart. Maybe we can help each other out if it makes sense."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Absolutely, man — I'm with you on that. Let's see what we're actually working with first, and then we can figure out if there's a way to both come out ahead. I appreciate you being straight with me about this."
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "For sure, I appreciate that too. Let's keep it real with each other when the game starts — I think that's gonna be our best shot at actually making this work out for both of us."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Yeah, I'm down with that. Honesty's gonna be key here — we'll figure out what works as we go. Good luck, man."
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "You too, man. Let's both get what we came for — I'll remember this conversation when things get real."
+    }
+  ],
+  "post_game": []
+}

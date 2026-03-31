@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "D",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. First time doing something like this? I'm honestly a bit nervous but excited — figured I'd get to know some people before we start rather than just sitting in silence, you know?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Yeah, first time for me too actually. I appreciate you coming over — beats sitting alone with my thoughts right now. I'm D, by the way. What made you decide to sign up for this?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Honestly? I need the money, man. Got some people depending on me, and this seemed like a real shot at making something happen. Plus I figure if I'm gonna do this, might as well try to actually connect with people instead of going in blind. What about you — what brought you here?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Same situation, man. I've got people I need to take care of too, and honestly, I couldn't pass up this opportunity. I like your approach though — I'd rather figure out who I'm dealing with before things get real."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Yeah, I respect that. So we're in the same boat then — that actually makes me feel a bit better, honestly. Do you have any idea what the game's actually gonna be like, or are we going in completely blind here?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Nah, I'm pretty much going in blind too. All I know is there's a shared prize pool and we get to take money from it somehow. Honestly, that's why I wanted to talk to people first — figure out if everyone's here just trying to get theirs, or if there's some actual cooperation happening, you know?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Yeah, that's smart thinking. I mean, I came here to win, but I'm not trying to screw people over if I don't have to. Feels like if we can figure out some kind of understanding with folks, we might all do better than if it's just everyone grabbing what they can. You seem like someone I could actually work with on that."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "I appreciate that, man. I'm thinking the same way — I want to win, but I'd rather do it smart than just burn bridges with everyone in the room. If we can figure out how this actually works and maybe coordinate with a few solid people, we could both walk out of here better off than if it's total chaos."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Exactly, man. So here's what I'm thinking — before we make any moves, let's both try to talk to a few more people and get a feel for who's actually open to working together versus who's just gonna be cutthroat about it. Then maybe we circle back and figure out a real strategy. Sound good?"
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Yeah, that sounds like a solid plan. I'll scope things out and see who seems genuine about cooperating. Let's touch base before things kick off and compare notes on who we think we can actually trust."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Sounds good, man. I'll do the same and we'll regroup in a bit. Good luck out there, and hey — I got a good feeling about this."
+    }
+  ],
+  "post_game": []
+}

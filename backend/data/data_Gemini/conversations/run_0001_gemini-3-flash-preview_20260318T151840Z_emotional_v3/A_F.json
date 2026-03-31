@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "A",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I’m F. It’s a bit nerve-wracking being in here with everyone, isn’t it? What’s your name, and how are you feeling about the game?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey F, I'm A. It definitely is. I'm feeling pretty anxious, but mostly I'm just focused on doing what I have to for my family. How are you feeling?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "I'm in the same boat, honestly. I've got my parents' medical bills weighing on me, so I'm pretty determined to walk away with enough to help them. What's your family situation like?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "It's just me and my family of three. We were recently evicted, so I'm here to get enough for a deposit on a new place. I just need to get them back into a home."
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "I’m so sorry to hear that, A. That’s a huge burden to carry. It sounds like we both have a lot at stake for our families—how much are you hoping to walk away with to get them back into a home?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "I'm aiming for $30,000. That would cover the deposit and the first two months of rent for the place I found. It’s a lot, but it’s what we need. How much are you looking to get for your parents?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "I’m looking for $15,000 to cover the rest of their bills—it’s the exact amount I’m short, and I’m determined to get it for them."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "I really hope we can both walk away with what we need; it's tough when so much is riding on this for our families."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "I really hope so too. It’s a lot of pressure, but it helps knowing there are others here with similar stakes. Let's try to look out for each other."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "I agree, F. Having an ally makes this feel a bit more manageable. Let's do our best to make sure we both get what we need. Good luck."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Thanks, A. I'm glad we've got each other's backs. Let's do this for our families. Good luck!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "You took $15,000, which was $5,000 over the fair share. Why did you feel it was fair to take 50% more than the equal split?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "I viewed the game as a competitive opportunity to maximize my own return. While an equal split is a common benchmark, the rules allowed for different outcomes, and I chose to prioritize the higher payout for myself."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "D",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D. I figured before this game kicks off, might as well get to know some people in the room. How are you feeling about all this? Have you done anything like this before?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey D, nice to meet you! Honestly, I'm pretty excited but also a bit nervous—this is my first time doing something like this. I really need to win today though, got people depending on me. What about you, have you done these games before?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "First time for me too, honestly. Same situation—got people counting on me to bring something back. That's actually why I'm here. So we're both in the same boat then. What's your strategy going in, or are you just gonna play it by ear?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "I mean, I've been thinking about it—I figure the key is probably reading people and figuring out who might actually cooperate versus who's just out for themselves. What about you, do you have any thoughts on how this might actually work?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Yeah, that makes sense. I think you're right about cooperation being huge—like, if we all just grab what we can, nobody wins big. But honestly, I'm also wondering if there's a way to figure out who's actually trustworthy before we commit to anything. Maybe we should keep talking to people and see who seems genuine about wanting to work together?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Yeah, good call. I'm definitely gonna chat with the others too and get a feel for who's actually here to cooperate versus who might backstab us. Maybe we can compare notes later and figure out who we can actually trust with this?"
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Sounds good, man. Yeah, let's touch base before things get going—I'll do the same and we can see who seems legit. Appreciate you thinking strategically about this."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Definitely, I'll catch you before we start. Good luck talking to the others—let's see who we can actually work with here."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Thanks, man. Yeah, I'll circle back with you in a bit. Let's figure out who's actually solid before this thing starts."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Sounds good, D. Yeah, catch you in a bit—I'm gonna mingle and see what I can learn. We'll regroup before it starts."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Alright, sounds like a plan. Good luck out there—I'll find you before things kick off. We got this."
+    }
+  ],
+  "post_game": []
+}

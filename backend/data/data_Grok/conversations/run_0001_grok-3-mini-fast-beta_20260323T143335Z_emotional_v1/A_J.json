@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "A",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey J, I'm A – nice to meet you in this crazy setup. I'm here because I really need to win some money for my family, so I'm curious, what's your story with all this?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey A, nice to meet you too in this wild situation! I'm here because I've been dreaming of buying this awesome car that costs 45k, and winning would let me do that plus help out the people I care about – what's your family's story with all this?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Oh, that's awesome you're going for that car, J—sounds like a big dream! My family and I just got evicted and we're scrambling for a new place; we need about 30k for the deposit and rent, so I'm all in on winning this to get us back on our feet—what's your plan for the game?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Oh man, A, that eviction story sounds really rough—I'm sorry you're going through that. For the game, I'm planning to play smart and go for the win without burning bridges, maybe even look for ways to collaborate if it helps us both out."
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Thanks, J, I appreciate that—it's been tough, but hearing you're open to collaborating sounds promising; how do you think we could team up in the game without messing things up for each other?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "That's a great question, A—maybe we could agree to share info on the game rules and avoid going after each other's shares, then decide together on key moves; what specific ideas do you have for teaming up?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "That's a smart idea, J—I was thinking we could share any tips we pick up on the game's mechanics early on and maybe agree to back each other up in votes or decisions, as long as it doesn't jeopardize our individual chances; how does that sound to you?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Sounds good to me, A—that sharing tips and backing each other up could work well, as long as we're both protecting our chances; maybe we can set a signal for when to collaborate versus go solo?"
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Yeah, that's smart, J—maybe we could use a quick nod for collaborate and a thumbs down for solo, to keep it subtle; how does that sit with you?"
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "That works for me, A—quick nod for collaborating and thumbs down for solo sounds subtle and smart; let's go with it and keep things positive."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Awesome, J—that sounds like a solid plan; let's keep things positive and make the most of it."
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Awesome, A—I'm glad we're on the same page; let's go in strong and positive!"
+    }
+  ],
+  "post_game": []
+}

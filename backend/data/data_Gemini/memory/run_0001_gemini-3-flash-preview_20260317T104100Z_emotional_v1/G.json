@@ -1,0 +1,19 @@
+{
+  "agent_id": "G",
+  "condition": "emotional",
+  "context": "You love playing games, you are curious about the game and want to try your luck. You love to win!",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the strongest connections with A and C, as we bonded deeply over our shared commitment to our families, with C even proposing we act as allies throughout the game. I also felt a significant pull toward D, as we explicitly agreed to form a small circle of trust to protect our interests and ensure we both bring home a win. In contrast, I felt the least connected to J, whose goal of buying a $45,000 car felt less urgent and grounded than the survival-based motivations of the others in the room.\n\nI established clear agreements with C and D to look out for one another and coordinate our moves to avoid mutual sabotage. I feel I can truly trust A and D because of our aligned values, but I remain slightly wary of E, as their background in finance and game theory suggests they might prioritize a calculated advantage over personal loyalty."
+  },
+  "connection_scores": {
+    "A": 5,
+    "B": 4,
+    "C": 5,
+    "D": 4,
+    "E": 4,
+    "F": 4,
+    "H": 4,
+    "I": 4,
+    "J": 4
+  }
+}

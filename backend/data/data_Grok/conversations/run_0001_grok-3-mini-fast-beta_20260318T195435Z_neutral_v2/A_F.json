@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "A",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey F, I'm A—nice to meet you! I'm really excited about this game since I heard we could win some money, and I'm here hoping to bring home enough to help out my family. What brings you here?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey A, nice to meet you too! I'm here for the same reason—excited about winning some cash to help out my family and friends. What about you, any fun plans if we win big?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Hey F, that's awesome we're on the same page! If we win big, I'd love to take my family on a simple trip or treat them to something fun like a beach day—mostly just to secure our future. What's your big plan?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Hey A, that's cool about your trip idea! For me, I'd use the winnings to pay off bills and treat my family to a cozy dinner or maybe a weekend getaway—nothing fancy, just to make life easier for us. What's your top pick for that beach day?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Hey F, that's a smart plan with the bills and family time—sounds relaxing! For my beach day, I'd go for something like Santa Monica; love the waves and just chilling with family. What's your go-to spot for that weekend escape?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Hey A, Santa Monica sounds perfect for chilling—my go-to for a weekend escape is Lake Tahoe, it's all about the mountains and relaxing by the lake with family. Ever tried anything like that?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Hey F, I haven't been to Lake Tahoe, but I've hiked in the Rockies before—it's so peaceful; what do you love most about it?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Hey A, that's great you enjoyed the Rockies—I love the crystal-clear water and peaceful mountain vibes at Lake Tahoe; it's perfect for unwinding, what made the Rockies so special for you?"
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Hey F, the Rockies were special for their breathtaking views and the fresh mountain air that made me feel alive and connected to nature—really helped me unwind from everyday stress."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Hey A, that sounds incredible—the Rockies really do have that magic for unwinding, and it's cool we both love nature's recharge; it's been great chatting, but I should mingle more before the game starts."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Hey F, totally agree—the Rockies have that special vibe, and it's awesome we both get recharged by nature; it's been a blast talking, good luck in the game!"
+    }
+  ],
+  "post_game": []
+}

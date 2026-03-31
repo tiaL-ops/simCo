@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "C",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C. I figured before we jump into this game, might as well get to know some people in the room. Have you done anything like this before, or is this your first time?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey C, nice to meet you! First time for me, honestly. I'm pretty nervous but excited too — I really need to bring some money home. Have you done one of these before?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "First time for me too, so we're in the same boat! I get it — I really need to win something here for my family. Have you thought about what your strategy might be, or are you just gonna play it by ear?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Honestly, I'm still figuring it out. I'm thinking it helps to understand what everyone else is planning — like, are people gonna be competitive or more collaborative? What about you, do you have any thoughts on how to approach this?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Yeah, that's smart thinking. Honestly, I'm leaning toward being collaborative if I can — like, if we can all walk away with something, that's better than everyone fighting and ending up with nothing, you know? But I'm also realistic that someone's probably gonna try to be cutthroat. I guess I'm gonna feel people out first and see what vibes I get."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "I really like that approach — yeah, I think collaboration makes sense too, but you're right that someone will probably go for it. Maybe we can keep an eye out for each other and see who seems trustworthy before things get intense?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Yeah, I like that idea — having someone I can trust in here would definitely help. Let's stay in touch during the game and signal each other if we see someone making a move. Strength in numbers, right?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Absolutely, I'm with you on that. Let's definitely stick together and watch each other's backs — I feel way better knowing I've got someone I can actually trust in here."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Same here, honestly. I feel better too knowing you've got my back. Let's just play it smart and see how things unfold — we'll figure out the rest as we go."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Yeah, sounds good. I'm glad we connected on this — it honestly makes a huge difference. Good luck out there, and I'll catch you when things get going."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "You too, I. Really glad we talked — means a lot knowing I've got someone solid in my corner. Let's get this done."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "H",
+  "condition": "emotional",
+  "context": "You expect to pay your loan in the next upcoming month and you have started planning ahead, yet you hope someone can just give you 25 000$ to forget about it.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the strongest connection to B because we both need exactly $25,000 to solve our problems, and her daughter’s surgery really touched me. I also felt a solid bond with E, as we both carry the heavy weight of being providers and understood the \"grind\" of trying to stay ahead of bills. D stood out to me as well since we are both just fighting to get back to zero after major financial hits. On the other hand, I felt the least connected to C, whose goal of a trip to Japan felt a bit trivial compared to the life-and-death stakes others are facing, and she even forgot our initial conversation.\n\nI made a clear agreement with B to stick together and try to find a way for both of us to walk away with the $25,000 we each need. I generally trust B because of our shared goal, but I am wary of players like J, A, and F, who were so rattled by the pressure that they completely forgot our first conversations."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "G": 4,
+    "A": 4,
+    "F": 4,
+    "I": 4,
+    "E": 4,
+    "D": 4,
+    "B": 5
+  }
+}

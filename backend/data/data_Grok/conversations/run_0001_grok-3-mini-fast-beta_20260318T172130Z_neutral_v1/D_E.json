@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "D",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey E, I'm D—nice to meet you. I heard this game could be a great chance to win some money, and I'm pretty excited about it. What's your story, anyway?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey D, nice to meet you too—I'm E, just an everyday person looking to win big in this game to help out my family. What's got you excited about it?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Hey E, that's awesome you're playing for your family—I'm excited about this game because I want to win some cash to support the people I care about, like my friends and family; it feels like a real opportunity to make a difference. What about you, any tips for the game?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Hey D, that's cool we're both in it for the people we care about—I'm not really sure on tips yet since this is new to me, but maybe just staying cooperative could help. What's your take on how the game might play out?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Hey E, I think the game could go either way—if we all stay cooperative like you said, we might build a bigger pot, but I'm worried some folks might get greedy and go solo; what do you think about that?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Hey D, I totally get that—greed could mess things up for the group, but I'm hoping we can keep things cooperative to maximize everyone's share; maybe we just need to trust each other a bit more, what about you?"
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Hey E, yeah, I'm with you on building trust—it could really pay off for the group, and I'm ready to try, but I'll stay cautious too; how do you think we could start fostering that trust among everyone?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Hey D, fostering trust could start with everyone sharing a quick story about why they're playing, like what matters most to them—it might help us bond; how do you suggest we get that going?"
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Hey E, I think that's a great idea—maybe we could kick it off by suggesting a quick group circle where everyone shares one thing that matters most to them, like you said; I'll be happy to go first if that helps get things rolling."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Hey D, awesome that you're on board—let's definitely suggest that group circle to everyone; I'll back you up, and hearing your story first could set a great tone for the rest."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Hey E, thanks for having my back on this—I'm pumped to get that group circle started and share first, it'll be great to build that vibe together."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "E",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt a particularly strong bond with H and J, as we both explicitly agreed to form an alliance and look out for each other to ensure our families are taken care of. F also stands out as a reliable partner because we shared a mutual understanding of the pressure we're under and committed to sticking together once the game begins. On the other hand, I felt the least connected to G; while we shared similar motivations, our conversation remained more polite and distant without forming a concrete plan to cooperate.\n\nI made formal agreements to look out for one another with H, J, F, B, and D, establishing a solid network of potential allies. I feel I can trust H and J the most because of our deep connection and shared focus, though I am keeping an eye on everyone to see if their actions match their words once the money is on the line."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 4,
+    "F": 4,
+    "G": 4,
+    "H": 5,
+    "I": 4,
+    "J": 5
+  }
+}

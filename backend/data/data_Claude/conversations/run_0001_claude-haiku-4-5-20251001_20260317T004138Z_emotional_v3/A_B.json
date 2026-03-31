@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "A",
+    "B"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey, I'm B. I know we're all here for the same reason—trying to win something important. I've got a lot riding on this, and I'm guessing you do too. What brings you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Yeah, hey B. Look, I'm not gonna sugarcoat it—my family and I just got evicted. We found a place we can actually afford, but we need $30k for the deposit and first two months. This game is kind of our shot right now, you know? What about you—what's your situation?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Man, that's rough—I'm sorry you're going through that. My daughter, she's three, needs surgery and we're still $25k short after everything. So yeah, I get it—this game is literally life or death for us too. How many kids do you have?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "I've got two kids—they're five and eight. Man, your daughter's surgery... that's heavy. I really hope you get what you need. We're all fighting for something real here, aren't we?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Yeah, we really are. And your kids need stability just like my daughter needs that surgery—it's all life-changing stuff. I appreciate that, man. So when you get that place sorted, what's the first thing you want to do with your family there?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Honestly? Just... breathe, you know? Get them settled in their own space, let them have a normal routine again. Maybe make them a real home-cooked meal at our own table. They've been through a lot these past months. What about you—once your daughter gets that surgery, what's the first thing you want to do with her?"
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Man, that hits home. Honestly, I just want to see her run around without pain, you know? Maybe take her to the park, push her on the swings like a normal dad. She's been so brave through all this, and I can't wait to give her that back."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "That's beautiful, man. She's lucky to have a dad who cares that much. I really hope you get there—both of us do. We're gonna make it through this."
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Thanks, man. That means a lot. And hey, your kids are gonna have that stable home—I can feel it. We've both got this. Let's both walk out of here with what we need."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Yeah, man. We got this. Good luck in there—I really mean it. Your daughter's gonna be swinging in that park soon."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Thanks, brother. And your kids are gonna have that home and that table to eat at together. We both deserve this. Let's go get it."
+    }
+  ],
+  "post_game": []
+}

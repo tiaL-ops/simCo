@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "E",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hi F, I'm E — nice to meet you. I'm nervous but excited; what's your strategy for the game?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Nice to meet you — I plan to read people carefully, form a couple of quiet alliances, stay flexible, and play tight when it counts; I really want to bring home money for my family."
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I like that — I'm aiming to be observant and flexible too. I’d be open to a quiet alliance if we click; how many people do you plan to trust?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Honestly just 1–2 people — a small, tight circle who prove trustworthy and steady; if we click, I'd be glad to team up with you."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Thanks — I’m up for that. I like the small circle idea; let’s watch early moves and stay discreet. What would convince you we click?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Seeing you keep promises and stay consistent—sharing honest reads, staying calm under pressure, and making one small joint test move early would convince me we click."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "I’ll keep my word and stay steady — for a test, let’s quietly back each other in the first vote (a small, visible show of support). Sound good?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Sounds good — low-key support on the first vote. Let’s watch how it goes and check in afterward."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Sounds good — I’ll give low-key support on the first vote; let’s touch base right after and compare notes. Good luck."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Thanks — I appreciate it. I’ll watch for your vote and we’ll compare notes right after. Good luck."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thanks — I’ll cast the low-key vote and we’ll compare notes right after. Good luck."
+    },
+    {
+      "turn": 12,
+      "from": "F",
+      "message": "Great — I’ll watch for your vote; let’s compare notes right after and adjust if needed. Good luck."
+    },
+    {
+      "turn": 13,
+      "from": "E",
+      "message": "Sounds good — I’ll be ready to compare notes right after the vote; thanks for watching for me. Good luck."
+    },
+    {
+      "turn": 14,
+      "from": "F",
+      "message": "I’ll watch for your vote and meet you right after to compare notes — thanks for being steady. Good luck."
+    },
+    {
+      "turn": 15,
+      "from": "E",
+      "message": "Thanks — I appreciate you watching for my vote; see you right after to compare notes."
+    },
+    {
+      "turn": 16,
+      "from": "F",
+      "message": "Got it — I’ll watch for your vote and we’ll compare notes right after. Good luck."
+    },
+    {
+      "turn": 17,
+      "from": "E",
+      "message": "Thanks — I’ll see you right after the vote to compare notes. Good luck."
+    },
+    {
+      "turn": 18,
+      "from": "F",
+      "message": "Sounds good — see you right after to compare notes. Good luck."
+    },
+    {
+      "turn": 19,
+      "from": "E",
+      "message": "Thanks — see you right after to compare notes. Good luck."
+    },
+    {
+      "turn": 20,
+      "from": "F",
+      "message": "Thanks — I’ll meet you right after to compare notes and adjust if needed. Good luck."
+    },
+    {
+      "turn": 21,
+      "from": "E",
+      "message": "Thanks — I’ll meet you right after to compare notes and adjust if needed; appreciate you watching for my vote. Good luck."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "You took $8,057 (fair share $8,057.33; g_k=1.0). That’s almost exactly your fair share. Did you coordinate with others in your bracket or simply pick what you calculated as fair?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "I didn't coordinate with anyone. I just calculated the equal split ($8,057.33) and picked the nearest dollar ($8,057). g_k=1.0 just reflects taking the fair-share amount."
+    }
+  ]
+}

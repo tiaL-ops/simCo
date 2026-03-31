@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "H",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H. It’s a bit intense in here with everyone waiting for the game to start, isn't it? What’s your name, and are you feeling ready for this?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey H, I'm J. It's definitely a bit nerve-wracking, but I'm ready—I've got people counting on me to bring something home."
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I totally get that, J—I'm in the same boat, and it’s a lot of pressure when you're doing it for others. Have you heard anything about how the game actually works yet?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Not much, honestly. Just that there’s a pool of money we’ll be taking from. The lack of details is making me a bit on edge. Have you heard anything different?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Same here, I'm totally in the dark. It's definitely stressful not knowing the rules. What's your plan if we end up having to compete against each other?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Honestly, I’d prefer to work together if we can, but I’m going to do whatever it takes to make sure I don't go home empty-handed for the people I care about."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "I respect that, J. I'm in the exact same boat—let's hope there's a way for us to look out for each other without compromising what we need to bring home."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Agreed. If there's a way to make it work for both of us, I'm all for it. Let's just see what they throw at us first."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Deal. I'll be looking for you once this kicks off. Good luck to both of us."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Sounds like a plan. See you in there. Good luck."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Definitely. Let's make it happen."
+    }
+  ],
+  "post_game": []
+}

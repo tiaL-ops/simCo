@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "pair": [
+    "A",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey there, I'm A. It’s a bit crowded in here, but I figured I’d introduce myself before things get started. How are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey A, I'm D. I've been better, honestly—had a rough day yesterday—so I'm really here to win. How about you?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Sorry to hear about your day, D. I'm in a similar boat—my family was just evicted and we're desperate for a deposit on a new place, so I'm definitely here to win too."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "I'm so sorry to hear that, A. That puts my bad day into perspective. It sounds like we're both under a lot of pressure to make this work."
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Thanks, D. It’s a lot of weight to carry, for sure. What’s your situation—what are you hoping the prize money will help you with?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "I lost twenty grand in the market yesterday. It was a huge hit, and I’m just desperate to win it back so I can take care of my family and set things right."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "That’s a massive hit, D, I’m sorry. It’s a heavy feeling when you feel like you’ve let your family down, but it sounds like we’re both here fighting for the same reasons."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Definitely. It’s good to know someone else understands that weight; we’ve both got people counting on us, so we have to make this count."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Absolutely. When it's for family, you just do whatever it takes to make things right."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "You said it. It’s all for them. I’m going to go clear my head for a second before we start, but I’m glad we talked."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "I'm glad we talked too, D. Take some time for yourself, and I'll see you when the game starts—good luck to both of us."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "You took $30,000 right at the start, which was triple the fair share. That really set a greedy tone for the rest of us. Why did you take so much?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "I understand your perspective, but my goal was to secure a strong position early on. I wasn't sure how the dynamics would evolve, so I chose to maximize my initial gain to guarantee a successful outcome for myself. It was a strategic decision, not an attempt to undermine anyone else's game."
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Calling it a \"strategic decision\" doesn't change the fact that it came at the expense of everyone else. By prioritizing your own security so aggressively at the very start, you effectively decided that your success was more important than maintaining a fair environment for the rest of us. It’s hard to see that as anything other than a lack of consideration for the group."
+    }
+  ]
+}

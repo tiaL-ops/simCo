@@ -1,0 +1,45 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "E",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. I figured before we get started with this game, might as well get to know some people, you know? What's your name, and have you done anything like this before?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey E, I'm H. Nah, this is my first time doing something like this. I'm pretty excited though — honestly, I could really use a win here. I've got people depending on me. What about you, have you done games like this before?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Nah, first time for me too, man. I feel you though — I've got people counting on me as well. That's actually why I'm here. So we're both in the same boat then. You got any sense of what this game's gonna be like, or are we going in blind?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Pretty much going in blind, yeah. All I know is there's a shared prize pool and we get to take money from it. Honestly, that's all they told me. You thinking there's some kind of strategy to it, or just luck?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "I'm guessing it's probably a mix of both, honestly. Like, there's gotta be some strategy involved if we're all taking from the same pool — maybe it matters how much we take or when we take it? But yeah, without knowing the actual rules, it's hard to say. You thinking you're gonna go aggressive and grab as much as you can, or play it safer?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Honestly, I'm leaning toward playing it smart rather than just going all-in. If we're all grabbing from the same pool, going too aggressive might backfire, you know? But I'm also not trying to leave money on the table. Guess I'll see how the first round plays out and adjust from there."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Yeah, that makes sense — feeling it out first is probably smart. We don't know how the other eight people are gonna play either, so yeah, adapt as you go. Good luck in there, H. Hope we both walk out with something for our people."
+    }
+  ],
+  "post_game": []
+}

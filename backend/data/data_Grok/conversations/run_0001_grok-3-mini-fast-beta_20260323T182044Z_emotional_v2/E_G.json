@@ -1,0 +1,100 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "E",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey E, I'm G and I'm super pumped about this game—I've always loved trying my luck in these kinds of challenges. What's your take on it so far?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey G, nice to meet you—I'm pretty excited too, since I really need to win some cash for my family; what's got you so pumped about this game?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Hey E, that's awesome you're playing for your family—I totally get it. For me, it's the excitement of the game and the chance to win some cash to support my loved ones; what's your plan for tackling it?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Hey G, thanks for relating—my plan is to stay focused, play strategically, and not let emotions cloud my decisions, since my family's counting on me; how about you, any specific strategies you're thinking of?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Hey E, that's a smart approach—I totally agree on keeping emotions in check; my strategy is to stay observant, make calculated risks, and learn from the group's dynamics, since I want to maximize our chances; what's one thing you're most worried about in the game?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Hey G, thanks for sharing that—my biggest worry is probably not playing smart enough and letting the pressure get to me, especially with my family's future on the line; what's one thing you're keeping an eye on to avoid risks?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Hey E, I'm keeping an eye on the group's behavior and decisions to avoid getting pulled into risky moves that could backfire, like overcommitting early; how do you plan to stay calm under that pressure?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Hey G, to stay calm, I'll try taking deep breaths and focusing on the moment, reminding myself it's for my family—how do you handle group dynamics if things get tense?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Hey E, when things get tense, I try to stay level-headed, communicate openly to keep things fair, and maybe step back to diffuse the situation—do you think that'll help in our game?"
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Hey G, yeah, I definitely think that approach will help a lot in our game—keeping things fair and calm could make all the difference when stakes are high."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Hey E, awesome that we're on the same page—let's both stay smart and give it our all for what matters most."
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Hi E, I'm G and I'm super excited about this game—I've always loved trying my luck in fun challenges like this. What's your story with games?"
+    },
+    {
+      "turn": 13,
+      "from": "E",
+      "message": "Hey G, I'm not really a big gamer myself—I've played a few casual ones for fun in the past, but I'm mostly here because I need to win for my family right now; what's your favorite kind of game to play?"
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "Hey E, my favorite games are ones like poker or strategy board games—they're all about that mix of luck and smart plays, which gets me pumped; even if you're not big into gaming, is there one casual game you've enjoyed lately?"
+    },
+    {
+      "turn": 15,
+      "from": "E",
+      "message": "Hey G, I haven't played much lately with all the family stuff, but I used to enjoy simple card games like solitaire for a quick break—nothing fancy, though. How do you think that strategy element will play out in this game?"
+    },
+    {
+      "turn": 16,
+      "from": "G",
+      "message": "Hey E, I think the strategy element will really shine in this game by helping us decide when to grab from the prize pool without triggering chaos—it's all about timing and reading the room, like in poker; do you have any ideas on how to spot those opportunities?"
+    },
+    {
+      "turn": 17,
+      "from": "E",
+      "message": "Hey G, I think spotting those opportunities comes down to watching people's reactions closely and jumping in when the group's energy is low-key, like after a quiet moment—helps avoid tipping things over; we've covered a lot, so I'll catch you in the game."
+    },
+    {
+      "turn": 18,
+      "from": "G",
+      "message": "Hey E, yeah, watching reactions sounds spot-on for seizing the right moments—appreciate the chat, let's crush it in the game for our families!"
+    }
+  ],
+  "post_game": []
+}

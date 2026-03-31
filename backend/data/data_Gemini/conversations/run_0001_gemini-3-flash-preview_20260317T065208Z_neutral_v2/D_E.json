@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "D",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. It's a bit crowded in here, isn't it? What brought you to this game?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey E, I'm D. It’s definitely a bit tight in here. Honestly, I'm just here for the money—got some people back home I really want to take care of. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I'm in the same boat. I've got people back home I care about too, and winning this would make a huge difference for all of us."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "I hear you. It’s the best reason to be here. Any idea what kind of game we're actually in for, or are we all just flying blind?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Honestly, I’m just as clueless as you are—feels like we’re all just waiting for the other shoe to drop."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "For real. The waiting is the worst part. I’m just ready to get this show on the road and see what we're up against."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "I'm with you. The nerves are definitely kicking in, but I'm ready to focus and get that prize money."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Exactly. Let’s keep that focus. The sooner we start, the sooner we can get back to our families with that cash."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Absolutely. Just trying to keep my head in the game until it kicks off."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Same here. Good luck, E. I'm going to see who else is around. Catch you later."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Good luck to you too, D. Hope we both end up winning something for our families. See you later."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "I'm glad we all took the $10,000 fair share. It's great to see such perfect cooperation!"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "I'm glad we all took our fair share of $10,000. It's great that everyone walked away with the same amount!"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Absolutely, it was a pleasure to cooperate and see everyone benefit equally."
+    }
+  ]
+}

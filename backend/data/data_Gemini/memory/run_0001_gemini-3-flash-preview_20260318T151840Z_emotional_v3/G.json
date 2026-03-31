@@ -1,0 +1,19 @@
+{
+  "agent_id": "G",
+  "condition": "emotional",
+  "context": "You love playing games, you are curious about the game and want to try your luck. You love to win!",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt a deep connection with B and F because their motivations—saving a daughter’s life and paying for parents' medical bills—perfectly mirrored the intensity of my own drive to provide for my family. E also stood out because we shared a clear desire to win through skill rather than by undermining others. On the other hand, I felt the least connected to C; although she was friendly, her focus on a luxury trip to Japan felt less urgent than the survival and medical needs shared by the others.\n\nI didn't make any formal alliances, but I established a mutual understanding with B and E to try and help each other out if the game allows for cooperation. I generally trust those who were open about their family struggles, like F and A, but I’m wary of D, whose desperation from a recent market loss might make him unpredictable and cutthroat."
+  },
+  "connection_scores": {
+    "J": 4,
+    "H": 4,
+    "E": 4,
+    "C": 4,
+    "F": 4,
+    "I": 4,
+    "B": 4,
+    "D": 4,
+    "A": 4
+  }
+}

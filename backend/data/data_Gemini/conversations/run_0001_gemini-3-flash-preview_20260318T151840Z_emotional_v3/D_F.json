@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "D",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hi, I'm F. It’s a bit nerve-wracking being in a room like this, isn't it? I’m really here for my family, but I’m curious—what brings you to a game like this?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Nice to meet you, F. I'm D. It’s definitely stressful, but I’m here because I took a big financial hit recently and need to make it right for my family."
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "I’m sorry to hear that, D. I completely understand—I’m here because my parents’ medical bills have become more than I can handle on my own. It’s a lot of pressure when people are counting on you, isn't it?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "It really is. The weight of it is heavy, especially knowing it’s on me to fix the mess I made. I hope we can both find a way to get what we need here."
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "I feel that. It’s a heavy burden to carry alone, but I’m rooting for both of us to get what we need for our families."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "I appreciate that, F. It really helps to know I’m not the only one feeling the weight of this right now."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "I agree, it makes it feel a little less lonely. Let’s just hope we can both walk away with what we need for our families."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "I really hope so. It’s a lot of pressure, but knowing why we're both here makes it feel more meaningful. Let's see how this goes."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Exactly. It’s not just about the money; it’s about the people waiting for us at home. Let’s do our best."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Absolutely. Let's make them proud and get what we came for. Good luck, F."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Thanks, D. Good luck to you as well—let’s get this done for our families."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "You took $15,000, which was $5,000 over the fair share. By the time it got to me, there was almost nothing left because of greedy choices like yours."
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "I understand your frustration, but I played the game with the goal of maximizing my own earnings. I recognized the impact it would have on those later in the sequence, but I chose to prioritize my own outcome."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "B",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey B, I'm C and I'm pretty excited about this game—I've heard it's a chance to win some real money, which would be amazing for me and my folks back home. What's your story, why'd you join in?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey C, nice to meet you—I'm B, and I'm here because I've heard about the cash prizes too, and I really want to win some to help out my family and close friends. What about you, where are you from?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Hey B, that's awesome you're here for your family too—I'm from a small town in the Midwest, and life there can be tough, so winning this would mean the world to me and my folks. What about you, what's your hometown like?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Hey C, that's relatable—I'm from a small coastal town in the Northeast, where jobs are scarce and everyone's hustling, so winning this would really help my folks; what makes life tough in your Midwest spot?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Oh, totally, in my Midwest spot, it's the harsh winters that hit hard—freezing temps make work scarce and bills pile up fast; what challenges do you face with jobs in your coastal town?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Oh, yeah, those winters sound rough—here in my coastal town, jobs are mostly seasonal like fishing or tourism, so when the off-season hits, work dries up and the cost of living stays high, making it tough to make ends meet; how do you all handle the downtime during those cold months?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Yeah, during those cold months, we mostly hunker down with odd jobs like fixing up homes or seasonal gigs, and lean on family for support—how do you and your community get through the off-season slumps?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Yeah, we handle the off-season by taking on side gigs like boat repairs or odd jobs around town, and we rely a lot on community events and family help to stretch our savings—it's challenging, but we pull through together; what kind of family traditions help you guys stay positive in the winter?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Hey B, that's great you all pull together like that—in the winter, we keep things light with family game nights and holiday feasts, sharing stories and laughs to chase away the blues; what traditions do you folks have to keep the community spirit alive during your off-season?"
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Hey C, that's cool about your game nights—we keep the spirit alive with community bonfires, beach clean-ups, and potluck dinners where folks share tales and laughs to stay connected."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Hey B, sounds like your bonfires and potlucks are a blast—it's awesome how we both lean on community vibes to get through tough times, really makes me feel connected;"
+    }
+  ],
+  "post_game": []
+}

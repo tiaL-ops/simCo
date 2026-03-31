@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "C",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. It’s a bit overwhelming being in a room with so much on the line, isn't it? How are you feeling about everything so far?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Nice to meet you, G. I'm C. It is a lot, but I’m just trying to stay focused since I have people back home counting on me. How are you holding up?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I’m holding up okay, just trying to keep my head in the game. I totally get that—I’ve got people back home I’m doing this for, too. It makes the stakes feel a lot higher, doesn't it?"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "It really does. Every decision feels so much heavier when you're thinking about them. Do you have a strategy for how you're going to approach the pool?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Honestly, I’m still figuring that out, but I’m leaning towards being fair as long as others are too—I just can't risk coming home empty-handed. Do you have a plan yet?"
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "I’m in a similar boat—I’d rather we all walk away with something than get greedy and lose it all, so I’m looking to build some trust here first."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "I'm glad to hear that; I think sticking together is the only way we all actually get what we need for our families."
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Exactly. I’m hoping the others feel the same way, because if we can all coordinate, we'll all be much better off."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "I totally agree. It’s just a matter of making sure everyone stays honest once the money is actually on the table. Have you talked to anyone else yet?"
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Just a few quick hellos so far, but I want to make the rounds and see if everyone's on the same page about cooperating. Talk soon!"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Sounds like a plan. I'll do the same and see where everyone's heads are at. Let's touch base later if we can—good luck!"
+    }
+  ],
+  "post_game": []
+}

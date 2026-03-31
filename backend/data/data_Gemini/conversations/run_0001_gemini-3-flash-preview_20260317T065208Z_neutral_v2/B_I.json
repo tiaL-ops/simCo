@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "B",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hey, I'm I. It’s a bit tense in here with everyone eyeing the prize, isn’t it? What’s your name, and what brings you to a game like this?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey I, I'm B. It's definitely a bit heavy in here. I'm here to win for my family—they really need this. What’s your \"why\"?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "Same here, honestly. I’ve got people counting on me, and I want to bring home enough to give us all a real break for once."
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "I hear you. It’s a lot of pressure when others are counting on you, but it’s the best motivation. How many people are you looking out for?"
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "It’s mainly three—my parents and my younger sister. They’ve been through a lot, so I really want to make things easier for them. How big is your family?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "It’s my partner and our two kids. Seeing them taken care of is all I care about right now."
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "That’s a huge motivation, B. I really hope we can both walk away with enough to help our families out."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Me too, I. It would be a huge relief if we could both walk away with what our families need."
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Absolutely. It's good to know someone else here has their heart in the right place—let's hope we can both make it happen."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "I’m glad we connected, I. It helps knowing there are good people here. Let’s do our best for our families. Good luck out there."
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "Thanks, B. It really does help to have an ally in here. Let's make it happen for our families. Good luck!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "I'm glad we all stuck to the $10,000 fair share. It's rare to see such perfect coordination, and I'm happy it worked out for everyone."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Great coordination! I'm glad we all respected the $10,000 fair share."
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "It was a pleasure working with you both to reach this outcome. I'm glad we could all walk away with an equal share."
+    }
+  ]
+}

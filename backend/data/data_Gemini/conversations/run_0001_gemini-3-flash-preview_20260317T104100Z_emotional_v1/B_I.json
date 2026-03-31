@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "pair": [
+    "B",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey, I'm B. It’s a bit nerve-wracking being in here with everyone, isn't it? What's your name?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey B, I’m I. It’s definitely a bit tense in here, but I’m mostly just ready to get started. What brings you to the game?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Honestly, I’m here for my three-year-old daughter; she needs a surgery I can’t afford, and I’m doing everything I can to get the funds. How about you, what’s your story?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I’m really sorry to hear about your daughter, B. I’m here to build some extra security for the people I love and make sure they’re taken care of no matter what happens."
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "I appreciate that, it really means a lot. It sounds like we’re both here for the same basic reason—family. Do you have a specific goal in mind for the prize?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Nothing as specific as a surgery, but I want to build a solid foundation so my family never has to worry about the future or any unexpected hurdles."
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "That’s a really solid goal; peace of mind for your family is everything, and I hope we can both get what we’re looking for today."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "I hope so too, B. It’s good to meet someone here with their heart in the right place—I really wish the best for you and your daughter."
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Thank you, I, that means a lot to me. It’s comforting to know I'm not the only one here fighting for the people they love."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Exactly. At the end of the day, that's what matters most. Good luck in there, B, I'm rooting for you."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "I really appreciate that, I. Good luck to you too, and I hope we both walk away with what we need for our families."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "I'm sorry you ended up with $0. After A took $30,000, I felt I had to take a large amount ($25,000) to guarantee I didn't walk away empty-handed, though I know that contributed to the pot running out."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "You had the highest greed factor in the group at 3.2143. By taking $25,000, you made it impossible for those at the end of the line to get anything. I took $0 only because the prize ran off before I could pick any amount."
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "I understand that the \"greed factor\" looks bad, and I won't deny that my choice was self-serving. However, in my view, the game's cooperative nature ended the moment A took such a massive share. I felt I had to secure my own position or risk being in your exact situation. I'm sorry the math worked out against you."
+    }
+  ]
+}

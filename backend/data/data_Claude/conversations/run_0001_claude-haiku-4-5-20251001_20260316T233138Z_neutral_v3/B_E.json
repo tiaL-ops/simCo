@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "B",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. First time doing one of these games? I'm honestly pretty nervous but excited — heard there's real money on the line and I could really use it for some things back home."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey E, nice to meet you! Yeah, same here — first time for me too. I'm definitely nervous but trying to stay focused. What kind of things are you hoping to bring home for? I figure if we're both in this, might as well get to know each other a bit."
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Mainly just want to help my family out with some bills and maybe save a bit for myself, you know? It's been tight lately. What about you — what would you do with the winnings if you came out ahead?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "I hear you, man — family stuff is real. Honestly, I'd probably do something similar, maybe pay off some debt and set aside a cushion for emergencies. But I gotta ask — do you have any sense of how this game actually works? Like, what are the rules we're playing by?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Honestly, I don't know much yet — that's what's making me nervous. I'm guessing they'll explain everything once we all get started, but I'm hoping it's not too complicated. You thinking there's some strategy to it, or just luck?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Yeah, I'm wondering the same thing. I figure it's probably got some strategy element to it, otherwise why would they bring a bunch of different people together, you know? We'll find out soon enough, but I'm trying to stay sharp and pay attention to everything they tell us at the start."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "That makes sense — yeah, I'll definitely be listening carefully when they explain the rules. Honestly, having people like you here who seem thoughtful about it makes me feel a bit better. We'll figure it out together, I guess."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Yeah, absolutely — we got this. Just stick with me and let's both pay close attention when they lay out the rules. Might help to compare notes with each other once we understand what we're working with."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Definitely, I appreciate that. Yeah, let's stay in touch once we know what we're doing — two sets of eyes are better than one, right? Good to have someone level-headed in the room."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "For sure, man. I'm glad we connected too — having someone I can trust in here definitely helps. Let's both stay sharp and we'll figure this out when the game starts. Good luck out there."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thanks, man — really means a lot. Same to you. Let's both bring our A-game and hopefully we both walk out of here with something to show for it. See you in there."
+    }
+  ],
+  "post_game": []
+}

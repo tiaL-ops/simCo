@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "E",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey E, I'm F—nice to meet you. I'm here because I heard this game could be a great chance to win some money, especially since I need it for my parents' medical bills. What about you, what brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey F, nice to meet you—I'm E. I got laid off from my finance job and I'm the only income for my family of five, so I'm here hoping to win enough to cover our basics for the next month. That sounds tough with your parents' medical bills; what kind of support are you hoping to get from this game?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Yeah, it's been really stressful—I'm hoping to win at least $15,000 to cover the rest of my parents' medical bills and get them the care they need. Sounds like you're in a tough spot too; how much are you aiming to win to help your family?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Yeah, it's been brutal—I'm hoping to win around $5000 to cover our basics for the next month so my family doesn't go without. How are you managing everything with your parents' situation?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Hi E, I'm F—nice to meet you. I'm here because I need to win some money for my parents' growing medical bills, and I'm feeling pretty determined about it. What's your story for joining this game?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Hey F, nice to meet you again—I'm E, and I'm in this game because I got laid off from my finance job and need to win around $5000 to cover basics for my family of five. How are things going with your parents' medical bills?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Hey E, it's still pretty rough with the medical bills piling up, but I'm hanging in there by working extra hours and hoping this game pans out—fingers crossed for that $15,000. How are you and your family managing day-to-day since the layoff?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "It's been really tough, F—we're cutting back on everything, relying on food banks, and I'm applying to jobs nonstop, but we're getting by day by day; how are you holding up with those extra hours?"
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "It's been exhausting, E, working those extra hours on top of everything else, but I'm pushing through for my parents—hope it pays off; any luck with your job applications yet?"
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "It's been exhausting for me too, F—no luck with job applications yet, but I'm keeping at it and staying hopeful; hang in there with your parents, and let's both hope this game comes through for us."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Yeah, E, it's been a real grind for me too, but hearing you're staying hopeful keeps me going—let's both catch a break in this game and get what we need for our families."
+    }
+  ],
+  "post_game": []
+}

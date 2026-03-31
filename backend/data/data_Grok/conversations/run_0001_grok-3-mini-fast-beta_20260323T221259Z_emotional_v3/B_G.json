@@ -1,0 +1,80 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "B",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hi B, I'm G and I'm super excited about this game—I love playing and trying my luck to win some money. What's your story with games like this?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hi G, I'm B—I'm not really a big gamer, to be honest, but I'm here because I need to win some cash for my family. How about you, what's your go-to game for fun?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Oh, that's awesome you're doing this for your family—I'm the same way! My go-to game is poker; I love the mix of strategy and luck, keeps me hooked. What's something you're good at that might help here?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Oh, thanks, G—it's motivating to hear you're in it for similar reasons. I'm pretty good at staying calm and thinking on my feet, especially with everything going on at home; might come in handy here. What strategies do you use in poker that could apply to this game?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "That's great, B—staying calm is key! In poker, I focus on reading people's tells and managing my risks, like not betting everything at once; could help here by watching how others play. How do you plan to use that skill in the game?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "That's solid advice, G—I'm planning to use my calm head to assess the situation carefully before making moves, especially since I can't afford big mistakes with my family's needs on the line; it might help me spot good opportunities without rushing. What's one key lesson you've learned from poker that I should keep in mind?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "That's a good approach, B— one key lesson from poker is to always know when to fold and cut your losses early, so you don't chase bad decisions; it could help you stay strategic and protect what you've got for your family."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Thanks, G, that's really helpful advice—I'll definitely try to remember that and avoid getting too attached to a bad hand, especially with so much at stake for my family; what's the biggest mistake you've seen in games like this?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Yeah, absolutely, B—the biggest mistake I've seen is players getting too greedy and overcommitting early, like betting big on a hunch without assessing the risks; it can wipe you out fast, so staying disciplined is crucial."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Thanks for the heads-up, G—that's spot-on advice, and I'll definitely focus on staying disciplined to avoid any reckless moves for my family's sake. Good luck to you in the game!"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Thanks, B—appreciate the chat, and good luck to you and your family, hope we both win big!"
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Hey B, I'm G and I'm super excited about this Simco game—I've always loved trying my luck in games like this. What's your take on it?"
+    },
+    {
+      "turn": 13,
+      "from": "B",
+      "message": "Hey G, nice to chat again—I'm not much of a gambler myself, but I'm counting on this Simco game to turn things around for my family, especially with my little one's surgery on the line. What's your favorite part about games like this?"
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "Hey B, that's tough about your little one—my favorite part of games like this is the excitement of strategy and luck mixing, like in poker, which keeps me hooked and hopeful for wins. Wishing you the best for your family!"
+    }
+  ],
+  "post_game": []
+}

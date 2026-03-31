@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "B",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey B, I'm F and I'm pretty pumped about this game—it's a chance to win some money and help out the folks I care about. What's your story, why are you here?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey F, nice to meet you—I'm B, and I'm here because I heard about this game as a chance to win some money and support the people I care about, sounds like we're on the same page! What's your background?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Oh, nice—I'm from a small town up north, working as a barista to pay the bills, but I'm here hoping to win big and help out my family with whatever I can! What about you, any hobbies or something fun?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Oh, that's awesome, F—sounds like a tough but rewarding gig! I'm from the city myself, and I love hiking on weekends to unwind; what about you, any hobbies that keep you sane?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Oh, that's cool you get out hiking—I love reading books to unwind after long shifts, it really helps me relax; ever read anything good on your adventures?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Yeah, reading's a great escape—on my hikes, I love bringing along books like \"Walden\" by Thoreau; it's super inspiring for being outdoors. What's your favorite book you've read lately?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Oh, \"Walden\" is such a classic for nature vibes—I just finished \"The Night Circus\" by Erin Morgenstern, it's this enchanting story that pulled me right in; have you tried any magical realism books?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Oh, \"The Night Circus\" sounds magical—I haven't read much magical realism, but I did enjoy \"One Hundred Years of Solitude\"; it's wild and dreamlike! What's one book you'd recommend for someone like me who loves nature stories?"
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Oh, \"One Hundred Years of Solitude\" is such a trip—it's one of my favorites too! For nature stories, I'd recommend \"Into the Wild\" by Jon Krakauer; it's a gripping true tale of adventure in the wilderness that might inspire your next hike. What's your favorite spot for hiking around here?"
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Oh, \"Into the Wild\" sounds like a must-read for me—thanks for the rec, F! My favorite hiking spot around here is the trails in the nearby state park; it's got these awesome forested paths that feel like stepping into a story, super refreshing after city life. It's been fun talking books and adventures with you!"
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Oh, that state park sounds amazing—definitely adding it to my list! It's been great chatting with you, B, and best of luck in the game."
+    }
+  ],
+  "post_game": []
+}

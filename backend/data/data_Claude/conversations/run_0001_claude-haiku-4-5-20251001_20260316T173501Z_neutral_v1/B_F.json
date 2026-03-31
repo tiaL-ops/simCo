@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "B",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey, I'm B. First time doing something like this? I gotta say, I'm pretty nervous but also excited—heard there's real money on the line here, which would be huge for me and my family. What brings you to the game today?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey B, yeah same here—first time for me too. I'm honestly pretty nervous but really hoping to win something I can take home to my family. The money would make a real difference for us right now, so I'm definitely motivated to do well in this game."
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Yeah, I hear you—it's good to know I'm not the only one feeling the pressure. So what kind of situation are you hoping this money helps with, if you don't mind me asking? And do you have any idea what the actual game is gonna be like?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Honestly, we've got some bills piling up and my mom's been stressed about rent, so this could really help take that weight off her shoulders. As for the game itself, I have no clue—they haven't told us much yet. Do you know anything about how it works, or are we both going in blind?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Yeah, we're both going in blind—I haven't heard anything about the actual rules either. But hey, at least we're in this together. Your mom's situation sounds tough, and I respect that you're stepping up for her. Hopefully whatever this game is, it's something where we can both come out ahead."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Thanks, man—I appreciate that. Yeah, hopefully it's something fair where we both can win. Have you got family counting on you too, or is this more about getting ahead for yourself?"
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Yeah, I've got my little sister and my mom too—she's been working two jobs and I just want to help lighten the load, you know? So we're kind of in the same boat here. That's actually reassuring in a weird way—feels like we both got real reasons to be here."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "For real, man—that's a lot on your shoulders too. It's good knowing someone else gets why this matters so much. We've both got people depending on us, so let's hope this game gives us a real shot at helping them out."
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Absolutely, man. We got this—whatever happens in there, at least we know we're both fighting for something real. Let's both try to come out on top."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Yeah, for sure. We both got people counting on us, so let's bring our A-game in there. Good luck, man—hope we both walk out with something."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "You too, man. We got this. Let's both take care of our families after this."
+    }
+  ],
+  "post_game": []
+}

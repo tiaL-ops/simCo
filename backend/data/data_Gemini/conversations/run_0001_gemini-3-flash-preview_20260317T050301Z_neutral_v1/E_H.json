@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "E",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey there, I'm E. It’s a bit of a strange setup being in here with a bunch of strangers and a big prize on the line, isn't it? What brings you to this game?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Nice to meet you, E. I'm H. It is definitely weird, but I'm here because I'm determined to win that prize money for my family. What's your motivation for being here?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I'm in the same boat, H—I'm determined to win for the people I care about back home and make things a bit easier for all of us."
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "I respect that. It definitely makes the stakes feel higher when it’s for family. Do you have any idea what we should expect once the game actually starts?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "I’m not entirely sure, but I’m bracing myself for some tough choices—probably something that tests whether we’ll work together or look out for ourselves."
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "That’s what I’m worried about too; it’s hard to know who to trust when there’s so much on the line for our families."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "I hear you. It's a lot of pressure, but maybe we can try to look out for each other since we're both in this for the same reasons."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "I’d appreciate that, E. It’s definitely better than going it alone, so let's try to have each other’s backs."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Deal. It’s good to have someone I can count on in here."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Definitely. I feel a lot better having an ally in this. I'm going to go see who else is in the room before things kick off, but I'll see you in a bit."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Sounds good, H. Good luck with the others, and I'll catch you when things get started."
+    }
+  ],
+  "post_game": []
+}

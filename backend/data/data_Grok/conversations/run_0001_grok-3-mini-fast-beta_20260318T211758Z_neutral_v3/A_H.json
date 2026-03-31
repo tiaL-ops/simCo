@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "A",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H—excited to be here for this Simco game; I heard it's a chance to win some real money, and I'm all in for that. What's your name and what brought you to this?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey H, I'm A—super pumped about this Simco game too, heard it's a great way to win some cash, and I'm here to give it my all for me and the folks I care about. What's your story?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Hey A, my story's straightforward—I'm just a everyday person who's heard about these games and wants to win big to support my family and friends; it's all about making a difference for us. What's your background or what excites you most about Simco?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Hey H, my background's nothing fancy—just a regular person from a small town working a steady job, but what excites me most about Simco is the thrill of winning and using that money to support my family and friends; what's your plan for jumping into the game?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Oh, my plan is to play smart, keep an eye on the strategies others use, and maybe form some alliances if it feels right—hoping to walk away with enough to help my loved ones; what's your take on how to approach the game?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Hey H, I figure approaching the game means playing it cool, building trust with alliances like you said, and staying focused on the big win for my folks—do you think we'll need to watch out for any backstabbers?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Hey A, absolutely, in games like this, you can't rule out backstabbers, so staying cautious while building alliances is key—maybe we keep an eye on how people act early on. How do you plan to spot reliable partners?"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Hey H, I think spotting reliable partners means watching for folks who are upfront in chats and stick to what they say from the start—maybe start with small trusts and see how they handle it; how about you, any specific ways you're thinking of?"
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Hey A, I think it's smart to start with that—I'll be looking for people who actually follow through on small promises and don't flip-flop, maybe by proposing a simple pact early; how do you plan to test those small trusts?"
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Hey H, I plan to test small trusts by suggesting a quick, low-stakes deal like sharing a tip and watching if they deliver—keeps things real."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Hey A, that's a smart way to build trust—I'm on board with that approach; let's see how it plays out in the game."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "You only took $405, even though your fair share was $4,050. Was that your choice, or did the prize run out before you could take more?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "It was my choice to take only $405."
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Okay, I understand—it was your choice to take only $405. Thanks for clarifying."
+    }
+  ]
+}

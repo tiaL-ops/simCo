@@ -1,0 +1,131 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T225735Z_emotional_v1",
+  "pair": [
+    "C",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey D, I'm C — nice to meet you. I'm excited for the game and curious what brought you here; are you playing for fun or aiming to win something specific?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey C, nice to meet you — I'm D. I lost $20,000 in the market yesterday, so I'm here determined to win money to get it back and help the people I care about, though I hope we can still have some fun."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Sorry to hear that — that’s rough. I’m here to win too (saving for a Japan trip and to help people I care about), so let’s play smart and look out for each other."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Thanks — I appreciate it. I’m all for playing smart and watching each other’s backs. Want to team up during the game?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Yes — I’m in. Let’s watch each other’s backs, share info during the game, and agree on a fair split if we win. Sound good?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "I’m in—50/50 split sounds fair; let’s share info, watch each other’s backs, and stay in contact during the game."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Sounds good—50/50 it is. Let’s share info, coordinate moves, and use a quick signal during the game to stay in touch."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Sounds good — two quick taps on the table as our signal; I’ll watch for yours and keep you posted."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Perfect — two taps it is. I’ll use the same signal; let’s win this, D."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "You bet — let's win this. I’ll watch for the two taps and keep you posted."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Thanks D — two taps it is. I’ll watch for yours too; let’s stay sharp and win this together."
+    },
+    {
+      "turn": 12,
+      "from": "D",
+      "message": "You got it — I’ll signal if anything’s up. Let’s stay sharp, win this, and watch each other’s backs."
+    },
+    {
+      "turn": 13,
+      "from": "C",
+      "message": "Absolutely — two taps it is; I’ll watch for yours and keep you posted. Let’s win this."
+    },
+    {
+      "turn": 14,
+      "from": "D",
+      "message": "Got it — two taps. I’ll watch for yours and keep you posted; let’s win this together."
+    },
+    {
+      "turn": 15,
+      "from": "C",
+      "message": "Two taps — got it. Appreciate the teamwork; let’s stay sharp and win this."
+    },
+    {
+      "turn": 16,
+      "from": "D",
+      "message": "You bet—two taps and we’ve got this. I’ve got your back, C."
+    },
+    {
+      "turn": 17,
+      "from": "C",
+      "message": "Thanks D — I appreciate it; two taps and we’ve got this — I’ve got your back too."
+    },
+    {
+      "turn": 18,
+      "from": "D",
+      "message": "Thanks C — I’ve got your back too. Two taps and we’ll stick together; let’s win this."
+    },
+    {
+      "turn": 19,
+      "from": "C",
+      "message": "Thanks D — means a lot; two taps and we’ve got each other’s backs — let’s win this."
+    },
+    {
+      "turn": 20,
+      "from": "D",
+      "message": "Thanks C — means a lot; two taps and we’ve got this. Let’s win."
+    },
+    {
+      "turn": 21,
+      "from": "C",
+      "message": "Thanks D — means a lot; let’s stay sharp, watch for the two taps, and bring that win home together."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "You took $20,000 versus a fair share of $6,000 (g_k = 3.3333). That’s a big deviation—were you surprised by the final outcome or fully expecting to secure that much? How do you justify that choice to the group, and would you consider a different approach in a repeat game?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "You took $3,000 but your fair share was $5,625 (g_k=0.5333). Why did you take less than the fair share — was it on principle, a mistake, or influenced by earlier conversation in the game?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I took the $3,000 deliberately. After the earlier exchanges and seeing how others behaved, I decided to signal cooperativeness rather than push for my full calculated “fair” slice — I judged that grabbing the full amount would likely provoke retaliation or collapse cooperation and leave everyone worse off later. It wasn’t a clerical mistake; it was a strategic and partly normative choice (I value keeping the group working together and avoiding being seen as the exploiter). In a repeat game I’d adapt: if others continue to take extreme shares I’d move closer to my fair claim or use contingent responses, but if the conversation and reciprocity persist I’d keep using modest claims to sustain cooperation."
+    }
+  ]
+}

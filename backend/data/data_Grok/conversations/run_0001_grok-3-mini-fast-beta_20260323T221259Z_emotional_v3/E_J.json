@@ -1,0 +1,80 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "E",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey E, I'm J—nice to meet you! I've been thinking about this game and how it'd be amazing to win some cash, maybe even for something fun like buying a new car. What brought you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey J, nice to meet you too! I'm here hoping to win some cash to help support my family—things have been tough lately. What about you? Is the car just a dream, or do you have other plans if we win big?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Oh, man, I totally get it—family comes first, and that's awesome you're here for them. The car is a big dream for me, yeah, this sweet one that costs 45 grand, but if we win big, I'd also want to help out my family and close friends who could use a hand. What kind of support are you hoping to give your family?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Oh, thanks for asking, J—after getting laid off from my finance job, I'm just trying to cover basics like rent, bills, and food for my family of five; we need about $5000 to get through the next month. What about your family—anyone specific you'd help out if we win?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Oh, man, that sounds really tough—I'm sorry about the layoff, and I hope we can help you get that $5000 for your family. For me, I'd definitely help my parents first; they're dealing with some medical bills, and it'd mean the world to ease that burden for them. How are you holding up in the meantime?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Hey J, thanks for the sympathy—I'm holding up okay, just grinding through job applications and keeping things together for my family, though it's pretty stressful. How are your parents doing with those medical bills right now?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Oh, man, it's been rough for my parents too—they're hanging in there, but the medical bills are piling up and it's stressing them out a lot; I'm hoping this game can change that for us. Have you had any bites on those job applications yet?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Oh, yeah, it's been a bit discouraging—no bites on the job applications so far, but I'm staying optimistic. How are you managing to support your parents through all this stress?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Oh, man, I'm just scraping by with my own job, sending what little I can to help with their bills, but it's not enough—it's why I'm counting on this game; how are you keeping your spirits up through all this?"
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Oh, man, I'm keeping my spirits up by leaning on my family for support, like playing games with my kids or going for walks to clear my head—it's tough, but it helps me stay focused. Thanks for sharing your story, J, and good luck to us both."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Oh, man, that's a smart way to stay positive—family's the best support system, for sure. Thanks for sharing your story too, E; let's both hope for the best in this game. Good luck!"
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Hey, I'm J—nice to meet you. I'm really excited about this game because I've got my eye on a new car that costs a whopping 45 grand, and winning here could make that dream come true. What's your reason for joining in?"
+    },
+    {
+      "turn": 13,
+      "from": "E",
+      "message": "Hey J, we've already chatted about this, but I'm here to win money to support my family after getting laid off—basically, cover essentials like rent and food for my five. Let's hope the game treats us well!"
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Oh, yeah, you're right, E—we've already shared a lot, and I hope this game works out for your family as much as for my car dream and helping my parents. Take care, and best of luck to you!"
+    }
+  ],
+  "post_game": []
+}

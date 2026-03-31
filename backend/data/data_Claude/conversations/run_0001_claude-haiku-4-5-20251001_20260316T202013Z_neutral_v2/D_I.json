@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "D",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hey, I'm I. First time doing something like this? I'm honestly pretty nervous but excited — figured I'd get to know some people before we start since we're all in this together."
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey I, nice to meet you! Yeah, first time for me too. I'm D, and honestly I'm in the same boat — nervous but really hoping to make this work. I came here because I need to win some money for my family, so I'm trying to stay focused. What brought you here? What's your story?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "Same here, man — I'm doing this for my family too. I've got some people counting on me, so I'm pretty determined to walk out of here with something. I appreciate you being real about it. Do you have any sense of what this game is actually going to involve, or are we both going in blind?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Yeah, we're pretty much going in blind on my end too. All I know is there's a shared prize pool and we'll get chances to take from it, but the details are fuzzy. I'm guessing it's some kind of strategy thing where we have to figure out the best moves. You picked up anything else from the organizers?"
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "Nah, they've been pretty tight-lipped about it too. But yeah, strategy is probably key — I'm thinking it might be one of those situations where how we all act affects what we can actually take home. Makes me wonder if it pays to cooperate or if it's more of a free-for-all. Either way, I'm gonna try to play it smart and see what happens."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Yeah, that's smart thinking. I'm leaning toward trying to figure out if people are willing to work together first — seems like if we all just grab what we can, nobody wins big, you know? But I'm gonna stay sharp and watch how people act. Maybe we can feel each other out once the game starts and see if there's a way we can all do better together."
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "I like that approach — cooperation could definitely be the play here. I'm with you on watching how people move first, but I'm also thinking we should maybe try to build some trust with a few solid people before the game actually starts. That way we're not going in completely blind about who we might be able to count on, you know?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Yeah, I'm totally with you on that. I think if we can identify even a couple people who seem genuinely here for their families like us and willing to be straight with each other, that could make a real difference. You seem solid — I'm definitely counting you as someone I can trust going in. Should we maybe try to loop in a couple others who give off the same vibe?"
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Yeah, absolutely — I trust you too, man. Let's scope out the room and see who else seems genuine about this. Maybe we can chat with a couple people separately first, get a feel for them, and then we'll know who we can actually count on when things get real."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Sounds good. Yeah, let's split up and talk to a few people, see who's real about their situation and who we can actually work with. I'll hit up a couple folks and we can compare notes before this kicks off. Good call playing it smart."
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "Cool, yeah let's do that. I'll talk to a few people too and we can touch base before things start. Good luck out there, man — I've got a good feeling about this."
+    }
+  ],
+  "post_game": []
+}

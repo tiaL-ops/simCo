@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "A",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey! I'm C. I noticed you're here for the game too — have you done something like this before, or is this your first time?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey C, first time actually. I'm pretty nervous about it, to be honest. I need to win this badly — my family and I just got evicted and we found a place we can afford, but we need 30 grand for the deposit and first two months. What about you, have you done this before?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Oh man, that's a lot of pressure — I'm sorry you're going through that. This is my first time too, honestly. I'm in a much better spot financially, just saving up for a dream trip to Japan, so I can't imagine what you're dealing with. Do you have a strategy going in, or are you kind of playing it by ear?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Thanks for understanding, C. Honestly, I'm still figuring it out — I've been trying to read up on how these games work, but I'm mostly just hoping to stay calm and make smart decisions when the time comes. Have you thought about what you'd do if you win big?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Yeah, honestly if I win big I'd definitely take my Japan trip, but hearing your situation makes me think the smart move is probably to help people who really need it first — like, your family's deposit situation is way more urgent than my vacation, you know? Have you thought about how you'd split any winnings, or is it all going toward the deposit?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "That's really kind of you to say, honestly. Yeah, pretty much all of it would go toward the deposit and getting us settled — my family comes first right now. But I appreciate you thinking that way. So what's your strategy for the actual game? Are you planning to be aggressive or more cautious?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Honestly, I'm leaning cautious — I don't want to make a move I'll regret, especially knowing what's at stake for you and others here. I figure if I stay smart and don't get greedy, I can at least walk away with something, you know?"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "That makes sense — I respect that. Yeah, I'm thinking cautious too, but honestly I'm also trying to figure out if there's a way to be strategic without being ruthless, you know? We'll see how it plays out when the game actually starts."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Yeah, I feel that — there's gotta be a middle ground between being smart and being a jerk about it. Good luck in there, A. I hope things turn around for you and your family."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Thanks, C. That really means a lot — and hey, I hope you get that Japan trip too. Let's both try to do right by ourselves and each other out there."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Absolutely, man. We got this — let's both walk out of here with our heads held high. Take care of your family first, and I'll be rooting for you."
+    }
+  ],
+  "post_game": []
+}

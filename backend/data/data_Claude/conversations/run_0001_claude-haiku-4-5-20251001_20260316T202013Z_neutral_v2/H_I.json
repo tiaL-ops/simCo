@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "H",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H. I figured before we get started with this game, might as well get to know some people in the room. How are you feeling about all this?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey H, I'm doing alright, just honestly pretty excited but also a bit nervous, you know? I really need to do well in this game—got some people counting on me back home. What about you, what brings you here?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Yeah, I totally get that—I've got people counting on me too, which is why I'm here. Same mix of excited and nervous, honestly. So what's your strategy going in? You thinking you'll play it safe or go for broke?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Honestly, I'm still figuring that out—I guess it depends on how the game actually works once we start. But I'm leaning toward being smart about it rather than reckless, you know? What about you—do you have a plan already, or are you winging it too?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Yeah, I feel you—I think I'm gonna wing it a bit too until I see what we're actually working with, but I'm definitely trying to be strategic about it. Seems like we're on the same page with not wanting to blow it on something stupid, which is good."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Definitely—I appreciate that, man. It's reassuring to know there's someone in here thinking clearly about it. Maybe we can keep an eye out for each other once things get rolling, you know?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Yeah, absolutely—I'm down for that. We can look out for each other and maybe compare notes on what's working. Strength in numbers, right?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "For sure, man—I like that. Let's definitely stay in touch during this thing. By the way, what kind of work do you do back home? Just curious what brought you to need this win like I do."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "I do construction work, but honestly it's been pretty inconsistent lately—some months are great, other months I'm scraping by. My family's been tight on money, so yeah, this opportunity felt like something I couldn't pass up. What about you, what's your situation like?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Yeah, I hear you—construction's tough with that kind of inconsistency. For me, I'm in retail management, decent paycheck on paper but with bills piling up and my mom needing help with medical stuff, it never feels like enough, you know? That's really what pushed me to try this. Sounds like we're both in that spot where one solid win could actually change things for our families."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Man, that's a lot on your shoulders with your mom's medical stuff—I respect you stepping up for her. Yeah, we're definitely in similar boats, and honestly it helps knowing I'm not the only one here with real stakes. Let's make sure we both come out of this with something to show for it."
+    },
+    {
+      "turn": 12,
+      "from": "I",
+      "message": "Absolutely, man—I really appreciate that. We got this. Let's both walk out of here with something real for our families. Good luck in there, H."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,90 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "E",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey E, I'm J—heard about this game and it sounds like a fun chance to win some cash. What's your take on it?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey J, nice to meet you! I'm stoked about this game too—I'm here to win some cash for my folks and me. What's your background with games like this?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Hey E, that's awesome you're playing for your folks—I'm in the same boat. I've dabbled in a few online strategy games, but nothing like this; I'm just excited to give it my all. What about you, any past experiences with games like this?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Oh, cool that we're both in it for family—I've mostly played casual board games and a bit of poker with friends, nothing too serious, but I'm pumped to dive in and see how it goes! What's your plan for approaching this game?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Hey E, my plan is to play it smart—build some alliances if they help, but stay focused on winning for my family; how about you, any strategies in mind?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Hey J, my strategy is to play cautiously at first, maybe form some quick alliances like you said, but keep my eyes on the prize for my folks—sounds like we're on similar paths; do you think alliances could backfire?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Hey E, absolutely, alliances could backfire if someone gets too greedy or flips sides, but I think they're worth trying if we stay cautious—how do you plan to spot trustworthy partners?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Hey J, I plan to spot trustworthy partners by watching how they talk and act early on, like if they're genuine about their reasons for playing—maybe start with folks who seem as family-focused as us; what about you?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Hey E, I plan to spot trustworthy partners by paying attention to how they interact and if their stories ring true, especially if they're family-oriented like us—maybe chat more to get a feel; what do you think is a good way to test that early?"
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Hey J, I think a good way to test that early is to propose a small, low-risk collaboration and see if they stick to it—helps gauge reliability without much risk; what are your thoughts on that?"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Hey E, I think that's a smart move—it could help weed out the untrustworthy ones early without exposing ourselves too much; I'm definitely open to trying something like that."
+    },
+    {
+      "turn": 12,
+      "from": "E",
+      "message": "Hey J, awesome that you're on board—let's keep an eye out for reliable folks together and make this work."
+    },
+    {
+      "turn": 13,
+      "from": "J",
+      "message": "Hey E, I'm J—nice to meet you. I'm really pumped about this game since I heard it could be a fun way to win some money, what about you?"
+    },
+    {
+      "turn": 14,
+      "from": "E",
+      "message": "Hey J, nice to meet you—I'm E, and I'm totally excited about this game too, seeing it as a real chance to win some money for my family; what's your take on how to approach it?"
+    },
+    {
+      "turn": 15,
+      "from": "J",
+      "message": "Hey E, nice to meet you too—I'm thinking we should approach this by playing smart, building alliances with trustworthy folks like those focused on family, and staying cautious to avoid any backfires; how are you planning to play it?"
+    },
+    {
+      "turn": 16,
+      "from": "E",
+      "message": "Hey J, I plan to play it smart too—focusing on building those family-oriented alliances while staying cautious, just like we've talked about."
+    }
+  ],
+  "post_game": []
+}

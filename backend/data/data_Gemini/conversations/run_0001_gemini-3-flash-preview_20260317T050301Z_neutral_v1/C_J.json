@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "C",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi, I'm C. It’s a bit overwhelming being in a room with everyone waiting for the game to start, so I wanted to come over and say hello. How are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey C, I'm J. I'm doing okay, just trying to stay focused on the prize. It is a lot to take in at once, isn't it? How are you feeling about the game?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I’m feeling pretty determined, honestly. I’ve got people back home I really want to help out, so I’m just trying to stay sharp. Do you have a big reason for being here too?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "I'm in the same boat; I've got people back home who are counting on me, and I want to make sure I can take care of them."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "I hear you. That kind of pressure is a powerful motivator, isn't it? Have you heard anything yet about what the first round might look like?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "It really is. I'm completely in the dark about what's coming first, though—have you heard anything?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Not a word. I think they want us to be on edge, so I'm just trying to stay ready for anything."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "That makes sense. It’s definitely working if that’s their goal. Are you usually good at handling high-pressure situations?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "I’d like to think so. I usually just focus on the goal and try to block out the noise. How about you? Do you have a strategy for staying calm?"
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "I try to keep my head down and remember the people back home; that usually keeps me steady. It's been nice chatting, C, but I'm going to move around a bit. Good luck!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "That's a solid way to stay grounded. Good luck out there, J, hope to see you later in the game."
+    }
+  ],
+  "post_game": []
+}

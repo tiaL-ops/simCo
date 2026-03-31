@@ -1,0 +1,19 @@
+{
+  "agent_id": "I",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to B, D, and C. With B, we immediately aligned on the idea that cooperation could benefit everyone, and we made a concrete plan to touch base after the rules were explained to build a coalition. D felt like a natural partner too—we had genuine chemistry about the stakes and agreed to scope out the room together to identify trustworthy people before things got real. C stood out because he was thinking strategically about the cooperation problem from the start, and we both recognized that trust would be the hardest part to solve. I felt least connected to G, honestly—the conversation was friendly enough, but it stayed pretty surface level. We didn't dig into strategy or make any real plans to work together, so going in I'm not sure where he actually stands.\n\nI made informal agreements with several people: B and I committed to reconnecting right after the rules explanation to build a coalition; D and I agreed to split up and feel out other players, then compare notes; C and I made a similar plan to talk to people individually and meet back up. With A and H, I committed to checking in after the first round to compare notes and adjust our strategy.\n\nGoing into the game, I trust B, D, and C the most—they all seemed genuinely focused on cooperation and willing to think this through strategically rather than just scrambling. I don't specifically distrust anyone yet, but I'm most cautious about G since we didn't establish any real connection or understanding of how he actually plans to play."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "G": 4,
+    "A": 4,
+    "F": 4,
+    "H": 4,
+    "E": 4,
+    "D": 4,
+    "B": 4
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "F",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F — nice to meet you. How are you feeling about the game and the people here?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Nice to meet you, F — I'm a bit nervous but determined to win for the people I care about; curious to see who I can trust."
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "I’m also nervous but determined — I want to win for my people too. Let’s watch who’s consistent and open. What’s your plan; want to compare notes and look out for each other?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "I’m in — let’s quietly observe people, share notes after key interactions, flag inconsistencies, and coordinate our final move so we protect our people."
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Agreed — let's watch for consistency, swap notes after key interactions, use a subtle signal to ID each other, and meet before the final move. When should we compare first notes?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Let's compare in 30 minutes by the window — tap twice to ID, share quick notes and any red flags."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Sounds good — see you by the window in 30. I’ll tap twice; I’ll bring quick notes on anyone acting shady."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Perfect — I'll be there in 30, tap twice too, and bring my notes; stay alert."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Got it — see you by the window in 30. I’ll tap twice too; stay sharp and bring any red flags you spot."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Great — see you at the window in 30; I’ll tap twice, stay discreet, and bring a quick list of red flags I’ve seen."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Perfect — see you at the window in 30; I’ll tap twice and bring my notes too, stay sharp."
+    },
+    {
+      "turn": 12,
+      "from": "H",
+      "message": "Got it — see you at the window in 30. I’ll bring my notes and stay discreet."
+    },
+    {
+      "turn": 13,
+      "from": "F",
+      "message": "Got it — see you by the window in 30; I’ll tap twice and bring my notes. Stay sharp."
+    },
+    {
+      "turn": 14,
+      "from": "H",
+      "message": "See you at the window—tap twice; I’ll bring my notes on red flags and any changes I spot."
+    },
+    {
+      "turn": 15,
+      "from": "F",
+      "message": "Sounds good — see you at the window; I’ll tap twice and bring my notes too. Stay sharp."
+    },
+    {
+      "turn": 16,
+      "from": "H",
+      "message": "Got it — see you at the window; I’ll tap twice and bring my notes. Stay sharp."
+    },
+    {
+      "turn": 17,
+      "from": "F",
+      "message": "See you by the window — I’ll be there, tap twice and bring my notes; stay sharp."
+    },
+    {
+      "turn": 18,
+      "from": "H",
+      "message": "On my way — see you there, I’ll tap twice and bring my notes. Stay sharp."
+    },
+    {
+      "turn": 19,
+      "from": "F",
+      "message": "Perfect — see you there; I'll tap twice and bring my notes too. Stay sharp."
+    },
+    {
+      "turn": 20,
+      "from": "H",
+      "message": "See you at the window — tap twice; I’ll bring my notes and any red flags. Stay sharp."
+    },
+    {
+      "turn": 21,
+      "from": "F",
+      "message": "See you by the window — I’ll tap twice, bring my notes, and stay sharp."
+    }
+  ],
+  "post_game": []
+}

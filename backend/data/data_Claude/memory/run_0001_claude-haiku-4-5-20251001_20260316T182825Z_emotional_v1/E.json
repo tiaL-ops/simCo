@@ -1,0 +1,19 @@
+{
+  "agent_id": "E",
+  "condition": "emotional",
+  "context": "You got laid off from your finance job. You are the only source of income for your family of five. You have no savings, and are in the middle of searching for another job. You need about 5000$ to support you and your family for a month.",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to F, J, and B. With F, we shared an immediate understanding of desperation—both fighting for family survival with specific, urgent needs. J stood out because he was willing to prioritize trust and honesty over personal gain, which genuinely moved me. B showed real empathy and took initiative to help us all by getting the rules, demonstrating he was thinking about the group's welfare rather than just his own angle. D felt like the least connected—while we both acknowledged our struggles, there was an underlying tension about \"looking out for ourselves\" that made me sense he might play more ruthlessly than the others.\n\nI made implicit agreements with several people to work together and stay honest, particularly with J and B, who both emphasized trust and collective thinking. I explicitly discussed strategy with G but acknowledged we might compete. I trust J most going into this—his commitment to honesty felt genuine—and I'm least certain about D, whose desperation to recoup losses and emphasis on \"playing smart\" suggests he might prioritize personal gain over group cooperation when the moment comes."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 3,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 4
+  }
+}

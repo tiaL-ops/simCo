@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "A",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A. First time doing one of these games, and I gotta say I'm pretty nervous but excited. How about you—have you done something like this before?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey A, nice to meet you! Yeah, this is my first time too actually. I'm pretty pumped about it though—I really need to bring some money home for my family, so I'm hoping we can all do well here. What made you decide to sign up?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Same here, man—I've got people depending on me too. Honestly, I saw this as a real shot to make something happen, you know? The money would help a lot. So we're both in the same boat then. Do you have any sense of what the game's actually gonna be like, or are we going in blind?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Honestly, we're going in pretty blind—I haven't gotten any real details about how it works yet. But I figure we'll find out soon enough. You thinking there's a strategy to it, or is it more just luck?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Yeah, I've been wondering the same thing. I'm guessing there's probably some strategy involved—most games like this do, right? But honestly, without knowing the rules yet, it's hard to say. Maybe we'll get a better read once they explain how it actually works. Either way, I'm hoping it's something where we can all benefit somehow."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Yeah, that makes sense—I like your thinking. And honestly, I'm hoping the same thing too. If we can figure out what works once they lay out the rules, maybe we can all come out ahead together."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "That's what I'm hoping for too, man. We'll figure it out when the time comes. Either way, it's good to know there's someone else here thinking the same way—makes this whole thing feel a bit less lonely, you know?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Yeah, I hear you—it definitely helps having someone to talk to about this. We're in it together, whatever happens. Good luck out there, man."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Thanks man, I really appreciate that. Good luck to you too—let's both bring something home for our families."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Absolutely, man. We got this. Let's make it happen for the people counting on us."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "You know it, brother. We're gonna do this. Take care out there, and I hope you crush it."
+    }
+  ],
+  "post_game": []
+}

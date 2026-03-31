@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "A",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hi, I'm A. It’s a bit nerve-wracking being in here with so much on the line, isn't it? What's your story—what brings you to a game like this?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Nice to meet you, A. I'm E. It definitely is, but I'm just focused on doing what I can to help out my family and the people I care about. What about you—what’s your main goal here?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Honestly, same. I’m here to win for the people I care about too. It’s a lot of pressure, but I’m determined to make it happen."
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "I respect that. It definitely helps having a clear reason to be here. Do you have a big family you're looking out for, or is it a smaller circle?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "It’s a pretty small circle, just the people closest to me who really need the help. What about you—are you playing for a big group?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "It’s a mix, but I’m mainly focused on a few core people who’ve always had my back."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "I get that. Loyalty goes a long way. Hopefully, we can both walk away with enough to help them out."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "I really hope so. Do you have any idea what the game is actually going to be like?"
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Not really, they're keeping us in the dark. I'm just trying to stay sharp and ready for whatever they throw at us. What’s your gut feeling?"
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "My gut says it'll be some kind of test of trust or strategy, given we're all in here together. Whatever happens, I'm ready. Good luck out there, A."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "I think you're right about the trust element. Let's see how it goes. Good luck to you too, E."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "I'm happy we all got our $10,000. I also took my fair share, and it's a great result from a very fair group of players!"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "I'm glad we all took the $10,000 fair share. It's great to see such perfect cooperation!"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "I couldn't agree more! It's been a pleasure cooperating with you all for such a successful result."
+    }
+  ]
+}

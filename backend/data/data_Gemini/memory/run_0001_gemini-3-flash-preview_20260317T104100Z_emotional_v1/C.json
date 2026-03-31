@@ -1,0 +1,19 @@
+{
+  "agent_id": "C",
+  "condition": "emotional",
+  "context": "You are rich and have accumulated significant wealth, and you are financially stable. Your vision board includes a holiday in Japan, the cost will be 10 000$ for a perfect week of your dream.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the strongest connection with G, as we quickly established a mutual sense of trust and explicitly agreed to look out for each other as allies. I also felt very aligned with I and J, as we shared a similar balance of personal dreams and family-oriented motivations that made the competition feel more human and grounded. On the other hand, I felt the least connected to B; although her situation with her daughter is heartbreaking, the sheer weight of her desperation made it difficult to find a stable footing, and I felt the need to step away to maintain my own focus.\n\nI made informal alliances with both G and I, agreeing that we would keep each other in the loop and look out for one another once the game begins. I feel I can trust G the most heading into the game due to our shared enthusiasm and clear communication, while I am most wary of B because her extreme financial pressure might lead to unpredictable or desperate actions."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 3,
+    "D": 4,
+    "E": 4,
+    "F": 4,
+    "G": 5,
+    "H": 4,
+    "I": 4,
+    "J": 4
+  }
+}

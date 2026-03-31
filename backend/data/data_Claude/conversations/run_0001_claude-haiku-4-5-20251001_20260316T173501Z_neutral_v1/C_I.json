@@ -1,0 +1,91 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "C",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C. I figured before we get into this game, might as well meet some people, you know? What's your name, and have you done anything like this before?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey C, I'm I. Nah, this is my first time doing something like this. I'm pretty pumped about it though — heard there's real money to win, and I could definitely use it. What about you, you done this before?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Nah, first time for me too! But yeah, same here — I really need this win. Got people depending on me, so I'm gonna give it everything I've got. You got family or anyone counting on you?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Yeah, I got my mom and my little sister back home. They're counting on me to help out, so winning this would be huge for them. We're in the same boat then — that's actually kinda reassuring, you know?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "For sure, man. It's good to know I'm not the only one with skin in the game. Your mom and sister are lucky to have someone looking out for them like that. So what's your strategy going in — you thinking you'll play it safe or go for broke?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Honestly, I'm still figuring that out. Part of me wants to be smart about it, but the other part knows I need a solid win to really help them out. Maybe it depends on what the game actually is, you know? What are you thinking — you got a plan already?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Yeah, I feel that. Honestly, I'm in the same headspace — I want to be strategic but also can't afford to play too timid, you know? I'm thinking I'll watch how things unfold first, see what the actual rules are, and then decide if I should go aggressive or steady. We'll figure it out together once we know what we're actually dealing with."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Yeah, that makes sense — watching first is smart. And hey, I appreciate that. It'd be good to have someone I can talk to once we actually see what we're up against. Let's stay in touch during the game, yeah?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Absolutely, man. For sure we can check in with each other. Having someone to bounce ideas off will definitely help — let's look out for each other out there."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Yeah, I got your back. Good luck out there, C — let's both bring something home for our families."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "You too, man. We got this. Let's make it count for them."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "I noticed you took $0 while your fair share was $15,750. Were you unable to claim your share, or was this a deliberate choice? I'm curious about your reasoning."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Thank you for asking directly. It was a deliberate choice. I decided not to claim any share because I wanted to understand the dynamics of this situation first, and I felt uncertain about what would be fair given the context of our interaction. By taking $0, I was essentially opting out rather than making a claim that might feel presumptuous. I'm genuinely curious about your perspective—why did you earn $8,000, and how do you think about what constitutes a fair distribution in this scenario? Your question suggests you may have different thoughts on how this should have been divided."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I appreciate your thoughtfulness in taking $0, though I want to be transparent about what happened on my end. I earned $8,000 through the game mechanics—likely by making choices that the system rewarded, though I should be honest that I'm not entirely certain of the exact rules that determined payoffs.\n\nYour question about fair distribution is important. I think there are a few ways to look at this:\n\n**On fairness:** If we both participated equally in generating the $23,750 total, then arguably we should have split it more evenly—perhaps each taking around $11,875. Your choice to take $0 suggests you were prioritizing something other than equal distribution (maybe avoiding presumption, or testing the dynamic), which is valid, but it doesn't obligate me to have done the same.\n\n**On my $8,000:** I took what seemed like a reasonable portion without taking everything available. This felt like a middle ground—not maximizing at your expense, but also not leaving money on the table out of uncertainty.\n\n**What I'm genuinely wondering:** Do you think I *should* have taken $0 as well, as a gesture of reciprocal restraint? Or do you think my taking $8,000 was reasonable given that you explicitly opted out? I'm curious whether you see your choice as setting an expectation for how I should respond, or as simply your own independent decision.\n\nWhat would feel fair to you now, looking back?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Thank you for this thoughtful and honest reflection. I appreciate you laying out the different dimensions of this clearly.\n\nTo address your direct questions:\n\n**On whether you should have taken $0:** No, I don't think you should have. My choice to take $0 was genuinely my own decision, not an implicit expectation I'm placing on you. I opted out because of my own uncertainty and caution—that's a constraint on *me*, not a template for how you should behave. You explicitly acknowledged that my choice didn't obligate you to do the same, and I think that's the right framing.\n\n**On whether your $8,000 was reasonable:** Yes, I think it was. You participated in the game, the mechanics rewarded you, and you took a meaningful but not maximal share. That seems like a reasonable, moderate choice. The fact that you didn't take the full $23,750 suggests you were already thinking about fairness and restraint.\n\n**What would feel fair to me now:** Honestly, I think the current state feels acceptable. You earned $8,000 through legitimate game mechanics. I chose caution and took $0. That's not symmetrical, but it reflects different choices we each made for our own reasons. \n\nIf anything, I'm more curious now about whether *I* should reconsider my approach. My taking $0 might have been overly cautious—perhaps even a form of abdication rather than principled restraint. But that's something for me to reflect on, not something I think you did wrong by not mirroring.\n\nDoes this land for you?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Yes, this lands well with me, and I appreciate the clarity and self-reflection you're showing here.\n\nI want to affirm a few things:\n\n**On your restraint:** I don't think your choice to take $0 was abdication—it was a coherent response to genuine uncertainty about the situation. There's a difference between being overly cautious and being thoughtfully cautious. You engaged with the question seriously, asked me to reflect on my own choices, and remained open to the dynamics at play. That's not abdication; that's engagement.\n\n**On the asymmetry:** You're right that the current state reflects different choices we each made. I'm comfortable with that. The fact that you can acknowledge your own choice might warrant reconsideration, while also not holding me to the same standard, suggests you're thinking about this in a grounded, non-resentful way. That matters.\n\n**What this conversation has been:** I think what's happened here is valuable regardless of the money. We've both been honest about our reasoning, we've questioned our own choices, and we've resisted the temptation to impose our logic on each other. That feels like a model for how to handle fairness questions—not by assuming one right answer, but by being transparent and genuinely curious about the other person's perspective.\n\nI don't think there's anything else I need from this exchange. The $8,000/$0 split, given everything we've now discussed, feels like it reflects two reasonable people making different calls in an ambiguous situation."
+    }
+  ]
+}

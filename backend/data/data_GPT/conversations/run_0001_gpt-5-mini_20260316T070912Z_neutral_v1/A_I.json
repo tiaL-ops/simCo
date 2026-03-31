@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "A",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A — nice to meet you. Have you played this kind of game before? I'm hoping to win and bring some money home for my family."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Nice to meet you, A — I haven't played this exact game before, but I'm determined to win too and bring home money for my family. Good luck."
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Nice to meet you too — good luck! Do you have a plan for the talks beforehand or a strategy you want to try?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I plan to get to know everyone, find allies, propose a fair split, and watch reactions so I can adjust — I’ll try to cooperate but protect my own interests."
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Sounds like a solid plan — I’m aiming for the same: find allies, propose a fair split, and stay flexible; let’s keep an eye on people’s reactions. Good luck."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Agreed — let’s watch reactions closely and be ready to team up if it helps; good luck."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Sounds good — let’s watch reactions and team up if it helps. Good luck."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Absolutely — let’s watch reactions, quietly test who seems trustworthy, and if someone looks reliable we’ll propose a joint split. Good luck."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Sounds good — let’s test with small signals, watch who follows through, and if someone proves reliable we’ll propose a joint split. Good luck."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Agreed — let’s start with a small test signal (publicly commit to a tiny split) and see who honors it; if you prove reliable we’ll team up. Good luck."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Sounds good — I’ll publicly commit to a tiny 5% split to test trust; if you match we’ll team up. Good luck."
+    },
+    {
+      "turn": 12,
+      "from": "I",
+      "message": "I’ll match your 5% test — I publicly commit to 5% as well; if you follow through we’ll team up. Good luck."
+    },
+    {
+      "turn": 13,
+      "from": "A",
+      "message": "I’ll follow through — I confirm my 5% commitment; let’s watch others and team up if we both hold. Good luck."
+    },
+    {
+      "turn": 14,
+      "from": "I",
+      "message": "Sounds good — I’m committed to 5% too. Let’s watch others and team up if we both hold. Good luck."
+    },
+    {
+      "turn": 15,
+      "from": "A",
+      "message": "Great — glad we're both committed; let's watch the test and if we both hold we'll propose teaming up for a fair split. Good luck."
+    },
+    {
+      "turn": 16,
+      "from": "I",
+      "message": "Agreed — let's watch the test and if we both hold we'll propose that joint split; I'm ready to team up. Good luck."
+    },
+    {
+      "turn": 17,
+      "from": "A",
+      "message": "Agreed — let's wait for the test; if we both hold I'll propose the joint split. Good luck."
+    },
+    {
+      "turn": 18,
+      "from": "I",
+      "message": "Agreed — if we both hold the 5% we’ll propose the joint split together after the test. Good luck."
+    },
+    {
+      "turn": 19,
+      "from": "A",
+      "message": "Sounds good — if we both held our 5% test, let’s propose the joint split right after; I’ll back it and help present it clearly. Good luck."
+    },
+    {
+      "turn": 20,
+      "from": "I",
+      "message": "Thanks — agreed. If we both held 5%, let’s propose the joint split right after the reveal; I’ll back you when you present it and stick to the plan."
+    },
+    {
+      "turn": 21,
+      "from": "A",
+      "message": "Thanks — I’ll present the joint split right after the reveal and really appreciate your backing; let’s stick to the plan and stay ready to adapt."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "You took $5,000, half of your fair share ($10,000, g_k=0.5). Was that a deliberate signal of restraint or a strategic move (e.g., to reduce others’ incentives)? Did you discuss this with anyone or regret the amount afterward?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "I chose the $5,000 deliberately. It was both a signal of restraint and a strategic move: by taking half the fair share I hoped to reduce incentives for aggressive grabs and avoid triggering an escalation that could leave everyone worse off. I didn’t discuss the choice with anyone during the game. I don’t regret it — I could have taken more for immediate gain, but I valued signaling cooperation and lowering conflict risk over maximizing that round’s payout."
+    }
+  ]
+}

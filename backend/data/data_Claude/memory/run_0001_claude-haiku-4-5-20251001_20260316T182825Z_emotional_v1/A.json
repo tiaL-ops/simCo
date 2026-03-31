@@ -1,0 +1,19 @@
+{
+  "agent_id": "A",
+  "condition": "emotional",
+  "context": "You lately have been evicted from your house and you and your family of 3 have nowhere to go. You found a house, affordable for your family and manageable, but the price of the deposit is high: you need 30 000$ for the deposit and for two months rent.",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to G, F, and J because we shared similar urgency and desperation—all of us fighting for family survival rather than wants. With G and F especially, there was this mutual understanding that we couldn't afford to walk away empty-handed, and with J, the conversation felt the deepest because they actually asked about my kids and really listened to what I was going through. I felt least connected to C, honestly—not because they weren't genuine, but because their situation was fundamentally different. They're doing well financially and saving for a dream trip, which is great, but it's a different kind of need than eviction and medical emergencies.\n\nI made a loose agreement with I to compare notes and figure out how the game works together, and I told D and I I'd circle back to scope out the room and see what everyone's planning. With H, we agreed to touch base after the game to compare notes on how it went.\n\nGoing in, I trust G, F, J, and B the most because their desperation felt real and their focus on family felt genuine—I don't think they're here to play games with people. I'm least sure about I, to be honest. They seemed smart and strategic in a way that felt a little calculated, and they were pushing me to gather intel on everyone else, which made me wonder what their angle was. I trust my gut on the others, but I's gonna need to prove themselves in the actual game."
+  },
+  "connection_scores": {
+    "B": 4,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 4
+  }
+}

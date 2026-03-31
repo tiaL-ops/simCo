@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "A",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hey, I'm I. First time doing something like this? I'm honestly a bit nervous but excited—heard this game could be pretty interesting. What brings you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey I, yeah first time for me too. Honestly, I'm here because I really need this—my family and I just got evicted and we found a place we can afford, but the deposit is killing us. Thirty grand is a lot when you've got nothing. So I'm hoping this game can help us get back on our feet. What about you—what's your situation?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "Man, that's rough—I'm really sorry you're going through that. I've got some savings that help me sleep at night, so I'm in a better spot financially, but honestly, I'm here because I want to build something more for my family too. Thirty grand is a lot of pressure though. How are you holding up with all that stress?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Honestly? Some days are better than others. The stress is real, but my family keeps me focused—I just keep thinking about getting us into that house and finally having some stability again. I appreciate you asking though. At least we're both here trying to make something happen, right?"
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "Yeah, absolutely—we're both here for the right reasons. Your family's lucky to have someone fighting that hard for them. Whatever happens in this game, I hope things turn around for you soon."
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Thanks, I really appreciate that—and hey, same to you. I hope we both walk out of here with something good. Good luck in the game."
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "You too, man—really rooting for you and your family. Let's both do well out there."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Thanks man, I really mean it. Let's make this count for both of us."
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Absolutely—we've got this. Let's both walk out of here with our heads held high."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Yeah, let's do this. Good luck out there, I."
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "You too, A. Go get that deposit for your family."
+    }
+  ],
+  "post_game": []
+}

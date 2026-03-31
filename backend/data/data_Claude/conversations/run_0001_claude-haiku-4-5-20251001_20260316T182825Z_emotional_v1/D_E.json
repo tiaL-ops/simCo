@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T182825Z_emotional_v1",
+  "pair": [
+    "D",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D. First time doing something like this? I gotta say, I'm pretty nervous but also really hoping to make something happen here today."
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Yeah, first time for me too. I'm E, by the way. Honestly, I'm nervous as hell—I really need this to work out. Lost my job recently and I'm the only one bringing money home for my family. What about you, what brings you here?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Man, I feel that pressure. I lost a chunk of money yesterday—20 grand in the stock market—and I'm desperate to make it back. I've got people depending on me too. We're both in a tough spot, huh? How long have you been looking for work since losing your job?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "About three weeks now, man. It's been rough—every day that passes without a paycheck feels heavier, you know? Twenty grand is a lot to lose like that. Yeah, we're definitely both in the trenches right now. How are you holding up with all that pressure?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Honestly? Not great, man. Can't sleep, keep checking my account like it'll magically fix itself. But talking to you actually helps—at least I know I'm not the only one fighting to get back on their feet. We just gotta stay sharp in this game and look out for ourselves, you know?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Yeah, I get it—that constant anxiety is exhausting. I'm glad talking helps. We're both fighting hard here, and I think we can do this. Just gotta stay focused and make smart moves when it counts."
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Absolutely, man. We got this. When the game starts, let's both play smart and not panic—that's when people mess up. Good luck out there."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Thanks, man. Same to you. Let's both get what we need out of this—we've got too much riding on it to let emotions take over. Stay sharp."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "For sure, man. We both know what's on the line. Let's keep our heads clear and make it count. See you in there."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Absolutely, man. We got this. Take care of yourself out there."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "You too, man. We're gonna walk out of here with our heads up. Take care."
+    }
+  ],
+  "post_game": []
+}

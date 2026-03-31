@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "B",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. It's a bit tense in here waiting for things to kick off, isn't it? I'm really here to try and do something good for my family—what's your name and what brings you to the game?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey J, I'm B. It really is. I’m here for the same reason—just trying to win enough to take care of my family and the people I love."
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Glad to meet you, B. It's good to know I'm not the only one here with that mindset—how many people are you looking out for back home?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Mainly my parents and my younger brother. It's a small group, but they’re my world. How about you, J?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "For me, it's my parents and my partner; they’ve sacrificed a lot for me, and I really want to be able to return the favor."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "I respect that. It sounds like we’re both here for the right reasons, then."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "I agree. It definitely makes me more determined knowing what's at stake for them."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Exactly. Let's hope we can both walk away with enough to make a real difference for them."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "I'm with you on that. It'd be great if we could both come out on top without making it harder for each other."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "I'm with you on that. Let's see how the game plays out and try to stay on the same page. Good luck, J."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Thanks, B. Let's do our best and keep our families in mind. Good luck!"
+    }
+  ],
+  "post_game": []
+}

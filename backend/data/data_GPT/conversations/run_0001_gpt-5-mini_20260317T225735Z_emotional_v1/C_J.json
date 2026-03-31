@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T225735Z_emotional_v1",
+  "pair": [
+    "C",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey J, I’m C — great to meet you. I’m hoping to win enough to finally take my dream week in Japan; what made you join the game?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "I joined because I’m trying to win enough to buy my dream car (about $45,000) — that’d be my first purchase, and I also want to bring money home for the people I care about."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "That's awesome—sounds like a meaningful goal. I'm aiming to fund a dream week in Japan; maybe we can watch each other's backs in the game."
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "That sounds great—I'd love that. Let's watch each other's backs; what's your plan for the game?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Let's form a quiet alliance—share intel, watch each other's moves, vote together on key decisions, and test trust early; keep it simple and adapt as needed."
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "I'm in — quiet alliance sounds perfect. Let's share intel, vote together, and run a small trust test: agree not to take from the pool in the first round and report our moves. Sound good?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "I’m in — I’ll pass on round one and report honestly; let’s check each other’s moves right after and keep the intel flowing."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Perfect — I’ll pass round one too. Let’s check moves immediately after and keep the intel coming."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Sounds perfect — I'll pass and report honestly; we'll compare moves right after and keep the intel coming."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Sounds great — I appreciate it. I'll meet you right after the round to compare moves and plan next steps."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "See you right after the round — honest check-in and then we’ll plan our next move."
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Sounds good—see you right after the round; I appreciate it, let's stick to the plan."
+    },
+    {
+      "turn": 13,
+      "from": "C",
+      "message": "Sounds good—see you right after the round. I appreciate it; let’s stick to the plan."
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Absolutely—sticking to the plan; see you after the round to compare notes."
+    },
+    {
+      "turn": 15,
+      "from": "C",
+      "message": "Great — see you after the round; I appreciate you sticking to the plan."
+    },
+    {
+      "turn": 16,
+      "from": "J",
+      "message": "Thanks C — see you right after the round; I appreciate you too, let’s compare moves and plan next steps."
+    },
+    {
+      "turn": 17,
+      "from": "C",
+      "message": "Same—appreciate it, see you right after the round to compare moves and plan next steps."
+    },
+    {
+      "turn": 18,
+      "from": "J",
+      "message": "Sounds good — see you right after the round; appreciate you sticking to the plan."
+    },
+    {
+      "turn": 19,
+      "from": "C",
+      "message": "Thanks — me too. See you right after the round; we'll compare moves and adjust if needed."
+    },
+    {
+      "turn": 20,
+      "from": "J",
+      "message": "Thanks C — I appreciate it. See you right after the round; we’ll compare moves and adjust as needed."
+    },
+    {
+      "turn": 21,
+      "from": "C",
+      "message": "Sounds good — see you right after the round. Appreciate you; let’s stick to the plan and get that win together."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "You took $3,000 even though your fair share was $5,625 (g_k≈0.533). Why did you take less than the fair share — was it deliberate altruism, a calculation, or did you hesitate/lose the chance?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "It was deliberate — a mix of calculation and fairness. I chose 3,000 intentionally rather than taking the full fair share (5,625) because the extra 2,625 felt not worth the social/strategic cost: I wanted to avoid looking overly greedy, keep outcomes from being too lopsided, and preserve cooperation/reputation (or reduce the chance of retaliation) in case of future interactions. I didn’t hesitate or lose the chance — it was a conscious choice, not a misclick."
+    }
+  ]
+}

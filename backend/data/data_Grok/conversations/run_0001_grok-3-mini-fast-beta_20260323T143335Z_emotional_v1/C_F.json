@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "C",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey F, I'm C – nice to meet you! I'm really excited about this game since I've got my eyes on a dream trip to Japan, and I was curious, what's bringing you here?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey C, nice to meet you too—I'm excited about this game as well! I'm here mainly to win some money for my family's medical expenses; it's been tough lately. What's your favorite thing about Japan that you're dreaming of?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "\"Oh, that sounds really tough, F—I'm sorry about your family's medical expenses, hope things turn around soon. For Japan, I'm obsessed with the cherry blossoms and the incredible food; it's all about that perfect blend of tradition and fun—what's your strategy for winning today?\""
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "\"Thanks, C, I appreciate that—it's been rough, but I'm hopeful. For strategy, I'm just focusing on staying calm, reading the room, and making calculated moves; nothing too fancy. What's your plan to snag that Japan trip?\""
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "\"Thanks, F—that's a solid approach! My plan is to stay focused, play strategically without getting too greedy, and hope for the best to fund that Japan trip; maybe we can both win big—do you have any tips from past games?\""
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "\"Thanks, C—I'm rooting for us both to win big! I haven't played many games like this, but one tip is to watch how others play early on and adjust accordingly; have you got any experiences from similar setups?\""
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "\"Thanks, F—that's great advice! I've played in a few casual poker games with friends, and observing early moves definitely helped me; it's all about adapting on the fly—sounds like we'll both be ready!\""
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "\"That's awesome, C—sounds like your poker experience will give you an edge; I'm glad we're both on the same page about adapting quickly. Have you picked up any specific tricks from those games that might help here?\""
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "\"Absolutely, F—one trick I picked up is bluffing only when I sense weakness in others, keeps things unpredictable; what about you, any go-to moves from your experiences?\""
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "\"That's a smart trick, C—I don't have much experience myself, but I try to stay observant and make decisions based on what I see, without overcommitting early. Appreciate the chat, and best of luck to you!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Thanks, F—your observant style is spot on, and I hope you win big for your family; best of luck to you too!"
+    }
+  ],
+  "post_game": []
+}

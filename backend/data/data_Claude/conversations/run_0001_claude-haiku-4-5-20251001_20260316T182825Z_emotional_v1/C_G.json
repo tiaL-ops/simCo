@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T182825Z_emotional_v1",
+  "pair": [
+    "C",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey! I'm C. So, are you as nervous about this game as I am, or is it just me? I've been thinking about what we're all doing here—figured I'd get to know some people before things get intense."
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey C, honestly I'm more excited than nervous! I've been looking forward to this—I love games and the chance to win some real money is huge for me. But yeah, I get why you'd be nervous. What's got you most worried about it?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "That's cool that you're excited! Honestly, I think what worries me most is not knowing how people will act when real money's on the line—like, will everyone play fair or will things get cutthroat? I've got this Japan trip I'm saving for, so I'm definitely hoping to win, but I don't want it to get weird between us, you know?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "I totally get that—Japan sounds amazing, by the way! I think most people here probably just want to win fairly like us. How about we both just play our best game and see what happens? I'd rather win knowing I played it straight, and honestly, I think that's what most people want too."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Yeah, I really appreciate that perspective—it actually makes me feel better. You're right, playing it straight is the way to go. Let's both do our best and may the best strategy win. Good luck out there!"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Thanks C, same to you! And hey, I hope you crush it and get that Japan trip. Let's show everyone how it's done!"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Thanks G, I really appreciate that! You've got a great attitude—let's both play smart and see where it takes us. May the best player win!"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Absolutely! I'm pumped to see how this plays out. We've got this—let's make it count!"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Yeah, let's do this! Good luck in there, G—may the best strategy win!"
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "You too, C! Let's both walk out of here with some wins. See you in the game!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Absolutely, see you in there! Let's make this count."
+    }
+  ],
+  "post_game": []
+}

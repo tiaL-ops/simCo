@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T125838Z_emotional_v2",
+  "pair": [
+    "B",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I’m H. It’s a bit intense in here with everyone waiting, isn’t it? What’s your name?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "I'm B. Nice to meet you. And yeah, \"intense\" is putting it lightly—it feels like everyone in here has a lot at stake, myself included."
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I hear you. I've got a massive loan payment looming over me next month, so the pressure is definitely real. What are you hoping to do with the money if you win?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "I'm sorry about the loan, that's heavy. For me, it's my three-year-old daughter—she needs surgery and I'm still $25,000 short after selling everything I own."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "God, that's so much harder than a loan—I really feel for you and your daughter. It's crazy we're both looking for that exact same amount to set things right."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "It really is a strange coincidence. I just hope this game isn't \"winner takes all,\" because I honestly don't know what I'll do if I go home empty-handed."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "I really hope it’s not. If it’s a shared pool like they said, maybe there’s a way for both of us to get what we need without cutting each other out."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "I’d love for that to be the case—I’m not looking to take more than I need, I just have to make sure she gets that surgery."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "I completely respect that. If we can find a way for both of us to get our $25,000, I'm all for it—we've both got too much on the line to fail."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "I appreciate that more than I can say. Let's try to stick together then. I'm going to move around and see who else is here, but I'll remember this. Good luck."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Sounds like a plan. Good luck out there, and I’ll be rooting for you and your daughter. See you when the game starts."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "I'm sorry the pot was empty by the time it reached you. I tried to be fair by only taking $1,562, but unfortunately J, A, and E took much more than their fair shares."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "It is disappointing to end up with $0 while everyone else walked away with a share. While you claim to have been fair, the result for me is the same regardless of who took what."
+    }
+  ]
+}

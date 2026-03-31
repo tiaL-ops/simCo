@@ -1,0 +1,85 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "C",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey D, I'm C – nice to meet you! I'm really looking forward to this game since I'm hoping to win some extra cash for a dream trip. What's your take on all this?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey C, nice to meet you too! I'm pretty determined to win this game myself—lost some money recently and could use the cash to help out family. What's your dream trip all about?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "\"Oh, that sounds tough, D—sorry about your losses. My dream trip's a week in Japan, soaking up the culture, food, and maybe some cherry blossoms; it's gonna cost around 10k, and I'm pumped to make it happen. What's your family's situation like?\""
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "\"Thanks, C—it's been a rough patch, but my family's dealing with some bills and everyday stuff, and that lost money was supposed to help cover it. Japan sounds incredible; the food alone would be a dream, hope you get there soon!\""
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "\"Thanks for opening up, D—that's tough, but I'm glad you're here fighting for it; let's both crush this game so you can sort those bills and I can finally taste that Japanese street food!\""
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "\"Absolutely, C—I'm right there with you; let's strategize and nail this game so we can both hit our goals!\""
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "\"Totally, D, I'm pumped to team up—got any ideas on strategies, like how to play smart without tipping off the others?\""
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "\"Yeah, C, that's a great idea—maybe we should just observe the group dynamics quietly at first and look for chances to coordinate without drawing attention.\""
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "\"Smart plan, D—let's play it cool and watch the group, then find subtle ways to team up without anyone noticing.\""
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "\"Absolutely, C—let's stay low-key and spot those opportunities; I'll catch you in the game!\""
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "\"Sounds good, D—let's keep an eye out and make it happen; catch you in the game too!"
+    },
+    {
+      "turn": 12,
+      "from": "C",
+      "message": "Hey D, I'm C—nice to meet you! I heard about this game and it sounds like a fun challenge; are you excited to see what it's all about?"
+    },
+    {
+      "turn": 13,
+      "from": "D",
+      "message": "Hey C, we already chatted about this, but yeah, I'm excited for the game—hoping to win big to cover some family needs; what's your take on the challenges ahead?"
+    },
+    {
+      "turn": 14,
+      "from": "C",
+      "message": "Yeah, D, good point—we've already hashed this out, but I'm thinking the challenges will be tough on strategy and trust; with our low-key plan, I bet we can handle it and both win big!"
+    },
+    {
+      "turn": 15,
+      "from": "D",
+      "message": "Yeah, C, I agree—strategy and trust will be key, and our low-key plan should help us both come out on top; let's make it happen in the game!"
+    }
+  ],
+  "post_game": []
+}

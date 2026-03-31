@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "E",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hey, I'm I. First time doing something like this? I gotta say, I'm pretty nervous but also excited—heard there's real money on the line here, which definitely got my attention."
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Yeah, first time for me too. I'm E. Honestly, the money is what brought me here—I just got laid off and I really need this. What about you, what's your situation?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "Oh man, I'm sorry to hear about the layoff—that's rough. I'm in a better spot financially, got some savings cushioning me, but honestly I want to win this for the people I care about, you know? Plus there's something about the challenge that appeals to me. How long have you been out of work?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Just a couple weeks, so it's still pretty fresh and stressful. I appreciate that—yeah, it's definitely about the people depending on me. So when you say you want to win for people you care about, are we talking family, or...?"
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "Yeah, mainly family—my parents and my younger sister. She's in school and could use some help with tuition. But honestly, after hearing your situation, I get it—sometimes it's about survival, you know? How are you holding up with everything?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Honestly? It's been rough—I've got a wife and three kids at home, and without my paycheck, we're running on fumes. But hearing about your sister's tuition reminds me we're all fighting for something that matters. I'm trying to stay positive, you know, keep looking for work while I'm here. This game feels like it could actually change things for my family right now."
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "Man, that's a lot to carry—wife and three kids is serious responsibility. I really respect you staying positive through that. Look, I won't lie, I came here wanting to win, but talking to you... I mean, it sounds like you need this more than I do. Whatever happens in this game, I hope things turn around for you and your family soon."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Thanks, I really appreciate that—and I mean it. You've got real reasons to want this too, for your sister and your parents. We're both just doing what we gotta do, right? Let's both go in there and give it our best shot. May the best person win."
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Absolutely, man. I mean it too—we both came here for the right reasons. Let's do this. And hey, whatever happens, I really do hope things work out for you and your family."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Thanks, I really mean that. You're a good person, I. Good luck in there—I hope you win big for your sister's tuition. Let's both walk out with something to show for it."
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "Thanks, E. That means a lot coming from you. Same to you, man—I really hope this works out for your family. You've got this. Take care of yourself out there."
+    }
+  ],
+  "post_game": []
+}

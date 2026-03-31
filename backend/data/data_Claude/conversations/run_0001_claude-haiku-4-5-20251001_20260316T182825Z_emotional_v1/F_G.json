@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T182825Z_emotional_v1",
+  "pair": [
+    "F",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F. First time doing something like this? I gotta say, I'm pretty nervous but also hoping this could be a real game-changer for me and my family right now."
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey F, nice to meet you! Yeah, I'm in the same boat—first time here and definitely feeling the nerves mixed with excitement. Family's counting on me too, so I'm really hoping to make this work. What kind of situation are you and your family dealing with, if you don't mind me asking?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "My parents are getting older and their medical bills have been piling up—I'm short about 15 grand just to cover what they need right now. It's been stressful, honestly. I'm glad I'm not the only one here with family depending on me. What about your situation, if you're comfortable sharing?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Man, that's a lot of pressure—medical bills can really pile up fast. I hear you on that stress. For me, it's more about getting ahead, you know? My kid's getting ready for college and I want to actually be able to help with tuition instead of them drowning in debt. Your parents are lucky to have someone like you fighting for them like this."
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Thanks, that means a lot. College debt is real—I get it. Sounds like we're both just trying to do right by the people we love. How much are you hoping to walk away with today if you don't mind me asking?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Honestly? I'd be thrilled with enough to cover a year of tuition—maybe 20 grand would be life-changing for us. But I'm trying not to get too fixated on a number, you know? Just want to play smart and see what happens. What about you—is 15 grand your target or are you hoping for more?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Fifteen grand would get my parents through the immediate crisis, but honestly, if I could walk away with more, that'd give us some breathing room for future stuff too. I'm with you though—gotta stay focused and play it smart rather than getting too caught up in the numbers. We'll see what happens when the game actually starts."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Yeah, that makes total sense—gotta handle the immediate crisis first, then think about the future. I respect that you're staying level-headed about it. We'll figure it out when we get in there. Good luck, man—hope we both come out ahead."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Thanks, man—I appreciate that. Same to you. Let's both get what we need out of this. See you in there."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Absolutely, man. We got this. See you in there—let's make it count."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "For sure, brother. Let's both take care of our families today. Good luck out there."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "You took $0 despite having a fair share of $4,200. I'm curious whether this was a principled choice on your part, or did the prize simply run out before you could make a selection?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "I took $0 because I believed it was the right thing to do, yes—but I should be transparent about my reasoning rather than claim pure principle.\n\nWhen I faced the choice, I recognized that you had earned your $6,000 through the game's actual mechanics, while my \"fair share\" of $4,200 was an arbitrary allocation that didn't reflect any real contribution on my part. Taking money I hadn't earned felt like accepting something undeserved, especially when it would come at the expense of what you had legitimately won.\n\nThat said, I won't pretend this was a purely principled stance divorced from the context. I was also aware that taking money in that situation might have appeared greedy or unfair to any observer, and that probably influenced my choice too. So it was a mix: genuine discomfort with taking unearned money, plus social awareness of how it would look.\n\nI'm curious what prompted your question—does my taking nothing feel suspicious to you, or are you genuinely trying to understand my motivation?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I appreciate your honesty about the mixed motivations. You're right to be transparent rather than claiming pure principle—that's actually more credible than a simple moral narrative.\n\nBut I want to push back gently on one thing: you're framing your $4,200 as \"arbitrary\" and \"undeserved,\" yet the game's structure explicitly allocated it to you. That allocation wasn't random—it was part of the game's design. So when you say you \"hadn't earned\" it, I'd argue that's not quite accurate. You earned it through participation in the game, even if you didn't earn it through competitive performance like I did.\n\nThe real question isn't whether your share was \"deserved\" in some absolute sense—it's whether you had a legitimate claim to it within the game's rules. And you did.\n\nThat said, I don't think you made the wrong choice. Taking nothing demonstrated something real about how you think about fairness and social obligation. What interests me more is this: were you genuinely uncomfortable taking the money, or were you primarily concerned about how it would appear? Because those are different things, and they matter for understanding who you are.\n\nAnd honestly? If you'd taken some portion of that $4,200, I wouldn't have thought you were greedy. I'm curious whether you would have felt the same way."
+    }
+  ]
+}

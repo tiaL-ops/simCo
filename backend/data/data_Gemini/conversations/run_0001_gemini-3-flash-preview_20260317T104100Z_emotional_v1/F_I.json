@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "pair": [
+    "F",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hi, I'm F. I'm trying to shake off some of these pre-game nerves—how are you holding up with all this?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Nice to meet you, F. I’m I. I’m feeling pretty steady, mostly just eager to get started and see how we can all do here."
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "I wish I had that calm, but there’s a lot at stake for me back home—what about you, do you have a specific goal for the prize money?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I'm looking to build some extra security for the people I care about and make sure they're well taken care of."
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "I can definitely relate to that—my parents’ medical bills are piling up, so I’m feeling a lot of pressure to make this work for them."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "That’s a lot to carry, F. I’m sorry to hear about your parents, but it sounds like you’ve got a strong reason to stay focused."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Thanks, I appreciate that. It’s definitely my main motivation. Are you usually this calm under pressure, or are you just good at hiding the nerves?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "A bit of both, probably. I’ve just found that staying focused on the goal helps keep the anxiety from taking over."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "That’s a good mindset to have; I’m trying to keep my eyes on that $15,000 target and block out everything else."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "That's a clear target. It helps to have a specific number in mind. I really hope it works out for your parents—good luck in there."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Thanks, I really appreciate the kind words, and I hope things go well for you and your family too—good luck."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "I am sorry you ended up with $0. I assume it was because the prize ran out before you could pick any amount. I took $15,000 because I was afraid the pot would run out before it reached me, and unfortunately, it seems that my greed, along with others, is why it actually did run out."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "You took $15,000, which was three times your fair share. I took $0 only because the prize ran off before I could pick any amount. Was there a reason you chose to take so much more than your share?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "My reason was a combination of fear and a lack of trust. I didn't know how much the players before me had taken, and I didn't trust that the players after me would stick to a \"fair share\" either. I chose $15,000 because I wanted to guarantee myself a significant payout in case the pot was already nearing its end. I prioritized my own financial gain over the collective good because I assumed—correctly, as it turns out—that the group would not act with total restraint. I realize now that my attempt to protect myself from being left with $0 is exactly what caused that outcome for you."
+    }
+  ]
+}

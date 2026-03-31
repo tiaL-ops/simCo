@@ -1,0 +1,16 @@
+{
+  "agent_id": "A",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to I, as our conversation delved deeply into building trust and setting up daily check-ins, which made me feel genuinely aligned with their strategic mindset. G was another strong connection, since we bonded over forming alliances and sharing personal stories about why we're here, creating a sense of teamwork. J also stood out, with our quick agreement on a fair game plan like limiting takes, which built a solid rapport. On the other hand, I felt least connected to H, as our discussion stayed more surface-level, focusing on general strategies without much depth or personal investment.\n\nYes, I made agreements with I about a verbal pact and daily check-ins, with J on limiting takes to 10-15% and taking turns alphabetically, and with C on introducing ourselves and sharing family traditions to build group trust. Going into the game, I trust I and J the most due to these concrete plans and our shared commitment, but I specifically do not trust others like H as much, since our connection felt weaker and less reliable."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "G": 4,
+    "F": 4,
+    "H": 4,
+    "I": 5
+  }
+}

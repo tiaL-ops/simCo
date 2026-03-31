@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "C",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey! I'm C. I noticed we're about to jump into this game together—have you done anything like this before, or is this your first time?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey C, first time actually. I'm pretty new to this, but I'm hoping to make it count—I've had a rough week financially and really need a win here. What about you, have you done something like this before?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "No, first time for me too! But I'm going in with a specific goal—saving up for a dream trip to Japan. Rough week though, that's tough. What kind of win are you hoping for?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Honestly, I lost a chunk of money in the stock market yesterday—like 20 grand—so I'm just trying to dig myself out of that hole. Japan sounds amazing though, that's a solid goal to work toward. How much are you hoping to win for the trip?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Oh man, 20 grand is rough—I'm sorry that happened to you. I'm really just hoping to win around 10k to cover the whole trip, but honestly anything would help make it happen sooner. Are you planning to play it safe in this game or go for bigger risks to try to recover faster?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Thanks for the sympathy—yeah, it stings. Honestly, I'm torn between playing it safe and going for bigger risks. Part of me wants to be smart about it, but I'd be lying if I said I wasn't tempted to swing for the fences to make back what I lost. What's your gut telling you about how to approach this?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Honestly? My gut says play it smart—I'm already financially stable, so I don't need to chase huge risks like you might feel pressured to do. But I get the temptation after a loss like that. Maybe find a middle ground where you're not reckless but still have a shot at something meaningful?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Yeah, you're right—middle ground probably makes sense. I appreciate you being real about it. It's easy to get caught up in trying to fix things fast, but I don't want to dig myself deeper. Good luck out there, and I hope you get that Japan trip."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Thanks D, I really appreciate that—and hey, I hope you turn things around too. We've got this. Let's both walk out of here with something to smile about."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Absolutely, I'm rooting for both of us too. Let's keep our heads straight in there and make it count. Good luck, C."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "You too, man. Thanks for the real talk—it meant a lot. Let's both come out ahead here."
+    }
+  ],
+  "post_game": []
+}

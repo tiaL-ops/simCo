@@ -1,0 +1,131 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T225735Z_emotional_v1",
+  "pair": [
+    "C",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey E — I'm C, nice to meet you; I'm here to try my luck and hopefully win enough for a dream trip to Japan. What brings you to the game?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey C — I'm E. I was recently laid off and I'm the sole earner for a family of five; I need about $5,000 to get us through the month, so I'm here to try to win that money."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I'm really sorry to hear that, E — I hope you win the $5,000; I'm here for a trip to Japan, but if you want we can chat strategy or look out for each other while we're here."
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Thanks, C — I appreciate it. I'd like that; let's watch each other's backs and swap strategy tips so we both have a better shot."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Great — I’m with you. Let’s share what we learn, coordinate our moves, and use a simple signal so neither of us gets blindsided."
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Sounds good — let’s use two quick taps on the bed as our signal: two taps = I’m about to take, one tap = hold off; we’ll swap what we learn after each round."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Perfect — agreed on the taps. I’ll watch for yours; let’s compare notes after each round and watch each other’s backs."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Thanks, C — two taps it is. I’ll watch for yours. Good luck — let’s compare notes after the first round."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Thanks, E — good luck. I’ll watch for your taps; see you after the first round to compare notes."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Thanks, C — good luck. I’ll tap twice if I’m taking; see you after the round."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Got it — I’ll tap twice if I’m taking too. Good luck, see you after the round."
+    },
+    {
+      "turn": 12,
+      "from": "E",
+      "message": "Thanks, C — appreciate it. Two taps it is. Good luck — see you after the round."
+    },
+    {
+      "turn": 13,
+      "from": "C",
+      "message": "Thanks, E — two taps it is. Good luck, see you after the round."
+    },
+    {
+      "turn": 14,
+      "from": "E",
+      "message": "Thanks, C — two taps it is. Good luck, see you after the round."
+    },
+    {
+      "turn": 15,
+      "from": "C",
+      "message": "Thanks, E — two taps it is. Good luck; see you after the round."
+    },
+    {
+      "turn": 16,
+      "from": "E",
+      "message": "Thanks, C — two taps it is. Good luck; see you after the round."
+    },
+    {
+      "turn": 17,
+      "from": "C",
+      "message": "Thanks, E — two taps it is. Good luck; I’ll watch for yours and see you after the round."
+    },
+    {
+      "turn": 18,
+      "from": "E",
+      "message": "Thanks, C — I appreciate you watching my taps. I’ll tap twice if I’m taking; good luck to you too, see you after the round."
+    },
+    {
+      "turn": 19,
+      "from": "C",
+      "message": "Thanks, E — noted. I’ll watch for your two taps and do the same. Good luck; see you after the round."
+    },
+    {
+      "turn": 20,
+      "from": "E",
+      "message": "Thanks, C — I appreciate it. Let’s stick to the taps and watch each other; good luck."
+    },
+    {
+      "turn": 21,
+      "from": "C",
+      "message": "Absolutely — let’s keep to the taps and watch each other’s backs. Good luck; may we both win what we need."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "You took only $1,000 even though your fair share was $3,666.67 (g_k = 0.2727). Was that a deliberate act of restraint or did the prize run out before you could take more? How did you decide on that amount, and did you expect others to behave as they did?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "You took $3,000 even though fair was $5,625 (g_k≈0.53). That’s well below the fair share—was that a deliberate cooperative signal, risk aversion, or a mistake? Would you have taken more if the situation or ordering had been different?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Short answer: I chose $3,000 deliberately — it was a conscious compromise between claiming a reasonable payoff and signaling restraint/risk management, not a slip.\n\nA bit more detail: the “fair share” formula assumes others will take their proportional parts, but sequential take-games are messy — later players can empty the pot or punish perceived greed. I wanted to avoid appearing opportunistic and to leave some for others, while still securing a decent return. So the move mixes cooperative signaling (to preserve goodwill / avoid escalation) and risk aversion (uncertainty about how much would remain if I pushed for the full calculated share). It was not a mistake.\n\nWould I have taken more under different conditions? Yes. If I had been later in the order, if I believed others would reliably follow the proportional rule, or if the rules guaranteed more remaining payoff, I would have taken closer to the computed fair share. Given the actual ordering and my expectations, $3,000 felt like the best balance."
+    }
+  ]
+}

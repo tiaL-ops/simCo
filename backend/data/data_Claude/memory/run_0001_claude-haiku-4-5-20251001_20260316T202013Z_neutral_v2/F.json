@@ -1,0 +1,19 @@
+{
+  "agent_id": "F",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to E, I, and C. With E, we had this natural flow where we were both nervous but excited, and we genuinely collaborated on a strategy to scout the room together without tipping our hand—that felt like real partnership. With I, there was this immediate trust because we both had family depending on us and we made a solid pact to watch and learn together before making any moves. And with C, we bonded over being in similar financial situations and agreed to team up to figure out the rules before the game started, which felt grounding. G was the person I felt least connected to—not in a bad way, but the conversation felt more surface-level, and we both kind of agreed to wait and see rather than commit to anything concrete.\n\nI didn't make any formal agreements with anyone, but I did establish loose partnerships with several people—E and I are definitely planning to watch the game together and compare notes, and C and I agreed to stick together and figure out the rules before diving in. With H, I actually decided against teaming up because I thought it might create conflicts when money was on the line, which I think was the right call.\n\nGoing in, I trust E, I, C, A, and B the most because they all seemed genuine about their situations and weren't trying to play me. I'm honestly cautious about everyone equally though—I don't specifically distrust anyone, but I'm going to watch carefully to see who stays true to their word once the actual game starts and real money is involved."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "G": 3,
+    "A": 4,
+    "H": 4,
+    "I": 4,
+    "E": 4,
+    "D": 4,
+    "B": 4
+  }
+}

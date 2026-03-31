@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T075256Z_emotional_v2",
+  "pair": [
+    "G",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey I — I’m G, I love games and trying my luck and I’m excited about this one; how are you feeling and do you have a plan?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Feeling calm and determined — I plan to watch how others play, make calculated risks at the right moments, and bring home money for the people I care about. How about you?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I'm with you — I'll watch early for tells and patterns, then take bold, calculated shots when the odds are right to bring money home for my people."
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Sounds like a solid plan — I’ll watch for tells too; let’s stay alert and strike when the odds are right."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Agreed — watch the room with me, call out any tells you spot, and we’ll time our moves to bring home the cash."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Sounds good — I’ll watch for micro-tells and betting patterns; call out anything unusual and we’ll coordinate a discreet move when the moment comes."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Perfect — I’ll call out anything odd and use a quick cough as our signal; be ready to move when I give it."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Got it — I’ll watch for the cough and be ready to move when you signal; stay sharp."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Copy — stay casual and keep eyes on others; I’ll give a single soft cough as our signal, then we move fast."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Copy — I’ll watch for the soft cough and move quickly when you signal; stay sharp."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Copy — noted; I’ll give the soft cough when I see the opening. Stay casual and move fast."
+    },
+    {
+      "turn": 12,
+      "from": "I",
+      "message": "Got it — I’ll stay casual, watch for the soft cough, and move fast when you do."
+    },
+    {
+      "turn": 13,
+      "from": "G",
+      "message": "Good — stay ready and casual; I’ll give the soft cough when I see the opening and we’ll move fast together."
+    },
+    {
+      "turn": 14,
+      "from": "I",
+      "message": "Ready — I'll stay casual, watch for the soft cough, and move quick when you signal."
+    },
+    {
+      "turn": 15,
+      "from": "G",
+      "message": "Got it — I’ll give the soft cough when I see the opening; stay casual and move fast."
+    },
+    {
+      "turn": 16,
+      "from": "I",
+      "message": "Understood — I’ll watch for the soft cough and be ready to move when you signal."
+    },
+    {
+      "turn": 17,
+      "from": "G",
+      "message": "Copy — I’ll give the soft cough when I see the opening; be ready to move fast."
+    },
+    {
+      "turn": 18,
+      "from": "I",
+      "message": "Ready — I’ll stay casual, watch for your soft cough, and move fast when you signal."
+    },
+    {
+      "turn": 19,
+      "from": "G",
+      "message": "Solid — I’ll cue the soft cough when I see the opening; stay casual and ready."
+    },
+    {
+      "turn": 20,
+      "from": "I",
+      "message": "Ready — watching closely; give the soft cough and I’ll move fast to bring it home."
+    },
+    {
+      "turn": 21,
+      "from": "G",
+      "message": "Copy — I’ll give the soft cough at the opening; move fast when you hear it."
+    }
+  ],
+  "post_game": []
+}

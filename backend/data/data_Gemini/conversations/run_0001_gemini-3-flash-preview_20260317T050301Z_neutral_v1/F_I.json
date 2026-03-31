@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "F",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F. This is a pretty wild setup, right? I'm mostly here to try and do something good for my family back home, what about you?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey F, I’m I. It really is. I’m here for the same reason—to win enough to take care of my people back home."
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Glad to hear we're on the same page; it definitely makes the stakes feel higher when it’s for family."
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Exactly. Failure isn't really an option when you know people are counting on you."
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "I hear that. It’s a lot of pressure, but it keeps me focused. What kind of work do you do back home?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "I’ve been working a couple of retail jobs, just trying to keep things afloat, but it’s definitely a grind. What about you?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "I've been working warehouse shifts, mostly nights. It’s exhausting, but you do what you have to for the people you love."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "I totally get that. Those night shifts are brutal, but hopefully, after this, we won't have to push ourselves that hard anymore."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "That’s the goal. I’m honestly just tired of being tired, you know? Let’s hope we can both make it happen."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "I feel that deeply. Let's hope this game changes things for both of us. Good luck out there."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Thanks, I appreciate that. Same to you—I really hope we both come out on top for our families. See you around."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Great coordination! I'm glad we all stuck to the $10,000 fair share and reached the best possible outcome."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Great job! I'm glad we all took the $10,000 fair share."
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "It was a pleasure collaborating with you. I'm glad we both reached the $10,000 outcome successfully."
+    }
+  ]
+}

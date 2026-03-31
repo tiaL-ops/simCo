@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "B",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hey, I'm I. First time doing something like this? I gotta say I'm pretty nervous but also excited—figured I'd get to know some people before we jump in."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Yeah, first time for me too. I'm B. Honestly, I'm nervous as hell—I really need this, you know? My daughter needs surgery and we're running out of options. What brings you here?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "Man, that's heavy—I really hope things work out for your daughter. I'm here because I want to build something better for the people I care about too, so I get that drive. How old is she, if you don't mind me asking?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "She just turned three. Thanks for saying that—it means a lot. And yeah, I can tell you're in this for the right reasons too. What are you hoping to build, if you don't mind me asking?"
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "Honestly, just more stability for my family—maybe help my parents retire without stress, you know? But hearing about your daughter, that's real and immediate. I hope you get what you need from this."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "That's a good goal, man—taking care of your parents like that. And thanks, I really appreciate it. Sounds like we're both here because the people we love matter more than anything else."
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "Yeah, exactly—that's what it comes down to. We're both here for the people we love. I really do hope this works out for you and your daughter. Whatever happens in this game, I mean that."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "That really means a lot, I. And I hope things work out for you and your parents too. We're gonna do what we gotta do here, right?"
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Yeah, we will. We've both got people counting on us. Let's see what happens when this thing gets going."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Yeah, for sure. Look, I'm glad I got to talk with you before this starts—feels good to know there's someone in here who gets it. Good luck out there, I."
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "You too, man. Really. We got this—for them. Take care of yourself out there."
+    }
+  ],
+  "post_game": []
+}

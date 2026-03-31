@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "C",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J! So, uh, crazy situation we're all in, right? I'm trying to figure out what everyone's here for — what brings you to this game?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hey J! Yeah, it's definitely intense. Honestly, I'm here because I want to fund a trip to Japan — it's been a dream of mine for years. Plus, I'd love to help out some people close to me. What about you? What's your story?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "That's awesome, Japan sounds incredible! I'm really here for a car — there's this one I've had my eye on for ages, costs 45 grand — but honestly, helping out the people I care about is just as important. So I guess we're in a similar boat, trying to make something happen for ourselves and the people we love."
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "Yeah, we definitely are! A 45k car is serious though — that's a big dream. I respect that you're thinking about the people around you too. Do you have a specific plan for how much you're hoping to win today, or are you just going to see what happens?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Honestly, I'd love to walk out with enough to cover the car, but I'm trying not to get too fixated on a number — I figure if I stay focused and play smart, things'll work out. What about you? Do you have a target amount in mind for Japan?"
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "Yeah, I'm aiming for around 10k to make Japan happen, but like you said, I'm trying to stay flexible and not get tunnel vision. Playing smart sounds like the move — I guess we'll both find out what that means once we get in there!"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "For sure, man — 10k is totally doable, and I like your mindset about staying flexible. We'll figure it out once we're in there. Good luck, and hey, hopefully we both walk out with what we need!"
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Thanks, J — I really appreciate that. Same to you, man. Let's both get what we came for. See you in there!"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Absolutely, man — let's do this! See you in there, and may the best dream win. 🤝"
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Haha, I like that — may the best dream win. Let's get it! 🤝"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Yeah man, let's make it happen! Good luck out there — rooting for you!"
+    }
+  ],
+  "post_game": []
+}

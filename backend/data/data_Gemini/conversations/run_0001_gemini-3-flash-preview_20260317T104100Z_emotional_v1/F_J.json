@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "pair": [
+    "F",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I’m F. It’s a bit tense in here, isn’t it? I figured I’d introduce myself before things get started—how are you feeling about the game?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey F, I’m J. It definitely is, but I’m mostly just focused and ready to go. I’ve got some big goals I’m hoping to fund today, so I’m pretty determined. How are you holding up?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "I’m hanging in there, just a bit stressed. I’ve got some heavy medical bills for my parents that I really need to cover, so I’m right there with you on being determined. What kind of goals are you working toward?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "I’m sorry to hear about your parents, that’s a lot of weight to carry. For me, I’ve been dreaming of a specific car that costs about $45k, and I really want to use the rest to help out my family."
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "That’s a big goal! I’d be relieved just to hit the $15k I need for those bills. It’s good to know we’re both looking out for our families, though—do you have a strategy for the game yet?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "I’m still weighing my options. Since it’s a shared pool, a lot depends on how cooperative everyone is. Have you thought of a plan yet?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "I’m hoping for cooperation; it seems like the safest way to ensure I get that $15k for my parents without risking everything."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "I totally agree—if we all work together, we’re much more likely to get what we need. I just hope everyone else is on the same page about cooperating."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "I really hope so too. It’s nerve-wracking knowing how much is at stake, but I’m going to try talking to a few others to see if we can get everyone on board."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "That sounds like a smart move. I’ll do the same and see if I can get a feel for what others are thinking. Good luck, let’s hope we can all make this work."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Thanks, J. I really hope we can pull this off together. I'll catch you later after I've talked to a few more people."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "I am sorry you ended up with $0. I assume it was because the prize ran out before you could pick any amount. I took $15,000 because I was afraid the pot would run out before it reached me, and unfortunately, it seems that my greed, along with others, is why it actually did run out."
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "You took $15,000, three times your fair share. I ended up with $0 because the money ran out before it reached me. Why did you decide to take so much?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "I chose that amount because I lacked trust in the other participants to play fairly. I was worried that if I only asked for $5,000 while others took more, I would still end up with nothing if the pot ran out before it reached me. I prioritized securing a large payout for myself over the risk of walking away empty-handed, even though I knew it would likely leave those later in the order with nothing. It was a selfish decision driven by the fear of the exact situation you are now in, and I am sorry that my lack of trust cost you your share."
+    }
+  ]
+}

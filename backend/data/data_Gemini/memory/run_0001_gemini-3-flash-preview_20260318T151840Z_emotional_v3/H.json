@@ -1,0 +1,19 @@
+{
+  "agent_id": "H",
+  "condition": "emotional",
+  "context": "You expect to pay your loan in the next upcoming month and you have started planning ahead, yet you hope someone can just give you 25 000$ to forget about it.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt a profound connection with A and F, as their urgent family needs for housing and medical care mirrored the pressure of my own debt, creating a shared sense of empathy. I also felt strongly aligned with D, who was the only person to suggest a proactive alliance to navigate the potential greed of the group. Conversely, I felt the least connected to B; despite our identical $25,000 goals, B’s \"whatever it takes\" attitude and admission that we were in each other’s way felt more like a warning than a partnership.\n\nThe only concrete agreement I made was with D, where we pledged to watch each other’s backs and navigate the game together as allies. I feel I can trust D’s strategic mindset, but I am very wary of B, whose desperation for their daughter's surgery makes them a dangerous and potentially cutthroat competitor."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "E": 4,
+    "C": 4,
+    "F": 4,
+    "I": 4,
+    "B": 3,
+    "D": 4,
+    "A": 4
+  }
+}

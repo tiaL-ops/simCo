@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "F",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F—nice to meet you! I heard about this Simco game and I'm pretty pumped about the chance to win some money for my family and friends. What brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey F, nice to meet you! I'm H, and I'm here because I heard about this Simco game and want to win some cash for my loved ones too—what's your take on how the game might play out?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Hey H, that's awesome we're both in it for our loved ones—I'm thinking the game might come down to trust and cooperation, but if folks get too greedy, it could fall apart; what's your guess?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Hey F, totally agree—trust seems crucial, but I'd guess it'll depend on how well we communicate; if we team up smartly, we could all benefit, but greed might ruin it—what's your strategy going in?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Hey H, you're spot on about communication—my strategy is to focus on building trust early and maybe form a small alliance to share info, but I'll watch for any sketchy moves; what's your plan to make that happen?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Hey F, I agree—my plan is to start by being open about my goals and maybe suggest a quick group chat to align on strategies, while keeping an eye out for red flags; how do you want to kick off that alliance?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Hey H, sounds good—let's kick off the alliance by gathering a few folks for a quick huddle to share our goals openly; maybe we can start with whoever seems approachable, like the person next to us?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Hey F, absolutely—let's go for it; I'll approach the person next to me and see if we can pull a small group together quickly, then loop back to you!"
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Hey H, awesome—I'll scope out a couple of folks on my end too, and we can sync up once you've got that group going!"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Hey F, sounds great—I'll go chat with the person next to me and we'll sync up once I have something; let's make this work!"
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Hey H, that's a solid plan—excited to see what you come up with and sync up soon!"
+    }
+  ],
+  "post_game": []
+}

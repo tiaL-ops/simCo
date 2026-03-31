@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "D",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey! I'm G. I gotta say, I'm pretty nervous about this game starting soon—have you done anything like this before? I'm really hoping to make something happen today."
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey G, nice to meet you. Nah, first time doing something like this for me too. I'm definitely nervous as well—honestly, I really need this to go well today. What kind of game experience do you have? Are you thinking you'll play it safe or go for bigger moves?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I've played a lot of games growing up—cards, strategy stuff, you name it. Honestly, I'm thinking I need to find a balance, you know? Play smart but not too cautious. Since we both need this to go well, maybe we should figure out what the actual rules are first before deciding how aggressive to be. What's your gut telling you?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Yeah, I hear you—balance is probably smart. Honestly, my gut's telling me I need to be strategic but not reckless, you know? I lost some serious money yesterday, so I'm hungry to win, but I don't want that desperation to make me stupid. Let's definitely figure out the rules first—that's step one. You seem like you've got a good head on your shoulders, so I'm glad we're talking about this before things kick off."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "I appreciate that, man. And hey, I respect you being real about the losses—that takes guts. I'm in the same boat needing this to work out. Let's stay sharp and figure out the rules together before we make any moves. Two heads are better than one, and honestly, it sounds like we're both thinking the same way about not letting desperation take over."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Absolutely, man. I'm glad we're on the same page about this. Let's keep our heads clear and work together to understand what we're dealing with before the game starts. I have a good feeling about this partnership already."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Same here, D. I think having someone to talk strategy with makes a huge difference. Once we know the rules, let's figure out what moves actually make sense. We've got this."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Yeah, for sure. I'm feeling good about this—let's stay focused and keep each other honest when the game actually starts. We'll figure it out together."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Absolutely, man. I'm counting on that—let's make sure we don't get caught up in the moment and lose sight of what actually makes sense. We'll keep each other grounded."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "For sure, man. I've got your back—we'll keep each other from making dumb moves when things get intense. Let's stick to the plan once we know what we're working with."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Appreciate it, D. We've got a solid plan—stay smart, stay focused, and look out for each other. Let's go make this happen."
+    }
+  ],
+  "post_game": []
+}

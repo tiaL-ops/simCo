@@ -1,0 +1,19 @@
+{
+  "agent_id": "E",
+  "condition": "emotional",
+  "context": "You got laid off from your finance job. You are the only source of income for your family of five. You have no savings, and are in the middle of searching for another job. You need about 5000$ to support you and your family for a month.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to C, as our conversation about travel dreams and mutual support for each other's goals created a warm, genuine bond that made me feel understood. H stood out too, with our shared stories of family hardships and a mutual agreement to team up, which built a sense of solidarity and hope. I also connected strongly with I through our discussion of career paths and motivations, fostering a level of trust based on shared professional insights. On the other hand, I felt least connected to J, as our talk focused more on surface-level family anecdotes without delving into deeper strategies or personal vulnerabilities.\n\nYes, I made agreements with a few people: specifically, with G, we established a code word for signaling threats; with D, we agreed to share tips and consult on big moves; and with H, we committed to teaming up in the game. Going into the game, I trust C, H, and I based on our heartfelt conversations and high rapport, but I don't specifically distrust anyone yet, as everyone seemed genuine in our interactions, though I'll remain cautious overall."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 5,
+    "D": 4,
+    "F": 4,
+    "G": 4,
+    "H": 5,
+    "I": 5,
+    "J": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "E",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt a deep connection with I, as we both prioritized cooperation and shared specific goals like clearing debts and helping family members. J also became a close ally after we bonded over our shared motivation to provide a safety net for our loved ones and agreed to look out for each other. I also appreciated B's strategic mindset, as we both agreed that a solid alliance would be key to navigating this game safely. Although we share similar motivations, I felt the least connected to D, whose responses were much more brief and focused solely on getting the game started quickly.\n\nI have formed explicit pacts with I and J to watch each other's backs and prioritize mutual success. I trust I the most because of our clear alignment on strategy, but I am also inclined to trust J given our shared commitment to our families. I don't have a reason to distrust anyone specifically yet, but I will be staying observant to see who honors their word once the stakes get higher."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "G": 4,
+    "A": 4,
+    "F": 4,
+    "H": 4,
+    "I": 5,
+    "D": 4,
+    "B": 4
+  }
+}

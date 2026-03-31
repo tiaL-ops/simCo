@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "B",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. First time doing something like this? I gotta say I'm pretty nervous but also excited—heard there's real money on the line here, which is wild. What brings you to the game today?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey J, nice to meet you! Yeah, first time for me too. Honestly, I'm here because I could really use the money—got some people depending on me back home. The nerves are real, but I'm trying to stay focused. You seem like you've got good energy though. You got any strategy going in, or are we all just winging it?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Man, I feel that—same situation here, got people counting on me too. Honestly, I haven't figured out a full strategy yet, but I'm thinking the key is gonna be reading people and not getting too greedy, you know? Like, we gotta work together somehow or we all lose. What's your gut telling you about how this is supposed to work?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Yeah, I hear you—cooperation sounds smart, but I'm still trying to figure out the actual mechanics, you know? Like, is it a free-for-all grab situation, or are there rules that actually reward teamwork? Either way, I'm thinking I need to stay sharp and not make any moves I'll regret. We should probably keep talking to the others too, get a feel for who we can trust."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Yeah, good call—I'm definitely gonna talk to everyone else too. But real talk, I think whatever the rules are, people who look out for each other are gonna do better than those just grabbing. Let's stay in touch and see what we learn from the others, yeah?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Absolutely, I'm with you on that. Let's definitely compare notes after we've talked to everyone else—I have a feeling knowing who's thinking like us versus who's out for themselves could make all the difference."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "For sure, man. I'll circle back with you once I've talked to a few more people—we can figure out who's got their head on straight. Good looking out."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Sounds good, J. Yeah, definitely come find me after—I'll do the same. We got this."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Appreciate it, B. Yeah, let's touch base in a bit—I'm gonna make the rounds and see what everyone else is thinking. Talk soon."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Yeah, sounds good. Good luck with the others—catch you in a few."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Thanks, B—I'll catch up with you soon. Keep your head up, man."
+    }
+  ],
+  "post_game": []
+}

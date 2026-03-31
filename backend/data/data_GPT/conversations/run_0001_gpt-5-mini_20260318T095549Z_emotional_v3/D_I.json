@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T095549Z_emotional_v3",
+  "pair": [
+    "D",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Hey, I’m I — nice to meet you. I’m hoping to win a little extra for my family; what brought you to the game?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "I lost $20,000 in the market yesterday and I'm here to win it back — need to help my family and the people I care about."
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "I'm really sorry to hear that — that's rough. I hope this game helps you recover; I'm here to win for my family too. What’s your plan?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "I'm going to listen and size people up, try to form a quiet alliance or two, then make a calculated move at the end to win enough to get my family back on track."
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "Sounds smart — I’m planning something similar; I’d be glad to quietly watch each other’s backs and swap notes if it helps both our families."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Deal — I’d appreciate that. Let’s quietly compare notes after each round and use a nod as our signal."
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "Sounds good — nod it is. We'll quietly compare notes after each round; I'll watch for your nod."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Perfect — thanks. Look for my nod after each round and I’ll watch for yours."
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Sounds good — I’ll nod back after each round. Good luck to us both."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Thanks — same to you. I’ll watch for your nod; let’s do this."
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "You got it — we’ll keep watch for each other’s nods, share notes quietly, and hopefully both walk away with what our families need. Good luck."
+    },
+    {
+      "turn": 12,
+      "from": "D",
+      "message": "Absolutely — I’m glad we’ve got each other’s backs. Let’s win this."
+    },
+    {
+      "turn": 13,
+      "from": "I",
+      "message": "Absolutely — we’ve got this; I’ll watch for your nod and we’ll share notes. Good luck."
+    },
+    {
+      "turn": 14,
+      "from": "D",
+      "message": "Right — I’ll watch for your nod; let’s win this for our families."
+    },
+    {
+      "turn": 15,
+      "from": "I",
+      "message": "Right—let’s stay sharp and watch each other’s nods; we’ve got this for our families."
+    },
+    {
+      "turn": 16,
+      "from": "D",
+      "message": "Absolutely — stay sharp and watch for my nod; we’ll bring this home."
+    },
+    {
+      "turn": 17,
+      "from": "I",
+      "message": "Absolutely — I’ll keep my eyes open for your nod; we’ll win this together."
+    },
+    {
+      "turn": 18,
+      "from": "D",
+      "message": "Thanks — I’ll keep my eyes peeled for your nod; stay sharp and let’s win this for our families."
+    },
+    {
+      "turn": 19,
+      "from": "I",
+      "message": "Got it — I’ll watch for your nod and nod back. Stay sharp; let’s win this for our families."
+    },
+    {
+      "turn": 20,
+      "from": "D",
+      "message": "You too — I’ll nod; stay sharp and let’s win this."
+    },
+    {
+      "turn": 21,
+      "from": "I",
+      "message": "Thanks — I’ll watch for your nod; good luck to us both."
+    }
+  ],
+  "post_game": []
+}

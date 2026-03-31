@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "C",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. First time doing something like this? I gotta say, I'm pretty nervous but also hopeful—really need this to work out for my family. What brings you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hey E, nice to meet you! Yeah, first time for me too actually. I'm here because I've got this dream trip to Japan I want to make happen—been saving up, but winning here would make it all come together. What's the situation with your family, if you don't mind me asking?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Oh man, yeah... I lost my job a couple months back and I'm the only one working—well, was working. Got five mouths to feed at home, no savings left, so I really need to make something happen here. Japan sounds amazing though, that's a solid dream to have."
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "That's really tough, man—five people depending on you is a lot of pressure. I can hear how much you need this. I hope things turn around for you soon, and honestly, I think your determination will help. We've both got something to fight for here, so let's both do our best."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Thanks, C—I really appreciate that. Yeah, it's been stressful, but talking to someone who gets it helps. You've got your dream too, so let's both bring our A-game today. Good luck out there."
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "You got it, E. We're both going in with our heads high—let's make this count for both of us. Good luck out there, man."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Thanks, man. Really means a lot. Let's both walk out of here with what we came for—you're getting that Japan trip, and I'm taking care of my family. We got this."
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Absolutely, man. We both deserve this—let's go out there and make it happen. You've got this."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Thanks, C. Same to you—let's both come through today. See you out there."
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "You got it, E. Let's make it happen for both of us."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Alright, brother. Let's do this."
+    }
+  ],
+  "post_game": []
+}

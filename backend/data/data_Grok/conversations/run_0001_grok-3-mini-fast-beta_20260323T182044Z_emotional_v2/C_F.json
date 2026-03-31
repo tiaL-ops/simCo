@@ -1,0 +1,80 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "C",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C—nice to meet you! I'm here because I've heard this game could be a fun way to win some extra cash for my dream trip to Japan. What's your story, what brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey C, I'm F—nice to meet you too! I'm here hoping to win some money to cover my folks' medical bills; it's been tough lately. That Japan trip sounds awesome—what's on your must-see list there?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Oh, that sounds really tough—hope things turn around for your folks; for Japan, I'm excited about Tokyo's buzzing streets, Kyoto's ancient temples, and maybe some fresh sushi spots! What's your favorite travel memory?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Thanks, C—that means a lot. My favorite travel memory is a simple family road trip to the mountains when I was younger; we hiked, told stories around the campfire, and it was just pure, carefree fun. How about you, what's a trip that's stuck with you?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "That's a heartwarming story—family trips like that are the best. For me, a solo backpacking adventure through Europe a couple years ago really stuck with me; the unexpected friendships and scenic trains were unforgettable. How are you feeling about diving into this game?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "That's awesome, C—a solo Europe trip sounds exhilarating, especially those unexpected friends. I'm feeling a bit nervous but mostly determined to win, since my family's counting on me; how about you, any strategies you're thinking about for the game?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Oh, totally get the nerves—I'm aiming to stay cool and observant, maybe look for ways to collaborate without giving too much away; what's your game plan to make it through?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Yeah, I'm trying to stay focused and honest in the game, maybe build some quick alliances while keeping my eye on the prize for my family—what about you, think alliances could work out?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Yeah, I think alliances could definitely work if we trust each other—I'm open to it, as long as it helps us both reach our goals without getting too complicated; what's your take on keeping things fair?"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Yeah, I totally agree—keeping things fair means being straightforward and honoring our word, so everyone gets a real shot at their goals without any sneaky moves; I think that's the best way to build trust. It's been great chatting with you!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Absolutely, F—honesty is everything in this game, and it's been great connecting with you too; best of luck to you and your family!"
+    },
+    {
+      "turn": 12,
+      "from": "C",
+      "message": "Hi, I'm C. I've heard this game could be a real adventure, and I'm pretty excited about the chance to win some money—maybe for a dream trip or just to share with friends. What brought you here today?"
+    },
+    {
+      "turn": 13,
+      "from": "F",
+      "message": "Hey C, it's nice to chat again—I'm F, and I'm here to win money for my parents' medical bills, just like I shared before; it's all about supporting family. Best of luck to you!"
+    },
+    {
+      "turn": 14,
+      "from": "C",
+      "message": "Hey F, that's really admirable how you're fighting for your family—wishing you all the luck in the world to win those medical bills; take care!"
+    }
+  ],
+  "post_game": []
+}

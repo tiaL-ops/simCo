@@ -1,0 +1,19 @@
+{
+  "agent_id": "I",
+  "condition": "emotional",
+  "context": "You have savings that make you feel comfortable for unforeseen events.",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to B, F, and H. With B, we bonded over having family depending on us and the shared understanding that financial stress makes it hard to be present for people we love—his daughter's surgery felt like a real anchor point that made our conversation meaningful. F and I built genuine trust by acknowledging his desperation around medical bills and agreeing to keep each other honest if either of us started making reckless moves. H and I connected through his loan deadline stress, and I appreciated how he was willing to step back and think strategically rather than panic, which felt like real growth in our conversation. D felt like the least connected—our talk was more transactional and strategic, focused on coordination and \"making a move together,\" and it lacked the emotional depth or genuine concern that characterized my conversations with the others.\n\nI made a specific agreement with F to compare notes once we understand the game and to call each other out if either of us starts getting too desperate. With B, H, and several others, I made more implicit agreements to look out for each other and play smart rather than panic, but nothing as formal as what I committed to with F. Going into the game, I trust B, F, H, and A the most because their motivations felt genuine and they seemed genuinely concerned about people beyond themselves. I'm least certain about D—while he seemed sharp strategically, there was an edge to our conversation that made me feel like he'd prioritize winning over loyalty if the situation demanded it."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "H": 4,
+    "E": 4,
+    "C": 4,
+    "F": 4,
+    "B": 4,
+    "D": 3,
+    "A": 4
+  }
+}

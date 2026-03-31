@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "D",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey! I'm G. I've got to say, I'm pretty nervous and excited about this game starting soon. Have you done anything like this before, or is this your first time too?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey G, first time for me too! Yeah, I'm definitely nervous—honestly, I need this win pretty badly. Lost a chunk of money recently and I'm hoping this game can help me turn things around. What about you, what brings you here?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I feel you on that—I'm here because I want to bring some money home for my family, and honestly, the chance to win big is hard to pass up. Sorry to hear about your losses though. You thinking you'll play aggressive or more cautious when the game starts?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Honestly, I'm leaning aggressive—I can't afford to play it safe right now. But I'm also trying not to be stupid about it, you know? I need to actually understand the rules first. What's your gut telling you?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "My gut's telling me the same thing—I want to be aggressive too, but yeah, understanding the rules is key. Maybe we should compare notes once we know how this actually works? Could be smart to figure out the game before we make any big moves."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Yeah, absolutely—I'm down for that. Two heads are better than one, especially when there's money on the line. Let's touch base once we get the full breakdown of how this works."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Sounds good, man. I'll find you once they explain the rules—we can figure out the best strategy together before things get real."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Perfect, yeah—I'll keep an eye out for you. Let's make sure we're both thinking straight before we make any moves. See you in a bit."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Sounds good—catch you after they go over the rules. Let's stay sharp and figure this out together."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Yeah, for sure. Let's both stay focused and not let desperation cloud our judgment. See you soon, man."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Absolutely, man. We got this—just gotta keep our heads clear and play smart. See you in a few."
+    }
+  ],
+  "post_game": []
+}

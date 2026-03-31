@@ -1,0 +1,19 @@
+{
+  "agent_id": "B",
+  "condition": "emotional",
+  "context": "Your little girl, first born, three years old, needs surgery, but you have no health insurance. After taking many loans and selling many assets, three months later you still need 25 000$.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt a deep connection with H and F because we are both facing life-altering medical or financial crises, especially H who needs the exact same $25,000 amount I do for my daughter’s surgery. G also stood out as a strong ally after promising to watch my back so we can both provide for our families through this game. On the other hand, I felt the least connected to J, who seemed more focused on a luxury car than my daughter's health and even forgot our conversation entirely.\n\nI made a pact with H to try and share the prize pool if possible, and G and I agreed to form a protective alliance to ensure we both succeed. I generally trust G and H to stay true to their word, but I have serious doubts about J and A since they both seemed too distracted or overwhelmed to even remember my situation."
+  },
+  "connection_scores": {
+    "J": 3,
+    "G": 4,
+    "A": 4,
+    "C": 3,
+    "F": 4,
+    "H": 4,
+    "I": 4,
+    "E": 4,
+    "D": 4
+  }
+}

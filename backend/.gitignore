@@ -2,14 +2,12 @@
 __pycache__
 *.pyc
 .DS_Store
-data
+
 .vscode
 .env
-data_Claude
-data_Gemini
-data_GPT
+
 gemini.py
 left_experiment.py
 epitome_results
-data_Grok
+
 epitome_results_ex

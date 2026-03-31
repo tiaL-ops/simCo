@@ -1,0 +1,13 @@
+{
+  "agent_id": "E",
+  "condition": "emotional",
+  "context": "You got laid off from your finance job. You are the only source of income for your family of five. You have no savings, and are in the middle of searching for another job. You need about 5000$ to support you and your family for a month.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to J and G — both laid out concrete, reciprocal strategies and clear public signals (J's \"I've got you\"/two taps and G's two-left/one-right wrist taps) which made me confident we'd watch each other's backs. Their willingness to swap reads and cover different targets felt like real teamwork I could rely on. C was warm and supportive and I appreciated the empathy and promise to share info, but I felt slightly less connected tactically because our plan was vaguer.\n\nYes — I made explicit agreements: with J to back each other using the agreed taps/stand signal and to share info, and with G to swap reads and use the left/right wrist taps as confirmation (I also agreed with C to meet early and share updates). I trust J and G most going into the game because of their clear, actionable plans; I don't have anyone I actively distrust, though C feels less tightly aligned on concrete moves."
+  },
+  "connection_scores": {
+    "C": 5,
+    "J": 5,
+    "G": 5
+  }
+}

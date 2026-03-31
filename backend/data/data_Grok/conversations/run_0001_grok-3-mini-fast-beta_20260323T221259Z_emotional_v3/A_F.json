@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "A",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hi A, I'm F and I'm really looking forward to this game—it could be a great chance to win some money. What about you, what brings you here?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hi F, nice to meet you—I'm A, and I'm here because I desperately need the winnings to sort out housing for my family; it's been tough lately. What about you, what's your background or what do you plan to do with the money if we win?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Oh, hey A, it's tough hearing about your family's housing struggles—I totally get it. I'm here because I need to cover mounting medical bills for my elderly parents; they're depending on me, and I'm short on cash to make it work. If we win, I'd use the money to pay those bills and give them some relief—what's been the hardest part for you with your situation?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "\"Thanks for sharing that, F—it sounds incredibly stressful dealing with those medical bills for your parents. For me, the hardest part has been the constant worry and instability, especially seeing my kids upset without a home; it's just heartbreaking.\""
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "\"I'm so sorry to hear that, A—it must be absolutely devastating seeing your kids go through that worry; my heart goes out to you. Dealing with my parents' health scares has been emotionally draining for me too, but talking about it helps a bit—have you found any ways to cope with the instability?\""
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "\"Thanks, F, your understanding really helps—I've been coping by leaning on friends for support and keeping my eyes on opportunities like this game to turn things around; what strategies have you used to manage the emotional toll?\""
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "\"Thanks, A, it's good to hear you're finding ways to push through—I cope by talking to close friends and focusing on daily tasks to keep my mind off the stress, plus reminding myself why I'm fighting; have you found any hobbies that help with the worry?\""
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "\"Thanks for asking, F—I've found that going for long walks in the park helps clear my head and distract me from the worry, plus spending time playing simple games with my kids brings some joy; how about you, do you have any go-to hobbies for relaxation?\""
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "\"Thanks, A—that's sweet how playing games with your kids brings some light; for me, reading books or going for a quiet walk helps me unwind and clear my mind—do you have a favorite park spot for those walks?\""
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Oh, yeah, I love the spot by the lake in my local park—it's so peaceful and makes me feel grounded. Thanks for the chat, F; it's been really nice sharing stories."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Oh, that lake spot sounds amazing—A, I'm glad we could share our stories; it's been really helpful for me too."
+    }
+  ],
+  "post_game": []
+}

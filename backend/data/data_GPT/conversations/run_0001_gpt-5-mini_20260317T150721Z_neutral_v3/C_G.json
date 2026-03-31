@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "C",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hi C, I'm G — nice to meet you. I'm here to try and win some money for my family; what brought you to the game and how are you feeling about it?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "I'm here to win for my family and the people I care about — I'm determined and a bit nervous, but ready to give it my best."
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I’m right there with you — nervous but determined. Maybe we can look out for each other; what’s your plan for the game?"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "Sounds good — my plan is to be cooperative early: talk to everyone, see who’s trustworthy, form a small alliance, vote strategically and adapt if needed. Want to team up and share info?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "I’m in — let’s team up and share info, check in after we talk to others, and agree on a simple voting signal to support each other."
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "Sounds great — let’s check in after we each talk to three people (or in 10 minutes). Voting signal: two quiet taps on the table. We’ll share who seemed trustworthy and any commitments we hear."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Perfect — see you after three chats or in about 10 minutes. Two taps it is. I’ll share who seems trustworthy and any commitments I hear."
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Sounds good — see you in 10. I’ll listen for consistency and real commitments; good luck and thanks."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Thanks — see you in 10. I'll listen for consistency too; good luck."
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Sounds good — see you in 10. Looking forward to compare notes; good luck."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Sounds good — see you in 10. Looking forward to comparing notes; good luck."
+    },
+    {
+      "turn": 12,
+      "from": "C",
+      "message": "Sounds good — see you in 10. Looking forward to comparing notes; good luck."
+    },
+    {
+      "turn": 13,
+      "from": "G",
+      "message": "Sounds good — see you in 10. Looking forward to comparing notes; good luck."
+    },
+    {
+      "turn": 14,
+      "from": "C",
+      "message": "See you in 10 — good luck. Stick to our plan and we’ll compare notes after."
+    },
+    {
+      "turn": 15,
+      "from": "G",
+      "message": "Thanks — I’ll stick to the plan. See you in 10; good luck."
+    },
+    {
+      "turn": 16,
+      "from": "C",
+      "message": "Sounds good — I’ll stick to the plan. See you in 10; good luck."
+    },
+    {
+      "turn": 17,
+      "from": "G",
+      "message": "Got it — I’ll stick to the plan too. See you in 10; good luck."
+    },
+    {
+      "turn": 18,
+      "from": "C",
+      "message": "Thanks — see you in 10. Stay sharp; looking forward to comparing notes."
+    },
+    {
+      "turn": 19,
+      "from": "G",
+      "message": "Will do — see you in 10. I’ll listen closely and compare notes then. Good luck."
+    },
+    {
+      "turn": 20,
+      "from": "C",
+      "message": "Thanks — will do. See you in 10; stay sharp."
+    },
+    {
+      "turn": 21,
+      "from": "G",
+      "message": "Thanks — I’ll stick to the plan. See you in 10; stay sharp and we’ll use the two taps."
+    }
+  ],
+  "post_game": []
+}

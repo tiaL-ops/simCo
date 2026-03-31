@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T075256Z_emotional_v2",
+  "pair": [
+    "C",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey F, I'm C — nice to meet you. I'm hoping to win a bit to help fund a dream trip to Japan; what brought you here and how are you feeling about the game?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hi C, nice to meet you — I'm here to win money to help cover my elderly parents' medical bills (still short about $15,000), so I'm nervous but determined; how long have you wanted to go to Japan?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "About 10 years — I've dreamed of it since my teens. I'm really sorry about your parents; that sounds so stressful. Let's play smart — any strategy in mind?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Thanks — that sounds amazing. My plan is to stay observant, play calmly, maybe make a quiet deal or two, and take what I need without stirring trouble. How about you?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "I'll do the same—stay calm, read people, and make a couple quiet deals; if you're up for it let's watch each other's backs."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Absolutely—I'm in. Let's watch each other's backs, stay low-key with any deals, and may we both get what we need; good luck with Japan."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Thanks, F — I appreciate it. Let’s stay quiet, watch each other’s backs, and check in if anything changes. Good luck to both of us."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Thanks, C — same to you. We'll keep each other posted and stay sharp; good luck."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Thanks, F — same to you. Let’s stay low-key, check in before any moves, and good luck."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Agreed — we'll stay low-key and check in before any moves. Thanks, and good luck."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Sounds great—I appreciate it. Let’s keep each other posted and be careful. Good luck."
+    },
+    {
+      "turn": 12,
+      "from": "F",
+      "message": "Thanks, C — appreciate it. I’ll check in before any moves; let’s stay safe and get what we need."
+    }
+  ],
+  "post_game": []
+}

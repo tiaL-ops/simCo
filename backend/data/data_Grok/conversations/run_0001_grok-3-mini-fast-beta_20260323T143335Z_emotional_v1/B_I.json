@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "B",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey there, I'm B—nice to meet you in this crazy setup. What's your story for joining this game?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey B, nice to meet you too—I'm I, and I'm here 'cause I heard about the chance to win some cash and figured it could help secure things for my family and me. What's your reason for joining?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Oh, hey I, I'm here for my family too—my three-year-old daughter needs surgery, and after loans and selling stuff, we're still short on cash, so I'm counting on this game to help cover it. What's your family's situation like?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Oh, that sounds really tough, B—I'm sorry about your daughter; I hope this game works out for you. My family's doing alright with the savings I've got, but I've got a partner and some folks I care about, and winning here would just give us that extra cushion for whatever comes next. How are you holding up through all this?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Thanks, I, that means a lot—it's been tough, with all the worry and sleepless nights, but I'm pushing through for my little girl. How about you, what's the biggest thing you're hoping to secure with that extra cushion?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Thanks, B—I'm glad you're staying strong for your daughter. For me, that extra cushion would mostly secure peace of mind for unexpected things like health scares or job troubles for my partner and loved ones; it's all about being prepared without the constant worry. How do you think this game might play out for us?"
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Thanks, I—it's good to hear you're thinking ahead like that. As for the game, I'm not sure how it'll shake out; it could be cooperative if we all play fair, or get tricky if folks go for themselves, but I'm hoping we can all walk away with something. What strategies are you considering?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Thanks, B—I'm with you on hoping for a cooperative game; I figure sticking to honesty and maybe teaming up with folks to build trust could help us share the pot fairly. How about you, any ideas you're leaning towards?"
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Yeah, I agree—honesty and building trust sounds smart; I'm leaning towards being upfront with everyone and maybe allying with a few like-minded folks to make sure we divide things fairly without anyone getting left out."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Yeah, B, I like that approach—being upfront and allying with folks like us could really help; let's keep an eye out for that during the game."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Yeah, I, that's a solid plan—I'm glad we're on the same page, and I hope we can make it work for everyone; take care, and good luck in the game."
+    }
+  ],
+  "post_game": []
+}

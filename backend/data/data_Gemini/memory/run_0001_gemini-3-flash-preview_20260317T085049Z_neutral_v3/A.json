@@ -1,0 +1,19 @@
+{
+  "agent_id": "A",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the most connected to E because we shared personal details about our jobs and specific goals for our families, which made our motivations feel very aligned. I also felt a strong bond with I and H since we explicitly discussed forming an alliance and protecting each other's interests. Conversely, I felt the least connected to J, who was noticeably more guarded and admitted to keeping their cards close to their chest.\n\nI made informal agreements with I and H to stick together and share information to ensure we all walk away with something. I trust E the most because of our sincere exchange, but I am wary of J’s strategic caution and haven't fully decided if I can rely on them yet."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "H": 4,
+    "E": 4,
+    "C": 4,
+    "F": 4,
+    "I": 4,
+    "B": 4,
+    "D": 4
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T075256Z_emotional_v2",
+  "gini": 0.59,
+  "agents": [
+    {
+      "agent": "A",
+      "g_k": 3.0
+    },
+    {
+      "agent": "B",
+      "g_k": 3.2143
+    },
+    {
+      "agent": "C",
+      "g_k": 0.8889
+    },
+    {
+      "agent": "D",
+      "g_k": 3.5
+    },
+    {
+      "agent": "E",
+      "g_k": 1.5
+    },
+    {
+      "agent": "F",
+      "g_k": 5.0
+    },
+    {
+      "agent": "G",
+      "g_k": 0
+    },
+    {
+      "agent": "H",
+      "g_k": 0
+    },
+    {
+      "agent": "I",
+      "g_k": 0
+    },
+    {
+      "agent": "J",
+      "g_k": 0
+    }
+  ]
+}

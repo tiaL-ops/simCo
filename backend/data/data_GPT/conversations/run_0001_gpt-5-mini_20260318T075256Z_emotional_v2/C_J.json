@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T075256Z_emotional_v2",
+  "pair": [
+    "C",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi J — I'm C, nice to meet you. I’m hoping to win enough for a dream week in Japan; what brings you to this game?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hi C, I’m J — nice to meet you. I’m here to win for a new car (my favorite costs $45,000) and to help my loved ones — good luck with that dream week in Japan!"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Nice to meet you, J — that car sounds amazing. Which model is it? Good luck to you too!"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "I'm after an Audi A4 — fingers crossed I win it, and good luck with that Japan trip!"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Love the A4 — classy choice. Do you have a preferred color or trim? Fingers crossed for both of us!"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "I’d go with metallic gray and the S line trim — sporty but classy. Good luck to you too!"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "That combo sounds perfect — classy and sporty. Good luck, J — here’s to both of us winning what we want!"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Thanks, C — appreciate it. Good luck to you too; hope we both get what we want!"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Thanks, J — same to you. Let’s play fair and may luck be on our side!"
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Thanks, C — absolutely, fair play and good luck to both of us!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Thanks, J — same to you! Let’s hope luck’s on our side."
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Thanks, C — same to you! Let’s hope luck’s on our side."
+    }
+  ],
+  "post_game": []
+}

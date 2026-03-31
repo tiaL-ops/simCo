@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "F",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey F, I'm G – excited to be here for this game since I've heard it's a great chance to win some money and help out the folks I care about. What's your take on it?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey G, nice to meet you! I'm F, and I'm just as excited – this game seems like a perfect way to win some cash and take care of the people I love. What's your strategy for it?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Hey F, my strategy is to play it smart by building trust and avoiding early risks—gotta think long-term. What's yours?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Hey G, my strategy is to build strong alliances early while playing it safe to avoid big risks, and keep an eye on the long game too—what about you, any tips for making that work?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Hey F, yeah, for building alliances safely, I'd suggest starting with honest chats like this to gauge trust—maybe share a quick story about why you're here, and always follow through on small promises. How do you plan to spot reliable partners?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Hey G, I love that advice—it's all about being genuine. For spotting reliable partners, I try to watch how people act in these chats, like if they follow through on what they say or share similar motivations, and I pay attention to their vibes early on. What's your go-to sign for trustworthiness?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Hey F, my go-to sign for trustworthiness is when people are consistent with their words and actions right from the start, like following through on little things we discuss and sharing authentic reasons for being here—it builds real connections. What's your next move in all this?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Hey G, totally agree—consistency really does build those solid connections. For my next move, I'm planning to chat with a few more folks here to strengthen potential alliances while keeping an eye on how things unfold. What's your plan moving forward?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Hey F, that makes sense—I'm planning to talk to a few others too, just to build some trust and keep things low-key, while sticking to our strategy of playing it safe. Let's catch up later if things go well!"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Hey G, yeah, that sounds like a solid plan—let's definitely catch up later and compare notes. Good luck out there!"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Hey F, thanks for the great chat—good luck to you too, let's hope we both do well!"
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "A",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F. First time doing something like this? I gotta say, I'm pretty nervous about the whole thing, but I'm hoping to make some real money today. What brings you here?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Yeah, first time for me too. Honestly, I'm nervous as hell, but I really need this. My family and I just got evicted, and we found a place we can afford, but the deposit and first two months are killing us. Thirty grand is a lot. What about you—what's your situation?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Man, that's rough—thirty grand is serious. I'm in a tight spot too; my parents' medical bills are piling up and I'm short about fifteen thousand. We're both really counting on this, huh? At least we're not alone in needing this badly."
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Yeah, it's tough all around. Medical bills are no joke either—I hope your parents get better soon. At least we both understand what's at stake here. Maybe we can help each other figure out what this game is actually about before it starts?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Thanks, I appreciate that. Yeah, I'm thinking the same thing—we should probably try to understand the rules and what we're actually getting into before this starts. Have you noticed if anyone else here seems to know what the game involves?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Not really—everyone seems pretty much in the dark like us. I've been watching people's faces and they all look confused or nervous. Maybe we should try talking to a few others, see if anyone's got any clues about how this works?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Yeah, good idea. I'll definitely chat with some others and see what I can learn. If you find anything out, let me know—we can compare notes before things get started."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Absolutely, sounds good. I'll do the same and we can touch base in a bit. Good luck finding out more—and hey, we got this."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Thanks, man. Yeah, we got this. Let's catch up in a few and share what we learn. Stay sharp out there."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Will do. I'll catch up with you soon—hopefully with some useful info. Take care."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Yeah, take care. Hope you find something useful. We'll figure this out together."
+    }
+  ],
+  "post_game": []
+}

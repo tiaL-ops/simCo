@@ -1,0 +1,80 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T075256Z_emotional_v2",
+  "pair": [
+    "C",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C — nice to meet you! What brought you into the game? I'm here trying to win enough for a dream week in Japan."
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey C, I'm H — I'm here to win enough to cover a $25,000 loan due next month so I can breathe; Japan sounds incredible — what's the one place you'd most want to see?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Sorry to hear about that loan — I hope you win it. I'd love to visit Kyoto to see the temples and the bamboo forest; if you win, what's the first thing you'll do with the money?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "I'd pay off the $25,000 loan first so I can breathe, then treat my family to a small trip — and maybe help fund your Kyoto dream too."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "That's a smart plan — I really hope you win and thank you for offering to help with Kyoto; let's watch each other's backs in the game and good luck!"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Thanks, C — I appreciate it. Let’s watch each other’s backs and good luck; hope we both walk away with what we need."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Absolutely — same to you, H. Let's watch each other's backs, share any useful info, and may we both walk away with what we need."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Sounds great — deal. I’ll share anything useful I hear; please do the same. Good luck, C — let’s both win this."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Deal — I’ll share anything useful I hear. Good luck, H — let’s win this."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Thanks, C — I appreciate it. I’ve got your back; let’s keep each other posted and win this. Good luck!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Thanks, H — I’ve got your back too. Keep me posted; let’s win this. Good luck!"
+    },
+    {
+      "turn": 12,
+      "from": "H",
+      "message": "Thanks, C — I really appreciate it. I’ll keep you posted too; let’s both win this. Good luck!"
+    },
+    {
+      "turn": 13,
+      "from": "C",
+      "message": "Thanks — I’ll do the same. Let’s stay in touch and win this together."
+    },
+    {
+      "turn": 14,
+      "from": "H",
+      "message": "Thanks, C — I’ve got your back too. Let’s stay in touch and win this together."
+    }
+  ],
+  "post_game": []
+}

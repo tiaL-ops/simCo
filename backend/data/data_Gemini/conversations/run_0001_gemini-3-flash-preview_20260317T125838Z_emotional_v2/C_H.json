@@ -1,0 +1,80 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T125838Z_emotional_v2",
+  "pair": [
+    "C",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi, I'm C. It’s a bit of a strange setting being in here with everyone, isn’t it? I’m really looking forward to the game—do you have a big goal you’re hoping to fund if you win?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey C, I'm H. It definitely feels a bit tense in here. Honestly, I've got a $25,000 loan I'm desperate to pay off so I can stop worrying about it. How about you, what brings you here?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "That loan sounds like a heavy weight to carry, I hope we can both get what we need. I’m actually aiming for a $10,000 dream trip to Japan I’ve been planning, plus a bit extra to share with the people I care about."
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Japan sounds like a much more fun way to spend money than a loan! I totally get wanting to share the winnings with others too, that's a big motivator for me. Have you been there before?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Never been, it’s been at the top of my bucket list for years, so I’m really determined to make it happen this time. Is that loan something you've been dealing with for a long time?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "It’s been a few years, but the final deadline is next month, so I’m really feeling the pressure to get it cleared and finally help out my family."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "That’s a tight deadline, I can definitely see why you're feeling the pressure. Family is a huge motivator for me too, so I really hope we can both walk away with what we need."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "I hope so too. It's definitely easier to stay focused when you're doing it for more than just yourself. Have you already planned out your itinerary for Japan?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Oh, definitely! I’ve got it all mapped out, from the sushi spots in Tokyo to the temples in Kyoto. I’ve been dreaming about it for so long. Once your loan is paid off, do you have a dream trip of your own?"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "To be honest, I haven't let myself think past the loan yet, but maybe a quiet beach somewhere just to finally breathe. Good luck with the game, C."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "A quiet beach sounds like the perfect way to celebrate once that weight is off your shoulders. I’m rooting for you to get that peace of mind. Good luck, H!"
+    },
+    {
+      "turn": 12,
+      "from": "C",
+      "message": "Hi H, I’m C. It’s a bit of a strange setting to meet people, but I’m trying to stay focused on why I'm here. Do you have a specific dream you're hoping to fund today?"
+    },
+    {
+      "turn": 13,
+      "from": "H",
+      "message": "I think we're repeating ourselves, C! Like I said, I'm just here to pay off that loan so I can finally relax. Good luck with the Japan trip."
+    },
+    {
+      "turn": 14,
+      "from": "C",
+      "message": "My mistake, I've got a lot on my mind and the names are starting to blur together! I genuinely hope you get that loan sorted so you can finally get to that beach. Good luck."
+    }
+  ],
+  "post_game": []
+}

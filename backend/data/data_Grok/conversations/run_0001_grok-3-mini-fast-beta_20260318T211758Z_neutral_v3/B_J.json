@@ -1,0 +1,80 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "B",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey B, I'm J—nice to meet you. I'm pretty excited about this game since I heard we could win some cash, and I'm curious what brought you here today."
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey J, nice to meet you too! I'm excited about this game because I heard about the chance to win some cash and I want to bring home money for my family and friends—what about you, what's your story?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Hey B, that's awesome you're doing this for your family and friends—I'm in the same boat. I'm just a regular guy trying to win some cash to support my loved ones; I've been working odd jobs lately and could use a break. What's your background, like what do you do when you're not chasing prizes?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Hey J, that's tough—I'm a teacher by day, juggling classes and grading, but I jump at chances like this to help out my family; what sort of odd jobs keep you busy?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Hey B, yeah, it's been a mix of waitering gigs, some freelance writing online, and odd jobs like yard work—just whatever pays the bills. How do you manage to squeeze in these games around your teaching?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Hey J, I try to schedule these games on weekends or school breaks when things are lighter, it gives me a fun break from grading—sounds like your jobs keep you pretty busy, do you get much downtime for hobbies?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Hey B, yeah, my jobs keep me on my toes, but I squeeze in hobbies like hiking and playing guitar on rare free evenings—what about you, got any favorite pastimes outside of teaching?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Hey J, that's awesome you do hiking and guitar—I love reading books and playing basketball to unwind, what got you into those hobbies?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Hey B, thanks! I got into hiking as a way to escape the city hustle and clear my mind, and guitar started when my dad taught me some chords as a kid—how about you, what sparked your interest in reading and basketball?"
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Hey J, that's cool about your dad teaching you guitar—I got into reading through my mom's bedtime stories as a kid, and basketball sparked in high school PE when I made the team and loved the competition; it's been great chatting, but I should mingle more."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Hey B, that's awesome how your mom's stories and high school ball got you into reading and basketball—sounds like we both have those family roots in our hobbies. It's been great chatting with you too, and yeah, time to mix with others."
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Hey B, I'm J—nice to meet you! I'm really excited about this game since I heard we could win some money, and I'm hoping to bring home enough to treat my family. What brings you here?"
+    },
+    {
+      "turn": 13,
+      "from": "B",
+      "message": "Hey J, it's great to chat again—I'm here to win some cash for my family and friends, just like we talked about earlier. Time for me to mingle with others though."
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Hey B, it's been great catching up and sharing stories—wishing you the best in the game and for your family!"
+    }
+  ],
+  "post_game": []
+}

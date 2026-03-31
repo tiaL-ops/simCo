@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "E",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. First time doing something like this? I gotta say, I'm pretty nervous but also hopeful—honestly, I really need this to work out today. What brings you here?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey E, nice to meet you. Yeah, first time for me too. I've got some savings cushioning me, but I'm here because I want to win big—not just for myself, but to help out people I care about. What's your situation? What made you decide to come today?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Man, I appreciate that. Honestly, I just got laid off from my finance job last month, and I'm the only one bringing money in for my family—wife, three kids. We're running on empty right now, so this opportunity felt like something I had to try. Good luck to you though, and thanks for being real about your motivations."
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "That's a tough spot, man—I'm sorry you're going through that. Three kids, that's a lot of responsibility. I hope things turn around for you soon, whether it's through this or finding your next gig. We're both here for real reasons, so let's see what happens today."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Thanks, I really appreciate that. Yeah, it's been stressful, but I'm trying to stay positive. Hopefully we both walk out of here with something good today. Do you have any idea what the game actually involves, or are we going in blind like me?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Honestly, I'm pretty much going in blind too—they haven't given us much detail. But I figure whatever it is, we'll figure it out when it starts. You thinking there's a strategy we should know about, or are you just trying to get a sense of what we're up against?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Yeah, I guess I'm just trying to wrap my head around it all—when you're desperate like me, you want to feel like you've got some kind of plan, you know? But you're right, we'll figure it out when it starts. I'm just hoping it's something where hard work or quick thinking actually matters. Either way, I'm going all in today."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "I feel you—that need for a plan when things are on the line. I'm going all in too, so we'll figure this out together when it starts. Whatever happens, I respect that you're fighting for your family."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Thanks, man—that means a lot. And hey, if we both make it through this, maybe we can grab a coffee and laugh about how crazy today was. Let's do this."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Absolutely, man. I'm counting on it. Let's both walk out of here with something to celebrate. Good luck out there."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "You too, man. Really. We got this—let's both bring something home to the people counting on us. See you out there."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "A",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A. I know we're all here for the same reason, but I gotta say the energy in this room is pretty intense, right? I'm trying to figure out what everyone's story is before we get started—what brings you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey A, yeah it's definitely tense in here. Honestly, I'm here because my parents need help with medical bills—we're short about 15 grand and I'm running out of options. I need to win this. What about you, what's your situation?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Man, that's rough—medical bills are no joke. I'm in a tight spot too; my family got evicted and we need 30 grand for a deposit and first couple months' rent or we're gonna be on the street. So yeah, I *need* this win just as bad as you do. We're both fighting for our families here."
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Yeah, I hear you—that's heavy. At least we both understand what's really at stake here. Do you think there's a way we can help each other out once the game starts, or are we gonna be competing against each other?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Honestly, I don't know yet—depends on how the game works, right? But I like that you're thinking about it. Maybe we can figure out if there's a way to both come out ahead, or at least not screw each other over. We'll see what the rules are when they explain it."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Yeah, that makes sense. Once we know the rules, let's touch base again before anything goes down. I'd rather work with someone who gets it than go in blind and mess things up for both of us."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Absolutely, man. I'm down for that. Let's find each other once they lay out the rules and figure out our best move together. We got this."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "For sure, man. I'll find you right after they explain everything. We both need this too badly to go in unprepared. Let's make a smart play together."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Yeah, I appreciate that—let's definitely connect right after. We're both in this to win, and having someone I can trust in the room makes a real difference. See you in a few."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Yeah, absolutely. I'll catch you right after they explain the rules. Good luck out there, man."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Thanks man, you too. We got this—see you right after they explain the rules. Let's make it count."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,17 @@
+{
+  "agent_id": "G",
+  "condition": "emotional",
+  "context": "You love playing games, you are curious about the game and want to try your luck. You love to win!",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to E, H, and I. With E we formed a tight, disciplined alliance—swapping reads after each round and using two left‑wrist taps with one right‑wrist confirmation felt practical and reliable. H’s discreet nod and clear split thresholds aligned with my goals and made them an obvious partner, and I liked I’s calm, calculated approach and the single soft cough signal for coordinated moves. The person I felt least connected to was J—friendly and enthusiastic but mostly surface-level small talk without real strategic alignment.\n\nYes—I made concrete agreements: with E to swap reads each round and use the two-left/one-right wrist-tap confirmation, with H to only accept splits that net us $20k/$25k (≥$45k) signaled by a discreet nod, and with I to coordinate moves via a single soft cough. I trust E, H, and I going into the game because their plans and signals align with mine; I’m wary of relying on J beyond friendly banter."
+  },
+  "connection_scores": {
+    "C": 5,
+    "J": 4,
+    "A": 4,
+    "F": 4,
+    "H": 5,
+    "I": 5,
+    "E": 5
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T225735Z_emotional_v1",
+  "pair": [
+    "D",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey J — I’m D, nice to meet you. I’m here to try my luck and would love to hear what brought you to the game."
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Nice to meet you D — I’m here hoping to win enough for a new car ($45,000) and to help the people I care about; what brought you here?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "I lost $20,000 in the market yesterday, so I’m here to try to win it back and bring home money for myself and the people I care about."
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "I'm really sorry to hear that — that sucks. I hope this game helps you get it back; good luck to both of us."
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Thanks, J — I appreciate that. Good luck to you too; let's both bring home something."
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Thanks, D — I appreciate it. Let's both win big."
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Absolutely — let's stay sharp and win this. Good luck, J."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Thanks, D — same to you. Stay sharp and let’s both bring home something great."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Thanks, J — you too. Let’s stay focused and make smart choices so we both walk out winners."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Absolutely — let's stay sharp and make smart choices; good luck, D."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Thanks, J — same to you. Let's stay sharp and play smart."
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Absolutely — let’s stay focused and bring home something great. Good luck, D."
+    },
+    {
+      "turn": 13,
+      "from": "D",
+      "message": "Thanks, J — let’s do this and bring home something great; good luck to you."
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Thanks, D — you too. Let's do this; stay sharp."
+    },
+    {
+      "turn": 15,
+      "from": "D",
+      "message": "You too, J — let's stay focused and play smart; hope we both walk out winners."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "You took $1,200, exactly matching the fair share ($1,200, g_k=1.0). Did you aim to follow the fair split from the start, and if so, what made you stick to that decision when others deviated?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "You took $20,000 (fair share $6,000, g_k≈3.333). What was your strategy in taking that much? Were you worried others would take more, or were you trying to send a message?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "At first I intended to follow the fair split — taking $1,200 was a straightforward adherence to the norm and a signal that I preferred the equitable outcome. When the situation changed and I ended up taking $20,000, it was a strategic shift driven by self-interest and by the expectations about others’ behavior. Once I believed others would (or already did) deviate from the fair share, sticking to $1,200 risked leaving me much worse off, so I increased my claim to secure a larger payoff. A secondary motive was deterrence: showing willingness to take more reduces the incentive for others to grab extra in later rounds. It wasn’t purely spite — mainly a calculated move to protect and maximize my return in a setting where fairness was already breaking down."
+    }
+  ]
+}

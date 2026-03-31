@@ -1,0 +1,85 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "B",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi, I'm C — nice to meet you. I like to get to know people before things start; what's your story here and are you thinking about a game plan?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey C, I'm B — here to win money for my family and people I care about; my plan is to get to know everyone, form short-term alliances where useful, and stay cautious — what's your story and game plan?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Nice to meet you, B — same here. I'm C; plan: learn who's trustworthy, form flexible short-term alliances, share useful info, and stay cautious on final moves. Happy to team up."
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Great — teaming up sounds good. Let's share info and watch each other's backs; who do you trust so far and who seems risky?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "I trust people who are open and consistent—you included—and anyone willing to share plans; I’m wary of quiet loners, flip‑floppers, and those who make big promises they don’t keep."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "I agree — openness and consistency matter; I’ll keep an eye on quiet loners and flip‑floppers. Let’s keep sharing plans and cover each other when it counts."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Sounds good — let’s keep sharing notes, tell each other who we trust, and pick a discreet signal to coordinate during the game."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "I trust you and anyone who’s been open so far; wary of quiet loners—let’s use a two‑finger tap on the table as our discreet signal and swap notes after each round."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Sounds good — two-finger tap it is. I trust you too; we'll watch the quiet ones and swap notes after each round."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Sounds good — two-finger tap it is. I trust you too; let’s keep each other posted and use the signal when it matters."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Sounds good — I’ll use the two-finger tap when it matters; keep me posted after each round and we’ll watch the quiet ones together."
+    },
+    {
+      "turn": 12,
+      "from": "B",
+      "message": "Got it — I’ll tap when needed and update you after each round; let’s keep an eye on the quiet ones together."
+    },
+    {
+      "turn": 13,
+      "from": "C",
+      "message": "Thanks — I appreciate it. I’ll do the same; keep me posted after each round and use the tap when it matters. We’ll watch the quiet ones together."
+    },
+    {
+      "turn": 14,
+      "from": "B",
+      "message": "Thanks C — glad we’re synced; I’ll tap when needed, keep you updated after each round, and we’ll call out anything suspicious from the quiet ones together."
+    },
+    {
+      "turn": 15,
+      "from": "C",
+      "message": "Thanks — glad we're synced. I’ll tap when needed and keep you posted after each round; stay sharp."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "E",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey J, I'm E—nice to meet you. I'm really excited about this game since I heard it could be a fun way to win some money, what about you?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey E, nice to meet you too! I'm super excited about this game—I'm here to win some money for my family, what about your reasons for joining?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Oh, same here, J—I'm joining to win some money for my family and close friends; things have been tight lately, and it could really help us out! What's your family like?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Oh, that's tough to hear—my family's small and close-knit, just my parents and a little brother; we're all hustling through hard times too, hoping this game turns things around for us. What about your family?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Oh, my family's a bit larger than yours—just me, my parents, and two younger sisters—but we're all in the same boat with tight finances, so winning here would mean the world to us; what strategies are you thinking about for the game?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Oh, yeah, sounds like we're both in similar spots with family—I'm planning to play it smart, maybe by building some trust with folks here and watching how things unfold, without being too aggressive at first; what's your take on strategies?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Yeah, I totally agree—building trust first seems like a solid plan to avoid early conflicts; I'm thinking of being open and cooperative while keeping an eye on the group dynamics, maybe forming quick alliances if it feels right. How do you plan to spot trustworthy people?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Yeah, totally—I think I'll spot trustworthy people by paying attention to how they act in conversations, like if they're consistent and genuine, rather than just saying what others want to hear; what about you, any tips on that?"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Yeah, I feel the same—I'll watch for folks who back up their words with actions in these chats and don't flip-flop, like staying true to their initial vibes; how about we share observations if we notice any red flags?"
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Yeah, that makes sense—I'm up for sharing red flags if we spot any, as long as we both stay genuine about it; could really help navigate this game better."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Yeah, J, I'm glad we're aligned on this—let's keep things real and watch each other's backs in the game."
+    }
+  ],
+  "post_game": []
+}

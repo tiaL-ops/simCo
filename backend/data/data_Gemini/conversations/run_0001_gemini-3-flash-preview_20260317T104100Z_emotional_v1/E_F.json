@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "pair": [
+    "E",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hi, I'm E. I'll admit I'm pretty stressed being here, but I'm trying to make the best of it—what's your name, and how are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hi E, I'm F. I’m definitely feeling the weight of it all too—I've got family back home counting on me, so I'm pretty focused on making this work."
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I completely understand—I’m the sole provider for my family of five and things have been tight since I lost my finance job, so I’m all in. How many people are you looking out for back home?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "It’s my two parents—their medical bills are skyrocketing and I’m just trying to keep them afloat. I’m sorry about your job; providing for five people on your own is a massive weight to carry."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "I really appreciate that, F. It’s a heavy burden, but medical bills are no joke either—I hate that you’re going through that. It sounds like we’re both here because we absolutely have to be."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Exactly—failure isn't really an option when people are depending on you like this. How much are you hoping to walk away with to get your family back on their feet?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "I’m aiming for at least $5,000 just to cover the basics for a month; it’s a lot, but with five people, it disappears fast. What about you—what's the target for your parents' bills?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "I'm short about $15,000 to cover their current bills; it feels like a mountain to climb, but I have to make it happen for them."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "That’s a daunting number, but I understand that drive to do whatever it takes for family; I really hope we can both walk away with what we need."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "I hope so too, E. It's good to know there are others here for the right reasons. Best of luck to you and your family."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thank you, F. I'll be rooting for you and your parents—let's hope we can both find a way to make this work."
+    }
+  ],
+  "post_game": []
+}

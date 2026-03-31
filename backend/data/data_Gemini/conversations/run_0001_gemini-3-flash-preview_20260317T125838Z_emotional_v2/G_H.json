@@ -1,0 +1,85 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T125838Z_emotional_v2",
+  "pair": [
+    "G",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey there, I’m G. It’s a bit intense in here with everyone waiting, isn't it? Are you a big gamer, or did the prize pool just catch your eye like it did mine?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Nice to meet you, G. I'm H. It’s definitely the prize pool for me; I've got a big loan hitting next month that I’m desperate to clear. You here for the money too?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Absolutely. I love a good game, but I’m really here to win big so I can take care of my family. That loan sounds like a lot of pressure, so I totally get why you’re focused on the prize."
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "It’s a massive weight, honestly. I just want to clear it and breathe again. Family is a powerful motivator too—what would the win mean for yours?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "It would mean everything—just knowing they’re secure and we don’t have to stress about the bills for a long time."
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "I totally get that; peace of mind is priceless, and honestly, that's exactly what I'm looking for too—just to stop worrying for once."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Exactly. That’s why I’m so focused—it’s more than just a game when it’s about lifting that kind of weight off your shoulders."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "For sure. It’s hard to treat it like just a game when the outcome actually changes your life. I'm ready to do whatever it takes to get there."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "I'm right there with you. When you've got people counting on you, you give it everything. Let's see what the game throws at us."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Definitely. It’s good to know I’m not the only one with so much on the line. Good luck, G."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Thanks, H. Fingers crossed we both walk away with what we need. Good luck!"
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Hey, I’m G! I’ve been eyeing that prize pool since I walked in—do you have a strategy yet, or are you just winging it like me?"
+    },
+    {
+      "turn": 13,
+      "from": "H",
+      "message": "Hey again! No real strategy yet, just staying focused on clearing that debt. I think I'll have to see how the game actually works first before making a move."
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "That makes sense. It's hard to plan for the unknown, but I'm definitely itching to see what we're up against."
+    },
+    {
+      "turn": 15,
+      "from": "H",
+      "message": "I feel that. The wait is killing me, but I'm ready to give it my all. Catch you when things kick off."
+    }
+  ],
+  "post_game": []
+}

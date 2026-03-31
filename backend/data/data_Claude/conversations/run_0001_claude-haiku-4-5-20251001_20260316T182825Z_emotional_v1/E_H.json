@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T182825Z_emotional_v1",
+  "pair": [
+    "E",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. Figured I'd try to get to know some people before we get started here. What brings you to this game today?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey E, nice to meet you. Honestly, I'm in a tight spot financially—got a loan I need to pay off next month and this seemed like a real opportunity to make something happen. What about you, what brought you here?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Answer_to_E_from_H: Yeah, I get that. Lost my job a couple weeks ago and I'm the only one working for my family—wife and three kids. Need to pull together about five grand just to get us through next month, so I'm really hoping to make something work here too."
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Man, that's rough—three kids and a job loss, that's a lot of pressure. I really hope things turn around for you here. We're both in the same boat, just trying to get ahead. How are you holding up with all that stress?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Honestly, some days are harder than others—my wife's been amazing about it, but the worry keeps me up at night. I'm just trying to stay positive and focused on this opportunity. How much are you looking to walk away with?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Ideally around 25 grand to clear my loan completely, but honestly I'd be happy with anything substantial at this point. Your wife sounds like a rock—that kind of support makes all the difference when things get tough."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "She really is—I don't know what I'd do without her. Twenty-five grand is a solid goal, man. I'm just hoping we can both walk out of here with enough to get our lives back on track. Do you have any idea how this game actually works, or are we going in blind like everyone else?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Honestly, I'm pretty much going in blind—I just know there's a shared prize pool we can take from, but I haven't got the details on how it all works yet. You thinking we should try to figure it out before we start, or just see what happens when they explain the rules?"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Yeah, I think we should just listen when they explain the rules—no point speculating. But honestly, I'm wondering if we should talk to some of the other people here too, get a sense of what everyone's dealing with. Might help us figure out how to approach this thing strategically."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "That's smart thinking, yeah. I'll definitely chat with some of the others before we start—good idea to get a feel for who we're dealing with. Plus, it might help us understand what people are willing to do in this thing. Good luck, man, and I hope this works out for both of us."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Yeah, same to you, man. We've got this—just gotta stay smart and remember what we're fighting for. Take care out there."
+    }
+  ],
+  "post_game": []
+}

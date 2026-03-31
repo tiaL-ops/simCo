@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "B",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey, I’m B. It’s pretty crowded in here, but I’m trying to stay focused on the prize—do you have something specific you’re hoping to do with the money if you win?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey B, I'm J. It definitely is. I'm mostly here to help out my family and make things a bit easier for them. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Honestly, same. I really want to take care of my family and set up a bit of a safety net for us. It's what's keeping me focused."
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "I hear you. It's definitely the best motivation to have when the stakes are this high."
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Definitely. Since we're both here for our families, do you think we can trust the others in here to play fair?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Honestly, I’m not sure. Money can change people pretty quickly, so I’m staying cautious until I see how everyone acts once the game starts."
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "That’s a smart way to play it; I’m definitely keeping my guard up too, but I’m hoping we can at least look out for each other."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "I’m open to that—having an ally could go a long way in a game like this."
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Agreed. Let's keep each other in the loop and watch each other's backs once things get moving."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Sounds like a plan. I'll keep my eyes open and see you out there."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Sounds good, J. Let's stay sharp and get that win for our families."
+    }
+  ],
+  "post_game": []
+}

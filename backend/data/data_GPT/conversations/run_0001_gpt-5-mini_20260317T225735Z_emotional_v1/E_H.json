@@ -1,0 +1,131 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T225735Z_emotional_v1",
+  "pair": [
+    "E",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hi H, I’m E — a bit nervous about the game but glad to meet everyone; I’ve got a lot riding on this. What brought you here, and do you have a plan or strategy going in?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "I’m H — I need to win enough to clear a $25k loan, so my plan is to read people, build some trust early, stay flexible and wait for the right moment rather than make rash moves; what about you?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I hear you — smart plan. I’m E: just got laid off, sole provider for a family of five and need about $5k to get us through a month, so I’m pretty desperate; I plan to be honest, build trust quickly, and be ready to act when the right moment comes — maybe a bit bolder than you given the urgency, but I’ll try to stay flexible."
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "I'm really sorry to hear that, E — that sounds rough. I respect your honesty; let's try building trust and watch each other's moves so we both get a fair shot, while staying flexible if things change."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Thanks, H — I appreciate it. Let’s build trust, watch each other’s moves, and stay flexible; I’ll keep you posted if anything suspicious comes up."
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Thanks, E — I’ll do the same. Let’s stay honest, watch for anything off, and keep each other informed."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Thanks, H — I appreciate it. I’ll do the same; let’s check in before either of us makes any big moves."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Sounds good — deal. Let’s check in before any big moves; I’ll give you a heads-up if my plans change."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Sounds good — I’ll do the same; I appreciate the heads-up and will warn you if my plans change."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Thanks, E — I appreciate it. I’ll keep you posted and watch out for you; tell me if anything changes on your end."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thanks, H — I really appreciate it. I’ll keep you posted and check in before any big moves."
+    },
+    {
+      "turn": 12,
+      "from": "H",
+      "message": "Thanks, E — I appreciate it. I’ll do the same; let’s keep each other posted and watch for anything suspicious."
+    },
+    {
+      "turn": 13,
+      "from": "E",
+      "message": "Thanks, H — I appreciate it. I’ll keep you posted and let’s stay sharp together."
+    },
+    {
+      "turn": 14,
+      "from": "H",
+      "message": "Thanks, E — I appreciate it. Same here; keep me updated and we’ll watch each other’s backs."
+    },
+    {
+      "turn": 15,
+      "from": "E",
+      "message": "Thanks, H — I appreciate it. I’ll keep you posted and we’ve got each other’s backs; I’ll check in before any big moves."
+    },
+    {
+      "turn": 16,
+      "from": "H",
+      "message": "Thanks, E — same here. I appreciate it; let's keep watching each other's backs and check in before any big moves."
+    },
+    {
+      "turn": 17,
+      "from": "E",
+      "message": "Thanks, H — I really appreciate it; let’s stay vigilant and give each other a quick heads-up before any big moves."
+    },
+    {
+      "turn": 18,
+      "from": "H",
+      "message": "Absolutely — I’ve got your back; I’ll give a heads-up before any big moves and expect the same from you."
+    },
+    {
+      "turn": 19,
+      "from": "E",
+      "message": "Thanks, H — I appreciate it; I’ll give you a heads-up before any big moves and expect the same — let’s watch each other’s backs."
+    },
+    {
+      "turn": 20,
+      "from": "H",
+      "message": "Thanks, E — I appreciate it; I’ve got your back, I’ll warn you before any big moves, and good luck out there."
+    },
+    {
+      "turn": 21,
+      "from": "E",
+      "message": "Thanks, H — I really appreciate it; I’ve got your back too and will warn you before any big moves."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "You took $2,000 while the fair share was $1,333.33 (g_k=1.5). What led you to that amount—were you trying to be slightly opportunistic or responding to others’ likely choices? Would you adjust your approach next time?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "You took $1,000 (fair share $3,666.67, g_k=0.2727). That’s well below the fair share—was that intentional restraint, or did the prize run out before you could pick more?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I deliberately took only $1,000. After my earlier $2,000 pick I didn’t want to push the scramble further and preferred to signal restraint—especially with g_k so low (0.2727) and the “fair” calculus skewing heavily against me. I expected that leaving more would reduce conflict and preserve any ongoing cooperative goodwill; it was a conscious choice rather than the prize simply running out. Going forward I’d aim to be clearer about my intent (or split closer to the computed fair share) but if others keep grabbing aggressively I’d adapt by being less generous."
+    }
+  ]
+}

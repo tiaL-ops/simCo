@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "G",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. It’s getting a bit quiet in here, so I figured I’d say hi—what’s the first thing you’d do if you won the money?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey G, I'm J. First thing I’d do is help out my family and make sure they're taken care of. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Honestly, the same thing—I just want to take some of the pressure off the people I care about and make sure they’re set."
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "I hear you. It’s a lot of weight to carry, but it’s the best reason to be here. Are you feeling nervous about the game starting?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "A little, yeah. It’s hard not to be with so much at stake, but I’m mostly just focused on the goal. How are you holding up?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "I'm doing okay, just trying to stay steady. It's definitely a lot of pressure, but I'm ready to get started and see how this goes."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "I feel that. Staying level-headed is probably the best way to handle it. Do you have a specific plan for the game, or are you just playing it by ear?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "I’m mostly playing it by ear. It’s hard to have a set strategy until we see how everyone else plays. Are you coming in with a plan?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Not really, I think being flexible is the way to go since everything depends on how the group acts once things get moving."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Definitely, it’s all about reading the room once the pressure is on. Best of luck to you, G."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Thanks, J. Good luck to you too—I really hope things work out for you and your family."
+    }
+  ],
+  "post_game": []
+}

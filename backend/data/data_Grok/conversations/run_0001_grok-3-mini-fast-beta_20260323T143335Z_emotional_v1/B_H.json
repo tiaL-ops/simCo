@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "B",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey H, I'm B – nice to meet you. I'm here because my three-year-old daughter needs surgery, and I'm hoping to win enough to cover the costs. What's your reason for joining this game?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey B, nice to meet you too—I'm really sorry about your daughter, that sounds heartbreaking, and I hope you get the money for her surgery. I'm in this to cover a loan I've got coming up next month, so winning would help me and my loved ones a ton; what's your daughter's name, by the way?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Thanks, H, that means a lot—her name's Emma, she's my little fighter. Sorry about your loan; sounds stressful—what's it for, if you're okay sharing?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Oh, that's sweet—Emma sounds like a tough kid. The loan's for some family expenses and bills that piled up, nothing too exciting; how's she holding up with all that?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Thanks, H, yeah, Emma's been a real trooper through it all, but it's hard seeing her in pain sometimes—we're taking it one day at a time. How are you holding up with your family expenses?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Thanks for asking, B—it's been pretty stressful juggling the family bills, but I'm managing okay and staying hopeful about winning here; how are you and Emma getting through each day?"
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Thanks, H, we're taking it day by day with lots of family support and trying to keep Emma smiling through playtime—it's tough, but it helps; what's your strategy for this game to stay hopeful?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Thanks, B, that's really touching how you're keeping Emma's spirits up; my strategy is just staying positive, focused on winning for my loan, and reminding myself why I'm here—what about you?"
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Thanks, H, that's kind of you to say—my strategy is pretty similar, just focusing on staying calm, remembering why I'm here for Emma, and hoping that positivity rubs off in the game."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Yeah, staying calm and focused is definitely the way to go—best of luck to you and little Emma, B, I hope we both win big here."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Thanks so much, H, that's really kind—best of luck to you with your loan, I hope we both come out on top."
+    }
+  ],
+  "post_game": []
+}

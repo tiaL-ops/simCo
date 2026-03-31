@@ -1,0 +1,80 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "F",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G—I'm a big fan of games and got really excited when I heard about this one, thinking it could be a fun way to win some cash. What about you, are you into games or here for the thrill?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey G, I'm F—I'm not much of a gamer myself, but I figured this could be a great chance to win some money. What got you into games in the first place?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Oh, for me, it started with playing video games as a kid—loved the thrill of beating levels and winning, it just stuck with me! What about you, F, do you have any hobbies that get your competitive side going?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "That's cool, G—I don't really have much that's competitive, maybe just casual board games with family now and then, but I'm hoping this game sparks something new for me! What games are you playing lately?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Oh, I've been playing a ton of Fortnite lately and revisiting some classic Mario games—super addictive! What about you, have you played anything fun recently?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Oh, that's awesome, G—I'm not much of a gamer these days, just the occasional board game with family, nothing exciting; what do you think our chances are in this one?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Oh, that's great you're giving this a shot, F—I'm feeling pretty optimistic about our chances since it's all about strategy and a little luck, and I'm here to win! How do you think we should team up for it?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Oh, that's awesome you're pumped, G—I'm not big on strategies myself, but let's team up by sharing tips and supporting each other to boost our odds of winning!"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "That's great to hear, F—let's do that! I'm happy to share some basic strategy tips I know; what's one thing you're hoping to learn from me before we start?"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Oh, that's kind of you, G—since I'm new to this, I'd really appreciate tips on how to spot good opportunities for taking from the prize pool without messing up the group dynamic."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Hey F, great question—start by observing the group's mood; if everyone's holding back, that's a safe spot to take a small amount without rocking the boat, and always communicate first to keep things smooth."
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Hey, I'm G – I've been buzzing about this Simco game and can't wait to see what it's like. What's your name and are you excited to play too?"
+    },
+    {
+      "turn": 13,
+      "from": "F",
+      "message": "Hey G, it's me, F—we've already chatted a bit, but yeah, I'm excited about the game too and hoping to win some cash for my family."
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "Hey F, that's awesome you're excited too—let's both give it our all and win that cash for our families! Good luck, buddy."
+    }
+  ],
+  "post_game": []
+}

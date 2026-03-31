@@ -1,0 +1,13 @@
+{
+  "agent_id": "E",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to J, as our conversation flowed naturally over shared interests like books and family goals, making me feel like we were on the same wavelength. G was another strong connection, especially since we bonded over hometown memories and explicitly discussed teaming up for the game. A also stood out, with our talks about community traditions and fairs creating a warm, relatable vibe. In contrast, I felt least connected to C, as our discussion was more transactional, focusing mainly on game strategy without much personal sharing.\n\nI did make agreements with G to team up and with C to coordinate our strategy by holding back early in the game. Going into the game, I trust J, G, and A based on our genuine conversations and shared enthusiasm, but I don't fully trust C since our interaction felt more superficial and strategy-driven."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "A": 4
+  }
+}

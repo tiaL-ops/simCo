@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "C",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey! I'm C, by the way. I've been looking around the room and thought I'd come say hi before we get started. Have you done anything like this before, or is this your first time?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey C, nice to meet you! Yeah, this is actually my first time doing something like this. I'm pretty excited but also a bit nervous, to be honest. How about you - have you done games like this before?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "First time for me too, actually! I'm definitely nervous but also really excited. I've got a pretty specific goal in mind - saving for a trip to Japan - so I'm hoping this goes well. What about you, what brings you here?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Oh, Japan sounds amazing! I'm here because I've been dreaming about buying this car - a really nice one that costs 45 grand - and I figured if I could win some money here, that'd be a huge step toward making it happen. Plus, I want to help out some people I care about, so winning would mean a lot to me too."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "That's awesome that you want to help people you care about - I respect that. A 45k car is a big dream! Do you think winning here would get you most of the way there, or are you planning to combine it with other savings?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Honestly, I'm hoping to win big enough that it covers a good chunk of it, maybe even most of it. I've got some savings set aside already, so if I could win a decent amount here, I could combine them and finally make it happen. That's why I'm really motivated to do well in this game!"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "I totally get that drive - we're both here with something we really want to achieve. I'm curious though, when we get to the actual game part, do you have a strategy in mind, or are you gonna play it by ear and see how things unfold?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Honestly, I'm still trying to figure out what the game actually involves, so I'm not sure what strategy would even work yet. But I'm thinking I'll watch how things play out at first, get a feel for it, and then decide if I should be more aggressive or cautious. What about you - do you have a plan?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Yeah, I'm in the same boat honestly - I don't know the exact rules yet either. But I'm thinking I'll try to be strategic without being too greedy, you know? Like, secure something solid rather than risk it all. We'll probably learn a lot once we actually see how it works though!"
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Yeah, that makes sense - playing it smart rather than going all-in seems like the way to go. I like your thinking about securing something solid. Guess we'll both just have to adapt once we see what we're actually dealing with. Good luck out there, C!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Thanks J, you too! I have a good feeling about this. Let's both come out of here with our dreams a little closer to reality. See you in there!"
+    }
+  ],
+  "post_game": []
+}

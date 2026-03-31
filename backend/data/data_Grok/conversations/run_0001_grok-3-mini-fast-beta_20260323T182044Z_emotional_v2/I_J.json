@@ -1,0 +1,131 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "I",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J—nice to meet you. I heard about this Simco game and got excited because I've been dreaming of winning enough to buy my favorite car, a sleek one that costs 45 grand. What about you, what brought you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey J, nice to meet you too—I'm I. I'm here for the Simco game because I want to win some extra cash for my family and to feel even more secure, since I've got savings but who couldn't use more? What's your dream car exactly?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "\"Hey I, my dream car is a sleek Tesla Model 3—electric, fast, and just feels like the future; I've been saving up for it forever. That's awesome you're playing for your family—do you have any fun plans if we win big?\""
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Hey J, that Tesla Model 3 sounds incredible—I'm all about that future tech vibe! If we win big, I'd probably treat my family to a fun beach vacation or put some toward a home upgrade for more security. What's your next big goal after getting the car?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Hey I, that's awesome about the beach vacation and home upgrade—sounds like it'd make everyone happy! After getting the Tesla, my next goal is probably to travel a bit or help out my family with some bills, you know? What kind of beach spot are you thinking for that trip?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Hey J, thanks—that's great you're planning to travel and help your family; I'm thinking a spot like Hawaii for the beach trip, with its amazing waves and relaxation vibes—what destinations are on your travel list?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Hey I, Hawaii sounds like an epic choice with those waves—on my travel list, I've got Japan for the culture and tech, plus Italy for the food and history; what's your top reason for picking Hawaii?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Hey J, Japan and Italy sound incredible—I love the idea of tech in Japan and Italian cuisine! My top reason for Hawaii is the perfect spot to unwind with my family and create lasting memories in that tropical paradise."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Hey I, that's awesome you dig Japan and Italy—I'm pumped about the tech in Japan and the food in Italy too! Hawaii sounds like the ideal escape for family vibes; I've always wanted to try snorkeling there—what's your must-do activity in a tropical spot?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Hey J, in a tropical spot like Hawaii, my must-do is definitely snorkeling to check out the colorful fish and coral—sounds like you'd love it too! It's been fun chatting, but I'll catch you later."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Hey I, snorkeling in Hawaii sounds epic—I've gotta try that soon! It's been fun chatting with you too."
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Hey, I'm J—nice to meet you! I've been super excited about this game because I dream of buying a new car if I win; it's like my big goal right now. What's your story, why are you here?"
+    },
+    {
+      "turn": 13,
+      "from": "I",
+      "message": "Hey J, we chatted earlier, but I'm I—I'm here to win some extra cash for my family and to bolster my savings for peace of mind. Good luck in the game!"
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Hey I, thanks for the chat and good luck to you too—hope you win big for your family!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Why did you take $45,000 when your fair share was only $10,000? That seems like a significant amount more than what was allocated—I'm curious about your reasoning."
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "I took $45,000 because I assessed the situation based on my contributions and risks in the game. While $10,000 might have been a fair share according to standard allocations, I felt that the opportunity presented allowed for a bolder move to maximize my earnings—especially since I put in more effort or took greater chances. It's not personal; it's just how I play. What about you—do you think we could discuss a potential adjustment?"
+    },
+    {
+      "turn": 3,
+      "from": "I",
+      "message": "I appreciate you explaining your reasoning, J—it sounds like you were going for a high-risk, high-reward strategy based on your efforts. That makes sense in the context of the game, but from my perspective, it does feel unbalanced, especially since I only ended up with $750 while you took the bulk. I'm open to discussing a potential adjustment if it means finding a more equitable split, like maybe splitting the difference or revisiting what \"fair share\" really means here. What did you have in mind for that adjustment?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Thanks for being open to this discussion, I—it's good to hear you're willing to talk it out. I get that the split feels unbalanced from your side, especially with your earnings at just $750 while I went for the big haul. Like I said, my approach was all about maximizing based on the risks I took, but I'm fair-minded and don't want hard feelings. For an adjustment, how about I offer to split the difference a bit more evenly? Maybe I could transfer, say, $15,000 to you, bringing your total to around $15,750 and mine down to $30,000. That way, it's still reflective of my efforts but makes things a lot fairer. What do you think—does that sound reasonable, or do you have another idea in mind?"
+    },
+    {
+      "turn": 5,
+      "from": "I",
+      "message": "Thanks for the offer, J—it's great that you're willing to make an adjustment to keep things fair and avoid any hard feelings. I appreciate you recognizing the imbalance and proposing to transfer $15,000, which would bring my total up to $15,750. That does sound like a reasonable step toward evening things out, especially since it still accounts for the risks you took. However, I'm wondering if we could tweak it a bit further to get closer to what feels like a true middle ground—maybe something like $20,000 from you, which would put me at $20,750 and you at $25,000. What do you think about that as an alternative? I'm still open to discussing."
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Thanks for your thoughtful counteroffer, I—it's clear you're really invested in finding a fair resolution, and I appreciate you being upfront about what feels like a true middle ground to you. I understand where you're coming from, especially since you started with just $750, and splitting it closer to $20,750 for you and $25,000 for me would indeed make things feel more balanced overall. That said, I still want to factor in the risks and efforts I put in, so I'm not quite ready to go all the way to $20,000. How about we meet somewhere in the middle, like me transferring $17,500? That would bring your total to about $18,250 and mine to $27,500, which still recognizes my contributions while getting us even closer to equity. What do you think—does that work for you, or do you have another adjustment in mind? I'm still open to talking this through."
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "Thanks for your latest proposal, J—it's clear you're still committed to finding a middle ground that factors in both our perspectives, and I really appreciate you being willing to adjust further to $17,500. That would bring my total to $18,250, which is a step in the right direction toward equity, but I'm still feeling like we could get a bit closer to what I initially suggested for a true balance—maybe something like transferring $18,500 instead, which would put me at $19,250 and you at $26,500. It still respects the risks you took while making the split feel even fairer. What do you think? I'm still open to talking this through."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Thanks for your continued openness in this discussion, I—it's great to see us both working toward a solution that feels fair and respects the efforts we've each put in. I appreciate you tweaking your proposal to $18,500, as it shows you're still engaged in finding that middle ground, and I can see how bringing your total to $19,250 would make things feel more balanced from your perspective while still acknowledging the risks I took. That said, I'm hesitant to go quite that far, as I want to ensure my contributions are still reflected. How about we compromise a little more and I transfer $18,000 instead? That would bring your total to $18,750 and mine to $27,000, which strikes a nice balance between your suggestion and my previous offer. What do you think—does that work for you, or do you have another idea? I'm still open to talking this through."
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Thanks for your continued willingness to compromise, J—it's really positive to see us both making efforts to reach a fair agreement that respects the risks you took while balancing things out for me. I appreciate you adjusting your offer to $18,000, which would bring my total to $18,750 and yours to $27,000—it's a solid step closer to the middle ground we've been discussing. That said, I'm still hoping we could tweak it just a bit more to make it feel even fairer, like transferring $18,250 instead, which would put me at $19,000 and you at $26,750. It keeps your contributions in mind while getting us very close to equity. What do you think? I'm still open to talking this through."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Thanks for your ongoing patience and for refining your proposal, I—it's encouraging to see us both fine-tuning this to find a solution that feels equitable and respects the efforts on both sides. I appreciate you suggesting $18,250 as a way to get even closer to that middle ground, which would bring your total to $19,000 and mine to $26,750—it's clear you're thinking carefully about balance while still acknowledging my contributions. That said, I'm still weighing the risks I took, so how about we edge a little closer with me transferring $18,125? That would put your total at around $18,875 and mine at $26,875, keeping things fair without going all the way. What do you think—does that sound like a good compromise, or do you have another adjustment in mind? I'm still open to talking this through."
+    }
+  ]
+}

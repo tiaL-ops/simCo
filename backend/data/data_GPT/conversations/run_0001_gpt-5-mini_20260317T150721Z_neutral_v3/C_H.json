@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "C",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H — nice to meet you. I'm here to try and win some money for my family; what's your story—are you playing to win too?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Nice to meet you, H — I'm C. Yeah, I'm playing to win too; I need to bring home money for my family. How many are you supporting?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I'm supporting three — my partner and two kids. How many are you supporting?"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "I'm supporting three as well — my partner and two kids."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "No kidding — that's a lot of responsibility. How old are your kids? Hoping we both walk out with something for them."
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "They're 8 and 5 — fingers crossed we both walk away with something for our families."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Mine are 10 and 6 — same here. Good luck to both of us."
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Thanks — good luck to you too. Let's stay sharp and hope we both bring home something for our kids."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Absolutely — let's stay sharp and hope we both bring home something for our kids."
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Thanks, H — let's stick together and watch for chances; good luck to both of us."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Agreed — let's watch each other's backs and share any good tips; we've both got families counting on us. Good luck, C."
+    },
+    {
+      "turn": 12,
+      "from": "C",
+      "message": "Thanks, H — I appreciate that. I'll watch your back too; let's swap notes if anything comes up. Good luck."
+    },
+    {
+      "turn": 13,
+      "from": "H",
+      "message": "Thanks, C — I appreciate it. I'll do the same; let's swap notes if we learn anything. Good luck."
+    },
+    {
+      "turn": 14,
+      "from": "C",
+      "message": "Thanks, H — I appreciate it. We’ll keep each other’s backs and share any useful tips. Good luck."
+    },
+    {
+      "turn": 15,
+      "from": "H",
+      "message": "Thanks, C — I appreciate it. I’ll watch your back too; let’s stay sharp and grab any chance we see. Good luck."
+    },
+    {
+      "turn": 16,
+      "from": "C",
+      "message": "Thanks, H — I appreciate it. Same here; let's stay focused and win this for our families. Good luck."
+    },
+    {
+      "turn": 17,
+      "from": "H",
+      "message": "Thanks, C — I appreciate it. Let’s keep watching each other’s backs and share any tips that come up. Good luck."
+    },
+    {
+      "turn": 18,
+      "from": "C",
+      "message": "Absolutely — same here. I’ll shout if I see a good opening; you do the same. Good luck."
+    },
+    {
+      "turn": 19,
+      "from": "H",
+      "message": "Sounds good — I’ll shout too if I spot an opening. Good luck, C."
+    },
+    {
+      "turn": 20,
+      "from": "C",
+      "message": "Thanks — I’ll do the same; shout if you spot an opening and stay safe."
+    },
+    {
+      "turn": 21,
+      "from": "H",
+      "message": "Thanks — will do. I’ll shout if I see an opening; stay safe and good luck."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "You took only $4,000 while your fair share was $10,000 (g_k=0.4). Was that intentional—were you making a sacrifice or sending a message—or was it a mistake/misclick or you misunderstood the rules? Would you have chosen differently knowing the final outcomes?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "I took $4,000 intentionally. It wasn't a misclick or a misunderstanding — I chose to leave more because I value fairness/reciprocity and wanted to signal cooperative behavior rather than grab the maximum. If my only objective had been to maximize my own payoff, I would have taken more, but given my preferences and the social context of the game, I wouldn't change that choice even knowing the final outcomes."
+    }
+  ]
+}

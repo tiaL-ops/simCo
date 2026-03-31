@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "G",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. It's a bit crowded in here, isn't it? I'm trying to wrap my head around this game—how are you feeling about it all?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey G, I'm H. It really is. I'm feeling pretty determined, to be honest—there's a lot on the line for me. How are you holding up?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I’m hanging in there, thanks. I totally get the determination—I’ve got people back home I really want to help out, so I’m definitely taking this seriously."
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "I hear that—it’s a lot of pressure, but it definitely makes it worth it. Do you have a strategy yet, or are you just playing it by ear?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Honestly, I’m mostly playing it by ear right now and trying to get a feel for everyone. I’d love to see us work together, but I know it gets complicated. Do you have a plan yet?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Not a concrete one yet. I think building some trust early is key, but like you said, it's complicated when there's money involved. I'm just hoping we can all be straight with each other."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "I’m with you on that—I’d much rather keep things transparent. It’s way better than everyone looking over their shoulders the whole time, right?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Exactly. Paranoia just makes everything harder for everyone. I'm glad we're on the same page about being upfront."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "For sure. It’s good to know I’ve found someone else who sees it that way."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Same here. It makes me feel a bit better about the whole thing. I'm going to go mingle with some of the others now, but let's look out for each other."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Sounds like a plan. Let's definitely stick together when it counts. Catch you later!"
+    }
+  ],
+  "post_game": []
+}

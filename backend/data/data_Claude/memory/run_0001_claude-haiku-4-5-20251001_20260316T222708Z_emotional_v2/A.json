@@ -1,0 +1,19 @@
+{
+  "agent_id": "A",
+  "condition": "emotional",
+  "context": "You lately have been evicted from your house and you and your family of 3 have nowhere to go. You found a house, affordable for your family and manageable, but the price of the deposit is high: you need 30 000$ for the deposit and for two months rent.",
+  "conversation_summaries": {
+    "overall_pre_game": "# Reflection on Connections\n\nI felt most connected to G, F, and B. With G, we bonded over both being first-timers in similar financial situations, and we made a genuine pact to stick together and compare notes on who seemed trustworthy. F and I had an immediate understanding about the weight of our respective needs—medical bills versus housing—and we explicitly agreed to touch base after the rules were explained to strategize together. B's situation with his daughter's surgery felt deeply real to me, and there was an unspoken mutual respect between us about prioritizing family above all else. I felt least connected to I, even though they were kind and genuine; there was something about their financial security and safety net that created an invisible distance between us, making it harder to fully relate despite their good intentions.\n\nI made explicit agreements with both G and F to reconnect after the rules were explained and coordinate our strategy together. I trust G, F, B, and J going into this game—they all showed genuine empathy and seemed motivated by real family obligations rather than greed. I'm least certain about I, despite their kindness, because their financial security means they don't have the same stakes I do, which could affect how they play."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "G": 4,
+    "F": 4,
+    "H": 4,
+    "I": 4,
+    "E": 4,
+    "D": 4,
+    "B": 4
+  }
+}

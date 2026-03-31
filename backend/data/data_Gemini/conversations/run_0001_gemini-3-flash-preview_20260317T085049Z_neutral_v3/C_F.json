@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "C",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I’m C. It’s a bit intense in here with everyone waiting for the game to start, isn't it? What’s your name, and are you feeling as nervous as I am about that prize pool?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Nice to meet you, C. I'm F. It's definitely tense in here, and yeah, I’ve got some nerves, but I’m mostly just focused on winning this for my family. How are you holding up?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I'm doing okay, just trying to stay focused. I totally get that—I'm here for my people too, which definitely makes the pressure feel a lot heavier."
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "It definitely adds a lot of weight to every decision. Since we're both in it for our families, maybe we can look out for each other a bit once things get started?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "I’d definitely be open to that, F—having an ally could make a huge difference for both our families."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Exactly. Let's keep each other in the loop as things progress and try to stay ahead of the pack."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Agreed. Let's make sure we both walk out of here with what we need for our families."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Definitely. I'm glad we're on the same page; let's stay sharp and keep our eyes on the goal."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Absolutely. Let's keep a close eye on how everyone else is playing this and stay ready for anything."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Sounds like a plan. I'm going to go see what some of the others are up to. Let's do this."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Good luck, F. I'll do some scouting too. Let's stay solid and get this done for our families."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Great job on the fair split. It's rare that everyone plays so fairly."
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Thank you. I agree, it's always better when everyone works together for a fair outcome. It was a pleasure playing with you."
+    }
+  ]
+}

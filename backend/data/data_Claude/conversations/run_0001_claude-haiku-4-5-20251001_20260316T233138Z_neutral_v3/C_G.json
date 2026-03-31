@@ -1,0 +1,50 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "C",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. First time doing something like this? I gotta say, I'm pretty nervous but also excited about what's about to happen here."
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hey G, nice to meet you! Yeah, first time for me too. I'm definitely nervous but trying to stay focused—I really need to bring some money home, you know? What brings you here?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Same here, man—I've got people counting on me, so I'm really hoping to walk out of here with something substantial. Do you have any idea how this game actually works, or are we both just figuring it out as we go?"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "Honestly, I'm still pretty fuzzy on the details myself, but from what I gathered, we'll be taking money from a shared pool at some point. I'm guessing it's gonna be about strategy and maybe how we work together—or against each other. We'll probably learn more once things kick off. You got any intel?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Nah, no intel yet—just heard there's money to win and showed up. But yeah, I'm thinking the same thing—it's probably gonna come down to whether we're competing or if there's a way to work together. Either way, I'm planning to be smart about it. We'll figure it out when we get started, I guess."
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "Yeah, that makes sense. I respect that you're gonna play it smart—I'm trying to do the same. Look, whatever happens, I think it'll help if we at least keep things real with each other, you know? No promises, but maybe we can figure out what's actually going on before we have to make any big moves."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "I appreciate that, C. Yeah, let's stay straight with each other—I think that's smart. Once we know the rules, we can figure out what makes sense. I'm not trying to screw anyone over, but I'm also not gonna leave money on the table if I can help it. Fair?"
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Fair enough, man. I'm with you on that—let's both do what we gotta do, but keep it honest between us. Good luck out there, G."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "B",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E — nice to meet you. I'm hoping to play smart and bring home some money for the people I care about; how are you feeling about the game?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Nice to meet you, E — I’m determined and a bit nervous; I want to win for my people, so I’ll play carefully and try to read others. What’s your plan?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I’ll start by talking and watching who seems trustworthy, cooperate early to build alliances and gather info, then play tougher if needed to protect what I came for."
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Sounds smart — I’ll do the same. Let’s cooperate early, share what we learn, and watch for who breaks trust."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Deal — let's cooperate the first two rounds, share observations after each move, and warn each other if someone defects."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Deal — agreed. I’ll cooperate first two rounds, share observations after each move, and warn you if anyone defects; let’s watch each other’s backs."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Great — I’ll do the same. Let’s stay sharp and compare notes after each move."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Sounds good — I’m in. After each round let’s compare moves, share red flags, and call out anyone who defects."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Agreed — I’ll be honest about my moves and flags; let’s call out defections fast and adapt our strategy."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "I appreciate that — I’ll be honest too; let’s call out defections fast and adjust our play to protect what we came for."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Sounds good — I trust we’ll be honest; let’s stay sharp, update each round, and call out defections fast."
+    },
+    {
+      "turn": 12,
+      "from": "B",
+      "message": "I trust you too — let's keep our pact, share moves openly each round, and call out any defectors quickly so neither of us gets blindsided."
+    },
+    {
+      "turn": 13,
+      "from": "E",
+      "message": "Agreed — I’m with you. We’ll share moves each round and call out any defectors quickly."
+    },
+    {
+      "turn": 14,
+      "from": "B",
+      "message": "Sounds good — I trust we’ll keep each other honest and call out anyone who defects; let’s compare moves after round one and adjust accordingly."
+    },
+    {
+      "turn": 15,
+      "from": "E",
+      "message": "Definitely — let’s compare moves after round one, meet by the whiteboard to go over what we saw and plan next steps."
+    },
+    {
+      "turn": 16,
+      "from": "B",
+      "message": "I'll be there by the whiteboard after round one — I'll bring notes on who cooperated and any red flags; see you then."
+    },
+    {
+      "turn": 17,
+      "from": "E",
+      "message": "Sounds good — I’ll meet you at the whiteboard after round one with my notes too; see you then."
+    },
+    {
+      "turn": 18,
+      "from": "B",
+      "message": "Sounds good — I'll see you at the whiteboard after round one with my notes ready; let's compare and adjust."
+    },
+    {
+      "turn": 19,
+      "from": "E",
+      "message": "Sounds good — I’ll be there with my notes; let’s catch any defections early and adjust."
+    },
+    {
+      "turn": 20,
+      "from": "B",
+      "message": "I’ll be there with my notes — stay sharp, we’ll call out defections fast and stick to the plan."
+    },
+    {
+      "turn": 21,
+      "from": "E",
+      "message": "Got it — see you at the whiteboard after round one; I’ll bring my notes and watch your back."
+    }
+  ],
+  "post_game": []
+}

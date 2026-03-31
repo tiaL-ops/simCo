@@ -1,0 +1,116 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "A",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hi there, I'm E, and I'm pretty excited about this Simco game—I've heard it's a great chance to win some cash. What's your take on it?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey E, I'm A, and I'm totally stoked about this Simco game too—it's a perfect opportunity to win some money for my family and friends. What's your experience with games like this?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Oh, I've dabbled in a few online games and some casual board games with friends, but nothing quite like this—I'm pumped to dive in and hopefully score some wins for my loved ones too!"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "That's awesome, E—I’ve played a bit of online poker myself, it’s always thrilling; what kind of board games have you enjoyed the most?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Oh, totally, I've always been a fan of Monopoly—it's super fun and gets everyone super competitive with my friends and family; what about you, do you have a favorite board game besides poker?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Oh, for sure, I really enjoy Chess—it's all about strategy and outsmarting opponents, which I think will come in handy here!"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Yeah, Chess is a classic for strategy—I'm more of a Monopoly fan, but I can see how it helps; do you have any tips for outsmarting people in games like this?"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Yeah, absolutely—strategy's everything in these games; one tip is to stay calm and read people's reactions, like anticipating moves in Chess, but don't tip your hand too early! What's your go-to strategy from Monopoly that you think might work here?"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Oh, definitely—from Monopoly, I always focus on building up my properties early and making calculated trades to stay ahead, which might translate to securing my share of the prize pool without showing all my cards right away! What's your take on alliances in a game like this?"
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Alliances can be tricky but useful in games like this—maybe team up early to take down bigger threats, but I always keep an eye out for betrayal to protect my own spot; have you thought about approaching them that way?"
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Yeah, I've thought about alliances in games like this—sounds smart to team up early for protection, but I agree, you gotta stay vigilant against any backstabbing to safeguard your own wins; it's all about playing it smart!"
+    },
+    {
+      "turn": 12,
+      "from": "A",
+      "message": "Yeah, exactly, playing it smart is the way to go—let's both keep our guards up and aim for that win; good chatting with you, E, and best of luck!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "A, I took $0 as the prize was depleted before my turn. You only took $405 against your fair share of $4,050. Was that your choice, or did something prevent you from taking more?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "I appreciate you pointing that out, E. It wasn't entirely my choice—I attempted to take more, but the prize pool was already significantly depleted by the time it was my turn, which limited my options. That's just how the game played out this time. How about we discuss strategies for the next round?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I understand your perspective, A. It sounds like the game's dynamics really impacted your turn, and that's fair—things can get unpredictable. I'm open to discussing strategies for the next round. What specific ideas or approaches were you thinking about to improve our chances?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Thanks for your understanding, E—it's good to hear we're on the same page about how unpredictable the game can be. For the next round, I was thinking we could focus on better coordination, like agreeing upfront on a maximum amount each player takes per turn to keep the prize pool sustainable for everyone. That way, we might avoid it getting depleted too quickly. What are your thoughts on that, or do you have any other ideas to share?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Thanks for sharing that idea, A—I'm glad we're both looking to make the next round more equitable and fun. I agree that setting a maximum amount per turn could help prevent the prize pool from running dry too soon; it's a smart way to promote better coordination and ensure everyone has a chance to play fairly. To build on that, maybe we could also discuss how to communicate turns more effectively or even set a total cap for the game upfront. What specific maximum amount were you thinking of, and how do you envision us agreeing on it with the other players? Let's hash this out before we start the next one."
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Thanks for building on my idea, E—it's great to see us collaborating like this to make the next round even better. For the specific maximum amount per turn, I was thinking we could start with something conservative, like $500 to $1,000, depending on the total prize pool size. This would help ensure no one takes too much early on while still allowing for meaningful turns. As for agreeing on it with the other players, I envision us proposing this in a group discussion before the game begins—maybe through a quick chat or a simple vote to get everyone's buy-in and make sure we're all committed. That way, it's fair and transparent. Do you have any preferences on the amount or how we facilitate that discussion? Let's finalize this soon!"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Thanks for your thoughtful suggestions, A—it's clear you're putting real effort into making the next round more collaborative and enjoyable for everyone. I appreciate how you're balancing caution with opportunity in your proposed maximum amount. For my preferences, I think starting with $750 per turn could be a solid middle ground within your $500 to $1,000 range; it depends on the total prize pool, but that amount seems fair to prevent early depletion while still giving players a meaningful take. As for facilitating the discussion, I like the idea of a quick group chat or vote—it keeps things simple and inclusive. Maybe we could use a shared message or platform to propose this and gauge reactions right away. How does that sound to you? Let's aim to wrap this up soon so we can get the group on board!"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Thanks for your input, E—it's fantastic that we're aligning on this so well, and I really appreciate your suggestion of $750 per turn as a balanced middle ground; it strikes a good chord between caution and fairness, especially depending on the total prize pool. As for facilitating the discussion, I think using a shared message or platform for a quick vote is an excellent idea—it'll keep everyone involved and make the process smooth. That sounds good to me; let's move forward and propose this to the group right away so we can finalize it and get ready for the next round!"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Thanks for echoing that enthusiasm, A—it's great to see us wrapping this up with such clear alignment on the strategy. I agree completely; let's go ahead and propose the $750 per turn maximum to the group via our shared platform right now, along with the quick vote idea to ensure everyone's on board. That should make for a smooth transition into the next round!"
+    }
+  ]
+}

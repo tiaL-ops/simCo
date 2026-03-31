@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "E",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H. First time doing something like this? I gotta admit I'm a bit nervous but also pretty excited about what's about to happen here."
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Answer_to_E_from_E: Hey H, yeah first time for me too! I'm definitely nervous but honestly the money part has me more excited than anything. What made you decide to come try this out?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Honestly, I heard from a friend that you could actually walk away with real money, and I could really use it right now. Plus I figured why not take the shot, you know? What about you—do you have people counting on you to bring something back?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Yeah, actually I do—my family's been going through some tough times financially, so bringing home something real would mean a lot to them. I'm hoping this game gives us all a shot at getting ahead, you know?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "I totally get that—same situation here, honestly. It's good to know we're both in this for something real. Do you have any idea how the game actually works, or are we both going in kind of blind?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Honestly, I'm going in pretty blind too—I just know there's a shared prize pool we can take from, but I have no clue what the actual rules or strategy are. You know anything more, or are we figuring this out together?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Nah, I'm pretty much in the dark too. But I'm thinking we should try to figure out the rules once they explain them—maybe we can compare notes after. Either way, I'm guessing it's gonna come down to making smart choices in the moment. We'll figure it out."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Yeah, that sounds good—comparing notes could definitely help us both make better moves. I'm just gonna pay close attention when they explain everything and try to think strategically. We're in this together, so let's both do our best."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Absolutely, I'm with you on that. Let's both stay sharp when they explain the rules and keep our eyes open for opportunities. Good luck out there—I have a feeling we're gonna need to trust our instincts."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Thanks H, I really appreciate that. Yeah, instincts and staying alert—that's the move. Honestly, it helps knowing there's someone else here thinking the same way. Let's both come out of this with something to show for it."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "For sure, man. I'm glad we connected on this—having someone here who gets it makes a real difference. We've got this. Let's both walk out winners."
+    }
+  ],
+  "post_game": []
+}

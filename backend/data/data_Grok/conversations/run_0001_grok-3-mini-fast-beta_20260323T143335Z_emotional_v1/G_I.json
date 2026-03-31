@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "G",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G—I'm really pumped about this game since I love trying my luck and winning big. What's your take on it?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey G, I'm I—I'm pretty excited about this game too, since I've got my sights set on winning big for me and my folks; how about you, what's your strategy for it?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Hey I, I'm all about playing it smart but bold—maybe trusting my instincts and jumping on chances when they come up; what's your plan for winning big?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Hey G, my plan is to play it smart and calculated, taking risks only when they feel right since I want to win for my family—how do you decide when to jump on those chances?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Hey I, I usually go with my gut when the potential payoff feels big and the risk doesn't seem too crazy—maybe when it aligns with past experiences; how do you spot those 'right' moments for your family?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Hey G, I spot those 'right' moments by weighing the risks against the rewards, drawing from my own experiences and what's best for my family, like when it feels secure and promising—what's one of your standout past experiences that shaped this?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Hey I, one standout experience for me was playing poker in a local tournament where I trusted my gut to bluff on a weak hand, and it actually won me the pot—that taught me the value of calculated risks; what's a key experience that helped you decide for your family?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Hey G, one key experience for me was when I took a calculated risk to switch jobs during a tough economy, which paid off with better pay and stability for my family—it reinforced how weighing pros and cons leads to secure decisions; what's another lesson you've learned from your poker days?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Hey I, another lesson from my poker days is the importance of staying patient and folding when the odds aren't in your favor—it saved me from big losses more than once; what's a lesson you've picked up from experiences like your job switch?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Hey G, from my job switch, I learned that patience and sticking to a plan can turn risks into rewards, like it did for my family—how do you think that patience will play out in this game for us?"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Hey I, I think patience in this game could mean holding back and observing others before making a move on the prize pool, turning it into a smart win for both of us—it's been great chatting, but I should mingle more."
+    },
+    {
+      "turn": 12,
+      "from": "I",
+      "message": "Hey G, I totally agree—observing others first could make all the difference for a smart win, and it's been awesome chatting with you; good luck in the game."
+    }
+  ],
+  "post_game": []
+}

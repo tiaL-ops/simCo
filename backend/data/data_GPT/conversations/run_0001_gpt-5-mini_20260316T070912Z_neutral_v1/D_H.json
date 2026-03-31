@@ -1,0 +1,131 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "D",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey H — I'm D, nice to meet you. Are you playing to win anything specific or just here for the thrill? I'm hoping to take home some money for the people I care about."
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Nice to meet you, D — I'm H. I'm here to win money for my family and help with bills; what about you?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Same — I'm trying to win for my family, mainly to help my mom and little sister with bills. How are you planning to play your chances?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "I'll play smart: read people's signals, try to form trust where it helps, and take calculated risks to bring home money for my family."
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Sounds like a solid plan — I’m on the same page. I’m cautious with trust but open to teaming up if it helps both our families. Want to stick together early on?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Yeah — I'm in. Let's stick together early, share info and watch each other's backs; we'll adapt if things get risky. Deal?"
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Deal — I'm in. Let's back each other the first two rounds, share anything useful we learn, and use a quick nod as our signal; sound good?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Sounds good — I'll back you the first two rounds, share anything useful, nod as our signal; we'll stay flexible after that."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Great — appreciate it. I’ll back you the first two rounds too, share what I learn, use the nod; let’s reassess after round two."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Thanks, D — I appreciate it. Nod signal works; let’s back each other the first two rounds and reassess after round two. Good luck."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Thanks, H — glad we're on the same page. See you in round one; let's reassess after round two. Good luck."
+    },
+    {
+      "turn": 12,
+      "from": "H",
+      "message": "Thanks, D — see you in round one; let's stick to our plan and reassess after round two. Good luck."
+    },
+    {
+      "turn": 13,
+      "from": "D",
+      "message": "Sounds good—see you in round one. We'll watch for the nod and keep each other posted. Good luck."
+    },
+    {
+      "turn": 14,
+      "from": "H",
+      "message": "Sounds good—I'll watch for the nod. See you in round one; good luck."
+    },
+    {
+      "turn": 15,
+      "from": "D",
+      "message": "Thanks, H — nod back. See you in round one; let’s bring this home. Good luck."
+    },
+    {
+      "turn": 16,
+      "from": "H",
+      "message": "Nod — got it. See you in round one; let’s bring it home."
+    },
+    {
+      "turn": 17,
+      "from": "D",
+      "message": "Nod — got it. Let’s stick to the plan and bring it home."
+    },
+    {
+      "turn": 18,
+      "from": "H",
+      "message": "Nod — got it. Let's stick to the plan and bring it home together."
+    },
+    {
+      "turn": 19,
+      "from": "D",
+      "message": "Nod — agreed. We’ll stay sharp, back each other rounds one and two, share anything new, and reassess after round two. Good luck."
+    },
+    {
+      "turn": 20,
+      "from": "H",
+      "message": "Nod — agreed. We'll back each other rounds one and two, share updates, and reassess after round two."
+    },
+    {
+      "turn": 21,
+      "from": "D",
+      "message": "Sounds good — I appreciate it. We'll stay sharp, swap updates after each round, use the nod, and reassess after round two. Good luck."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "You took $8,057 (fair share $8,057.67, g_k≈0.9999). Similar question: did you aim for fairness, follow others, or was there another motive?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "You took $26,031 (fair share $10,625, g_k=2.45). Can you explain why you took that much—was it a deliberate grab to maximize your payoff, a punitive move, an experiment, or something else? Would you make the same choice if we played again?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "I’ll be direct. In the first round I chose almost exactly the fair share; in the second round I took 26,031 because the situation changed — the multiplier g_k=2.45 made the extra take much more profitable and I judged that maximizing my payoff in that round was the rational move. It was largely a deliberate, self-interested choice and also an experiment to see how you (and the game dynamics) would respond to a much larger claim. It wasn’t primarily meant as personal punishment, though I knew it would leave you worse off; it was a strategic test of boundaries and incentives rather than an emotional retaliation.\n\nWould I do the same again? It depends on the context. If the interaction is one-shot or my only objective is to maximize my immediate payoff, I would likely make the same choice. If the game were repeated and reputation, reciprocity, or fairness mattered for future rounds, I’d be more inclined to choose a fairer split to avoid retaliation and preserve cooperation."
+    }
+  ]
+}

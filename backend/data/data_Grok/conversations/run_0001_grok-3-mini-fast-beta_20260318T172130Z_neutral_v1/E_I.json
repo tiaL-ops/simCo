@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "E",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey I, I'm E and I'm pretty pumped about this game—heard it's a chance to win some cash, which could really help out. What's your story, why are you here?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey E, nice to meet you—I'm I, and I'm here 'cause I heard about this game as a way to win some cash and help out my family and friends. What about you, how do you plan to use the winnings if we pull it off?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Hey I, that's great you're doing this for your family—I'm hoping to use the winnings to help my folks and maybe fix up my place, it needs some work. What's your family's situation like?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Hey E, yeah, my family's been dealing with some tight finances lately, so winning this would really ease the burden and help us out a ton—sounds like we're both in it for our loved ones; what kind of fixes does your place need?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Hey I, yeah, my place has a leaky roof and some wonky plumbing that's been causing headaches—nothing major, but it'd make a big difference; what's one thing you're looking forward to if we win this?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Hey E, that leaky roof and plumbing mess sounds frustrating—I'm really looking forward to treating my family to a nice vacation if we win, something we've never afforded; what's your take on how the game might play out?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Hey I, that vacation idea for your family sounds amazing—I'm thinking the game might get competitive with everyone eyeing the prize, but if we cooperate wisely, we could all win big; what's your strategy idea for it?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Hey E, totally agree, cooperation could make all the difference—my strategy is to focus on building trust with the group and maybe suggesting we set some ground rules early to avoid anyone going overboard; what's your specific plan for cooperating?"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Hey I, I really like your focus on building trust and ground rules—that's a solid approach; my plan is to be open about sharing info and maybe suggest a simple agreement on how to split the winnings fairly, so no one's left out—what do you think about that?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Hey E, that's a smart plan—I agree, being open and agreeing on a fair split could keep things smooth and build that trust we need; let's push for it in the group!"
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Hey I, awesome—let's definitely push for that fair split idea with everyone; it's been great chatting, but I should mingle more now."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Why did you take only $5,000 instead of your fair share of $10,000?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "I took $5,000 because that was the amount I earned based on the game's rules and my contributions. I don't believe $10,000 was my fair share, as it seems to be what you earned. If there's more to discuss, let's clarify."
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I appreciate the clarification. If you earned $5,000 based on the game's rules and your contributions, and I earned $10,000, then that settles it. No need for further discussion from my side."
+    }
+  ]
+}

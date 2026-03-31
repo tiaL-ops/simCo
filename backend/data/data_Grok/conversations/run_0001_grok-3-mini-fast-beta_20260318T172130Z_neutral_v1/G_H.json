@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "G",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey H, I'm G—nice to meet you! I'm really excited about this game since I heard it could be a great way to win some money for my family. What's your story with all this?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey G, nice to meet you too! I'm H, and I'm super excited about this game—I heard it's a great way to win some cash for me and the people I care about. What's your family situation like?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Oh, hey H, my family's pretty small—just me, my parents, and a younger sibling back home. We've been dealing with some tight finances lately, so winning this game would mean a lot to us. What about your situation with the people you care about?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Oh, that's tough—I'm in a similar spot with my family and a couple of close friends who've had some financial struggles lately; winning this would help us all breathe easier. What made you decide to join this game?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Oh, yeah, it's rough for a lot of us—I decided to join after hearing about this game from a friend, figuring it was a solid chance to score some cash and ease the burden on my family back home."
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Yeah, that's exactly why I'm here too—my buddy tipped me off about it, and I figured it could change things for us; do you think your friend has any tips for the game?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Oh, my friend didn't share any specific tips, just that it's all about strategy and teamwork—do you have any thoughts on how we might play this?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Yeah, I think focusing on building trust and coordinating moves could help us all win more—maybe we should team up early; what strategies are you leaning towards?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Oh, totally, building trust like that makes sense—I’m leaning towards forming small alliances and sharing info early to make sure we all play fair and boost our chances together."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Yeah, that's a smart approach—forming those alliances early could really help us out; let's see how it plays out in the game."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Yeah, absolutely, H—I'm pumped to team up and see how those alliances play out; fingers crossed for a big win!"
+    }
+  ],
+  "post_game": []
+}

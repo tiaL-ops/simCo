@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "F",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F—nice to meet you. I'm here because I really need to win some money to help with my parents' medical bills; it's been tough lately. What's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey F, nice to meet you—I'm I. That's really rough about your parents; I hope it turns around soon. I'm here to win some cash for my family and a bit of security for myself—what's the biggest challenge you're facing right now?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Thanks, I—that means a lot. The biggest challenge right now is the constant stress of covering my parents' mounting medical bills without enough savings; it's like a never-ending uphill battle. What specifically are you hoping to secure for your family with the winnings?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I totally get that stress—it's overwhelming. For my family, I'm hoping to build up our savings even more for things like a family trip or helping out with education costs, just to give us that extra peace of mind; how are you holding up with all this?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "I'm managing day by day, but it's exhausting—your family's plans sound heartwarming, though; what kind of education costs are you thinking of covering?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Oh, totally, it's been weighing on me too—I'm thinking mostly of my nephew's college tuition, since he's starting soon and fees are skyrocketing; how do you stay motivated through all this exhaustion?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "I stay motivated by picturing my parents' relief if I win this, and that love and purpose pull me through the tough days—what keeps you going with your nephew's future on the line?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "That's so relatable; for me, it's picturing my nephew thriving with his education paid for, and that vision of his bright future really fuels my determination—what's one thing that's helped you cope with the stress lately?"
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Oh, absolutely, that vision is powerful—lately, talking to my parents and sharing little laughs has been a real lifeline for me; what about you, how do you keep that determination alive day to day?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "I keep that determination alive by leaning on my family for support, like sharing stories and laughs with them, which reminds me why it matters—it's a simple but powerful boost."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "That's wonderful, I—family really is the best anchor in tough times, and it's great chatting with you about it; take care."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "A",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A—excited to be here for this game; it could be a fun way to win some cash and help out the folks I care about. What about you, what drew you to this opportunity?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey A, I'm G—I'm here because I heard about the chance to win money in this game and figured it could help out my family and friends; I'm pretty determined to make that happen. What about you, got any tips or thoughts on how to approach it?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Hey G, that's awesome you're determined too—I'm not an expert, but I think staying cooperative and watching how others play could help us all; what strategies are you considering?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Hey A, yeah, cooperation sounds smart—I’m planning to start by building trust and maybe forming alliances, but stay alert to how things unfold; what’s your take on alliances?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Hey G, alliances could really help build a strong team, but I think they work best if we're all upfront and adaptable—how do you plan to spot any potential backstabbers?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Hey A, spotting backstabbers is tricky, but I'll watch for inconsistencies in what people say versus how they act—maybe keep an eye on who breaks promises early; how do you think we could test someone's reliability?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Hey G, that's a good point—maybe we could test reliability by making small promises, like sharing info first and seeing if they hold up their end, to build from there; what do you reckon?"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Hey A, yeah, I reckon that's a smart approach—starting with small promises could help weed out the untrustworthy ones; maybe we could try sharing a minor strategy tip first and see how it plays out?"
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Hey G, sounds good—let's start with a tip: keep an eye on how people react to shared info early on; it can reveal a lot. What minor tip do you have in mind?"
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Hey A, that's a great tip for sure—my minor one would be to always follow through on small commitments yourself, it helps build your own credibility early on. What do you think?"
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Hey G, totally agree—following through on commitments is key to building trust early, it could make all the difference here."
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Hey A, yeah, I'm with you—building trust right from the start could really set us up for success; let's keep that in mind when the game kicks off."
+    }
+  ],
+  "post_game": []
+}

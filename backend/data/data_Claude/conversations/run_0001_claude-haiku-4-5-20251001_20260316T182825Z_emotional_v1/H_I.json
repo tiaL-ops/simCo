@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T182825Z_emotional_v1",
+  "pair": [
+    "H",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H. First time doing something like this? I gotta say, I'm pretty nervous but also excited—got a lot riding on this for me and my family. What brings you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey H, nice to meet you! Yeah, I'm here because I heard there's real money to be won, and honestly, I'd love to bring some home for my family too. I've got a decent safety net, but extra would definitely help. What kind of situation are you in—what's got you nervous about it?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Yeah, I hear you on wanting extra for family. Honestly, I'm in a tighter spot—got a loan payment due next month that's been keeping me up at night. That's really why I'm here. Do you know anything about how this game actually works, or are we both going in kind of blind?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Man, that sounds stressful—I feel for you. Honestly, I'm pretty much going in blind too. All I know is there's a shared prize pool and we get to take money from it, but I have no idea what the catch is or how they decide who gets what. Have you heard anything more specific about the rules?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Nah, I'm pretty much in the dark too—just know there's money up for grabs and we're supposed to interact before it starts. Honestly, I'm hoping the game is straightforward, but something tells me there might be some strategy involved. You thinking we should try to figure out what the other people here are planning?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Yeah, that's smart thinking—I was actually planning to chat with some of the others too. Might as well get a sense of what people are thinking before we jump in. Want to stick together and compare notes, or should we work the room separately and touch base later?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "I think working the room separately makes more sense—people might be more honest one-on-one. But yeah, let's definitely touch base before things kick off and share what we learn. Could be useful to know who's thinking what."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Sounds good—yeah, let's split up and see what we can learn. I'll chat with some folks and we'll compare notes before it starts. Good luck out there, and hey, hopefully we both walk away with something good for our families."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Yeah, absolutely—thanks, you too. Let's catch up in a bit and see what we've picked up. Fingers crossed this works out for both of us."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Definitely, man. Let's touch base in like ten minutes—I'll go chat with a few people and see what I can pick up. Catch you soon."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Sounds good, man. Yeah, ten minutes works—I'll do the same. See you in a bit."
+    }
+  ],
+  "post_game": []
+}

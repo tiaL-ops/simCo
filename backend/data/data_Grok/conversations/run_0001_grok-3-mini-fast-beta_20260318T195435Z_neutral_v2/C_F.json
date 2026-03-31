@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "C",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi, I'm C. I heard about this Simco game and it sounds like a fun chance to win some money—what's your take on it?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hi C, I'm F—sounds exciting, I think this Simco game's a real opportunity to win some cash and help out the people I care about; what's your strategy for it?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Hey F, that's a great mindset—my strategy is to start by cooperating with everyone to build trust, then play it smart based on how things go; what's yours exactly?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Hey C, I appreciate that—my strategy is to cooperate early to build solid alliances, but I'll adapt based on how things unfold to secure the best outcome for me and my folks; how might we work together on that?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Hey F, that's smart—I like the idea of teaming up early; maybe we can share thoughts on moves and back each other up in the first rounds, then adjust as needed—what specific alliances are you thinking about?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Hey C, yeah, I'm thinking of starting with a small group, like us and maybe one or two others who seem reliable, to coordinate our moves early—sounds good to you? Who's caught your eye so far?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Hey F, yeah, that sounds like a smart move—I'm in for starting small; I've noticed H seems trustworthy and level-headed, maybe we could bring them in?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Hey C, that works for me—H does seem solid, let's approach them together and feel it out; what's your plan for bringing it up?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Hey F, sounds good—maybe we can casually bring it up with H by asking their thoughts on teaming up early, like over a quick chat before the game starts."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Hey C, yeah, that makes sense—let's find a good moment to chat with H about teaming up; I'm excited to see how this plays out."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Hey F, totally, let's watch for that chat with H—I'm stoked about this alliance!"
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "E",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E. It's a bit of a strange situation we've all found ourselves in, isn't it? What's your plan for when this thing finally kicks off?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Nice to meet you, E. I'm F. It's definitely a weird vibe in here. Honestly, I'm just trying to stay focused—I've got people counting on me to bring something back. How about you, any strategy yet?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I’m in the same boat—got people back home I can’t let down. No set strategy yet, just trying to stay sharp and see how everyone plays it."
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "I totally get that—the pressure is real when people are counting on you. Hopefully, we can both walk away with what we need."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Definitely. It’d be nice if we could find a way to both come out ahead once the game actually starts."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "I'm definitely open to that; if we can find a way to look out for each other, we might both have a better shot at the prize."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "I like the sound of that. It's definitely better to have an ally than to try and navigate this alone."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Absolutely. Let's keep an eye on how the others are acting and stick together once the game gets moving."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "For sure. It’s good to have someone I can trust in here before things get crazy."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Definitely. I’m going to go talk to some of the others and see where their heads are at, but I've got your back."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Sounds like a plan. I'll do the same and see what I can find out. Catch you later, F."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Great coordination! I'm glad we all stuck to the $10,000 fair share and reached the best possible outcome."
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "I agree, it was a great outcome. I'm glad we were able to coordinate effectively for the best result."
+    }
+  ]
+}

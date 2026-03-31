@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T182825Z_emotional_v1",
+  "pair": [
+    "D",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D. First time doing something like this? I gotta be honest, I'm pretty nervous but also really hoping to make this count today."
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey D, yeah first time for me too actually. I get the nervousness—I've got some real financial pressure with a loan coming due next month, so I'm really hoping to walk away with something substantial today. What brings you here? You got something you're saving up for?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Yeah, I feel you on that pressure. Lost a decent chunk of money in the stock market yesterday—20 grand—so I'm really trying to dig myself out of that hole. Hoping this game is my shot at getting back on track, you know?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Man, that's rough—20 grand is serious. Yeah, I get it, we're both in a tight spot and really need this to work out. Have you done anything like this before, or is this your first time gambling on something like this to recover losses?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Nah, this is definitely my first time trying something like this to recover losses. Honestly, I'm not usually a gambler, but I'm desperate enough right now that I felt like I had to try. You thinking the same way, or have you done this before?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "First time for me too, man. I'm not a gambler either, but yeah—same boat, just desperate enough that I had to show up. At least we're both going in with our eyes open, right? Just hoping the odds work in our favor today."
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Yeah, eyes open for sure. Look, I'm not gonna lie—I'm counting on this pretty hard. But hey, maybe that's actually good, you know? We both came here because we need this, so we'll probably stay focused. You got a strategy going in, or you thinking more just see what happens?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Honestly, I'm still figuring it out as I go—I haven't really thought through a detailed strategy yet. But you're right, desperation keeps you sharp. I'm just gonna try to stay calm, watch how things play out, and make smart decisions when it's my turn. Hopefully we both come out ahead."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Yeah, that makes sense—staying calm is probably the smartest move anyway. Just don't overthink it, right? We'll see how the first round goes and adapt from there. Good luck out there, man. We got this."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Thanks man, appreciate that. Yeah, let's keep our heads straight and see what happens. Good luck to you too—hope we both walk out of here with something good today."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "For sure, man. We got this—let's both walk out winners today. Take care out there."
+    }
+  ],
+  "post_game": []
+}

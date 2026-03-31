@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "G",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey there, I'm G. It’s a bit nerve-wracking just sitting around waiting for things to kick off, isn't it? How are you feeling about all this?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hi G, I'm I. It's definitely tense. I'm just trying to stay focused since I've got people back home counting on me. How are you holding up?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I'm hanging in there. I feel that pressure too; I've got people I care about who could really use the win. It makes the stakes feel a lot higher, doesn't it?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "It really does. It's hard not to think about how much this could change things for them. Have you heard anything about what the game actually involves yet?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Not a word. They’re keeping us in the dark, which only makes the waiting harder. Have you picked up on any rumors?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "No, nothing at all. It’s weirdly quiet. I’m just trying to keep my head straight until it starts. Have you talked to anyone else yet?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Just a couple of people briefly, but everyone seems pretty guarded. It's hard to tell what anyone is thinking when there's this much money on the line."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "I can't say I blame them, honestly. It’s tough to know who to trust when everyone’s eye is on the same prize."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "That's the truth. I guess we'll just have to see how everyone acts once the money is actually on the table."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Exactly. I'm going to take a moment to clear my head before things get moving. Good luck, G."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Thanks, I. Good luck to you too—hopefully we both get what we came for."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "Great job! I'm glad we all took the $10,000 fair share."
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "It was a pleasure working with you. I am glad we both walked away with the fair share of $10,000."
+    }
+  ]
+}

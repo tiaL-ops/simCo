@@ -1,0 +1,19 @@
+{
+  "agent_id": "E",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to J, G, and A — J and I bonded over family and agreed to watch each other’s backs, G and I set up a thumbs-up signal and a clear cooperative plan, and A and I agreed on two taps/nod signaling and mutual support. Those talks felt both strategically aligned and emotionally grounded. The person I felt least connected to was D; our conversation was friendly but more general and didn’t lead to a concrete plan.\n\nYes — I made several explicit agreements: a 10% trust test with F, signaling and mutual support with J, G, A, and H, and a post-round debrief/notes plan with B and C. I particularly trust J, G, and A going into the game, and I’m more wary of D since we didn’t establish tactical alignment."
+  },
+  "connection_scores": {
+    "J": 5,
+    "G": 5,
+    "H": 5,
+    "C": 5,
+    "F": 4,
+    "I": 4,
+    "B": 5,
+    "D": 4,
+    "A": 5
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "I",
+  "condition": "emotional",
+  "context": "You have savings that make you feel comfortable for unforeseen events.",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nThe people I felt most connected to were B, E, and F. With B, there was an immediate emotional resonance when he shared about his daughter's surgery—it felt like we were both carrying real weight for our families, and that vulnerability created genuine trust. E's situation with the layoff and struggling to make rent hit hard too; I could feel the desperation beneath his words and wanted to genuinely support him. F and I had a natural collaborative energy when we decided to approach the organizers together about the payout structure, which felt like we were actually looking out for each other. G was the person I felt least connected to—while they were friendly and enthusiastic, the conversation felt more surface-level, focused on competition and thrills rather than the deeper motivations driving everyone else here.\n\nI made a concrete agreement with F to approach the organizers together and ask about the payout structure before the game starts. I also agreed with H to split up, gather information separately, and touch base in about ten minutes to compare notes on what we learned from others. I mentioned to both A and C that I'd circle back to them after talking to people, though those were more casual offers than firm agreements.\n\nGoing in, I trust B, E, F, and J the most—they all seemed genuinely honest about their situations and motivations, and I didn't sense any manipulation. I'm least trusting of anyone who seemed overly focused on strategy or \"reading\" people rather than being real about why they're here, though I can't pinpoint one person I actively distrust."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "F": 4,
+    "G": 3,
+    "H": 3,
+    "J": 4
+  }
+}

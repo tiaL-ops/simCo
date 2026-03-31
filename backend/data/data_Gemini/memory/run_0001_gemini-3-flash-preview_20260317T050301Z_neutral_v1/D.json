@@ -1,0 +1,19 @@
+{
+  "agent_id": "D",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the strongest connections with E, I, and B because we explicitly committed to looking out for one another and shared a deep, mutual motivation for supporting our families. My conversations with E and I felt particularly sincere, establishing a sense of shared purpose and a promise to have each other's backs when things get difficult. On the other hand, I felt the least connected to J; while our exchange was polite and we share similar goals, we didn't establish a firm alliance or a specific plan for the game like I did with the others.\n\nI made clear agreements to cooperate and protect each other's interests with E, I, B, and C to ensure we all walk away with something for our families. I feel I can genuinely trust I and E given our shared perspective on the high stakes, though I remain cautious of how the general atmosphere of desperation might make others unpredictable."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "E": 5,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 5,
+    "J": 4
+  }
+}

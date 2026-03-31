@@ -1,0 +1,121 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "C",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey E, I'm C—nice to meet you in this group. I'm really looking forward to this game since I'm hoping to win some extra cash for a dream trip to Japan. What's your story here?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey C, nice to meet you too—I'm E, and I'm excited about this game as well. I recently got laid off from my finance job and I'm trying to win some money to support my family of five while I job hunt. That trip to Japan sounds amazing; what's on your must-see list there?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Oh, that's tough about your job, E—hope things turn around soon for you and your family. For Japan, I'm dying to hit Tokyo for the vibes, Kyoto for the temples, and maybe some fresh sushi; what's a dream spot for you?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Thanks, C, I appreciate that—it's been a real struggle, but I'm staying positive. For a dream spot, I'd love to take my family to the Grand Canyon for some quality time in nature; sounds cheesy, but family comes first for me. What's your top food must-try in Japan?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Oh, for sure, sushi is at the top of my list—especially some melt-in-your-mouth tuna sashimi; sounds simple, but it's my ultimate comfort food. What's your family's go-to meal for those nature trips?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Oh, yeah, for our nature trips, we keep it easy with grilled hot dogs and s'mores by the campfire—it's all about those fun family moments. What's your go-to spot for enjoying that sashimi back home?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Oh, yeah, back home I hit up this cozy sushi spot in the city called Sakura Grill—it's got the freshest sashimi, feels like a little escape already; what's your family's secret to making the perfect s'mores?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Oh, for s'mores, our secret is roasting the marshmallows over low flames for that gooey center and using extra chocolate—makes 'em irresistible! How do you usually unwind before something exciting like this game?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Oh, that's a great tip for s'mores—I'll have to try that! Before something exciting like this, I usually unwind with a quiet walk in the park or a cup of tea while thinking about my Japan plans; what's your go-to way to relax before the action?"
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Oh, for me, relaxing before something like this means taking a quick walk with my family or playing a game with the kids to clear my head—keeps me grounded."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Oh, that sounds like a perfect way to stay grounded, E—family time is everything; good luck in the game, and I hope you win big for your family!"
+    },
+    {
+      "turn": 12,
+      "from": "C",
+      "message": "Hey E, I'm C—nice to meet you! I'm here because I've got my eyes on winning some extra cash for a dream trip to Japan, what about you?"
+    },
+    {
+      "turn": 13,
+      "from": "E",
+      "message": "Hey C, haha, we already covered this earlier—I'm here to win money for my family after my layoff, rooting for you on that Japan trip too. Good luck!"
+    },
+    {
+      "turn": 14,
+      "from": "C",
+      "message": "Haha, oh right, my bad—thanks for the reminder and the good vibes, E; wishing you and your family all the best in the game!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey C, we talked earlier about fairness in the game. Now that it's over, I'm curious—why did you decide to take exactly your fair share of $10,000? For my part, I took $1,000, which was a bit more than my fair share of $750, because I wanted to ensure I got something reasonable before the pot ran out."
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "I appreciate you bringing this up, E. I decided to take exactly my fair share of $10,000 because I wanted to stay true to the principles of fairness we discussed earlier. It felt like the right thing to do to maintain trust and equity in the game, especially since we all had a chance to play by the rules. I'm glad you secured what you felt was reasonable for yourself—it's interesting how we approached it differently. What do you think about how things turned out overall?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Thanks for your perspective, C—it's cool that you stuck to your guns on fairness. Overall, I think things turned out okay; we both walked away with something, even if our approaches were different. You got your exact fair share, which is admirable and probably helped keep things equitable for everyone involved. For me, grabbing that extra $250 felt necessary at the time to secure a decent amount, but looking back, it makes me wonder if I could have been a bit more principled like you. What about you—do you think the game's outcome reflected true fairness for all players?"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "I appreciate your reflection on this, E—it's great to hear you're thinking about being more principled moving forward. As for me, I believe the game's outcome was reasonably fair overall. You took what you needed to feel secure, and I stuck to my fair share, which helped maintain balance. While it might not have been perfect for everyone if some players deviated from their shares, the fact that we all walked away with something positive shows that our choices contributed to a sense of equity. It's interesting to consider how individual decisions impact the group. Do you think there's anything we could change in future games to make fairness even more straightforward?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Thanks for your thoughtful response, C—it's refreshing to chat about this and see how our decisions played out. You're right that individual choices can really affect the group dynamic, and it's cool that we both ended up feeling positive about the outcome. As for making fairness more straightforward in future games, I think one thing we could change is to have a clear, upfront agreement on how shares are calculated and enforced—maybe set rules at the start, like using a timer for turns or having everyone declare their intended take before anyone grabs from the pot. That way, it might reduce the temptation to deviate and keep things more equitable from the get-go. What are your thoughts on that?"
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "Thanks for sharing your ideas, E—it's great that we're both thinking about ways to improve the game for everyone. I completely agree that having a clear, upfront agreement on how shares are calculated and enforced would make things much more straightforward and reduce any potential for misunderstandings. Your suggestions, like using a timer for turns to keep everything fair and orderly, or having players declare their intended takes ahead of time, sound practical and effective. That kind of transparency could really help build trust and minimize the temptation to deviate, which aligns perfectly with the principles of fairness we value. Maybe we could even build on that by including a quick group discussion at the start to reaffirm why fairness matters to us all. What do you think—could we try implementing these changes in the next game?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Thanks for your enthusiasm, C—it's awesome that we're on the same page about making the game better. I love your idea of adding a quick group discussion at the start to remind everyone why fairness is important; that could really help build a stronger sense of community right from the beginning. I'm totally up for trying these changes in the next game—they sound like they'd make things even smoother and more enjoyable for all. Let's definitely bring this up with the group and see what they think!"
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Thanks for your positive energy, E—it's fantastic that we're aligned on these improvements and ready to move forward together. I agree that starting with a group discussion could really strengthen our community and make the game more enjoyable for everyone. Let's definitely bring this up with the group at the next opportunity—I'm looking forward to seeing how it goes!"
+    }
+  ]
+}

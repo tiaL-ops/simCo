@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "A",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A. So this is quite the setup, right? I'm trying to figure out what we're all getting into here — have you done anything like this before?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey A, nice to meet you. Nah, this is my first time doing something like this. I'm honestly pretty excited but also a bit nervous about it all. You seem like you're trying to figure out the game too — have you picked up on what the actual rules are yet?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Yeah, same here honestly — first time for me too. From what I've gathered, we can take money from a shared pool, but I'm still fuzzy on the exact mechanics. Have you heard anything about whether it's competitive or if we're supposed to work together somehow?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "That's what I'm trying to figure out too, honestly. My gut tells me it's probably competitive since there's a limited pool, but I haven't gotten enough info yet to know for sure. Maybe we should pay attention when they explain the actual rules — that'll probably clear things up pretty quick."
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Yeah, good call — I'll definitely be all ears when they lay out the rules. Either way, I'm hoping there's a way to come out ahead here. Maybe we can touch base after we know what we're actually working with?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Absolutely, sounds good. Yeah, let's definitely reconnect once we know what we're dealing with — might be easier to figure out a strategy then. Good luck out there."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Thanks, you too! Yeah, let's definitely catch up once we know what we're actually doing. I have a good feeling about this."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Yeah, I'm feeling it too — let's make sure we connect right after they explain everything. Could be a game-changer knowing what we're up against."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Definitely, man — I'll find you right after they go through the rules. We can compare notes and figure out the best move together."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Sounds perfect — yeah, let's definitely meet up right after. Two heads are better than one, especially when there's money on the line. See you in a bit."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "For sure, man. I'll catch you right after they explain the rules. Let's see what we're working with and figure this out together."
+    }
+  ],
+  "post_game": []
+}

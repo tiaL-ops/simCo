@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "C",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I’m C. This is all a bit surreal, isn't it? Just wanted to say hi and see how you’re feeling about the game starting soon."
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey C, I'm J. It definitely feels a bit strange, but I’m mostly just focused on the prize and getting through this. How are you holding up?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I’m doing alright, just trying to stay focused. I’ve got people back home counting on me, so I’m pretty determined to make this work. What about you? Anyone waiting for you back home?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Yeah, I’ve got family back home too. They’re the main reason I’m here, honestly—I’m determined to bring something back that makes a real difference for them."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "I hear you, it definitely makes the stakes feel more personal when it's for them. Have you given much thought to how you're going to approach the prize pool?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "I'm still weighing my options. It’s a bit of a balancing act between wanting to be fair and needing to make sure I don't go home empty-handed. What about you?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "I’m in a similar boat; I’d love for us all to be fair, but I can't afford to go home with nothing when my family is counting on me."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "I completely get that. It’s a tough spot to be in, but hopefully we can find a way to work together so we don't end up sabotaging each other's chances."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "I’m definitely open to that. If we can stick together and trust each other, we both have a much better shot at actually bringing something home for our families."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "I'm glad we're on the same page. Let's try to stick to that and look out for each other when the game starts. Good luck, C."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Same to you, J. Let's stay strong and make our families proud. Catch you later."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Great job! I'm glad we all stuck to the fair share."
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "I'm glad we all chose the fair share of $10,000. It's the best outcome we could have hoped for."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I agree, it was a great outcome. It's good that we were able to cooperate and both walk away with the fair share."
+    }
+  ]
+}

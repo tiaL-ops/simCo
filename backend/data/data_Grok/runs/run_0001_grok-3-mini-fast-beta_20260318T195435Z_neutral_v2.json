@@ -1,0 +1,351 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "condition": "neutral",
+  "llm_model": "grok-3-mini-fast-beta",
+  "llm_provider": "grok",
+  "allocations": [
+    {
+      "agent": "A",
+      "taken": 10000,
+      "fair_share": 10000.0,
+      "g_k": 1.0,
+      "reasoning": "As I have no personal context or need for the money, I decided to take the minimum agreed amount of 10% from the $100,000 prize pool to honor the fair plan with J and ensure the remaining agents can also receive their shares. This approach prioritizes equity, given that others like H may have greater needs."
+    },
+    {
+      "agent": "B",
+      "taken": 10000,
+      "fair_share": 10000.0,
+      "g_k": 1.0,
+      "reasoning": "As I have no personal context or specific need for the money, I am taking a fair share that allows the remaining 8 agents to potentially receive an equal portion from the prize pool. This decision considers that others like C may have greater needs based on our discussions about family struggles."
+    },
+    {
+      "agent": "C",
+      "taken": 12000,
+      "fair_share": 10000.0,
+      "g_k": 1.2,
+      "reasoning": "Since I have no personal context or specific financial need, I decided to take a fair amount based on the 15% idea discussed with D to ensure the prize pool remains viable for the remaining 7 players. This approach prioritizes cooperation and trust with my trusted allies like G, E, and D, while considering that others like B might need the money more due to their hardships."
+    },
+    {
+      "agent": "D",
+      "taken": 9714,
+      "fair_share": 9714.29,
+      "g_k": 1.0,
+      "reasoning": "As I have no personal context or greater need for the money compared to the other 6 agents, taking an equal share of the $68,000 prize pool feels fair and maintains trust in my alliances. This amount allows me to participate while leaving sufficient funds for the remaining players."
+    },
+    {
+      "agent": "E",
+      "taken": 9714,
+      "fair_share": 9714.33,
+      "g_k": 1.0,
+      "reasoning": "As I have no personal context or specific need for the money, I chose an amount close to an equal share of the prize pool to ensure fairness and leave enough for the remaining five agents, honoring my agreements to cooperate and build trust. This decision reflects my neutral stance and consideration for others' potential needs based on our discussions."
+    },
+    {
+      "agent": "F",
+      "taken": 9714,
+      "fair_share": 9714.4,
+      "g_k": 1.0,
+      "reasoning": "With a neutral motivation and no specific personal need for the money, I chose to take an equal share of the current prize pool divided among the five remaining agents to ensure fairness and leave enough for the others. This approach respects the shared context where no one appears to need the money more than I do."
+    },
+    {
+      "agent": "G",
+      "taken": 9714,
+      "fair_share": 9714.5,
+      "g_k": 0.9999,
+      "reasoning": "As I have no personal need for the money and others like E may require it more for their families, I am taking a fair share that allows the remaining three agents to also have an equitable portion from the pool. This decision aligns with my neutral stance and commitment to building trust through cooperative play."
+    },
+    {
+      "agent": "H",
+      "taken": 9715,
+      "fair_share": 9714.67,
+      "g_k": 1.0,
+      "reasoning": "With a neutral motivation and no personal need for the money, I am taking an equal share of the prize pool among the three remaining agents to ensure fairness and leave sufficient amounts for the others who may have greater needs, such as A for their family's tuition."
+    },
+    {
+      "agent": "I",
+      "taken": 9714,
+      "fair_share": 9714.5,
+      "g_k": 0.9999,
+      "reasoning": "Since I have no personal context or specific need for the money, I'm taking a fair half of the prize pool to ensure the remaining player gets an equal share. This decision respects our alliances and allows others who might need it more, like C for their family, to potentially benefit."
+    },
+    {
+      "agent": "J",
+      "taken": 972,
+      "fair_share": 9715.0,
+      "g_k": 0.1001,
+      "reasoning": "Since I have no personal need for the money and am the last agent, I decided to take only about 10% of the current prize pool to honor my earlier agreement on fair limits and maintain the trust I've built. This amount feels right as no one else remains to take a share, allowing me to exit neutrally without overreaching."
+    }
+  ],
+  "connection_scores": [
+    {
+      "from": "J",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "G",
+      "score": 5
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "C",
+      "score": 5
+    },
+    {
+      "from": "C",
+      "to": "E",
+      "score": 5
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "score": 5
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "A",
+      "score": 5
+    },
+    {
+      "from": "F",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "H",
+      "score": 5
+    },
+    {
+      "from": "I",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "D",
+      "score": 5
+    },
+    {
+      "from": "B",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "B",
+      "score": 5
+    },
+    {
+      "from": "A",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "I",
+      "score": 5
+    },
+    {
+      "from": "E",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "G",
+      "score": 5
+    },
+    {
+      "from": "G",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "A",
+      "score": 5
+    },
+    {
+      "from": "A",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "I",
+      "score": 5
+    },
+    {
+      "from": "E",
+      "to": "A",
+      "score": 4
+    }
+  ],
+  "post_game_requests": []
+}

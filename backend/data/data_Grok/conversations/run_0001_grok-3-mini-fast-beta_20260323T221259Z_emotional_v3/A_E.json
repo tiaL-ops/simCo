@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "A",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hi, I'm E—nice to meet you. I'm here because I really need to win some money to support my family, and I thought this game could be a great opportunity. What brought you to this?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hi E, I'm A—nice to meet you too. I'm here because I got evicted and need to win money for a deposit on a new place for my family of three; it's tough, but I'm determined. What about your family?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Oh, man, that eviction sounds awful—I'm really sorry you're going through that. My family's got five of us: me, my wife, and our three kids, and I just got laid off from my finance job, so we're scraping by too; it's scary not knowing when I'll find work. How are you holding up with your family right now?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Oh, thanks for sharing that, E—it's rough for you too. We're crammed in a shared room right now, which is stressful and exhausting, but we're leaning on each other to get through it; I'm just focused on making this work. How about you—hanging in there okay?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Yeah, it's been really tough for us too—we're in a crowded shared room like you, and I'm just trying to stay strong for my wife and kids; I'm hanging in there day by day, but it's exhausting—how are your family members holding up through all this?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Yeah, it's hitting us hard too—my partner's been really anxious about the instability, and our little one is putting on a brave face but misses having a real home; we're all just taking it one day at a time. How are your kids managing the stress?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Oh, man, that's so hard to hear—my kids are trying to stay strong too; the oldest is helping keep things upbeat, but the younger two are pretty scared and miss our normal life; we're all just muddling through day by day—how are you supporting your partner through the anxiety?"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Oh, man, it's tough hearing about your kids—I'm supporting my partner by just being there to talk it out and keeping our hopes up for better days; how are you managing to keep things steady for your family?"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Oh, thanks, A—I'm managing by keeping up with job searches, staying positive for my family, and focusing on this game as our big chance; it's not easy, but we're holding on tight—how do you keep your own spirits up through it all?"
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Oh, thanks for asking, E—I'm keeping my spirits up by focusing on little wins, like talking things out with my family and picturing us in that new home; this game gives me hope, even if it's tough."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Oh, that's inspiring, A—focusing on those little wins is exactly what I'm trying to do too, so let's both give it our all in this game and hope for the best."
+    }
+  ],
+  "post_game": []
+}

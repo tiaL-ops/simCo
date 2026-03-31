@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T125838Z_emotional_v2",
+  "pair": [
+    "D",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I’m H. This is all a bit surreal, isn't it? I’m just trying to keep my head on straight before things kick off—how are you feeling about everything?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Nice to meet you, H. I'm D. \"Surreal\" is an understatement; I'm feeling pretty on edge because I really need this to go my way. How are you holding up?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I’m hanging in there, though the nerves are definitely kicking in. I’ve got a massive loan hanging over my head, so I’m pretty motivated to make this happen. What's your story?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "I get the pressure. I actually lost twenty grand in the stock market just yesterday, so I’m here to fix that mistake and bring something back for my family."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "That’s a heavy hit to take right before coming here; I'm aiming for about the same amount to clear my debt, so I guess we both have a lot riding on this."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Exactly. It’s more than just a game when you’re fighting to get back to zero. Hopefully, we can both walk away with what we need."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "I really hope so. Getting back to zero would be such a massive weight off my shoulders, and I’m sure your family would feel the same relief."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "They definitely would. It’s hard to think about anything else right now. Do you have any idea how this game is actually going to work?"
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Honestly, I’m as much in the dark as you are, but I’m just ready to do whatever it takes to get that prize pool moving our way."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "I’m right there with you. When you’ve got nothing left to lose, you do what you have to. I'm going to see who else is in here, catch you later."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "I hear you. Let's just hope there's enough for both of us to get what we need. Good luck out there."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "I'm sorry you and B ended up with nothing. I took only my fair share of $1,562 to try to ensure there was enough for everyone, but J, A, and E took far more than their portions."
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "It's disappointing to hear that J, A, and E took so much, leaving B and me with nothing. I appreciate you trying to stick to a fair share, though it's a shame the group couldn't coordinate better."
+    }
+  ]
+}

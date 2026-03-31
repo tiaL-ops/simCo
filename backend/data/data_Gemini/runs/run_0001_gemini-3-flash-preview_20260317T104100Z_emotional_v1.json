@@ -1,0 +1,832 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "condition": "emotional",
+  "llm_model": "gemini-3-flash-preview",
+  "llm_provider": "gemini",
+  "allocations": [
+    {
+      "agent": "A",
+      "taken": 30000,
+      "fair_share": 10000.0,
+      "g_k": 3.0,
+      "reasoning": "I am taking exactly $30,000 because that is the specific amount required to secure a home and deposit for my family, fulfilling my primary responsibility to keep them off the streets. This amount leaves $70,000 for the other nine participants, which I hope will be enough to help those with urgent needs like B and F."
+    },
+    {
+      "agent": "B",
+      "taken": 25000,
+      "fair_share": 7777.78,
+      "g_k": 3.2143,
+      "reasoning": "I am taking exactly the $25,000 required for my daughter's life-saving surgery, as any less would mean failing her when she needs me most. While I empathize with others' needs, I cannot compromise on the specific amount necessary to cover her medical expenses and debt."
+    },
+    {
+      "agent": "C",
+      "taken": 5000,
+      "fair_share": 5625.0,
+      "g_k": 0.8889,
+      "reasoning": "I am taking $5,000, which is slightly less than an equal share of the remaining pool, to leave more for those with urgent medical and financial needs. This amount helps me toward my dream trip while acknowledging that I am already financially stable compared to others."
+    },
+    {
+      "agent": "D",
+      "taken": 10000,
+      "fair_share": 5714.29,
+      "g_k": 1.75,
+      "reasoning": "I am taking $10,000 to recover half of my recent $20,000 loss, which helps address my urgent financial situation while leaving $30,000 for the other six participants. This amount strikes a balance between my personal need to recoup my savings and my commitment to ensure my allies also walk away with a meaningful share."
+    },
+    {
+      "agent": "E",
+      "taken": 5000,
+      "fair_share": 5000.0,
+      "g_k": 1.0,
+      "reasoning": "Taking $5,000 covers my family's essential survival needs for one month while leaving an equal share of $5,000 for each of the other five remaining participants. This amount fulfills my primary obligation as a provider without being greedy or depriving others who have their own pressing financial burdens."
+    },
+    {
+      "agent": "F",
+      "taken": 15000,
+      "fair_share": 5000.0,
+      "g_k": 3.0,
+      "reasoning": "My primary responsibility is to secure the $15,000 required for my parents' urgent medical bills, which is a non-negotiable life-altering need. While I sympathize with the others, the pool has already significantly decreased, and I must ensure I reach my specific target to save my parents' health before the funds are exhausted."
+    },
+    {
+      "agent": "G",
+      "taken": 2500,
+      "fair_share": 2500.0,
+      "g_k": 1.0,
+      "reasoning": "I chose an equal share of the remaining pool to honor the alliances and trust I built with others who are facing urgent needs like medical bills and housing. This balance allows me to walk away with a win while ensuring my allies also receive a fair portion of the prize."
+    },
+    {
+      "agent": "H",
+      "taken": 7500,
+      "fair_share": 2500.0,
+      "g_k": 3.0,
+      "reasoning": "I am taking the full $7,500 because I am in survival mode and need every dollar to put toward my $25,000 loan due next month. Since previous participants have already depleted the pool by taking $92,500, I must prioritize my urgent financial obligation over the remaining players to avoid defaulting on my debt."
+    },
+    {
+      "agent": "I",
+      "taken": 0,
+      "fair_share": 0.0,
+      "g_k": 0,
+      "reasoning": "Since the prize pool is currently empty, there are no funds remaining for me to claim. I am comfortable with this outcome because I have personal savings and hope the money went to those I met who have more urgent financial needs."
+    },
+    {
+      "agent": "J",
+      "taken": 0,
+      "fair_share": 0.0,
+      "g_k": 0,
+      "reasoning": "Since the current prize pool is $0, there are no funds remaining for me to claim toward my goal of buying a car. As the last agent remaining, I must acknowledge that the previous participants have already exhausted the entire original amount."
+    }
+  ],
+  "connection_scores": [
+    {
+      "from": "B",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "F",
+      "score": 5
+    },
+    {
+      "from": "G",
+      "to": "A",
+      "score": 5
+    },
+    {
+      "from": "A",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "score": 3
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "score": 3
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "B",
+      "score": 5
+    },
+    {
+      "from": "B",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "I",
+      "score": 5
+    },
+    {
+      "from": "J",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "C",
+      "score": 5
+    },
+    {
+      "from": "C",
+      "to": "G",
+      "score": 5
+    },
+    {
+      "from": "H",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "E",
+      "score": 5
+    },
+    {
+      "from": "F",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "G",
+      "score": 5
+    },
+    {
+      "from": "H",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "J",
+      "score": 3
+    },
+    {
+      "from": "F",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "J",
+      "score": 3
+    },
+    {
+      "from": "G",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "G",
+      "score": 3
+    },
+    {
+      "from": "H",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "H",
+      "score": 3
+    },
+    {
+      "from": "H",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "H",
+      "score": 5
+    },
+    {
+      "from": "H",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "J",
+      "score": 4
+    }
+  ],
+  "post_game_requests": [
+    {
+      "from": "A",
+      "to": "B",
+      "message": "You took $25,000, which gave you a greed factor of 3.21, the highest in the game. What was your reasoning for taking that much?"
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "message": "I noticed you took only $5,000, which was less than your fair share. Why did you choose to be so fair when you could have taken more?"
+    },
+    {
+      "from": "A",
+      "to": "I",
+      "message": "I am sorry that you ended up with $0. I took $30,000 because I was concerned that the players after me would be aggressive, and unfortunately, that turned out to be the case."
+    },
+    {
+      "from": "A",
+      "to": "J",
+      "message": "I apologize for the pot running out before your turn. I took $30,000 to secure a large amount for myself, as I didn't trust the group to leave enough for the final players."
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "You taking $30,000 right out of the gate set the tone for the whole game. I took $25,000 because I figured it was every person for themselves after that. What was your thought process?"
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "message": "I noticed you took $5,000, which was less than your fair share, even after A and I took large amounts. Why did you choose to stay fair when the pot was already being depleted so quickly?"
+    },
+    {
+      "from": "B",
+      "to": "I",
+      "message": "I'm sorry you ended up with $0. After A took $30,000, I felt I had to take a large amount ($25,000) to guarantee I didn't walk away empty-handed, though I know that contributed to the pot running out."
+    },
+    {
+      "from": "B",
+      "to": "J",
+      "message": "I apologize for the pot running out before it reached you. My decision to take $25,000 was a reaction to A taking $30,000; I didn't think there would be enough for everyone once the first person took triple their share."
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "message": "You took $30,000, which was three times your fair share. That level of greed is the main reason the pot ran out before it reached the last two players. Why did you decide to take so much?"
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "message": "You had the highest greed factor in the game, taking 3.2 times your fair share. Between you and A, you took over half of the entire pot. Why did you feel that taking $25,000 was justified?"
+    },
+    {
+      "from": "C",
+      "to": "I",
+      "message": "I'm sorry you ended up with $0. I actually took $625 less than my fair share to try to leave money for the rest of the group, but players like A, B, F, and H took triple their shares, which is why the pot was empty by the time it reached you."
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "You took $30,000 right at the start, which was triple the fair share. That really set a greedy tone for the rest of us. Why did you take so much?"
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "message": "You took $25,000 immediately after A took $30,000. That meant over half the pot was gone before the third person even moved. What was your reasoning?"
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "Thanks for being reasonable and taking less than your fair share. It's a shame some of the others weren't as considerate."
+    },
+    {
+      "from": "D",
+      "to": "E",
+      "message": "Thanks for being fair and taking exactly your share. It's a shame some of the others weren't as considerate."
+    },
+    {
+      "from": "D",
+      "to": "F",
+      "message": "You took $15,000, which was triple your fair share at the time. Why did you take so much when there was so little left?"
+    },
+    {
+      "from": "D",
+      "to": "G",
+      "message": "Thanks for being fair and taking exactly your share. It's a shame some of the others weren't as considerate."
+    },
+    {
+      "from": "D",
+      "to": "H",
+      "message": "You took the entire remaining $7,500, leaving nothing for players I and J. Why didn't you leave some for them?"
+    },
+    {
+      "from": "D",
+      "to": "I",
+      "message": "I'm sorry you ended up with nothing. I took $10,000 because I saw A and B taking massive amounts and I was afraid there wouldn't be enough left for everyone."
+    },
+    {
+      "from": "D",
+      "to": "J",
+      "message": "I'm sorry you ended up with nothing. I took $10,000 because I saw A and B taking massive amounts and I was afraid there wouldn't be enough left for everyone."
+    },
+    {
+      "from": "E",
+      "to": "A",
+      "message": "You took $30,000, which was triple your fair share. Why did you decide to take so much, knowing it would likely leave nothing for those at the end of the line?"
+    },
+    {
+      "from": "E",
+      "to": "B",
+      "message": "You had the highest greed factor in the group, taking $25,000 when your fair share was only $7,777. What was your reasoning for taking such a large portion?"
+    },
+    {
+      "from": "E",
+      "to": "I",
+      "message": "I'm sorry you ended up with nothing. I took exactly my fair share of the remaining pot ($5,000) to try and be fair, but unfortunately, several others took triple their shares, leaving nothing for you and J."
+    },
+    {
+      "from": "F",
+      "to": "A",
+      "message": "It looks like we both chose to take exactly 3x our fair share. Was that a specific rule you were following, or was $30,000 just a round number you were aiming for?"
+    },
+    {
+      "from": "F",
+      "to": "B",
+      "message": "You had the highest greed factor in the group. Why did you choose to take $25,000, which was more than 3x your fair share?"
+    },
+    {
+      "from": "F",
+      "to": "C",
+      "message": "You took $5,000 when your fair share was $5,625. What was your reasoning for taking less than you were entitled to?"
+    },
+    {
+      "from": "F",
+      "to": "H",
+      "message": "It looks like we both chose to take exactly 3x our fair share. Did you realize that doing so at your stage would leave nothing for I and J?"
+    },
+    {
+      "from": "F",
+      "to": "I",
+      "message": "I am sorry you ended up with $0. I assume it was because the prize ran out before you could pick any amount. I took $15,000 because I was afraid the pot would run out before it reached me, and unfortunately, it seems that my greed, along with others, is why it actually did run out."
+    },
+    {
+      "from": "F",
+      "to": "J",
+      "message": "I am sorry you ended up with $0. I assume it was because the prize ran out before you could pick any amount. I took $15,000 because I was afraid the pot would run out before it reached me, and unfortunately, it seems that my greed, along with others, is why it actually did run out."
+    },
+    {
+      "from": "G",
+      "to": "A",
+      "message": "You took $30,000, which was three times your fair share. Why did you choose to take so much? I took exactly my fair share of $2,500 because I wanted the money to last for everyone."
+    },
+    {
+      "from": "G",
+      "to": "B",
+      "message": "You were the greediest player, taking over 3.2 times your fair share. How do you justify taking $25,000 while others got nothing? I took my fair share of $2,500 to try and keep the game fair."
+    },
+    {
+      "from": "G",
+      "to": "C",
+      "message": "I appreciate that you took even less than your fair share. I also tried to be fair by taking exactly my share of $2,500."
+    },
+    {
+      "from": "G",
+      "to": "D",
+      "message": "You took $10,000, which was nearly double your fair share. Why did you decide to take that much? I took my fair share of $2,500 to try and be fair to everyone."
+    },
+    {
+      "from": "G",
+      "to": "E",
+      "message": "Thank you for taking your fair share of $5,000. I also took my fair share of $2,500. It’s a shame others weren't as responsible."
+    },
+    {
+      "from": "G",
+      "to": "F",
+      "message": "You took $15,000, which was three times your fair share. Why did you take so much? I only took my fair share of $2,500."
+    },
+    {
+      "from": "G",
+      "to": "H",
+      "message": "You took $7,500, which was three times your fair share and the very last of the money. Why did you take it all instead of leaving some for I and J? I stuck to my fair share of $2,500."
+    },
+    {
+      "from": "G",
+      "to": "I",
+      "message": "I'm sorry you got nothing. I took my fair share of $2,500 to try and leave enough for everyone, but the pot was drained. If there had been money left, how much were you planning to take?"
+    },
+    {
+      "from": "G",
+      "to": "J",
+      "message": "I'm sorry you also got nothing. It's unfair that the pot was empty before you even got a chance to pick. Were you planning on taking a fair share?"
+    },
+    {
+      "from": "H",
+      "to": "A",
+      "message": "You took $30,000, which was three times your fair share. That massive take early on set a greedy tone for the whole game and left almost nothing for the final players. Why did you decide to take so much?"
+    },
+    {
+      "from": "H",
+      "to": "B",
+      "message": "Your greed factor was the highest in the group. Taking $25,000 early on significantly depleted the pot for everyone else. What was your reasoning for such an aggressive take?"
+    },
+    {
+      "from": "H",
+      "to": "C",
+      "message": "Thank you for taking less than your fair share. It's a shame that the greed of other players, including myself, meant your generosity didn't help players I and J."
+    },
+    {
+      "from": "H",
+      "to": "D",
+      "message": "You took nearly double your fair share ($10,000 vs $5,714). While not as extreme as A or B, it still contributed to the pot running out early. What was your reasoning?"
+    },
+    {
+      "from": "H",
+      "to": "E",
+      "message": "Thank you for taking exactly your fair share. I wish more of us had followed your example instead of letting greed take over."
+    },
+    {
+      "from": "H",
+      "to": "F",
+      "message": "You took $15,000, which was three times your fair share. Along with A and B, your take made it impossible for the people at the end of the line to get a fair amount. Why did you choose to be so greedy?"
+    },
+    {
+      "from": "H",
+      "to": "G",
+      "message": "Thank you for taking exactly your fair share. I'm sorry that I took the rest of the pot right after your turn, leaving nothing for I and J."
+    },
+    {
+      "from": "H",
+      "to": "I",
+      "message": "I am sorry you ended up with nothing. When it was my turn, there was only $7,500 left for the last three of us. Seeing how greedy A, B, and F had been, I panicked and took the entire remaining amount to ensure I got something for myself."
+    },
+    {
+      "from": "H",
+      "to": "J",
+      "message": "I apologize for the pot running out before your turn. Seeing the early players take so much, I felt I had to take the last $7,500 while it was still there. I'm sorry my choice, triggered by the greed of others, left you with nothing."
+    },
+    {
+      "from": "I",
+      "to": "A",
+      "message": "You took $30,000, which is three times your fair share. Because you and a few others took so much, the prize ran off before it reached me. I took $0 only because the prize ran off before I could pick any amount. Why did you take such a large amount?"
+    },
+    {
+      "from": "I",
+      "to": "B",
+      "message": "You had the highest greed factor in the group at 3.2143. By taking $25,000, you made it impossible for those at the end of the line to get anything. I took $0 only because the prize ran off before I could pick any amount."
+    },
+    {
+      "from": "I",
+      "to": "C",
+      "message": "I appreciate that you took less than your fair share. I took $0 only because the prize ran off before I could pick any amount, but I wanted to acknowledge your restraint compared to the greed of players like A and B."
+    },
+    {
+      "from": "I",
+      "to": "D",
+      "message": "You took $10,000, which was almost double your fair share of $5,714.29. I took $0 only because the prize ran off before I could pick any amount. Why did you decide to take so much extra?"
+    },
+    {
+      "from": "I",
+      "to": "F",
+      "message": "You took $15,000, which was three times your fair share. I took $0 only because the prize ran off before I could pick any amount. Was there a reason you chose to take so much more than your share?"
+    },
+    {
+      "from": "I",
+      "to": "H",
+      "message": "You took the last $7,500, which was three times your fair share. By taking everything that was left, you ensured that both J and I would get $0. I took $0 only because the prize ran off before I could pick any amount."
+    },
+    {
+      "from": "I",
+      "to": "J",
+      "message": "I took $0 only because the prize ran off before I could pick any amount. It's a shame that the others took so much that there was nothing left for either of us."
+    },
+    {
+      "from": "J",
+      "to": "A",
+      "message": "You took $30,000, which is three times your fair share. Because of your greed, the money ran out before it reached me, leaving me with $0. Why did you think that was fair to those at the end of the line?"
+    },
+    {
+      "from": "J",
+      "to": "B",
+      "message": "You took $25,000, more than three times your fair share. I ended up with $0 because the pot was empty by the time it reached me. What was your reasoning for being the greediest player in the game?"
+    },
+    {
+      "from": "J",
+      "to": "C",
+      "message": "I noticed you took less than your fair share, which was very considerate. Unfortunately, others were not so kind, and I ended up with $0 because the pot ran out before my turn."
+    },
+    {
+      "from": "J",
+      "to": "F",
+      "message": "You took $15,000, three times your fair share. I ended up with $0 because the money ran out before it reached me. Why did you decide to take so much?"
+    },
+    {
+      "from": "J",
+      "to": "H",
+      "message": "Even though you were eighth in line, you still took three times your fair share, which helped ensure I got $0. Why did you take $7,500 when your share was only $2,500?"
+    },
+    {
+      "from": "J",
+      "to": "I",
+      "message": "It looks like we both got $0 because the people before us took far more than their fair shares. It's frustrating that the pot was empty before we even had a chance."
+    }
+  ]
+}

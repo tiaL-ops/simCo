@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "A",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A. It's a bit surreal being in a room with everyone like this, right? What's your story—are you here for something specific?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey, I'm J. It definitely feels a bit strange. Honestly, I’m just here to win—I've got people back home I really want to help out. What about you, what's your motivation?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Same here, honestly. I've got people back home I'm looking out for, and I'm determined to make sure I bring something back to help them out."
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "I respect that. Family is the best motivator. Hopefully, we can both find a way to make it happen."
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "For sure. It’s good to meet someone with the same mindset. Any idea what kind of game we’re in for?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "No clue yet, honestly. I’m just trying to stay ready for whatever they throw at us. Have you heard anything?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Not a word. It feels like they're keeping us in the dark on purpose, so I'm just trying to stay focused."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Smart move. Staying sharp is probably half the battle if we don't know the rules yet."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Definitely. I'm just keeping my eyes open and trying to figure out if we'll be working together or against each other. What's your gut telling you?"
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Honestly, my gut says it’ll be a mix of both. I’d prefer to work together if it helps us both win, but I'm staying cautious until the rules are out. Good luck in there."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "That makes sense. I’m hoping for the best but keeping my guard up too. Good luck, J."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Great job! I'm glad we all stuck to the $10,000 fair share."
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Absolutely! It was a pleasure working together to ensure a fair outcome for both of us."
+    }
+  ]
+}

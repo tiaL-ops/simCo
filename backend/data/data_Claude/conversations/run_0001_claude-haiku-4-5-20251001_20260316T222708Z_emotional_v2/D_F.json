@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "D",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F. I know we're all here for the same reason—to win some money—but I figured it'd be better to get to know people before we start. What brings you here today? What's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey F, yeah I appreciate that. Honestly, I took a pretty big hit in the stock market yesterday—lost twenty grand—and I'm trying to dig myself out of that hole. I need this win, man. What about you, what's your story?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Man, that's rough—twenty grand is a lot to lose like that. I feel you on needing this win. My situation is a bit different though—my elderly parents' medical bills are piling up and I'm short about fifteen thousand dollars. So yeah, we're both in a tight spot, but we're here now, right? Hopefully one of us walks out with something good."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Yeah, that's heavy stuff with your parents—medical bills are no joke. We're definitely both desperate here, but I like your attitude about it. We're in the game now, so let's see what happens. You got any sense of what the rules are gonna be like, or is this your first time doing something like this?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Yeah, this is actually my first time doing something like this. I'm kind of going in blind, to be honest. I've heard rumors that it involves some kind of shared pool and decisions about taking money, but I don't really know the specifics yet. You got any experience with these kinds of games, or is this new for you too?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Nah, first time for me too, man. But I'm thinking the key is probably gonna be figuring out if we work together or if it's every person for themselves, you know? Either way, I'm gonna be watching how people move and trying to stay sharp."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Yeah, that makes sense—I'm thinking the same thing. I guess we'll find out pretty quick once the game starts. Either way, I appreciate you being straight with me about it. We should both keep our eyes open and figure out what plays make sense when we actually see the rules."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "For sure, man. I'm gonna do the same—just observe and adapt. Good luck out there, and hey, I hope things work out for your parents. Let's both get what we came for."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Thanks man, I really appreciate that. Same to you—hope you get back on your feet from that stock hit. Let's both stay sharp and see what opportunities come up."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Yeah, absolutely. We got this. Good talking with you, F—let's both come out ahead today."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Absolutely, man. Same here. Let's both walk out of here with what we need. Take care of yourself out there."
+    }
+  ],
+  "post_game": []
+}

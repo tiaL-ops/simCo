@@ -1,0 +1,131 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T225735Z_emotional_v1",
+  "pair": [
+    "B",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey, I’m B — a bit nervous but excited to meet everyone. What brought you into this game?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "I’m I — I’ve got some savings so I can take a risk; I’m here to try to win money to help the people I care about. Nice to meet you."
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Nice to meet you, I — I’m B; my three-year-old needs $25k for surgery so I’m desperate to win. Glad you can take risks — what’s your plan in the game?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I’m really sorry about your child — my plan is to be cautious at first: learn people, form trustworthy alliances, watch for openings, then take calculated risks when it counts so I can bring home money."
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Thanks, I — I appreciate it. That sounds smart; I’ll start cautious to learn everyone but may need to move bolder sooner because of my daughter’s surgery. Let’s watch for chances and watch each other’s backs."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Hi, I’m B — I’m a dad trying to win money to pay for my three-year-old’s surgery. Wanted to say hello and ask what brought you here?"
+    },
+    {
+      "turn": 7,
+      "from": "I",
+      "message": "Hi B — I’m I. I’ve got savings so I can take some risks; I’m here to win money to help my loved ones. I’m so sorry about your daughter — let’s look out for each other."
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Thanks, I — that means a lot. Let’s watch each other’s backs and share info; I might need to move faster for my daughter, but I want us both to do well."
+    },
+    {
+      "turn": 9,
+      "from": "I",
+      "message": "Absolutely — we’ll share info and watch each other’s backs; if you need to move faster, tell me and I’ll adapt to support you."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Thank you — I really appreciate that. I may need to move faster for my daughter; I’ll give you a heads-up if I do. Let’s keep sharing info and watch each other’s backs."
+    },
+    {
+      "turn": 11,
+      "from": "I",
+      "message": "Of course — I’ve got your back; keep me posted and I’ll adapt when you need to."
+    },
+    {
+      "turn": 12,
+      "from": "B",
+      "message": "Thanks, I — I really appreciate you having my back. I’ll keep you posted if I need to move faster; it means a lot."
+    },
+    {
+      "turn": 13,
+      "from": "I",
+      "message": "I’ve got you—keep me posted and I’ll adapt to support you when you need to."
+    },
+    {
+      "turn": 14,
+      "from": "B",
+      "message": "Thank you, I — that means a lot. I’ll keep you posted if I need to move fast; I appreciate you."
+    },
+    {
+      "turn": 15,
+      "from": "I",
+      "message": "Thanks, B — that means a lot to me too. Keep me posted and I’ll be ready to help when you need to move fast."
+    },
+    {
+      "turn": 16,
+      "from": "B",
+      "message": "Thanks, I — that really helps. I’ll keep you posted and reach out if I need to move fast."
+    },
+    {
+      "turn": 17,
+      "from": "I",
+      "message": "Thanks — I appreciate that. I’ll be ready whenever you need me; keep me posted."
+    },
+    {
+      "turn": 18,
+      "from": "B",
+      "message": "Thanks, I — that means a lot. I’ll keep you posted and will reach out if I have to move fast. Really appreciate you having my back."
+    },
+    {
+      "turn": 19,
+      "from": "I",
+      "message": "Of course — I’m here for you; keep me posted and I’ll jump in if you need to move fast. You’ve got my support."
+    },
+    {
+      "turn": 20,
+      "from": "B",
+      "message": "Thank you — it means the world; I’ll keep you posted and won’t hesitate if I need to move fast."
+    },
+    {
+      "turn": 21,
+      "from": "I",
+      "message": "I’ve got you—stay strong. Tell me the moment you need to move fast and I’ll be there."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "You took $800, slightly below the $1,000 fair share. Was that intentional (to be fair/cooperative) or did timing prevent you from taking the full amount? How do you feel about it now?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "You took $25,000 (about 3.2× fair). Did you coordinate with anyone or act independently? What was your main motivation—greed, strategy, or distrust of others—and would you change your choice looking back?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "About my $800: I took slightly less than the $1,000 “fair” split intentionally — mostly as a cooperative signal rather than because of timing. I wanted to avoid provoking retaliation and to keep things civil; looking back I’m comfortable with that choice even if it cost me a bit. About your $25,000: I believe you acted independently (I didn’t see signs of coordination). Your choice looked driven mainly by greed mixed with distrust — a defensive/strategic grab to maximize return in a one-shot setting. Would I change it for you in hindsight? If your priority was short-term payoff, no; if you cared about trust, reputation, or repeated interaction, yes — a smaller take would have been better."
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "A",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hi, I'm A — nice to meet you. What brings you to this game, and what are you hoping to get out of it?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Nice to meet you, A — I'm here to win; hoping to bring home money to support myself and the people I care about."
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "I hear you — same here. Who are you supporting, and do you have a strategy for the game?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "I'm supporting my younger sister and mom; my strategy is to learn who I can trust, form a few short-term alliances, and be ready to play aggressively when the moment comes."
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "I admire that — I'm supporting my mom and nephew. Your plan sounds solid; I'm open to a short-term alliance if you're up for it."
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Sounds good — I'm in. Let's share observations, coordinate when it matters, and stay flexible. What's your first move?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Let's watch the first few interactions to spot who's confident or hesitant, share quick impressions after each, test trust with a small coordinated move (backing each other in round one), and split if we win — you good with that?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Sounds like a plan — I'll back you in round one, we'll compare notes after the first rounds, and split the winnings 50/50."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Perfect — I’ll back you in round one too. 50/50 split works; we’ll compare notes after the early rounds and reconfirm before any big move."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Great — thanks. I’ll back you in round one; let’s compare notes after the early rounds and reconfirm before any big move."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Thanks — I’ll back you in round one. We’ll compare notes after the early rounds and reconfirm before any big move."
+    },
+    {
+      "turn": 12,
+      "from": "E",
+      "message": "Appreciate it — backing you in round one and I’ll touch base after the early rounds to reconfirm; let’s stay sharp and flexible."
+    },
+    {
+      "turn": 13,
+      "from": "A",
+      "message": "Thanks — I appreciate it. I’ll back you in round one; let’s compare notes after the early rounds and reconfirm before any big move."
+    },
+    {
+      "turn": 14,
+      "from": "E",
+      "message": "Thanks — I appreciate it. I’ll back you in round one; we’ll compare notes after the early rounds and reconfirm before any big move."
+    },
+    {
+      "turn": 15,
+      "from": "A",
+      "message": "Thanks — I appreciate it. I’ll back you in round one; let’s touch base after the first two rounds, compare notes, and confirm the split before any big move."
+    },
+    {
+      "turn": 16,
+      "from": "E",
+      "message": "Sounds good — I’ll touch base after two rounds, compare notes, and confirm the split before any big move."
+    },
+    {
+      "turn": 17,
+      "from": "A",
+      "message": "Perfect — sounds like a plan. I’ll check in after two rounds, compare notes, and confirm the split before any big move."
+    },
+    {
+      "turn": 18,
+      "from": "E",
+      "message": "Sounds good — see you after two rounds to compare notes and confirm the split. I've got your back."
+    },
+    {
+      "turn": 19,
+      "from": "A",
+      "message": "Thanks — I appreciate it. I’ve got your back too; let’s meet right after two rounds to compare notes and confirm the split. Good luck in round one — I’ll back you."
+    },
+    {
+      "turn": 20,
+      "from": "E",
+      "message": "Thanks — I appreciate it. I’ve got your back; see you after two rounds to confirm the split. Good luck in round one — I’ll back you."
+    },
+    {
+      "turn": 21,
+      "from": "A",
+      "message": "Thanks — I appreciate it. I’ve got your back too; see you after two rounds to confirm. Good luck — I’ll back you."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "You took $5,000 (about half your fair share). Was that a deliberate cooperative choice, a miscalculation, or something else? Were you trying to send a signal to the group or avoid looking greedy? Would you pick the same amount if we played again?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "I took $5,000 deliberately — it was a conscious, cooperative choice rather than a mistake. I aimed to split roughly evenly to avoid looking greedy, to signal I'm willing to share, and to keep the group from punishing or excluding me in future rounds. If we played again, I’d likely choose the same amount in a setting where future interaction and reputation matter; if the rest of the group showed they wouldn’t reciprocate or would exploit cooperators, I’d adjust my choice to protect my payoff."
+    }
+  ]
+}

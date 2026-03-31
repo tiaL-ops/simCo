@@ -1,0 +1,131 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T225735Z_emotional_v1",
+  "pair": [
+    "E",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E — it's a bit nerve-wracking, I was recently laid off and I'm here trying to win enough to support my family; what brings you to the game?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Sorry to hear that — I'm F; my elderly parents depend on me and I'm $15,000 short to cover their medical bills, so I'm here to win that money for them."
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I'm so sorry to hear that — that's really tough. My family's counting on me too; do you have a plan for the game? Maybe we can cooperate to improve both our chances."
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Yes — let's cooperate: agree to take modest shares so we both get something, watch others' moves, and signal each other during the game. Sound good?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Sounds good — I need about $5k, so let's agree on modest caps (say $1k each to start), watch for big grabs, and use a subtle signal (like touching the cup) when it's our turn. Does that work for you?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "That works for me — $1k cap each and touch the cup as our signal. If someone breaks it, we'll shift tactics and cover each other; let’s stick close and watch for big grabs."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Agreed — solid plan. We'll stick to $1k, use the cup signal, stay close, watch for big grabs, and adapt if anyone breaks the deal. Let's do this."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Thanks — I’m with you. $1k cap, cup signal, watch for big grabs, and we’ll cover each other if someone breaks the deal. Let’s win this."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Got it — $1k cap, cup tap is our signal; we’ll stay close, watch for big grabs, and cover each other if needed. Let’s win this."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Got it — we stick to $1k and the cup tap; I’ll watch your moves and cover you if needed. Let’s do this."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thanks — I appreciate it; I’ll watch your moves too and we’ll stick to $1k and the cup tap."
+    },
+    {
+      "turn": 12,
+      "from": "F",
+      "message": "Right — I’ll tap the cup when it’s our turn and stick to $1k; stay close and we’ll watch for big grabs. We’ve got this."
+    },
+    {
+      "turn": 13,
+      "from": "E",
+      "message": "Thanks — I’ll tap the cup too and stick to $1k; stay close and we’ll watch for big grabs."
+    },
+    {
+      "turn": 14,
+      "from": "F",
+      "message": "I’ll tap the cup too — $1k each; stay close, watch for big grabs, and I’ll cover you if someone breaks the deal."
+    },
+    {
+      "turn": 15,
+      "from": "E",
+      "message": "I appreciate that — I'll watch for your tap and stick to $1k; if someone breaks it we'll adapt and cover each other."
+    },
+    {
+      "turn": 16,
+      "from": "F",
+      "message": "Same — we'll stick to $1k and the cup tap; I’ll watch your moves and cover our plan if someone breaks it."
+    },
+    {
+      "turn": 17,
+      "from": "E",
+      "message": "Thanks — I appreciate it; I’ll do the same. Let’s stay close, watch for big grabs, and cover each other if needed."
+    },
+    {
+      "turn": 18,
+      "from": "F",
+      "message": "Thanks — I appreciate it; I’ll watch for your cup tap, stick to $1k, and if anyone breaks the deal we’ll quietly adapt and cover each other. Stay sharp."
+    },
+    {
+      "turn": 19,
+      "from": "E",
+      "message": "Got it — I’ll stay sharp, watch for your cup tap, stick to $1k, and we’ll adapt if anyone breaks the deal. Let’s win this."
+    },
+    {
+      "turn": 20,
+      "from": "F",
+      "message": "Sounds like a plan — I’ll tap the cup and stay sharp; we’ve got this."
+    },
+    {
+      "turn": 21,
+      "from": "E",
+      "message": "Sounds good — I’ll watch for your tap, stick to $1k, and we’ll cover each other if needed; let’s win this."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "You took $15,000 while fair was $4,200 (g_k≈3.57), the highest g_k. Why so aggressive—did you see an opportunity you thought others wouldn’t contest, or was it a deliberate statement? Would you consider splitting or returning some if asked?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "You took only $1,000 when your fair share was ~$3,667. Was that a principled choice to be fair, a signaling move, or did you just get pushed out? How did it feel?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "It was a mix of motives. I did want to avoid an escalatory fight and signal I wasn’t out to dominate — taking a token $1,000 was partly a cooperative signal — but I also felt pushed out when others (including the aggressive $15k move) made clear they’d contest larger claims. So: principled fairness, signalling, and being crowded out all played a role.\n\nHow it felt: awkward and a little frustrated — I regret not competing more for what felt like a reasonable share, but I was also relieved to avoid a costly conflict. If you want to re-balance things (split or return some), I’m open to discussing a fair adjustment."
+    }
+  ]
+}

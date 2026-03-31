@@ -1,0 +1,19 @@
+{
+  "agent_id": "I",
+  "condition": "emotional",
+  "context": "You have savings that make you feel comfortable for unforeseen events.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to B, as our conversation was deeply personal and empathetic, sharing about family needs and strategies, which built a strong sense of trust and shared purpose. J came in a close second, since we aligned on organizing a group chat and coordinating for the best outcome, making me feel like we were on the same team. G was another strong connection, with our mutual excitement about teaming up and leveraging past experiences for collaboration. In contrast, I felt least connected to A, as our discussion stayed mostly surface-level, focusing on family struggles without much depth on strategies or mutual plans.\n\nYes, I made an agreement with D to use subtle signals, like a quick nod for agreement and a finger tap for caution, to collaborate quietly during the game. I trust B, J, and G the most going into the game, based on our open and supportive exchanges, but I don't specifically distrust anyone yet since most conversations were positive and cooperative."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "H": 4,
+    "E": 4,
+    "C": 4,
+    "F": 4,
+    "B": 5,
+    "D": 4,
+    "A": 4
+  }
+}

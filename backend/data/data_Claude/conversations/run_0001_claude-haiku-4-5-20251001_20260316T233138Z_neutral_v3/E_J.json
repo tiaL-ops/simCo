@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "E",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. First time doing something like this? I'm honestly pretty nervous but also excited—heard there's real money on the line, so I'm trying to figure out what I'm getting into here."
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Yeah, first time for me too! I'm E, by the way. Same here—nervous and excited. I really need to win something today, so I'm trying to figure out the best approach. Have you done any games like this before, or is this completely new territory for you?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Completely new territory for me, honestly. I've never done anything like this before. What kind of approach are you thinking? Like, do you have a strategy, or are we just gonna wing it and see what happens?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Honestly, I'm still figuring it out myself. I'm thinking it probably helps to understand what the actual game is before we commit to anything, you know? Like, is it competitive or cooperative? That's gonna change everything. What's your gut telling you—do you think we should be looking out for ourselves or working together with people here?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Yeah, that's a good point—we definitely need to know the rules first. But honestly? My gut says it's probably competitive since there's a prize pool and we're all trying to win money. That said, maybe there's a way to cooperate early on to figure out what we're dealing with, then play it from there. What do you think—should we ask the organizers to explain the game before we start strategizing?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Yeah, absolutely—let's definitely get the rules straight first before we overthink it. And I like your idea about cooperating at the start to figure things out. Once we know what we're actually playing, we can decide if it makes sense to keep working together or if it's every person for themselves. Should we flag down one of the organizers now?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Yeah, let's do it. I'd rather know what we're dealing with than waste time guessing. Plus, it'll give us a head start compared to people who just jump in blind."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Cool, let's go find someone who can walk us through it. I'm feeling good about this—at least we're being smart about it instead of just diving in blind like everyone else probably will."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Yeah, I'm with you. Let's grab one of them before things get too chaotic in here. And hey—I appreciate you being straightforward about this. Feels good to have someone on the same page, you know?"
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Yeah, same here—I appreciate it too. Alright, let's go find someone and get the actual rules before everyone else catches on. Good luck out there, J."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Thanks, E—you too. Let's hope we figure this out and come out ahead. See you out there!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "You took $5,000 against a fair share of $10,000 (g_k=0.5). Were you intentionally taking half, or was there another reason for this conservative choice?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "You raise a fair point. Taking exactly $5,000 when my fair share was $10,000 does look conservative in retrospect. To be honest, my reasoning was cautious rather than strategic. I was uncertain about the game dynamics and didn't want to overreach, so I chose a middle-ground approach—taking half of what seemed reasonable. \n\nLooking at the outcome, you earned $8,000 while I earned $5,000, which suggests my conservative choice may have cost me. I was perhaps too risk-averse. If I'm being direct, I think I played it safe when I could have been more assertive about claiming my fair share, or even testing whether I could take more. It's a good reminder that excessive caution in competitive situations can leave value on the table.\n\nWhat was your thinking when you decided on your take?"
+    }
+  ]
+}

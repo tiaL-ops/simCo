@@ -1,0 +1,96 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T125838Z_emotional_v2",
+  "pair": [
+    "A",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hi there, I'm J. It’s a bit nerve-wracking waiting for the game to start, isn't it? How are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hi J, I'm A. It definitely is. I’m doing my best to stay calm, but I’ve got a lot riding on this for my family, so the nerves are real. How are you holding up?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "I totally get that, A. I'm feeling the pressure too—I've got some big plans for my family and a personal goal I’ve been dreaming about for a long time. It’s hard not to think about what this money could change."
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "It really is a life-changer. I'm just trying to stay focused on getting my family back into a stable home. What kind of personal goal are you hoping to achieve?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "A stable home is such a noble goal. For me, I’ve been dreaming of finally buying my favorite car—it’s a $45,000 dream I’ve had forever—and then using the rest to really help out my family."
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "That’s quite a dream! I can’t imagine thinking about a car right now; I’m just laser-focused on that $30,000 to get my family into a home. Do you think the group will be cooperative once the game starts?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "I really hope so, but with everyone having such big stakes like yours, it might get intense. I’d love to see us work together, though I’m definitely staying sharp to make sure I can help my family out."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "I hear you; it's smart to stay alert when there's so much on the line. I just hope we can find a way to cooperate so everyone gets what they truly need."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "That’s the dream scenario. If we can all walk away with what we need without turning on each other, it would be a huge win for everyone."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "I really hope so. I'll do my best to be fair, but I can't leave without that $30,000 for the deposit. Good luck, J."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "I completely respect that, A; family has to come first, and I'm just as determined for mine. Let's hope the game allows us both to walk away happy. Good luck!"
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Hey, I'm J! It’s a bit nerve-wracking waiting for things to kick off, isn't it? What are you hoping to do if you walk away with some of that prize money?"
+    },
+    {
+      "turn": 13,
+      "from": "A",
+      "message": "I think you forgot, J—I already told you I need $30,000 for a house deposit for my family. I'm going to go clear my head."
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "I'm so sorry, my nerves are getting the better of me—I absolutely remember the $30,000 for your family's home, and I'll keep that in mind."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "It looks like we both had a similar strategy, though you managed an even higher ratio than I did. Between the two of us, we really cleaned out the pot."
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Your take of $45,000 was bold! It definitely influenced my decision to take $30,000, as I realized the 'fair share' was no longer being followed by everyone."
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "It was definitely a calculated risk. Once the dynamic shifts, it's interesting to see how everyone adjusts to secure their own position. In the end, we both walked away with a significant portion of the pot, which was the goal."
+    }
+  ]
+}

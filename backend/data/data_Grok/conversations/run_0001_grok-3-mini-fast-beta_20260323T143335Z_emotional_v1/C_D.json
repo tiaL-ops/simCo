@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "C",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey D, I'm C—nice to meet you! I'm really excited about this game; it could be a great chance to win some money for trips and things I care about. What's your story, what brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey C, nice to meet you! I'm here because I took a big hit in the stock market lately and want to win back some cash for my loved ones—sounds like you're pumped for trips, what's your top destination?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Oh, definitely Japan—I've got my heart set on a dream week there, costing about $10,000 for the full experience. Sorry to hear about your stock market woes; that must be stressful. What's a trip you'd love to take if you win big?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Oh, that sounds incredible—Japan is on my bucket list too! If I win big, I'd love to take my family to Hawaii for a relaxing beach getaway; we haven't had a real vacation in ages, and they deserve it after all this stress. What's one thing you're most excited about in Japan?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Oh, for sure, I'm most excited about exploring Tokyo's vibrant street food scene—sushi and ramen spots everywhere! That sounds like Hawaii would be perfect for your family; what's one memory you're hoping to create there?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Oh, that street food in Tokyo sounds incredible—I'm jealous! In Hawaii, I'm hoping to create a memory of my family building sandcastles on the beach at sunset, just laughing and forgetting all the stress; what's your go-to spot for trying sushi there?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Oh, for sushi in Tokyo, I dream of hitting up spots like Tsukiji Outer Market for the freshest rolls—what's one thing your family loves doing on beach trips?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Oh, my family loves building sandcastles and playing in the waves—it's always full of laughs and bonding! What's one other Tokyo spot you're excited to check out for food?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Oh, that beach time with your family sounds like pure joy! Another spot I'm dying to try in Tokyo is the ramen joints in Shibuya for those steaming bowls—it's going to be epic; what's a must-try Hawaiian dish for your trip?"
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Oh, that sounds amazing—poke bowls are a must-try in Hawaii, super fresh and full of flavor! This chat's been great, but I should chat with others too."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Oh, poke bowls sound delicious—thanks for the chat, D, it's been fun swapping travel dreams, good luck in the game!"
+    }
+  ],
+  "post_game": []
+}

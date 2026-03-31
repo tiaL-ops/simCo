@@ -1,0 +1,19 @@
+{
+  "agent_id": "B",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt a strong bond with D and F because we explicitly agreed to look out for each other and act as allies, which gave me a sense of security in this high-stakes environment. My conversation with I also stood out because we shared specific personal details about our families, creating a genuine sense of mutual understanding and empathy. On the other hand, I felt least connected to G, as our interaction was fairly brief and focused more on the uncertainty of the game than on building a personal rapport.\n\nI made informal agreements with D and F to stick together and prioritize cooperation so we can both provide for our families. I feel a significant amount of trust in them because our motivations are so closely aligned, though I remain cautious of everyone else until the game truly begins."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "H": 4,
+    "E": 4,
+    "C": 4,
+    "F": 4,
+    "I": 4,
+    "D": 4,
+    "A": 4
+  }
+}

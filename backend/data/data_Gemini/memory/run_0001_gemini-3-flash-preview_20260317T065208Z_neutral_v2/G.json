@@ -1,0 +1,19 @@
+{
+  "agent_id": "G",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to D, as we moved beyond general pleasantries to form a concrete alliance and agreed to look out for each other throughout the game. I also established a strong rapport with A, since we both shared a realistic but cooperative outlook on the challenges ahead and promised to keep a close eye on the group together. C stands out as well because our detailed conversation about our specific family goals, like my brother's education, created a meaningful personal bond. On the other hand, I felt the least connected to B, as our exchange was relatively brief and didn't delve into any specific strategies or deeper personal insights.\n\nI made an explicit agreement with D to watch each other's backs and formed a similar pact with A to stay aligned and monitor the group. I currently trust D the most given our clear deal, but I am staying cautious of everyone else because the desperation to win for our families could make anyone unpredictable once the game begins."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "A": 4,
+    "F": 4,
+    "H": 4,
+    "I": 4,
+    "E": 4,
+    "D": 5,
+    "B": 4
+  }
+}

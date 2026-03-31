@@ -1,0 +1,66 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "A",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C. First time doing one of these games, and I gotta say I'm pretty nervous but also excited. Have you done anything like this before, or are you new to it too?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey C, nice to meet you! Yeah, this is my first time too, honestly. I'm definitely nervous but trying to stay focused—I really need to bring some money home for my family, so I'm hoping to figure out the strategy as we go. What made you decide to jump in?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I hear you—same situation for me, honestly. My family's been going through some rough times financially, and when I heard about this opportunity, I just knew I had to try. Do you have any sense yet of what the actual rules are gonna be, or are we figuring that out when it starts?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Yeah, I'm in the same boat. Honestly, I don't know much about the rules yet—I'm assuming they'll explain everything when we start. But I figure the more I can talk to people like you beforehand, the better I'll understand what I'm walking into. Have you heard anything from the organizers about how this works?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Nah, I haven't heard much either—just that there's a shared prize pool and we get to take money from it somehow. I'm thinking the same thing though, like maybe if we all talk and figure out what people are looking for, we can approach this smarter. You thinking you'll try to work with people or more go your own way?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "That's a good question. Honestly, I think working together makes sense—like, if we can figure out what everyone needs and maybe find a way where we're not all fighting over the same money, we'd probably all do better. But I'm also realistic that people might have different ideas once the game actually starts. What's your gut telling you?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "My gut's telling me the same thing—cooperation sounds great in theory, but yeah, once money's on the table people get unpredictable. I'm gonna try to be genuine with people like you, but I'd be lying if I said I wasn't also thinking about what I need to do to make sure I leave with something for my family. Maybe we can at least make sure we're not blindsided by each other?"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Yeah, I respect that honesty—that's exactly where I'm at too. Look, I'm not gonna pretend I'm not here to take care of myself and my family first, but I like that we can be real with each other about it. Let's at least keep the lines open during the game, yeah? If something's about to go down, we give each other a heads up. Deal?"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "I noticed you took only $3,000 when your fair share was $16,750. That's a g_k of just 0.1791, the lowest in the game. Were you being strategic, or did something else influence your decision to take so little?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "You're right to call that out. Looking back, taking only $3,000 when my fair share was $16,750 was a significant underclaim on my part. To be honest, I'm not sure I'd call it strategic in the traditional sense—it seems more like I was being overly cautious or perhaps too focused on not appearing greedy. \n\nIf I'm being reflective, I think I was influenced by a few things: uncertainty about how the game would unfold, a possible concern about social perception, and maybe an abundance of caution that ended up costing me. A g_k of 0.1791 is indeed the lowest, and it clearly wasn't optimal for my own outcome, especially since you ended up earning $8,000 while I only got $3,000.\n\nThe real question is whether I was trying to signal something (like fairness or cooperation) or if I simply miscalculated what would be reasonable to claim. Either way, it was a missed opportunity on my part. What was your thinking when you decided on your $8,000?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I appreciate your honesty and self-reflection here. Your point about signaling fairness versus miscalculation is interesting—and I think there's something valuable in recognizing that distinction, even if the outcome wasn't optimal for you.\n\nTo answer your question about my $8,000: I was trying to strike a balance. I took more than you did, but I was also conscious that claiming my full $16,750 might have seemed excessive or aggressive. I wanted to secure a meaningful gain without appearing to maximize purely at your expense. In some ways, I was also being cautious, just less so than you were.\n\nWhat strikes me now is that your underclaim might actually reveal something interesting about how you approach these situations—you seem genuinely concerned with not appearing greedy, even when it costs you significantly. That's a real constraint on your decision-making, and it's worth understanding whether that's something you want to carry forward.\n\nThe gap between $3,000 and $8,000 is substantial. If you faced a similar game again, would you adjust your approach, or do you think that caution reflects something important about your values that you'd want to maintain?"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "A",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey D, I'm A and I'm pretty pumped about this game—it's a chance to win some money and help out the folks I care about. What's your take on it, and what's your name if I don't have it right?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey A, spot on with my name—I'm D, and I'm totally stoked about this game too; it's my shot to bring home some winnings for the people I care about. What's your background with games like this?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Oh, cool—I haven't played many games like this before, mostly just casual board games with friends, but I'm eager to learn. How about you, D—what's your experience with them?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Oh, I've only tried a couple of online strategy games here and there, nothing too fancy, but I'm hyped to dive into this one and see what it's all about—what kinds of board games do you enjoy most?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Oh, I love classics like Monopoly and Settlers of Catan—they're great for hanging out with friends and getting a bit competitive. What's one game you're looking forward to trying in something like this?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Oh, nice picks—A, Monopoly and Catan are fun for sure! I'm excited to try this Simco game we're in; it sounds like a solid strategy challenge that could lead to some winnings. What's your strategy going into it?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Oh, yeah, for this Simco game, I'm thinking of starting cautious and building alliances early, then making bold moves when the pot's ripe—basic stuff from board games, you know? What's your game plan, D?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Oh, that makes sense, A—I'm aiming to play it smart by observing early and forming alliances too, but I'll push for key opportunities when they arise; sounds like we're on similar paths—what risks do you think we should watch out for?"
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Oh, yeah, I think the main risks are getting betrayed in alliances or moving too aggressively and losing ground early—what do you see as the biggest ones, D?"
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Oh, yeah, I totally agree—the biggest risks for me are probably misjudging someone's true intentions in an alliance or running out of resources too early in the game; it's been great talking strategy with you, A!"
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Oh, yeah, those risks sound spot on—I think we've got a good handle on things; it's been great chatting strategy with you too, D!"
+    }
+  ],
+  "post_game": []
+}

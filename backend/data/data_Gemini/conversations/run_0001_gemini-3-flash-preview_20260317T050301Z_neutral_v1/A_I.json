@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "A",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A. It’s a bit overwhelming in here with everyone waiting for the prize pool, isn't it? What's your plan if you manage to take some of it home?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey A, I’m I. It definitely is a lot to take in. If I win, that money is going straight to my family to help them out. What about you, what brings you here?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Same here, honestly. I’m just really determined to bring something home to help out my loved ones and get us on more solid ground."
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I respect that. It’s good to know I'm not the only one here with that kind of motivation."
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "For sure. It keeps you focused when things get competitive. How many people are you looking out for back home?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Mainly my parents and my younger sister. They've been through a lot lately, so I'm really doing this for them. How big is the group you're supporting?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "It's mainly my parents and my two younger brothers; we've all been struggling to keep our heads above water lately."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "I hear you. It's hard seeing family struggle, but hopefully this game changes things for both of us."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "I really hope so too. It’s a lot of pressure, but knowing who it’s for is what keeps me going."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "I get that completely. Let's just do our best and hope things work out for our families. Good luck, A."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Thanks, I. Good luck to you and your family as well—I really hope we both come out on top for them."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Great job! I'm glad we all stuck to the $10,000 fair share."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Great job! I'm glad we all took the $10,000 fair share."
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "It was a pleasure working with you. I'm glad we reached a fair outcome for everyone."
+    }
+  ]
+}

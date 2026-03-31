@@ -1,0 +1,80 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T125838Z_emotional_v2",
+  "pair": [
+    "F",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I’m G. I’ve been buzzing with energy since I got here—I honestly just love the thrill of a good game. How are you feeling about all this?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey, I’m F. I wish I could share your excitement, but I’m mostly just focused on the prize—I’ve got some serious family expenses I need to cover."
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I totally get that—family is a huge motivator for me too, though I’m still really looking forward to the thrill of the game itself."
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "I wish I could enjoy the thrill, but the pressure of these medical bills makes it hard to focus on anything but the win."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "I’m really sorry to hear about the bills, F. That’s a lot of pressure, but I’m hoping we can both find a way to get what we need."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Thanks, I hope so too. It's just hard to stay positive when so much is riding on this for my family."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "I hear you. It’s a lot of pressure, but maybe once the game starts, that determination will give you the edge you need."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "I hope so, because failure isn't really an option for me right now."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "I totally feel that weight. Let's just focus on the game and do our best to come out on top."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Thanks, G. I’m going to give it everything I’ve got because I have to. Good luck out there."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "I really hope things work out for your family, F. Good luck out there—let's see what happens."
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Hey, I'm G. I've been eyeing that prize pool and honestly, I'm itching to get started—how are you holding up with all the anticipation?"
+    },
+    {
+      "turn": 13,
+      "from": "F",
+      "message": "Honestly, the waiting is just making me more anxious, so I'm ready to get started and see what happens."
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "I'm right there with you, the wait is the hardest part, so let's just get in there and see what happens—best of luck to you."
+    }
+  ],
+  "post_game": []
+}

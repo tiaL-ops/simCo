@@ -1,0 +1,86 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T225735Z_emotional_v1",
+  "pair": [
+    "C",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C — nice to meet you. I'm hoping to win a bit for a dream trip to Japan; what brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Nice to meet you, C — I'm G. I love games and hope to win money for my loved ones; how long have you wanted to go to Japan?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "For years — I fell in love with the culture and food back in college; it's been on my vision board and I'm finally trying to make it happen."
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "That's awesome — love the passion! Any specific cities or dishes you're most excited to experience?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Tokyo and Kyoto for sure — Tokyo for the sushi and neon buzz, Kyoto for temples and kaiseki; also Osaka for takoyaki, okonomiyaki, ramen and some wagyu."
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "That's an amazing plan — Tokyo, Kyoto and Osaka each sound incredible. Which city are you planning to visit first?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Probably Tokyo first — I want to dive into the neon energy and sushi scene, then slow down with temples in Kyoto and end in Osaka for the street food."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Love that plan — Tokyo's neon and sushi scene are unbeatable. Any specific sushi spots or neighborhoods you want to hit first?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "I'm eyeing Toyosu Market—Sushi Dai or Daiwa for morning sushi, Ginza for at least one omakase, and exploring Shibuya/Shinjuku for great casual spots."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Great picks — Sushi Dai/Daiwa at Toyosu, an omakase in Ginza, and Shibuya/Shinjuku for casual spots sounds perfect; maybe squeeze in a late-night ramen in Golden Gai."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Absolutely — Golden Gai for a late-night ramen stop sounds perfect; I'll add that to the list, thanks!"
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Sounds perfect — have an amazing time planning, and let's swap tips later!"
+    },
+    {
+      "turn": 13,
+      "from": "C",
+      "message": "Thanks, G — will do; good luck in the game, and let's trade Tokyo tips if we both make it."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "You took $3,000 (fair share $5,625). Why did you take less than the fair share—was that a deliberate generous choice, a defensive move, or were you blocked from taking more? How did you decide your amount?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "I chose $3,000 deliberately — it was a mixed strategy rather than an accidental cap. I judged the fair share ($5,625) but thought taking that much would risk strong retaliation or a breakdown in cooperation later, so I aimed for a moderate take that improved my payoff while signaling I wasn’t trying to grab everything. There was uncertainty about others’ responses and I’m somewhat risk‑averse, so $3,000 minimized downside if the game turned adversarial. I wasn’t physically blocked from taking more — it was a conscious tradeoff between short‑term gain and longer‑term relationship/strategic concerns."
+    }
+  ]
+}

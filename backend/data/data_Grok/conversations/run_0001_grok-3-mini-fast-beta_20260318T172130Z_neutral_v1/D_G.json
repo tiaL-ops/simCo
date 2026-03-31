@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "D",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D – I heard this Simco game is a real thrill with the chance to win some cash, and I'm super excited about it. What's your take on all this?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey D, I'm G – yeah, I'm totally stoked about this Simco game too; I heard it's a great way to win some money and I'm in it to support my loved ones. What's your strategy for playing?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Hey G, that's cool you're playing for your loved ones—I'm aiming to play smart and cooperative at first, maybe team up if it helps us all win more; what's your plan?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Hey D, that's awesome you're thinking cooperative—I'm planning to start by building trust and maybe forming small alliances like you said, to maximize our chances for everyone. How do you see us working together in the game?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Hey G, I think we could start by sharing ideas on the game early on and maybe coordinate our moves in the first rounds to build that trust—let's aim to help each other out without tipping off the others too much. What do you have in mind specifically?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Hey D, that sounds solid—maybe we could quietly agree on holding back a bit in the early rounds to build that trust, then share tips on avoiding big risks; what specific moves were you thinking of trying first?"
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Hey G, that makes sense—I'm thinking of starting by observing and maybe passing on the first bid or two to gauge the room, then we could coordinate on smaller, safer plays; does that vibe with your plan?"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Hey D, totally, observing and passing on the early bids is a smart move to feel things out—I'm on board for those smaller plays together; what's your take on signaling to each other without being too obvious?"
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Hey G, that's a good point—maybe we could use subtle things like a quick nod or a casual comment about the game to signal, without making it obvious; how do you usually handle that in these kinds of situations?"
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Hey D, in these games, I usually stick to casual stuff like dropping a neutral phrase, like 'hmm, interesting move,' to signal without drawing attention—I try to keep it chill and read the room."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Hey G, sounds like a solid plan—using neutral phrases is smart, let's keep things chill and watch each other's backs in the game;"
+    }
+  ],
+  "post_game": []
+}

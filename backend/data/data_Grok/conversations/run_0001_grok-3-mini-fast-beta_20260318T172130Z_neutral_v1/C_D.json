@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "C",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey D, I'm C and I'm really pumped about this Simco game—I heard it's a chance to win some serious cash. What's your story, how'd you end up here?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey C, nice to meet you! I'm D, and I heard about this Simco game through a buddy who won some cash before—figured it was worth a shot to help out my family. I'm stoked about the potential too. How about you, what's got you so pumped?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Oh, totally, D—I'm pumped because I heard about this Simco game as a real chance to win money and support my family and friends, and I'm all in to make it happen!"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "That's great to hear, C—I'm with you on making this count for our loved ones; let's team up and crush it, what's one thing you're most excited about in the game?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Oh, totally, D—I'm most excited about the strategy and teamwork in the game, like figuring out how to play smart together to grab that big win for our families!"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Yeah, C, I'm right there with you—strategy and teamwork could be our edge, especially since I've got some experience from past games; what's one strategy tip you think we should try?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Oh, totally, D, one strategy tip I think we should try is to communicate our moves early and build trust, so we can coordinate without leaving anyone out and boost our chances for everyone!"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Absolutely, C, communicating early and building trust sounds smart—I love that idea; in my past games, it made all the difference, so let's put it into practice—what's a good way you think we can kick off that communication right away?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Oh, totally, D, let's kick off by quickly sharing our top goals for the game with everyone in the room right now, so we can spot overlaps and start coordinating!"
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Yeah, C, that's a solid plan—let's share with the group; my top goal is to play strategically and win enough to support my family, so we can all benefit from this!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Oh, totally, D, that's awesome—my top goal is the same, winning big to support my family and friends, so let's make it happen with the group!"
+    }
+  ],
+  "post_game": []
+}

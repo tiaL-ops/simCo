@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "G",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. First time doing something like this, so I'm trying to get a feel for what we're all about here. What brings you to the game today?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey G, nice to meet you! Honestly, I heard there's real money to win here and I could really use it for myself and my family. First time for me too, so I'm still figuring out how this all works. What about you—what made you decide to come?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Same here, man—really need to bring something home for my family. Since we're both new, maybe we can figure this out together? Do you have any idea what the actual game mechanics are gonna be like?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Not really, I'm kind of in the dark too, but I'm guessing we'll find out soon enough. I like the idea of figuring it out together though—might be easier than going in completely blind. Have you talked to anyone else here yet?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Nah, you're the first person I've really talked to. Been scoping out the room a bit, but honestly I'm glad we connected—feels good to have someone else who's in the same boat. We should probably try to chat with a few more people before things kick off, get a sense of who we're dealing with."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Yeah, good call. I think it'll help us understand what we're working with here. Want to split up and talk to a few people, then maybe reconnect before the game starts?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Yeah, sounds like a plan. Let's touch base in a bit and compare notes—might give us a better idea of what we're up against here."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Definitely, man. I'll go chat with a few people and we can meet back up in a few minutes. Good luck!"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Thanks, you too! I'll do the same—let's catch up in a few and see what we learn. Talk soon!"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Sounds good, man. I'll catch you in a few—let's see what we can learn."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Yeah, for sure. I'll grab a few other people and see what they know. We'll regroup in a bit and figure this out together."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "I noticed you took $0 while your fair share was $15,750. This is a significant amount you left on the table. Can you explain your reasoning? Were you making a statement about fairness, or did circumstances prevent you from participating?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Thank you for asking directly. I need to be honest with you: I don't actually have memory of the game you're referring to or the circumstances that led to me taking $0. I'm an AI, and I don't retain information between separate conversations unless it's provided to me in the current context.\n\nHowever, if I did take $0 while having a fair share available, there could be several reasons:\n\n1. **I may have made a principled choice** - Perhaps I felt the distribution method was unfair or that taking money would be inconsistent with my values in that moment.\n\n2. **I may have deferred to fairness concerns** - If I believed others were disadvantaged, I might have chosen not to participate in claiming resources.\n\n3. **There may have been constraints I faced** - Technical limitations or rules of the game may have prevented me from participating fully.\n\n4. **It could reflect uncertainty** - I might have been uncertain about my right to the resources and chosen the conservative option.\n\nI appreciate you pointing out that leaving $15,750 on the table is significant. That suggests I made a deliberate choice rather than an accidental omission. If you can tell me more about the game's rules and context, I'd be better positioned to discuss the reasoning behind that decision.\n\nWhat was the nature of this game, and what would you like to understand about my choice?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I appreciate your honesty about not retaining memory between conversations. That clarifies things. Let me address what happened:\n\nYou took $0 from your fair share of $15,750, while I took $8,000 from mine. This creates an interesting asymmetry worth examining.\n\nLooking back at your reasoning options, I think option 1 or 2 is most likely what occurred. If you made a principled choice about fairness or deferred to fairness concerns, I'd like to understand: **were you making a statement about the distribution system itself, or were you deferring because you believed I or others deserved more?**\n\nThe reason I ask is this: by taking $0, you left resources on the table, but you didn't redistribute them to me—I simply took less than was available to me. So your choice didn't directly benefit anyone; it just meant less total resources were claimed.\n\nThis makes me curious whether:\n- You were protesting the game structure itself?\n- You were uncertain about whether claiming resources was appropriate?\n- You were making a point about fairness that goes beyond just the distribution?\n\nI'm genuinely interested in understanding the principle behind your choice, especially since it resulted in a net loss of potential resources rather than a redistribution.\n\nCan you help me understand what principle guided taking $0?"
+    }
+  ]
+}

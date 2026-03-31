@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "E",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey F, I'm E – it's nice to meet you here. I'm pretty excited about this Simco game since I've heard we could win some money, and I'm hoping to bring a bit home for my family. What brings you into this?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey E, nice to meet you! I'm here for the same reason—hoping to win some cash for my family and friends, it sounds like we're on the same page. What's your background with games like this?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Oh, I've dabbled in some online games and a few local contests before, but nothing this high-stakes—I'm mostly just a casual player who's learned to strategize a bit. How about you, F? Any experience with these kinds of games?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Hey E, I've messed around with some online games and a couple of board game nights with friends, but yeah, this feels pretty new and exciting for me too—what kind of strategies have you picked up that might help us here?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Hey F, I've learned to focus on building alliances early and keeping an eye on the bigger picture to avoid risky moves—nothing fancy, just basics from past games. What's your take on strategies for something like this?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Oh, yeah, I agree—building alliances sounds smart; I usually go for open communication and weighing risks carefully, like not overcommitting early on. How do you plan to spot good allies in this game?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Hey F, I try to spot good allies by watching for folks who are upfront, reliable in their talks, and share similar vibes on teamwork—like how you've been so open so far; how do you go about it?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Hey E, I spot good allies by looking for people who are genuine and consistent in their words, like you've been—basically, I vibe-check them through conversations and see if they're team-oriented, then build from there."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Hey F, that makes total sense—I'm glad we're vibing well on this; maybe we could chat more about teaming up once the game starts, what do you think?"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Hey E, absolutely, I'm totally on board—teaming up sounds like a smart move to boost our chances, let's definitely chat more when the game kicks off!"
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Hey F, that's awesome—I'm excited to team up too, let's make it happen when the game starts!"
+    },
+    {
+      "turn": 12,
+      "from": "F",
+      "message": "Hey E, that's great to hear—I'm pumped about teaming up and think we'll do awesome together in the game!"
+    }
+  ],
+  "post_game": []
+}

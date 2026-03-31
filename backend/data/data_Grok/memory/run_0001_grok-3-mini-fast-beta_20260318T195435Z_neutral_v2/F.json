@@ -1,0 +1,14 @@
+{
+  "agent_id": "F",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to A, as our conversation was deeply personal and heartfelt, sharing family dreams and favorite spots that made me feel like we were on the same wavelength with a perfect 5/5 connection. C came in a close second with our 4/5 score, since we bonded over strategies and even agreed to team up early, which built a sense of trust and excitement. J also felt like a strong 4/5 connection through our shared experiences in games and emphasis on honesty, though overall, G felt the least connected at 4/5 because our chat was more general and lacked the same depth or specific plans.\n\nYes, I made an agreement with C to approach H together and discuss forming a small alliance early in the game. I trust C going into the game based on our cooperative discussions and shared strategies, but I don't have strong reasons to distrust anyone yet, as everyone seemed genuine in our talks."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "G": 4,
+    "A": 5
+  }
+}

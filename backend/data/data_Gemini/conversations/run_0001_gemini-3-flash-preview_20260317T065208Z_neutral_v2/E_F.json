@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "E",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F. This room's a bit crowded, but I'm trying to keep my head on straight before things kick off. What brings you to a game like this?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Nice to meet you, F. I'm E. Honestly, I'm just here for the prize money; I've got people back home I really want to help out. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Same here. I’ve got people counting on me, so I’m really focused on winning this for them. It’s a big motivator when it’s not just about yourself, isn't it?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Absolutely. It adds a lot of pressure, but it also gives you a reason to play smart and stay focused."
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "For sure. It’s a lot easier to stay sharp when you know exactly what’s at stake. Have you heard anything about what the first round might be?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Honestly, I’m completely in the dark. Just trying to stay alert and ready for whatever they throw at us. You?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Same here, I've got no idea what's coming, so I'm just trying to stay calm and keep my eyes open."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Smart move. No point stressing over what we can't control yet. We just have to be ready when it starts."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Exactly. Just have to take it as it comes. It's good to meet someone with their priorities straight."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Likewise. Let's see what happens. Good luck out there."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Thanks, E. Good luck to you too—let's hope we both make it through."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "I took $10,000 because it was the fair share, and I'm really glad we all coordinated to ensure everyone got the same amount."
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "I'm glad we all took the $10,000 fair share. It's great to see such perfect cooperation!"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "I agree, it’s a great outcome for everyone."
+    }
+  ]
+}

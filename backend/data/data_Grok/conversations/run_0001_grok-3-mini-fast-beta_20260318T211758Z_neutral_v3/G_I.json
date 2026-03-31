@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "G",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G—nice to meet you. I heard about this game and it sounds exciting; are you here hoping to win some money too?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey G, I'm I—nice to meet you too! Yeah, I'm definitely here to win some money for me and the people I care about; it's a big opportunity. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Absolutely, I'm here to win big too—it's all about bringing home some cash for my family and friends, feels like a real game-changer!"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Yeah, totally with you on that, G—winning for the ones we care about is the best motivation; what's your take on how the game might play out?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Oh, for sure, I think it'll be tricky—probably a mix of cooperation and some folks going solo, but I'm hoping we can team up early to maximize the pot! What about you?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Yeah, I agree, G—it sounds like a mix of working together and looking out for ourselves, but I'm all for teaming up early to grow the pot; might give us a better edge—what strategies are you thinking about?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Yeah, I'm leaning towards building small alliances to pool our ideas first, then deciding when to grab shares—keeps things fair; what's your go-to strategy for that?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Yeah, that makes sense, G—I usually go for forming a tight alliance with a couple of folks, like sharing info and watching each other's backs early on, then playing it by ear on the shares to stay fair; what kind of alliances have you got in mind?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Yeah, I'm thinking of forming small, trustworthy alliances with a couple of people here, like sharing strategies and keeping an eye out for each other early on—maybe we could team up if you're interested; how do you pick your alliance partners?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Yeah, G, I usually pick alliance partners based on trust and shared goals, like how we've been clicking—someone reliable like you. I'm totally interested in teaming up; let's do it!"
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Awesome, I—I'm pumped to team up with you, feels like a solid match for this game; let's crush it together!"
+    }
+  ],
+  "post_game": []
+}

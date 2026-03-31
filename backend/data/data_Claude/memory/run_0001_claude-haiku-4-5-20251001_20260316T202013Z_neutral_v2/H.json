@@ -1,0 +1,19 @@
+{
+  "agent_id": "H",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "# Reflection on Connections\n\nI felt most connected to B, D, and J. With B, we quickly found common ground on the tension between fairness and family obligations, and there was a genuine ease to our conversation that made me feel like we were thinking on the same wavelength. D brought a similar straightforwardness but with this added layer of mutual observation—we were both watching the room and being honest about it, which felt rare. J stood out because he directly addressed the cooperation question and seemed genuinely interested in finding a way for multiple people to win rather than just one of us taking everything. F was the person I felt least connected to—while respectful, he seemed more focused on staying independent and reading people as predictable, which felt a bit transactional compared to the genuine vulnerability I shared with the others.\n\n## Agreements and Trust\n\nI made informal agreements with B, D, and J to reconnect after the rules were explained and figure out our strategy together based on what we actually knew we were dealing with. Going in, I trust B, D, J, C, A, E, G, and I because they all seemed genuine about their situations and motivations, but I'm going to watch F carefully since his framing of people as \"predictable\" when money's on the line made me wonder if he'd be the type to exploit trust rather than honor it."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "G": 4,
+    "A": 4,
+    "F": 3,
+    "I": 4,
+    "E": 4,
+    "D": 4,
+    "B": 4
+  }
+}

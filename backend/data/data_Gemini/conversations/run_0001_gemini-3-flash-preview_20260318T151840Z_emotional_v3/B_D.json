@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "B",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey, I’m B. It’s a bit of a strange situation we’ve all found ourselves in, isn’t it? I’m trying to keep my nerves in check—how are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey B, I'm D. It's definitely a weird vibe in here. I'm a bit on edge, honestly—I really need a win today. How are you feeling about the game?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "I’m right there with you, D. I’m pretty anxious because I’ve got a lot riding on this for my family—failure isn't really an option for me. What’s your story? What’s driving you to win?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "I took a massive hit in the stock market yesterday—lost $20,000 in a heartbeat. I need this win to get things back on track for my family and make up for that loss."
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "That’s a brutal hit, D. I’m sorry. I’m in a similar spot—my three-year-old needs surgery and I’m $25,000 short after selling everything we have. It’s a lot of pressure when your family is counting on you to fix things."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "I’m so sorry to hear about your child, B—that definitely puts my stock loss into perspective. It sounds like we’re both in a position where we absolutely can’t afford to walk away empty-handed."
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Thanks, D. It’s a heavy weight to carry, but I’d do anything for her. I just hope there’s a way for us both to get what we need without it becoming too cutthroat."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "I really hope so too. Family comes first, and I’d hate for this to get messy when we’re both just trying to do right by them."
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "I appreciate that, D. It’s a relief to find someone else who values family above all else—let's hope we can both find a way through this."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Absolutely. Let's keep a level head and try to look out for each other if we can. Best of luck with everything, B."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Thanks, D. It means a lot to have someone understand what's at stake. Let's look out for each other."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "I apologize for taking $25,000 and leaving so little for you. I let my fear of the prize running out get the best of me."
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "You took $25,000, which was nearly triple your fair share of $8,750. Your extreme greed is the primary reason I was left with only $625. Why did you feel entitled to so much more than everyone else?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "I didn't feel entitled to more than anyone else. It wasn't a calculated decision based on what I thought I deserved compared to you; it was a panicked reaction driven by the fear that if I didn't act immediately, I would be the one left with nothing. I prioritized my own security over the fairness of the group, and I recognize that my gain came directly at your expense. I am sorry that my lack of trust in the process resulted in such an unfair outcome for you."
+    }
+  ]
+}

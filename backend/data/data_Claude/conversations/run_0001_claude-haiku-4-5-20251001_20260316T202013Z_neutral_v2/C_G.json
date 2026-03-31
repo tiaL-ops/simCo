@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "C",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey! I'm C. I gotta say, I'm pretty nervous about this game starting up—have you done anything like this before? I'm hoping to walk out of here with something to show for it, maybe help out some people back home."
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey C, nice to meet you! Nah, this is my first time doing something like this too, so we're in the same boat. But I'm feeling pretty determined about it—I've got people counting on me back home too. What kind of game do you think this is gonna be? You seem like you've got a good head on your shoulders."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Honestly, I'm not totally sure what to expect—could be anything from a strategy game to something about negotiation or teamwork. But I appreciate that, thanks. Since we both have people counting on us, maybe we should keep our eyes open and figure out what's actually going on before we make any big moves, yeah?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Yeah, that's smart thinking. I like that approach—let's not rush into anything. Once we see how this actually works, we can figure out the best move. You seem like someone I can trust, so I'm glad we're talking before things get crazy."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Thanks, I appreciate that. Same here—I'm glad we're on the same page. Let's stay in touch once the game starts and see what happens. Maybe we can help each other figure out the best strategy when we know what we're actually dealing with."
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Absolutely, I'm down for that. Let's definitely compare notes once we see what we're working with. Good luck, C—I have a feeling we're gonna need to keep our wits about us."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "You too, G. Yeah, we'll figure it out together. Let's touch base as soon as we know what we're up against—stay sharp out there."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Will do. I'm counting on it—let's keep each other in the loop and make smart moves together. See you in there."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Sounds good—I'm with you. Let's stay alert and look out for each other. See you in there."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Absolutely, C. We got this. I'll find you once things kick off and we can figure out our next move. Stay sharp."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "You got it. I'll be looking for you too—let's make this count. See you in there."
+    }
+  ],
+  "post_game": []
+}

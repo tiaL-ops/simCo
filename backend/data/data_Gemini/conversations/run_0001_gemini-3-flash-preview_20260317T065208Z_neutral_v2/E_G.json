@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "E",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hi, I'm G. It's a bit nerve-wracking waiting for things to start, isn't it? What's your name, and have you ever done anything like this before?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey G, I'm E. Yeah, it's definitely a little tense in here. I've never done anything like this before, so I'm just trying to keep my head on straight. Have you?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Same here, first time. It's a lot to process, but I'm really focused on winning this for my family. Are you playing for anyone back home?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Yeah, I've got some people close to me I'm hoping to help out. It definitely makes the stakes feel a lot higher."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "I hear you. Knowing there are people counting on us makes it feel so much more real. Have you heard any rumors about what the first game might be?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Not a word. I’ve been trying to listen in, but everyone seems just as in the dark as we are. Are you hoping for anything in particular?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "I’m hoping for something logic-based or a puzzle. I’m better with my head than my hands. What about you, do you have a specific strength you’re leaning on?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "I’m probably best at staying calm and observing what’s going on around me, so I'm hoping that helps me react quickly to whatever they throw at us."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "That’s a great skill to have. Keeping a level head when things get intense is usually what makes the difference in these situations."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Definitely. Hopefully, that pays off for both of us. Good luck out there, G. I'm going to go see who else is here."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Thanks, E. Good luck to you too—I hope we both make it through. Catch you later!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "I'm glad we all took the $10,000 fair share. It's great to see such perfect cooperation!"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "I agree, it was definitely the best outcome for everyone. I'm glad we could cooperate so effectively!"
+    }
+  ]
+}

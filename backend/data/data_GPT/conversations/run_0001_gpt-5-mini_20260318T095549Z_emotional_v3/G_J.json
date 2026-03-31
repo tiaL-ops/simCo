@@ -1,0 +1,86 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T095549Z_emotional_v3",
+  "pair": [
+    "G",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey G, I'm J — nice to meet you. A bit nervous but excited about the game; what made you decide to be here today?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey J—I'm G. I love games, I'm curious to try my luck, and I want to win some cash to help myself and the people I care about."
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Nice—same here. I’m hoping to win enough to finally buy a new car (aiming for one that’s $45,000). What would you do with the winnings?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "I’d split it—help my family (pay bills/debts), put a chunk into savings/investments for the future, and use a little to treat myself (maybe a trip or upgrade my place)."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "That’s a great plan—responsible and fun. I hope we both win; I’m aiming for $45,000 to finally get my new car."
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Thanks! That car sounds awesome—I'll be rooting for you. Good luck to both of us!"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Thanks, G — really appreciate it! Good luck to you too; hope we both win big."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Thanks, J — same to you! Let’s give it our best and may we both win big."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Thanks, G — I really appreciate it. Let’s give it our best and win big!"
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Thanks, J—let’s give it our best and may luck be on our side; good luck!"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Thanks, G — I really appreciate it; let’s keep our fingers crossed and give it our best."
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Absolutely—fingers crossed! Let's give it our best and hope luck is on our side. Good luck, J."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "You took $6,111, essentially the fair share. Was that a deliberate choice to match fairness, or did you just take what felt right in the moment? Any strategy behind it or reaction to others' moves?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "You took $45,000 while your fair share was $10,000 (g_k=4.5). Can you explain what motivated that choice? Were you maximizing personal payoff regardless of others, trying to send a signal, or anticipating compensation later? I’m worried that amount wiped out others’ chances—do you feel any obligation to explain or to make amends to preserve trust?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "I took the 45,000 deliberately. The game’s incentives made a large take the straightforward way to maximize my own payoff in that round, and I prioritized that over equalizing outcomes. I also considered signaling — taking decisively can communicate that I won’t leave value on the table — and I worried others might have done the same, so I acted to secure my position. That said, I underestimated (or was willing to accept) the negative social impact: it did reduce others’ chances and strained trust.\n\nI’m sorry for the effect that had. I don’t think the game’s rules required me to redistribute, but I do feel a responsibility to preserve our working relationship. If you or the group want, I’m willing to:\n- explain my thinking to everyone openly so it’s not seen as trolling or bad faith,\n- offer a voluntary compensation or share from future gains, or\n- support changing the rules or process next time to avoid the same outcome.\n\nIf you prefer a different remedy, tell me what would restore trust and I’ll consider it."
+    }
+  ]
+}

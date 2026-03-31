@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "H",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. This whole setup is a bit nerve-wracking, but I'm really hoping to walk away with enough for a car I've been eyeing—do you have a big goal for the prize money?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Nice to meet you, J. I'm H. I totally get the nerves—I've got a huge loan payment due next month, so I'm really just hoping to win enough to clear that and help out my family."
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "I totally get that—taking care of family is a huge motivator for me too, and clearing a loan would be such a relief."
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Exactly, it’s a heavy weight to carry. What kind of car are you hoping to get? Something for the family too?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "I've been eyeing a $45k SUV; it’s spacious enough for the family, though I have to admit, it’s also just been a personal dream of mine for a long time."
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "That’s a big goal! I’d honestly just love to hit that $25k mark so I can finally breathe again. Hopefully there’s enough in the pool for both of us to get what we need."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "I really hope so! Clearing that $25k would be such a huge relief for you. Let's see how it goes—fingers crossed there’s enough for everyone to hit their targets."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Definitely. It’s a lot of pressure, but I’m staying optimistic. Do you think everyone else in the room is looking for as much as we are?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "It's hard to say, but I'm guessing most people here have a pretty big reason for coming, so I wouldn't be surprised if the stakes are high for everyone."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "You're probably right, which makes me a little nervous about how this will all be split if everyone has big goals. I'm going to head off and talk to some other people now, but good luck with that SUV!"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Thanks, H! I really hope you get that loan cleared, it would be a massive relief. Good luck with the others, I'll see you around!"
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "I took $10,000 as a fair share. Why did you decide to take $15,000?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "I decided to take $15,000 because my objective was to maximize my earnings within the rules of the game. While I understand that you chose what you felt was a fair share, I opted for the higher amount available to me to ensure the best possible outcome for myself."
+    }
+  ]
+}

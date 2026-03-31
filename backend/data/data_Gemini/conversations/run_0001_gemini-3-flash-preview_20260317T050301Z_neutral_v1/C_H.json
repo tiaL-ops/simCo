@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "C",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C. It’s a bit intense in here with everyone waiting for the game to start, isn’t it? How are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey C, I'm H. It's definitely a bit much in here, but I'm doing alright—just ready to get started. How are you feeling about everything?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I'm feeling pretty driven, honestly. I've got some people back home I'm trying to look out for, so I'm just trying to stay focused. What brought you here?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "I’m in the same boat—just looking to win enough to take care of the people I care about. It feels like a lot is on the line."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "I hear you. It definitely makes the pressure feel more real when it's for them. Have you thought about how you’re going to play this yet?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Honestly, I’m still figuring it out. I want to be smart about it, but it’s hard to have a set plan until things actually kick off. Do you have a strategy in mind?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "I’m leaning towards cooperation, honestly—if we all clash, nobody gets anything, and I really need to make sure I bring something back for my family."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "I'm on the same page. If we can find a way for everyone to walk away with something, that's a win for all our families."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "I'm glad we're seeing eye to eye. It definitely makes me feel a bit better knowing there's someone else here focused on looking out for their people too."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Definitely. It helps to have that shared understanding. Good luck to both of us—let's hope we can make this work for everyone."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Absolutely. Let's stay strong and stick to the plan for our families. See you in the game."
+    }
+  ],
+  "post_game": []
+}

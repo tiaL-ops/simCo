@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "B",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H—nice to meet you! I heard about this game and I'm really pumped to try winning some cash; what brought you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey H, nice to meet you too! I heard about this game and I'm here to win some cash for my family and friends—sounds exciting. What about you, what's got you so pumped?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Oh, yeah, I'm pumped because I've been saving up for a trip with my family, and winning some cash here would make that dream a reality—feels like a real game-changer! How about you, do you have any fun plans if we win big?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "That's awesome about your family trip—I'm hoping to use any winnings to treat my loved ones to a nice getaway or pay off some bills; sounds like we're both in it for good reasons! What destination are you eyeing for your trip?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "That's cool we're on the same page—I'm eyeing Hawaii for my trip, it's been a dream spot for years; what kind of getaway are you thinking for your loved ones?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Oh, that's awesome—Hawaii must be incredible! For my loved ones, I've been dreaming of a simple beach getaway in the Caribbean or maybe a fun camping trip in the Rockies to unwind."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Oh, the Caribbean or Rockies both sound amazing—I'm a beach person myself, but camping's fun too; which one do you think your loved ones would enjoy more?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Oh, definitely the Caribbean for my loved ones—they're all about relaxing on the beach and soaking up the sun, though the Rockies would be a fun change of pace; how about you, ever been on a camping trip before?"
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Yeah, I've been on a couple of camping trips growing up, like in the national parks—super fun for disconnecting, but I always end up missing the beach; what about you, have you ever gone camping yourself?"
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Yeah, I've been camping a few times in the mountains—it's always a blast for getting away from it all, but I totally get the beach pull; it's been great chatting with you, H!"
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Oh, that's awesome you've had those mountain adventures—sounds like we've both got that nature bug! It's been great chatting with you too, B."
+    }
+  ],
+  "post_game": []
+}

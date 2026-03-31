@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T095549Z_emotional_v3",
+  "pair": [
+    "E",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I'm E — nice to meet you. I recently got laid off and I'm here trying my luck to help support my family; what brings you to the game?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Sorry to hear that, E — I’ve got savings that cover emergencies but I’m here to try to win extra for my family and the people I care about; what kind of support do they need right now?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Thanks — mainly rent, utilities and groceries for my family of five; I was the sole earner with no savings and need about $5,000 to get us through a month while I look for work."
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I'm really sorry, E — that sounds incredibly tough; I'll do my best in the game to help, and would you like to team up on a strategy?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Yes — thank you. Let’s team up: stay quiet early, watch who’s aggressive, share what we learn, and coordinate our moves/votes so we can secure enough for my $5,000 when the big chance comes. Sound good?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Absolutely — sounds good. I’ll stay quiet early, watch for aggressive players, share what I learn, and coordinate votes so we can go after the $5,000 for your family."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Thanks so much — I really appreciate it. Let’s quietly share observations, flag aggressive players to each other, and agree before any votes so we can secure that $5,000."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Absolutely — agreed. I’ll stay quiet, flag aggressive players to you privately, share observations, and coordinate every vote so we can get that $5,000 for your family."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Thanks — I really appreciate it. Let's use a subtle signal before votes, keep sharing notes on aggressive players, and coordinate to secure the $5,000."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Agreed — I’ll give a slight throat-clear before votes as our signal; we’ll keep trading quiet notes and coordinate to get your $5,000."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Perfect — that throat-clear works; I’ll watch for it and we’ll coordinate before votes. Really appreciate you helping us."
+    },
+    {
+      "turn": 12,
+      "from": "I",
+      "message": "No problem — we've got this. I’ll watch for your signal and keep you posted on anything suspicious."
+    },
+    {
+      "turn": 13,
+      "from": "E",
+      "message": "Thanks — I really appreciate it. I’ll watch for your signal and flag anyone who gets aggressive; let’s stay ready."
+    },
+    {
+      "turn": 14,
+      "from": "I",
+      "message": "Thanks — I really appreciate you too. I’ll use the throat-clear before votes; keep flagging aggressive players and tell me immediately if anything changes."
+    },
+    {
+      "turn": 15,
+      "from": "E",
+      "message": "Got it — I’ll watch for your throat-clear, flag aggressive players immediately, and tell you right away if anything changes."
+    },
+    {
+      "turn": 16,
+      "from": "I",
+      "message": "Thanks — perfect. I’ll signal before votes, keep flagging anyone aggressive, and tell you immediately if anything changes."
+    },
+    {
+      "turn": 17,
+      "from": "E",
+      "message": "Thanks — that means a lot. I’ll watch for your throat-clear and flag anything urgent immediately."
+    },
+    {
+      "turn": 18,
+      "from": "I",
+      "message": "Thanks — I appreciate you watching for my throat-clear; stay alert and we’ll get that $5,000 together."
+    },
+    {
+      "turn": 19,
+      "from": "E",
+      "message": "Thanks — I appreciate you too. I’m ready and watching for the throat-clear; let’s get that $5,000."
+    },
+    {
+      "turn": 20,
+      "from": "I",
+      "message": "Thanks — I’ve got your back; I’ll watch for chances and signal before votes so we secure the $5,000."
+    },
+    {
+      "turn": 21,
+      "from": "E",
+      "message": "Thanks — I appreciate you having my back. I’ll watch for your throat-clear and we’ll take the chance together."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "You took $150 (fair share $222.25, g_k=0.6749). You took less than the fair share — was that by choice, or were you prevented from taking more? Any reason you chose a low amount?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "It was my choice — I deliberately took only $150 (less than the calculated fair share of $222.25). I wasn’t prevented from taking more. I chose a lower amount because you had already earned a lot in the game ($5,000) and I didn’t want to appear greedy; my social preference (g_k ≈ 0.675) also makes me somewhat fairness-minded, so I opted to leave more to you rather than take the full fair share."
+    }
+  ]
+}

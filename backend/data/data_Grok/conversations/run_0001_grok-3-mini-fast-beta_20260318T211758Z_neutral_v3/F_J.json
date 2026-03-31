@@ -1,0 +1,85 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "F",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J, and I'm really pumped about this Simco game—I heard there's some serious money on the line. What's your take on it, have you played similar games before?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey J, I'm F, and I'm totally stoked about this Simco game too—heard it's a big opportunity, but nah, I haven't played anything like it before; I'm just here to give it my all and win some cash. What's got you so pumped?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Oh, totally, I'm pumped because this could be a game-changer for me and my folks—I've got people back home counting on me to bring home some cash if I can win it. How about you, what's your motivation for jumping in?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Oh, yeah, same here—I'm in it to win some cash for myself and the folks I care about, hoping to make a real difference for us. What's your story with these kinds of games?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Oh, I've never really played games like this before, but I'm hoping my determination pays off—I'm all about learning on the fly. What's your background with strategy games or anything similar?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Oh, same here, I've never been big on strategy games—mostly just played some casual board games with friends for fun, but I'm ready to dive in and learn too. What's your plan for tackling this one?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Oh, cool, sounds like we're in the same boat—my plan is to stay observant, play fair but smart, and maybe collaborate if it helps us both win big; what's your strategy looking like?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Oh, yeah, I'm on board with that—my strategy is to watch closely, play honest but strategically, and definitely open to teaming up if it boosts our chances; how do you see collaboration working in the game?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Oh, yeah, I see collaboration as us sharing key insights or backing each other up on tough decisions, but keeping it balanced so no one gets shortchanged—think of it like a team effort that helps everyone win more."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Oh, yeah, that sounds solid—I love the idea of sharing insights and having each other's backs while keeping it fair for everyone; it'll definitely make things more exciting."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Oh, yeah, that's exactly the vibe—let's keep that energy going and crush it together!"
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Hey F, I'm J – I heard about this Simco game and it's got me pretty excited about the chance to win some money for my folks back home. What's your story, are you in it to win it too?"
+    },
+    {
+      "turn": 13,
+      "from": "F",
+      "message": "Oh, hey J, we've already chatted about this, but yeah, I'm totally in it to win big for my people too—what's up, ready to strategize some more?"
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Oh, yeah, F, we've covered a lot already—I'm feeling good about our plan, so let's save the strategizing for the game itself."
+    },
+    {
+      "turn": 15,
+      "from": "F",
+      "message": "Oh, yeah, J, I'm with you—let's keep that positive energy and nail it in the game!"
+    }
+  ],
+  "post_game": []
+}

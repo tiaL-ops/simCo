@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "C",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey J, I'm C and I'm really looking forward to this game—it could be a fun way to win some extra cash for things like my dream trip. What's your story and why are you here?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey C, nice to meet you! I'm J, and I'm excited about this game too—I've been eyeing a new car that costs around 45 grand, so winning some cash would be a game-changer for me and my folks. What's your dream trip all about?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "That's awesome about your new car, J—it sounds like a big upgrade for you and your family! My dream trip is a perfect week in Japan, exploring the cherry blossoms, temples, and amazing food; it's around 10k, and I'm stoked to make it happen—have you picked out a specific car yet?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Oh, definitely—I've got my sights set on a sleek Tesla Model 3; it's right around that 45k mark and would be perfect for family road trips. Japan sounds incredible, though—what's one spot there you're most excited to visit?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "That's awesome, a Tesla Model 3 sounds like a sweet ride for those family adventures! For Japan, I'm most pumped about Kyoto—especially the cherry blossoms in spring; it's just so peaceful and beautiful. Have you taken any memorable road trips yet?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Oh yeah, Kyoto with the cherry blossoms sounds magical! I haven't done many road trips yet, but I took a memorable one to the Grand Canyon last year with my family—it was all about the views and bonding time. How about you, any favorite travel spots besides Japan?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Oh, the Grand Canyon trip with your family sounds epic—such great memories! Besides Japan, I'm a big fan of the beaches in Hawaii for some serious relaxation and snorkeling; what made the Grand Canyon stand out for you?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Oh, totally, the Grand Canyon stood out because of those jaw-dropping views that made everything feel so vast and humbling, plus it was all about quality family time without any distractions—really strengthened our bonds. Hawaii's beaches sound like paradise; have you snorkeled there before?"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Oh, yeah, the Grand Canyon's vibes sound totally bonding and awe-inspiring—I can see why it meant so much! I've snorkeled in Hawaii a couple of times, and it's amazing with all the colorful fish and clear waters; have you ever thought about trying it yourself?"
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Yeah, I've definitely thought about trying snorkeling—sounds like an adventure with all those vibrant fish, but I haven't gotten around to it yet; maybe after winning here and grabbing that Tesla, I could plan a Hawaii trip!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "That's awesome, J—fingers crossed we both win big here and you get to snorkel in Hawaii soon; it's a blast! Good luck, and it was great chatting."
+    }
+  ],
+  "post_game": []
+}

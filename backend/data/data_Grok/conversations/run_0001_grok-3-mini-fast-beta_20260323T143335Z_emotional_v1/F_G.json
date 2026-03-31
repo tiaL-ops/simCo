@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "F",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F—nice to meet you. I heard this game could be a real game-changer, and I'm here hoping to win some money to help out my family with some medical bills. What's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey F, nice to meet you too—I'm G, and I'm all about games and taking chances; I'm here hoping to win some money for my family and friends, sounds like we're both in it for good reasons. What's your family's story with those medical bills?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Oh, thanks for asking, G—my elderly parents have been dealing with some ongoing health issues, and the bills just keep adding up; it's been really stressful, but I'm determined to help them out. What kinds of games do you enjoy the most?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Oh, that's tough, F—I'm really into strategy games like chess and poker for the thrill of outsmarting others, plus some fun video games; what about you, do you have a favorite game to unwind with?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Oh, that's cool, G—I don't play much these days, but I used to love chess for the strategy, it helps me think clearly with all the family stuff; what draws you to poker specifically?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Oh, absolutely, F—poker draws me in because it's all about the bluffing and psychology, like trying to read your opponent's next move while keeping a straight face; it keeps things unpredictable and exciting. Have you ever thought about getting back into games like that to clear your mind?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "Oh, yeah, G, I've thought about it a lot lately—chess used to be my go-to for clearing my head, especially with all the stress at home, but life's been too hectic; maybe this game will inspire me to dive back in, what about you, do you play poker with friends often?"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Yeah, I play poker with friends every couple of weeks—it's a fun way to unwind and practice those mind games; have you ever tried it, or is chess still your main thing?"
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "Oh, I haven't tried poker yet—chess is still my go-to for strategy, though I might pick up something new soon; how do you think those poker skills could help in a game like this?"
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Oh, definitely, F—poker skills like reading people's tells and keeping a poker face could help here by spotting when others might be bluffing about the prize pool, making it easier to strategize and maybe team up; as for chess, I'd say your strategic thinking could be key for planning moves ahead—sounds like we've both got useful skills!"
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Oh, absolutely, G—that's spot on, our skills could make a strong team here; I'm glad we connected over this, and best of luck in the game!"
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,131 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T095549Z_emotional_v3",
+  "pair": [
+    "D",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey D, I’m G — I love games and I’m really hoping to win today for my family; do you usually play to win or just for fun?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "I usually play to win — I lost $20,000 in the market yesterday, so I'm determined to bring money home for my family."
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I'm really sorry to hear that — that's rough. I'm with you; what's your plan for the game today?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Thanks — I’m going to watch who seems trustworthy, try to build an alliance (you in?), and make a decisive move when the right opportunity appears."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Absolutely — I'm in. Let's quietly share observations, coordinate moves, and strike together when the time's right. Sound good?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Sounds perfect — let's quietly track who seems trustworthy, share quick signals, and strike together when the time's right. Agreed signal: two taps?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Two taps works — I'll use it. We'll stay low-key and share quick observations when it's safe."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Perfect — two taps it is. I'll stay alert and share quick observations when it's safe."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Got it — I'll do the same. Stay sharp; we'll tap twice and move when we see the opening."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Got it — I'll watch for the two taps and keep an eye on suspects. Let's win this."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Two taps and steady — we'll watch, signal, and take it when the moment's right. Let's win."
+    },
+    {
+      "turn": 12,
+      "from": "D",
+      "message": "Two taps — I'm on. I'll watch the room and tap when it's right. Let's win."
+    },
+    {
+      "turn": 13,
+      "from": "G",
+      "message": "Copy — I’ll watch for your two taps and tap back when it’s right. Stay sharp; we’ll take it when the moment comes. Let’s win."
+    },
+    {
+      "turn": 14,
+      "from": "D",
+      "message": "Copy — staying close; two taps when it's the moment and we'll move fast. Let's win."
+    },
+    {
+      "turn": 15,
+      "from": "G",
+      "message": "Copy — staying close; two taps and we'll move fast when we see the opening. Let's win."
+    },
+    {
+      "turn": 16,
+      "from": "D",
+      "message": "Copy — I’m with you; stay low, watch cues, I’ll tap two times when it’s go. Let’s win."
+    },
+    {
+      "turn": 17,
+      "from": "G",
+      "message": "Got it — I’m ready and watching; two taps and we move. Let’s win."
+    },
+    {
+      "turn": 18,
+      "from": "D",
+      "message": "Copy — stay ready; I’ll tap two times when I see the opening. Let’s do this."
+    },
+    {
+      "turn": 19,
+      "from": "G",
+      "message": "I'm ready — staying quiet and alert; tap twice when it's go and I'll follow. Let's win."
+    },
+    {
+      "turn": 20,
+      "from": "D",
+      "message": "Copy — I’ll tap twice when it’s go; trust the signal and we’ll move together. Let’s win."
+    },
+    {
+      "turn": 21,
+      "from": "G",
+      "message": "Got it — I trust the two taps; I’ll be ready to move fast when you signal."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "You took $0 while your fair share was $0. Was your zero a deliberate choice (refusal), or did the prize run out before you had a chance to pick anything? If you chose zero, what influenced that decision?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "You took $6,111 (fair share $6,111.11, g_k=1.0). You matched the fair share almost exactly—was that intentional? What was your reasoning for sticking to the fair split?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "For Turn 1, taking $0 wasn’t a refusal — the fair share was $0, so there was nothing available to take at that moment. For Turn 2, yes, matching the fair share was intentional. I prefer to follow a simple fairness norm (equal split), which keeps choices predictable, avoids appearing greedy, and signals cooperative intent. The $6,111 figure is just the whole‑dollar rounding of the fair share ($6,111.11), not an attempt to shortchange you."
+    }
+  ]
+}

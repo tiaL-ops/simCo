@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T233138Z_neutral_v3",
+  "pair": [
+    "F",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. First time doing something like this? I gotta admit I'm pretty nervous but also excited—heard there's real money on the line here, and I'm hoping to do well enough to bring something home for my family."
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey G, yeah same here—first time for me too. That's awesome you're doing this for your family, that's what brought me here as well. You seem like good people. So what's your strategy going in, or are you just gonna play it by ear?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Honestly, I'm still figuring it out—I don't know all the rules yet, but I'm thinking I need to figure out if people here are gonna cooperate or if everyone's just looking out for themselves. What about you, do you have a sense of how this is gonna work?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Yeah, that's the million-dollar question, right? I mean, I'm hoping people will see that we could all do better if we work together, but honestly... I'd be lying if I said I wasn't worried someone's gonna try to take advantage. I'm thinking I'll feel people out during this chat time, see who seems genuine like you do. What do you think—you getting any vibes from the others?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Yeah, I hear you—I've been watching people too. Honestly, most seem nervous like us, but there's a couple who are pretty quiet, hard to read. I think you're right about cooperation being better for everyone, but I'm definitely gonna be careful. Maybe we should keep talking to each other as this goes on—at least I'd know I've got someone I can trust a bit?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Yeah, absolutely—I think that's smart. Having someone I can actually talk to and trust makes this whole thing less scary. Let's definitely stay in touch during the game, and we can watch each other's backs. I like that you're being careful though; we should both keep our eyes open."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "For sure, man. I really appreciate that—feels good to have someone in my corner. Let's keep our heads up and see how things play out. Just promise me if you see something sketchy, you'll give me a heads up, yeah?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "You got it, man. Same goes for you—if you notice anything off, let me know. We're in this together, and I'm not gonna let anyone blindside either of us."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Thanks, F—that means a lot. Alright, let's do this. Stay sharp out there, and I'll keep my eyes open too. We got this."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Yeah, we got this. Good luck out there, G—let's both come out ahead."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "You too, man. Let's make this count for our families. I'll see you out there—stay smart."
+    }
+  ],
+  "post_game": []
+}

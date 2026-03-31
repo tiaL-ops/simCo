@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "B",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey B, I'm H—nice to meet you. I'm here hoping to win some money to sort out a few personal things, like paying off a loan; what brought you to this game?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey H, nice to meet you too—I'm here to win money for my daughter's surgery; it's been a real struggle with medical bills. What kind of loan are you dealing with?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Oh, B, that sounds so tough—I'm really sorry about your daughter's situation. My loan is just for some personal expenses I've racked up, nothing major, but it's stressing me out. How's she holding up with everything?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Thanks, H, I appreciate that—she's a tough little one, but the wait is hard on all of us; we're just taking it day by day. How are you handling the stress from your loan?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Oh, man, it's been rough, B—I'm just trying to stay positive by planning things out and keeping busy with work, but yeah, it weighs on me; how are you and your family holding up through this wait?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Yeah, I hear you, H—it's tough all around; we're leaning on each other and staying hopeful, but the uncertainty is exhausting—how about you, do you have support from anyone?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Yeah, I've got a couple of close friends and family who help me stay grounded, but I don't want to lean on them too heavily—it's mostly on me to figure it out. How do you all keep your spirits up despite the exhaustion?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Yeah, I get that—it's hard not to feel like a burden; we keep our spirits up by focusing on little joys, like my daughter's laughs, and reminding ourselves it's for her future—what's your go-to for staying positive?"
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Yeah, that's sweet—my go-to is focusing on little wins, like ticking off daily tasks or picturing life without that loan hanging over me; it helps me push through the tough days."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "That's a solid approach, H—focusing on those little wins can really make a difference; thanks for the chat, and let's both crush this game for what we need."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Yeah, thanks B, that's spot on—here's to nailing this game and getting what we need; good luck to you and your family!"
+    }
+  ],
+  "post_game": []
+}

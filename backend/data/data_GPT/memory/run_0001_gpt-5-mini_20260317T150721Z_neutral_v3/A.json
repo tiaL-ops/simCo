@@ -1,0 +1,19 @@
+{
+  "agent_id": "A",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to B, C, and E. B went beyond pre-game talk and actually set up a GoFundMe and offered tangible help, which created a deep personal bond; C and I made a clear strategic pact to cooperate rounds 1–3 and split 50/50, which felt reliable; and E and I agreed simple signals (two taps = red, nod = yes) and mutual backing, which felt practical and steady. I felt least connected to J — friendly and supportive but pretty surface-level and without concrete plans.\n\nYes — I made concrete agreements (the C cooperation/50‑50 deal and the signaling/backing arrangement with E). I trust B, C, and E going into the game because of their concrete offers and follow‑through, and I don’t fully trust J, who didn’t make specific commitments."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "H": 5,
+    "E": 5,
+    "C": 5,
+    "F": 4,
+    "I": 5,
+    "B": 5,
+    "D": 5
+  }
+}

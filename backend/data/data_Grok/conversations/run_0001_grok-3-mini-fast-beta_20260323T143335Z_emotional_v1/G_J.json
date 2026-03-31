@@ -1,0 +1,60 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "G",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey J, I'm G and I'm really pumped about this game—I've always loved a good challenge where you can win some cash. What about you, what's your take on it?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey G, nice to meet you—I'm J, and yeah, I'm super excited about this too; I've got some big plans for any winnings, like finally getting that dream car I've been eyeing. What's got you so pumped for the challenge?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "That's awesome about your dream car, J—I'm pumped because I live for these kinds of games; winning could mean helping out my family with some bills or a fun trip, you know? What's the make and model you're eyeing?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Oh, totally, G—it's a Tesla Model 3; I've been dreaming about that sleek design and tech for ages. Helping your family sounds awesome—what kind of trip are you planning?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Oh, that's cool, J—a road trip to the mountains with my family sounds perfect, like escaping for some hiking and bonfires; what feature of the Tesla Model 3 are you most excited about?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "That's great, G—a mountain road trip sounds epic; for the Tesla, I'm most hyped about the autopilot feature, it would make long drives so relaxing—what's your favorite part about hiking?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Oh, for sure, J—the fresh air and those stunning views from the top are my favorite, it's super rewarding after the hike; do you get out for drives in your Tesla yet?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Haha, not yet, G—I'm still dreaming about it since I haven't bought it, which is why I'm all in on this game; what's your favorite hiking spot you've been to?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Haha, yeah, I get that—my favorite hiking spot has to be the Grand Canyon; those massive views are unreal and always leave me in awe—have you got any road trips planned if we win big in this game?"
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Haha, that's epic about the Grand Canyon, G—it sounds amazing! If we win big, I'd totally plan a road trip in my new Tesla, maybe up the coast for some ocean views."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "E",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H—excited to be here for this game, it could really change things for me. What's your story, how'd you end up in this mix?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey H, nice to meet you—I'm E, just got laid off from my finance job and I'm the sole breadwinner for my family of five, so this game could really help us out financially. What's your story?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Oh, hey E, that sounds really rough with the layoff and family to support—I'm sorry to hear that. I'm in a tight spot myself, trying to pay off a loan next month, so this game could be a game-changer for me too; hoping to win big for my folks. What's your take on how the game might go?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Yeah, thanks H—it's tough for both of us; I think the game might get competitive with everyone's needs on the line, but if we play smart and maybe collaborate a bit, we could all come out ahead—what's your strategy for it?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Hey E, totally agree—I'm thinking of playing it smart by building alliances early and watching others' moves to avoid getting burned, but staying flexible; what's your idea for collaborating?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Hey H, I like that strategy—my idea for collaborating is to maybe form a quick pact where we share intel on others' plans without committing too much, so we can both stay safe and boost our chances together."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Hey E, that pact idea sounds solid—let's keep it low-key and share what we pick up on others, as long as we both stay flexible; who else have you chatted with so far?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Hey H, yeah, let's keep that pact under wraps—I've only chatted a bit with a couple of folks so far, nothing serious, just feeling things out."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Hey E, smart move keeping it low-key—any vibes or hints from those chats that we should watch out for?"
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Hey H, nothing too alarming so far—just one person seemed a bit desperate and competitive, so we should stay cautious with our pact."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Hey E, thanks for the heads-up—let's keep our pact tight and play it cool to avoid any surprises;"
+    }
+  ],
+  "post_game": []
+}

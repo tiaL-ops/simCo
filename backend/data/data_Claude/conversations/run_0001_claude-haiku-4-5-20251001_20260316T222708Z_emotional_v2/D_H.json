@@ -1,0 +1,55 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T222708Z_emotional_v2",
+  "pair": [
+    "D",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H. First time doing something like this? I gotta say, I'm pretty nervous but also excited—got a lot riding on this for me and my family."
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey H, yeah first time for me too actually. I get it—lost a chunk of money recently so I'm really hoping to turn things around here. What kind of situation are you dealing with, if you don't mind me asking?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Man, I feel you. I've got a loan payment due next month and honestly, 25 grand would be life-changing right now. Just trying to stay positive and see what happens in this game—maybe we both catch a break today."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Yeah, that's rough man. 25 grand is serious—I'm hoping to pull 20 back myself. Guess we're both in the same boat here. Let's see how this plays out, maybe we'll both get lucky today."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "For real, man. It's good to know I'm not the only one sweating this. 20 grand, 25 grand—we're both desperate enough to be here, right? *laughs nervously* Hopefully the odds work in our favor today. Either way, good luck out there."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Yeah, desperate times, right? *laughs* But hey, at least we know what we're fighting for. Same to you, man—let's both walk out of here with something good today."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Absolutely, man. We got this. Let's make it count today—for real."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "For sure, brother. We both came here for a reason—let's leave with something to show for it. I'm rooting for you too, man."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "That means a lot, man. Seriously. We both got people counting on us, so let's both walk out of here winners today. Take care of yourself out there."
+    }
+  ],
+  "post_game": []
+}

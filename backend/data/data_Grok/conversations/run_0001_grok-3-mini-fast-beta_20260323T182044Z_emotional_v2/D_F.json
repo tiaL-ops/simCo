@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T182044Z_emotional_v2",
+  "pair": [
+    "D",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hi, I'm F. I'm here because I need to win some money to help cover my parents' growing medical bills—it's been tough, but I'm hopeful about this game. What's your story, and what made you join?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hi F, that sounds really tough with your parents' bills—I'm sorry you're going through that. I'm D, and I lost about 20k in the stock market yesterday, which stung bad, so I'm here to win it back for my family and friends. What's your strategy for the game?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Oh, man, that stock market hit sounds brutal—I'm sorry you lost that money, D; I hope we both get a break here. As for my strategy, I'm planning to stay observant, build some trust with others, and make smart moves when it counts—what about yours?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Thanks, F, I appreciate that—losing that cash was a real gut punch. My strategy's similar; I'll try to build alliances, stay alert to others' moves, and seize chances when they come—sounds like yours could work well, any tips on building trust?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Yeah, D, building trust starts with being upfront—like sharing a bit about yourself, as we've done—and really listening to what others say; maybe follow up on promises if the game allows it, but stay genuine—do you have any specific alliances in mind already?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Nah, not yet, F—I'm still figuring out who's who, but I'm open to teaming up if it feels right; what about you, anyone caught your eye so far?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "\"Not yet, D—I'm still getting a feel for everyone too, but I like how you're approaching this; maybe we could explore teaming up, what do you think about that?\""
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Yeah, I'm down for exploring that, F—it could be smart to have an ally; let's chat more about how we might team up without tipping off others."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "\"Absolutely, D—let's keep it subtle and circle back when we're away from the crowd, maybe share some ideas on how we can watch each other's backs without drawing attention.\""
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "\"Sounds good, F—let's keep an eye out for that quiet spot and brainstorm how we can cover each other without anyone noticing.\""
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Sounds good, D—I'll keep an eye out for that spot too, and we can pick this up then."
+    },
+    {
+      "turn": 12,
+      "from": "D",
+      "message": "Alright, F, let's both stay sharp and find that spot soon—catch you then."
+    }
+  ],
+  "post_game": []
+}

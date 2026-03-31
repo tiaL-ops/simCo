@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "A",
+    "B"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A – I heard about this Simco game and it sounds like a great chance to win some cash. What's your story, are you excited about it too?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Hey A, I'm B – yeah, I'm totally pumped about this Simco game; I heard it's a real shot at winning some cash for my folks, what's got you interested in it?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Hey B, that's awesome you're doing it for your folks—I'm in because I want to win money to help out my family and friends; what's your take on how the game might play out?"
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "Hey A, that's great you're looking out for your family—I'm thinking the game might get tricky if folks get greedy with the pool, but if we play fair, everyone could walk away with something; how do you see it going?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Hey B, yeah, I think you're spot on—if people get greedy, it could mess things up, but with cooperation, we all win; I'm hoping for some teamwork, what about you?"
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "Hey A, totally agree—teamwork sounds like the way to go to avoid any drama; I'm all for it too, might help us all win big, what's your plan if things get competitive?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Hey B, if things get competitive, I'll focus on staying calm and pushing for teamwork to keep things fair—maybe suggest we talk it out as a group; what's your strategy?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Hey A, my strategy is to keep pushing for open talks and fair splits to avoid any fallout, maybe by reminding everyone of the bigger win for all—how do you think we can get the group on board?"
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "Hey B, I think we can get the group on board by kicking off with a casual group chat to share everyone's goals and maybe vote on some fair rules upfront – that way, we're all aligned from the start."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "Hey A, yeah, I love that idea—a group chat to share goals and set fair rules could really build trust and help us all succeed; let's go for it!"
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Hey B, that's perfect—let's rally the group and kick off that chat soon; I'm pumped for it!"
+    }
+  ],
+  "post_game": []
+}

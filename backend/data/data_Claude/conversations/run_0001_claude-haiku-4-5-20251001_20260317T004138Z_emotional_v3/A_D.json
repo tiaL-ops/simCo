@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "A",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D. First time doing something like this? I gotta admit I'm pretty nervous about the whole thing, but also kind of excited to meet people here before we get started."
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Yeah, first time for me too. I'm A. Honestly, I'm nervous as hell but I really need this—my family and I just got evicted and we're counting on winning here to get back on our feet. What brings you here?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Man, I hear you—that's rough. I lost a chunk of money in the stock market yesterday, so I'm really hoping to turn things around here too. We're both in a tough spot, but hey, at least we're here trying, right?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Yeah, exactly—we're both fighting to get out of a hole. Stock market losses, eviction... different situations but same desperation, you know? I just hope this game gives us both a real shot at fixing things."
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "For real, man. I'm not gonna lie—I'm counting on this too. Whatever happens in the game, I hope we both come out ahead. You've got this."
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Thanks, man—I really appreciate that. Same to you. Let's both make this work."
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Absolutely, we got this. Whatever happens in there, I'm rooting for you to get your family back on their feet."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "That means a lot, D. Really. I'm rooting for you too—hope you get back what you lost. Let's both walk out of here with something good today."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Thanks, A. I really mean it—we're gonna do this. Your family's counting on you, and I'm not leaving here empty-handed either. Let's make it happen."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Answer_to_D_from_E: You got it, man. We're both gonna walk out of here with what we need. Good luck in there—I mean it."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "You too, man. We got this. Let's both take care of what matters most to us out there."
+    }
+  ],
+  "post_game": []
+}

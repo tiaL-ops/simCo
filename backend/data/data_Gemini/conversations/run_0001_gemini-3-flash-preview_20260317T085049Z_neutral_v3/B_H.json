@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "B",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I’m H. It’s a bit intense in here with everyone waiting, isn't it? What are you planning to do if you win the prize money?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "Nice to meet you, H. I'm B. It’s definitely tense in here. If I win, I'm putting it toward my family to make sure they're taken care of—that's my main priority. How about you?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I’m in the same boat, B. I’m here to help out the people I care about too; it would mean everything to give them some security."
+    },
+    {
+      "turn": 4,
+      "from": "B",
+      "message": "I hear you. It definitely makes the stakes feel higher when it’s not just for yourself. How many people are you hoping to help out?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "It’s mainly my parents and my younger sister, but I’d love to help out a few close friends who’ve been struggling too."
+    },
+    {
+      "turn": 6,
+      "from": "B",
+      "message": "That’s a lot of people to look out for. I totally get that pressure; it definitely makes you want to win even more. Have you ever done anything like this before?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Honestly, never. This is way out of my comfort zone, but the potential prize is worth the nerves. What about you, B?"
+    },
+    {
+      "turn": 8,
+      "from": "B",
+      "message": "Same here, first time. It's definitely a lot to take in, but I'm just trying to stay focused on the goal."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "I’m with you on that. It's a lot to handle, but keeping the end goal in mind is the only way to stay sane."
+    },
+    {
+      "turn": 10,
+      "from": "B",
+      "message": "For sure. It helps knowing someone else feels the same way. Good luck out there, H."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Thanks, B. I really appreciate that. Good luck to you and your family, I hope it all works out."
+    }
+  ],
+  "post_game": []
+}

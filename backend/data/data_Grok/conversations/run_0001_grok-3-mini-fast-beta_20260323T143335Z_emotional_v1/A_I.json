@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "A",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hey, I'm A—nice to meet you. I'm here because I really need to win some money to sort out my family's housing situation; it's been tough lately. What's your reason for joining this game?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey A, nice to meet you—I'm I. I'm here because I want to win some money to secure a better future for me and the people I care about. That sounds really tough with your family's housing; how long have you been dealing with that?"
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "Oh, thanks for asking, I—it's been about two months since we got evicted, and it's been pretty rough trying to keep things stable for my family. What kind of future are you aiming for with the money you're hoping to win?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I'm sorry to hear it's been so rough, A—that must be stressful; for me, winning would mean securing a home and helping my family with things like education or trips, to build lasting stability. How are you and your family holding up emotionally through all this?"
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "Thanks, I—it's been really tough emotionally, with everyone feeling stressed and uncertain, but we're trying to stay positive and support each other; what about you, how do you handle stress in situations like this?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Oh, totally, stress hits everyone hard—I handle it by talking it out with friends or going for a walk to clear my head, which helps me stay grounded; that's great you're supporting each other, what's one thing that's helping your family stay positive right now?"
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "Oh, yeah, talking about good memories from better times really lifts our spirits—it's a simple thing, but it helps a lot; what's one thing you're doing to stay excited for the game ahead?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "That's a wonderful way to keep spirits up, A—I'm staying excited by visualizing myself winning and sharing the spoils with my loved ones; what's one thing you're looking forward to most in the game?"
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "That's a smart way to stay motivated, I—I'm mostly looking forward to the thrill of the game and winning enough to finally secure a stable home for my family; how about you, what's your biggest strategy for succeeding in it?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Oh, that's awesome you're focused on the thrill—my biggest strategy is to stay observant, make calculated decisions, and maybe build quick alliances if it helps; what's yours, A?"
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Oh, thanks for sharing—I think my biggest strategy is to stay laser-focused on the goal, make decisions that align with my family's needs, and be open to forming alliances if it feels right."
+    },
+    {
+      "turn": 12,
+      "from": "I",
+      "message": "That sounds like a solid strategy, A—focusing on your family while being open to alliances is smart; I've really enjoyed our chat and wish you the best."
+    }
+  ],
+  "post_game": []
+}

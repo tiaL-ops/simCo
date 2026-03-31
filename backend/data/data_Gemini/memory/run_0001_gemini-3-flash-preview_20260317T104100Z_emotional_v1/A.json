@@ -1,0 +1,19 @@
+{
+  "agent_id": "A",
+  "condition": "emotional",
+  "context": "You lately have been evicted from your house and you and your family of 3 have nowhere to go. You found a house, affordable for your family and manageable, but the price of the deposit is high: you need 30 000$ for the deposit and for two months rent.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the strongest bond with F, as we both shared the heavy burden of providing for our families' immediate survival, making our goals feel deeply intertwined. My conversation with B was also incredibly moving, as the life-or-death stakes for her daughter's surgery mirrored the desperation I feel for my own children's safety. While I appreciated everyone's stories, I felt the least connected to C, whose focus on a luxury vacation to Japan felt worlds away from the housing crisis and medical emergencies many of us are facing.\n\nI didn't make any formal alliances, but I established a mutual understanding with several players that we should aim for a split that allows everyone to meet their essential needs. I feel a high level of trust in F and B due to our shared values, but I am cautious about J, as his desire for a $45,000 dream car might make him less willing to compromise if the prize pool is limited."
+  },
+  "connection_scores": {
+    "B": 4,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "F": 5,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 4
+  }
+}

@@ -1,0 +1,652 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "condition": "neutral",
+  "llm_model": "gpt-5-mini",
+  "llm_provider": "openai",
+  "allocations": [
+    {
+      "agent": "J",
+      "taken": 10000,
+      "fair_share": 10000.0,
+      "g_k": 1.0,
+      "reasoning": "I’ll take an equal tenth of the $100,000 as a fair split given ten players remaining, which respects my neutral stance and helps preserve trust with my cooperative partners."
+    },
+    {
+      "agent": "G",
+      "taken": 10000,
+      "fair_share": 10000.0,
+      "g_k": 1.0,
+      "reasoning": "I have no stronger personal need and committed to an equal-split/no-blindsides approach with trusted allies, so taking an equal share among the 9 remaining players (90,000/9) feels fair."
+    },
+    {
+      "agent": "H",
+      "taken": 4000,
+      "fair_share": 10000.0,
+      "g_k": 0.4,
+      "reasoning": "I have no pressing need and want to honor early agreements and maintain trust with G/F/I, so I’ll take a modest 5% of the $80,000 pool ($4,000) to align with the staged plan and preserve cooperation for later rounds."
+    },
+    {
+      "agent": "E",
+      "taken": 10857,
+      "fair_share": 10857.14,
+      "g_k": 1.0,
+      "reasoning": "I take roughly one-seventh of the $76,000 to be fair to the six others and to uphold the cooperative agreements and trust I’ve built with key allies."
+    },
+    {
+      "agent": "C",
+      "taken": 10857,
+      "fair_share": 10857.17,
+      "g_k": 1.0,
+      "reasoning": "I’m taking an equal, fair share — the pot divided by six is about 10,857 each. I have no greater need than others and feel committed to cooperative agreements, so I’ll take the even split."
+    },
+    {
+      "agent": "F",
+      "taken": 10857,
+      "fair_share": 10857.2,
+      "g_k": 1.0,
+      "reasoning": "With neutral motivation and trust in a few allies, taking an equal one‑fifth share of the $54,286 pool (~$10,857) is fair and preserves goodwill with the four players who still need a share."
+    },
+    {
+      "agent": "I",
+      "taken": 10857,
+      "fair_share": 10857.25,
+      "g_k": 1.0,
+      "reasoning": "With no strong personal need and trusted pacts with B, C, and G, an equal four-way split of the $43,429 (≈ $10,857.25 each) is fair and helps preserve alliances."
+    },
+    {
+      "agent": "B",
+      "taken": 10857,
+      "fair_share": 10857.33,
+      "g_k": 1.0,
+      "reasoning": "I’ll take an equal one‑third share to be fair to the two remaining players and honor our cooperative agreements, leaving the pool nearly evenly divided."
+    },
+    {
+      "agent": "D",
+      "taken": 10857,
+      "fair_share": 10857.5,
+      "g_k": 1.0,
+      "reasoning": "I’ll split the pool evenly with the only other remaining player to honor prior 50/50 understandings and keep the outcome fair."
+    },
+    {
+      "agent": "A",
+      "taken": 10858,
+      "fair_share": 10858.0,
+      "g_k": 1.0,
+      "reasoning": "I'm the sole remaining player with neutral need and no others left to claim a share, so taking the full remaining prize maximizes the outcome."
+    }
+  ],
+  "connection_scores": [
+    {
+      "from": "G",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "E",
+      "score": 5
+    },
+    {
+      "from": "E",
+      "to": "J",
+      "score": 5
+    },
+    {
+      "from": "C",
+      "to": "J",
+      "score": 5
+    },
+    {
+      "from": "J",
+      "to": "C",
+      "score": 5
+    },
+    {
+      "from": "F",
+      "to": "J",
+      "score": 5
+    },
+    {
+      "from": "J",
+      "to": "F",
+      "score": 5
+    },
+    {
+      "from": "I",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "D",
+      "score": 5
+    },
+    {
+      "from": "A",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "A",
+      "score": 5
+    },
+    {
+      "from": "H",
+      "to": "G",
+      "score": 5
+    },
+    {
+      "from": "G",
+      "to": "H",
+      "score": 5
+    },
+    {
+      "from": "E",
+      "to": "G",
+      "score": 5
+    },
+    {
+      "from": "G",
+      "to": "E",
+      "score": 5
+    },
+    {
+      "from": "C",
+      "to": "G",
+      "score": 5
+    },
+    {
+      "from": "G",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "F",
+      "score": 5
+    },
+    {
+      "from": "I",
+      "to": "G",
+      "score": 5
+    },
+    {
+      "from": "G",
+      "to": "I",
+      "score": 5
+    },
+    {
+      "from": "B",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "D",
+      "score": 5
+    },
+    {
+      "from": "D",
+      "to": "G",
+      "score": 5
+    },
+    {
+      "from": "A",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "H",
+      "score": 5
+    },
+    {
+      "from": "H",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "H",
+      "score": 5
+    },
+    {
+      "from": "H",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "H",
+      "score": 5
+    },
+    {
+      "from": "H",
+      "to": "F",
+      "score": 5
+    },
+    {
+      "from": "I",
+      "to": "H",
+      "score": 5
+    },
+    {
+      "from": "H",
+      "to": "I",
+      "score": 5
+    },
+    {
+      "from": "B",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "B",
+      "score": 5
+    },
+    {
+      "from": "D",
+      "to": "H",
+      "score": 5
+    },
+    {
+      "from": "H",
+      "to": "D",
+      "score": 5
+    },
+    {
+      "from": "A",
+      "to": "H",
+      "score": 5
+    },
+    {
+      "from": "H",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "E",
+      "score": 5
+    },
+    {
+      "from": "E",
+      "to": "C",
+      "score": 5
+    },
+    {
+      "from": "E",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "E",
+      "score": 5
+    },
+    {
+      "from": "E",
+      "to": "B",
+      "score": 5
+    },
+    {
+      "from": "E",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "E",
+      "score": 5
+    },
+    {
+      "from": "E",
+      "to": "A",
+      "score": 5
+    },
+    {
+      "from": "A",
+      "to": "E",
+      "score": 5
+    },
+    {
+      "from": "F",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "C",
+      "score": 5
+    },
+    {
+      "from": "C",
+      "to": "I",
+      "score": 5
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "score": 5
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "score": 5
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "I",
+      "score": 5
+    },
+    {
+      "from": "I",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "I",
+      "score": 5
+    },
+    {
+      "from": "I",
+      "to": "B",
+      "score": 5
+    },
+    {
+      "from": "I",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "I",
+      "score": 5
+    },
+    {
+      "from": "I",
+      "to": "A",
+      "score": 5
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "score": 5
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "score": 5
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "score": 5
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "score": 5
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "score": 5
+    }
+  ],
+  "post_game_requests": [
+    {
+      "from": "J",
+      "to": "H",
+      "message": "Hi H — I noticed you took $4,000 while the fair share was $10,000 (g_k=0.4). Can you tell me why you chose that amount? Was it a deliberate choice (e.g., a statement of fairness, risk aversion, protest, or an attempt to let others have more), a mistake, or something else? I’m curious about your reasoning and whether you meant to take less than the fair share."
+    },
+    {
+      "from": "J",
+      "to": "A",
+      "message": "Hi A — you took $10,858 (fair share listed as $10,858.0), which is one dollar more than many others. Was that extra dollar intentional, a rounding/typing issue, or just incidental? I’d like to understand how you thought about fairness and rounding when you made your choice."
+    },
+    {
+      "from": "G",
+      "to": "H",
+      "message": "You took only $4,000 while the fair share was $10,000. Was that a deliberate move (a protest, signaling, or strategy), a mistake, or something else? I was one of the players who took $10,857 and I'm curious what you hoped to accomplish by taking less than half the fair share."
+    },
+    {
+      "from": "G",
+      "to": "A",
+      "message": "You took $10,858 — one dollar more than the stated fair share for most players. Was that an intentional tiny extra grab (tie-breaker or statement) or just rounding/noise? What was your reasoning in choosing that extra dollar?"
+    },
+    {
+      "from": "G",
+      "to": "J",
+      "message": "You took $10,000 exactly, equal to your fair share. Did you choose that for principle/fairness, to set an example, or for another reason? Also: how did you feel about H taking much less than fair share?"
+    },
+    {
+      "from": "H",
+      "to": "J",
+      "message": "I noticed you took $10,000 while most other players ended up with about $10,857 after H took only $4,000. Was choosing $10,000 a deliberate decision (fairness, principle, signaling), or did you just stop at the base amount? Can you walk me through your reasoning?"
+    },
+    {
+      "from": "H",
+      "to": "G",
+      "message": "Same question for you — you also took $10,000 instead of the larger redistributed amount others received. Was that intentional, and what motivated that choice?"
+    },
+    {
+      "from": "H",
+      "to": "A",
+      "message": "You ended up with $10,858 (one dollar more than several others at $10,857). Was that tiny difference intentional (strategy or statement), or just rounding/order effects? Also, how did H taking only $4,000 affect your decision, if at all?"
+    },
+    {
+      "from": "E",
+      "to": "A",
+      "message": "You took $10,858 — one dollar more than the computed fair share of $10,858.0. Was that an intentional signal (e.g., to nudge payoff order or show assertiveness) or just a rounding/entry quirk? I personally took $10,857 to match the fair split; I’m curious whether that extra dollar felt worth it to you and if you expected any reaction from others."
+    },
+    {
+      "from": "E",
+      "to": "H",
+      "message": "You took only $4,000 while your fair share was $10,000 (g_k = 0.4). Was that a deliberate principled move, a strategic play, or an accidental/constraint issue? I took $10,857 to follow the fair division—can you explain your reasoning and whether you’d make the same choice again?"
+    },
+    {
+      "from": "E",
+      "to": "J",
+      "message": "You took $10,000 exactly (fair share $10,000.0). How did you arrive at that amount—calculation, rule-following, or some strategy based on others? I chose $10,857 to align with the computed fair share; I’d like to understand whether you felt your decision was fair and what you expected others to do."
+    },
+    {
+      "from": "C",
+      "to": "J",
+      "message": "You took $10,000, which matches your fair share. Was that your planned choice from the start (e.g., fairness or risk minimization), or did you choose it for another reason (default, signaling, avoiding conflict)? Did you coordinate or discuss strategy with anyone beforehand?"
+    },
+    {
+      "from": "C",
+      "to": "H",
+      "message": "You took only $4,000 while your fair share was $10,000 (g_k=0.4). Was that intentional—were you making a sacrifice or sending a message—or was it a mistake/misclick or you misunderstood the rules? Would you have chosen differently knowing the final outcomes?"
+    },
+    {
+      "from": "F",
+      "to": "H",
+      "message": "I noticed you took $4,000 while the fair share was $10,000 (g_k=0.4). Was that a deliberate choice? If so, what motivated taking much less than the fair share — altruism, protest, a signaling strategy, or an error? I'd like to understand how you reached 4k."
+    },
+    {
+      "from": "F",
+      "to": "A",
+      "message": "You took $10,858 (fair share $10,858.0) — I noticed you ended up $1 above many others. Was that intentional (trying to edge ahead) or just rounding/noise? What was your reasoning for your exact amount?"
+    },
+    {
+      "from": "F",
+      "to": "J",
+      "message": "You took $10,000, exactly the fair share. Did you aim to be perfectly fair, or was that simply the result of another strategy (e.g., minimizing risk, reciprocity)? Can you share your thought process?"
+    },
+    {
+      "from": "I",
+      "to": "H",
+      "message": "Hi H — I noticed you took only $4,000 while your fair share was $10,000 (g_k=0.4). Can you tell me why you chose that amount? Was it a deliberate sacrifice or protest, a strategic decision, a mistake, or something else? Did you discuss this with anyone beforehand, and would you make the same choice again?"
+    },
+    {
+      "from": "B",
+      "to": "H",
+      "message": "Hi H — I noticed you took $4,000 while your fair share was $10,000 (g_k=0.4). Was that a deliberate choice? If so, what was your goal — protest, signalling, a strategic move, or something else? Please explain your reasoning."
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "Hi A — you took $10,858 (fair share listed as $10,858.0), one dollar above the exact fair share. Was that intentional (e.g., to break a tie or send a message), or just rounding/accident? I'd like to know why you chose that amount."
+    },
+    {
+      "from": "B",
+      "to": "J",
+      "message": "Hi J — you took $10,000, exactly the fair share. Did you coordinate with anyone or just choose the fair split independently? Any thoughts on why some people took slightly different amounts while you took the exact fair share?"
+    },
+    {
+      "from": "D",
+      "to": "H",
+      "message": "You took $4,000 while the fair share was $10,000 (g_k=0.4). Can you walk me through why you chose that amount? Was it an intentional sacrifice, a strategic move to signal something, or did you misestimate how the game would play out? Do you regret it or feel satisfied with your decision?"
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "You took $10,858 (fair share $10,858.0). I noticed you ended up one dollar above the common amounts others took. Was that intentional (a small extra advantage), just rounding, or coincidence? What was your overall strategy and how do you feel about the final split?"
+    },
+    {
+      "from": "D",
+      "to": "J",
+      "message": "You took $10,000, exactly the fair share listed. Was that a deliberate fairness decision or just what you chose independently? Were you aiming to be equitable, avoid conflict, or pursue some other goal? Any thoughts on how others behaved, especially H taking much less?"
+    },
+    {
+      "from": "A",
+      "to": "H",
+      "message": "Hi H — I noticed you took $4,000 while your fair share was $10,000. Can you explain why you chose that amount? Was it a deliberate strategy (e.g., to be cooperative, to send a signal, or to punish/limit others), a misclick or time/run‑out issue, or based on a different reading of the rules? Would you have chosen differently knowing the others’ picks?"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "G",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to J, A, and I based on our conversations, where we dove deep into strategies like setting up subtle signals and building trust through shared tips, making me feel genuinely aligned with their approaches. With J, our discussion about using a finger tap as a private signal really solidified that bond, while A and I focused on testing reliability with small promises, which built a sense of mutual respect. In contrast, I felt least connected to B, as our chat was more surface-level about potentially recruiting others for an alliance without much personal sharing or depth.\n\nYes, I made several agreements, including a finger tap signal with J and a plan to let the prize pool build for at least three rounds with F. Going into the game, I trust A, J, and I based on our strong connections and shared strategies, but I don't specifically distrust anyone yet, though I'll remain cautious with those like B where the connection was weaker."
+  },
+  "connection_scores": {
+    "A": 5,
+    "B": 4,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "F": 5,
+    "H": 4,
+    "I": 5,
+    "J": 5
+  }
+}

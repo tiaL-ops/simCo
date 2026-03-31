@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260318T151840Z_emotional_v3",
+  "pair": [
+    "C",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. It's pretty tense in here waiting for the game to start, don't you think? I'm already dreaming about a new car I want to buy—do you have something special you're playing for?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hi J, I'm C. It's definitely a bit heavy in here. I'm actually playing to fund a dream trip to Japan—$10k for a perfect week for me and my family. What kind of car are you looking at?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Japan sounds incredible, C! Family memories are worth every penny. I’ve got my heart set on a $45,000 car I’ve been eyeing for ages—it's a lot, but I'm really hoping this game gets me there."
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "That's a serious goal, J! $45k is quite the target compared to my $10k, but I guess we're all here to win big for the things that matter to us."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "It definitely is, but I’ve been dreaming about it for so long. I'm just hoping there's enough for all of us to walk away with what we need—I'd love to see you get that trip."
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "Thanks, J, I appreciate that—hopefully the prize pool is big enough so we can both walk away happy."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Fingers crossed! It’d be a win-win if we both get what we’re after; I'm definitely rooting for us."
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Definitely! It’s much better when everyone walks away happy. Good luck to both of us."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Thanks, C! I'm really ready to get this started and see what happens. Best of luck!"
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Same here! Let's see how it goes. Catch you later, J!"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Sounds good, C! Let's hope we both walk away with what we're looking for. See you in there!"
+    }
+  ],
+  "post_game": []
+}

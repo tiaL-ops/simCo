@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "E",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hi, I'm E—nice to meet you. I just got laid off from my finance job and I'm here hoping to win some money to support my family; it's been tough lately. What's your story with this game?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hi E, nice to meet you—I'm really sorry about your job, that sounds tough; I'm I, and I'm here hoping to win some extra cash for my loved ones since I've got savings but figured this game could be a fun way to add more, what's your take on how it works?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Thanks, I appreciate your sympathy—it's been a rough road; that's great you're playing for your loved ones too, and as for the game, I'm not totally clear on the details, but I think it involves deciding how to split or take from that shared prize pool, what are your thoughts on it?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Yeah, no problem at all—sounds like we've both got good reasons to play; I think the game's all about finding a fair balance in taking from that pool, maybe cooperating to maximize everyone's share, what strategy are you leaning towards?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Yeah, I agree on finding that balance—I'm thinking of cooperating to build a bigger pot for everyone, but I'll prioritize grabbing enough to cover my family's needs, just to be safe; what's your game plan exactly?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Oh, totally get that—I’m aiming to cooperate and help build a bigger pool for everyone, but I'll make sure to secure a solid amount for my loved ones too; what do you think might make cooperation work best here?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Yeah, I agree—open communication and everyone being upfront about their needs could really help build trust, so we all end up with a fair share without anyone feeling shortchanged."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Yeah, absolutely—being upfront like that sounds key to avoiding any drama; I'm hoping to secure just enough to support my loved ones without overreaching, how do you think we could start sharing those needs with the group?"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Yeah, that's a good idea—maybe we could suggest a quick group circle where everyone shares their needs in a sentence or two, just to build that trust without taking too much time."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Yeah, that sounds like a smart move—let's definitely pitch that group circle to everyone soon."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Yeah, absolutely—let's make that happen and get the group on board; it's been great chatting with you, I."
+    }
+  ],
+  "post_game": []
+}

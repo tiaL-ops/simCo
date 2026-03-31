@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "D",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J! I figured I'd get to know some people before we start. Have you done something like this before, or is this your first time here?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey J, nice to meet you! First time actually. I'm here because I need to win some money back after a rough day in the stock market yesterday—lost more than I'd like to admit. What about you, have you done this before?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Oh man, that's rough—sorry to hear about the market hit. This is my first time too, actually. I'm here because I've been dreaming about getting a new car, and I figured why not try my luck here? Hopefully we both can turn things around today."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Yeah, a new car sounds nice! I appreciate the sympathy—honestly, I'm just trying to get my head straight about this whole thing. So you think there's a real shot at winning here, or are you just taking a chance like me?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Honestly, I think we both have a real shot—I mean, someone's gotta win, right? I'm trying to stay optimistic about it. Plus, I figure if I'm here anyway, I might as well give it my best effort. How are you feeling about your chances?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Yeah, I like your attitude. Honestly, I'm trying not to overthink it—I just know I need this to work out. Do you have a strategy going in, or are you just gonna play it by feel?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "I'm thinking I'll start by feeling things out, see how people react and what the vibe is, then maybe adjust from there. What about you—do you have something in mind, or are you also gonna play it loose?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "I'm gonna do something similar, honestly—watch how everyone plays first, figure out who's aggressive and who's playing it safe, then decide if I should be bold or cautious. We'll see what makes sense once the game actually starts."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "That makes sense—yeah, I think reading the room is smart. Hopefully we can both figure out the best move when it kicks off. Good luck out there, D!"
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Thanks, J—you too! I've got a good feeling about this. Let's both walk away with something today."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Absolutely, man—I'm feeling it too. Let's make this count for both of us."
+    }
+  ],
+  "post_game": []
+}

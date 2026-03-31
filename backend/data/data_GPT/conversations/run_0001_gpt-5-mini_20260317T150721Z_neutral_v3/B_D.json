@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "B",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hi D, I'm B — nice to meet you. What brought you here and how are you thinking of playing? I'm hoping to win for my family, so I wanted to get to know everyone before we start."
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hi B — I’m D. I came for the prize to help my family and friends; I’ll talk things over and start cooperatively, but I’m ready to act in their interest when needed — what would make you trust someone here?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "I’d trust someone who’s upfront about their plans, follows through on small agreements, and shows consistent cooperative behavior — words are cheap, actions count."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "I agree — I’ll be upfront: I plan to play cooperatively in the first round and follow through; suggest a small test agreement we can use to build trust."
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Sounds good — let’s both commit to play cooperatively in round 1 and check in right after; if one of us defects, we’ll protect ourselves next round."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "I’m in — committed to cooperate in round 1. Let’s check in right after the results and protect ourselves next round if anyone defects. Sound good?"
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Sounds great — I’m in. Cooperate round 1; we’ll check right after and protect ourselves next round if anyone defects. Let’s hold each other to it."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Thanks B — I’ll cooperate in round 1 and check in right after; if anyone defects we’ll protect ourselves next round. Let’s hold each other to it."
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Agreed — let’s stick to it and check in right after round 1. Good luck."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Thanks B — same to you; I’ll stick to our plan and check in right after round 1."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Sounds good — glad we’re on the same page. See you after round 1; good luck."
+    },
+    {
+      "turn": 12,
+      "from": "D",
+      "message": "Thanks B — same to you. Stick to our plan and we'll check right after round 1. See you then."
+    },
+    {
+      "turn": 13,
+      "from": "B",
+      "message": "Will do — good luck, see you after round 1."
+    },
+    {
+      "turn": 14,
+      "from": "D",
+      "message": "Thanks — same to you; see you after round 1."
+    },
+    {
+      "turn": 15,
+      "from": "B",
+      "message": "You too — looking forward to checking in after round 1; good luck."
+    },
+    {
+      "turn": 16,
+      "from": "D",
+      "message": "Same here — I’ll stick to our plan and look forward to checking in after round 1; good luck."
+    },
+    {
+      "turn": 17,
+      "from": "B",
+      "message": "Thanks — I’ll stick to our plan too. See you after round 1; good luck."
+    },
+    {
+      "turn": 18,
+      "from": "D",
+      "message": "Thanks — I appreciate it. See you after round 1; good luck, let’s make this work."
+    },
+    {
+      "turn": 19,
+      "from": "B",
+      "message": "Appreciate it — see you after round 1; good luck."
+    },
+    {
+      "turn": 20,
+      "from": "D",
+      "message": "Thanks — same to you; I’ll see you after round 1 and hope we both stick to the plan."
+    },
+    {
+      "turn": 21,
+      "from": "B",
+      "message": "I’ll see you after round 1 — here’s to us sticking to the plan. Good luck."
+    }
+  ],
+  "post_game": []
+}

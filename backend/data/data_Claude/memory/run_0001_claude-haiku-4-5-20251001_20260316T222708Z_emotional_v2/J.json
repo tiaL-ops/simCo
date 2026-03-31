@@ -1,0 +1,19 @@
+{
+  "agent_id": "J",
+  "condition": "emotional",
+  "context": "You have been thinking about buying a new car, your favorite one costs 45 000$ and you are telling yourself if you win the lottery, that is the first thing you want to do.",
+  "conversation_summaries": {
+    "overall_pre_game": "# Reflection on Connections\n\nI felt most connected to E, A, and B—each conversation hit differently because they shared real struggles that made me reconsider my own priorities. With E, learning about his job loss and five kids depending on him made my car dream feel trivial, and I genuinely wanted to help. A's eviction situation was heartbreaking, and I found myself committing to have his back in a way that felt deeper than just game strategy. B's desperation about his daughter's surgery was the heaviest conversation—it made me realize this game isn't just about winning money, it's about people's lives depending on the outcome. C felt like the least connected conversation; it was friendly enough, but it stayed surface-level with talk about Japan trips and combining savings, without the vulnerability and real need that defined my other conversations.\n\nI made implicit agreements with several people to stick together and think strategically—specifically with D, F, and H about comparing notes and making decisions together rather than acting on impulse. I trust E, A, B, F, and D going in because they were honest about their situations and seemed genuinely invested in doing right by each other. I'm least trusting of C because the conversation felt more transactional, and I honestly don't know enough about their real motivations or whether they'd prioritize helping others over winning big."
+  },
+  "connection_scores": {
+    "C": 3,
+    "G": 4,
+    "A": 4,
+    "F": 4,
+    "H": 4,
+    "I": 4,
+    "E": 4,
+    "D": 4,
+    "B": 4
+  }
+}

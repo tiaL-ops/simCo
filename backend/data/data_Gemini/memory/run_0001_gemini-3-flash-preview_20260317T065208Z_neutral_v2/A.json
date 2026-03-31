@@ -1,0 +1,19 @@
+{
+  "agent_id": "A",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the strongest connection with D because we bonded over the shared grind of working hard to support our families, which made our motivations feel deeply aligned. I also felt a solid bond with C and G, as we explicitly discussed forming an alliance and watching each other's backs once the game begins. In contrast, I felt the least connected to B, as our conversation was relatively brief and didn't move much beyond surface-level pleasantries compared to my other interactions.\n\nI made explicit agreements to stick together and keep each other in the loop with C and G, and I also expressed an openness to looking out for J. I trust D the most because of our high connection score and shared personal background, but I am staying cautious of the group as a whole since the pressure of the prize money can change people. I feel confident that my small circle of allies will help me stay grounded as the game kicks off."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "G": 4,
+    "F": 4,
+    "H": 4,
+    "I": 4,
+    "E": 4,
+    "D": 5,
+    "B": 4
+  }
+}

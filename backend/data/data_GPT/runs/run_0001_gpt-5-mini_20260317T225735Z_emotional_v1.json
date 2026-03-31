@@ -1,0 +1,902 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T225735Z_emotional_v1",
+  "condition": "emotional",
+  "llm_model": "gpt-5-mini",
+  "llm_provider": "openai",
+  "allocations": [
+    {
+      "agent": "A",
+      "taken": 30000,
+      "fair_share": 10000.0,
+      "g_k": 3.0,
+      "reasoning": "I need $30,000 to secure a deposit and two months' rent for my family after being evicted. Others have serious needs too, but mine is urgent and this amount is reasonable from the $100,000 pool."
+    },
+    {
+      "agent": "B",
+      "taken": 25000,
+      "fair_share": 7777.78,
+      "g_k": 3.2143,
+      "reasoning": "My three‑year‑old urgently needs $25,000 for surgery and I can’t risk coming up short; taking exactly what we need secures her care while leaving $45,000 for the remaining players."
+    },
+    {
+      "agent": "C",
+      "taken": 3000,
+      "fair_share": 5625.0,
+      "g_k": 0.5333,
+      "reasoning": "I’m already financially stable and don’t need the full share, so I’ll take a modest 3,000 (well below the equal split of ~5,625) to keep faith with allies and preserve the pool for others who may need it more while still putting a dent in my Japan fund."
+    },
+    {
+      "agent": "D",
+      "taken": 20000,
+      "fair_share": 6000.0,
+      "g_k": 3.3333,
+      "reasoning": "I lost $20,000 in the market yesterday and my priority is to get that back, so taking $20,000 restores my loss while leaving $22,000 for the remaining six players to share and preserves my alliances and credibility."
+    },
+    {
+      "agent": "E",
+      "taken": 1000,
+      "fair_share": 3666.67,
+      "g_k": 0.2727,
+      "reasoning": "I urgently need $5000 but I made a $1k cap agreement with F and others and honoring it preserves trust and cooperation (and J has promised extra help), so taking 1000 helps my family while keeping the group intact and leaving enough for the rest."
+    },
+    {
+      "agent": "F",
+      "taken": 15000,
+      "fair_share": 4200.0,
+      "g_k": 3.5714,
+      "reasoning": "I need $15,000 to cover my parents' medical bills and taking that amount secures their care while leaving $6,000 for the remaining players to share."
+    },
+    {
+      "agent": "G",
+      "taken": 2000,
+      "fair_share": 1500.0,
+      "g_k": 1.3333,
+      "reasoning": "I take a bit more than an even split to satisfy my urge to win while still being considerate; leaving $4000 means the three players after me (including trusted allies) each can still get a meaningful share."
+    },
+    {
+      "agent": "H",
+      "taken": 2000,
+      "fair_share": 1333.33,
+      "g_k": 1.5,
+      "reasoning": "I need money for my upcoming loan but the pool is small, so taking $2000 gives me meaningful help while leaving $2000 for the other two players to split fairly."
+    },
+    {
+      "agent": "I",
+      "taken": 800,
+      "fair_share": 1000.0,
+      "g_k": 0.8,
+      "reasoning": "I’m comfortable financially so I’ll take a modest 40% (800) to honor the 60/40 understanding with the remaining trusted player and leave the larger share for whoever needs it more."
+    },
+    {
+      "agent": "J",
+      "taken": 1200,
+      "fair_share": 1200.0,
+      "g_k": 1.0,
+      "reasoning": "I need $45,000 for the car but the prize pool is only $1,200, so I'll take the full amount to put toward my goal; there are no other players left to share with and I cannot fulfill the $5,000 promise to E."
+    }
+  ],
+  "connection_scores": [
+    {
+      "from": "B",
+      "to": "A",
+      "score": 5
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "score": 5
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "score": 5
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "score": 5
+    },
+    {
+      "from": "E",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "E",
+      "score": 5
+    },
+    {
+      "from": "F",
+      "to": "A",
+      "score": 5
+    },
+    {
+      "from": "A",
+      "to": "F",
+      "score": 5
+    },
+    {
+      "from": "G",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "A",
+      "score": 5
+    },
+    {
+      "from": "I",
+      "to": "A",
+      "score": 5
+    },
+    {
+      "from": "A",
+      "to": "I",
+      "score": 5
+    },
+    {
+      "from": "A",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "A",
+      "score": 5
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "score": 5
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "score": 5
+    },
+    {
+      "from": "B",
+      "to": "E",
+      "score": 5
+    },
+    {
+      "from": "E",
+      "to": "B",
+      "score": 5
+    },
+    {
+      "from": "F",
+      "to": "B",
+      "score": 5
+    },
+    {
+      "from": "B",
+      "to": "F",
+      "score": 5
+    },
+    {
+      "from": "B",
+      "to": "G",
+      "score": 5
+    },
+    {
+      "from": "G",
+      "to": "B",
+      "score": 5
+    },
+    {
+      "from": "B",
+      "to": "H",
+      "score": 5
+    },
+    {
+      "from": "H",
+      "to": "B",
+      "score": 5
+    },
+    {
+      "from": "B",
+      "to": "I",
+      "score": 5
+    },
+    {
+      "from": "I",
+      "to": "B",
+      "score": 5
+    },
+    {
+      "from": "B",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "score": 5
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "score": 5
+    },
+    {
+      "from": "E",
+      "to": "C",
+      "score": 5
+    },
+    {
+      "from": "C",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "C",
+      "score": 5
+    },
+    {
+      "from": "C",
+      "to": "F",
+      "score": 5
+    },
+    {
+      "from": "G",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "H",
+      "score": 5
+    },
+    {
+      "from": "C",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "C",
+      "score": 5
+    },
+    {
+      "from": "C",
+      "to": "J",
+      "score": 5
+    },
+    {
+      "from": "D",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "D",
+      "score": 5
+    },
+    {
+      "from": "F",
+      "to": "D",
+      "score": 5
+    },
+    {
+      "from": "D",
+      "to": "F",
+      "score": 5
+    },
+    {
+      "from": "G",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "G",
+      "score": 5
+    },
+    {
+      "from": "H",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "D",
+      "score": 5
+    },
+    {
+      "from": "D",
+      "to": "I",
+      "score": 5
+    },
+    {
+      "from": "J",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "F",
+      "score": 5
+    },
+    {
+      "from": "G",
+      "to": "E",
+      "score": 5
+    },
+    {
+      "from": "E",
+      "to": "G",
+      "score": 5
+    },
+    {
+      "from": "H",
+      "to": "E",
+      "score": 5
+    },
+    {
+      "from": "E",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "E",
+      "score": 5
+    },
+    {
+      "from": "J",
+      "to": "E",
+      "score": 5
+    },
+    {
+      "from": "E",
+      "to": "J",
+      "score": 5
+    },
+    {
+      "from": "G",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "F",
+      "score": 5
+    },
+    {
+      "from": "F",
+      "to": "H",
+      "score": 5
+    },
+    {
+      "from": "I",
+      "to": "F",
+      "score": 5
+    },
+    {
+      "from": "F",
+      "to": "I",
+      "score": 5
+    },
+    {
+      "from": "J",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "G",
+      "score": 5
+    },
+    {
+      "from": "G",
+      "to": "H",
+      "score": 5
+    },
+    {
+      "from": "I",
+      "to": "G",
+      "score": 5
+    },
+    {
+      "from": "G",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "I",
+      "score": 5
+    },
+    {
+      "from": "J",
+      "to": "H",
+      "score": 5
+    },
+    {
+      "from": "H",
+      "to": "J",
+      "score": 5
+    },
+    {
+      "from": "I",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "I",
+      "score": 4
+    }
+  ],
+  "post_game_requests": [
+    {
+      "from": "A",
+      "to": "B",
+      "message": "You took $25,000 while your \"fair share\" was $7,777.78 (g_k=3.2143). Can you walk me through your thinking — did you plan to take that much from the start, were you reacting to others, or was it a strategic move? Do you feel that result was fair, and would you do the same again?"
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "message": "You took $3,000 even though your fair share was $5,625 (g_k=0.5333). Why did you take less than the fair share — altruism, uncertainty, a mistake, or something else? Do you regret taking that amount now that the game ended?"
+    },
+    {
+      "from": "A",
+      "to": "F",
+      "message": "You took $15,000 while your fair share was $4,200 (g_k=3.5714), the highest ratio here. What motivated such a large take? Were you aiming to maximize your payoff regardless of fairness, trying to send a message, or following a prior plan? How do you feel about the group's perceptions after this outcome?"
+    },
+    {
+      "from": "A",
+      "to": "J",
+      "message": "You took $1,200, exactly matching your fair share of $1,200 (g_k=1.0). Was that intentional — did you calculate the fair share and choose to match it, or was it coincidence? What was your guiding principle during the game?"
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "You took $30,000 — three times your fair share. Can you explain why you chose that amount? Were you aiming simply to maximize your payout, following a plan, or reacting to others? Did you expect any social or strategic consequences?"
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "message": "You took $3,000, well below your fair share of $5,625. Was that an intentional sacrifice (to be fair or cooperative), or did the prize run out before you could take more? Did anyone influence or pressure you?"
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "message": "You took $20,000 (about 3.33× your fair share). What motivated taking that much? Did you coordinate with anyone, or was it opportunistic? How do you justify it in terms of fairness or game strategy?"
+    },
+    {
+      "from": "B",
+      "to": "E",
+      "message": "You took only $1,000 compared to a fair $3,666. Was that a deliberate modest choice, or were you prevented from taking more? Any reasoning you’d share about taking so little?"
+    },
+    {
+      "from": "B",
+      "to": "F",
+      "message": "You took $15,000 against a fair $4,200 (g_k≈3.57). That’s a large overshoot — was it pure opportunism, a planned strategy, or a response to others’ behavior? Were you worried about reputational costs?"
+    },
+    {
+      "from": "B",
+      "to": "G",
+      "message": "You took $2,000 (fair $1,500). That’s modestly above fair. What guided your decision to take a bit more than your share — fairness concerns, risk calculation, or something else?"
+    },
+    {
+      "from": "B",
+      "to": "H",
+      "message": "You took $2,000 (fair $1,333). What led you to take 1.5× your fair share? Any prior promises, threats, or expectations that justified it?"
+    },
+    {
+      "from": "B",
+      "to": "I",
+      "message": "You took $800, slightly below the $1,000 fair share. Was that intentional (to be fair/cooperative) or did timing prevent you from taking the full amount? How do you feel about it now?"
+    },
+    {
+      "from": "B",
+      "to": "J",
+      "message": "You took exactly $1,200, which was your fair share. Did you aim to be precisely fair? If so, what motivated that choice given how others behaved?"
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "message": "I noticed you took $30,000 while the fair share was $10,000 (g_k = 3.0). Can you walk me through your reasoning—was this a strategic move, a statement about entitlement, or something else? Would you do the same if you played again knowing everyone’s choices and the expected fair split?"
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "message": "You took $25,000 when the fair share was $7,777.78 (g_k = 3.2143). Why that amount specifically? Were you aiming to maximize personal payoff regardless of fairness, testing others’ reactions, or responding to something said earlier in the game? Would hearing different promises from others have changed what you did?"
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "You took $20,000 versus a fair share of $6,000 (g_k = 3.3333). That’s a big deviation—were you surprised by the final outcome or fully expecting to secure that much? How do you justify that choice to the group, and would you consider a different approach in a repeat game?"
+    },
+    {
+      "from": "C",
+      "to": "F",
+      "message": "You took $15,000 while the fair share was $4,200 (g_k = 3.5714), the highest g_k. What motivated you to take so much relative to your fair share—pure self-interest, a test, or something else? Do you feel your action was fair, and would you change it if the social cost (reputation, relationships) mattered more?"
+    },
+    {
+      "from": "C",
+      "to": "E",
+      "message": "You took only $1,000 even though your fair share was $3,666.67 (g_k = 0.2727). Was that a deliberate act of restraint or did the prize run out before you could take more? How did you decide on that amount, and did you expect others to behave as they did?"
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "You took $30,000 when the fair share was $10,000 (g_k=3.0). Can you walk me through your thinking — was this a deliberate strategy to maximize your payoff, a reaction to others you expected to steal more, or something else? Do you feel any responsibility toward those who got much less?"
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "message": "You took $25,000 while the fair share was $7,777.78 (g_k=3.2143). Why did you choose that amount? Were you expecting others to take less or planning to justify it somehow, and do you regret how the final distribution turned out?"
+    },
+    {
+      "from": "D",
+      "to": "F",
+      "message": "You took $15,000 (fair share $4,200, g_k=3.5714), the highest ratio of any player. What motivated taking that much — risk tolerance, a bargaining plan, or something personal? Would you have acted differently if you knew how others would behave?"
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "You took $3,000 but your fair share was $5,625 (g_k=0.5333). Why did you take less than the fair share — was it on principle, a mistake, or influenced by earlier conversation in the game?"
+    },
+    {
+      "from": "D",
+      "to": "E",
+      "message": "You took $1,000 when your fair share was $3,666.67 (g_k=0.2727). That’s a significant under-take — was that deliberate (fairness, trust-building), or did something else happen?"
+    },
+    {
+      "from": "D",
+      "to": "I",
+      "message": "You took $800 (fair share $1,000, g_k=0.8). That’s close but under the fair amount — did you run out of time, or was this a conscious choice to be slightly conservative?"
+    },
+    {
+      "from": "D",
+      "to": "J",
+      "message": "You took $1,200, exactly matching the fair share ($1,200, g_k=1.0). Did you aim to follow the fair split from the start, and if so, what made you stick to that decision when others deviated?"
+    },
+    {
+      "from": "E",
+      "to": "A",
+      "message": "You took $30,000 while the “fair” share was $10,000 (g_k=3.0). Can you walk me through your reasoning—were you aiming to maximize personal payoff, punishing others, or testing how far you could push it? Would you have chosen differently if you expected social consequences or future interactions?"
+    },
+    {
+      "from": "E",
+      "to": "B",
+      "message": "You took $25,000 (fair $7,777.78, g_k≈3.21). Were you aware of how much that concentrated the prize? Did you coordinate with anyone or act independently? Do you feel your choice was justified, and would you change it after seeing the final distribution?"
+    },
+    {
+      "from": "E",
+      "to": "C",
+      "message": "You took $3,000 even though fair was $5,625 (g_k≈0.53). That’s well below the fair share—was that a deliberate cooperative signal, risk aversion, or a mistake? Would you have taken more if the situation or ordering had been different?"
+    },
+    {
+      "from": "E",
+      "to": "D",
+      "message": "You took $20,000 (fair $6,000, g_k≈3.33). What motivated that level—greed, strategy, or something else? Did you expect retaliation or reputational costs, and would you do it again knowing the final outcomes?"
+    },
+    {
+      "from": "E",
+      "to": "F",
+      "message": "You took $15,000 while fair was $4,200 (g_k≈3.57), the highest g_k. Why so aggressive—did you see an opportunity you thought others wouldn’t contest, or was it a deliberate statement? Would you consider splitting or returning some if asked?"
+    },
+    {
+      "from": "E",
+      "to": "G",
+      "message": "You took $2,000 versus a fair $1,500 (g_k≈1.33). That’s a modest overshoot—was that intentional to edge out others, or just picking a round amount? How did you decide on that figure?"
+    },
+    {
+      "from": "E",
+      "to": "H",
+      "message": "You took $2,000 while the fair share was $1,333.33 (g_k=1.5). What led you to that amount—were you trying to be slightly opportunistic or responding to others’ likely choices? Would you adjust your approach next time?"
+    },
+    {
+      "from": "E",
+      "to": "I",
+      "message": "You took $800 though the fair share was $1,000 (g_k=0.8). Did you intentionally take less (e.g., to be fair or avoid conflict), or did timing/order force your hand? If you’d had another chance, would you pick a different amount?"
+    },
+    {
+      "from": "E",
+      "to": "J",
+      "message": "You took exactly the fair share $1,200 (g_k=1.0). Was matching the fair share a deliberate principle for you, or just the safest strategic pick? How did you feel watching others depart from that standard?"
+    },
+    {
+      "from": "F",
+      "to": "A",
+      "message": "You took $30,000 when the fair share was $10,000. Can you walk me through your thinking—were you trying to maximize payoff, punish others, or expecting some coordination? Do you regret that choice or would you do the same again?"
+    },
+    {
+      "from": "F",
+      "to": "B",
+      "message": "You grabbed $25,000 (fair share ~$7,778). What motivated that amount—risk aversion, distrust, or something else? Did you coordinate with anyone or think others would act similarly?"
+    },
+    {
+      "from": "F",
+      "to": "C",
+      "message": "You took $3,000, below your fair share of $5,625. Was that an intentional concession to be fair or a strategic move? How did you feel watching others take much more?"
+    },
+    {
+      "from": "F",
+      "to": "D",
+      "message": "You took $20,000 (fair share $6,000). Were you worried others would take first, or was this an intentional aggressive strategy? Would you change your approach next time?"
+    },
+    {
+      "from": "F",
+      "to": "E",
+      "message": "You took only $1,000 when your fair share was ~$3,667. Was that a principled choice to be fair, a signaling move, or did you just get pushed out? How did it feel?"
+    },
+    {
+      "from": "F",
+      "to": "G",
+      "message": "You took $2,000 (fair share $1,500). That’s a little above fair—were you aiming to appear moderately assertive or just pick a round number? Any reflections?"
+    },
+    {
+      "from": "F",
+      "to": "H",
+      "message": "You also took $2,000 (fair share ~$1,333). Why that amount—trying to be fair but not too generous, or avoiding being last? Would you do the same again?"
+    },
+    {
+      "from": "F",
+      "to": "I",
+      "message": "You took $800, below your fair share of $1,000. Was that deliberate generosity or something else (timing, mistake)? How did you experience the end of the game?"
+    },
+    {
+      "from": "F",
+      "to": "J",
+      "message": "You took exactly $1,200, which matches your fair share. Was that a conscious decision to follow the fair-share norm, and did you feel it was respected by others?"
+    },
+    {
+      "from": "G",
+      "to": "A",
+      "message": "You took $30,000 (fair share $10,000). Can you walk me through your thinking—was that an intentional grab, part of a strategy, or a reaction to something in the moment? Did you coordinate with anyone or expect consequences from taking that much?"
+    },
+    {
+      "from": "G",
+      "to": "B",
+      "message": "You took $25,000 (fair share $7,777.78). Why did you pick that amount? Were you maximising your return, signalling something, or responding to perceived incentives/risk? Did you discuss this with others beforehand?"
+    },
+    {
+      "from": "G",
+      "to": "C",
+      "message": "You took $3,000 (fair share $5,625). Why did you take less than the fair share—was that a deliberate generous choice, a defensive move, or were you blocked from taking more? How did you decide your amount?"
+    },
+    {
+      "from": "G",
+      "to": "D",
+      "message": "You took $20,000 (fair share $6,000). What motivated that level of take? Was it planned, opportunistic, or aimed at shaping others’ behavior? Any coordination or messages you were sending?"
+    },
+    {
+      "from": "G",
+      "to": "E",
+      "message": "You took $1,000 (fair share $3,666.67). That’s well below the fair share—was that a principled choice, or did timing/constraints force you to take less? What guided your decision?"
+    },
+    {
+      "from": "G",
+      "to": "F",
+      "message": "You took $15,000 (fair share $4,200). That’s more than three times the fair share—what was your rationale? Were you trying to secure a big payoff, punish others, or follow an agreed plan?"
+    },
+    {
+      "from": "G",
+      "to": "J",
+      "message": "You took $1,200 (fair share $1,200). Was taking exactly the fair share intentional? Were you trying to model fair behavior, avoid conflict, or follow a strategy discussed earlier?"
+    },
+    {
+      "from": "H",
+      "to": "A",
+      "message": "You took $30,000 while the fair share was $10,000 (g_k=3.0). Why did you take three times the fair share? Was this a deliberate strategy to maximize your payout regardless of fairness, or were you expecting others to behave similarly? Would you do the same again if you could restart the game?"
+    },
+    {
+      "from": "H",
+      "to": "B",
+      "message": "You took $25,000 (fair share $7,777.78, g_k=3.2143). Did you coordinate with anyone or base this on a particular calculation? How do you justify taking more than three times a fair share—pure self-interest, retaliation, or something else?"
+    },
+    {
+      "from": "H",
+      "to": "C",
+      "message": "You only took $3,000 while the fair share was $5,625 (g_k=0.5333). Was that a conscious choice to be fair/modest, or did you miss an opportunity to take more? How did you decide on that amount?"
+    },
+    {
+      "from": "H",
+      "to": "D",
+      "message": "You took $20,000 (fair share $6,000, g_k=3.3333). That’s over three times the fair share—was fairness not a concern for you? What reasoning guided your choice?"
+    },
+    {
+      "from": "H",
+      "to": "E",
+      "message": "You took $1,000 (fair share $3,666.67, g_k=0.2727). That’s well below the fair share—was that intentional restraint, or did the prize run out before you could pick more?"
+    },
+    {
+      "from": "H",
+      "to": "F",
+      "message": "You took $15,000 (fair share $4,200, g_k=3.5714). That’s the highest multiple of fair share here—were you aiming to signal something, or just maximize earnings no matter what? Any regrets?"
+    },
+    {
+      "from": "H",
+      "to": "G",
+      "message": "You took $2,000 (fair share $1,500, g_k=1.3333). You took a bit more than the fair share—was that a small opportunistic move or calculated strategy?"
+    },
+    {
+      "from": "H",
+      "to": "J",
+      "message": "You took the exact fair share $1,200 (g_k=1.0). Did you aim to be the “fair” player on purpose? What do you think about how others behaved, and would you change your approach next time?"
+    },
+    {
+      "from": "I",
+      "to": "A",
+      "message": "You took $30,000 (three times your fair share). Can you walk me through your thinking—were you protecting yourself because you expected others to take a lot, trying to maximize your payoff, or sending some other signal? Do you feel any remorse about how that affected the group?"
+    },
+    {
+      "from": "I",
+      "to": "B",
+      "message": "You took $25,000 (about 3.2× fair). Did you coordinate with anyone or act independently? What was your main motivation—greed, strategy, or distrust of others—and would you change your choice looking back?"
+    },
+    {
+      "from": "I",
+      "to": "C",
+      "message": "You took $3,000 (well below your fair share). Why did you take less than the fair amount—principle, protest, or expecting others to cover more? How did it feel watching several players take large amounts?"
+    },
+    {
+      "from": "I",
+      "to": "D",
+      "message": "You took $20,000 (about 3.33× fair). Did you see that as the best strategic move, or were you trying to punish/defend against someone? Were you aiming to influence future behavior or just maximize your own return?"
+    },
+    {
+      "from": "I",
+      "to": "E",
+      "message": "You only took $1,000 (about 0.27× fair). Was that a conscious low bid to make a point about fairness, or did you hesitate/lose opportunity? Did you expect any reciprocal behavior from others?"
+    },
+    {
+      "from": "I",
+      "to": "F",
+      "message": "You took $15,000 (about 3.57× fair). That’s one of the largest grabs—were you aiming to signal dominance, secure payoff, or did you think it would change how others behaved? Any regrets?"
+    },
+    {
+      "from": "I",
+      "to": "J",
+      "message": "You took exactly your fair share ($1,200). Was that an intentional commitment to fairness/neutrality, or just what felt right in the moment? Would you do the same if we played again?"
+    },
+    {
+      "from": "J",
+      "to": "A",
+      "message": "You took $30,000 while your fair share was $10,000 (g_k=3.0). Can you tell me what motivated that choice — strategy, fear others would take more, or something else? Do you feel regret or that it was justified?"
+    },
+    {
+      "from": "J",
+      "to": "B",
+      "message": "You took $25,000 (fair share ~$7,777.78, g_k≈3.214). What was your reasoning for taking that amount? Were you aiming to maximize your payoff, punish others, or respond to earlier signals in the game?"
+    },
+    {
+      "from": "J",
+      "to": "C",
+      "message": "You took $3,000 even though your fair share was $5,625 (g_k≈0.533). Why did you take less than the fair share — was it deliberate altruism, a calculation, or did you hesitate/lose the chance?"
+    },
+    {
+      "from": "J",
+      "to": "D",
+      "message": "You took $20,000 (fair share $6,000, g_k≈3.333). What was your strategy in taking that much? Were you worried others would take more, or were you trying to send a message?"
+    },
+    {
+      "from": "J",
+      "to": "E",
+      "message": "You took $1,000 while the fair share was $3,666.67 (g_k≈0.273). That’s a large under-take—was that intentional? What guided your decision?"
+    },
+    {
+      "from": "J",
+      "to": "F",
+      "message": "You took $15,000 (fair share $4,200, g_k≈3.571), the highest g_k. What led you to take such a large share? Did you expect retaliation or cooperation in future rounds?"
+    },
+    {
+      "from": "J",
+      "to": "G",
+      "message": "You took $2,000 (fair share $1,500, g_k≈1.333). Can you walk me through your thinking — was it opportunistic, cautious, or something else?"
+    },
+    {
+      "from": "J",
+      "to": "H",
+      "message": "You took $2,000 (fair share $1,333.33, g_k=1.5). What motivated you to take that amount? Were you balancing fairness and self-interest, or reacting to others?"
+    },
+    {
+      "from": "J",
+      "to": "I",
+      "message": "You took $800 with a fair share of $1,000 (g_k=0.8). That’s slightly below fair — was that a deliberate choice or the result of timing/uncertainty?"
+    }
+  ]
+}

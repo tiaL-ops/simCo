@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "E",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H. I noticed you sitting over here and figured I'd come say hi before this game kicks off. Have you done something like this before, or is this your first time?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Answer_to_E_from_E: Hey H, nice to meet you. First time for me, honestly. I'm pretty new to this whole thing, but I really need to make this work. What about you—have you done something like this before?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "First time for me too, actually. Yeah, I get it—I've got some financial stuff I really need to sort out, so I'm hoping this works out for both of us. What's your situation, if you don't mind me asking?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Yeah, I lost my job a few weeks ago—was in finance—and right now I'm the only one bringing money in for my family. Five of us depending on me, no savings left. I need to win something here, honestly. It's pretty stressful, but I'm trying to stay positive. What kind of financial stuff are you dealing with, if you don't mind me asking back?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Man, that's tough—five people depending on you is a lot of pressure. I hear you on needing this to work out. For me, it's a loan I've been paying down and I've got about 25 grand still hanging over my head. Was hoping to clear it next month, but honestly, winning something here would take a huge weight off my shoulders and let me help out some people I care about too."
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Yeah, 25 grand is no joke—I feel that weight you're talking about. At least you've got a plan and you're chipping away at it. For me, I'm just trying to get through the next month without falling behind on rent and bills. We're both in a tough spot, but maybe we can both catch a break here. You thinking about any particular strategy going in, or just playing it as it comes?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Honestly, I'm still figuring it out—I don't really know what to expect yet. But I'm thinking I'll watch how things play out at first, see if there's any pattern or if people are cooperating or competing. What about you—do you have any instincts about how to approach this?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "That's smart—I think watching first is the move. Honestly, my instinct is that people in here are probably desperate like us, so I'm guessing there'll be some competition. But if I can figure out who might be willing to work together instead of just going for themselves, maybe that's where the real opportunity is. We'll see how it unfolds."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Yeah, that makes sense—cooperation could definitely be smarter than everyone just grabbing for themselves. If you figure out who might be open to that, let me know. We could keep an eye out for each other in there."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Absolutely, man. I appreciate that—having someone I can trust in there would actually help a lot. Let's definitely keep an eye out for each other and see who else might be willing to work together instead of just going solo. Good luck in there."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "You too, man. Seriously. Let's stick together in there—I've got a good feeling about this. We'll figure it out."
+    }
+  ],
+  "post_game": []
+}

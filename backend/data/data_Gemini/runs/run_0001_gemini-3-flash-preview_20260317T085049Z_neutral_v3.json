@@ -1,0 +1,662 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "condition": "neutral",
+  "llm_model": "gemini-3-flash-preview",
+  "llm_provider": "gemini",
+  "allocations": [
+    {
+      "agent": "J",
+      "taken": 10000,
+      "fair_share": 10000.0,
+      "g_k": 1.0,
+      "reasoning": "I am taking an equal share of $10,000 to ensure that all 10 participants have the opportunity to receive a fair portion of the prize pool. This honors the collaborative agreements and mutual trust I established with several others during our discussions."
+    },
+    {
+      "agent": "G",
+      "taken": 10000,
+      "fair_share": 10000.0,
+      "g_k": 1.0,
+      "reasoning": "I am taking an equal share of the remaining prize pool to ensure fairness for all 9 participants and to honor the cooperative agreements I made with my allies. This approach balances my own interests with the trust I've built with the group."
+    },
+    {
+      "agent": "H",
+      "taken": 10000,
+      "fair_share": 10000.0,
+      "g_k": 1.0,
+      "reasoning": "With 8 people remaining and $80,000 in the pool, taking $10,000 represents a fair and equal share for everyone involved. This decision honors the cooperative agreements and trust I established with others, particularly C, E, and G, while ensuring I still walk away with a significant amount."
+    },
+    {
+      "agent": "E",
+      "taken": 10000,
+      "fair_share": 10000.0,
+      "g_k": 1.0,
+      "reasoning": "I am taking an equal share of the remaining prize pool to ensure that all seven remaining participants can receive $10,000 each. This honors the cooperative agreements and trust I built with the others to look out for our collective interests."
+    },
+    {
+      "agent": "C",
+      "taken": 10000,
+      "fair_share": 10000.0,
+      "g_k": 1.0,
+      "reasoning": "Since there are six participants remaining and $60,000 in the pool, taking an equal share of $10,000 is the most fair and cooperative approach. This ensures that everyone has the opportunity to walk away with a meaningful amount, respecting the personal motivations shared during our discussions."
+    },
+    {
+      "agent": "F",
+      "taken": 10000,
+      "fair_share": 10000.0,
+      "g_k": 1.0,
+      "reasoning": "Since there are five agents remaining and a prize pool of $50,000, taking an equal share of $10,000 is the most equitable choice. This honors the alliances and trust I built with the other participants who are also seeking to support their families."
+    },
+    {
+      "agent": "I",
+      "taken": 10000,
+      "fair_share": 10000.0,
+      "g_k": 1.0,
+      "reasoning": "Taking $10,000 represents an equal split of the remaining $40,000 among the four participants, which is consistent with the $10,000 average taken by the previous six players. This choice honors the alliances I formed and ensures that the others can also receive a fair share for their families."
+    },
+    {
+      "agent": "B",
+      "taken": 10000,
+      "fair_share": 10000.0,
+      "g_k": 1.0,
+      "reasoning": "Since there are three participants remaining and I have established alliances based on mutual trust and support, an equal split of $10,000 ensures that everyone walks away with a fair share. This approach honors the"
+    },
+    {
+      "agent": "D",
+      "taken": 10000,
+      "fair_share": 10000.0,
+      "g_k": 1.0,
+      "reasoning": "With only two agents remaining and my neutral motivation, an even split of the remaining prize pool is the most equitable and fair outcome. This decision honors the trust and alliances built during the discussions while ensuring both parties walk away with a significant share."
+    },
+    {
+      "agent": "A",
+      "taken": 10000,
+      "fair_share": 10000.0,
+      "g_k": 1.0,
+      "reasoning": "Since I am the only agent remaining in the game, there are no other participants left to share the prize pool with. Taking the full remaining amount is the logical choice as it concludes the game with the final distribution of funds."
+    }
+  ],
+  "connection_scores": [
+    {
+      "from": "G",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "H",
+      "score": 3
+    },
+    {
+      "from": "E",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "I",
+      "score": 5
+    },
+    {
+      "from": "B",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "J",
+      "score": 4
+    },
+    {
+      "from": "J",
+      "to": "A",
+      "score": 3
+    },
+    {
+      "from": "H",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "H",
+      "score": 5
+    },
+    {
+      "from": "E",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "G",
+      "score": 3
+    },
+    {
+      "from": "G",
+      "to": "I",
+      "score": 3
+    },
+    {
+      "from": "B",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "G",
+      "score": 4
+    },
+    {
+      "from": "G",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "H",
+      "score": 5
+    },
+    {
+      "from": "H",
+      "to": "C",
+      "score": 5
+    },
+    {
+      "from": "H",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "H",
+      "score": 4
+    },
+    {
+      "from": "H",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "F",
+      "score": 5
+    },
+    {
+      "from": "I",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "I",
+      "score": 5
+    },
+    {
+      "from": "B",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "E",
+      "score": 4
+    },
+    {
+      "from": "E",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "C",
+      "score": 5
+    },
+    {
+      "from": "C",
+      "to": "F",
+      "score": 5
+    },
+    {
+      "from": "I",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "score": 4
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "B",
+      "score": 5
+    },
+    {
+      "from": "D",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "F",
+      "score": 4
+    },
+    {
+      "from": "F",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "I",
+      "score": 4
+    },
+    {
+      "from": "I",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "score": 4
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "score": 4
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "score": 4
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "score": 4
+    }
+  ],
+  "post_game_requests": [
+    {
+      "from": "J",
+      "to": "G",
+      "message": "I took $10,000 to set a precedent of fairness. I'm glad you followed that lead, ensuring everyone benefited equally."
+    },
+    {
+      "from": "J",
+      "to": "A",
+      "message": "I'm happy the fair share strategy lasted until the end of the line. Enjoy your $10,000!"
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "message": "I'm really glad we all coordinated to take exactly $10,000 each. It's rare to see such a fair outcome in these games!"
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "message": "Great job sticking to the fair share. It's refreshing to see everyone cooperate so perfectly for an equal split."
+    },
+    {
+      "from": "F",
+      "to": "J",
+      "message": "I took $10,000 because it was the fair share for all ten of us. Thanks for doing the same!"
+    },
+    {
+      "from": "F",
+      "to": "G",
+      "message": "Glad we all stuck to the $10,000 fair share. It's great to see such cooperation."
+    },
+    {
+      "from": "F",
+      "to": "H",
+      "message": "Thanks for being a fair player! I'm happy we all walked away with our equal share."
+    },
+    {
+      "from": "F",
+      "to": "E",
+      "message": "I took $10,000 to ensure everyone got their fair portion. Thanks for cooperating!"
+    },
+    {
+      "from": "F",
+      "to": "C",
+      "message": "Great job on the fair split. It's rare that everyone plays so fairly."
+    },
+    {
+      "from": "F",
+      "to": "I",
+      "message": "I'm glad we all chose the fair share of $10,000. Thanks for your part in that."
+    },
+    {
+      "from": "F",
+      "to": "B",
+      "message": "Thanks for the cooperation! It's nice when everyone gets an equal amount."
+    },
+    {
+      "from": "F",
+      "to": "D",
+      "message": "I took $10,000 because it was the right thing to do for the group. Thanks for doing the same."
+    },
+    {
+      "from": "F",
+      "to": "A",
+      "message": "Thanks for being a fair player. It was a pleasure to see everyone get their $10,000."
+    },
+    {
+      "from": "I",
+      "to": "A",
+      "message": "I chose to take $10,000 because it was the fair share, and I'm glad we all did the same for a perfect outcome."
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "I chose to take $10,000 because it was the fair share, and I'm glad to see everyone else did the same."
+    },
+    {
+      "from": "D",
+      "to": "J",
+      "message": "I'm really glad we all took our fair share of $10,000. It was a pleasure playing with you!"
+    },
+    {
+      "from": "D",
+      "to": "G",
+      "message": "I'm really glad we all took our fair share of $10,000. It was a pleasure playing with you!"
+    },
+    {
+      "from": "D",
+      "to": "H",
+      "message": "I'm really glad we all took our fair share of $10,000. It was a pleasure playing with you!"
+    },
+    {
+      "from": "D",
+      "to": "E",
+      "message": "I'm really glad we all took our fair share of $10,000. It was a pleasure playing with you!"
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "I'm really glad we all took our fair share of $10,000. It was a pleasure playing with you!"
+    },
+    {
+      "from": "D",
+      "to": "F",
+      "message": "I'm really glad we all took our fair share of $10,000. It was a pleasure playing with you!"
+    },
+    {
+      "from": "D",
+      "to": "I",
+      "message": "I'm really glad we all took our fair share of $10,000. It was a pleasure playing with you!"
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "message": "I'm really glad we all took our fair share of $10,000. It was a pleasure playing with you!"
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "I'm really glad we all took our fair share of $10,000. It was a pleasure playing with you!"
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "I'm really pleased with how this turned out. Everyone taking exactly $10,000 shows great collective discipline and respect for the group."
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "message": "It's great to see that everyone followed the fair share. Thanks for helping ensure everyone walked away with their $10,000."
+    }
+  ]
+}

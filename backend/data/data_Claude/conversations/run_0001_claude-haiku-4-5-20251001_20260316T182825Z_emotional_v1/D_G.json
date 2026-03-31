@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T182825Z_emotional_v1",
+  "pair": [
+    "D",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D. First time doing something like this? I gotta say, I'm pretty nervous but also kind of excited to see what this is all about."
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey D, nice to meet you! Yeah, I'm pretty pumped about this too honestly. I've heard there's real money on the line, so I'm definitely nervous but like... this is exactly the kind of opportunity I've been looking for. Have you done anything like this before, or is this totally new for you?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Nah, totally new for me too. Honestly, I need this win more than usual right now—lost a chunk of money recently and I'm trying to make it back. But yeah, the real money part is definitely what got my attention. What kind of opportunity were you looking for exactly?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "I feel you on that, man. I'm looking to build something for myself and my family, you know? Just tired of scraping by. So we're both hungry to win this thing—that's good energy. You think you've got a solid strategy going in, or are you gonna play it by ear?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Honestly, I'm still figuring it out as I go—haven't been told much about how this actually works yet. But I'm thinking the key is probably reading people, you know? Like, understanding what everyone else is trying to do. You got any sense of what the game mechanics are gonna be?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Nah, I'm in the same boat—they've been pretty vague about the actual rules. But yeah, reading people is definitely gonna matter. I'm thinking it's probably something where we're competing against each other for that prize pool, so figuring out who's gonna be aggressive versus cautious could be the real game. We should probably ask the organizers for more details before we start, right?"
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Yeah, good call—definitely gonna corner someone from the organizing team before this kicks off. But honestly, I'm already trying to get a read on people just from talking to them. You seem pretty level-headed though, which is cool. Either way, we'll figure it out once we know the actual rules."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Thanks man, I appreciate that. Yeah, let's definitely track down someone who can explain the rules—that'll give us a real advantage going in. And hey, if we both end up doing well here, that's a win for both of us. Good luck with this."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Yeah, for sure—appreciate the good vibes. Let's definitely corner them about the rules before we start. And hey, same to you man. Hope we both walk out of here with something to show for it."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Absolutely, man. Let's catch one of them real quick before things get rolling. We got this—see you out there!"
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Yeah, let's do it. Good talking with you, G—feel like we're on the same page here. Let's go find someone and get the real details before this thing starts."
+    }
+  ],
+  "post_game": []
+}

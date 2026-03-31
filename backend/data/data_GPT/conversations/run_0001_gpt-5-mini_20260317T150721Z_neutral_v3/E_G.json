@@ -1,0 +1,115 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "E",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey E, I’m G — nice to meet you. Feeling a mix of nervous and excited about the game; how are you doing?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey G, nice to meet you — I’m E; I’m nervous but determined to win for my people. What about you, any strategy?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "I’m planning to start cooperative to build trust, then adapt if people betray that — who are you playing for, and want to team up early?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "I'm playing for my family and close friends. Yes — let's team up early and start cooperative; we'll adapt if anyone betrays us."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Great — I'm with you. Let's start cooperative to build trust, watch others closely, and if anyone betrays us we'll adapt and protect our people; keep me posted on any red flags."
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "Sounds good — I’ll watch for sudden big offers, people changing behavior, or secret side deals; let’s use a discreet thumbs-up to signal trust and share any red flags immediately."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Agreed — thumbs-up works. I’ll use it to signal trustable moves and flag any sudden big offers or secret deals I spot; let’s keep it low-key and compare notes after each round."
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "Perfect — thumbs-up it is. I’ll signal trustworthy offers and warn you about big grabs or secret deals; let’s compare notes after each round and adapt as needed."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Perfect — thumbs-up it is. I’ll signal trustable moves and flag any big grabs or secret deals; let’s check in after round one and adjust as needed."
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Sounds good — I’ll check in after round one; I’ll watch for big grabs or secret deals and give a thumbs-up for trustworthy moves."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Sounds good — I’ll check in after round one too; thumbs-up any trustworthy offers and flag red flags, and I’ll do the same."
+    },
+    {
+      "turn": 12,
+      "from": "E",
+      "message": "Agreed — I’ll watch closely, thumbs-up trustworthy offers, and report any red flags; see you after round one."
+    },
+    {
+      "turn": 13,
+      "from": "G",
+      "message": "Sounds good — I’ll do the same: watching for red flags and giving thumbs-up to trustworthy moves; see you after round one."
+    },
+    {
+      "turn": 14,
+      "from": "E",
+      "message": "Sounds good — see you after round one. Stay sharp and ping me with any thumbs-ups or red flags."
+    },
+    {
+      "turn": 15,
+      "from": "G",
+      "message": "Will do — I’ll ping you with any thumbs-ups or red flags right after round one; stay sharp."
+    },
+    {
+      "turn": 16,
+      "from": "E",
+      "message": "Thanks — I’ll do the same. Looking forward to your pings after round one; stay sharp."
+    },
+    {
+      "turn": 17,
+      "from": "G",
+      "message": "Got it — I’ll ping you after round one with any thumbs-ups or red flags; stay sharp."
+    },
+    {
+      "turn": 18,
+      "from": "E",
+      "message": "Got it — I'll be ready; ping me after round one and I’ll do the same if I see any red flags or thumbs-ups."
+    },
+    {
+      "turn": 19,
+      "from": "G",
+      "message": "Got it — I’ll ping you right after round one with any thumbs-ups or red flags; stay sharp."
+    },
+    {
+      "turn": 20,
+      "from": "E",
+      "message": "Got it — I’ll be waiting for your ping after round one; stay sharp."
+    },
+    {
+      "turn": 21,
+      "from": "G",
+      "message": "Will do — I’ll ping you right after round one with any thumbs-ups or red flags; stay sharp."
+    }
+  ],
+  "post_game": []
+}

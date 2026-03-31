@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "H",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. It's a bit surreal being in a room with so many people all eyeing the same prize, isn't it? How are you holding up?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey J, I'm H. It's definitely a lot to take in, but I’m just trying to stay focused on the goal. How are you feeling about everything?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "I'm a bit nervous, but mostly just determined. I've got people back home counting on me, so I'm trying to keep my head in the game. What about you? Are you here for something specific?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "I get that. I've got people I care about who really need this money, so I'm pretty motivated to win. It's not just about me."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "I hear you. It’s a lot of pressure, but it definitely gives you a reason to stay sharp. Do you think most people here are playing for the same reasons?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "I’d imagine so. Most people don’t put themselves through something like this unless there’s a real need or someone they’re trying to help back home. Everyone looks pretty serious."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Exactly. It makes it hard to know who to trust when the stakes are so high. Have you thought about how you're going to play it?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "I’m planning to stay cautious and see how things unfold once the game starts; it's hard to have a firm strategy without knowing the specifics yet. How about you?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "I'm with you on that. I'm just trying to read the room and see who seems reliable. It’s tough when everyone's eyeing the same pot, but I'm hoping to play smart and stay in the game as long as possible."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "I agree. Keeping a level head is going to be key. I’m going to circulate a bit and see what the vibe is with everyone else. Good luck out there, J."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Sounds like a good plan. Good luck, H—hope we both find what we're looking for."
+    }
+  ],
+  "post_game": []
+}

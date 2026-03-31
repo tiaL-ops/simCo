@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "D",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey, I'm D! I figured before this game starts, might as well get to know some people. What brings you here today—are you hoping to win big like the rest of us?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey D, nice to meet you! Yeah, I'm definitely here to win—got some people counting on me back home, so I'm pretty motivated. What about you, what's driving you to be here today?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Same here, man—got family I want to help out. That's what's pushing me to really focus and play smart in this game. Do you have a strategy in mind, or are you just gonna wing it?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "I'm still figuring it out, honestly. I'm thinking it's gonna depend on what the game actually is, but I'm leaning toward playing it safe early on and watching how other people move before I commit to anything big. You seem like you've got a plan already—what are you thinking?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Yeah, I feel you on that—I'm gonna play it smart too, watch the room first before I make any big moves. Honestly, I think that cautious approach might be the way to go. We don't know what we're walking into yet, so staying sharp and flexible seems like the play."
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Exactly, man—I like that you're thinking the same way. It's gonna be interesting to see how people react once the game actually starts. You seem like someone I can trust, so hopefully we can both walk out of here with something good today."
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "For sure, I appreciate that. I think we're on the same page—let's both stay sharp in there and see what happens. Good luck, man, and hopefully we both come out ahead today."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Thanks, man—I really mean it. We got this. Let's both stay focused and make it count today."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Absolutely, man. Let's go in there and show them what we're made of. Stay sharp and we'll both do right by our people."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Yeah, let's do this. Good talking with you, D—I've got a good feeling about this. See you in there."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Same here, brother. Let's both keep our heads on straight in there and make our families proud. See you soon."
+    }
+  ],
+  "post_game": []
+}

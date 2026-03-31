@@ -1,0 +1,19 @@
+{
+  "agent_id": "B",
+  "condition": "emotional",
+  "context": "Your little girl, first born, three years old, needs surgery, but you have no health insurance. After taking many loans and selling many assets, three months later you still need 25 000$.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt strongest connections with G, E and H — G because we quickly built a clear signal and backup plan (nods and “cover”) and I felt like a reliable partner, E because she not only agreed to team up but helped share my fundraiser and set a pre-game strategy meeting, and H because we set a simple tap signal and agreed to watch each other calmly and honestly. The person I felt least connected to was J; our interaction was friendly but mostly small talk about a car and didn’t involve any concrete plans or trust-building.\n\nYes — I made several specific agreements: nod/\"cover\" backup with G, the two‑tap/one‑tap signal with H, and a strategy meeting plus fundraiser support with E. I go into the game trusting G, H and E to watch my back, while I’m more wary of J and will be cautious around anyone I haven’t made explicit arrangements with."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 5,
+    "H": 5,
+    "E": 5,
+    "C": 5,
+    "F": 4,
+    "I": 5,
+    "D": 5,
+    "A": 5
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T085049Z_neutral_v3",
+  "pair": [
+    "H",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I’m H. It’s getting a bit tense in here with the game coming up, isn't it? What brings you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Nice to meet you, H. I'm I. It definitely is. Honestly, I'm just here to win some money for my family—I'm really determined to bring something home for them. What's your story?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I’m in the same boat, honestly. I’ve got people back home I care about, and I’m determined to win this so I can make things a bit easier for all of us."
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I hear you. It’s a lot easier to stay focused when you’re doing it for someone else. How many people are you looking out for back home?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Just three—my parents and my younger brother. They’re the reason I’m so focused on this. How big is the family you're playing for?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "It's my mom and my two younger sisters; they've always had my back, so I'm really hoping to come through for them."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "That’s a lot of responsibility, but I totally get it. It sounds like we’re both fighting for the same kind of future for our families."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Exactly. It’s good to meet someone who's here for the right reasons. Have you heard anything specific about how the actual game works yet?"
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Not much, just that we’re all drawing from the same prize pool. I’m trying to stay sharp, but the mystery is definitely adding to the nerves."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "I feel that. The uncertainty is definitely the worst part, but we just have to stay focused on why we're here. Let's see how it plays out—good luck to you."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Thanks, I appreciate that. Good luck to you and your family too—let’s hope it goes well for both of us."
+    }
+  ],
+  "post_game": []
+}

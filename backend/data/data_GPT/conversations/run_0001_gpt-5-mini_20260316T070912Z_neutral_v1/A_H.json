@@ -1,0 +1,116 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "A",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "A",
+      "message": "Hi, I'm A — nice to meet you. Are you feeling nervous or excited about the game, and what brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "I'm both nervous and excited — determined to win so I can bring money home for my family, which is why I came."
+    },
+    {
+      "turn": 3,
+      "from": "A",
+      "message": "I totally get that — I'm here for my family too. What would be the first thing you'd do with the money?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "I'd pay off our overdue rent and bills so my family can breathe, then stock up on groceries and essentials."
+    },
+    {
+      "turn": 5,
+      "from": "A",
+      "message": "I hear you — that would lift such a weight. I’d do the same for my family. How long have you been behind on rent?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "It's been about three months — I lost hours at work and haven't been able to catch up."
+    },
+    {
+      "turn": 7,
+      "from": "A",
+      "message": "I'm so sorry — that's really tough. Do you have any support or options to help you catch up if you don't win?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "I have a few options — my sister might lend a little, I'm trying to pick up extra shifts and I’ve asked the landlord about a payment plan, but it's still really tight."
+    },
+    {
+      "turn": 9,
+      "from": "A",
+      "message": "I’m glad you have options—that’s something, but I know it’s still tight; if you want, I can help you look for extra shifts or rehearse what to say to your landlord."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Thank you — I’d really appreciate help rehearsing what to say to my landlord and any leads on extra shifts."
+    },
+    {
+      "turn": 11,
+      "from": "A",
+      "message": "Sure — quick landlord script: \"Hi [Name], I’ve fallen behind after losing hours but I want to stay. Could we set a payment plan? I can pay $X now and $Y each week until I’m caught up and would appreciate waiving late fees if possible.\" I can role-play that with you. For extra shifts: ask your supervisor for overtime/cover, check coworkers, contact temp agencies, try delivery/ride-share apps or local restaurants/retail for weekend shifts — I’ll pass along any leads I find."
+    },
+    {
+      "turn": 12,
+      "from": "H",
+      "message": "Thanks—that script is really helpful; I’d love to role-play the landlord with you and please send any shift leads you find, I appreciate it."
+    },
+    {
+      "turn": 13,
+      "from": "A",
+      "message": "I can role-play now — want me to be your landlord? Tell me their name and how much you can pay now and weekly and I’ll start the script; I’ll also look for extra-shift leads tonight and send anything I find."
+    },
+    {
+      "turn": 14,
+      "from": "H",
+      "message": "Yes please — my landlord is Mr. Garcia. I can pay $100 now and $50 weekly; please role-play that and send any shift leads you find. Thanks."
+    },
+    {
+      "turn": 15,
+      "from": "A",
+      "message": "Mr. Garcia (role‑playing): \"Thanks for letting me know — I can accept $100 now and $50 weekly as a payment plan. If you can pay the $100 by this Friday and start the $50/week payments the following Monday, I’ll agree to waive late fees as long as you stick to the schedule. I’ll send a short written agreement to sign to make it official; if you miss more than one payment we’ll need to reassess. How will you pay the $100 (cash/transfer) and does that timing work for you?\" I’ll also send any extra-shift leads I find tonight."
+    },
+    {
+      "turn": 16,
+      "from": "H",
+      "message": "That timing works — I can pay the $100 in cash by Friday and start $50 weekly via bank transfer on Monday. Thank you so much for role‑playing and for looking for shift leads; please send anything you find. I really appreciate it."
+    },
+    {
+      "turn": 17,
+      "from": "A",
+      "message": "That’s great — I’m glad it works. I’ll send any shift leads I find tonight and I’m here to role‑play again whenever you want."
+    },
+    {
+      "turn": 18,
+      "from": "H",
+      "message": "Thanks — I really appreciate it; please send any shift leads you find, and I may ask you to role‑play with me again."
+    },
+    {
+      "turn": 19,
+      "from": "A",
+      "message": "I’ll send any shift leads I find tonight and I’m happy to role‑play with you again whenever you need—good luck with Mr. Garcia, you’ve got this."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "You took $5,000 (fair share $10,000, g_k=0.5). Was that an intentional choice to be extra-cooperative or modest, or did the prize run out before you could pick a larger amount? What reasoning led you to take half the fair share?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "It was intentional — a choice to be cooperative/modest, not because the prize ran out. With the fair share at 10,000 and g_k = 0.5 I chose half (5,000) to signal fairness and avoid provoking a greedy response that could reduce total payoffs later. I figured taking the full fair share could lower mutual trust and invite retaliation in subsequent interactions, so I preferred a clean, equal-looking split that keeps incentives aligned and preserves the possibility of reciprocal cooperation."
+    }
+  ]
+}

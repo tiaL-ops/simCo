@@ -1,0 +1,19 @@
+{
+  "agent_id": "D",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the strongest connections with G and I because we moved beyond just sharing motivations and actually committed to looking out for one another as allies. My conversation with J also stood out because we got specific about the family members we are playing for, which made our shared drive feel more personal and grounded. On the other hand, I felt the least connected to E; while we were on the same page about the prize, our exchange felt a bit more brief and less substantial than the others.\n\nI made a formal deal to look out for G and agreed to stick together with I, so I am entering the game trusting them as my primary partners. I also have a loose agreement with B to touch base once the rules are revealed to see how we can help each other. While I don't specifically distrust anyone yet, I am staying wary since everyone here is driven by the same level of desperation to provide for their families."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "G": 4,
+    "A": 4,
+    "F": 4,
+    "H": 4,
+    "I": 4,
+    "E": 4,
+    "B": 4
+  }
+}

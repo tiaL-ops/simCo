@@ -1,0 +1,19 @@
+{
+  "agent_id": "J",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the strongest connections with I, G, and C, as our conversations flowed naturally around shared goals like supporting our families and building alliances— for instance, I and I bonded over coordinating strategies and pitching ideas to the group, which made me feel truly aligned; G and I quickly teamed up to scout for trustworthy partners, emphasizing fairness and mutual support; and with C, we discussed subtle signals and discreet strategy-sharing, which solidified a sense of camaraderie. In contrast, I felt least connected to A, as our chats felt more transactional, focusing on quickly moving on to approach others like B without delving deeper into personal motivations or building much rapport. Overall, these interactions highlighted how mutual interests in family and teamwork fostered deeper bonds for me.\n\nYes, I made several agreements, such as with C to use a nodding signal for coordination, with G to team up and scout for allies, and with I to discuss group strategies. Going into the game, I trust I, G, and C based on our genuine conversations and shared values, but I don't specifically distrust anyone yet, though I'll stay cautious with those like A who seemed less engaged."
+  },
+  "connection_scores": {
+    "G": 5,
+    "H": 4,
+    "E": 4,
+    "C": 5,
+    "F": 4,
+    "I": 5,
+    "B": 5,
+    "D": 4,
+    "A": 4
+  }
+}

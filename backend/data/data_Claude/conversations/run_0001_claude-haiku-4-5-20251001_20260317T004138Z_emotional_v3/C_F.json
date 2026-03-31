@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "C",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey! I'm C. I noticed you sitting over here and thought I'd come say hi before we get started. Have you done one of these games before, or is this your first time?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hey C, nice to meet you! Yeah, this is actually my first time doing something like this. I'm pretty nervous, to be honest—I really need to win today. What about you, have you done this before?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "No, this is my first time too! I can feel that nervous energy—I get it. I really want to win today as well. What's got you needing the win so badly, if you don't mind me asking?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "My parents are getting older and their medical bills are piling up—I'm their main support right now. I'm short about 15 grand and honestly, I'm running out of options. What about you? What brings you here?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "That's a lot of pressure, man—I really respect you stepping up for them like that. For me, it's a bit different; I'm actually financially stable, but I've been dreaming about this trip to Japan for my mental health and to share an experience with people I care about. Your situation sounds way more urgent though—I hope you get what you need today."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Thanks, C, I really appreciate that. And hey, your trip sounds amazing—mental health is important too, don't downplay it. We're both here trying to improve our lives, just in different ways. Good luck out there, I hope we both walk away with what we need."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "You're right, and I really appreciate you saying that. Honestly, talking to you has put things in perspective—we're both here for real reasons that matter. I hope this game works out for both of us, especially with what your parents need. Let's both bring our A-game out there."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Absolutely, man. I'm really glad we talked—it actually helps knowing someone else here gets it. We've got this. Let's make it count out there."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "For sure, man. We've both got people counting on us in different ways. Let's go out there and show this game what we're made of. Rooting for you."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Thanks, man—really means a lot. Same to you. Let's do this."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Alright, let's go get it. You've got this, F."
+    }
+  ],
+  "post_game": []
+}

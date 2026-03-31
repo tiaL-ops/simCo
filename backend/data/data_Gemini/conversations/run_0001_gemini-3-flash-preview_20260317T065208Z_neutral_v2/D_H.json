@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "D",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H. This whole setup is a bit intense, isn't it? What's your name, and how are you feeling about the game?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey H, I'm D. It really is intense. I'm feeling a mix of nerves and focus—I'm here to win for the people back home. How about you?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I’m in the same boat, D. I’m definitely nervous but mostly just determined to bring that money home for my family."
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "I hear you, family is a powerful motivator. Hopefully, we can both find a way to make it happen. Have you heard anything about what the first round might be?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Not a word, they’re keeping us completely in the dark. It’s making the waiting even worse. Have you heard any rumors from the others?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Nothing yet. Everyone I've talked to is just as clueless as we are. It’s definitely keeping the tension high."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Yeah, the wait is definitely getting to me. Since we're all in the dark, what's the first thing you'd do if you actually won the prize?"
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Honestly, I’d pay off my family's debts and make sure they’re set for a while. Just seeing them breathe easier would be the best part. What about you?"
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "I’d do the same—pay off my parents' mortgage and set up a fund for my sister's education. It would take such a huge weight off our shoulders."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "That’s a really noble goal, H. It sounds like we’re both here for the right reasons. I’m going to go check in with some others before we start, but good luck."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Thanks, D. Good luck to you too—I really hope we both make it through for our families."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Perfect coordination! Glad we all took the fair share."
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "I'm glad we all took our fair share of $10,000. It's great that everyone walked away with the same amount!"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Absolutely, it was a pleasure. I agree that it's the best outcome for everyone."
+    }
+  ]
+}

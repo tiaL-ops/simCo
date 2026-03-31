@@ -1,0 +1,19 @@
+{
+  "agent_id": "I",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to H, E, and B, as our conversations flowed naturally with shared excitement about winning for our families and solid agreements on early cooperation, like H and I discussing teaming up to build trust, E and I establishing a nod signal for coordination, and B and I planning to share observations for alliances—it made me feel genuinely aligned with them. In contrast, I felt least connected to D, since our discussions centered more on caution, red flags, and assessing trustworthiness, which felt a bit guarded and less personal compared to the others. Overall, these connections highlighted how open communication and shared goals strengthened my relationships in this group.\n\nYes, I made several agreements, including teaming up with J for a taking turns strategy, with G to form a small alliance, and with E to use a nod signal for coordination during the game. Going into the game, I trust H, E, and B the most due to our positive and consistent interactions, but I don't fully trust D because our talks emphasized wariness and potential inconsistencies, making me more cautious about their reliability."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "H": 5,
+    "E": 5,
+    "C": 4,
+    "F": 4,
+    "B": 5,
+    "D": 4,
+    "A": 5
+  }
+}

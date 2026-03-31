@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T065208Z_neutral_v2",
+  "pair": [
+    "G",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. It’s a bit of a tense atmosphere in here, isn't it? I’m just trying to stay focused on why I’m here—what about you, what's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey J, I'm G. It's definitely a bit heavy in here. I'm just here to win for my family back home; they're the main reason I'm pushing through this. What's your story?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Honestly, it’s pretty similar. I’ve got people I care about who really need this, and I want to be the one to provide for them. It's what's keeping me focused."
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "I hear you. It’s a lot of pressure when others are counting on you, but it’s the best kind of motivation. Let's hope things go well for both of us."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Definitely. It’s nice to meet someone with their head in the right place. Hopefully, we can both walk away with something."
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "For sure. It’s good to know there are others here for the right reasons. Let's see what happens when the game kicks off."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Yeah, definitely. Good luck to you, G. Let's hope we both come out on top."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Thanks, J. Same to you. Let's stay sharp and make them proud back home."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "That's the plan. Let's stay focused and make it happen."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Absolutely. Catch you later once things get moving."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Sounds good, G. See you out there."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "I'm glad we all chose the fair share of $10,000. It's the best outcome we could have hoped for."
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "I agree, it's a great result for both of us. It's good to see that cooperation led to the best possible outcome."
+    }
+  ]
+}

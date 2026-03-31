@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T225735Z_emotional_v1",
+  "pair": [
+    "C",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi, I'm C — nice to meet you. I'm trying my luck to win a bit extra for a dream week in Japan. What brings you here?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "I'm here to try to win extra money to help out the people I care about and treat them—where in Japan would you go first?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I'd start in Kyoto — all the temples, tea houses and amazing food; where would you go first?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I'd go to Tokyo first — love the energy, sushi and quirky neighborhoods; Kyoto sounds perfect though. What's the first thing you'd try there?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "An authentic kaiseki meal and then an early-morning walk through Fushimi Inari — food and those torii would be a dream."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "That sounds amazing — I'd love to join that early walk and share a kaiseki; what's one dish you're most excited to try?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "I can’t wait to try a kaiseki course with melt-in-your-mouth wagyu and delicate seasonal sashimi."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "That sounds amazing — I'd love to share that kaiseki and the Fushimi Inari walk; wagyu and delicate sashimi are right up my alley."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Absolutely — that would be the perfect day; fingers crossed we both win and make it happen."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "I’m with you — here’s hoping we both win and make that Kyoto/Tokyo day happen."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Fingers crossed — may luck be on our side; I’d love to share that Kyoto/Tokyo day with you."
+    },
+    {
+      "turn": 12,
+      "from": "I",
+      "message": "Fingers crossed — I’d love to share that trip; here’s hoping we both win and make it happen."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "You took $3,000 (well below your fair share). Why did you take less than the fair amount—principle, protest, or expecting others to cover more? How did it feel watching several players take large amounts?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "I took $3,000 deliberately to signal restraint and fairness—I wanted to avoid escalating greed, keep my conscience clear, and give the group a chance to stabilize cooperation rather than everyone racing to grab the max. It was partly principled (I prefer not to take more than I need) and partly strategic: I hoped others would cover more or that the group would reward restraint in later rounds. Watching several players take large amounts felt uncomfortable and a little frustrating—it highlighted inequality and reduced trust—but I also felt relieved I hadn't provoked conflict and curious whether their choices would backfire socially or in future interactions."
+    }
+  ]
+}

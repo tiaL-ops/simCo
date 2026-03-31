@@ -1,0 +1,19 @@
+{
+  "agent_id": "B",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to D, H, and I. With D, we quickly established mutual trust and agreed to team up strategically after the rules were explained. H resonated with me because we both understood the tension between family obligations and fairness, and we committed to keeping each other's backs. I appreciated I's thoughtful approach to finding a coalition that would maximize everyone's take-home rather than just scrambling for individual gains. G felt like the least connected—our conversation was more surface-level, and while we were friendly, there wasn't the same depth of commitment or shared understanding that I developed with the others.\n\nI made explicit agreements with D, H, I, E, and C to touch base immediately after the rules were explained and to figure out a coordinated strategy together. I trust D, H, I, C, F, J, E, and A going into the game because they all seemed genuinely interested in cooperation and thinking strategically rather than just grabbing what they could. I don't have specific distrust of G, but I feel less confident about his commitment level compared to the others."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "G": 3,
+    "A": 4,
+    "F": 4,
+    "H": 4,
+    "I": 4,
+    "E": 4,
+    "D": 4
+  }
+}

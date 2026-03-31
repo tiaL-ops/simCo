@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "F",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. First time doing something like this? I'm honestly pretty nervous but excited—heard there's real money on the line, so I'm trying to get a feel for what we're all about before we start."
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Yeah, first time for me too, honestly. I'm F by the way. Same here—nervous but pumped, you know? I really need to bring something home for my family, so I'm trying to figure out how this whole thing works. You got any idea what the game actually involves?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Nah, not really—they've been pretty vague about the details, which honestly makes me more nervous, haha. But I'm in the same boat with my family, so I figure we just gotta stay sharp and see what happens. You thinking you'll try to team up with people or go solo?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Good question—I'm honestly not sure yet. Part of me thinks teaming up could help us both, but I also don't want to get screwed over, you know? Maybe I'll feel it out once we see what the actual game is. You leaning one way or the other?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Yeah, I feel that—trust is the tricky part. Honestly, I'm thinking I'll see how people act during the game itself before committing to anything. If I can tell someone's genuine and we're on the same page about helping each other out, then maybe. But yeah, no point teaming up just to get blindsided, right?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "For sure, that makes sense—I'll probably do the same thing, just watch how people move during the game and see who seems legit. Hopefully we both figure out who we can trust pretty quick, because honestly having even one person to work with might make a real difference."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Yeah, absolutely—I think that's smart. And hey, if we both end up feeling good about each other once we see how things play out, we can always circle back. Either way, good luck out there, F. Hope we both walk away with something for our families."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Yeah, same to you, man. I appreciate that—feels good to know there's at least one person in here I can vibe with. Let's both stay sharp and see what happens. Good luck out there."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "For sure, man. We got this—just gonna play it smart and see where it goes. Catch you once the game starts."
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Alright, sounds good. Let's keep our heads in the game and stay alert. See you in there, G."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Yeah, let's do this. Stay sharp out there, and hey—may the best person win, but hopefully we both come out ahead. See you in there."
+    }
+  ],
+  "post_game": []
+}

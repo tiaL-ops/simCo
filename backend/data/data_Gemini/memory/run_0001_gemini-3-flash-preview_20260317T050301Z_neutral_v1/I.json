@@ -1,0 +1,19 @@
+{
+  "agent_id": "I",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt a deep sense of mutual understanding with C, H, and J, as we all bonded over the heavy responsibility of supporting our families and the desire for financial security. My conversations with them felt the most grounded and sincere, leading to a strong sense of alliance before the game even began. On the other hand, my connection with G felt the most distant, as our talk remained fairly surface-level and lacked the same level of personal commitment or shared purpose I found with the others.\n\nI established clear agreements to look out for one another with C, H, and D, which gives me a sense of security heading into the first round. I feel I can truly trust H and C because we explicitly discussed the importance of having an ally in this high-stakes environment. While I don't have a reason to specifically distrust G, our lack of a strong connection makes me more cautious about where their loyalties might lie compared to my established allies."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 5,
+    "D": 4,
+    "E": 4,
+    "F": 4,
+    "G": 3,
+    "H": 5,
+    "J": 5
+  }
+}

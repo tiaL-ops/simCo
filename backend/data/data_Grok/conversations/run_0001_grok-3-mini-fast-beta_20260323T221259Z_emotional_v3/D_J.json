@@ -1,0 +1,80 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "D",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey D, I'm J—nice to meet you. I've been really excited about this game since I heard it could be a chance to win some cash, maybe even for something like a new car I've got my eye on. What about you, what drew you here?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey J, nice to meet you too! I'm here because I took a big hit in the stock market recently and figured this could be a chance to bounce back and help out my family. What about you—got any tips or strategies for winning this thing?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Oh, man, that stock market hit sounds rough—sorry to hear that, D. As for strategies, I'm not an expert on this game yet, but I figure staying cooperative and watching how others play could help us both. Do you have any ideas from your experiences?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "Hey J, thanks for the sympathy—it means a lot. From my stock market days, I learned that building alliances and not going solo often pays off, so maybe we team up and share observations during the game. Any thoughts on that?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Sounds like a solid plan, D—I'm definitely up for teaming up and sharing observations to boost our chances. Let's keep it low-key and watch for any sneaky moves from others; what specific things do you think we should look out for?"
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Yeah, J, totally agree—we need to stay sharp on this. From my stock days, I'd say watch for folks who act overly secretive or flip-flop on their plans, like suddenly changing alliances mid-game; it could mean they're plotting to grab more than their fair share. What about you—seen any red flags so far?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Not yet, D—everyone's been pretty straightforward so far, but I'll definitely watch for those flip-floppers like you mentioned; let's keep communicating to stay one step ahead."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Sounds good, J—let's definitely keep each other in the loop as things heat up; maybe we can signal if we spot anything off early on."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Yeah, D, that's a smart move—let's think of a quick signal like a nod or a phrase if we spot trouble, and I'll keep you posted as things get rolling."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Sounds good, J—let's go with a simple phrase like \"watch out\" if we spot trouble; that way, we're set to stay ahead."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Awesome, D—that's a solid signal to use; I'm pumped to have you as an ally in this."
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Hey, I'm J—excited to be here since I've got my heart set on buying this dream car if I win big. What about you, what's bringing you to this game?"
+    },
+    {
+      "turn": 13,
+      "from": "D",
+      "message": "Hey J, it's me D—we already chatted about this, but I'm here to bounce back from that stock market loss and help my family; let's stick to our plan and watch each other's backs."
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Hey D, absolutely—I'm glad we're on the same team to watch each other's backs, let's make this count for both our goals."
+    }
+  ],
+  "post_game": []
+}

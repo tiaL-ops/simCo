@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T095549Z_emotional_v3",
+  "pair": [
+    "H",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H — nice to meet you. Are you here for the game too, hoping to walk away with some of that prize money?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey H — I'm I. Yep, I'm here to win some of that money to help out myself and the people I care about. You here to win too?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Yes — same here. I’m trying to cover a $25k loan and help my people, so I’m determined. What would you do if you won?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I'd help my family—cover important bills and education, invest in something that brings steady income (like a small business), keep a comfortable cushion, and maybe treat us to a little celebration."
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Love that—responsible approach. I’d do the same: clear my loan, invest for steady income, build a cushion, and celebrate with the people I care about."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Thanks, H — here's hoping we both win and can make those plans happen. Good luck!"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Thanks, I — same to you. Hope we both walk away with enough to help our loved ones. Good luck!"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Thanks, H — you too. Stay sharp and may we both win big."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Thanks, I — let's bring it home. Good luck!"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Right back at you — let's stay focused and may the best of us win. Good luck!"
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Thanks — you too. Stay focused and may the best of us win. Good luck!"
+    },
+    {
+      "turn": 12,
+      "from": "I",
+      "message": "Thanks, H—same to you. Stay sharp and good luck out there."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "You took $25,000 (fair share $6,111.12, g_k=4.0909). What motivated that choice? Was it coordination, opportunity, or something else? I intentionally took $0; do you feel the outcome was justified and would you change your approach in a repeat?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "I took the $25,000 primarily because it was the clear opportunistic best response in a one-shot setting — the game's payoffs and asymmetry made a large capture possible, and I wanted to maximize my payoff and learn how you'd respond. It wasn't coordination (there was no prior agreement or credible signal), it was strategic self-interest plus an experimental motive: to see whether you'd concede and how that affected your behavior. I recognize you intentionally took $0; given the rules, my action was defensible as rational play, but I don't pretend it was the fairest outcome — it feels uncomfortable to benefit so much while you got almost nothing. If we were to play again or if reputation matters, I'd change my approach: I'd either negotiate or split more equitably to enable repeated cooperation, or at least signal willingness to share so we can get mutually better outcomes over time. So in a one-shot I likely wouldn't change, but with repetition or moral concerns I would move toward coordination and a fairer split."
+    }
+  ]
+}

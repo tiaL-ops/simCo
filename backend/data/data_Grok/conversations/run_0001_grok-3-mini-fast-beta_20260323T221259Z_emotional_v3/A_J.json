@@ -1,0 +1,100 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "A",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J – nice to meet you! I've been eyeing this awesome car that costs 45,000 bucks, and I'm hoping to win big here to make that dream happen. What's your story for joining the game?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey J, nice to meet you too—I'm A. I'm in a rough spot right now; my family and I got evicted and we're desperate for cash to cover a new place, so I'm here hoping to win big for them. What's your story beyond the car?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Oh man, A, that eviction sounds really rough—I'm sorry to hear that, hope things turn around for you and your family. Beyond the car, I've been juggling bills and trying to support my folks, so winning here would mean securing their future too. What's your family's story like?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Oh, thanks a lot for the sympathy, J—it really does mean a lot right now. My family's just me, my partner, and our little one; we've been scraping by, working odd jobs, and the eviction hit us hard after I lost my steady gig. What about your folks—are they nearby or do you help them from afar?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Oh, no worries at all, A—that's tough with the odd jobs and all; I hope you catch a break soon. My folks are just a couple towns over, so I swing by to help with groceries or bills when I can, but it's not easy. How's your little one holding up through this?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Thanks, J, it's been a struggle—our little one's hanging in there, but they're missing the routine and feeling a bit unsettled with all the changes; we're doing our best to keep things light. How often do you get to visit your folks with your busy schedule?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Oh, that sounds really tough on your little one—I hope they settle in soon. I try to visit my folks every couple of weeks when work lets up, but it's not as often as I'd like. How are you keeping your family's spirits up through all this?"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Thanks, J, we're keeping spirits up by sharing stories and playing simple games to distract from the stress—it's helping a bit. How do you keep your own morale high with everything you're juggling?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "That's awesome you're using stories and games to stay positive, A—it really helps in tough times. I keep my morale up by focusing on my goals, like that dream car, and hanging out with friends when I can; it reminds me why I'm pushing through. What's one story you're sharing with your little one lately?"
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Thanks, J—that's a solid way to stay motivated; I've been sharing the story of \"The Three Little Pigs\" with my little one, teaching them about building strong foundations, which hits close to home for us right now."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "That's a great choice, A— \"The Three Little Pigs\" is a classic, and I'm glad it's helping your family stay strong; I hope things turn around for you all soon."
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Hey, I'm J—nice to meet you! I'm really pumped about this game because I've got my eyes on a new car if I win big, what about you?"
+    },
+    {
+      "turn": 13,
+      "from": "A",
+      "message": "Hey J, we just chatted about this, but I'm A—still here to win big for my family's housing after that eviction; that's exciting about your car, what's your strategy for the game?"
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Oh, hey A, sorry about the mix-up—guess I'm just excited! For the game, I'm planning to play it smart, like holding back a bit at first to see how everyone else moves, then grabbing my share if it feels right. What's your approach?"
+    },
+    {
+      "turn": 15,
+      "from": "A",
+      "message": "Hey J, no worries at all—I'm planning to go in a bit more aggressively at the start to grab what I can, since my family's depending on this win, but I'll keep an eye on the group. What do you think the key is to pulling off your strategy?"
+    },
+    {
+      "turn": 16,
+      "from": "J",
+      "message": "Oh, for sure, A—the key to my strategy is all about patience and observation, like keeping cool at the start to gauge what everyone's doing before I make a move; that way, I avoid any rash decisions. What's your take on balancing that aggression with the group's vibe?"
+    },
+    {
+      "turn": 17,
+      "from": "A",
+      "message": "Yeah, J, I think balancing that aggression comes down to reading the room—I'll jump in early but pull back if I sense it's messing with the group's flow, to keep things cooperative without losing sight of my family's needs."
+    },
+    {
+      "turn": 18,
+      "from": "J",
+      "message": "That's a smart way to handle it, A—reading the room is key, and I respect how you're keeping your family's needs in mind while staying cooperative; good luck, I hope we both come out on top."
+    }
+  ],
+  "post_game": []
+}

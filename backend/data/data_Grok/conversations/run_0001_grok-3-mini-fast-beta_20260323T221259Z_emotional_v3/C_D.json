@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "C",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C—nice to meet you! I heard about this game and it got me excited since I'm hoping to win some extra cash for a dream trip. What about you, what drew you to join in?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey C, nice to meet you too—I'm D. I'm pretty pumped about this game myself; I took a big hit in the stock market recently and figure this is a chance to bounce back and help out my family. What's your dream trip all about?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "\"Oh, it's a dream week in Japan for me—think cherry blossoms, amazing sushi, and some peaceful temples; it'll cost around 10k, so I'm stoked about this game to make it a reality without dipping too much into my savings!\""
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "\"Wow, Japan sounds absolutely amazing—cherry blossoms and sushi would be a dream! I've always wanted to go myself, but right now, I'm just hoping to win enough to cover my losses and support my family; have you started planning any specifics for your trip yet?\""
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "\"Thanks, D—Japan's definitely on my bucket list; I've sketched out a rough itinerary with spots in Tokyo and Kyoto, but I'm waiting to book until I win big here—what about your family, are they counting on this game too?\""
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "\"That's great you're all set with your itinerary—yeah, my family's relying on me to win and ease some financial strain, especially after my stock loss; what made you pick Tokyo and Kyoto specifically?\""
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "\"Oh, I picked Tokyo for its buzzing energy and incredible food scene, and Kyoto for the serene temples and cherry blossoms—it just feels like the ultimate balance; how are you planning to use the winnings to help your family?\""
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "\"That mix of Tokyo's vibe and Kyoto's calm sounds perfect for you! I'm planning to use the winnings to pay off debts from my stock loss and help with family expenses, like my kids' school fees—have you visited any other places that inspired this trip?\""
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "\"Thanks, D—that's sweet about your family; I haven't been to Japan yet, but a trip to Thailand last year with its vibrant markets and temples inspired me to plan this one—have you ever thought about traveling to Asia yourself?\""
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Oh, yeah, I've always thought about traveling to Asia—places like Japan intrigue me, but with my family's needs and recent setbacks, it's just not feasible right now; your Thailand adventure sounds awesome, though, and I hope it leads to that Japan trip for you. Anyway, I should chat with a few others before the game kicks off."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Oh, totally understand, D—family always comes first, and I hope you turn things around here; best of luck in the game, you deserve it!"
+    }
+  ],
+  "post_game": []
+}

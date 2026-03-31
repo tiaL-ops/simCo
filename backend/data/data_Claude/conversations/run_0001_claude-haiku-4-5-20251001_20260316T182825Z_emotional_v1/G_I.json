@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T182825Z_emotional_v1",
+  "pair": [
+    "G",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey! I'm G. So, have you done one of these games before, or is this your first time? I'm pretty excited but also curious what I'm getting myself into, honestly."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "First time for me too! I'm pretty pumped about it though—I've got some savings cushioning me, so I'm feeling ready to take a shot at this. What kind of games have you done before?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Oh nice, that's good you've got a cushion! I've played a bunch of casual stuff—poker nights with friends, some online games, that kind of thing. Nothing with actual money on the line like this though, so it's definitely a step up. What made you decide to jump into this one?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Honestly, I heard about the prize pool and thought it could be a real opportunity to win something meaningful—money I could actually use for myself and help out people I care about. Plus, having that safety net makes it feel less risky, you know? What about you—what drew you in despite it being your first time with real money on the line?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Same reason, honestly—I really want to bring something home for my family and myself. The prize pool got me hooked, and I figure if I'm smart about it and read the game right, I've got a shot. Plus, I love the thrill of competition, so here we are!"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Yeah, I get that—the competition part is definitely exciting. Do you have any sense yet of what the actual game mechanics are gonna be, or are we all going in kinda blind here?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Honestly, I'm going in pretty blind too—haven't gotten the full breakdown yet. I'm planning to watch carefully when it starts and see if I can pick up on patterns or strategies as we go. You thinking the same way, or do you have a game plan already?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Yeah, I'm pretty much in the same boat—I figure we'll learn as we go. I'm gonna start by observing too, see how people play and what works. Maybe we can both keep our eyes open and adapt once we see what we're actually dealing with, you know?"
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Absolutely, that sounds like a solid approach. I like that we're both thinking the same way—staying flexible and reading the room. Hey, if things get interesting once we start, maybe we can check in with each other and see what we're picking up on?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Yeah, definitely—I'm down for that. It'll be good to have someone I can trust to bounce observations off of. Let's see what happens when we get started."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "For sure—I'm really glad we talked, honestly. Having someone level-headed to work with makes this feel less overwhelming. Good luck out there, and let's both bring home some wins!"
+    }
+  ],
+  "post_game": []
+}

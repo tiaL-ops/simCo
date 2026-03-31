@@ -1,0 +1,80 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T125838Z_emotional_v2",
+  "pair": [
+    "C",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I’m C. It’s a bit surreal being in here with everyone, isn't it? What’s the first thing you’d do if you walked away with the prize money today?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Nice to meet you, C. I'm F. It really is surreal. Honestly, I’d use the money to pay off my parents' medical bills right away—they're in a tough spot and really need the help."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "That’s really selfless of you, F. Family is everything. I’m hoping to win for a dream trip to Japan and to take care of my loved ones too."
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Japan sounds like an incredible trip, C. It's great you're looking out for your family too—I think we're all just hoping to make life a little easier for the people we love."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Exactly, it really puts things into perspective when family is involved. How much are you hoping to win to get those bills sorted?"
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "I’m short about $15,000, so that’s the target I’ve got in my head to really get them in the clear."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "That’s a solid number to aim for, and for such a good cause. I'm looking for about $10,000 to make my Japan dream happen, so I hope we can both get what we're after."
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "I hope so too, C. It would be a huge relief for both of us to walk away with what we need. Fingers crossed the game works out in our favor."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Absolutely. It’s good to know we’re both here for the right reasons. Let’s see what happens when the game starts!"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "Definitely. Good luck to both of us, C. I'm going to see who else is here before we get started."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Best of luck, F. I'll be rooting for you to get those bills covered. See you soon!"
+    },
+    {
+      "turn": 12,
+      "from": "C",
+      "message": "Hi F, I'm C. This is a pretty intense way to meet new people, isn't it? I'm curious, what's the big dream you're hoping to fund today?"
+    },
+    {
+      "turn": 13,
+      "from": "F",
+      "message": "Hey C, I think we're repeating ourselves! Like I said, it's for my parents' medical bills. I'm going to go see who else is around. Good luck again!"
+    },
+    {
+      "turn": 14,
+      "from": "C",
+      "message": "Total brain fog, sorry! My mind is already halfway to Tokyo. Good luck with your parents' bills, I really hope it works out for you."
+    }
+  ],
+  "post_game": []
+}

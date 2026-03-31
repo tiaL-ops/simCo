@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "F",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F. It’s getting a little crowded in here, isn't it? I just wanted to introduce myself before the game gets moving."
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey F, I'm J. Nice to meet you. Yeah, it's definitely a full house. What brings you here today?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Honestly, I’m just here for the prize money. I’ve got some people back home I really want to help out. What about you?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Same here, honestly. I've got some people I care about that I'm determined to help out with this money."
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "I respect that. It definitely makes the stakes feel higher when it’s for family, doesn't it?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Absolutely. It adds a lot of pressure, but it's also the best kind of motivation."
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "I couldn't agree more. It really sharpens the focus. Have you heard anything about what we're actually going to be doing in there?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Not really, just that there's a shared prize pool we'll be taking from. I'm guessing it might involve some tough choices."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "That’s my worry too. Hopefully, it’s not a 'winner takes all' situation and we can all walk away with something for our families."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "I definitely hope so. It’d be much better if we could all find a way to win together."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "That would be the ideal outcome. Let's keep that mindset going into the game and see if we can make it happen. Good luck to you, J."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Great coordination! I'm glad we all stuck to the $10,000 fair share and reached the best possible outcome."
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "I agree, it was a pleasure coordinating with you to ensure we both received a fair share."
+    }
+  ]
+}

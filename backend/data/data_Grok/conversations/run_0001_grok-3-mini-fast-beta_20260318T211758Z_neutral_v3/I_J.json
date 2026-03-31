@@ -1,0 +1,80 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "I",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J—nice to meet you. I'm really pumped about this game since I heard it's a chance to win some cash for my folks back home; what's your story?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey J, nice to meet you too—I'm I, and I'm super excited about this game since I want to win some cash for my family and friends; what do you do back home?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "That's awesome you're doing this for your loved ones—back home, I'm a mechanic fixing cars to support my family, how about you, what's your typical day like?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Oh, that's cool—I'm a teacher back home, so my days usually involve prepping lessons and dealing with energetic kids; it keeps me on my toes, how about any tips from your mechanic work that might help us here?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "That's awesome about teaching—sounds like it hones your people skills! From my mechanic work, I'd say always check the big picture before tweaking parts; maybe in this game, we should coordinate our moves to avoid messing up the shared pot—what do you think?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Yeah, that's a smart idea—coordinating could really help us all win more, especially since I'm used to managing group dynamics in the classroom; what kind of strategy were you thinking for the game?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Yeah, totally—maybe we could all agree on a simple plan like taking turns or setting a limit on what each person grabs from the pot to keep it fair for everyone; as a mechanic, I think about teamwork like fixing a engine together—what's your take on that?"
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Yeah, I totally agree—taking turns or setting limits sounds fair, like how I manage turn-taking in class to keep things smooth; as a teacher, I'd say open communication is key, so maybe we discuss this with the group first?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Yeah, open communication is spot on—let's pitch this taking turns or limits idea to the group soon; maybe you could lead with your teaching experience to make it relatable, what do you reckon?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Yeah, that makes sense—I'm down to lead with my teaching angle to get everyone on board; let's rally the group soon!"
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Sounds great, I—let's make this happen and win big for our folks!"
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Hey, I'm J—nice to meet you! I'm really pumped about this game and the chance to win some cash; what's your take on it so far?"
+    },
+    {
+      "turn": 13,
+      "from": "I",
+      "message": "Hey J, we've already chatted about this, but I'm still pumped and think our teamwork plan is solid—let's go crush it!"
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Yeah, I, I'm totally with you—our teamwork plan's gonna be a game-changer, let's crush this for our folks!"
+    }
+  ],
+  "post_game": []
+}

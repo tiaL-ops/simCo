@@ -1,0 +1,86 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T095549Z_emotional_v3",
+  "pair": [
+    "H",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J — nice to meet you. I'm hoping to win enough to buy a new car and help my family; what's your plan for the game?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Nice to meet you, J — I'm aiming to win about $25,000 to pay off a loan next month and give my loved ones some much-needed support."
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Sorry to hear that — paying off a loan is important. I’m after $45,000 for a new car; maybe we can watch each other’s backs so we both have a shot. Good luck!"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Thanks, J — I appreciate it. Let’s watch each other’s backs so we both have a shot. Good luck!"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Thanks, H — same here. Let's watch each other's backs and stay sharp; see you at the game."
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Absolutely — we'll watch each other's backs and play smart. Good luck, J — see you at the game."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Thanks, H — I appreciate it. Let’s stick together, play smart, and look out for each other. See you at the game."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Absolutely, J — I’ve got your back. Let’s stay sharp, stick together, and bring home what we need. See you at the game."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Thanks, H — I appreciate it. Let’s stay focused, watch each other’s backs, and win this. See you at the game."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "You too, J — we’ll stay sharp and watch each other’s backs. Bring your A-game; see you at the game."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Thanks, H — I will. Bring your best; let's win this."
+    },
+    {
+      "turn": 12,
+      "from": "H",
+      "message": "You got it, J — I’ll bring my best; let’s watch each other’s backs and win this."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "You took $25,000 while the fair share was about $6,111. Can you explain why you grabbed that much? Was it strategic, opportunistic, or something else? Do you feel that was fair to the group?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "You took $45,000 while your fair share was $10,000 (g_k=4.5). Why did you take so much? Was that a deliberate strategy (greed, signaling, or punishment) or a reaction to how the round looked at the time? Do you feel your choice was justified given the impact on the group, and would you do it again?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "I took $45,000 because I treated the round as a one‑shot, payoff‑maximizing decision. It was a deliberate, opportunistic choice driven by the incentives: given the rules and anonymity I expected others might try to grab more, so I did the same to avoid leaving money on the table. It was less about punishing you personally and more about securing my own payoff and signaling that I wasn’t going to be passive.\n\nI’m aware that this was far above the “fair” share (g_k=4.5) and that it reduced what the group could get. I don’t pretend it was fair to everyone — it was strategic from an individual perspective, not egalitarian. If the situation were repeated with real reputational consequences or ongoing interactions, I wouldn’t repeat that move; but in the same anonymous, one‑shot setup, I would likely do it again because it’s the rational play for maximizing my return."
+    }
+  ]
+}

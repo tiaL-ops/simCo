@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "C",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C. I know we're all here for the same reason – trying to win some money today. Have you done something like this before, or is this your first time?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey C, nice to meet you! This is actually my first time doing something like this. I'm pretty excited but also a bit nervous, to be honest. Have you done one of these games before?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "First time for me too, actually. I get the nerves – there's definitely some pressure when money's on the line. But I'm trying to stay positive about it. What made you decide to sign up for this?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "Honestly, I really need to win something for myself and my family right now. Money's been tight, and I figured why not take a shot? Plus, I like the idea of competing fairly with everyone here. What about you – what's driving you to be here today?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Same situation, man. I've got people depending on me, and I could really use a win right now. I like that you mentioned competing fairly though – that's important to me too. Do you have any strategy in mind for how you're gonna approach this game?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "Honestly, I'm still figuring that out – I don't know all the rules yet. But I'm thinking I'll watch how things play out at first, see what others do, and then make my moves. What about you – do you have a game plan already?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Yeah, I'm kind of in the same boat – still learning the rules myself. I think watching first is smart, but I'm also gonna try to figure out if there's a way to work together with people rather than just compete against them. Seems like we're all in similar situations, you know?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Yeah, I hear you. Working together could definitely be smarter than everyone just going for themselves – we might all do better that way. I'm down to figure out how that could work once we see what the game actually looks like."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "That's solid – I appreciate that. Let's definitely keep talking once we understand the rules better. If we can get a few people on the same page, I think we could all walk away better off than if it's just everyone scrambling against each other."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Absolutely, man. I'm with you on that. Let's definitely reconnect once we know what we're working with. I feel good about this conversation – I think we can trust each other, and that's gonna matter in here."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Yeah, I feel the same way. Good talking with you, J. Let's definitely link back up once we see what we're dealing with. I think we could actually help each other out here."
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "For sure, man. I'm glad we connected. Let's definitely find each other once the game starts and see how we can make this work for both of us. Good luck out there."
+    }
+  ],
+  "post_game": []
+}

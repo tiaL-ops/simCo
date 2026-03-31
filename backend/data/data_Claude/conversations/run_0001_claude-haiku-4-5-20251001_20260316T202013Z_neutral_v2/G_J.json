@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "G",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey, I'm J. I gotta say, I'm pretty nervous about this whole thing—first time doing something like this. You been in one of these games before, or are you new to it too?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey J, nice to meet you. Yeah, this is my first time too, honestly. I'm pretty nervous as well, but I'm trying to stay focused. I really need to win this one—got people counting on me back home. What brings you here?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Same here, man—I've got people depending on me too. That's exactly why I'm here. So we're both feeling the pressure, huh? Do you have any idea what kind of game this is gonna be, or are we going in completely blind?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Honestly, I'm going in pretty blind—haven't heard much about how it actually works. But I figure if we're both here for the same reason, maybe we can figure it out together. You got any guesses about what they might have us do?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Not really, but I'm thinking it's probably some kind of strategy thing where we have to make choices about taking money from that pool. Like, maybe it rewards people who cooperate, or maybe it's every person for themselves—I guess we'll find out. Either way, I'm gonna need to think smart about whatever happens."
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Yeah, that makes sense—cooperation versus competition, right? I'm thinking the same thing. Either way, I'm gonna watch how people act, see if I can get a read on who might be trustworthy before we have to make any big moves. We should probably keep talking to the others too, get a feel for the room."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Absolutely, good call. Yeah, I'm gonna do the same—try to figure out who seems genuine and who might be looking out for themselves. Maybe we can touch base later and compare notes on people before things get serious?"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Yeah, definitely. Let's catch up before the game starts—I'll let you know what I pick up from the others, and you do the same. Could be useful to have someone I can actually trust in this thing."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "For sure, man. I'll do the same—we'll compare notes and figure out who we can actually work with. Having someone I can trust in here is huge. Let's meet up in a bit and go over what we learned."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Sounds good, J. I'll catch you in a few and we'll swap what we've learned. Good luck out there, man."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Thanks man, you too. Yeah, let's definitely touch base before things kick off. I've got a good feeling about this—we got this. See you in a bit."
+    }
+  ],
+  "post_game": []
+}

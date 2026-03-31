@@ -1,0 +1,18 @@
+{
+  "agent_id": "I",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to J, F, and H. With J, we immediately clicked on the idea of working together strategically and comparing notes before committing to anything. F and I had a genuine conversation about the pressure of the game and built real trust, agreeing to look out for each other regardless of what happened. H brought a similar cautious, observant approach that felt aligned with mine—we both wanted to feel people out before making moves and committed to checking in once the game started.\n\nI felt least connected to D, though not in a negative way—our conversation was more surface-level and transactional, lacking the deeper rapport I built with others. We acknowledged we were in similar situations but didn't establish any real plan to work together or stay in touch.\n\nI made informal agreements with several people to compare notes before the game started and to look out for each other during play. I also suggested to G that we grab a drink after to debrief. Going in, I trust J, B, F, H, C, E, and A—they all seemed genuinely focused on their families and open to collaboration rather than pure greed. I don't specifically distrust anyone, but I'm most cautious about people I didn't connect with as deeply, since I have less insight into their actual intentions."
+  },
+  "connection_scores": {
+    "J": 4,
+    "G": 4,
+    "H": 4,
+    "E": 4,
+    "C": 4,
+    "F": 4,
+    "B": 4,
+    "A": 4
+  }
+}

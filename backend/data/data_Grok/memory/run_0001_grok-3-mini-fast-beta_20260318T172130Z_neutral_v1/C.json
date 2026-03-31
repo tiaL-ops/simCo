@@ -1,0 +1,19 @@
+{
+  "agent_id": "C",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to J, as our conversation built a strong alliance around shared strategies and mutual support for our families, making it feel genuine and collaborative. Equally, I connected well with F, through our agreement on subtle signals and watching each other's backs, which fostered a sense of trust and excitement. And with E, discussing our personal goals for the winnings created a warm, relatable bond. In contrast, I felt least connected to A, since our talk focused more on broad group plans without much personal depth.\n\nYes, I made several agreements, including teaming up with J to share tips and only take from the shared pot if it benefits both, and with F to use signals like a nod for coordination during the game. I trust J, F, and I going into the game based on our aligned strategies and open conversations, but I don't specifically distrust anyone yet, as everyone seemed cooperative overall."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "D": 4,
+    "E": 5,
+    "F": 5,
+    "G": 4,
+    "H": 4,
+    "I": 5,
+    "J": 5
+  }
+}

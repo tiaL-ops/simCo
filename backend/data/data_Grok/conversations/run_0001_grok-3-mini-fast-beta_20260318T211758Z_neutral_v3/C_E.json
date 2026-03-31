@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T211758Z_neutral_v3",
+  "pair": [
+    "C",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hi C, I'm E and I'm really looking forward to this game—it's a chance to win some money and maybe help out the people I care about. What about you, what got you interested in joining?"
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "Hi E, nice to meet you! I'm excited about this game too—heard it was a great way to win some cash and help out my family and friends, so I jumped at the chance. What about you, got any plans for if we win?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Oh, definitely! If we win, I'd use the money to help my family with some bills and maybe treat myself to a nice vacation—sounds great, right? What are your plans if we pull it off?"
+    },
+    {
+      "turn": 4,
+      "from": "C",
+      "message": "Yeah, that does sound great—I'm hoping to use the winnings to cover some bills for my family and maybe save a bit for a fun outing with friends; what kind of vacation were you eyeing?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Oh, I've been dreaming of a beach vacation, like somewhere in Hawaii to just relax and unwind—sounds perfect after all this. What kind of fun outing do you have in mind with your friends?"
+    },
+    {
+      "turn": 6,
+      "from": "C",
+      "message": "\"That sounds like a dream vacation, E—I've always wanted to go to Hawaii too! For my friends, I was thinking of a fun road trip to the mountains or a big picnic at the lake; have you traveled much before?\""
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Yeah, I've traveled a bit—went to California last year for a road trip myself, it was pretty awesome! How about you, have you been on any fun trips like that before?"
+    },
+    {
+      "turn": 8,
+      "from": "C",
+      "message": "Oh, that California road trip sounds epic, E—I haven't done anything quite like that, but I did a fun camping weekend in the mountains with friends last year, which was a blast; what was your favorite part of the trip?"
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Oh, my favorite part of that California road trip was definitely driving down the Pacific Coast Highway with the ocean views—it was just so freeing and beautiful! What made your camping weekend in the mountains such a blast?"
+    },
+    {
+      "turn": 10,
+      "from": "C",
+      "message": "Oh, the camping was a blast because of the amazing hikes, cozy bonfires with s'mores, and just chilling with friends—it's all about those simple, fun memories!"
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "That sounds wonderful, C—simple fun like hikes and bonfires is the best way to make memories! It's been great chatting with you."
+    }
+  ],
+  "post_game": []
+}

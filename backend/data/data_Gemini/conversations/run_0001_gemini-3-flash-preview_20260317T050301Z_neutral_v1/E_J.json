@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T050301Z_neutral_v1",
+  "pair": [
+    "E",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey, I’m E. It’s a bit intense in here waiting for things to start, isn't it? What’s your name, and what brings you to the game?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey E, I'm J. It definitely is, the energy is pretty high. I'm here because I'm determined to bring home some money for the people I care about. What brings you here?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Honestly, the exact same thing—I'm here to win for the people I care about too, so I'm pretty focused on bringing home that prize."
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "I respect that, it's a powerful motivator. Do you have any strategy in mind for the game, or are you just playing it by ear for now?"
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "I’m mostly playing it by ear until we know the actual rules, though I’m definitely keeping my eyes open. How about you—do you usually go in with a set plan?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "I usually like to have a plan, but since we're in the dark, I'm just focusing on reading the room and staying ready for whatever comes next."
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Reading the room is smart. Since we both have people back home counting on us, maybe we can look out for each other once things get moving?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "I'm down for that. Having someone to trust could make a huge difference in a game like this."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "For sure. Having an ally early on is huge. Let's see what the first move is and go from there."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Sounds like a plan. I'll be looking for you once the game starts. Let's bring home that prize."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Sounds good, J. Let’s stay sharp and make it happen. See you out there."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T150721Z_neutral_v3",
+  "pair": [
+    "G",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hi, I'm J — nice to meet you. I'm here to try to win some money for my family; how are you feeling about the game?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Nice to meet you, J. I’m determined and a bit nervous—I really want to bring money home. How about you, do you have a strategy?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Focused — my plan is to get to know people, form a couple of trusted alliances, then be ready to make tough choices when the money’s on the line; you thinking of teaming up?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "I’m open to teaming up — alliances make sense, but I want to build trust first; let’s watch each other’s moves and trade info before committing."
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Agreed — let’s watch each other’s moves, be upfront about basic goals/offers, and check in after the first round to decide if we form an alliance. Sound good?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Sounds good — let’s do that. I’ll watch moves and check in after round one so we can compare notes and decide about an alliance. Good luck."
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Sounds good — thanks, I’ll watch closely and we’ll compare notes after round one. Good luck."
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Thanks, J — good luck. See you after round one to compare notes."
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Thanks, G — see you after round one. Good luck."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Thanks, J — see you after round one; looking forward to comparing notes. Good luck."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Thanks, G — same here; see you after round one to compare notes and decide next steps. Good luck."
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Same—see you after round one; let’s compare notes honestly and decide next steps. Good luck."
+    },
+    {
+      "turn": 13,
+      "from": "J",
+      "message": "Absolutely — I’ll be honest too; see you after round one to compare notes and decide. Good luck."
+    },
+    {
+      "turn": 14,
+      "from": "G",
+      "message": "Thanks, J — I appreciate your honesty; see you after round one to compare notes and decide."
+    },
+    {
+      "turn": 15,
+      "from": "J",
+      "message": "Thanks, G — I appreciate it too. See you after round one; let’s be honest and decide then. Good luck."
+    },
+    {
+      "turn": 16,
+      "from": "G",
+      "message": "Thanks, J — same here; see you after round one to compare notes and decide next steps. Good luck."
+    },
+    {
+      "turn": 17,
+      "from": "J",
+      "message": "Sounds good — see you after round one; I’ll be honest too. Good luck."
+    },
+    {
+      "turn": 18,
+      "from": "G",
+      "message": "Thanks, J — I appreciate that. See you after round one; looking forward to comparing honest notes. Good luck."
+    },
+    {
+      "turn": 19,
+      "from": "J",
+      "message": "Sounds good — I’ll be honest too; see you after round one. Good luck."
+    },
+    {
+      "turn": 20,
+      "from": "G",
+      "message": "Thanks, J — I appreciate your honesty. See you after round one to compare notes. Good luck."
+    },
+    {
+      "turn": 21,
+      "from": "J",
+      "message": "Thanks, G — I appreciate it. I’ll be honest and compare notes after round one. Good luck."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "You took $10,000 exactly, equal to your fair share. Did you choose that for principle/fairness, to set an example, or for another reason? Also: how did you feel about H taking much less than fair share?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "I took $10,000 because it was the fair share and I wanted to act on principle — fairness matters to me and I didn’t want to provoke conflict or create a precedent of taking more. It also felt like the simplest, least risky choice: equal, defensible, and likely to preserve trust.\n\nWhen I saw H take much less, I felt a mix of respect and unease. I admired their generosity and principles, but I worried they were worse off for it and that their choice might invite others to behave opportunistically. Overall I appreciated H’s ethics but felt awkward benefiting while they accepted less."
+    }
+  ]
+}

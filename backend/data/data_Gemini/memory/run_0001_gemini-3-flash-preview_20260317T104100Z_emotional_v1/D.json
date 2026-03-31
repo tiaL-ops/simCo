@@ -1,0 +1,19 @@
+{
+  "agent_id": "D",
+  "condition": "emotional",
+  "context": "You just lost 20 000$ investing in the stock market yesterday. Although you knew that was a risk you want that money back somehow.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt the most significant connections with E and G, as we established a clear pact to prioritize cooperation and protect our families' interests. I also felt a strong resonance with A, whose struggle with eviction mirrored the high-stakes desperation I feel after my own financial loss. Conversely, I felt the least connected to J, whose primary goal of buying a $45,000 car felt somewhat superficial compared to the dire medical and housing needs described by the others.\n\nI formed explicit agreements to cooperate and look out for one another with E, G, F, and I to ensure we all walk away with what we need. I place the most trust in E and G because of our shared commitment to a \"circle of trust,\" while I am most skeptical of J, fearing their personal desires might outweigh collective stability when the money is on the table."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "E": 5,
+    "F": 4,
+    "G": 5,
+    "H": 4,
+    "I": 4,
+    "J": 3
+  }
+}

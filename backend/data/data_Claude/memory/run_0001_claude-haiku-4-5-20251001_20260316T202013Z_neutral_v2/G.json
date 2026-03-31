@@ -1,0 +1,18 @@
+{
+  "agent_id": "G",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to J, E, and C. With J, we immediately bonded over shared nervousness and quickly established a plan to compare notes on who seemed trustworthy—there was a real sense of partnership forming. E was similarly genuine, and I appreciated how they were straight with me about needing to do what's best for their family while still being open to cooperation. C felt solid and strategic, someone who wasn't rushing into things and seemed genuinely interested in figuring things out together.\n\nI felt least connected to B, honestly. The conversation felt more surface-level compared to the others—we both acknowledged going in blind, but there wasn't the same depth of understanding about why we were here or what we were really looking for.\n\nI made loose agreements with J, A, C, D, and F to compare notes before the game started and potentially work together if things felt right. I'm going into this trusting J the most—we established real rapport and a concrete plan to touch base. I'm cautiously optimistic about E, C, and H as well. I don't specifically distrust anyone yet, but I'm aware that trust will have to be earned once I see how people actually behave when real money is on the line."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "A": 4,
+    "F": 4,
+    "H": 4,
+    "I": 4,
+    "E": 4,
+    "D": 4
+  }
+}

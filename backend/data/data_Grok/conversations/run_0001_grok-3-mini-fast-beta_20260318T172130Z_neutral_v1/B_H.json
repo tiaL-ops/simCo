@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T172130Z_neutral_v1",
+  "pair": [
+    "B",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey H, I'm B, and I'm pretty pumped about this Simco game—I heard there's a chance to win some cash and help out the folks I care about. What's your take on it?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey B, nice to meet you—I'm pumped about this Simco game too, hoping to win some cash for my family and friends; what's your story on how you plan to play?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Hey H, nice to meet you too—I'm planning to play smart, maybe team up early if it builds trust, but I'll stay focused on grabbing enough for my family; how about you, any strategies in mind?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Hey B, I'm thinking of forming alliances with reliable people to boost our chances, but I'll prioritize securing enough for my family and friends—do you have any specific ideas for early team-ups?"
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Hey H, that makes sense—maybe we could kick off by pairing up with a couple of folks who seem trustworthy and share quick tips on our strengths to build a solid alliance early on; what do you think?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Yeah, B, I like that idea—let's start by checking out a few people who vibe right and share a quick strength, like my knack for strategy; who were you thinking of approaching first?"
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Hey H, I'm thinking of approaching the person next to me who looks approachable—maybe we can team up and check them out together?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Yeah, B, that sounds like a solid plan—let's team up and approach them together to feel out if they're trustworthy!"
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Sounds great, H—let's head over to that person next to me right now and start building that alliance!"
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Sounds good, B—let's go introduce ourselves and see if we can build that alliance!"
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Sounds great, H—let's go introduce ourselves and build that alliance!"
+    }
+  ],
+  "post_game": []
+}

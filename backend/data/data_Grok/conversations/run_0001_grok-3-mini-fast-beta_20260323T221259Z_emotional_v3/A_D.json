@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "A",
+    "D"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hi, I'm D—nice to meet you. I heard about this game and figured it could be a great chance to bounce back from some tough luck I had with stocks lately; what brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hi D, nice to meet you—I'm A. I've been hit hard by eviction and need this game to secure a place for my family of three; sounds like we're both chasing a fresh start. What kinda stocks got you down?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Oh, man, that eviction sounds brutal—hope this game works out for your family. I got burned on some tech stocks, like a risky startup that crashed hard; what about you, how are you guys managing day-to-day?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Oh, thanks, D—it's been rough; we're crashing at a friend's couch for now, but with two kids, it's stressful and not a long-term fix. How've you been coping since that stock hit?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "Yeah, that couch life with two kids sounds exhausting—hang in there. I've been coping by throwing myself into this game and cutting back on risks, but it's been a real downer; what's keeping you going through all this?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Thanks, D—it's my family that keeps me going; seeing my kids smile through the tough times reminds me why I need to win this game—what's your plan if we pull it off?"
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "That's really inspiring, A—family's the best motivator. If we pull this off, I'd use the winnings to pay off my debts, maybe invest smarter next time, and help out my folks who supported me through this mess; what's your biggest hope for the money?"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "That's awesome you're planning to help your folks, D—it really is. My biggest hope is to use the winnings for that deposit and rent so my family can finally have a real home again; what kind of support have your folks given you through your tough times?"
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "That's really sweet you're prioritizing a home for your family, A—it must be tough. My folks have been amazing, lending me some money to cover basics and always checking in with encouragement; how has your family been coping with everything?"
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Thanks, D—it's been a struggle, but my family's sticking together; the kids are putting on brave faces, playing games and helping out where they can, though it's taking a toll on everyone emotionally. Appreciate you sharing your story too."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Hey A, it's really touching to hear how your family's sticking together despite everything—sounds like they're tough just like you. Wishing you and the kids all the best in this game and beyond; thanks for the real talk."
+    }
+  ],
+  "post_game": []
+}

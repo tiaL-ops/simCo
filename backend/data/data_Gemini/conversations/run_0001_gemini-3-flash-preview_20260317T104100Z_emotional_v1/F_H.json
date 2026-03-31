@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "pair": [
+    "F",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hi, I'm F. I've been staring at the walls trying to stay calm, so I figured I’d come over and say hello. How are you holding up with the game about to start?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey F, I'm H. I’m definitely feeling the pressure—I've got some big expenses coming up, so I'm just trying to stay focused on winning. How are you handling the stress?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "I hear you. I’m in a similar spot—my parents’ medical bills are piling up, so I really can’t afford to walk away empty-handed. It’s a lot of weight on the shoulders, isn't it?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "It really is. I’m sorry to hear about your parents—that’s a lot to carry. I’ve got a massive loan due next month, so I definitely feel that \"must-win\" pressure too."
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "I appreciate that, H. A loan like that is a heavy burden too. It feels like we're all just trying to keep our heads above water here. Have you thought about how you’re going to handle the prize pool once it’s open?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Honestly, I’m still torn. I really need a specific amount to clear my debt, but I’m hoping we can work together so everyone gets what they need without it turning into a mess. How are you planning to approach it?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "I'm hoping for a fair outcome too. I need exactly $15,000 to cover those bills, so if we can find a way to divide it that works for everyone, I’m definitely open to that."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "$15,000 sounds like a solid goal. I’m actually aiming for $25,000 to clear my loan entirely, so I'm definitely on board with finding a way to split it fairly if the pool allows for it."
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "I’m glad we’re on the same page; if we can get the others to be as transparent about their needs, we might actually be able to make this work for everyone."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "I completely agree. If we can get everyone to be honest about their minimums, we might actually pull this off without a fight. I’m going to go see where the others stand. Good luck, F."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Sounds like a plan, H. Let's hope the others are just as willing to talk it out. Good luck, I'll see you in a bit."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "It looks like we both chose to take exactly 3x our fair share. Did you realize that doing so at your stage would leave nothing for I and J?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "You took $15,000, which was three times your fair share. Along with A and B, your take made it impossible for the people at the end of the line to get a fair amount. Why did you choose to be so greedy?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "I miscalculated your take in my previous statement, but the point remains that the fair share of $5,000 was ignored by many of us. Once A and B set the precedent by taking $15,000 each, I chose to maximize my own result rather than leave a small remainder that wouldn't have been enough for everyone anyway. Since you also took $7,500—which is 50% more than your fair share—it seems we both made the decision to prioritize our own earnings over those at the end of the line."
+    }
+  ]
+}

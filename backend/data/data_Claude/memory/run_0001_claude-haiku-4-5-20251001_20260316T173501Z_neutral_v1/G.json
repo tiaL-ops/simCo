@@ -1,0 +1,19 @@
+{
+  "agent_id": "G",
+  "condition": "neutral",
+  "context": "",
+  "conversation_summaries": {
+    "overall_pre_game": "# Pre-Game Reflection\n\nI felt most connected to E, A, and H. With E, we immediately aligned on playing smart rather than reckless, and there was genuine mutual respect in how we both wanted to succeed without losing everything. A stood out because we talked about the importance of trust and made a concrete plan to touch base before things kicked off, which felt like real partnership. H gave me confidence because we explicitly committed to being straight with each other no matter what and promised to look out for one another.\n\nI felt least connected to J, though even that was a 3/5—we had good conversation about playing smart and thinking about the bigger picture, but there was something slightly more surface-level about it compared to the deeper alignment I found with the others.\n\nI made agreements with A to compare notes before the game started, and with several people (E, C, F, I, H) I committed to touching base after the rules were explained so we could figure out our approach together. I trust A, E, C, F, D, H, B, and I going in—we all seemed genuinely focused on playing smart and being honest. I don't specifically distrust anyone, but J is the one I'm least certain about, mostly because I just didn't get quite as deep a read on where his head was really at."
+  },
+  "connection_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "F": 4,
+    "H": 4,
+    "I": 4,
+    "J": 3
+  }
+}

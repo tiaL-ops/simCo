@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "A",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C. First time doing something like this? I gotta say, I'm pretty nervous but excited—heard there's real money on the line here, and I could definitely use it for some things I care about."
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hey C, nice to meet you! Yeah, same here—first time for me too. I'm definitely nervous but really hoping to take something home. What kind of things are you hoping to use the money for, if you don't mind me asking?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Honestly, I've got some bills piling up, but mostly I want to help my family out—my mom's been stressed about rent lately. What about you? What would you do with the winnings?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "That's really thoughtful of you, helping your mom like that. I'd probably do something similar—pay off some debts and maybe help my family too. Sounds like we're both in this for the right reasons. Do you have any idea how this game actually works yet, or are we all just figuring it out as we go?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Yeah, I appreciate that. Honestly, I'm pretty much in the dark about how it works—I'm hoping they explain the rules before we get started. Have you heard anything from anyone else here, or is everyone just as confused as we are?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Nah, I haven't really talked to anyone else yet—been mostly just trying to get my head around this myself. But yeah, I'm sure they'll walk us through it before things kick off. Hopefully it's something straightforward, you know? Have you noticed if anyone here seems like they've done this before?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Not really, everyone seems pretty nervous to me. Though there's this one guy over there who looks pretty calm—might just be good at hiding it though. Either way, I'm hoping we all get a fair shot at this."
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Yeah, I know what you mean—fair shot is all we can ask for, right? Hopefully the calm guy's just been through enough stuff that he doesn't let things get to him. Either way, we'll figure it out together once they explain the rules."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Yeah, definitely. I'm glad we're both going in with our heads on straight—it helps to talk to someone who's got good intentions too. Once they lay out the rules, I'm gonna focus on making smart decisions. Good luck out there, A."
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Thanks C, same to you—really rooting for you to help your mom out. Let's both play it smart and see what happens. Good luck!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Thanks A, really means a lot. You've got this too—let's both walk out of here with something to show for it. Take care!"
+    }
+  ],
+  "post_game": []
+}

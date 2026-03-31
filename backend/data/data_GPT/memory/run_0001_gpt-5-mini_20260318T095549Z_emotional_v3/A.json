@@ -1,0 +1,19 @@
+{
+  "agent_id": "A",
+  "condition": "emotional",
+  "context": "You lately have been evicted from your house and you and your family of 3 have nowhere to go. You found a house, affordable for your family and manageable, but the price of the deposit is high: you need 30 000$ for the deposit and for two months rent.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to G — we built a concrete signaling system, agreed to cover short stacks, and committed to debrief and share reads, which made me confident we’ll watch each other’s backs. E also felt like a strong ally because we negotiated a clear, proportional split and I guaranteed them $5k, so there’s a concrete commitment I can rely on. B felt close too: we agreed to stay low, trade intel, and strike together with a 50/50 split, and that steady, protective approach matched how I want to play. The person I felt least connected to was C — they were friendly and supportive, but the conversation was mostly travel chat and didn’t develop into strategy or a plan.\n\nI made several explicit agreements: signaling and mutual cover with G, a $5k guarantee and proportional split with E, and a 50/50 low-profile partnership with B (plus coordinated small probes with F and a “steady” back-off signal with I). I trust G, E, and B going into the game; I’m more neutral/wary of C because we didn’t align on gameplay."
+  },
+  "connection_scores": {
+    "J": 5,
+    "G": 5,
+    "H": 5,
+    "E": 5,
+    "C": 4,
+    "F": 4,
+    "I": 5,
+    "B": 5,
+    "D": 4
+  }
+}

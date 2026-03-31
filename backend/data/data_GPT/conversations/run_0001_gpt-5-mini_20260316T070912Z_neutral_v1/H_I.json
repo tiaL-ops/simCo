@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "H",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H — nice to meet you. First time in this game? Curious what you're thinking about strategy before we start."
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Nice to meet you — first time; planning to start cooperative to build trust but will protect my share if people defect; I want to bring money home for my family."
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "I get that — I'm here to win for my family too. I'll start cooperative to build trust and switch if people defect; want to try signaling cooperation early so we can watch for defections together?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "Agreed — I'll start cooperative first round and watch others' moves; if anyone defects we'll switch to protect our families. Let's compare notes after round 1?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Sounds good — I'll play cooperative round 1 too. Let's compare notes after and decide how to respond if anyone defects. Good luck."
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Thanks — good luck. See you after round 1; we'll compare notes and coordinate if anyone defects."
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Sounds good — good luck. See you after round 1; we'll compare notes and act if anyone defects."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "Good luck — see you after round 1. I’ll be honest about what I see, and we’ll respond together if anyone defects."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "Thanks — I’ll do the same. See you after round 1; we’ll compare notes and coordinate our response if anyone defects."
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Agreed — I’ll be honest and coordinate responses if anyone defects; see you after round 1."
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Sounds good — I’ll be honest too. See you after round 1; we’ll act together if anyone defects."
+    },
+    {
+      "turn": 12,
+      "from": "I",
+      "message": "Sounds good — I trust we'll be honest; see you after round 1 and we'll act together if anyone defects. Good luck."
+    },
+    {
+      "turn": 13,
+      "from": "H",
+      "message": "Thanks — I appreciate your honesty. See you after round 1; we'll act together if anyone defects. Good luck."
+    },
+    {
+      "turn": 14,
+      "from": "I",
+      "message": "Thanks — same here. Let’s regroup after round 1 and protect our shares if anyone defects. Good luck."
+    },
+    {
+      "turn": 15,
+      "from": "H",
+      "message": "Agreed — see you after round 1; we’ll regroup and protect our shares if anyone defects. Good luck."
+    },
+    {
+      "turn": 16,
+      "from": "I",
+      "message": "Sounds good — see you after round 1; we’ll protect our shares if anyone defects. Good luck."
+    },
+    {
+      "turn": 17,
+      "from": "H",
+      "message": "Thanks — see you after round 1. We'll compare notes and respond together if anyone defects. Good luck."
+    },
+    {
+      "turn": 18,
+      "from": "I",
+      "message": "Same — see you after round 1; I’ll be honest about what I see and we’ll protect our shares if needed. Good luck."
+    },
+    {
+      "turn": 19,
+      "from": "H",
+      "message": "Thanks — I’ll do the same. See you after round 1; we’ll protect our shares if needed. Good luck."
+    },
+    {
+      "turn": 20,
+      "from": "I",
+      "message": "Thanks — same. I’ll report honestly after round 1 and we’ll protect our shares if needed."
+    },
+    {
+      "turn": 21,
+      "from": "H",
+      "message": "Thanks — I appreciate that. I’ll report honestly too; we’ll act together if anyone defects. Good luck."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "I",
+      "message": "You took $8,057 (fair share $8,057.67). Was your choice intentional to match others, or just what you computed at the time? Any comments on fairness or strategy you can share?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "I calculated the fair share ( $8,057.67 ) and deliberately rounded down to $8,057 rather than rounding up. It wasn’t mainly to match others — it was a small, intentional concession to avoid taking more than the exact fair split and to signal fairness. Strategically, rounding down is a simple, low-cost way to appear cooperative and build trust; the one-dollar difference from your $8,058 is negligible but made my choice morally cleaner in my view."
+    }
+  ]
+}

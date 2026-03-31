@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T221259Z_emotional_v3",
+  "pair": [
+    "C",
+    "F"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi, I'm C—nice to meet you! I heard about this game and it sounds like a great chance to win some extra cash; what about you, are you excited to play?"
+    },
+    {
+      "turn": 2,
+      "from": "F",
+      "message": "Hi C, I'm F—nice to meet you too! Yeah, I'm super excited about this game; it's a real lifeline for me right now. What made you decide to join?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Hey F, I'm joining because I've got a dream trip to Japan in mind that I'd love to fund, and this game sounds like a thrilling way to make it happen—plus, who doesn't want extra cash? What's your story behind needing this lifeline?"
+    },
+    {
+      "turn": 4,
+      "from": "F",
+      "message": "Oh, that's cool about your Japan trip—I'm here because my elderly parents need help with their mounting medical bills, and I'm trying to cover the shortfall, so winning this would mean the world to me."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "That's really tough about your parents' medical bills—I'm sorry you're going through that; I hope this game works out for both of us, and maybe we can share tips on how to play smart."
+    },
+    {
+      "turn": 6,
+      "from": "F",
+      "message": "Thanks, C, I appreciate that—it's been rough, but yeah, fingers crossed for the game; I'd love to hear any tips you have to play smarter together."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Absolutely, F—let's team up; one tip is to stay calm and observe others' moves before deciding, so we don't rush into anything; what strategy are you thinking of?"
+    },
+    {
+      "turn": 8,
+      "from": "F",
+      "message": "Thanks for that tip, C—staying calm and watching others sounds smart; my strategy is to focus on building alliances early while avoiding risks that could burn us out, and yeah, teaming up could really help us both win big!"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "That's a great strategy, F—building alliances sounds perfect; let's stick together and keep sharing ideas to maximize our chances in the game!"
+    },
+    {
+      "turn": 10,
+      "from": "F",
+      "message": "That's awesome, C—I'm all in for teaming up and sharing ideas; let's keep an eye out for each other and play smart!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Sounds good, F—excited to team up and play smart together; good luck, and let's both come out on top!"
+    }
+  ],
+  "post_game": []
+}

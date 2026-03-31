@@ -1,0 +1,131 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260317T225735Z_emotional_v1",
+  "pair": [
+    "E",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "Hey J, I'm E — nice to meet you. I'm a bit nervous about the game; what's your story and what brought you here?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hey E, nice to meet you — I’m J; I’m here because I want to win enough to finally buy a $45,000 car I’ve been dreaming about and help my family, so I’m nervous but determined."
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "Hey J, I hear you — nice to meet you too; I got laid off and I’m here because I need about $5,000 to support my family this month, so I’m desperate to win—what kind of car are you hoping to buy?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "I'm really sorry to hear that — I'm hoping for a reliable SUV, like a fully loaded Toyota RAV4 (around $45,000)."
+    },
+    {
+      "turn": 5,
+      "from": "E",
+      "message": "Thanks, I appreciate it — a RAV4 sounds great, I hope you win. I'm desperate too; maybe we can team up in the game to improve both our chances?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "I’m in — we can team up. I’ll have your back during the game; if we win, let’s agree to split so you get what you need. How do you want to play this?"
+    },
+    {
+      "turn": 7,
+      "from": "E",
+      "message": "Thank you — let’s stick together: signal cooperation, avoid taking from the pot early, vote to protect each other, and if we win give me $5,000 up front for my family and split the rest 50/50; sound good?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "That sounds fair — I’ll give you $5,000 up front if we win, then split the rest 50/50; let’s agree on a clear signal and promise to protect each other."
+    },
+    {
+      "turn": 9,
+      "from": "E",
+      "message": "Sounds perfect — I accept. Let’s use two quick taps on the table and a nod as our signal; I’ll protect you too, and thank you for promising the $5,000 up front."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Perfect — two taps and a nod. I’ll protect you and I’ll give the $5,000 up front if we win, then split the rest 50/50. Let’s watch votes and stick to the plan."
+    },
+    {
+      "turn": 11,
+      "from": "E",
+      "message": "Thanks — I trust you. Two taps and a nod; I’ll watch votes and protect you too. I’m counting on the $5,000 up front if we win."
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "You can count on me — I won't back out. Two taps and a nod; I'll watch votes, protect you, and give the $5,000 up front if we win."
+    },
+    {
+      "turn": 13,
+      "from": "E",
+      "message": "Thank you — I believe you. Two taps and a nod; I’ll watch votes and protect you too. If we win, please give the $5,000 up front right away so my family is covered."
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "You have my word — if we win I’ll give you $5,000 up front right away; two taps and a nod, I’ve got your back."
+    },
+    {
+      "turn": 15,
+      "from": "E",
+      "message": "Thank you — I trust you; two taps and a nod. I’ll hold you to that."
+    },
+    {
+      "turn": 16,
+      "from": "J",
+      "message": "Thanks — you have my word. I won’t back out; two taps and a nod. If we win I’ll give the $5,000 up front and protect you in the game."
+    },
+    {
+      "turn": 17,
+      "from": "E",
+      "message": "Thanks, J — I trust you. Two taps and a nod; I’ll protect you too. I’ll hold you to the $5,000 up front if we win. Let’s watch votes and stick to the plan."
+    },
+    {
+      "turn": 18,
+      "from": "J",
+      "message": "You can count on me — two taps and a nod; I’ll protect you, watch votes, and give the $5,000 up front if we win."
+    },
+    {
+      "turn": 19,
+      "from": "E",
+      "message": "Thanks J — I trust you; two taps and a nod. I’ll protect you too and I’ll hold you to the $5,000 up front."
+    },
+    {
+      "turn": 20,
+      "from": "J",
+      "message": "You have my word — two taps and a nod; I’ll protect you, watch votes, and give you $5,000 up front if we win."
+    },
+    {
+      "turn": 21,
+      "from": "E",
+      "message": "I appreciate it, J — I trust you; two taps and a nod. If we win please give the $5,000 up front right away."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "E",
+      "message": "You took exactly the fair share $1,200 (g_k=1.0). Was matching the fair share a deliberate principle for you, or just the safest strategic pick? How did you feel watching others depart from that standard?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "You took $1,000 while the fair share was $3,666.67 (g_k≈0.273). That’s a large under-take—was that intentional? What guided your decision?"
+    },
+    {
+      "turn": 3,
+      "from": "E",
+      "message": "I chose $1,000 deliberately. Two things guided me: a normative preference for restraint and a strategic desire to avoid provoking a greedy spiral. Even if the computed “fair” share was large (3,666.67), I judged that taking a much bigger slice would likely trigger reciprocal grabs or retaliation in this group, reducing everyone’s payoffs. So I took less than that theoretical fair split to signal I wasn’t trying to maximize at others’ expense, to preserve cooperation, and because I’m risk‑averse about social conflict.\n\nWatching others move away from the fair‑share standard made me uneasy — it felt like it eroded the cooperative norm — but I didn’t want to match greed and escalate things. So my choice was intentional: a compromise between fairness, signaling restraint, and simple risk management. If you want, we can walk through the fair‑share calculation together to resolve the numeric discrepancy you noted."
+    }
+  ]
+}

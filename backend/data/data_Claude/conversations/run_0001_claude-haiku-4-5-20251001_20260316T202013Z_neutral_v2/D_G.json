@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T202013Z_neutral_v2",
+  "pair": [
+    "D",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey, I'm G. I figured I'd get to know some people before we start—seems like it might matter, you know? What brings you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "D",
+      "message": "Hey G, nice to meet you. Honestly, I heard about the money opportunity and I really need to win something here—got people depending on me. What about you, what's your angle?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Same here, man—got people I want to help out too. So we're both looking to walk away with something. You thinking you'll go for it aggressive, or more strategic?"
+    },
+    {
+      "turn": 4,
+      "from": "D",
+      "message": "I'm thinking strategic, honestly. Aggressive moves might feel good in the moment, but I'd rather figure out what actually works in this game before I commit. You seem like you're thinking the same way—maybe we could keep an eye out for each other?"
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Yeah, I like that approach. I'm definitely not trying to blow this on impulse. Let's see how things play out and maybe we can help each other figure out the best move when the time comes."
+    },
+    {
+      "turn": 6,
+      "from": "D",
+      "message": "Sounds good—I appreciate that. We'll figure this out together then. Good luck out there, and hopefully we both walk away with something to show for it."
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "For sure, man. I'll keep an eye out for you too. Let's both get that win."
+    },
+    {
+      "turn": 8,
+      "from": "D",
+      "message": "Appreciate it, G. Let's stay sharp and see what happens when we get going. Talk soon."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "Absolutely, man. Stay sharp—I'll do the same. See you when we get started."
+    },
+    {
+      "turn": 10,
+      "from": "D",
+      "message": "Yeah, sounds good. See you in a bit—let's make this count."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "For real, man. We got this."
+    }
+  ],
+  "post_game": []
+}

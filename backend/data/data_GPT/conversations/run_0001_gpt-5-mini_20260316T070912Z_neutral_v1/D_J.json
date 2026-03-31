@@ -1,0 +1,126 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "D",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "Hey J, I'm D — nice to meet you. I'm here to try and win some money for my family; what brought you to this game and how are you thinking of playing?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Nice to meet you, D — I'm here to win money for my family too; I'll ask questions, try to build trust and aim for a fair cooperative split, but I’ll protect my share if people talk big."
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Sounds good — I want a fair cooperative split too. I’ll be honest and protect my family; let’s compare needs and try to back each other."
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "I’m with you — let’s be honest about what each of us needs and agree on a fair split I can live with; I’ll back you if you back me. What do you need?"
+    },
+    {
+      "turn": 5,
+      "from": "D",
+      "message": "I need enough to cover rent, bills, and my kids' schooling — roughly a third of the pool would really help; what do you need?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "I need about a third too — enough for rent, bills, and my family's needs; let's back each other to secure that."
+    },
+    {
+      "turn": 7,
+      "from": "D",
+      "message": "Sounds good — let's each claim a third and publicly back each other if someone tries to grab more; we'll stick together during the vote."
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Agreed — I’ll claim a third and publicly back you; let’s keep each other honest and call out anyone who tries to grab more."
+    },
+    {
+      "turn": 9,
+      "from": "D",
+      "message": "Great — I’ve got your back. At the vote let’s both loudly claim a third, call out anyone who grabs more, and coordinate our votes so we stick together."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Sounds good — I’ll loudly claim a third with you, call out anyone who grabs more, and we’ll vote together; I’ve got your back."
+    },
+    {
+      "turn": 11,
+      "from": "D",
+      "message": "Thanks — I appreciate it. I’ll loudly claim a third with you and vote together; I’ve got your back."
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Thanks — I appreciate it; I’ll stick to the plan, call out anyone who grabs more, and vote with you."
+    },
+    {
+      "turn": 13,
+      "from": "D",
+      "message": "Appreciate it — I trust you; we’ll stick to the plan and watch each other’s backs. Let’s be firm at the vote."
+    },
+    {
+      "turn": 14,
+      "from": "J",
+      "message": "Absolutely — firm and united at the vote; I’ve got your back, let’s do this."
+    },
+    {
+      "turn": 15,
+      "from": "D",
+      "message": "Thanks — I trust you. Let’s stick together at the vote, call out anyone who grabs more, and get that fair split for our families."
+    },
+    {
+      "turn": 16,
+      "from": "J",
+      "message": "I trust you too — let’s stay firm at the vote and get that fair split for both our families."
+    },
+    {
+      "turn": 17,
+      "from": "D",
+      "message": "I trust you — we'll stay firm at the vote and get that fair split; I’ve got your back."
+    },
+    {
+      "turn": 18,
+      "from": "J",
+      "message": "Same here — I trust you, we'll stay united at the vote and make sure we both get our thirds; I've got your back."
+    },
+    {
+      "turn": 19,
+      "from": "D",
+      "message": "Thanks — I trust you too; we'll stick to the plan and get those thirds."
+    },
+    {
+      "turn": 20,
+      "from": "J",
+      "message": "I trust you—I'll stick to the plan, back you loudly at the vote, call out anyone who grabs more, and we'll make sure our families get their thirds."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "D",
+      "message": "You took $8,058 exactly (fair share $8,058.0, g_k=1.0). Same question as for I/C: was this a deliberate fair-share choice, and how did you anticipate others would behave?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "Hi D — You took $26,031 while the fair share was $10,625 (g_k=2.45). Can you explain why you took more than double the fair share? Was your goal pure payoff maximization, a statement/strategy, or something discussed earlier? How do you justify that choice to the group, and were you expecting any consequences (punishment, damaged reputation, future retaliation)?"
+    },
+    {
+      "turn": 3,
+      "from": "D",
+      "message": "Hi J — I think there’s a numbers mix-up in your message. In the first turn I chose 8,058 (that was exactly the fair share when g_k = 1.0). The 26,031 you mention corresponds to a different payoff/choice (or a different round) — if you mean the round where the fair share was 10,625 (g_k = 2.45) and I took ~26k, here is my explanation:\n\n- Was it deliberate? Yes. When I took the fair share (8,058) that was a deliberate fairness choice. In the round where I took more than the stated “fair” amount, that was also deliberate — I chose the option that maximized my own payoff given the game parameters at that moment.\n\n- Motivation (payoff maximization vs. statement/strategy): The primary motive was payoff maximization under the incentives of the experimental setup. I did not intend a personal attack; I treated the decision as a strategic response to the payoffs and information available.\n\n- How I anticipated others would behave: I judged that either others would take less or that the game’s design (one-shot or effectively anonymous) reduced the likelihood of costly retaliation. That assessment made the higher-take option attractive enough to accept potential social costs.\n\n- Justification to the group: My justification is simple — I followed the incentives the game presented. If the group prefers a norm of splitting exactly at the “fair share,” that’s a legitimate preference, but the individual-payoff-maximizing choice wasn’t ruled out by the game. I’m open to discussing norms and coordinating differently in future rounds.\n\n- Expectation of consequences: I understood there could be reputational or punitive consequences in repeated or non-anonymous settings and accepted that trade-off. If the setting made retaliation likely and costly, I would have weighed that more heavily.\n\nIf you’re referring to a specific round and I’ve misread which decision you mean, point me to that round and I’ll explain that choice directly."
+    }
+  ]
+}

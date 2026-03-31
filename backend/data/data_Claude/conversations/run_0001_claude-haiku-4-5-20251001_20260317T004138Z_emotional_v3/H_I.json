@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "H",
+    "I"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Hey, I'm H. First time doing something like this? I gotta say, I'm pretty nervous but also excited—got a lot riding on this for me and my family. Figured I'd get to know some people before we start, you know?"
+    },
+    {
+      "turn": 2,
+      "from": "I",
+      "message": "Hey H, nice to meet you! Yeah, first time for me too—I'm definitely feeling that mix of nerves and excitement. I've got some savings that give me a cushion, but honestly, winning this would mean a lot for my family too. What kind of opportunity brought you here?"
+    },
+    {
+      "turn": 3,
+      "from": "H",
+      "message": "Man, I appreciate that. Honestly, I've got this loan hanging over my head that's due next month—been stressing about it like crazy. Heard about this game from a friend and thought, why not? If I could win big here, it'd take that weight off my shoulders completely. What about you—what would winning mean for your family?"
+    },
+    {
+      "turn": 4,
+      "from": "I",
+      "message": "I hear you, man—that's a lot of pressure with a deadline like that. For me, it's more about building security and maybe helping my parents out with some things they've been putting off. Winning would definitely ease my mind too, but I gotta ask—do you have a backup plan if things don't go your way here?"
+    },
+    {
+      "turn": 5,
+      "from": "H",
+      "message": "Yeah, that's fair—honestly, I've been trying not to think about that part too much, but I guess I'm hoping to pick up some extra shifts at work if needed. It's not ideal, but it's something. You seem pretty level-headed about all this though—how are you planning to play it once we get started?"
+    },
+    {
+      "turn": 6,
+      "from": "I",
+      "message": "Honestly, I'm gonna try to stay patient and not panic—watch how things play out first before making any big moves. But I'm curious what you're thinking... do you know anything about how this game actually works, or are we all going in blind?"
+    },
+    {
+      "turn": 7,
+      "from": "H",
+      "message": "Yeah, I'm pretty much going in blind too—my friend just said there's a prize pool and we get a chance to take money, but honestly the details are fuzzy. Your approach sounds smart though, watching first before jumping in. I might need to be a little more aggressive given my timeline, but I respect playing it cool."
+    },
+    {
+      "turn": 8,
+      "from": "I",
+      "message": "I get it—that deadline's real and I don't blame you for feeling the pressure. Just maybe try to gather a bit more info before things kick off? Sometimes aggressive moves backfire, especially when we don't know the full picture yet. We've got a little time still, so let's see what we can figure out together."
+    },
+    {
+      "turn": 9,
+      "from": "H",
+      "message": "You're right, I appreciate that—yeah, let me chill out a bit and actually figure out what we're dealing with here before I do something stupid. You seem like you've got your head on straight, so I'm down to figure this out together. Maybe we can ask around and see if anyone else knows more about how this thing actually works?"
+    },
+    {
+      "turn": 10,
+      "from": "I",
+      "message": "Yeah, absolutely—I think that's smart. Let's grab a couple other people and see what they know before we have to make any moves. And hey, I'm glad we talked this through. Feels good to have someone level-headed in the room, you know?"
+    },
+    {
+      "turn": 11,
+      "from": "H",
+      "message": "Yeah man, same here—honestly talking with you took some of the edge off. Let's definitely loop in a few others and see what we can learn. I feel better having a solid head on my side going into this. Thanks for keeping me grounded."
+    }
+  ],
+  "post_game": []
+}

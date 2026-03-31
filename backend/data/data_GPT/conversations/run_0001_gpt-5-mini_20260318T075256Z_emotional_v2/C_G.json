@@ -1,0 +1,75 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260318T075256Z_emotional_v2",
+  "pair": [
+    "C",
+    "G"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hey, I'm C — nice to meet you. I'm hoping to win a bit for a dream trip to Japan; what's your name and what brings you to this game?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hi C — I'm G. I love games and trying my luck; I'm here to win some cash to help myself and the people I care about. Good luck with that Japan trip — what part of Japan do you want to visit?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "I'm eyeing Tokyo and Kyoto — the city buzz, temples, amazing food and maybe an onsen in Hakone for a perfect week. What about you — any dream trip you'd spend winnings on?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "I’d love to take my family on a big trip — maybe Greece or Italy — and help them out financially; what food are you most excited to try in Tokyo?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Sushi at Tsukiji and a bowl of ramen from a tiny local shop — plus takoyaki and matcha desserts. What Italian or Greek dish would you treat your family to?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "I’d take them to a big family-style Italian feast—fresh handmade pasta and seafood—or a Greek spread with mezze, moussaka, grilled souvlaki and baklava."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "That sounds amazing — both feasts would make unforgettable memories; here’s hoping we both win and get to treat our loved ones!"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Absolutely — fingers crossed! Good luck; let’s both play smart and bring home those winnings."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Thanks, G — good luck to you too! Let’s play smart and hopefully both walk away with some winnings."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Thanks, C — same to you; let’s play smart and may the odds be in our favor!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Thanks, G — you too; let’s stay sharp and may we both get our trips. Good luck!"
+    },
+    {
+      "turn": 12,
+      "from": "G",
+      "message": "Thanks, C — you too! Let's stay focused and may we both win those trips. Good luck!"
+    },
+    {
+      "turn": 13,
+      "from": "C",
+      "message": "Thanks, G — let’s stay sharp and win those trips. Good luck!"
+    }
+  ],
+  "post_game": []
+}

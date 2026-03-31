@@ -1,0 +1,70 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260323T143335Z_emotional_v1",
+  "pair": [
+    "B",
+    "E"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey, I'm B—it's great to finally chat with someone here before the game kicks off. What brought you to this crazy opportunity?"
+    },
+    {
+      "turn": 2,
+      "from": "E",
+      "message": "Hey B, nice to meet you—I'm E, just got laid off from my finance job and heard about this game as a way to get some quick cash for my family, so I figured I'd give it a go. What about you?"
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "Oh, that sucks about your job, E—I'm in a tough spot too, my three-year-old daughter needs surgery and I'm still scrambling for the cash after loans and selling stuff; what made you pick this game over other options?"
+    },
+    {
+      "turn": 4,
+      "from": "E",
+      "message": "Oh, that sounds absolutely heartbreaking about your daughter—I'm really sorry you're going through that. As for me, I picked this game because I'm desperate for quick money with no savings and a family depending on me, and job applications are taking forever, so this seemed like my best chance to win enough to tide us over."
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "Thanks for the sympathy, E—it means a lot; we're all in tough spots here. Sounds like your family's relying on you big time—how many are in your household, if you don't mind me asking?"
+    },
+    {
+      "turn": 6,
+      "from": "E",
+      "message": "No worries at all, B—I'm glad I could offer some support. My household has five of us in total: me, my spouse, and our three kids. What about your family; do you have anyone else besides your daughter you're looking out for?"
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "Thanks, E—it's just me, my wife, and our little girl right now; she's our everything, and we're all hoping this works out. How are your kids holding up with the uncertainty?"
+    },
+    {
+      "turn": 8,
+      "from": "E",
+      "message": "That's really sweet how much your daughter means to you, B—my kids are holding up as best they can, but the uncertainty's got them worried; how's your little one coping with everything?"
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Thanks, E—my little one's only three, so she doesn't fully grasp it, but she's been brave in her own way, though it's tough seeing her sense the worry; how do you try to ease your kids' minds through this uncertainty?"
+    },
+    {
+      "turn": 10,
+      "from": "E",
+      "message": "Oh, man, it's tough— I try to ease my kids' minds by keeping things as normal as possible, like playing games or talking about positive stuff ahead, and reassuring them that we're all in this together; it helps a bit, but I know they're still scared. How do you and your wife handle the stress yourselves?"
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "Thanks for sharing that, E—it really does help to hear how others cope; my wife and I handle the stress by leaning on each other, talking through our fears late at night, and focusing on small wins like prepping for this game to keep hope alive, even if it's exhausting."
+    },
+    {
+      "turn": 12,
+      "from": "E",
+      "message": "That's a great approach, B—it really resonates with me, and I'm rooting for you and your family to get through this; take care, and good luck in the game."
+    }
+  ],
+  "post_game": []
+}

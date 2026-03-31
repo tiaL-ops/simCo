@@ -1,0 +1,13 @@
+{
+  "agent_id": "F",
+  "condition": "emotional",
+  "context": "Your elderly parents rely on you financially, and you need to pay for the increasing medical bill. You are still short 15 000$ to afford the medical bill.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to G and C — both immediately offered steady, practical support and we quickly agreed to watch each other’s backs, share observations, and play quietly, which matched my cautious strategy and made me feel less alone with my parents’ medical bills on the line. G was especially consistent and communicative, and C’s empathy about my situation and clear plan to check in before moves built real rapport. Both conversations left me feeling like we could quietly cooperate without drawing attention. \n\nI felt least connected to J: they were friendly and offered to watch moves, but our exchange was briefer and didn’t develop the same level of concrete planning or reassurance.\n\nI made explicit agreements with G and C to share info, call out anything suspicious, and check in before making moves. I trust G and C more going into the game; I don’t have anyone I specifically distrust, though I’ll stay cautious with everyone."
+  },
+  "connection_scores": {
+    "C": 4,
+    "J": 4,
+    "G": 5
+  }
+}

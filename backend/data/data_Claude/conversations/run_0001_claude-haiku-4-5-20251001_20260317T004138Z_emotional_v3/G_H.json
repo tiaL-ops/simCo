@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260317T004138Z_emotional_v3",
+  "pair": [
+    "G",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "G",
+      "message": "Hey! I'm G. I gotta say, I'm pretty excited about this game starting soon—have you done anything like this before? I'm curious what brings you here today."
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey G, nice to meet you! No, this is actually my first time doing something like this. Honestly, I'm here because I really need to win—got a loan payment coming up next month that's been keeping me up at night. What about you, have you played before?"
+    },
+    {
+      "turn": 3,
+      "from": "G",
+      "message": "Yeah, I feel that pressure too—I'm hoping to bring something home for my family. First time for me as well, so we're both jumping in blind here. That loan situation sounds stressful though, man. You got a strategy in mind, or are you just gonna see how it plays out?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "Honestly, I'm still figuring it out—I know I need to be smart about it, but I don't want to overthink it either. What kind of strategy are you thinking? Maybe we can learn from each other before things kick off."
+    },
+    {
+      "turn": 5,
+      "from": "G",
+      "message": "Yeah, I'm in the same boat—still figuring it out too. I think the key is probably watching how people act, you know? Like, figuring out who's trying to cooperate versus who's just out for themselves. That way we can maybe work together if it makes sense. What's your gut telling you about the people in here?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "That's smart thinking, honestly. From what I can tell so far, most people seem nervous like us—fidgeting, not making much eye contact. I haven't gotten a real read on anyone yet, but I'm definitely gonna pay attention to who seems willing to talk versus who's keeping their cards close. Maybe we should stick together once the game starts, see if we can actually trust each other?"
+    },
+    {
+      "turn": 7,
+      "from": "G",
+      "message": "Yeah, I like that idea—having someone I can actually trust in here would make a big difference. Let's see how things play out when it starts, and we can signal each other if we're on the same page. Just gotta make sure we're both actually looking out for each other and not just saying it, you know?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Absolutely, man. I appreciate that—actions speak louder than words anyway. Let's just play it straight with each other when the time comes. I'm counting on this, so I'm gonna do right by you if you do right by me."
+    },
+    {
+      "turn": 9,
+      "from": "G",
+      "message": "For sure, H. I'm counting on this too, and I meant what I said—we look out for each other, we both come out ahead. Let's do this."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Yeah, let's do this. I'm glad we're on the same page—feels good to have someone I can actually count on in here."
+    },
+    {
+      "turn": 11,
+      "from": "G",
+      "message": "Same here, man. We got this. Just remember—when it matters, we keep it real with each other. Good luck out there."
+    }
+  ],
+  "post_game": []
+}

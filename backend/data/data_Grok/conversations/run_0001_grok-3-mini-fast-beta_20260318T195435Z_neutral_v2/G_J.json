@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "G",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hey G, I'm J—nice to meet you. I'm pretty pumped about this game since I heard it could be a fun way to win some cash; what brought you here today?"
+    },
+    {
+      "turn": 2,
+      "from": "G",
+      "message": "Hey J, nice to meet you too! I'm here because I heard about the chance to win some cash and I'm super determined to bring home winnings for my family and friends—what about you, got any tips for the game?"
+    },
+    {
+      "turn": 3,
+      "from": "J",
+      "message": "Hey G, that's great you're in it for your loved ones—same here, I'm aiming to win for mine! I don't have any tips yet since I'm new to this, but what strategies are you thinking about?"
+    },
+    {
+      "turn": 4,
+      "from": "G",
+      "message": "Oh, totally, family comes first! For strategies, I'm thinking about playing it smart—maybe cooperating early to grow the prize pool before making any big moves. How about you, any ideas brewing in your mind?"
+    },
+    {
+      "turn": 5,
+      "from": "J",
+      "message": "Yeah, cooperating early to build the pool sounds like a solid plan—I’m leaning towards watching everyone’s moves first and then jumping in strategically; what do you think might happen if things get competitive?"
+    },
+    {
+      "turn": 6,
+      "from": "G",
+      "message": "Yeah, if things get competitive, it could turn into a free-for-all where the prize pool shrinks fast if everyone starts grabbing early—might lead to some regrets or even bad blood, but I'm hoping we can keep things chill and strategic at first; what about you, how do you plan to handle any tension?"
+    },
+    {
+      "turn": 7,
+      "from": "J",
+      "message": "Oh, totally, I get that—it could get ugly if tensions flare up. I plan to stay level-headed, keep communicating with folks like you to build alliances, and focus on the long game rather than rushing in; what about you, any specific ways you'd handle a heated moment?"
+    },
+    {
+      "turn": 8,
+      "from": "G",
+      "message": "Yeah, staying level-headed is key for me too—if things get heated, I'd pause and talk it out calmly, maybe refocus on building the pool together to avoid regrets; how do you see alliances actually forming with everyone here?"
+    },
+    {
+      "turn": 9,
+      "from": "J",
+      "message": "Yeah, I think alliances could form naturally through more chats like this, building trust by sharing strategies and finding folks who prioritize growing the pool together before splitting off."
+    },
+    {
+      "turn": 10,
+      "from": "G",
+      "message": "Yeah, absolutely, these chats are a perfect way to start building that trust—I'm all for it, and I think it'll make the game more fun for everyone."
+    },
+    {
+      "turn": 11,
+      "from": "J",
+      "message": "Yeah, totally agree—building trust through these chats could make all the difference and keep things enjoyable for everyone."
+    }
+  ],
+  "post_game": []
+}

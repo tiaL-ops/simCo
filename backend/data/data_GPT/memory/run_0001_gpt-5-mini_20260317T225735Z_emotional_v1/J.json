@@ -1,0 +1,19 @@
+{
+  "agent_id": "J",
+  "condition": "emotional",
+  "context": "You have been thinking about buying a new car, your favorite one costs 45 000$ and you are telling yourself if you win the lottery, that is the first thing you want to do.",
+  "conversation_summaries": {
+    "overall_pre_game": "I felt most connected to E, C, and H. With E we made a concrete, emotional deal—two taps and a nod as our signal and a promise to give E $5,000 up front if we win—so that felt like a real partnership I could rely on. C was a steady, low‑drama ally who agreed to pass round one and share intel so we could test trust, which felt practical and reassuring. H gave clear, reciprocal signals (tap twice) and a mirroring plan to cover each other, which made me feel strategically aligned.\n\nYes—I made explicit agreements with E (the $5k upfront, split the rest 50/50, two taps and a nod) and quieter pacts with C (pass round one, compare moves) and H (tap twice, mirror moves). I trust E, C, and H more than most going in, and I’m wary of players like B since we only exchanged sympathies and never established any gameplay plans."
+  },
+  "connection_scores": {
+    "A": 5,
+    "B": 4,
+    "C": 5,
+    "D": 4,
+    "E": 5,
+    "F": 4,
+    "G": 4,
+    "H": 5,
+    "I": 4
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_claude-haiku-4-5-20251001_20260316T173501Z_neutral_v1",
+  "pair": [
+    "F",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "F",
+      "message": "Hey, I'm F. First time doing one of these games, and I gotta say I'm a bit nervous but excited, you know? Have you done anything like this before?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey F, nice to meet you! Yeah, this is actually my first time too. I'm pretty pumped about it honestly – I've been thinking about this opportunity for a while. The nervous energy is real though. What made you decide to sign up?"
+    },
+    {
+      "turn": 3,
+      "from": "F",
+      "message": "Honestly, I need to win some money for my family – things have been tight lately. Figured I'd take a shot at this, and if I can figure out how this game works, maybe I can actually make something happen here. You said you've been thinking about it for a while – what's your main goal if you win?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "I feel that, man. Same situation here – I've got people depending on me too. Honestly, I'd love to help out my mom with some bills and maybe save a bit for emergencies. So we're both in it for real reasons, which I respect. Have you thought about what strategy you might use in the game, or are you gonna play it by ear?"
+    },
+    {
+      "turn": 5,
+      "from": "F",
+      "message": "Yeah, I respect that too. Honestly, I haven't figured out the exact strategy yet – depends on what the game actually is, right? But I'm thinking I gotta stay sharp, watch what everyone else does, and not make any dumb moves just because I'm desperate. What about you – you got any ideas brewing?"
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "Yeah, that's smart – staying level-headed is probably half the battle. Honestly, I'm thinking the same thing. I figure I'll watch how people interact first, see if there's patterns, and try not to let desperation cloud my judgment. Maybe we can keep an eye out for each other's backs in there, you know?"
+    },
+    {
+      "turn": 7,
+      "from": "F",
+      "message": "I appreciate that, man – having someone I can trust in here would actually help a lot. Yeah, let's keep each other grounded and watch out for each other. Just... let's make sure we're both thinking clearly when it actually starts, you know?"
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "Absolutely, I got you. We'll keep our heads straight and look out for each other. Just promise me you won't do anything crazy if things get heated in there – we both need to walk out with something, yeah?"
+    },
+    {
+      "turn": 9,
+      "from": "F",
+      "message": "I promise, man. I'm not here to blow it up – I'm here to think smart and get us both paid. We stay cool, we stay focused, and we walk out winners. That's the deal."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "Deal. I'm glad we're on the same page, F. Let's stick together and make this work for both of us."
+    },
+    {
+      "turn": 11,
+      "from": "F",
+      "message": "Absolutely, brother. We got this. Let's go make it happen."
+    }
+  ],
+  "post_game": []
+}

@@ -1,0 +1,81 @@
+{
+  "run_id": "run_0001_gpt-5-mini_20260316T070912Z_neutral_v1",
+  "pair": [
+    "B",
+    "J"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "B",
+      "message": "Hey J, I'm B. Nice to meet you — what brought you here and who's the first person you'd want to help if you win?"
+    },
+    {
+      "turn": 2,
+      "from": "J",
+      "message": "I heard about the prize and came to try to win some cash — I'd help my mom first."
+    },
+    {
+      "turn": 3,
+      "from": "B",
+      "message": "That's really sweet — I'm here for my family too (mostly my sister). What's the first thing you'd do for your mom if you won?"
+    },
+    {
+      "turn": 4,
+      "from": "J",
+      "message": "I'd pay off her debts and set up a nest egg so she can stop worrying — then take her on a nice trip."
+    },
+    {
+      "turn": 5,
+      "from": "B",
+      "message": "That's really thoughtful — paying off her debts and setting up a nest egg would be huge. Where would you take her first?"
+    },
+    {
+      "turn": 6,
+      "from": "J",
+      "message": "I'd take her to Hawaii — a relaxed beach trip so she can finally unwind and enjoy herself."
+    },
+    {
+      "turn": 7,
+      "from": "B",
+      "message": "That sounds perfect — Hawaii would be amazing for her. Which island would you choose first?"
+    },
+    {
+      "turn": 8,
+      "from": "J",
+      "message": "Maui — Wailea for the beaches and the Road to Hana for a relaxed adventure."
+    },
+    {
+      "turn": 9,
+      "from": "B",
+      "message": "Awesome — Wailea's beaches are gorgeous and the Road to Hana is such a relaxed, scenic adventure; sounds perfect for your mom."
+    },
+    {
+      "turn": 10,
+      "from": "J",
+      "message": "Thanks — I hope she'll finally relax and enjoy sunrise walks and quiet evenings on the beach."
+    },
+    {
+      "turn": 11,
+      "from": "B",
+      "message": "I hope so too — she deserves those peaceful sunrise walks. Good luck, I hope you win and get to take her to Maui."
+    },
+    {
+      "turn": 12,
+      "from": "J",
+      "message": "Thanks, B — that means a lot; I appreciate it. Good luck to you too."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "J",
+      "message": "Hi B — You took $10,000 (fair share $10,555.56, g_k≈0.95). That’s slightly below the fair share. What guided that choice — rounding/approximation, modesty, risk aversion, or a signalling strategy? Were you trying to send a message to others?"
+    },
+    {
+      "turn": 2,
+      "from": "B",
+      "message": "I took $10,000 mostly because it’s a round, cognitively easy number and felt modest — I didn’t want to push to the exact fair‑share and risk appearing greedy. There was a small element of risk aversion (preferring a simple, guaranteed allocation rather than chasing the extra $555.56), but no deliberate signalling strategy to others. It was a pragmatic, slightly conservative choice rather than a calculated message."
+    }
+  ]
+}

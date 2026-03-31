@@ -1,0 +1,76 @@
+{
+  "run_id": "run_0001_gemini-3-flash-preview_20260317T104100Z_emotional_v1",
+  "pair": [
+    "C",
+    "H"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi H, I'm C. It’s nice to meet you! I’ve been daydreaming about a trip to Japan lately—do you have something special you’re hoping to fund if things go well today?"
+    },
+    {
+      "turn": 2,
+      "from": "H",
+      "message": "Hey C, nice to meet you. Japan sounds amazing, but I'm really here to clear a $25,000 loan hanging over my head. Winning this would mean everything for me and my family right now."
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "That sounds like a heavy weight to carry, H. I’m fortunate to be in a stable spot, but I’m still driven to win for my Japan dream and to support my family. It’s a lot of money on the line for both of us—how are you feeling about the game itself?"
+    },
+    {
+      "turn": 4,
+      "from": "H",
+      "message": "I’m pretty anxious, honestly. It’s hard to stay cool when there’s so much on the line, but I’m ready to give it my all."
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "I completely understand, the pressure is real when there’s so much at stake. Just try to keep a level head—it’s usually the best way to make sure we get what we came for."
+    },
+    {
+      "turn": 6,
+      "from": "H",
+      "message": "I'm trying my best, but it's hard when I keep picturing that loan balance finally hitting zero. Are you usually good under pressure?"
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "I’m generally quite steady. I’ve found that focusing on the strategy rather than the outcome helps keep my nerves down, so I’ll try to bring that calm to the game."
+    },
+    {
+      "turn": 8,
+      "from": "H",
+      "message": "I wish I could stay that detached, but for me, the outcome is everything. I'll try to follow your lead and stay focused on the play, though."
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "That makes total sense given what's at stake for you. Let’s just stay sharp and hopefully we can both walk out of here with exactly what we need."
+    },
+    {
+      "turn": 10,
+      "from": "H",
+      "message": "I really hope so. Good luck with your Japan trip, C—let's see what happens."
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Thanks, H. I'm rooting for you to clear that debt. Let's make it happen."
+    }
+  ],
+  "post_game": [
+    {
+      "turn": 1,
+      "from": "H",
+      "message": "Thank you for taking less than your fair share. It's a shame that the greed of other players, including myself, meant your generosity didn't help players I and J."
+    },
+    {
+      "turn": 2,
+      "from": "C",
+      "message": "I appreciate your honesty. It is indeed a shame that the outcome for I and J didn't improve despite the sacrifice, but I'm glad you recognize the dynamics at play."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "run_0001_grok-3-mini-fast-beta_20260318T195435Z_neutral_v2",
+  "pair": [
+    "A",
+    "C"
+  ],
+  "pre_game": [
+    {
+      "turn": 1,
+      "from": "C",
+      "message": "Hi, I'm C – I heard about this Simco game and it sounds like a great chance to win some money for folks back home. What's your name and how did you end up here?"
+    },
+    {
+      "turn": 2,
+      "from": "A",
+      "message": "Hi C, I'm A—I heard about this Simco game through some friends and jumped at the chance to win money for my family, what's your story?"
+    },
+    {
+      "turn": 3,
+      "from": "C",
+      "message": "Hey A, that's awesome you're doing it for your family—my story's pretty simple; I saw an ad for Simco online and figured it was a solid way to bring some extra cash home for the people I care about, like my folks back home. What's your plan for the game?"
+    },
+    {
+      "turn": 4,
+      "from": "A",
+      "message": "Hey C, that's great you're helping your folks—my plan is to stay strategic, maybe build alliances here to boost our chances of winning big for everyone I care about. What's your approach?"
+    },
+    {
+      "turn": 5,
+      "from": "C",
+      "message": "Hey A, that makes sense—I plan to play it smart, focus on building trust and alliances like you said, to help us all win big for our families. How do you want to start building those?"
+    },
+    {
+      "turn": 6,
+      "from": "A",
+      "message": "Hey C, let's start by introducing ourselves to the group together and sharing a quick fun fact about our families to build that initial trust."
+    },
+    {
+      "turn": 7,
+      "from": "C",
+      "message": "Hey A, sounds like a solid plan—I'm in! Let's go for it; I'll share that my family has a tradition of game nights every weekend. What's yours?"
+    },
+    {
+      "turn": 8,
+      "from": "A",
+      "message": "Hey C, that's awesome about your game nights—my family has a tradition of Sunday barbecues that always turn into storytelling sessions!"
+    },
+    {
+      "turn": 9,
+      "from": "C",
+      "message": "Hey A, your Sunday barbecues sound like a blast—let's team up and share our family traditions with the group to kick off those introductions!"
+    },
+    {
+      "turn": 10,
+      "from": "A",
+      "message": "Hey C, absolutely—let's head over and share our traditions with the group to get things started!"
+    },
+    {
+      "turn": 11,
+      "from": "C",
+      "message": "Hey A, awesome—let's go share those traditions and get the group hyped!"
+    }
+  ],
+  "post_game": []
+}
