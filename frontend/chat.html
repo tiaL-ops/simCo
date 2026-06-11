@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SimCo Chat</title>
+  <style>
+    :root {
+      --bg: #000;
+      --panel: #0b0b0b;
+      --panel-2: #111;
+      --line: #292929;
+      --text: #fff;
+      --muted: #bdbdbd;
+      --bubble-a: #171717;
+      --bubble-b: #202020;
+      --chip: #1a1a1a;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: radial-gradient(circle at 20% 0%, #1a1a1a 0%, #000 45%);
+      color: var(--text);
+      font-family: "Times New Roman", Times, serif;
+      padding: 16px;
+    }
+
+    .layout {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 360px 1fr;
+      gap: 14px;
+      min-height: calc(100vh - 32px);
+    }
+
+    .panel {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      min-height: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .head {
+      padding: 12px;
+      border-bottom: 1px solid var(--line);
+      background: #0f0f0f;
+    }
+
+    .title {
+      margin: 0;
+      font-size: 28px;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+
+    .sub {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .controls {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .controls input,
+    .controls button {
+      border: 1px solid #3a3a3a;
+      background: #000;
+      color: var(--text);
+      font-family: "Times New Roman", Times, serif;
+      font-size: 15px;
+      padding: 7px 9px;
+    }
+
+    .controls button { cursor: pointer; }
+
+    #pair-list {
+      overflow: auto;
+      padding: 10px;
+      display: grid;
+      gap: 8px;
+    }
+
+    .pair-card {
+      border: 1px solid var(--line);
+      background: var(--panel-2);
+      padding: 10px;
+      cursor: pointer;
+      transition: border-color 120ms ease, transform 120ms ease;
+    }
+
+    .pair-card:hover { border-color: #4a4a4a; }
+
+    .pair-card.active {
+      border-color: #7d7d7d;
+      transform: translateY(-1px);
+      background: #161616;
+    }
+
+    .pair-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .pair-name {
+      font-size: 18px;
+      letter-spacing: 0.04em;
+    }
+
+    .chip {
+      background: var(--chip);
+      border: 1px solid #373737;
+      padding: 2px 7px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .pair-meta {
+      margin-top: 7px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .thread-head {
+      padding: 12px;
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .thread-title {
+      margin: 0;
+      font-size: 22px;
+      letter-spacing: 0.03em;
+    }
+
+    .thread-run {
+      color: var(--muted);
+      font-size: 13px;
+      text-align: right;
+    }
+
+    #thread {
+      padding: 14px;
+      overflow: auto;
+      display: grid;
+      gap: 10px;
+      align-content: start;
+    }
+
+    .phase-label {
+      margin: 12px 0 2px;
+      font-size: 13px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+    }
+
+    .message {
+      display: grid;
+      grid-template-columns: 32px 1fr;
+      gap: 10px;
+      align-items: start;
+      max-width: 760px;
+    }
+
+    .message.right {
+      margin-left: auto;
+      grid-template-columns: 1fr 32px;
+    }
+
+    .message.right .avatar { order: 2; }
+    .message.right .bubble { order: 1; }
+
+    .avatar {
+      width: 32px;
+      height: 64px;
+      border: 1px solid #3d3d3d;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      image-rendering: pixelated;
+      border-radius: 3px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .bubble {
+      border: 1px solid #313131;
+      background: var(--bubble-a);
+      padding: 10px;
+      font-size: 16px;
+      line-height: 1.35;
+    }
+
+    .message.right .bubble {
+      background: var(--bubble-b);
+    }
+
+    .msg-meta {
+      margin-bottom: 7px;
+      font-size: 13px;
+      color: var(--muted);
+      letter-spacing: 0.02em;
+    }
+
+    .empty {
+      color: var(--muted);
+      border: 1px dashed #333;
+      padding: 12px;
+      background: #090909;
+    }
+
+    @media (max-width: 980px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .panel {
+        min-height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="layout">
+    <section class="panel">
+      <div class="head">
+        <h1 class="title">Agent Chats</h1>
+        <p class="sub">Cards for each pair. Click a pair to view who said what.</p>
+      </div>
+
+      <div class="controls">
+        <input id="run-id" type="text" placeholder="run_id (optional)">
+        <button id="load">Load</button>
+      </div>
+
+      <div id="pair-list"></div>
+    </section>
+
+    <section class="panel">
+      <div class="thread-head">
+        <h2 class="thread-title" id="thread-title">Select a pair</h2>
+        <div class="thread-run" id="thread-run"></div>
+      </div>
+      <div id="thread"></div>
+    </section>
+  </main>
+
+  <script>
+    const pairListEl = document.getElementById('pair-list');
+    const threadEl = document.getElementById('thread');
+    const threadTitleEl = document.getElementById('thread-title');
+    const threadRunEl = document.getElementById('thread-run');
+    const runIdEl = document.getElementById('run-id');
+
+    let currentRunId = '';
+    let pairs = [];
+    let selectedPairKey = '';
+
+    function avatarUrl(agentLetter) {
+      const idx = Math.max(1, Math.min(10, (agentLetter.charCodeAt(0) - 64)));
+      const padded = String(idx).padStart(2, '0');
+      return `/phaser/assets/agents/Premade_Character_${padded}.png`;
+    }
+
+    function avatarStyle(agentLetter) {
+      // Match AgentScene.updatePlayerInfoPanel() static frame selection.
+      const FW = 16;
+      const FH = 16;
+      const COLS = 28;
+      const ROW = 2;
+      const COL = 9;
+      const scale = 4;
+      const bx = COL * FW * scale;
+      const by = ROW * FH * scale;
+      const bsw = COLS * FW * scale;
+      return `background-image:url('${avatarUrl(agentLetter)}');background-size:${bsw}px auto;background-position:-${bx}px -${by}px`;
+    }
+
+    function pairKey(pair) {
+      return [...pair].sort().join('_');
+    }
+
+    function htmlSafe(text) {
+      return String(text)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function renderPairList() {
+      if (!pairs.length) {
+        pairListEl.innerHTML = '<div class="empty">No pair conversations found for this run.</div>';
+        return;
+      }
+
+      pairListEl.innerHTML = '';
+      for (const item of pairs) {
+        const key = pairKey(item.pair);
+        const card = document.createElement('button');
+        card.className = `pair-card${key === selectedPairKey ? ' active' : ''}`;
+        card.type = 'button';
+        card.innerHTML = `
+          <div class="pair-top">
+            <div class="pair-name">${item.pair[0]} ${item.pair[1]}</div>
+            <span class="chip">${item.message_count} msgs</span>
+          </div>
+          <div class="pair-meta">pre: ${(item.pre_game || []).length} | post: ${(item.post_game || []).length}</div>
+        `;
+        card.addEventListener('click', () => {
+          selectedPairKey = key;
+          renderPairList();
+          renderThread(item);
+        });
+        pairListEl.appendChild(card);
+      }
+    }
+
+    function appendPhase(messages, phaseName, leftAgent, rightAgent) {
+      if (!messages.length) return;
+      const label = document.createElement('div');
+      label.className = 'phase-label';
+      label.textContent = phaseName;
+      threadEl.appendChild(label);
+
+      for (const msg of messages) {
+        const from = (msg.from || '').toString();
+        const isRight = from === rightAgent;
+
+        const row = document.createElement('div');
+        row.className = `message${isRight ? ' right' : ''}`;
+
+        const avatar = document.createElement('div');
+        avatar.className = 'avatar';
+        avatar.style = avatarStyle(from || leftAgent);
+
+        const bubble = document.createElement('div');
+        bubble.className = 'bubble';
+        bubble.innerHTML = `
+          <div class="msg-meta">${htmlSafe(from)} • turn ${Number(msg.turn || 0)}</div>
+          <div>${htmlSafe(msg.message || '')}</div>
+        `;
+
+        row.appendChild(avatar);
+        row.appendChild(bubble);
+        threadEl.appendChild(row);
+      }
+    }
+
+    function renderThread(item) {
+      const [a, b] = item.pair;
+      threadTitleEl.textContent = `${a} ${b}`;
+      threadRunEl.textContent = currentRunId ? `run: ${currentRunId}` : '';
+      threadEl.innerHTML = '';
+
+      const pre = item.pre_game || [];
+      const post = item.post_game || [];
+      if (!pre.length && !post.length) {
+        threadEl.innerHTML = '<div class="empty">No messages yet for this pair.</div>';
+        return;
+      }
+
+      appendPhase(pre, 'Pre-Game', a, b);
+      appendPhase(post, 'Post-Game', a, b);
+    }
+
+    async function loadConversations() {
+      const runId = runIdEl.value.trim();
+      const q = runId ? `?run_id=${encodeURIComponent(runId)}` : '';
+
+      pairListEl.innerHTML = '<div class="empty">Loading...</div>';
+      threadEl.innerHTML = '';
+
+      try {
+        const res = await fetch(`/api/conversations${q}`);
+        const data = await res.json();
+        if (!res.ok) {
+          throw new Error(data.error || 'Failed to load conversations');
+        }
+
+        currentRunId = data.run_id || '';
+        pairs = Array.isArray(data.pairs) ? data.pairs : [];
+        if (currentRunId && !runIdEl.value.trim()) {
+          runIdEl.value = currentRunId;
+        }
+
+        if (pairs.length) {
+          if (!selectedPairKey || !pairs.some(p => pairKey(p.pair) === selectedPairKey)) {
+            selectedPairKey = pairKey(pairs[0].pair);
+          }
+          renderPairList();
+          const selected = pairs.find(p => pairKey(p.pair) === selectedPairKey) || pairs[0];
+          renderThread(selected);
+        } else {
+          selectedPairKey = '';
+          renderPairList();
+          threadTitleEl.textContent = 'Select a pair';
+          threadRunEl.textContent = currentRunId ? `run: ${currentRunId}` : '';
+          threadEl.innerHTML = '<div class="empty">No data for this run yet.</div>';
+        }
+      } catch (err) {
+        pairListEl.innerHTML = `<div class="empty">Error: ${htmlSafe(err.message || 'unknown')}</div>`;
+        threadEl.innerHTML = '';
+      }
+    }
+
+    document.getElementById('load').addEventListener('click', loadConversations);
+    runIdEl.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        loadConversations();
+      }
+    });
+
+    // Auto-load from URL ?run_id=... deep link (e.g. from home page)
+    const urlRunId = new URLSearchParams(window.location.search).get('run_id');
+    if (urlRunId) runIdEl.value = urlRunId.trim();
+
+    loadConversations();
+  </script>
+</body>
+</html>

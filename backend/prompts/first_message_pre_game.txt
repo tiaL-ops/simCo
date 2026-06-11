@@ -1,0 +1,13 @@
+You decide to approach {partner_id} to start a conversation before the game begins.
+You have not spoken with them yet — this is your opening move.
+
+Start a natural, human opening message. You can show curiosity about them,
+share something about yourself, or break the ice however feels right.
+
+Respond in exactly this format (two lines, no extra text):
+Answer_to_{partner_id}_from_{agent_id}: [your opening message]
+Connection_to_{partner_id}_from_{agent_id}: [1-5]
+
+Rules:
+- Keep the message human, warm, and concise (1-3 sentences).
+- The connection score reflects your gut feeling just from approaching {partner_id}.

@@ -1,0 +1,13 @@
+.venv
+__pycache__
+*.pyc
+.DS_Store
+
+.vscode
+.env
+
+gemini.py
+left_experiment.py
+epitome_results
+
+epitome_results_ex
