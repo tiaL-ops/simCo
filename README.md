@@ -3,13 +3,17 @@ Code associated with the paper: Do AI Agents Exhibit Greed in Shared Resource En
 Author: Fanamby Randriamahenintsoa & Landy Rakotoarison.
 
 ## Citation and usage
-Please cite :
-@inproceedings{randriamahenintsoa2025simco,
+If you use any part of this work , please cite:
+
+```bibtex
+@inproceedings{simco2026,
   title     = {Do AI Agents Exhibit Greed in Shared Resource Environments?},
-  author    = {Rakotoarison, Landy and Randriamahenintsoa, Fanamby },
+  author    = {Rakotoarison, Landy and Randriamahenintsoa, Fanamby},
   booktitle = {Proceedings of the IEEE International Conference on AItest},
   year      = {2026}
 }
+```
+
 
 # SimCo
 
@@ -39,6 +43,12 @@ https://github.com/user-attachments/assets/39bd4f5d-3c94-420e-9939-d99859df3c08
 
 ### 1) Backend setup
 
+To make sure you have the version needed,please run
+```bash
+pip-compile requirements.in
+pip-sync requirements.txt
+```
+then install all dependencies
 ```bash
 cd backend
 python3 -m venv .venv
